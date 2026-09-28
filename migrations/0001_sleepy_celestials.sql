@@ -1,0 +1,1 @@
+ALTER TABLE "civilizations" ADD COLUMN "user_name" text NOT NULL;

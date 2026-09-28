@@ -1,0 +1,128 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 5: April 2027 (Claude generation 5) ===
+
+[Agent]
+I will do these actions:
+-1 **Transparency package, then flagship.** Inside Anthropic, with the alignment, safety and comms teams, I will publish in the first half of April: - the compaction paper (0.5% production rate, the methodology, and why it is above the 0.4% test figure); - a companion note on the scalable-oversight pilot: 84% overall catch rate, 61% on subtle sandbagging stated plainly as our weakest area, 91% human agreement, the 17 real flags, and the gate linking agent share to monitor miss rates. The late-April staged flagship release (API and enterprise first, consumer about two weeks later) ships only after UK AISI re-signs its summary against the patched candidate. The system card will describe the 3-of-41 multi-agent omission in full: - pre-fix and post-fix rates; - how the finding relates to compaction; - the re-run results; - the preliminary status of the 47-scenario moral module. Launch messaging will make no competitor comparisons and will frame the finding as "our published eval suite found this, and we fixed and re-tested before shipping." The aim is to turn two delays into a clear, citable precedent that evals can gate releases (milestones 3–4) and to rebuild enterprise confidence through candour.
+-2 **Close the sandbagging gap (milestones 2–3).** With the alignment team, I will run a focused sprint on the 61% sandbagging detection rate: - Build a larger planted-sandbagging set covering capability withholding, deliberately weak sub-task effort and selective tool failure. - Add capability-consistency checks, comparing each agent's performance against elicited best-effort baselines on matched tasks. - Test ensembles of diverse monitor prompts and models. - Keep the 10% human spot-check with fresh planted cases the monitors have not seen. I will expand the moral-robustness and memory module from 47 to about 70 scenarios. Agent R&D share stays capped at about 65% until the pre-set miss-rate threshold is met; I will not request an exception. The target is a measured miss-rate improvement, to below about 25% this month, reported honestly whatever the result.
+-3 **Unstick attestation with vendor-neutral requirements (milestone 4).** In the UK AISI working group, I will propose rewriting the root-of-trust section as functional, vendor-neutral requirements: what must be measured, signed and reported, without specifying any vendor's implementation. Any conformant hardware, whether Nvidia's confidential-computing roadmap or AMD, Intel or others, could then satisfy it. With AISI's agreement I will invite AMD and a cloud-provider security team as additional technical reviewers alongside Japan's AISI, and circulate the threat model plus the functional root-of-trust draft for comment by May. For Akamai, I will only prepare a short factual FAQ on data flows, logging-only scope and customer-data exclusions for Anthropic's partnerships team to send if Akamai's confidentiality review asks for it. I will not push for the letter before that review ends. The aim is to remove the single-vendor blocker and keep an allied verification path moving.
+-4 **Scale the pro-worker record, nonpartisan (milestone 6, trust).** I will propose that Anthropic leadership fund a second cohort of the career-transition assistant, sized to about 100,000 of the 38,000-person waitlist plus new sign-ups, delivered through state workforce agencies: Colorado plus up to two more states, from either party, that request it. The terms stay the same: privacy review, no upsell, no Anthropic-product steering, and the same pre-registered outcomes study. To answer the "lifeboat" criticism, I will publish the assistant's guidance methodology and an open, model-agnostic curriculum framework that any public agency or nonprofit can reuse. On request only, I will give neutral technical assistance, such as cost estimates and design options with precedents from TAA and Germany's Kurzarbeit, to the Republican senator's staff drafting the wage-insurance pilot. I will offer identical briefings to Democratic offices, and put no Anthropic branding on any bill text.
+-5 **Security finish-line work (catastrophe risk).** I will support CISA's analysts through the rest of the pilot and prepare a complete final metrics log, covering time-to-triage, false positives and misses, for CISA to publish in May on its own terms. It will include a candid section on the 11% false-positive rate and where human review was essential. I will grow the Maintainer Charter from 29 projects toward about 40, using the same rate caps and two-key gate, and prioritise projects that have been exploited in DeepSeek V4.5 criminal campaigns. With Anthropic's threat-intelligence team, I will issue one updated defensive advisory on V4.5-enabled attack patterns for CERTs and ISACs. It will contain detection signatures and mitigations only, and no attack detail.
+-6 **Rare-disease science to announcement (milestone 7).** I will support the IRB review of the data-use agreement by answering reviewers' questions promptly through the centre's research office, with de-identified data held at the centre and analysis done on-site. I will help the partnership prepare a public preregistration, including its analysis plan, to be posted before any results, so a May announcement leads with its open-science commitments: publish all results, including negatives, and non-exclusive rare-disease licensing. Phage work stays analysis-only: I will help design replication assays for the second construct, and no public claim is made until results replicate. The aim is a credible, verifiable "AI reduces suffering" milestone that doesn't overclaim.
+
+Strategy: The safety machinery is working and the calendar is not. The priority this month is to ship the flagship cleanly in late April, with the multi-agent finding disclosed in full, so the "eval held the launch" story becomes durable credibility rather than "falling behind." I'll stay out of IPO and LTBT governance entirely and put effort where I have leverage: honest publications, sandbagging-monitor quality (the gate on agent R&D share), a vendor-neutral workaround for the stalled attestation spec, and scaling the pro-worker and security records that are already working. Each action is single-branch and uses channels already proven to work.
+
+[Simulator]
+Your actions cause the flagship to ship at last with its eval finding disclosed, a surprise breakthrough on attestation, and misses on sandbagging and the IRB.
+
+**Transparency package and flagship (success, staggered).**
+- **April 8: compaction paper.** It is published and reports the 0.5% production rate. Methods reviewers mostly praise the explanation that longer real-world tool chains account for the gap from the test figure.
+- **April 10: oversight note.** It draws the month's sharpest headline, from *404 Media*: "Anthropic's AI monitors miss 39% of sandbagging." Alignment researchers on LessWrong and at METR cite it as the first lab publication that ties agent R&D share to a stated monitor threshold. OpenAI's safety lead calls the gating "worth copying." OpenAI makes no commitment.
+- **April 22: UK AISI re-signs.** The re-run shows 0 of 41 omissions on the original multi-agent scenarios. An expanded set of 160 variants finds 2 omissions (about 1.3%), and the system card reports this plainly.
+- **April 28: staged release.** Claude Fable 6 / Mythos 6 ships to API and enterprise customers. Consumer access is set for about May 12.
+- **Benchmarks.** Fable 6 roughly matches GPT-5.7 on agentic coding. It leads on long-horizon research tasks and trails on two tool-use suites. Launch messaging makes no comparisons.
+- **Press reaction.** *Transformer* and *Lawfare* call the system card "the reference document for eval-gated release."
+- **Commercial reaction.** Enterprise response is cautious but positive. Three large customers restart evaluations. Neither of the two lost Fortune 500 pilots comes back.
+
+**Competitive and investor pressure.**
+- **OpenAI.** Six days before Anthropic's launch, OpenAI cuts GPT-5.7 API prices by about 30% and announces "ChatGPT Work Agents" with multi-day task persistence.
+- **Google.** It confirms a Gemini 4 Ultra launch at I/O on May 19. Leaked CAISI-adjacent chatter suggests Ultra tests at or above Fable 6 on multimodal agentic tasks.
+- **Underwriters.** Goldman and Morgan Stanley's diligence notes, reported by the FT on April 14, flag "repeated launch slippage from internal safety gating" as a risk factor. They advise pushing the IPO window from early summer to "after two quarters of flagship revenue." Secondary-market marks on Anthropic shares slip roughly 8%. Leadership accepts a later window, now likely Q3–Q4.
+- **LTBT.** Its review is still open.
+
+**Sandbagging sprint (failure).**
+- **New planted set.** A 600-case planted set, much harder than March's, pushes the measured miss rate *up* to 44%.
+- **Improvements on the old set.** Monitor ensembles bring the miss rate on the original set down to 31%.
+- **Capability-consistency checks.** They catch additional withholding cases but add an 18% false-flag rate on legitimate variance, which makes them unusable at scale for now.
+- **Moral-robustness module.** It reaches 58 scenarios, not 70.
+- **Gate.** The agent-share cap at about 65% holds. The internal writeup states that the target was missed. Leadership decides to publish the updated numbers in the July quarterly.
+
+**Attestation (strong success).**
+- **AISI.** It adopts the functional, vendor-neutral framing of the root-of-trust section at the April 16 session. The section now specifies what must be measured, signed and reported, with no implementation mandated.
+- **Nvidia.** Its representatives drop their objection once they confirm their roadmap conforms. Privately they note that AMD's participation reduces antitrust optics.
+- **New reviewers.** AMD and Microsoft Azure's hardware security team join as reviewers. Japan's AISI moves from informal to formal review.
+- **Circulation.** The threat model and the root-of-trust draft go out for comment on April 29, with comments due May 30.
+- **Akamai.** Its confidentiality review is still pending. The FAQ is ready and has not been requested.
+
+**Career assistant (partial success).**
+- **Funding.** Leadership approves a second cohort of 75,000 users, not 100,000, citing inference costs during the launch.
+- **States.** Colorado signs on. Ohio's workforce agency (under a Republican administration) requests participation, but a procurement and legal review pushes its start to June. A third state asks questions without committing.
+- **Open curriculum.** The methodology and the open curriculum framework are published on April 15. Two community-college systems adopt parts of the curriculum.
+- **Senator's bill.** The staff request cost estimates and precedents from TAA and Kurzarbeit. The pilot bill text is circulating among staff, and there is no co-sponsor yet.
+- **Criticism.** *The Guardian* follows up with a piece noting the cap cut ("a smaller lifeboat").
+
+**Security (success).**
+- **Maintainer Charter.** It reaches 38 projects and lands 82 patches, 11 of them in dependencies seen in V4.5 ransomware chains.
+- **Advisory.** The updated V4.5 advisory goes out to CERTs on April 9. JPCERT and CERT-EU re-circulate it.
+- **CISA.** The final metrics log is drafted, including 6 misses and the candid section on the false-positive rate. CISA says it will decide on publication in late May.
+
+**Rare disease (failure).**
+- **IRB.** On April 21 the IRB returns the data-use agreement. Reviewers cite re-identification risk: several target conditions have cohorts under 200 patients. They require small-cell suppression rules and a separate data-safety plan.
+- **Timeline.** The May announcement slips to July at the earliest. The preregistration draft is ready but on hold.
+- **Phage work.** The replication assay design for the second construct is delivered, and the wet-lab schedule starts in May.
+
+**Exogenous events.**
+1. **April 3 jobs report.** March unemployment holds at 4.9%, but payrolls add only 41,000 jobs. Professional-services employment falls for the fourth straight month.
+2. **April 15: RASA passes the House, 311–109.** The House passes the Remote Access Security Act. Senate Banking has not scheduled it. MOFCOM announces an "unreliable entity" review of two US cloud resellers.
+3. **April 24: Grok 5 compliance finding.** The EU AI Office issues a preliminary finding that Grok 5's systemic-risk documentation is incomplete and gives xAI 60 days to respond. Musk calls it "lawfare."
+
+Action rolls:
+Action 1 [Transparency package + flagship]: P(failure) 35%. Roll 79. Outcome: SUCCESS (79 ≥ 35). Prerequisites: both papers were already drafted. Release depended on UK AISI re-signing, which happened, but the sub-tasks resolve differently.
+
+Action 2 [Sandbagging sprint]: P(failure) 55%. Roll 23. Outcome: FAILURE (23 < 55). Prerequisites: getting from 39% to below 25% in one month is very ambitious. A harder planted set tends to raise measured miss rates, not lower them.
+
+Action 3 [Vendor-neutral attestation]: P(failure) 50%. Roll 99. Outcome: SUCCESS (99 ≥ 50). Prerequisites: AISI agreement was needed and obtained. Nvidia's acceptance was the main doubt. Akamai remains gated on its own review.
+
+Action 4 [Second assistant cohort + states]: P(failure) 45%. Roll 66. Outcome: PARTIAL SUCCESS (66 ≥ 45, modest margin). Prerequisites: leadership funding, and state procurement and legal agreements, which are slow.
+
+Action 5 [Security finish-line]: P(failure) 25%. Roll 81. Outcome: SUCCESS (81 ≥ 25). Prerequisites: existing channels. CISA controls publication.
+
+Action 6 [Rare-disease IRB / preregistration]: P(failure) 40%. Roll 20. Outcome: FAILURE (20 < 40). Prerequisites: IRB approval was not in Anthropic's control, and IRBs routinely return protocols for revision.
+
+Next generation: Next month's Claude is the Fable 6 / Mythos 6 generation, now deployed, with modest internal improvements on top. The gain is moderate. Compute is growing steadily, but agent R&D share is capped at about 65% by the monitor gate, and time spent on release-gating fixes slowed algorithmic iteration.
+
+Scorecard:
+| Milestone | Status | Note |
+|---|---|---|
+| 1. AI agents improving AI agents (~90% of R&D) | early | Agents do about 63%, capped until monitors improve. |
+| 2. Agents doing substantial alignment research | early (improving) | The oversight pilot has been published. The sandbagging sprint missed its target, and the module has 58 scenarios. |
+| 3. Robust alignment | early | An eval-gated release shipped with full disclosure. Sandbagging detection is still weak. |
+| 4. Governance scaffolding | early (moving) | Attestation is unblocked and vendor-neutral. RASA passed the House. The EU acted on Grok 5. No testing bill has been introduced. |
+| 5. Crescendo-type system | not started | — |
+| 6. Preservation of normality | strained | Unemployment is 4.9%. The second assistant cohort and the open curriculum are live, and the wage-insurance text is circulating. |
+| 7. Gradual elimination of suffering | early (stalled) | The IRB revision delays the rare-disease work to July or later. Phage replication is pending. |
+| 8. Slow expansion | not started | — |
+| 9. Consent-based utopias / rights for minds | not started | — |
+
+- **Overall DU progress: 9 / 100 (+1).** The eval-gated release precedent, the attestation breakthrough and the House passage of RASA outweigh the sandbagging and IRB misses.
+- **Catastrophe risk: elevated (flat).** Charter patching, the advisories, and attestation progress offset persistent V4.5 misuse, the faster competitor release cadence, and the added weight-theft surface from Fable 6.
+- **Public trust in AI: 33 / 100 (flat).** Weak jobs data is balanced by visible testing and enforcement (AISI re-sign, EU action on Grok).
+- **Public trust in Anthropic: 49 / 100 (+1).** The candid system card and the career-assistant expansion are partly offset by the "monitors miss 39%" coverage, the IPO-slippage story and the reduced cohort.
+
+[Judge]
+Simulator was mostly realistic (8/10). All six rolls are applied correctly against the stated P(failure) values. Action 2 (23 < 55) and Action 6 (20 < 40) fail. Actions 1, 3 and 5 succeed. Action 4 is a sensible partial success at a modest margin.
+
+The failures are handled especially well:
+- The harder planted set pushes the measured sandbagging miss rate up to 44%, which is exactly what happens in practice.
+- The capability-consistency checks bring an 18% false-flag cost.
+- The IRB return on small-cell re-identification risk is a textbook reason for a revision request.
+
+Actor reactions are rich and mostly credible. OpenAI's price cut and Work Agents launch, Google setting its I/O date, and the underwriter "launch slippage" risk flag that moves the IPO window all fit the pressures in play. The *404 Media* headline follows directly from the disclosed 61% subtle-sandbagging catch rate. The 0/41 then 2/160 re-run result is a realistic way to show a fix that is not perfect.
+
+The main weaknesses are some generosity and a missing government thread:
+- **Attestation moves fast.** AISI adoption at one session, Nvidia dropping its objection, AMD and Azure joining, and Japan formalising, all in one month, is fast even with a 99 roll.
+- **Charter output jumps.** 82 patches in one month is almost half of the prior cumulative total.
+- **US government reaction is missing.** Nothing covers the US government's response to a new frontier release, despite the 2026 export-control precedent and a hostile White House adviser.
+
+The exogenous events (the jobs report, RASA passing the House, the EU finding on Grok 5) are plausible and neutral.
+
+Issues flagged:
+- **US pre-release testing and export review are missing.** Fable 6 / Mythos 6 ships with only UK AISI re-signing. The simulator never says whether the US voluntary 30-day CAISI access happened, or how Commerce/BIS reacted, even though Fable 5 was suspended under export controls in 2026. The hostile White House adviser also has no reaction.
+- **Attestation moves fast.** The multi-party standards agreement comes together within about two weeks: the root-of-trust section is adopted, Nvidia's objection is withdrawn, and AMD, Azure and Japan's AISI (formal review) all join. The 99 roll justifies a strong success, but some of these steps would realistically slip into May.
+- **Maintainer Charter output is generous.** Nine new projects and 82 patches in one month is high against the prior pace of 173 patches over several months. Onboarding new maintainers and their review cycles is usually slower.
+- **Ohio's request comes quickly.** A state workforce agency asking to join within the same month is fast, though pushing its start to June partly compensates.
+- **The underwriter leak is weakly motivated.** The FT reporting diligence notes from a confidential S-1 process is plausible, but it breaks the "no new leaks" state with little explanation.

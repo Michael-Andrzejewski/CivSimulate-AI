@@ -1,0 +1,18 @@
+world-terrain.bin — attribution & license
+==========================================
+
+This file is the "world" map terrain data from OpenFront
+(https://github.com/openfrontio/OpenFrontIO), repackaged here unchanged
+(2000x1000, 1 byte per tile: land/shoreline/ocean flags + 5-bit elevation).
+
+  Map data © OpenFront contributors
+  Licensed under Creative Commons Attribution-ShareAlike 4.0 International
+  (CC BY-SA 4.0): https://creativecommons.org/licenses/by-sa/4.0/
+
+Under CC BY-SA 4.0 this map data, and any adapted map data derived from it,
+must keep this attribution and remain licensed under CC BY-SA 4.0 (or a
+compatible license). The OpenFront elevation is itself derived from public-
+domain NASA SRTM Plus data.
+
+The map SANDBOX application code in this repository is the project's own and is
+NOT covered by this CC BY-SA notice — only this terrain data file is.

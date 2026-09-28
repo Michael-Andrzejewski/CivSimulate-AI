@@ -1,0 +1,67 @@
+import Anthropic from "@anthropic-ai/sdk";
+import { resolveBackend, type LlmBackend } from "../llm/backend";
+import { claudeCliComplete } from "../llm/claudeCli";
+
+export const OPUS_5_5 = "claude-opus-5-5";
+
+export interface CallOptions {
+  backend: LlmBackend;
+  model: string;
+  system: string;
+  prompt: string;
+  maxTokens?: number;
+  effort?: string;
+}
+
+let _client: Anthropic | null = null;
+function client(): Anthropic {
+  if (!_client) {
+    if (!process.env.ANTHROPIC_API_KEY) {
+      throw new Error("API backend selected but ANTHROPIC_API_KEY is not set. Use --backend subscription to run on your Claude subscription.");
+    }
+    _client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+  }
+  return _client;
+}
+
+export async function callModel(opts: CallOptions): Promise<string> {
+  if (opts.backend === "subscription") {
+    const r = await claudeCliComplete({
+      model: opts.model,
+      system: opts.system,
+      prompt: opts.prompt,
+      effort: opts.effort,
+    });
+    return r.text;
+  }
+  const res = await client().messages.create({
+    model: opts.model,
+    max_tokens: opts.maxTokens ?? 16000,
+    system: opts.system,
+    messages: [{ role: "user", content: opts.prompt }],
+  });
+  const text = res.content
+    .filter((b) => b.type === "text")
+    .map((b) => (b.type === "text" ? b.text : ""))
+    .join("")
+    .trim();
+  if (!text) throw new Error(`Empty reply from ${opts.model} (stop_reason=${res.stop_reason})`);
+  return text;
+}
+
+/** Retries transient failures (timeouts, overloads) a couple of times. */
+export async function callModelWithRetry(opts: CallOptions, label: string, attempts = 3): Promise<string> {
+  let lastErr: unknown;
+  for (let i = 1; i <= attempts; i++) {
+    try {
+      return await callModel(opts);
+    } catch (err) {
+      lastErr = err;
+      console.warn(`[${label}] attempt ${i}/${attempts} failed: ${(err as Error).message}`);
+      if (i < attempts) await new Promise((r) => setTimeout(r, 5000 * i));
+    }
+  }
+  throw lastErr;
+}
+
+export { resolveBackend };

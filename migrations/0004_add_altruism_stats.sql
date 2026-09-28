@@ -1,0 +1,1 @@
+ALTER TABLE "civilizations" ADD COLUMN "altruism_stats" boolean DEFAULT false NOT NULL;

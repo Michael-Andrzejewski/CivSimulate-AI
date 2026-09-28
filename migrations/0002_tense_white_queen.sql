@@ -1,0 +1,1 @@
+ALTER TABLE "messages" ADD COLUMN "random_number" text;

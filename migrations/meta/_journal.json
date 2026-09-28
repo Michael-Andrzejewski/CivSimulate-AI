@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1759897457504,
+      "tag": "0000_low_sugar_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1759940715268,
+      "tag": "0001_sleepy_celestials",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1759942925251,
+      "tag": "0002_tense_white_queen",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1760306576238,
+      "tag": "0003_tiny_vargas",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1760858071101,
+      "tag": "0004_icy_crusher_hogan",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1761062500000,
+      "tag": "0009_convert_ids_to_uuid",
+      "breakpoints": true
+    }
+  ]
+}

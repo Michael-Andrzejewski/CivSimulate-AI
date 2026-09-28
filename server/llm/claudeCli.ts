@@ -31,19 +31,34 @@ export interface CliCompletionResult {
 
 const DEFAULT_TIMEOUT_MS = 20 * 60 * 1000;
 
-// Env vars that would make the child CLI think it is a nested session of
-// whatever Claude Code process launched this server (session reuse, remote
-// messaging sockets). The child should be a clean, standalone headless run.
-const STRIPPED_ENV_PREFIXES = ["CLAUDE_CODE_SESSION", "CLAUDE_CODE_REMOTE_SESSION", "CLAUDE_CODE_MESSAGING"];
+// When this runs inside a Claude Code session (e.g. the desktop app), that
+// session's env leaks into the child: session ids, messaging sockets, host
+// auth flags and an ANTHROPIC_BASE_URL proxy. The child then tries the host's
+// auth instead of the CLI's own login and fails with "OAuth access token has
+// been revoked". The child should be a clean, standalone headless run, as if
+// started from a plain terminal.
+const KEPT_CLAUDE_VARS = new Set(["CLAUDE_CONFIG_DIR"]);
 
 function childEnv(): NodeJS.ProcessEnv {
   const env = { ...process.env };
+  const insideClaudeCode = Boolean(process.env.CLAUDECODE || process.env.CLAUDE_CODE_ENTRYPOINT);
   for (const key of Object.keys(env)) {
-    if (STRIPPED_ENV_PREFIXES.some((p) => key.startsWith(p))) delete env[key];
+    if (key.startsWith("CLAUDE") && !KEPT_CLAUDE_VARS.has(key)) delete env[key];
   }
+  if (insideClaudeCode) delete env.ANTHROPIC_BASE_URL;
   // Never let a stray API key silently switch the CLI to API billing.
   if (process.env.CLAUDE_CLI_KEEP_API_KEY !== "1") delete env.ANTHROPIC_API_KEY;
   return env;
+}
+
+/**
+ * An old npm-installed `claude` can shadow the native install on PATH, and new
+ * models refuse old CLIs. Prefer the native installer's binary when present.
+ */
+function findClaudeCli(): string {
+  if (process.env.CLAUDE_CLI_PATH) return process.env.CLAUDE_CLI_PATH;
+  const native = path.join(os.homedir(), ".local", "bin", process.platform === "win32" ? "claude.exe" : "claude");
+  return fs.existsSync(native) ? native : "claude";
 }
 
 export async function claudeCliComplete(opts: CliCompletionOptions): Promise<CliCompletionResult> {
@@ -67,7 +82,7 @@ export async function claudeCliComplete(opts: CliCompletionOptions): Promise<Cli
   }
   if (opts.effort) args.push("--effort", opts.effort);
 
-  const cliPath = process.env.CLAUDE_CLI_PATH || "claude";
+  const cliPath = findClaudeCli();
   const timeoutMs = opts.timeoutMs ?? DEFAULT_TIMEOUT_MS;
 
   // Windows installs `claude` as a .cmd shim, which needs a shell. The shell

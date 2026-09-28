@@ -1,6 +1,7 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { resolveBackend, type LlmBackend } from "../llm/backend";
 import { claudeCliComplete } from "../llm/claudeCli";
+import { codexCliComplete } from "../llm/codexCli";
 
 export const OPUS_5_5 = "claude-opus-5-5";
 
@@ -24,7 +25,21 @@ function client(): Anthropic {
   return _client;
 }
 
+/** OpenAI models (e.g. gpt-6-astra) always go through the local Codex CLI, whatever the backend. */
+export function isCodexModel(model: string): boolean {
+  return model.startsWith("gpt-");
+}
+
 export async function callModel(opts: CallOptions): Promise<string> {
+  if (isCodexModel(opts.model)) {
+    const r = await codexCliComplete({
+      model: opts.model,
+      system: opts.system,
+      prompt: opts.prompt,
+      effort: opts.effort,
+    });
+    return r.text;
+  }
   if (opts.backend === "subscription") {
     const r = await claudeCliComplete({
       model: opts.model,

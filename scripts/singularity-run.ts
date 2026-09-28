@@ -9,6 +9,9 @@
  * Options: --months N, --backend api|subscription|auto, --run <id>,
  *          --model <id> (all three roles), --agent-model, --simulator-model,
  *          --judge-model, --effort low|medium|high|max
+ *
+ * Any role can use an OpenAI model through the local Codex CLI by giving a gpt-* model id:
+ *   npm run utopia -- --months 6 --backend subscription --simulator-model gpt-6-astra
  */
 import fs from "fs";
 import path from "path";

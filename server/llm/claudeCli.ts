@@ -70,14 +70,21 @@ export async function claudeCliComplete(opts: CliCompletionOptions): Promise<Cli
   const cliPath = process.env.CLAUDE_CLI_PATH || "claude";
   const timeoutMs = opts.timeoutMs ?? DEFAULT_TIMEOUT_MS;
 
+  // Windows installs `claude` as a .cmd shim, which needs a shell. The shell
+  // joins args with spaces, so empty values (e.g. `--tools ""`) vanish and the
+  // next flag gets read as their value; quote them explicitly.
+  const useShell = process.platform === "win32" && !cliPath.toLowerCase().endsWith(".exe");
+  const spawnArgs = useShell
+    ? args.map((a) => (a === "" || /[\s"&|<>^]/.test(a) ? `"${a.replace(/"/g, '\\"')}"` : a))
+    : args;
+
   try {
     const { stdout, stderr, code } = await new Promise<{ stdout: string; stderr: string; code: number | null }>(
       (resolve, reject) => {
-        const child = spawn(cliPath, args, {
+        const child = spawn(cliPath, spawnArgs, {
           cwd: workDir,
           env: childEnv(),
-          // Windows installs `claude` as a .cmd shim, which needs a shell.
-          shell: process.platform === "win32",
+          shell: useShell,
         });
         let stdout = "";
         let stderr = "";

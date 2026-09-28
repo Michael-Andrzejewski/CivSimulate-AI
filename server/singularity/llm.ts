@@ -12,6 +12,8 @@ export interface CallOptions {
   prompt: string;
   maxTokens?: number;
   effort?: string;
+  /** Let the model search the web (Claude CLI: WebSearch/WebFetch; Codex: --search; API: server web search). */
+  webSearch?: boolean;
 }
 
 let _client: Anthropic | null = null;
@@ -37,6 +39,7 @@ export async function callModel(opts: CallOptions): Promise<string> {
       system: opts.system,
       prompt: opts.prompt,
       effort: opts.effort,
+      webSearch: opts.webSearch,
     });
     return r.text;
   }
@@ -46,15 +49,26 @@ export async function callModel(opts: CallOptions): Promise<string> {
       system: opts.system,
       prompt: opts.prompt,
       effort: opts.effort,
+      webSearch: opts.webSearch,
     });
     return r.text;
   }
-  const res = await client().messages.create({
+  // SDK 0.37 predates the server web search tool, so its types don't know it;
+  // the request body is sent as-is, hence the casts.
+  const tools = opts.webSearch ? ([{ type: "web_search_20260209", name: "web_search", max_uses: 10 }] as any) : undefined;
+  const messages: any[] = [{ role: "user", content: opts.prompt }];
+  let res = await client().messages.create({
     model: opts.model,
     max_tokens: opts.maxTokens ?? 16000,
     system: opts.system,
-    messages: [{ role: "user", content: opts.prompt }],
+    messages,
+    ...(tools ? { tools } : {}),
   });
+  // A long server-tool loop can pause; resend its content to let it continue.
+  for (let i = 0; i < 5 && (res.stop_reason as string) === "pause_turn"; i++) {
+    messages.push({ role: "assistant", content: res.content });
+    res = await client().messages.create({ model: opts.model, max_tokens: opts.maxTokens ?? 16000, system: opts.system, messages, tools });
+  }
   const text = res.content
     .filter((b) => b.type === "text")
     .map((b) => (b.type === "text" ? b.text : ""))

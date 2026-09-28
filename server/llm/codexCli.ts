@@ -23,6 +23,8 @@ export interface CodexCompletionOptions {
   timeoutMs?: number;
   /** Claude-style effort ("low" | "medium" | "high" | "max"); mapped to Codex reasoning effort. */
   effort?: string;
+  /** Turn on Codex's live web search tool. Off by default. */
+  webSearch?: boolean;
 }
 
 const DEFAULT_TIMEOUT_MS = 30 * 60 * 1000;
@@ -65,6 +67,8 @@ export async function codexCliComplete(opts: CodexCompletionOptions): Promise<{ 
   const workDir = fs.mkdtempSync(path.join(os.tmpdir(), "civsim-codex-"));
   const outFile = path.join(workDir, "reply.txt");
   const args = [
+    // --search is a top-level flag, so it goes before the subcommand.
+    ...(opts.webSearch ? ["--search"] : []),
     "exec",
     "--model", opts.model,
     "--sandbox", "read-only",

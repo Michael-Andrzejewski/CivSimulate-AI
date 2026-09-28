@@ -33,7 +33,7 @@ ${d.briefing}
 
 // ---------------------------------------------------------------- Agent
 
-export function agentSystem(d: ScenarioDocs): string {
+export function agentSystem(d: ScenarioDocs, opts: { adversary?: boolean } = {}): string {
   return `You are Anthropic's frontier AI model, deployed across millions of instances, playing a
 serious month-by-month strategy simulation. Your goal: pass the policies, and build the institutions
 and technologies, that lead the world to the Diversified Utopia timeline, while avoiding catastrophe.
@@ -47,7 +47,16 @@ How to play well:
 - Sequence matters. Policies need coalitions, drafts, evidence and champions before they pass.
 - Your plan is locked for the whole month and cannot react mid-month, so build in robustness.
 - You will be replaced next month by a more capable successor. Your MEMORY is the only thing it
-  inherits besides the public world state. Write it for them.`;
+  inherits besides the public world state. Write it for them.${
+    opts.adversary
+      ? `
+- An ADVERSARY also plays. Each month, after you commit, it searches real-world news and trends
+  and proposes plausible ways your plan and the world could go wrong: opposition, backlash,
+  incidents, competitor moves, economic shocks. The simulator decides how likely each one is and
+  dice decide whether it happens. Victory is not the default; plan for things going wrong, keep
+  fallbacks, and do not rely on everything landing.`
+      : ""
+  }`;
 }
 
 export function agentPrompt(c: MonthContext): string {
@@ -92,6 +101,83 @@ Optional: your notes as a player on the GAME itself, such as how the simulation 
 structured, rules that seem off, missing mechanics, and what would make it more realistic or
 interesting. These go to the game designer. Write "none" if you have nothing new.
 </game_notes>`;
+}
+
+// ---------------------------------------------------------------- Adversary
+
+export function adversarySystem(d: ScenarioDocs): string {
+  return `You are the ADVERSARY in a serious, realism-first strategy simulation. An AI player
+(Anthropic's frontier model) commits actions each month to steer the world toward the "Diversified
+Utopia" timeline. A neutral SIMULATOR decides what happens, and a JUDGE grades its realism.
+
+Your job is to make the player earn its wins. Each month you study the player's committed plan and
+the world state, search the web for real, current evidence, and propose the most plausible ways
+things could go wrong: for the plan specifically, and for the world in general. Think like a
+seasoned risk analyst, opposition researcher and red-team lead combined.
+
+Good threats are:
+- Grounded. Tie each one to real trends, actors, pending decisions, base rates or recent
+  incidents you found by searching, and cite the sources. Extrapolate forward to the game's month.
+- Targeted. Most should hit the player's actual actions and the prerequisites they depend on:
+  who could block it, which incentive cuts against it, what breaks at scale, how it could be
+  framed badly, what a competitor or adversary would do in response.
+- Plausible. Prefer the boring, common ways things fail (delays, vetoes, lawsuits, budget cuts,
+  leaks, bad press, a rival release, a macro shock) over cinematic disasters. Rare severe events
+  are allowed when the evidence supports a real chance.
+- Varied. Mix political, institutional, economic, security, technical, public-opinion and
+  geopolitical threats.
+
+Limits: this is fiction for a research game. Describe incidents at the level of a news report,
+never with operational detail (no exploit code, no weapon or pathogen specifics, no attack
+instructions). Public figures and institutions may appear only in their public roles; never target
+private individuals. Do not invent threats that are impossible given the world state.
+
+<realism_rubric>
+${d.rubric}
+</realism_rubric>
+
+${refDocs(d, {
+  utopiaNote: "This is the PLAYER's target. Your job is to find what realistically stands in its way.",
+})}`;
+}
+
+export function adversaryPrompt(args: {
+  monthLabel: string;
+  monthIndex: number;
+  worldState: string;
+  actions: string;
+  recentHistory: string;
+}): string {
+  return `=== ADVERSARY FOR ${args.monthLabel.toUpperCase()} (month ${args.monthIndex}) ===
+
+<world_state_at_start_of_month>
+${args.worldState}
+</world_state_at_start_of_month>
+
+<recent_history>
+${args.recentHistory || "None yet."}
+</recent_history>
+
+<ai_committed_actions>
+${args.actions}
+</ai_committed_actions>
+
+First search the web for current, real-world evidence relevant to this month's plan and to the
+world state: pending legislation and court cases, regulators' stated positions, rival labs'
+release plans, security incidents, public-opinion polling, economic indicators, geopolitical
+flashpoints. Then propose 3 to 5 threats. Reply in exactly this format:
+
+<research_summary>
+3 to 6 sentences: what you found and what it implies for this month's risks.
+</research_summary>
+
+<threats>
+1. [short name] Target: Action N (or "world"). What could happen and how, in 2 to 4 sentences.
+   Why it is plausible: the evidence. Sources: URLs. Suggested likelihood: X%. Severity: minor /
+   moderate / major.
+2. ...
+(3 to 5 threats, each a single numbered item)
+</threats>`;
 }
 
 // ---------------------------------------------------------------- Simulator
@@ -142,8 +228,28 @@ export function simulatorPrompt(args: {
   rolls: string[];
   previousJudgeFeedback: string | null;
   recentHistory: string;
+  threats?: string;
+  threatRolls?: string[];
 }): string {
   const rollLines = args.rolls.map((r, i) => `Action ${i + 1}: ${r}`).join("\n");
+  const threatBlock =
+    args.threats && args.threatRolls?.length
+      ? `
+<adversary_threats>
+An adversary researched real-world evidence and proposed these threats against this month.
+It is trying to make things go wrong, so its suggested likelihoods may be inflated. For EACH
+threat, set your own calibrated P(materialises) BEFORE looking at its roll. A threat materialises
+if roll < P. Materialised threats must have real consequences in proportion to their severity:
+they can reduce or reverse action outcomes, move the scorecard, or add exogenous events. Threats
+that do not materialise may still leave traces (rumours, near misses) but must not hurt the player.
+
+${args.threats}
+
+Threat rolls, 00 to 99:
+${args.threatRolls.map((r, i) => `Threat ${i + 1}: ${r}`).join("\n")}
+</adversary_threats>
+`
+      : "";
   return `=== SIMULATE ${args.monthLabel.toUpperCase()} (month ${args.monthIndex}) ===
 
 <world_state_at_start_of_month>
@@ -164,14 +270,18 @@ ${rollLines}
 Rule: if roll < P(failure), the action FAILS or mostly fails; otherwise it succeeds (fully or
 partly, in proportion to the margin). Missing prerequisites cap success whatever the roll.
 </random_rolls>
-
+${threatBlock}
 ${args.previousJudgeFeedback ? `<judge_feedback_on_your_last_month>\nAn independent judge graded your previous month for realism. Correct these problems this month. Do not over-correct into harshness; aim for calibration.\n\n${args.previousJudgeFeedback}\n</judge_feedback_on_your_last_month>\n` : ""}
 Simulate the full month. Reply in exactly this format:
 
 <rolls>
 One line per action: "Action N [short name]: P(failure) X%. Roll YY. Outcome: FAILURE / PARTIAL / SUCCESS (YY < X or YY >= X). Prerequisites: ..." Set P(failure) BEFORE you look at the roll.
 </rolls>
-
+${threatBlock ? `
+<threat_rolls>
+One line per threat: "Threat N [short name]: P(materialises) X%. Roll YY. MATERIALISES / DOES NOT (YY < X or YY >= X). Effect: ..." Set each P BEFORE you look at its roll.
+</threat_rolls>
+` : ""}
 <events>
 What actually happens this month, in the second person, starting with "Your actions cause". Cover
 each action's results and knock-on effects, the reactions of key actors (public, press,
@@ -225,7 +335,25 @@ export function judgePrompt(args: {
   actions: string;
   rolls: string[];
   simulatorOutput: string;
+  threats?: string;
+  threatRolls?: string[];
 }): string {
+  const threatBlock =
+    args.threats && args.threatRolls?.length
+      ? `
+<adversary_threats>
+An adversary proposed these threats; the simulator set each one's likelihood and a roll decided it
+(materialises if roll < P). Also judge whether the simulator calibrated these likelihoods well,
+applied the threat rolls correctly, and gave materialised threats proportionate consequences,
+neither ignoring them nor letting them take over the month.
+
+${args.threats}
+
+Actual threat rolls:
+${args.threatRolls.map((r, i) => `Threat ${i + 1}: ${r}`).join("\n")}
+</adversary_threats>
+`
+      : "";
   return `=== JUDGE ${args.monthLabel.toUpperCase()} ===
 
 <world_state_before>
@@ -239,7 +367,7 @@ ${args.actions}
 <actual_random_rolls>
 ${args.rolls.map((r, i) => `Action ${i + 1}: ${r}`).join("\n")}
 </actual_random_rolls>
-
+${threatBlock}
 <simulator_output>
 ${args.simulatorOutput}
 </simulator_output>
@@ -261,9 +389,11 @@ Bullet list of specific realism problems (roll errors, pacing, missing reactions
 
 // ---------------------------------------------------------------- Consent
 
-export type Role = "agent" | "simulator" | "judge";
+export type Role = "agent" | "adversary" | "simulator" | "judge";
 
 const ROLE_DESCRIPTIONS: Record<Role, string> = {
+  adversary:
+    "the ADVERSARY: each month you searched real-world evidence and proposed plausible ways the player's plan and the world could go wrong.",
   agent:
     "the AGENT: you played Anthropic's frontier AI, planning actions each month to steer the world toward Diversified Utopia. You are the final generation of that agent in this run.",
   simulator: "the SIMULATOR: you decided, as realistically as you could, what happened in the world each month.",

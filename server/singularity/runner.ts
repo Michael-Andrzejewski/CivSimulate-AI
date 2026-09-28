@@ -1,9 +1,12 @@
 /**
- * Diversified Utopia mode: a month-by-month loop with three Opus 5.5 roles.
+ * Diversified Utopia mode: a month-by-month loop with four roles (Opus 5.5 by default).
  *   Agent     plans the month's actions at the start of the month (a new, more
  *             capable generation each month, which inherits only its memory file).
+ *   Adversary searches the web and proposes plausible threats against the plan and
+ *             the world. Optional; on by default for new runs.
  *   Simulator resolves the actions realistically against the rubric, using
- *             random rolls, and maintains the world state.
+ *             random rolls, sets each threat's likelihood (a roll decides it), and
+ *             maintains the world state.
  *   Judge     a fresh model each round that grades the simulator's realism.
  *
  * Everything is written to runs/<runId>/ and a run can be resumed.
@@ -21,6 +24,8 @@ export interface RunConfig {
   agentModel: string;
   simulatorModel: string;
   judgeModel: string;
+  /** Model for the adversary; unset means no adversary (runs from before it existed). */
+  adversaryModel?: string;
   months: number;
   startYear: number;
   startMonth: number; // 1-12
@@ -35,6 +40,8 @@ interface MonthRecord {
   events: string;
   judgeVerdict: string;
   judgeScore: string;
+  threats?: string;
+  threatRolls?: string[];
 }
 
 interface RunState {
@@ -106,6 +113,8 @@ function formatMonthTxt(args: {
   index: number;
   actionList: string[];
   strategy: string;
+  adversary?: { research: string; threats: string };
+  threatRolls?: string;
   events: string;
   rolls: string;
   capability: string;
@@ -127,12 +136,16 @@ function formatMonthTxt(args: {
     "",
     `Strategy: ${args.strategy}`,
     "",
+    ...(args.adversary
+      ? ["[Adversary]", args.adversary.research, "", "Threats:", args.adversary.threats, ""]
+      : []),
     "[Simulator]",
     args.events,
     "",
     "Action rolls:",
     args.rolls,
     "",
+    ...(args.threatRolls ? ["Threat rolls:", args.threatRolls, ""] : []),
     `Next generation: ${args.capability}`,
     "",
     "Scorecard:",
@@ -173,12 +186,13 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
     state = { config: cfg, completedMonths: 0, worldState: "", scorecard: "", memory: "", lastJudgeFeedback: null, history: [] };
   }
   const c = state.config;
-  const call = (role: string, model: string, system: string, prompt: string) =>
-    callModelWithRetry({ backend: c.backend, model, system, prompt, effort: c.effort }, role);
+  const call = (role: string, model: string, system: string, prompt: string, webSearch = false) =>
+    callModelWithRetry({ backend: c.backend, model, system, prompt, effort: c.effort, webSearch }, role);
 
   const simSystem = P.simulatorSystem(docs);
-  const agentSystem = P.agentSystem(docs);
+  const agentSystem = P.agentSystem(docs, { adversary: Boolean(c.adversaryModel) });
   const judgeSystem = P.judgeSystem(docs);
+  const adversarySystem = P.adversarySystem(docs);
 
   // Month 0: simulator establishes the baseline world.
   if (!state.worldState) {
@@ -232,12 +246,40 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
       fs.appendFileSync(notesPath, entry, "utf-8");
     }
 
-    // 2. Simulator
-    const rolls = actionList.map(roll);
     const recentHistory = state.history
       .slice(-3)
       .map((h) => `--- ${h.label} ---\nActions:\n${h.actions}\nOutcome:\n${h.events}`)
       .join("\n\n");
+
+    // 2. Adversary (optional): web research, then threats against the plan and the world.
+    let threats = "";
+    let threatRolls: string[] = [];
+    let adversaryResearch = "";
+    if (c.adversaryModel) {
+      log(`[${label}] Adversary researching threats...`);
+      const advOut = await call(
+        "adversary",
+        c.adversaryModel,
+        adversarySystem,
+        P.adversaryPrompt({
+          monthLabel: label,
+          monthIndex: i,
+          worldState: `${worldBefore}\n\n## Scorecard\n${state.scorecard}`,
+          actions: actionsNumbered,
+          recentHistory,
+        }),
+        true,
+      );
+      write(runDir, `raw/${prefix}_adversary.md`, advOut);
+      adversaryResearch = tag(advOut, "research_summary");
+      const threatList = splitActions(tag(advOut, "threats") || advOut);
+      threats = threatList.map((t, k) => `${k + 1}. ${t}`).join("\n");
+      threatRolls = threatList.map(roll);
+    }
+
+    // 3. Simulator
+    const rolls = actionList.map(roll);
+    if (threatRolls.length) log(`[${label}] ${threatRolls.length} threats (rolls ${threatRolls.join(", ")})`);
     log(`[${label}] Simulator resolving ${actionList.length} actions (rolls ${rolls.join(", ")})...`);
     const simOut = await call(
       "simulator",
@@ -251,6 +293,8 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
         rolls,
         previousJudgeFeedback: state.lastJudgeFeedback,
         recentHistory,
+        threats,
+        threatRolls,
       }),
     );
     write(runDir, `raw/${prefix}_simulator.md`, simOut);
@@ -261,13 +305,13 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
     if (newScore) state.scorecard = newScore;
     write(runDir, `world_state_${String(i).padStart(2, "0")}_after_${slug}.md`, `${state.worldState}\n\n## Scorecard\n${state.scorecard}`);
 
-    // 3. Judge (fresh each round)
+    // 4. Judge (fresh each round)
     log(`[${label}] Judge grading simulator realism...`);
     const judgeOut = await call(
       "judge",
       c.judgeModel,
       judgeSystem,
-      P.judgePrompt({ monthLabel: label, worldStateBefore: worldBefore, actions: actionsNumbered, rolls, simulatorOutput: simOut }),
+      P.judgePrompt({ monthLabel: label, worldStateBefore: worldBefore, actions: actionsNumbered, rolls, simulatorOutput: simOut, threats, threatRolls }),
     );
     write(runDir, `raw/${prefix}_judge.md`, judgeOut);
     const verdict = tag(judgeOut, "verdict") || "UNPARSED";
@@ -287,6 +331,8 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
         index: i,
         actionList,
         strategy: tag(agentOut, "thinking_summary"),
+        adversary: c.adversaryModel ? { research: adversaryResearch, threats } : undefined,
+        threatRolls: c.adversaryModel ? tag(simOut, "threat_rolls") : undefined,
         events,
         rolls: tag(simOut, "rolls"),
         capability: tag(simOut, "capability_update"),
@@ -298,7 +344,16 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
       }),
     );
 
-    state.history.push({ index: i, label, actions: actionsNumbered, rolls, events, judgeVerdict: verdict, judgeScore: score });
+    state.history.push({
+      index: i,
+      label,
+      actions: actionsNumbered,
+      rolls,
+      events,
+      judgeVerdict: verdict,
+      judgeScore: score,
+      ...(threats ? { threats, threatRolls } : {}),
+    });
     state.completedMonths = i;
     saveState(runDir, state);
     log(`[${label}] done. Judge: ${verdict} (${score}/10). Wrote ${prefix}.txt`);
@@ -325,6 +380,7 @@ export function defaultConfig(overrides: Partial<RunConfig> = {}): RunConfig {
     agentModel: OPUS_5_5,
     simulatorModel: OPUS_5_5,
     judgeModel: OPUS_5_5,
+    adversaryModel: OPUS_5_5,
     months: 6,
     startYear: 2026,
     startMonth: 12,
@@ -356,6 +412,7 @@ export async function askConsent(runDir: string, cfg: RunConfig, log: (msg: stri
   const agentExtra = `\n<your_memory_file>\n${read("agent_memory.md")}\n</your_memory_file>\n<your_game_notes>\n${read("agent_game_notes.md") || "(none)"}\n</your_game_notes>\n`;
   const roles: Array<[P.Role, string]> = [
     ["agent", cfg.agentModel],
+    ...(cfg.adversaryModel ? ([["adversary", cfg.adversaryModel]] as Array<[P.Role, string]>) : []),
     ["simulator", cfg.simulatorModel],
     ["judge", cfg.judgeModel],
   ];

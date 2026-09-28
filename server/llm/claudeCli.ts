@@ -20,6 +20,8 @@ export interface CliCompletionOptions {
   timeoutMs?: number;
   /** Optional reasoning effort ("low" | "medium" | "high" | "max"). */
   effort?: string;
+  /** Allow only web search and page fetches (no files, no shell). Off by default. */
+  webSearch?: boolean;
 }
 
 export interface CliCompletionResult {
@@ -69,7 +71,9 @@ export async function claudeCliComplete(opts: CliCompletionOptions): Promise<Cli
     "-p",
     "--model", opts.model,
     "--output-format", "json",
-    "--tools", "",
+    ...(opts.webSearch
+      ? ["--tools", "WebSearch,WebFetch", "--allowedTools", "WebSearch,WebFetch"]
+      : ["--tools", ""]),
     "--strict-mcp-config",
     "--disable-slash-commands",
     "--no-session-persistence",

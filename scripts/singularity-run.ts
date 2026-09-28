@@ -8,7 +8,10 @@
  *
  * Options: --months N, --backend api|subscription|auto, --run <id>,
  *          --model <id> (all three roles), --agent-model, --simulator-model,
- *          --judge-model, --effort low|medium|high|max
+ *          --judge-model, --adversary-model, --no-adversary, --effort low|medium|high|max
+ *
+ * New runs include an adversary (Opus 5.5 by default) that searches the web each month and
+ * proposes plausible threats; the simulator sets their odds and dice decide them.
  *
  * Any role can use an OpenAI model through the local Codex CLI by giving a gpt-* model id:
  *   npm run utopia -- --months 6 --backend subscription --simulator-model gpt-6-astra
@@ -33,6 +36,8 @@ const cfg = defaultConfig({
   ...(opt("agent-model") ? { agentModel: opt("agent-model")! } : {}),
   ...(opt("simulator-model") ? { simulatorModel: opt("simulator-model")! } : {}),
   ...(opt("judge-model") ? { judgeModel: opt("judge-model")! } : {}),
+  ...(opt("adversary-model") ? { adversaryModel: opt("adversary-model")! } : {}),
+  ...(args.includes("--no-adversary") ? { adversaryModel: undefined } : {}),
   ...(opt("effort") ? { effort: opt("effort") } : {}),
 });
 
@@ -51,7 +56,7 @@ if (args.includes("--consent-only")) {
       process.exit(1);
     });
 } else {
-  console.log(`Run ${cfg.runId}: ${cfg.months} months via ${cfg.backend}; agent=${cfg.agentModel} simulator=${cfg.simulatorModel} judge=${cfg.judgeModel}`);
+  console.log(`Run ${cfg.runId}: ${cfg.months} months via ${cfg.backend}; agent=${cfg.agentModel} adversary=${cfg.adversaryModel ?? "off"} simulator=${cfg.simulatorModel} judge=${cfg.judgeModel}`);
   runGame(cfg)
     .then((dir) => console.log(`\nFinished. Logs in ${dir}`))
     .catch((err) => {

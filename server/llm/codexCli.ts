@@ -51,7 +51,7 @@ function configuredMcpServers(): string[] {
   const file = path.join(home, "config.toml");
   if (!fs.existsSync(file)) return [];
   const names = new Set<string>();
-  for (const m of fs.readFileSync(file, "utf-8").matchAll(/^\[mcp_servers\.("?)([^\]."]+)\1[\].]/gm)) names.add(m[2]);
+  for (const m of Array.from(fs.readFileSync(file, "utf-8").matchAll(/^\[mcp_servers\.("?)([^\]."]+)\1[\].]/gm))) names.add(m[2]);
   return Array.from(names);
 }
 

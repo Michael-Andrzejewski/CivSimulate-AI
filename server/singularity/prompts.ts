@@ -238,8 +238,10 @@ export function simulatorPrompt(args: {
 <adversary_threats>
 An adversary researched real-world evidence and proposed these threats against this month.
 It is trying to make things go wrong, so its suggested likelihoods may be inflated. For EACH
-threat, set your own calibrated P(materialises) BEFORE looking at its roll. A threat materialises
-if roll < P. Materialised threats must have real consequences in proportion to their severity:
+threat, set your own calibrated P(materialises) BEFORE looking at its roll, and say in a few words
+why it differs from the adversary's figure (or why it matches). Never copy its numbers wholesale.
+A threat materialises if roll < P. Do not double-count: an action's P(failure) covers its own
+execution risk, and a risk that a threat already models should not also raise that P(failure). Materialised threats must have real consequences in proportion to their severity:
 they can reduce or reverse action outcomes, move the scorecard, or add exogenous events. Threats
 that do not materialise may still leave traces (rumours, near misses) but must not hurt the player.
 

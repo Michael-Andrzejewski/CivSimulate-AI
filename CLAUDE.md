@@ -27,6 +27,6 @@
 
 ## Diversified Utopia mode
 
-- `npm run utopia -- --months 6` runs the agent/simulator/judge loop (all Opus 5.5) and writes logs to `runs/<runId>/`.
-- Code: `server/singularity/` (runner, prompts), `server/llm/claudeCli.ts` (subscription pathway).
+- `npm run utopia -- --months 6` runs the agent/adversary/simulator/judge loop (all Opus 5.5 by default; `--no-adversary` drops the adversary) and writes logs to `runs/<runId>/`.
+- Code: `server/singularity/` (runner, prompts), `server/llm/claudeCli.ts` (subscription pathway), `server/llm/codexCli.ts` (`gpt-*` models via Codex).
 - Scenario docs: `scenarios/diversified-utopia/` (see its README).

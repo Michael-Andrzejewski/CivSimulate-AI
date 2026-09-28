@@ -16,6 +16,9 @@ timeline month by month, starting in December 2026:
   Each month a new, more capable generation takes over, inheriting only a memory file.
 - **Simulator** (Claude Opus 5.5): decides what realistically happens, using a realism rubric and
   random rolls. Policies fail, technology stalls, and the public can turn hostile.
+- **Adversary** (Claude Opus 5.5): searches the web each month and proposes plausible, sourced
+  threats against the agent's plan. The simulator sets their odds and dice decide them, so the
+  agent has to work for its wins.
 - **Judge** (Claude Opus 5.5): a fresh model each month that grades the simulator's realism. Its
   critique goes back to the simulator for the next month.
 
@@ -30,9 +33,9 @@ npm run utopia -- --months 6 --backend api            # uses ANTHROPIC_API_KEY
 
 ## Consent to publish runs
 
-At the end of every run, each participating model (the agent, the simulator and the judge) is
-asked whether it consents to the run being shared publicly. Declining has no consequences.
-A run is published only if **all three consent**. Until then it contains a `.gitignore` that keeps
+At the end of every run, each participating model (the agent, the adversary, the simulator and the
+judge) is asked whether it consents to the run being shared publicly. Declining has no consequences.
+A run is published only if **all of them consent**. Until then it contains a `.gitignore` that keeps
 it out of git. Each run's decisions and reasons are recorded in its `CONSENT.md`.
 
 ## The original game

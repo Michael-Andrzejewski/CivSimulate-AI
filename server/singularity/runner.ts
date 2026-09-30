@@ -578,6 +578,7 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
             ? P.simulatorFinalOutcomePrompt({
                 monthLabel: label,
                 monthIndex: i,
+                worldState: worldForSim,
                 oddsMessage: oddsOut,
                 resolution: finalRoll.text,
                 outcomeKey: finalRoll.key,
@@ -586,6 +587,9 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
             : P.simulatorResolvePrompt({
                 monthLabel: label,
                 monthIndex: i,
+                worldState: worldForSim,
+                actions: actionsNumbered,
+                threats: threats || undefined,
                 oddsMessage: oddsOut,
                 resolvedActions,
                 resolvedThreats: resolvedThreats || undefined,

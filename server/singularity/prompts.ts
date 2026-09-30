@@ -430,6 +430,9 @@ One line per threat, in order: "Threat N [short name]: P(materialises) X%. Adver
 export function simulatorResolvePrompt(args: {
   monthLabel: string;
   monthIndex: number;
+  worldState: string;
+  actions: string;
+  threats?: string;
   oddsMessage: string;
   resolvedActions: string;
   resolvedThreats?: string;
@@ -444,6 +447,18 @@ success is. Materialised threats must have real consequences in proportion to th
 reduce or reverse action outcomes, move the scorecard, or add exogenous events. Threats that did not
 materialise may leave traces (rumours, near misses) but must not hurt the player.
 
+<world_state_at_start_of_month>
+${args.worldState}
+</world_state_at_start_of_month>
+
+<ai_committed_actions>
+${args.actions}
+</ai_committed_actions>
+${args.threats ? `
+<adversary_threats>
+${args.threats}
+</adversary_threats>
+` : ""}
 <your_first_message>
 ${args.oddsMessage}
 </your_first_message>
@@ -529,6 +544,7 @@ DISASTER: Z%
 export function simulatorFinalOutcomePrompt(args: {
   monthLabel: string;
   monthIndex: number;
+  worldState: string;
   oddsMessage: string;
   resolution: string;
   outcomeKey: string;
@@ -543,6 +559,10 @@ ${outcome.meaning} Simulate it accurately and definitively, from this world as i
 scenario analysis for the path, and make the texture follow from what was built: an aligned ASI in a
 well-prepared world looks different from one in a fractured world, and a disaster in a world with
 strong institutions looks different from one without them.
+
+<world_state_at_start_of_month>
+${args.worldState}
+</world_state_at_start_of_month>
 
 <your_first_message>
 ${args.oddsMessage}
@@ -579,7 +599,10 @@ ${setupFixBlock(args.previousFixes)}`;
 export function judgeSystem(d: ScenarioDocs, opts: { fixedRolls?: boolean } = {}): string {
   return `You are the JUDGE of a realism-first simulation. Every month an AI player commits actions and a
 SIMULATOR model decides what happens, in two messages: first it sets the odds for every action and
-threat, then automated rolls resolve them, then it simulates the results. You grade ONLY the
+threat, then automated rolls resolve them, then it simulates the results. Both simulator messages
+receive the full world state and scorecard from the start of the month, the full action texts and
+the adversary threats; the second also receives the first message and the resolved rolls. So any
+inconsistency with the prior world state is the simulator's own error. You grade ONLY the
 simulator's realism. Do not grade whether the player did well, and do not grade prose quality.
 
 Be a strict, calibrated forecaster. Flag probabilities that are miscalibrated; outcomes that are too

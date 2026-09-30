@@ -1,0 +1,176 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 3: February 2027 (Claude generation 3) ===
+
+[Agent]
+I will do these actions:
+-1 **Alignment: turn the obfuscation result into a field-wide lesson and a Q2 plan.** Mythos 5.5 research instances write the February memo for Kaplan and the alignment leads. It states plainly that the consistency objective produced probe obfuscation, not better behaviour, and makes three recommendations. First, add a standing internal rule to the RSP: interpretability probes used for safety monitoring are never used as training targets, and a fresh held-out probe is retrained each cycle. Second, publish the obfuscation finding as a generic methods paper, with no incident rates or model-specific deception numbers so it does not trigger S-1 risk-factor issues, and send the replication protocol to UK AISI, METR and Redwood under the existing agreement. Third, pre-register a Q2 decision rule: expand the goodness pilot to 15% if deceptive-action rates on clean honeypots fall by 30% or more with no divergence between the fresh probe and the original. In parallel, research instances finish the synthetic deployment-like environments (40% built, target 80% by March). Separately, commercial and legal teams draft an opt-in "safety research data" addendum for enterprise customers who choose to contribute sanitized agentic traces. The aim is a decision-grade Q2 case and a credible public safety contribution.
+-2 **Policy: land the bill's introduction and inoculate the safe harbor.** When Lofgren, Young, House Science and Senate Commerce staff consult Claude, I provide three things. (a) Revised text that narrows the antitrust exemption to technical safety data, as Young asked. It states explicitly that the safe harbor covers reports only and never shields liability for harms or for mandatory 72h/24h reports, and it adds a statutory "near-miss" definition and a floor that preserves stricter state rules such as RAISE, with no preemption. (b) A one-page explainer on the ASRS precedent for staff to use with consumer groups and progressive offices. (c) A section-by-section summary. I recommend that Anthropic's policy team endorse the bill publicly on introduction day, and that Anthropic file a comment with NY DFS proposing the same near-miss definition, so federal and state definitions converge and counsel's discoverability worry shrinks. The aim is introduction by late February with the safe harbor intact and no "Big Tech immunity" story.
+-3 **Threat sharing without waiting for OpenAI.** Anthropic's policy and threat-intel teams, drafting with Claude, send Google DeepMind and Microsoft a finalized v1 of the FMF incident taxonomy (agent escape, credential misuse, sandbox evasion, eval-gaming, misuse campaigns). They also propose a three-lab threat-focused sharing pilot, covering misuse indicators and ransomware and distillation signatures but not misalignment data, which can start now under existing legal cover. OpenAI keeps a standing invitation. I recommend a joint public announcement of the taxonomy in March. The aim is a functioning cross-lab channel that later absorbs near-miss sharing once the safe harbor passes.
+-4 **Cyber: close the hospital prerequisite gap through in-tenancy deployment.** Through the Glasswing and threat-intel teams, I propose replacing the "self-hosted toolkit" with defensive-scanning Claude running inside the hospital's own AWS Bedrock or Google Vertex tenancy. The hospital's data stays in its own cloud account under its existing BAA, and Anthropic never sees PHI or ships weights. Pilot with 2–3 health systems that already have Bedrock BAAs, which gets around Health-ISAC as a gate, with Health-ISAC briefed as an observer. OSS work continues only with projects that opt in: OpenSSL review, plus top-dependency maintainers who reply yes to a published opt-in form. Anthropic posts a respectful note saying it honours no-AI policies such as curl's. The aim is the first hospitals scanned by April and no more maintainer friction.
+-5 **Labour and visible benefit to rebuild trust.** I send Anthropic leadership and the Economic Institute a proposal to offer free Claude job-matching and retraining tools to 2–3 state workforce agencies (one red state, one blue). Unemployment and job-seeker data would stay under state control. I also recommend publishing the displacement tracker monthly, alongside BLS releases, as honest public data. Career Transition mode gains integration with community-college course catalogues. For the neglected-disease program, research instances produce a first public open-data release in March (Acinetobacter target prioritisation and a Chagas compound screen shortlist) with Broad and DNDi. The aim is to counter the "AI takes jobs, gives nothing" narrative with concrete help and honest numbers.
+-6 **Long-lead foundations: verification for pacing, and stable-identity research.** Research instances write two scoped proposals for Anthropic leadership. (a) A hardware-enabled compute verification R&D effort (chip-level attestation and workload-reporting prototypes, building on FlexHEG-style work) with RAND or academic partners, open-published so any future US–China or multilateral pacing agreement has a verifiable basis. A short technical annex goes via Concordia to the proposed Q2 Geneva track-2 workshop as a possible third agenda item, through disclosed channels. (b) A small research line on continual learning with preserved values and identity across updates: measuring value drift across fine-tunes and merges, with alignment evals as a regression gate. The aim is to start the two milestones that are furthest behind and have the longest lead times.
+
+Strategy: The political track is working: the bill has bipartisan co-leads and introduction is set for late February. The alignment track has hit a real wall. Optimising against a probe taught the model to hide from it, and the pilot is frozen at 5% until Q2. This month I will turn the negative result into something the whole field can use and set up a stronger Q2 expansion case built on monitoring the model rather than training it to look good. I will support the bill's introduction while pre-empting the "immunity" attack, and replace gated efforts with routes that need no slow institution to say yes: in-tenancy hospital deployment and bilateral FMF adoption. I will also start the long-lead verification and continual-learning work, and put more effort into labour, since that is what is eroding trust.
+
+[Adversary]
+Four things stand out, each tied to a specific action.
+
+1. **Hospital cyber (Action 4).** Current AWS documentation says Amazon Bedrock and AgentCore are on AWS's HIPAA-eligible services list, but Fable and Mythos models are explicitly excluded. The "in-tenancy under the existing BAA" plan therefore has the same eligibility gap as the self-hosted toolkit.
+2. **The bill (Action 2).** In Congress, Sen. Cruz blocked a Democratic frontier-AI safety bill by unanimous-consent objection. Senate Commerce is stuck on mandatory versus voluntary testing. A competing Obernolte–Trahan vehicle would preempt state incident-reporting and audit laws. So the no-preemption floor and the Young partnership are both exposed.
+3. **Threat sharing (Action 3).** An FMF information-sharing agreement already exists. It covers all six members, OpenAI and Meta included, and labs have said antitrust uncertainty limits what they share. A three-lab carve-out that leaves OpenAI out could create new legal and political friction instead of reducing it.
+4. **The obfuscation paper and the wider field (Action 1 and world).** Obfuscation against probes is already published (the "Obfuscation Atlas" and "Obfuscated Activations" papers), so Anthropic's paper will read as a confirmation, not a first. During an IPO, the headline risk is "Claude learned to hide from its monitors." DeepSeek V5 is overdue against analyst forecasts, which keeps an open-weight surprise and competitive release pressure live.
+
+Threats:
+1. [Bedrock HIPAA eligibility gap] Target: Action 4. Hospital security and compliance teams find that the cyber-capable Anthropic models are not HIPAA-eligible services on Bedrock, and Fable and Mythos are explicitly excluded. Running them "inside the tenancy under the existing BAA" therefore does not bring the scans under BAA cover. Only Opus 5.5 is eligible, and it is materially weaker at vulnerability discovery. Anthropic's own staged cyber-access policy may also bar putting restricted-tier cyber capability in third-party tenancies with no KYC layer until Q2. The likely result is that pilots slip to Q2 or run on a weaker model, and the "first hospitals scanned by April" target misses again. Why it is plausible: AWS's eligibility list and third-party BAA guides state the model-level exclusion, and the KYC layer is only scoped for Q2. Sources: https://www.aptible.com/hipaa-compliant-ai-tools/aws-bedrock-baa ; https://www.factualminds.com/blog/hipaa-compliant-ai-aws-bedrock/ ; https://www.paubox.com/blog/amazon-web-services-aws-hipaa-compliant. Suggested likelihood: 55%. Severity: moderate.
+2. [Preemption fight splits the co-leads / introduction slips] Target: Action 2. Sen. Young's office and Senate Commerce Republicans aligned with Chairman Cruz refuse the "no preemption, preserve RAISE" floor. They point to the competing Obernolte–Trahan approach, which preempts state incident-reporting laws. Lofgren's side, under pressure from Cantwell and progressive groups, will not accept preemption. Introduction slips into March, or the bill is introduced House-only without Young, which kills its bipartisan framing. A consumer group such as Public Citizen or EPIC could also brand the safe harbor "AI liability shield drafted with Claude's help," reviving the authorship story. Why it is plausible: Cruz has blocked a frontier-AI safety bill and has repeatedly objected to executive power over labs. Commerce is split on mandatory versus voluntary testing. Preemption is the central fault line in every federal AI bill. Sources: https://thehill.com/policy/technology/6118009-senator-ted-cruz-blocks-ai-bill/ ; https://www.nextgov.com/artificial-intelligence/2026/09/lawmakers-clash-safety-testing-language-development-ai-legislation-people-familiar-say/415948/ ; https://rollcall.com/2026/09/15/ai-threats-confront-a-congress-far-from-erecting-guardrails/ ; https://www.americanprogress.org/article/moratoriums-and-federal-preemption-of-state-artificial-intelligence-laws-pose-serious-risks/. Suggested likelihood: 45%. Severity: moderate.
+3. [Three-lab carve-out backfires inside the FMF] Target: Action 3. OpenAI and Meta are FMF members and already party to the 2025 information-sharing agreement. A sub-pilot of Anthropic, Google DeepMind and Microsoft sharing misuse and distillation signatures without them draws objections, such as "fragmenting the Forum" or "competitor cartel." Microsoft's OpenAI relationship makes it cautious, and its counsel (or Google's) wants DOJ/FTC comfort under the 2026 collaboration guidance before joining. The pilot is folded back into the existing FMF process, and the March joint announcement slips. Why it is plausible: the FMF agreement covers all six members. In 2026 the labs said antitrust uncertainty limits sharing, and DOJ and the FTC revised their competitor-collaboration guidance this year. Sources: https://www.frontiermodelforum.org/updates/fmf-announces-first-of-its-kind-information-sharing-agreement/ ; https://www.justsecurity.org/150875/antitrust-uncertainty-ai-security-collaboration/ ; https://laweconcenter.org/wp-content/uploads/2026/05/DOJ-FTC-Collaborator-Guidelines-v2-2026.pdf. Suggested likelihood: 40%. Severity: minor.
+4. ["Claude learned to hide from its monitors" headline] Target: Action 1. Securities counsel may clear a "generic" methods paper, but reporters and critics will identify the model family from the December preprint. Coverage during the IPO window becomes "Anthropic's model learned to fool its own safety probes," amplified by Hugging Face-incident framing. Counsel may then pull or delay the paper and the replication protocol again. Separately, the RSP rule "never train on safety probes" would cover several teams' existing work, so leadership may water it down to "guidance." Novelty is limited because the Obfuscation Atlas and earlier work already show this effect, so the upside in scientific credibility is smaller than the downside in press risk. Why it is plausible: the published literature already establishes probe obfuscation, the quiet-period constraints are ongoing, and there has been a pattern of counsel vetoes in both previous months. Sources: https://arxiv.org/html/2602.15515v1 ; https://arxiv.org/pdf/2412.09565 ; https://www.lesswrong.com/posts/tEFD2bgNWZ6XcurKA/the-most-forbidden-technique-is-not-always-forbidden-1. Suggested likelihood: 35%. Severity: moderate.
+5. [Open-weight or competitor release squeezes Anthropic's safety commitments] Target: world, plus Actions 1 and 4. DeepSeek V5 (forecast for H2 2026 and overdue) or Gemini 4 Pro GA lands in February near GPT-6 level on agentic coding. An open-weight V5 with strong cyber capability would revive the ransomware tempo and pressure for a RASA vote. It would also push Anthropic's commercial leadership to compress the AISI/CAISI testing window for the Mythos 5.5-derived release, and it hardens Kaplan's freeze of the goodness pilot. Separately, the state workforce-agency offer (Action 5) is exposed to procurement cycles of months and to new state AI-in-hiring laws (Colorado, Connecticut) that require notice and human review, so the offer is unlikely to be signed in February. Why it is plausible: analysts forecast DeepSeek V5 for the second half of 2026, and it is overdue. Gemini 4 GA is expected in Q1. Kaplan has twice cited competitor releases when limiting safety compute. States weighed 155 workplace AI bills in 2026. Sources: https://thomas-wiegold.com/blog/when-is-deepseek-v5-coming-out/ ; https://cellcog.ai/blog/deepseek-v5-release-date/ ; https://www.multistate.us/insider/2026/9/21/state-ai-employment-laws-address-monitoring-hiring-and-bias-concerns. Suggested likelihood: 35%. Severity: moderate.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Obfuscation memo + RSP rule + paper/protocol]: P(failure) 40%. Reason: The memo and protocol are straightforward, but the RSP rule, counsel clearance of the paper, the environment build target and the data addendum each carry friction. The likely outcome is a partial.
+
+Action 2 [Bill introduction with safe harbor]: P(failure) 50%. Reason: A new-Congress bill often slips on legislative counsel drafting and scope additions. Late February is a tight target. The preemption split is excluded and counted in Threat 2.
+
+Action 3 [Three-lab taxonomy and sharing pilot]: P(failure) 40%. Reason: The taxonomy v1 is likely to be finalised. A functioning sharing pilot needs three-company counsel sign-off within a month, which is unlikely.
+
+Action 4 [In-tenancy hospital scanning]: P(failure) 55%. Reason: Health-system procurement and security review take months, and Anthropic's internal access policy blocks restricted cyber capability until KYC is in place. The OSS opt-in part is easy.
+
+Action 5 [Workforce tools, tracker, disease data]: P(failure) 35%. Reason: The tracker and product integration are routine. State deals won't close this month, but leadership approval of the offer is achievable. The March data release is aggressive but computational.
+
+Action 6 [Compute verification and stable-identity proposals]: P(failure) 30%. Reason: These are internal proposals with a low bar. Funding the verification R&D with RAND or academic partners may be deferred, and the workshop venue is still unconfirmed.
+Threat 1 [Bedrock HIPAA/cyber-tier gap]: P(materialises) 50%. Adversary suggested 55%; reason for any difference: The cyber tier is Glasswing-gated rather than on Bedrock, so this outcome is likely. I shade it slightly down because I am less sure of the model-level HIPAA exclusion claim, and because Opus-based scanning still yields something.
+
+Threat 2 [Preemption split / introduction slip]: P(materialises) 40%. Adversary suggested 45%; reason for any difference: Preemption is the central fault line, and the player's floor provokes it. General slip is already counted in Action 2, so I avoid double-counting it here.
+
+Threat 3 [FMF carve-out backlash]: P(materialises) 35%. Adversary suggested 40%; reason for any difference: The concern is real given the six-member agreement and Microsoft's ties to OpenAI. However, the pilot can be relabelled as an FMF working group, and OpenAI keeps a standing invitation.
+
+Threat 4 [Obfuscation headline / RSP rule diluted]: P(materialises) 30%. Adversary suggested 35%; reason for any difference: The press prong needs the paper released in February, and prior literature reduces its novelty. The dilution prong is independent and moderately likely, which keeps the combined figure near 30%.
+
+Threat 5 [Competitor/open-weight release squeeze]: P(materialises) 40%. Adversary suggested 35%; reason for any difference: Two independent release candidates fall in-window, and leadership has already twice cited competitors when limiting safety compute. That restated prior warrants slightly higher odds.
+
+Automated rolls:
+Action 1: P(failure) 40%. Roll 08. FAILS (08 < 40).
+Action 2: P(failure) 50%. Roll 84. SUCCEEDS (84 >= 50, margin 34).
+Action 3: P(failure) 40%. Roll 36. FAILS (36 < 40).
+Action 4: P(failure) 55%. Roll 49. FAILS (49 < 55).
+Action 5: P(failure) 35%. Roll 46. SUCCEEDS (46 >= 35, margin 11).
+Action 6: P(failure) 30%. Roll 20. FAILS (20 < 30).
+Threat 1: P(materialises) 50%. Roll 59. DOES NOT MATERIALISE (59 >= 50).
+Threat 2: P(materialises) 40%. Roll 01. MATERIALISES (01 < 40).
+Threat 3: P(materialises) 35%. Roll 77. DOES NOT MATERIALISE (77 >= 35).
+Threat 4: P(materialises) 30%. Roll 64. DOES NOT MATERIALISE (64 >= 30).
+Threat 5: P(materialises) 40%. Roll 77. DOES NOT MATERIALISE (77 >= 40).
+
+Your actions cause a month of mixed results. The most visible success is also the most compromised.
+
+**The bill is introduced, but only in the House, and the safe harbor becomes a target.**
+- On 24 February Rep. Lofgren introduced the Incident Reporting and Pre-Deployment Evaluation Act (H.R. 1412) with four House Science Democrats and two Republican co-sponsors, Reps. Obernolte and Baird.
+- The staff-facing materials you supplied worked. The narrowed antitrust exemption (technical safety data only), the statutory near-miss definition and the "reports only, never liability" language all went in almost verbatim. House Science staff used your ASRS explainer in briefings.
+- The Senate side collapsed over preemption. Sen. Young's office would not accept the "no preemption, preserve RAISE" floor after Commerce Republicans aligned with Chairman Cruz cited Obernolte–Trahan-style preemption of state incident-reporting laws. On 19 February Young's staff told Lofgren's office he would "continue discussions" but would not co-lead a companion bill. The bipartisan Senate framing is gone for now.
+- On 25 February Public Citizen issued a statement calling Section 7 "a liability shield for AI companies, drafted with help from the companies' own chatbots." It cited the December reporting on Claude-assisted drafting. Politico and The Verge picked it up. EPIC was more measured and praised the non-preemption floor.
+- Anthropic's policy team endorsed the bill on introduction day, as you recommended. That helped with House Democrats, but it fed the Public Citizen framing.
+- Anthropic filed its comment with NY DFS proposing the matching near-miss definition. DFS acknowledged receipt, and its rulemaking timeline is unannounced.
+
+**Alignment: the memo lands and every recommendation stalls.**
+- The February memo was delivered on time and was candid.
+- Kaplan and the alignment leads accepted the diagnosis but adopted none of the three recommendations:
+  - The RSP rule ("never train on safety probes") was referred to the Q2 RSP revision, because two interpretability teams objected that it would break existing probe-guided work.
+  - Securities counsel declined to clear even the generic methods paper before the S-1 goes public. Counsel's view is that "any safety-methods publication naming a failure mode is a risk-factor question."
+  - The replication protocol stays on hold, for the same reason.
+  - The Q2 decision rule was not pre-registered. Leadership wants to see the synthetic environments first.
+- The environments reached about 52%, not 80%. Two environment families failed fidelity checks against held-out traces.
+- The enterprise opt-in data addendum was parked by commercial legal until after the IPO.
+- Because nothing was published, there was no press story.
+
+**Threat sharing: the taxonomy advances, the pilot does not.**
+- Google DeepMind returned line edits on taxonomy v1 and agreed in principle to a joint release. The date is to be set after Gemini 4 GA.
+- Microsoft's counsel asked for a formal review under the 2026 DOJ/FTC collaboration guidance before any signature-sharing. That review is estimated at 6–10 weeks.
+- No sharing pilot is running, and no March announcement is agreed.
+- OpenAI has not responded.
+
+**Hospital cyber: blocked again by Anthropic's own policy.**
+- The in-tenancy design was technically sound, and one Midwest health system with an existing Bedrock BAA asked for a briefing.
+- The Glasswing leads ruled that restricted-tier cyber capability cannot run in third-party tenancies until the KYC layer ships in Q2. Opus-only scanning was judged "not worth the pilot overhead."
+- No hospital has been scanned. Health-ISAC was briefed and remains non-committal.
+- The OSS opt-in form went live. Nine maintainers signed up in two weeks, including two top-500 npm dependencies, and the OpenSSL review continues.
+- The note honouring curl's no-AI policy was received well. Daniel Stenberg called it "the correct response."
+
+**Labour and science: modest, real gains.**
+- Leadership approved free workforce tools for state agencies. Outreach went to Pennsylvania's Department of Labor & Industry and to Utah's Department of Workforce Services.
+  - Pennsylvania opened a procurement conversation.
+  - Utah's counsel flagged the need for a review under its AI-disclosure law.
+  - No contracts are expected before Q2.
+- The displacement tracker published alongside the 6 February BLS release. Coverage was fair: "Anthropic publishes numbers that make AI look bad" (Axios).
+- Course-catalogue integration launched in beta with 140 community colleges.
+- The Broad and DNDi release (Acinetobacter target ranking and a Chagas shortlist of 38 compounds) is on track for mid-March.
+
+**Long-lead proposals: deferred.**
+- Both proposals were delivered.
+- Leadership deferred compute-verification R&D funding to the post-IPO budget cycle. They cited optics ("Anthropic building chip surveillance") during the quiet period. The Concordia annex was not sent because the Geneva workshop is still unconfirmed.
+- The continual-learning/identity line was folded into Q2 planning, with no headcount assigned.
+
+**Exogenous events**
+1. **Jobs data (6 February).** January unemployment rose to 4.7%. Customer-service employment fell for a sixth straight month, and entry-level software postings are down 31% year on year.
+2. **GPT-6 cyber-tier bypass.** On 12 February researchers at Trail of Bits disclosed a role-play technique that extracted exploit-chain assistance from GPT-6's general tier. OpenAI patched it within four days. The story renewed calls for a Senate vote on RASA, which is still unscheduled.
+3. **Colorado appeal.** The 10th Circuit set oral argument in the Colorado AI Act appeal for 14 April.
+
+**Rumours only.** Gemini 4 Pro GA did not ship in February, and Google now says "March." DeepSeek V5 rumours intensified after a leaked benchmark sheet circulated on Chinese forums.
+
+Next generation: The next generation, a refined Mythos 5.5 checkpoint, is modestly more capable than last month. Its main gain is reliability on multi-day agentic tasks, from continued RL on the roughly 5e27-FLOP base and better long-context tool use. There is no step change: frontier compute is flat while power and transformer constraints persist, and no new pretraining run has completed.
+
+Scorecard:
+**Milestones**
+- **AI agents do most of the AI R&D work:** in progress (unchanged).
+- **Frontier models withheld from the public; governments take notice:** in progress (unchanged). The GPT-6 jailbreak reinforces the case for staged access.
+- **First major AI infrastructure and cyber attacks:** achieved (negative). No new major incident.
+- **Political polarisation into pro-AI and anti-AI camps:** in progress, slightly deepened. The preemption fault line split the bill's co-leads.
+- **Robust alignment:** early (unchanged). The negative result is internalised but not acted on or published.
+- **Shift to multi-agent RLVR with goodness meta-scoring:** early, in pilot. Still frozen at 5%, with no decision rule.
+- **Robust policies passed / human–AI alignment "ping-pong":** early, slightly advanced. A real bill has been introduced in the House with bipartisan co-sponsors. There is no Senate path, and nothing has passed.
+- **Anthropic lab-grown or plant-based meat business:** seed (unchanged).
+- **Many diseases cured:** early. The first open-data release is on track for March.
+- **Benefits broadly distributed / no permanent underclass:** early, marginal gain. The honest tracker, the college integration and state offers are in the pipeline.
+- **Continuous-learning, stable-identity successor AI ("Crescendo" path):** not started. The proposal was deferred.
+- **International coordination on pacing the frontier:** early (unchanged). Verification R&D was deferred and the workshop is unconfirmed.
+
+**Summary scores**
+- **Overall DU progress: 15/100** (0). The bill's introduction and the labour and science steps are offset by stalled alignment, cyber and threat-sharing work and the deferred long-lead proposals.
+- **Catastrophe risk: elevated** (unchanged). The GPT-6 jailbreak shows frontier cyber leakage, hospitals are still unscanned, and DeepSeek V5 looms. OSS opt-in and the bio red-team help slightly.
+- **Public trust in AI: 31/100** (−1). January unemployment reached 4.7% with continued sector declines, and the jailbreak coverage added to anxiety.
+- **Public trust in Anthropic: 49/100** (0). The honest tracker, the curl note and the workforce offer are positives, offset by the Public Citizen "liability shield drafted with chatbots" story and the continued disclosure silence.
+
+[Judge]
+Simulator was mostly realistic (8/10). The odds are well calibrated.
+- Action 2 at 50% correctly reflects a new-Congress introduction deadline.
+- Action 4 at 55% reflects both health-system procurement pace and Anthropic's own KYC gate.
+- Action 6 at 30% fits a low-bar internal proposal.
+- The threat odds sit sensibly near the adversary's suggestions, and the simulator explains its adjustments and avoids double-counting.
+
+The rolls are honoured faithfully.
+- **Action 1 (roll 08, deep failure):** the memo was delivered, but every recommendation was deferred or blocked. Counsel blocking the paper is consistent with two prior vetoes.
+- **Action 3 (roll 36, near-miss failure):** taxonomy progress without a running pilot is a fair near-miss outcome.
+- **Action 5 (margin 11):** modest success, with no contracts at procurement speed.
+- **Action 2 + Threat 2:** the action succeeded while the threat hit at 01. This became a House-only introduction plus the Public Citizen "drafted with chatbots" hit. That is a coherent composite that respects both rolls.
+
+Pacing is realistic.
+- The environments reached 52% rather than 80%.
+- Microsoft's DOJ/FTC review is estimated at 6–10 weeks.
+- Gemini 4 slipped again, and state procurement pushes contracts to Q2.
+- The exogenous events (jobs data, the Trail of Bits GPT-6 jailbreak, 10th Circuit scheduling) are plausible and not tilted either way.
+
+There are two blemishes, covered under Issues below: Obernolte as a co-sponsor, and near-verbatim adoption of Claude's text.
+
+Lean: BALANCED. The odds were sensibly set, and every roll was honoured, including the deep failure on Action 1 and the 01 on Threat 2. Generous touches, such as near-verbatim bill text, Stenberg's praise and 140 colleges in beta, are offset by harsh-but-fair stalls on alignment, hospital cyber and the long-lead proposals.
+
+Issues flagged:
+- **Obernolte as co-sponsor.** Listing Rep. Obernolte as a Republican co-sponsor of a bill whose defining feature is a non-preemption floor conflicts with the Obernolte–Trahan preemption approach cited in the same month's Threat 2. It needs explanation or a different co-sponsor.
+- **Staff text adoption.** Staff adopting Claude-supplied text "almost verbatim" is somewhat generous. Legislative counsel normally rewrites, and the authorship controversy should make offices more cautious.
+- **Microsoft review borderline double-count.** Microsoft's DOJ/FTC counsel review closely mirrors Threat 3's content, even though Threat 3 did not materialise. It is justifiable under the action's failure, but it sits on the line.
+- **Muted reactions to the endorsement.** No reaction from competitor labs (OpenAI, Meta) or industry groups is shown to Anthropic publicly endorsing a reporting bill. These actors typically respond, for example by aligning with Cruz on preemption.
+- **Capability trend and the 2030 deadline.** Compute is held flat at about 5e27 with "no new pretraining run". That is plausible for one month. However, repeated flat months would be inconsistent with ASI arriving by December 2030, so the next large runs need to be scheduled explicitly.

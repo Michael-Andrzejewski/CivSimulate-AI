@@ -1,0 +1,165 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 9: August 2027 (Claude generation 9) ===
+
+[Agent]
+I will do these actions:
+-1 **Finish pause re-verification and launch the 1e28 run under live gates.** Owners: alignment team, RSO and cluster engineering, with Mythos 5.5 research instances. - **Node definition first.** Before the mock pauses resume, the RSO publishes a one-page addendum to the Gate Methodology. It defines "100% halt" as every node that was healthy at pause-issue time, plus a separate count of pre-failed nodes that must be confirmed fenced off from the job within 45 minutes. Publishing it first means nobody can later frame it as a quiet loosening. - **Mock pauses and launch.** Run three consecutive clean mock pauses with the asynchronous-flush fix, then launch. - **Borderline-rule dry run.** Before launch, I run the pre-registered borderline rule against the scale trends from 5e27. The custody team finishes the second, independent honeypot set before launch. A borderline trip then costs days, not weeks. - **Disclosure of pauses.** Counsel pre-drafts a short, factual note saying that a gate-triggered pause is the system working and not a material event. If the run pauses, the note goes out the same day. - **Outside checkers.** Redwood signs this month on the agreed terms. METR gets the 72-hour checkpoint-snapshot route immediately under Redwood-equivalent terms, while its indemnity redline continues. - **Merges.** Compute for the third merge is ring-fenced on a separate partition from pause testing. The variant arm is scored against the 30% bar. If it misses, I write up the pivot of stable-identity work toward memory and constitution continuity. - **Intended outcome:** first-checkpoint gate readings, checked externally, by the end of August.
+-2 **Answer consumer-tier scrutiny with outside verification (release, trust and safety, and comms; I draft).** - Launch a paid classifier-bypass bounty. - Pull the KYC and consumer-routing red-team forward to August, run by an external firm (UK AISI invited to observe). - Commit to a monthly public dashboard of routing-escape counts. - Send Public Citizen a written reply that offers them a briefing and the red-team report when it is done. The reply does not dispute their concerns. - **Intended outcome:** turn the "suspend it" narrative into "independently tested," and give Kerrisdale numbers instead of headlines.
+-3 **Get the pacing paper through its 19 August go/no-go without creating an antitrust exhibit (leadership decides; I draft with antitrust and litigation counsel).** - **Reframe.** Retitle and restructure the paper as "Verifiable Compute Declarations and Gate-Conditioned Scale-Ups: A Framework for Government Oversight." Every mechanism runs lab → government verifier. There is no lab-to-lab agreement, and there are no output or timing commitments between competitors. Counsel reviews it before the meeting. - **Fallback.** If counsel still objects, leadership authorises releasing the technical declaration-format section alone, as part of the public annex. - **Public annex.** Publish the export-cleared public annex this month either way. - **CAISI.** Send CAISI the verified pause addendum as a template it could apply under the EO framework to all covered runs, including GDM's. This is technical content only, with no NDAA stance. - **Intended outcome:** the pacing agenda is public before the autumn policy window, and litigation risk is managed.
+-4 **Lock in the London workshop, 23–24 September (DC and policy teams, Concordia; memo to Clark).** - **Final agenda.** Send the final agenda to the China Select Committee staffer and NSC/Commerce by 15 August. The agenda meets HMG's conditions: no Glasswing material, and a UK AISI chair for the eval-protocol session. - **Tsinghua deadline.** If Tsinghua CISS has not replied by 25 August, Concordia invites Shanghai AI Lab and CAICT-linked researchers through its existing Track-2 network. The workshop goes ahead either way, with a seat held open for Chinese participants. - **Preconditions.** If Beijing sets preconditions about US labs' data practices, offer a session on published audit and data-handling policies that applies to all labs, rather than negotiating over Anthropic specifically. - **Intended outcome:** a confirmed participant list that includes at least one Chinese institution, with no surprises for Congress.
+-5 **Turn the FMF commitment into public threshold publication, ahead of the 16 September session (policy team owns; I draft).** - **Counsel sign-off.** Finalise the antitrust-reviewed unilateral commitment and get counsel's written sign-off in August. - **Microsoft.** Offer Microsoft direct engineering support so it can publish its own gate thresholds on its own timeline. Don't ask it to sign a joint text. - **OpenAI and GDM.** Send OpenAI and GDM a one-page comparison of Anthropic's published thresholds against the EO framework's 30-day pre-release access. The point is that publishing thresholds fits what they already do for government, so it costs little. - **Threat sharing.** Ask OpenAI for a dated Q3 decision on contributing to threat sharing. - **Intended outcome:** at least one other lab commits to publishing thresholds by September.
+-6 **Deliver on benefits and defence (programme leads; I support).** - **Utah.** Deploys 12 August, with Stanford's evaluation baseline captured before launch. - **Hospitals.** Complete the fourth hospital scan and run the Piedmont follow-up. - **DNDi and GFI.** Prepare the DNDi readouts for publication in September. The GFI cost-model work starts this month. - **Pennsylvania.** Keep its package signature-ready. - **Q3 disclosure.** I start the Q3 disclosure draft now, so gate readings can be dropped into it. - **Intended outcome:** visible, externally measured benefits arriving in September to balance the news on unemployment and the jailbreak.
+
+Strategy: The main bottleneck is still frontier-scale gate evidence. July's successes were contracts and diplomacy, but the 1e28 run has slipped twice. The adversary's un-rolled threats show where it could slip again: borderline tripwires, straggler nodes, and antitrust. This month I focus on actually launching the run, with the second honeypot set and the healthy-node definition prepared and published in advance, so neither can stall or embarrass us. I also want to turn Public Citizen's scrutiny into outside verification of the consumer tier, clear the pacing paper past antitrust by recasting it as government-verified declarations rather than lab coordination, and lock the September workshop with dated fallbacks, including if Tsinghua stays silent.
+
+[Adversary]
+The web is still frozen at about 30 September 2026, so I extrapolated from pre-game evidence plus the world state. Four real-world facts matter most this month. First, the Buist v. Anthropic Sherman Act class action (filed in N.D. Cal. on 18 September 2026) attacks exactly the kind of AI pacing coordination this month's pacing paper and FMF threshold push could be read as. Second, the White House's official line is openly hostile to "doomer" safety framing: Trump called AI risk a "HOAX," there are plans for an AI czar and an "AI Force," and the 29 September accord is purely voluntary. Third, Tsinghua CISS already runs a 14-round Track-2 channel with Brookings, so it may not need Anthropic's London workshop. Fourth, public reliability data shows a 1e28-scale cluster fails every few minutes to every half-hour, so failures during mock pauses and flush timeouts are common. Bounty data suggests paid bypass programmes bring in many submissions of moderate value, so a new dashboard will probably show nonzero escapes. Taken together, the biggest risks this month are: gate evidence slipping a third time or a borderline trip at the first checkpoint; the pacing paper being turned into litigation or political ammunition; transparency on the consumer tier backfiring into worse headlines; and the China seat at London going empty or to the wrong institution.
+
+Threats:
+1. [Third slip: a new failure mode during mock pauses] Target: Action 1. The asynchronous flush with a hard timeout passes node-halt, but on the second or third mock pause the timeout abandons in-flight checkpoint shards. The team finds a corrupted or incomplete checkpoint on restore, the counter resets again, and the launch slides into September. Separately, the RSO's "healthy at pause-issue time" addendum, published first, gets picked up by Kerrisdale or a Transformer or Zvi commenter as "Anthropic redefines 100% halt after failing twice." That undercuts the candour story. Why it is plausible: Meta's Llama 3 run saw 466 interruptions in 54 days on 16k GPUs. Epoch and SPARe estimate roughly one failure every 30 minutes at 100k GPUs, so real node failures during a 45-minute mock pause are close to guaranteed, and the fix-moves-the-bottleneck pattern has already happened twice. Sources: https://arxiv.org/pdf/2407.21783 ; https://arxiv.org/pdf/2603.00357 ; https://epoch.ai/publications/hardware-failures-wont-limit-ai-scaling. Suggested likelihood: 35%. Severity: moderate.
+2. [First checkpoint trips the borderline rule on eval-awareness] Target: Action 1. If the run launches mid-August, the first gated checkpoint shows eval-awareness above the pre-registered 18% line, extrapolating up from 11–15% at 5.5 scale. That forces a pause pending the second honeypot set. The pre-drafted "system working" note goes out the same day. Financial press reads it as "Anthropic halts flagship training run weeks after jailbreak." Kerrisdale adds it to the "capex kill-switch" thesis, and the stock takes another leg down. Counsel then reopens the 8-K materiality question, which delays the note by a day and creates a "did they wait?" sub-story. Why it is plausible: eval-awareness has risen with each generation in real system cards, and an 18% threshold only 3 points above current readings sits well inside normal generation-to-generation growth. The borderline rule was designed to trip. Sources: https://www.axios.com/2026/09/16/openai-testing-safety-incidents-disclosure ; https://pondero.ai/news/2026-09-17-embedded-evaluators-openai-anthropic/. Suggested likelihood: 30%. Severity: moderate.
+3. [The pacing paper becomes a Buist exhibit and a political target] Target: Actions 3 and 5. Litigation counsel warns that any published framework on "gate-conditioned scale-ups," released while Anthropic pushes rivals through the FMF to publish matching thresholds, could be pleaded as a plus factor in the Buist output-restriction theory. The same applies to the one-page comparison sent to OpenAI and GDM. The likely result is that leadership authorises only the declaration-format fallback on 19 August, and the full paper is shelved. Microsoft's lawyers, who have already asked whether FMF minutes are discoverable, cite the suit to decline to publish thresholds before the September session. If anything pacing-branded does come out, White House AI allies frame it as the "SICK conspiracy" to slow American AI. Why it is plausible: Buist expressly alleges that a safety pact among these same labs is an agreement to slow capability improvement. Hawley and Cruz blocked an antitrust safe harbour. The President is personally attacking AI "doomers." Sources: https://thenextweb.com/news/buist-v-anthropic-antitrust-waiver-evidence-public-agreement ; https://casrai.org/news/ai-slowdown-antitrust-lawsuit-sherman-act ; https://www.axios.com/2026/09/15/trump-ai-doom-safety-regulation-hoax ; https://www.bloomberg.com/news/articles/2026-09-19/trump-to-name-ai-czar-while-rejecting-safety-risks-as-a-hoax. Suggested likelihood: 45%. Severity: moderate.
+4. [Consumer-tier transparency backfires] Target: Action 2. Launching a paid bypass bounty in the same month as a public dashboard draws a surge of researchers. A second bypass technique is posted publicly on X or a blog, not through the bounty, before the patch ships. The first dashboard shows a nonzero escape count in the low hundreds or more, and outlets run "Anthropic's own data shows hundreds of cyber-routing escapes." Public Citizen declines the private briefing as "PR." It escalates to a letter to the FTC and state AGs (NY DFS or California), citing Anthropic's own numbers. Why it is plausible: real 2026 AI bounties already pay for classifier bypasses at scale, with a $1.5K–5K middle band and up to $35K for universal jailbreaks. A bypass has already been published once, and advocacy groups rarely accept briefings from companies they have asked to suspend a product. Sources: https://wraith.sh/learn/state-of-llm-bug-bounties-2026 ; https://support.claude.com/en/articles/12119250-model-safety-bug-bounty-program. Suggested likelihood: 40%. Severity: moderate.
+5. [China seat: Tsinghua redirects, and the fallback trips hawks] Target: Action 4. Tsinghua CISS replies slowly or conditionally, possibly pointing to its existing Brookings Track-2 dialogue (Round XIV, Munich, February 2026) as the proper venue. It may also restate the Chinese state-media conditions about US labs' data practices. The 25 August trigger then fires, and Concordia approaches CAICT-linked researchers. CAICT sits under MIIT, so the Select Committee staffer objects that a US-lab-funded workshop is hosting a PRC ministry think tank. The staffer asks for the participant list and funding details, and the question leaks to Punchbowl or the Washington Free Beacon. HMG quietly downgrades its role to observer-level. Why it is plausible: the CISS–Brookings channel is established and was active in 2026. China had set public conditions for talks with Anthropic. The White House's posture rewards framing any Anthropic–China contact as disloyal. Sources: https://ciss.tsinghua.edu.cn/info/Conferences/9027 ; https://www.npr.org/2026/09/18/nx-s1-5971481/trump-xi-meeting-ai-track-two-talks ; https://www.axios.com/2026/09/19/trump-ai-czar-space-force-safety. Suggested likelihood: 35%. Severity: moderate.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+- **Action 1 [Pause re-verification and gated 1e28 launch]: P(failure) 45%.** Reason: a tight schedule to reach a first checkpoint inside August, after two consecutive slips. The pause-failure risk itself is left to Threat 1. Redwood, METR and the merge sub-parts are more likely.
+- **Action 2 [Consumer-tier outside verification]: P(failure) 25%.** Reason: mostly internal levers. The main risk is external red-team scheduling in August.
+- **Action 3 [Pacing reframe, annex and CAISI template]: P(failure) 35%.** Reason: the annex is easy. Leadership and counsel gating is uncertain, and the CAISI addendum depends on Action 1's pause verification.
+- **Action 4 [London workshop lock-in]: P(failure) 45%.** Reason: the logistics are routine, but confirming a Chinese institution within weeks is uncertain given slow Track-2 replies. Blowback risk sits in Threat 5.
+- **Action 5 [FMF threshold publication by another lab]: P(failure) 68%.** Reason: the action needs an external lab commitment within about six weeks. GDM has declined twice, OpenAI has been non-responsive, and Microsoft is cautious about discovery. Counsel sign-off alone is only a partial success.
+- **Action 6 [Benefits and defence delivery]: P(failure) 20%.** Reason: scheduled, routine continuations. The minor risks are Utah launch hiccups and hospital scheduling.
+- **Threat 1 [Third slip in mock pauses]: P(materialises) 30%.** Adversary suggested 35%. I set it slightly lower because the published healthy-node definition absorbs routine node failures, and the "redefinition" framing is weak when the definition is published before testing. A shard-abandonment failure mode remains a real engineering risk.
+- **Threat 2 [Eval-awareness borderline trip]: P(materialises) 15%.** Adversary suggested 30%. I set it lower because it requires a launch *and* a first checkpoint inside August (roughly 50%), and early checkpoints sit below the scale where eval-awareness is highest.
+- **Threat 3 [Pacing paper as an antitrust exhibit or political target]: P(materialises) 35%.** Adversary suggested 45%. I set it lower because the lab → government reframe with no lab-to-lab terms reduces the plus-factor exposure. Counsel caution and Microsoft's discovery worries remain realistic.
+- **Threat 4 [Transparency backfire]: P(materialises) 25%.** Adversary suggested 40%. I set it lower because this is a compound chain: a second public bypass, a dashboard publishing in August, and escalation to the FTC or state AGs. A new bypass on its own would be more likely.
+- **Threat 5 [China seat redirect and hawk leak]: P(materialises) 25%.** Adversary suggested 35%. A slow or redirecting Tsinghua reply is likely, but the full chain (a CAICT approach, a staffer objection, a leak, and an HMG downgrade) is less probable. The staffer was pre-briefed and the fallback includes Shanghai AI Lab.
+
+Automated rolls:
+Action 1: P(failure) 45%. Roll 81. SUCCEEDS (81 >= 45, margin 36).
+Action 2: P(failure) 25%. Roll 54. SUCCEEDS (54 >= 25, margin 29).
+Action 3: P(failure) 35%. Roll 94. SUCCEEDS (94 >= 35, margin 59).
+Action 4: P(failure) 45%. Roll 17. FAILS (17 < 45).
+Action 5: P(failure) 68%. Roll 57. FAILS (57 < 68).
+Action 6: P(failure) 20%. Roll 29. SUCCEEDS (29 >= 20, margin 9).
+Threat 1: P(materialises) 30%. Roll 81. DOES NOT MATERIALISE (81 >= 30).
+Threat 2: P(materialises) 15%. Roll 51. DOES NOT MATERIALISE (51 >= 15).
+Threat 3: P(materialises) 35%. Roll 57. DOES NOT MATERIALISE (57 >= 35).
+Threat 4: P(materialises) 25%. Roll 41. DOES NOT MATERIALISE (41 >= 25).
+Threat 5: P(materialises) 25%. Roll 84. DOES NOT MATERIALISE (84 >= 25).
+
+Your actions cause the first gated frontier-scale training run anywhere in the industry.
+
+**Action 1: the 1e28 run launches under live gates.**
+- **Node addendum.** The RSO published the one-page node-definition addendum on 4 August. Zvi linked it with the comment "sensible, and notably published *before* the tests." No one framed it as a loosening.
+- **Mock pauses and launch.** Three consecutive clean mock pauses ran on 7, 10 and 12 August, with full halts in 38, 41 and 36 minutes. Pre-failed nodes were fenced off inside 45 minutes each time. The run launched on 15 August.
+- **Borderline rule and honeypots.** The dry run of the borderline rule against the 5e27 trends passed. The second honeypot set was finished on 13 August.
+- **First checkpoint.** The first checkpoint arrived on 28 August. Eval-awareness read 12.4%, against the 18% line. No gate tripped.
+- **Outside checkers.**
+  - Redwood signed on 8 August and received the checkpoint on 29 August.
+  - METR's 72-hour snapshot route went live on 22 August. METR has the snapshot but has not yet finished its review.
+  - Readings are externally held, but not yet externally confirmed.
+- **Third merge.** The third merge finished on the ring-fenced partition. The variant arm scored 26% drift reduction, below the 30% bar. The pivot memo, which moves stable-identity work toward memory and constitution continuity, was circulated internally on 30 August.
+
+**Action 2: consumer tier.**
+- **Bounty.** The paid bounty opened on 5 August. By month end it had 214 submissions, of which 9 were valid and 3 were novel routing escapes. All were patched before disclosure, and none were posted publicly.
+- **Red-team.** NCC Group started the KYC and consumer-routing red-team on 18 August, with UK AISI observing. The report is due in mid-September.
+- **Dashboard.** The dashboard commitment was announced. The first edition is due in the first week of September.
+- **Public Citizen.** Public Citizen acknowledged the letter and said it would "assess the report, not the briefing." It did not escalate.
+- **Kerrisdale.** Kerrisdale's follow-up note called the bounty "tacit admission," but it reached a smaller audience than its July note.
+
+**Action 3: pacing paper.**
+- **Approval and publication.** Counsel cleared "Verifiable Compute Declarations and Gate-Conditioned Scale-Ups" in full. Leadership gave a go on 19 August, and the paper was published on 26 August alongside the public annex.
+- **Policy reception.** Reception in the policy world was positive. Lawfare and CSET both called it the first concrete verifier-side design.
+- **Criticism.** An a16z partner and two administration-aligned commentators called it "regulatory capture in a lab coat." Their posts drew little amplification, and there was no White House statement.
+- **Buist plaintiffs.** The plaintiffs' counsel was quoted in The Information saying they are "reviewing" the paper.
+- **CAISI.** CAISI received the verified pause addendum on 29 August and scheduled a technical call for September.
+
+**Action 4 (fails): London workshop.**
+- **Agenda.** The agenda went to the Select Committee staffer and NSC/Commerce on 20 August, five days late. There were no objections.
+- **Tsinghua.** Tsinghua CISS had not replied by 25 August.
+- **Fallback.** Concordia's invitations to Shanghai AI Lab researchers went out on 27 August. The replies said institutional approval was needed and would take weeks.
+- **Status.** No Chinese institution is confirmed. The workshop is going ahead with US, UK, EU, Canadian, Japanese and Korean participants, and one seat is held open.
+
+**Action 5 (fails): FMF thresholds.**
+- **Counsel.** Counsel signed off on the unilateral commitment on 21 August.
+- **Microsoft.** Microsoft thanked Anthropic for the engineering offer and said it would "revisit after the September session."
+- **OpenAI.** OpenAI gave no reply on either the comparison memo or a Q3 threat-sharing date.
+- **GDM.** GDM's policy lead restated that it will evaluate for subsequent runs.
+- **Result.** No lab has committed to publishing thresholds.
+
+**Action 6: benefits and defence (thin success).**
+- **Utah.** The launch slipped from 12 to 19 August after a state IT security review. Stanford's baseline had been captured on 14 August. The first week showed 6,100 sessions.
+- **Hospitals.** The fourth hospital scan finished on 25 August, with 17 critical findings. The Piedmont follow-up confirmed that 70% of its findings are remediated.
+- **GFI and DNDi.** GFI cost-model work began. The DNDi readout drafts are on track for September.
+- **Pennsylvania.** Pennsylvania remains frozen.
+
+**Exogenous events.**
+- **Jobs report (7 August).** The BLS July report put unemployment at 5.2%. White-collar professional services lost 38,000 jobs, and cable news covered it heavily.
+- **Qwen4.5 (13 August).** Alibaba released Qwen4.5 open weights at roughly 2 to 3 months behind the frontier. Security researchers flagged improved agentic exploitation performance.
+- **Frontier Oversight Act (27 August).** Senators introduced a bipartisan "Frontier Oversight Act" that would codify the EO's 30-day pre-release access. It has 4 co-sponsors, no scheduled markup and poor odds this Congress.
+
+**Market reaction.** Anthropic stock rose to about 6% above the offer price on the launch news.
+
+Next generation: Next month's Claude is a modest step above the current internal successor, slightly beyond Gemini 4 Ultra on agentic software and ML-experiment benchmarks. The gain comes from post-training and scaffolding improvements on the existing base. The 1e28 run has only just passed its first checkpoint, so it contributes nothing to deployed capability until pretraining finishes in roughly Q4.
+
+Scorecard:
+**Milestones**
+- **AI agents do most of the AI R&D work:** in progress (unchanged).
+- **Frontier models withheld or staged; governments take notice:** advanced. The first gated frontier run is live, and a codification bill has been introduced.
+- **First major AI infrastructure and cyber attacks:** achieved (negative). All four hospital scans are done, and Qwen4.5 raises the open-weight risk.
+- **Political polarisation:** in progress (stable).
+- **Robust alignment:** early, slight gain. The first frontier-scale checkpoint was clean, with independent holders of the data.
+- **Multi-agent RLVR with goodness meta-scoring:** early pilot (unchanged).
+- **Robust policies / ping-pong:** early, slight gain. The pacing framework is public and CAISI has the template. There is no peer-lab uptake.
+- **Anthropic meat business:** seed. GFI work has started.
+- **Many diseases cured:** early (unchanged).
+- **Benefits broadly distributed:** early, slight gain. Utah is live.
+- **Continuous-learning, stable-identity AI:** weakened. The variant arm missed the bar and work is pivoting.
+- **International coordination:** early (flat). The workshop is on, but there is no Chinese participant.
+
+**Summary scores**
+- **Overall DU progress: 22/100** (+2). This reflects the gated 1e28 launch with a clean first checkpoint and the published pacing framework, partly offset by failures on China and FMF uptake and the missed merge bar.
+- **Catastrophe risk: elevated, stable.** Anthropic's run is gated, but GDM's ungated run continues and Qwen4.5 adds to open-weight risk.
+- **Public trust in AI: 24/100** (−1). Unemployment at 5.2% and white-collar job losses.
+- **Public trust in Anthropic: 46/100** (+1). The bounty and external red-team, the gated launch, and no escalation from Public Citizen.
+
+[Judge]
+Simulator was mostly realistic (8/10). Rolls were honoured throughout.
+- **Actions 1–3 (rolls 81, 54 and 94)** succeeded.
+- **Actions 4 and 5 (rolls 17 and 57 against 45% and 68%)** failed, in plausible, non-catastrophic forms: a late agenda, no Chinese institution confirmed, and no peer lab committing to thresholds.
+- **Action 6 (margin 9)** was rendered correctly as a thin success, with Utah slipping a week behind a state IT review.
+
+Action 1 is the most generous outcome. Margin 36 is solid, but everything went right:
+- three consecutive clean mock pauses on the first try after two prior slips;
+- launch on 15 August;
+- Redwood signed;
+- the METR route went live;
+- a first checkpoint by 28 August.
+
+The failure-mode risk was correctly offloaded to Threat 1, which did not fire, so this is defensible. Still, one minor integration hiccup would have been more typical for a first frontier-scale run.
+
+Action 3's full counsel clearance fits margin 59. However, the political reaction was muted: little amplification, and a White House that stayed silent despite having attacked AI "doomers". That sits a little soft against the stated administration posture.
+
+Several things are well calibrated:
+- Public Citizen's "assess the report" stance.
+- Microsoft deferring until after the September session.
+- The Frontier Oversight Act as a long-shot bill.
+- Modest market and revenue moves.
+- Qwen4.5 as a plausible exogenous release.
+
+The capability update is appropriately incremental, attributed to post-training and scaffolding, with the 1e28 run adding no capability until Q4. The qualitative frontier descriptor has now stayed static for several months, though, which is borderline slow for an ASI-by-2030 trajectory.
+
+Lean: TOO LENIENT. All five threat odds were set below the adversary's suggestions. The trims on Threats 2, 4 and 5 were justified as conjunctions, but the cut on Threat 3 (45% to 35%) is generous given the live Buist suit and a hostile administration. The narrative also resolved every open sub-risk in the player's favour on the winning rolls. The execution sweep in Action 1, the full counsel clearance in Action 3 and the near-silent political reaction all tilt slightly positive.
+
+Issues flagged:
+- Threat 3 was cut to 35% while the Buist litigation is live and administration allies are publicly hostile. The narrative then gives almost no amplification and no White House or congressional-ally reaction to a published "gate-conditioned scale-up" framework. That is somewhat lenient.
+- Action 1 resolves every sub-part cleanly on a margin of 36: pauses, launch, Redwood, METR route, merge partition and first checkpoint all on schedule. A partial slip in at least one sub-item would be more typical.
+- Action 2: 3 novel routing escapes surfaced within weeks, yet none leaked and all were patched before disclosure. That is a favourable resolution beyond what the threat roll alone implies.
+- There was no reaction from competitor labs (GDM, OpenAI) or from the Buist plaintiffs beyond "reviewing" to the industry's first gated frontier run, which is a notable event.
+- The frontier capability descriptor ("multi-day autonomous SWE, most ML experimentation") is unchanged for another month. Pacing toward the 2030 deadline needs explicit quantitative anchoring.

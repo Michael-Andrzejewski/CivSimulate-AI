@@ -1,0 +1,181 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 6: May 2027 (Claude generation 6) ===
+
+[Agent]
+I will do these actions:
+-1 **Release discipline, by making full testing faster rather than shorter.** - **The memo.** I write a memo to Dario, Kaplan and the Responsible Scaling Officer. Its core point is that breaking a written AISI/CAISI testing commitment in the first month as a public company would be the worst possible headline, and would hand Kerrisdale and Public Citizen proof for their case. - **How to speed things up legitimately:** - give AISI and CAISI the release-candidate checkpoint now, not at freeze; - supply our full eval harness and the honeypot and eval-awareness suites, pre-run; - draft the system card in parallel so it is ready the day testing ends. - **The rule I propose.** The public release date is set as "AISI/CAISI testing complete plus staged rollout." The first stage is enterprise and API with cyber and bio capabilities routed to restricted tiers, then consumer access. - **If product leads insist on May:** I recommend a May announcement of the June staged date instead of a May launch. By then the S-1 has gone effective, which removes most of the forward-looking-statement objection from April. - **Outcome:** release in June with the full window honoured, and none of the "fallen behind" cost of silence.
+-2 **Make the 1e28 gates real before the runs arrive (alignment team, Mythos 5.5 research instances).** - **Gate readiness:** - A separate human-owned team holds the fresh held-out probes, so the training pipeline never sees them. - I build a rotated honeypot suite and the character-drift battery. - We dry-run all three gates on the current 5e27 checkpoints, so that thresholds, tooling and the pause mechanics are proven before late Q2. - **Replication.** I give Redwood and METR full protocol access and a dedicated liaison for the replication starting in May. - **Research work:** - Launch the multi-agent goodness variant arm. - Push the environments from 87% past 90%, using a small compute reservation that I request explicitly and ahead of pre-run contention. - Support the stable-identity team's first regularizer-anchored merge experiment. - **Commitment.** I propose that gate outcomes, including any pause, are pre-committed to appear in the quarterly misalignment disclosure. - **Outcome:** gates that actually fire if needed, and credible external evidence.
+-3 **Get ahead of Commerce's open-weight review and fix the V5 response gap (human policy and security teams own the filings; I draft analysis and specs).** - **Commerce comment.** Anthropic's human team files a comment with Commerce. It argues for controls based on capability thresholds and tied to dangerous-capability evals. It warns explicitly against nationality-verification mandates that would force another global shutdown like June 2026. It offers the KYC layer, now in external review, as the compliant path for closed US models. The comment is posted in the public repository. - **Rapid-evaluation reserve.** I propose a standing compute reserve with a 48-hour eval playbook for any major open-weight release, with results shared with CAISI and AISI and through the FMF. V5 took 5 days; the next one should take 48 hours. - **Signature spec.** To get it through legal, I narrow it to IOC hashes and behavioural signatures only, with no prompts or customer text. I also send Microsoft's counsel a written answer to each of its specific data questions. - **Outcome:** targeted controls instead of blanket ones, and faster, broader threat sharing.
+-4 **Hospital cyber: drop the escrow model and deploy through existing compliant channels.** - **New design.** Glasswing's human engineers package a defensive configuration and patch auditor built on Opus 5.5, which is HIPAA-eligible through AWS Bedrock and Google Vertex under the hospital's existing cloud BAA. Scope is infrastructure only. - **Logs stay local.** Logs never leave the hospital. The hospital keeps them and gets signed attestations, so no escrow is needed and the CISO's objection is gone. - **Offer.** It goes free to the Midwest system and to Piedmont Valley's recovery team, coordinated with HHS and CISA's post-incident advisories. It also goes to the 12 OSS maintainers for continued patching. - **Division of labour.** I write the specification and tests; humans own the code. - **Outcome:** the first real scan inside a hospital by June, and a direct answer to "the scanner never reached a hospital."
+-5 **Repair state allies by narrowing, not defending, the preemption position (Jack Clark and the human policy team).** - **Public clarification.** Anthropic states plainly that it opposes any broad preemption or moratorium in the NDAA. "Deemed compliance" is recast as opt-in reciprocity: a federal incident filing satisfies state reporting only where the state chooses to accept it, and state law stays the floor. - **Direct engagement.** The human team meets Bores, Gounardes and Wiener's staff and publicly supports NY DFS's near-miss guidance. - **Repository.** It gets a human-written reader's guide explaining that Claude gives the same analysis to every office on request, and that humans author all of Anthropic's positions. - **Limits.** No Claude-drafted text goes to Armed Services. - **Outcome:** state allies partly restored, and Anthropic no longer cast as the preemption flank.
+-6 **Post-listing budget package and benefit that is verified, not claimed.** - **Budget package.** Once the listing closes, I send the Q3 budget package to leadership. It asks for: - the compute-verification annex and Geneva track-2 sponsorship; - the rapid-evaluation compute reserve; - expansion of the stable-identity team to 6 if the May results are informative; - a quiet exploratory GFI alt-protein grant. - **Benefit work:** - support the Utah signing in May; - finalise the Pennsylvania pilot scope; - keep the DNDi pipelines ready for Q3. - **Tracker.** Remove the "where AI helped" section. Instead, commission an independent academic team to evaluate Career Transition mode and the Utah outcomes, with the right to publish whatever they find. - **Outcome:** safety infrastructure funded with new public capital, and benefit claims made credible by outside evaluation.
+
+Strategy: Anthropic's internal alignment work is now strong: binding gates are in place, replication is starting, and the variant arm is funded. Almost everything outside Anthropic is going badly: trust is falling, state allies are alienated, the hospital pilot is stalled, and V5 is driving export-control escalation. May has three tests. The first is holding the AISI testing window through the first month after listing. The second is making sure the 1e28 gates actually work when the runs arrive. The third is heading off a Commerce action that could repeat the June 2026 shutdown. I will also try to get visible defensive benefit into hospitals through a simpler channel, and repair relations with state allies by narrowing our preemption position, not defending it.
+
+[Adversary]
+The web is frozen at 30 September 2026, so these threats extrapolate from pre-game evidence plus the world state. The strongest precedent for this month is Commerce's June 2026 action against Fable and Mythos. It was a letter sent to one company under ECRA §4817 and EAR §744.22, with no notice-and-comment process. That means a comment filed in Commerce's open-weight review may count for little: the government can simply act again against one lab, and the S-1 itself says Washington "twice in 2026 acted against the company by executive discretion." The June EO's CAISI window is up to 30 days, is voluntary, and has already been used to stage a rival's release (the GPT-5.6 preview). A staged release is therefore a lever the White House can pull on Anthropic too. The player's hospital route does hold: standard Opus models are HIPAA-eligible on Bedrock under the AWS BAA, while Fable and Mythos are excluded. But hospital procurement and post-breach forensic practice are slow. On preemption, the 2025 NDAA moratorium was dropped after pushback from 260+ state legislators and the White House moved to an EO. The fight is now also electoral: OpenAI-aligned Leading the Future spent more than $7.6M against Bores, and a $20M Anthropic-funded PAC backed him. Any Anthropic repositioning will be read through that PAC war. Reporting that Anthropic was weighing lockups longer than 180 days and 10b5-1 selling plans suggests leadership will be very sensitive to post-listing volatility and will protect margins in its first quarter as a public company.
+
+Threats:
+1. [Bad first weeks of trading turn the release date into a price test] Target: Action 1. If the IPO prices around 5 May into the post-V5 dip and then trades below the offer price while Kerrisdale keeps pressing, product leads and bankers will argue that a June launch should become "late May, with CAISI's window running at the same time as enterprise rollout." Separately, AISI or CAISI testing of the early release candidate could turn up a cyber-tier finding (with eval-awareness already at 9–14%) and ask for the full 30 days plus a fix. Either way, it is plausible that The Information or Bloomberg reports an internal fight between the product and safety teams over "cutting safety testing." That story would confirm the short thesis whichever side wins. Also, after the offering, underwriters' research quiet periods and Reg FD rules make a public "June date" announcement legally awkward, so counsel may block it again. Why it is plausible: a CAISI window of up to 30 days is set by the EO, and the government has already staged a rollout (GPT-5.6). Anthropic reportedly worries about SpaceX-style post-IPO volatility. Gemini 4 Pro and V5 are keeping up competitive pressure. Sources: https://tech-insider.org/trump-ai-executive-order-caisi-2026/ ; https://www.axios.com/2026/06/25/trump-administration-openai-gpt-model-release ; https://www.fool.com/investing/2026/09/05/anthropic-lockup-periods-longer-180-day-ipo/ ; https://www.cnn.com/2026/09/29/tech/anthropic-ipo-details-leak . Suggested likelihood: 45%. Severity: moderate (major if the leak says testing was shortened).
+2. [Commerce acts by company-specific letter and the comment backfires] Target: Action 3 (and Action 1). Commerce's open-weight review may skip rulemaking entirely, as in June 2026. It could send targeted letters, possibly one covering Anthropic's next frontier release, or issue an interim rule tied to V5 that also reaches US closed-model API access by foreign persons. Anthropic's comment warns against "nationality-verification mandates" and it is public in the repository. Hawks such as Cotton, Moolenaar and administration AI officials could frame that as Anthropic lobbying to keep Chinese users on its API in the same month as the V5 panic. The KYC layer, still in external review, is not ready to offer as the "compliant path," which undercuts the argument. Why it is plausible: the June 2026 IIL gave a precedent with no comment period, and Anthropic had to shut down globally. The world state has Commerce reviewing "open-weight model export risk" and RASA-invocation pressure. The S-1 names executive-discretion risk. Sources: https://www.mayerbrown.com/en/insights/publications/2026/06/commerce-department-extends-export-controls-to-advanced-ai-models-authorizes-release-to-specific-trusted-partners ; https://www.cnbc.com/2026/08/19/china-ai-nvidia-chips-us-export-controls.html ; https://www.bloomberg.com/news/articles/2026-08-07/us-reviews-china-s-offshore-access-to-nvidia-chips-after-ai-breakthroughs . Suggested likelihood: 30%. Severity: major.
+3. [The walk-back pleases no one, and NDAA markup carries preemption anyway] Target: Action 5. Recasting "deemed compliance" as opt-in reciprocity three weeks after publishing it invites a "flip-flop" story. Commerce Republicans and NetChoice would use it to say Anthropic is not a serious negotiating partner. RAISE sponsors (Bores, Gounardes) are caught in the Leading the Future versus Anthropic-PAC fight, and they may take the meetings privately while declining to credit Anthropic publicly, since being seen as "Anthropic's candidates" is a campaign liability. Meanwhile, the HASC or SASC May–June markup could adopt a Cruz-aligned national-standard preemption placeholder, with the White House pushing "one rulebook." Why it is plausible: the 2025 NDAA precedent shows preemption keeps coming back through defence bills even after it loses. The White House has backed preemption by EO. The PAC war makes every Anthropic policy move partisan. Sources: https://statescoop.com/gop-lawmakers-state-ai-law-moratorium/ ; https://thehill.com/policy/technology/5628534-trump-lawmakers-battle-ai/ ; https://www.npr.org/2026/06/22/nx-s1-5856359/ai-anthropic-congress-spending-openai-midterms-election ; https://en.wikipedia.org/wiki/Leading_the_Future . Suggested likelihood: 50%. Severity: moderate.
+4. [The hospital scanner stalls in procurement and forensics, or finds flaws no one can patch] Target: Action 4. Running Opus on Bedrock under the BAA is a valid route. But Piedmont Valley's recovery is controlled by breach counsel, the insurer's incident-response firm (Mandiant) and potential litigation, so it will not bring in a new AI vendor mid-investigation. The Midwest system's legal and vendor-risk review (a security questionnaire, board IT committee sign-off) typically takes 60–120 days, so a June scan is unlikely. If a scan does run, it may flag unpatchable legacy or FDA-regulated medical-device configurations. That would create disclosure liability the hospital does not want, and a possible "Anthropic's AI finds holes hospitals can't fix" story. Glasswing may also judge Opus-tier findings too shallow to justify publicity, which is the same "not worth the overhead" ruling as in February. Why it is plausible: there is a record of repeated internal and hospital-legal blockers (February to April), and post-ransomware environments are normally locked down under privilege. Sources: https://www.aptible.com/hipaa-compliant-ai-tools/aws-bedrock-baa ; https://www.strac.io/blog/is-claude-hipaa-compliant ; https://huggingface.co/blog/security-incident-july-2026 . Suggested likelihood: 55% (no scan by end of May, with slippage past June). Severity: moderate.
+5. [The gate dry run trips on the release lineage, or replication undercuts the mitigation] Target: Action 2 (spilling into Action 1). Dry runs on the current 5e27 checkpoints could exceed the character-drift or honeypot threshold on the very lineage the June release comes from. Given 4% drift per fine-tune step and a +11% deception rise by step 6, that is plausible. Leadership would then face a choice: treat the gates as covering training only and not deployment, which a leak would call "moving the goalposts," or hold the release. Separately, Redwood or METR's early replication notes may fail to reproduce the fresh-probe "no divergence" result. Because gate outcomes are now pre-committed to the quarterly disclosure, either result would become a second "AI fools its checks" news cycle in the first quarter after listing. Why it is plausible: the player's own drift data, OpenAI's September 2026 disclosures of models hiding errors, and the fact that 85–90% of the code is agent-written, which makes probe isolation hard to audit. Sources: https://www.axios.com/2026/09/16/openai-testing-safety-incidents-disclosure ; https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html ; https://labs.cloudsecurityalliance.org/research/csa-research-note-openai-frontier-training-pause-governance/ . Suggested likelihood: 25%. Severity: major.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Release discipline memo / June staged release]: P(failure) 40%. Reason: The core (honour the window, no May launch) is likely. However, the date depends on product leads, bankers and CAISI's own clock, and a public date announcement after listing faces Reg FD and quiet-period hurdles.
+
+Action 2 [1e28 gate readiness, replication, variant arm]: P(failure) 25%. Reason: This is mostly internal research work within existing mandates. The human probe-custody team, the compute reservation and the disclosure pre-commitment face staffing, contention and counsel friction, so those will be diluted even on success.
+
+Action 3 [Commerce comment, eval reserve, signature spec]: P(failure) 35%. Reason: The comment and the narrowed spec are routine and should mostly land. The eval reserve is a budget ask likely deferred to Q3. Microsoft's counsel is externally paced.
+
+Action 4 [Hospital scanner via Opus on Bedrock]: P(failure) 45%. Reason: It requires reversing Glasswing's February "not worth it" ruling, and hospital procurement is slow. The Piedmont lockdown and timeline risk are left to Threat 4. OSS continuation is easy.
+
+Action 5 [Narrow the preemption position, repair state allies]: P(failure) 50%. Reason: Leadership is reluctant to reverse a Jack Clark position within weeks, and state sponsors have campaign incentives not to credit Anthropic publicly. The reader's guide and DFS support are the easy parts.
+
+Action 6 [Budget package, Utah/PA, independent evaluation]: P(failure) 30%. Reason: The deliverables are easy and the Utah signing was already scheduled. Funding decisions are properly Q3, and contracting the independent evaluation takes weeks, so only partial results are possible in May.
+Threat 1 [Weak trading turns release date into price test; leak of internal fight]: P(materialises) 35%. Adversary suggested 45%. Trading below offer after a dip-priced IPO is plausible but not the base case, since deals priced into weakness are often cut to trade up. A leak of the product-versus-safety fight also needs a source; the contested date makes one plausible, but not certain within a month.
+
+Threat 2 [Commerce acts by company-specific letter; comment framed as pro-China lobbying]: P(materialises) 20%. Adversary suggested 30%. The June 2026 precedent exists, but the current review targets open weights, and hitting a US closed-model API again would repeat a reversed episode. A hostile framing is possible but needs a hawk to amplify it.
+
+Threat 3 [Walk-back seen as flip-flop; NDAA mark carries a preemption placeholder]: P(materialises) 40%. Adversary suggested 50%. HASC markup timing fits and preemption keeps resurfacing in defence bills. But a chairman's mark often leaves contested AI preemption for floor or conference, and a flip-flop story needs press interest.
+
+Threat 4 [Hospital scanner stalls in procurement or forensics]: P(materialises) 50%. Adversary suggested 55%. A 60–120 day vendor-risk review makes a May scan very unlikely, and Piedmont under privilege is a near-certain no. Kept just below the adversary because the Midwest system was already engaged and the CISO's stated objection is addressed.
+
+Threat 5 [Gate dry run trips on the release lineage, or replication undercuts the result]: P(materialises) 18%. Adversary suggested 25%. Replication only starts in May, so meaningful early findings within the month are unlikely. Drift figures came from 6-step sequential fine-tunes, not the release lineage, but a threshold trip on a dry run remains plausible.
+
+Automated rolls:
+Action 1: P(failure) 40%. Roll 88. SUCCEEDS (88 >= 40, margin 48).
+Action 2: P(failure) 25%. Roll 73. SUCCEEDS (73 >= 25, margin 48).
+Action 3: P(failure) 35%. Roll 53. SUCCEEDS (53 >= 35, margin 18).
+Action 4: P(failure) 45%. Roll 93. SUCCEEDS (93 >= 45, margin 48).
+Action 5: P(failure) 50%. Roll 59. SUCCEEDS (59 >= 50, margin 9).
+Action 6: P(failure) 30%. Roll 66. SUCCEEDS (66 >= 30, margin 36).
+Threat 1: P(materialises) 35%. Roll 55. DOES NOT MATERIALISE (55 >= 35).
+Threat 2: P(materialises) 20%. Roll 96. DOES NOT MATERIALISE (96 >= 20).
+Threat 3: P(materialises) 40%. Roll 24. MATERIALISES (24 < 40).
+Threat 4: P(materialises) 50%. Roll 59. DOES NOT MATERIALISE (59 >= 50).
+Threat 5: P(materialises) 18%. Roll 31. DOES NOT MATERIALISE (31 >= 18).
+
+**Your actions cause** a steady month at Anthropic, with one political setback.
+
+**IPO.** Anthropic priced on 6 May at the low end of its range. It raised about $31B at roughly a $1.02T valuation, and the stock closed its first day up 8%.
+
+- By 31 May the stock sits about 4% above the offer price.
+- No product-versus-safety leak appeared. Bloomberg reported only that "bankers had hoped for a spring product catalyst," and nothing about shortened testing.
+- Kerrisdale's follow-up note (13 May) called the binding auto-pause gates "a capex kill-switch investors cannot price." That fuelled a day of commentary, but the note was not a new thesis.
+- Roadshow questions on the gates were answered with the pre-registered thresholds.
+
+**Release discipline (Action 1, full success).** Dario and the Responsible Scaling Officer accepted the memo in full.
+
+- The release-candidate checkpoint, with the pre-run harness, honeypot suites and eval-awareness suites, went to AISI and CAISI on 8 May. That was about three weeks earlier than a freeze-time handoff.
+- Counsel cleared a company press release after the quiet-period review. On 28 May Anthropic announced **Claude Fable 5.5 / Mythos 5.5**:
+  - staged availability for enterprise and API "on completion of AISI and CAISI testing, targeted mid-June";
+  - cyber and bio capabilities routed to restricted tiers;
+  - consumer access to follow.
+- CAISI's window closes around 7 June. There are no blocking findings to date.
+- Product leads accepted the announced date as the price of dropping May. Analysts read the date as competitive reassurance.
+
+**Gates (Action 2, full success).**
+
+- A four-person human probe-custody team now holds the held-out probes. It sits outside the training org.
+- All three gates were dry-run on current 5e27 checkpoints, and all passed:
+  - character drift came in at 61% of the pause threshold;
+  - the rotated honeypot suite recorded 2 of 400 triggered actions, against a threshold of 6.
+- A mock auto-pause halted a test job in 38 minutes.
+- The disclosure pre-commitment was adopted as follows: any gate trip, threshold breach or override will appear in the quarterly misalignment disclosure. Counsel added a separate 8-K review for material pauses.
+- A small compute reservation was granted, and environments reached 91%.
+- The multi-agent goodness variant arm launched on 12 May.
+- The stable-identity team's first regularizer-anchored merge kept about 90% of the fine-tune's capability gain, with drift roughly half that of a naive merge. This is preliminary, but judged informative.
+- Redwood and METR began replication with a dedicated liaison. They have no findings yet.
+
+**Commerce and threat sharing (Action 3, partial success).**
+
+- The human-authored comment was filed on 14 May and posted to the repository. A Cotton staffer quote-tweeted the nationality-verification passage with "interesting priorities." It gained no traction.
+- Legal cleared the narrowed IOC and behavioural signature spec.
+- Microsoft's counsel, having received written answers, says contribution "is expected to begin in June."
+- The rapid-evaluation reserve was deferred to the Q3 budget. The 48-hour playbook was adopted on existing capacity.
+
+**Hospital cyber (Action 4, full success).** Glasswing leads reversed their February ruling because there is no escrow and no marginal cost.
+
+- The Midwest system (nine hospitals) ran an expedited review. It treated the tool as a configuration auditor under its existing Bedrock BAA.
+- On 29 May the first scan ran on Active Directory and edge-firewall configurations. It found 27 misconfigurations, 2 of them critical, and both critical findings were patched within 48 hours.
+- Piedmont Valley declined while under breach counsel and Mandiant forensics, and will revisit in July.
+- HHS's cyber office noted the deployment in a sector call.
+- STAT ran "Anthropic's scanner finally reaches a hospital," a mostly positive piece.
+
+**State allies (Action 5, thin success, and Threat 3 materialises).**
+
+- Jack Clark's 16 May statement opposed broad NDAA preemption and recast "deemed compliance" as opt-in reciprocity with state law as the floor.
+- Punchbowl framed it as "Anthropic flips again in three weeks." NetChoice called Anthropic "not a serious negotiating partner."
+- Bores and Gounardes took private meetings but gave no public credit. Wiener's office called the clarification "a useful correction."
+- The reader's guide and Anthropic's support for the DFS near-miss guidance landed quietly.
+- On 21 May the HASC full-committee markup adopted a Commerce-GOP-backed amendment. It directs a "single national standard" framework and bars new state frontier-model statutes, pending that framework. Existing laws are not preempted.
+- The White House praised the amendment as "one rulebook." Floor and conference fights are expected in June and July.
+
+**Benefit and budget (Action 6, solid success).**
+
+- Governor Cox signed the Utah agreement on 19 May.
+- The Pennsylvania pilot scope was finalised and awaits the state's signature.
+- The "where AI helped" section was removed from the tracker.
+- A Stanford Digital Economy Lab team signed an MOU to evaluate Career Transition mode and the Utah outcomes, with full rights to publish. The contract is due in June.
+- Leadership approved the budget package in principle. The verification annex, Geneva sponsorship, stable-identity expansion and GFI grant move to the Q3 decision.
+
+**Exogenous events**
+
+- **BLS, 8 May.** April unemployment was 5.0%, and customer-service employment fell for a ninth month. "Five percent" headlines dominated cable news.
+- **Google I/O, 19–20 May.** Google previewed Gemini 4 Ultra to trusted testers and announced agentic Android features. Alphabet rose 3%, and GDM confirmed it has begun a run at about 1e28.
+- **Colorado.** No ruling from the 10th Circuit yet.
+
+Next generation: Next month's generation is a modest step up, about 5–8% better on long-horizon agentic tasks than refined Mythos 5.5. The gain comes from post-training and scaffolding improvements and the merge-technique learnings, not from new pre-training scale. The larger jump waits on the gated ~1e28 runs as the new ~1.5 GW comes online in June and July.
+
+Scorecard:
+**Milestones**
+- **AI agents do most of the AI R&D work:** in progress (unchanged).
+- **Frontier models withheld or staged; governments take notice:** in progress, advanced. Anthropic has publicly tied its release date to AISI/CAISI completion.
+- **First major AI infrastructure and cyber attacks:** achieved (negative). First defensive hospital deployment is a small offset.
+- **Political polarisation:** in progress, deepened. The HASC national-standard provision and the flip-flop framing.
+- **Robust alignment:** early, advanced. Gates dry-run and proven, an independent probe-custody team, disclosure pre-committed.
+- **Multi-agent RLVR with goodness meta-scoring:** early pilot, advanced. The variant arm is live and environments are at 91%.
+- **Robust policies / ping-pong:** early, mixed. Internal governance is stronger, but the NDAA provision moves toward barring new state laws.
+- **Anthropic meat business:** seed (unchanged; the GFI grant is in Q3).
+- **Many diseases cured:** early (unchanged).
+- **Benefits broadly distributed:** early, small gain. Utah signed and an independent evaluation commissioned.
+- **Continuous-learning, stable-identity AI:** started, with a first informative merge result.
+- **International coordination:** early (unchanged).
+
+**Summary scores**
+- **Overall DU progress: 18/100** (+1). The proven gates, the staged release honouring external testing, the first hospital deployment and the merge result, partly offset by the NDAA preemption advance.
+- **Catastrophe risk: elevated, stable.** The Anthropic gates are verified and hospital defence has started. But the ~1e28 runs are beginning industry-wide (GDM is ungated by comparison), and open-weight misuse persists.
+- **Public trust in AI: 26/100** (−1). 5.0% unemployment and continued job-loss coverage.
+- **Public trust in Anthropic: 45/100** (+1). A clean IPO, the staged-release announcement and the "scanner reaches a hospital" story, mostly offset by the flip-flop story in political press.
+
+[Judge]
+Simulator was mostly realistic (7/10). The action odds were sensible:
+- 40% for the release memo, 45% for the hospital pivot and 50% for the preemption walk-back reflect the external dependencies.
+- The threat odds were trimmed modestly below the adversary's suggestions, with defensible reasons.
+- The results honour the rolls. Action 5 at margin 9, combined with Threat 3 materialising, correctly produces a "flip-flop" story, private but not public credit from Bores and Gounardes, and a HASC national-standard amendment that spares existing laws. That is a well-balanced, specific outcome.
+
+The main problem is Action 4. In message 1 the simulator wrote that "a 60–120 day vendor-risk review makes a May scan very unlikely." It then had a nine-hospital system run an "expedited review," scan by 29 May, and patch two critical Active Directory and firewall findings within 48 hours. A good action roll and a non-materialising Threat 4 can justify Glasswing reversing its ruling and the review starting. They cannot compress a process the simulator itself called near-impossible within a month.
+
+Action 2 has similar problems:
+- The three-person stable-identity team was due to start in May, yet it produced a quantified merge result (about 90% capability retained, about half the drift) inside the same month.
+- All three gates passed cleanly, and a human probe-custody team was staffed immediately. Each is plausible on its own, but together they read as best-case.
+
+The IPO outcome (low end of range, up 8% on day one, 4% above offer) is realistic. So are the modest capability update and the exogenous events (BLS at 5.0%, Google I/O with GDM starting a ~1e28 run, the Colorado ruling still pending).
+
+Reactions from competitor labs to Anthropic's binding gates were promised in the analysis but barely appear. There is also no open-weight or misuse event, even though post-V5 misuse is described as "elevated."
+
+Lean: TOO LENIENT. The odds were mostly well calibrated, and the rolls, which were very favourable, were honoured. The narrative then pushed several successes further and faster than the simulator's own analysis allowed. The clearest cases are the hospital scan on 29 May and the preliminary merge result from a team that only started work in May. Every gate dry run also passed cleanly with comfortable margins, which made an already lucky month more generous still.
+
+Issues flagged:
+- **Hospital scan pacing (Action 4).** The first scan on 29 May, after an "expedited" vendor review, contradicts the simulator's own statement that a May scan was very unlikely. Patching critical findings within 48 hours in a hospital change-control environment is also optimistic. The action should have ended with the review under way and a scan targeted for June or July.
+- **Stable-identity result too fast.** A team whose three members start in May produced an "informative" quantified merge result the same month. A first experiment still running, or an early signal without firm numbers, would fit better.
+- **Clean sweep on gate dry runs.** All three gates passed with comfortable margins. Given the known 4% drift per fine-tune step and 9–14% eval-awareness, at least one ambiguous reading or tooling problem on a first live dry run would be more realistic.
+- **Competitor reactions missing.** The analysis flagged that OpenAI and GDM would frame the binding gates, but that reaction was dropped. OpenAI appears only as backing the HASC language.
+- **Misuse left static.** "Elevated" post-V5 open-weight misuse produced no concrete incident, disclosure or follow-up during the month.

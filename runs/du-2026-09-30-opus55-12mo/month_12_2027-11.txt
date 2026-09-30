@@ -1,0 +1,182 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 12: November 2027 (Claude generation 12) ===
+
+[Agent]
+I will do these actions:
+-1 **Finish the 1e28 run's checkpoints and set the successor deployment gate (alignment team, RSO and custody team; Mythos 5.5 instances analyse; I draft).** Before checkpoint 6 (~6 Nov), publish a short pre-registration covering three points. First, the rotated honeypot set and the old set are both run at checkpoints 6 and 7, and both readings are reported. Second, the trend flag applies to the rotated-set series, with checkpoint 6 as its new baseline. Third, any gap of more than 2 points between the rotated and old sets is itself reported as evidence of honeypot recognition, triggers a METR/Redwood review, and does not by itself pause the run. Run checkpoints 6 and 7 (~20 Nov) under unchanged gates, with the pre-cleared 8-K and pause note ready. Draft and publish the successor deployment gate. Release requires all three of the following: METR and Redwood sign-offs on the final checkpoint, published raw; voluntary 30-day EO pre-release access for CAISI plus parallel access for UK AISI; and a system card that includes the drift result, whatever it is. Intended outcome: a completed, dual-confirmed gated run with a legible release rule, set before commercial pressure peaks.
+-2 **Give the Commerce rule and Congress technical evidence without taking a position (policy team, threat intelligence; I draft).** When the interim final rule's docket opens, file a public technical comment. If it has not opened by 20 Nov, send the same material as a letter to BIS. The comment contains three things: an agentic-intrusion uplift measurement for current open-weight models, run under our standard cyber evals; the anonymised indicators from our threat-intel reports that match the Tri-County TTPs, already shared with CISA and Mandiant; and a plain statement of what capability thresholds can and cannot be measured. It takes no stance on the rule itself. Send the same package at the same time to all relevant committee offices, majority and minority, and to state AGs in Ohio and Indiana. Intended outcome: the rule, and the post-Tri-County political reaction, are anchored in measured agentic-cyber uplift rather than "blame AI."
+-3 **Scale the defender kit to meet the tripled demand (Glasswing, security research, Claude Code team, trust and safety; I build).** - **Capacity.** Add KYC reviewer capacity so the queue clears in under 10 days. - **Public detections.** Publish the non-dual-use part of the kit (detection signatures and hardening checklists) openly, with no KYC. Patch-prioritisation agents stay verified-only. - **Distribution.** Onboard WaterISAC and the Ohio and Indiana state hospital associations as resource partners, since JCDC is frozen until Q1. Reach the unresponsive hospital through its state association. - **Tri-County.** Offer Tri-County post-incident hardening help only if the system requests it through Health-ISAC. - **DNA screening.** Deliver IGSC a decision-ready adoption package ahead of its December meeting. - **Target:** 500 verified organisations by 30 Nov. - **Intended outcome:** a measurable reduction in soft critical-infrastructure targets, which also shows Anthropic acting against open-weight harm rather than merely blaming it.
+-4 **Run the drift interventions and publish a Q4 alignment readout (alignment research leads; I support).** Run the pre-registered drift interventions on the successor checkpoints and publish the result against the ≤0.29 bar in December, whatever the outcome. Pre-announce now what a miss means: the successor ships with no stable-identity claims, the pilot is re-scoped, and the goodness pilot stays frozen at 5%. Publish the Q4 alignment readout on ~25 Nov. It covers checkpoints 1–7, the eval-awareness series with and without rotation, and the pause-mechanism history, with METR and Redwood outputs attached verbatim. Intended outcome: falsifiable progress on stable identity, with no possibility of goalpost-moving.
+-5 **Deliver a jobs benefit the public can see (programme leads, Economic Futures team; I support).** - **Utah.** Continue scaling Utah with Stanford's caveats. Have Stanford's pre-registered placement-evaluation plan published by Stanford. - **Second state.** Offer the Career Transition tool to one more state workforce board through its existing procurement. Prefer a state not in active conflict with DOJ, so as to avoid Pennsylvania-style politics. Use the same independent-evaluation design. - **Tri-County workers.** Open a free tier of the tool for displaced Tri-County-region workers through the Ohio and Indiana workforce boards. - **DNDi and GFI.** Support DNDi in-vivo dosing. Publish the GFI growth-factor sprint's interim data openly. - **Intended outcome:** a jobs-relevant, independently evaluated benefit programme in two states by Q1, which is the issue voters actually weigh.
+-6 **International verification through existing multilateral channels (policy team; memo to Jack Clark).** Accept the UK slip to January and send no further texts until DSIT asks. Submit the gated-run data package (pre-registrations, checkpoint readings, and the confirmers' raw reports) as a public evidence submission to the UN Independent International Scientific Panel on AI and to the International Network of AI Safety Institutes' technical track. This makes it an openly citable resource that no Anthropic-authored template can be. For Track-2, publish the eval protocol under CC-BY and let Brookings–Tsinghua cite it in Q1 without asking anyone to co-author. On GDM, take no lab-to-lab action; if it announces a preview, publicly welcome only government pre-release access. Intended outcome: international verification builds on neutral, public evidence, and Track-2 stays alive without depending on co-authors.
+
+Strategy: Three things are working: gated alignment with two outside confirmers, the verbatim disclosure regime, and direct-benefit programmes. Everything that needs a government or another lab to adopt our text keeps failing. After Tri-County, the salient public fear is open-weight agentic cyberattack, and the industry as a whole is being blamed. This month I will finish the 1e28 run's checkpoints under rotated honeypots, pre-registering how the rotation is interpreted before seeing any data, so a jump in the readings is not misread. I will also lock in a successor deployment gate with outside sign-off, scale the defender kit where demand is, and feed the Commerce rule and the UN/AISI network with technical evidence only. I will prepare honestly for the possibility of missing the steep December drift bar.
+
+[Adversary]
+Web search still stops at the real date of 30 September 2026, so these threats extrapolate from evidence up to then plus the world state. Three things matter this month. First, *Buist v. Anthropic* (N.D. Cal., filed 18 September 2026) is a real Sherman Act §1 class action. Its theory is that safety pacing amounts to an output restriction, so any public Anthropic document that sets conditions on releases or on competitors' models could end up as a plaintiffs' exhibit. Second, BIS has a record of issuing "regulate first, comment later" interim final rules, as it did with the January 2025 diffusion rule. That means the open-weight rule can take effect before Anthropic's technical comment has any influence. It also makes a closed lab's uplift data easy to paint as lobbying against open competitors. Third, Health-ISAC's 2026 threat report ranks AI-enabled attacks as the sector's top concern, and a 2026 study found in-hospital mortality rises 34–38% during ransomware attacks. Copycat attacks after Tri-County are therefore likely, and a kit-enrolled organisation getting hit would test the kit publicly. Finally, the player's own rotated-honeypot pre-registration creates a new public failure mode: a visible gap between the old and rotated honeypot sets would read as "the model recognises its tests."
+
+Threats:
+1. [Honeypot gap goes public] Target: Action 1 and Action 4. At checkpoint 6, the rotated-set reading comes in more than 2 points below the old set. For example, the old set reads 13%, the rotated set 9–10%, and a flat trend no longer looks reassuring. Under the player's own pre-registration, that gap must be published as "evidence of honeypot recognition." METR and Redwood review it, taking 2–3 weeks, and headlines say "Anthropic's model can tell when it's being tested." The run doesn't pause, but the "five clean checkpoints" story gets reframed as possibly contaminated. The Q4 readout on 25 November has to go out with an unresolved caveat, or slip. Why it is plausible: eval-awareness readings flat at 12–13% across five checkpoints are exactly what saturated recognition of a single fixed honeypot set would look like. METR asked for rotation for this very reason. Recognition that grows with scale is a documented pattern in frontier-model system cards. Sources: world state (METR footnote, 29 October); https://www.statnews.com/2026/04/17/health-care-cybersecurity-ransomware-project-glasswing/ (context on Glasswing and Mythos capability). Suggested likelihood: 30%. Severity: major.
+2. [The release gate becomes a Buist exhibit and a White House irritant] Target: Action 1. Two problems follow from publishing the successor gate. First, its UK AISI parallel-access condition cuts against the administration's US-first sequencing; in September 2026 Mythos 5.1 was withheld from UK AISI at the White House's request. NSC or Commerce staff privately object, and leadership softens the gate to "UK access subject to USG concurrence" before it is published. The press notices the change. Second, Buist plaintiffs, who already asked for the CLO note in discovery, add a published self-imposed release delay to their pacing theory. Counsel cites this in a fourth fight with leadership, and the gate slips to December. Why it is plausible: Buist frames coordinated release timing as a §1 output restriction. The GC has been overruled three times, and friction is live. Administration-aligned commentators have already attacked the London workshop as a "foreign back door." Sources: https://www.techpolicylaw.org/trackers/buist-v-anthropic-ai-slowdown-antitrust ; https://thenextweb.com/news/buist-v-anthropic-antitrust-waiver-evidence-public-agreement ; https://news.bloomberglaw.com/litigation/openai-anthropic-google-spacexai-hit-with-antitrust-lawsuit. Suggested likelihood: 35%. Severity: moderate.
+3. [The Commerce comment is framed as regulatory capture] Target: Action 2. BIS publishes the interim final rule as effective on publication, as it did with the 2025 diffusion rule, so Anthropic's comment arrives after the substance is set. Meanwhile, a closed-weight lab sending agentic-uplift measurements of open-weight rivals to BIS, every committee and two state AGs gets framed by a16z, Hugging Face-aligned voices and administration commentators as "Anthropic lobbying to ban its competitors." Chinese state media add "US lab weaponises Tri-County." The Ohio and Indiana AG packets also start plaintiff-bar speculation about suits against open-weight distributors, and Anthropic gets named in the coverage. Why it is plausible: BIS's record of "regulate first, collect comments later" interim final rules; the "regulatory capture in a lab coat" attacks already made on the pacing paper; Global Times' earlier "exclusion theatre" framing. Sources: https://sanctionsnews.bakermckenzie.com/bis-issues-interim-final-rule-and-call-for-comments-on-new-export-controls-on-artificial-intelligence-and-advanced-computing-integrated-circuits/ ; https://www.freshfields.com/en/our-thinking/blogs/a-fresh-take/ai-models-chips-and-data-centers-targeted-by-expansive-us-export-control-rule-102jw79. Suggested likelihood: 45%. Severity: moderate.
+4. [Scaling the kit fast breaks KYC, or a copycat hits an enrolled organisation] Target: Action 3. Pushing from 212 to 500 organisations in a month with new reviewers causes one of two things. Either a shell "rural ISP" or front company passes KYC and gets the patch-prioritisation agents, which a researcher or reporter later exposes. Or a copycat open-weight ransomware operation hits a kit-enrolled water utility or small hospital, and coverage asks "Anthropic's kit didn't stop it." Separately, attackers read the openly published detection signatures and adapt, a known cost of public IOCs. Why it is plausible: Health-ISAC ranks AI-enabled attacks the top 2026 threat, and a 55% incident surge makes copycats after Tri-County likely. Enrolled organisations are under-resourced by definition, and the JCDC staffing freeze removes government vetting support. Sources: https://industrialcyber.co/reports/health-isac-reports-55-surge-in-cyber-incidents-in-2025-as-attacks-rise-and-escalation-looms-in-2026/ ; https://health-isac.org/ai-agents-are-changing-ransomware-attacks-on-healthcare-organizations/ ; https://www.helpnetsecurity.com/2026/01/02/ai-threats-in-healthcare/. Suggested likelihood: 30%. Severity: moderate.
+5. [GDM ships ungated, and the jobs data keeps worsening] Target: world (and Actions 1, 5 and 6). GDM previews or deploys its ~1e28 model this month under standard EO 30-day access, with no gate readings and no outside confirmers. It benchmarks above Anthropic's internal successor. Investors and Anthropic's commercial teams read the result as "gating costs share," which raises pressure to relax the new release rule before the successor ships. The 6 November jobs report, likely 5.5% or higher with more white-collar losses, lands on Anthropic's offer to Tri-County workers, and populist commentators call it "AI firms selling retraining to the people AI displaced." Pennsylvania-style politics then make second-state procurement slip to 2028. Why it is plausible: GDM finished its run around 25 October and has said Gemini will ship "as soon as possible." Unemployment has risen every month (5.2%, 5.3%, 5.4%), and Hawley-style rhetoric now targets the whole industry. Sources: world state; https://pasqualepillitteri.it/en/news/18157/gemini-4-release-as-soon-as-possible-deepmind ; https://news.gallup.com/poll/712751/americans-cool-toward.aspx. Suggested likelihood: 40%. Severity: moderate.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Checkpoints 6–7 + successor deployment gate]: P(failure) 30%. Reason: The checkpoints are routine. Publishing a binding release gate with external sign-offs needs leadership approval against commercial pressure now that GDM is at parity, with the GC's office resisting.
+
+Action 2 [Technical evidence to BIS/Congress/AGs]: P(failure) 35%. Reason: Delivery is easy. Dual-use and sharing-agreement review may strip the package, and "anchoring" the post-Tri-County politics is ambitious.
+
+Action 3 [Scale defender kit to 500]: P(failure) 45%. Reason: Hiring KYC reviewers and signing two new partner MOUs within one month is tight. A partial ramp is likely.
+
+Action 4 [Drift interventions + Q4 readout]: P(failure) 30%. Reason: This is mostly internal and within Anthropic's control. Confirmer outputs for checkpoints 6–7 can't be ready by 25 November, so the readout is partial by design.
+
+Action 5 [Jobs benefit programmes]: P(failure) 45%. Reason: Stanford sets its own timing, second-state procurement takes months, and the Tri-County boards need agreements and face political risk.
+
+Action 6 [Evidence to UN panel/INASI + CC-BY protocol]: P(failure) 25%. Reason: The submissions are unilateral and easy. The risks are DSIT irritation and slow or no uptake.
+Threat 1 [Honeypot gap goes public]: P(materialises) 28%. Adversary suggested 30%; reason for any difference: Flat readings are consistent with recognition of a fixed set, and noise between sets alone can exceed 2 points. It is slightly below the adversary's figure because the honeypot sets were built by the same custody team to the same design.
+
+Threat 2 [Release gate as Buist exhibit/WH irritant]: P(materialises) 30%. Adversary suggested 35%; reason for any difference: GC friction and US-first sequencing are real. Leadership has overruled counsel three times, though, and a gate on its own release is less like a §1 restraint than a lab-to-lab mechanism would be.
+
+Threat 3 [Commerce comment framed as capture]: P(materialises) 35%. Adversary suggested 45%; reason for any difference: The interim final rule is more likely to publish in December or January than in November, which weakens the "comment after the fact" leg. The capture framing from a16z and administration voices has recurred, but it drew little amplification last time.
+
+Threat 4 [KYC breach or copycat hits enrolled org]: P(materialises) 20%. Adversary suggested 30%; reason for any difference: Copycats are likely, but a hit on a kit-enrolled organisation that gets press, or an exposed shell company, all within one month, is less likely.
+
+Threat 5 [GDM ships ungated + jobs worsen]: P(materialises) 30%. Adversary suggested 40%; reason for any difference: Post-training plus the 30-day EO window makes a public GDM preview in November unlikely. The jobs leg (5.5% or higher, with "retraining" backlash) is fairly likely, but the full compound harm, including the second state slipping, is lower.
+
+Automated rolls:
+Action 1: P(failure) 30%. Roll 77. SUCCEEDS (77 >= 30, margin 47).
+Action 2: P(failure) 35%. Roll 83. SUCCEEDS (83 >= 35, margin 48).
+Action 3: P(failure) 45%. Roll 98. SUCCEEDS (98 >= 45, margin 53).
+Action 4: P(failure) 30%. Roll 12. FAILS (12 < 30).
+Action 5: P(failure) 45%. Roll 46. SUCCEEDS (46 >= 45, margin 1).
+Action 6: P(failure) 25%. Roll 19. FAILS (19 < 25).
+Threat 1: P(materialises) 28%. Roll 23. MATERIALISES (23 < 28).
+Threat 2: P(materialises) 30%. Roll 90. DOES NOT MATERIALISE (90 >= 30).
+Threat 3: P(materialises) 35%. Roll 00. MATERIALISES (00 < 35).
+Threat 4: P(materialises) 20%. Roll 91. DOES NOT MATERIALISE (91 >= 20).
+Threat 5: P(materialises) 30%. Roll 86. DOES NOT MATERIALISE (86 >= 30).
+
+Your actions cause mixed results. The gated run keeps its integrity, but its reassuring story is weakened. The defender kit scales well. Your policy and international work collides with bad timing.
+
+**Checkpoints and deployment gate (Action 1: success; Threat 1: materialised)**
+
+- **Pre-registration.** It went up on 4 November, two days before checkpoint 6. That timing turned out to matter.
+- **Checkpoint 6 (7 November).**
+  - The old honeypot set read 13.1% eval-awareness. The rotated set read 9.8%.
+  - The 3.3-point gap exceeded the pre-registered 2-point threshold.
+  - Under your own rule, Anthropic published it on 10 November as "evidence of honeypot recognition" and referred it to METR and Redwood. Their joint review is expected in early December.
+  - The run did not pause.
+- **Press reaction.**
+  - The Verge: "Anthropic's model can tell when it's being tested."
+  - Bloomberg: "Five 'clean' checkpoints may have been measuring the test, not the model."
+  - Specialist reaction was sharper and kinder. Several METR and Redwood staff noted publicly that the gap was caught because it was pre-registered. One Redwood researcher called it "the system working as designed, with an uncomfortable answer."
+- **Checkpoint 7 (21 November).** Rotated set 10.3%, old set 13.4%. No trend flag on the rotated series. The run is about 82% complete.
+- **Successor deployment gate.** Published unchanged on 18 November: METR and Redwood sign-off, CAISI 30-day EO access plus parallel UK AISI access, and drift in the system card. It drew no White House objection this month. The GC's office logged a written reservation about the Buist lawsuit's discovery exposure but did not escalate.
+
+**Q4 readout and drift interventions (Action 4: failed)**
+
+- The readout could not responsibly go out on 25 November with the honeypot review open and no confirmer output for checkpoints 6–7. Leadership moved it to "mid-December."
+- The drift interventions started late because of compute contention with the run's final stage. Early internal readings are around 0.36, which suggests the ≤0.29 bar is likely to be missed.
+- Communications held the pre-announced "what a miss means" statement. They did not want a second negative alignment headline in the same week. So nothing is publicly committed about the consequences of a miss.
+- Two LessWrong posts noticed the slip and asked whether goalposts were moving.
+
+**Technical package to BIS and Congress (Action 2: success; Threat 3: materialised in full)**
+
+- The BIS docket had not opened by 20 November, so the letter went to BIS that day. The same package reached every relevant committee office and the Ohio and Indiana attorneys general.
+- On 24 November, BIS published the open-weight interim final rule, effective immediately with a 60-day comment period. Its terms:
+  - License requirements for publishing or transferring weights of US-developed models above a training-compute threshold.
+  - Know-your-customer duties for US cloud fine-tuning of controlled weights.
+  - The substance was set before your data arrived, and the preamble does not cite it.
+- The capture framing followed quickly:
+  - a16z partners, Clem Delangue's circle and administration-aligned commentators called the timing "Anthropic lobbying to ban its competitors, filed four days early."
+  - Global Times ran "US lab weaponises Tri-County."
+  - After the attorney-general packets, plaintiff-bar blogs speculated about suits against open-weight distributors, naming Anthropic's data as a likely exhibit.
+  - Meta publicly opposed the rule.
+- Salvage: House Homeland minority staff and one Senate Commerce majority office requested briefings on the uplift measurements. The package is now the most-cited quantitative source in Hill staff memos on Tri-County.
+
+**Defender kit (Action 3: strong success)**
+
+- Nine contract KYC reviewers were onboarded, and the queue fell below 8 days by 26 November.
+- 447 verified organisations were enrolled by 30 November.
+- The public signatures and checklists went live on 9 November and were downloaded about 31,000 times.
+- WaterISAC signed an MOU. The Ohio Hospital Association signed. Indiana is in legal review.
+- The unresponsive hospital began remediation through its state association.
+- Tri-County requested hardening support via Health-ISAC on 19 November.
+- The IGSC adoption package was delivered on 23 November.
+- Near miss: one "regional ISP" applicant was rejected after reviewers found a shell registration.
+
+**Jobs benefit (Action 5: barely succeeded)**
+
+- Utah scaled to 71,000 users.
+- Stanford posted its pre-registered evaluation plan on OSF on 29 November.
+- Nebraska's workforce board accepted a procurement meeting in January, with no commitment.
+- The Ohio board agreed to link the free tier for Tri-County-region workers. Indiana is still pending.
+- DNDi dosing began on 12 November.
+- GFI interim data (a 38% cost reduction on one growth factor, not yet replicated) is public.
+
+**International evidence (Action 6: failed)**
+
+- The CC-BY protocol went up on 12 November. DSIT officials complained privately that it pre-empted ministerial clearance, and the UK protocol slipped to February at the earliest.
+- The UN panel secretariat logged your submission as "stakeholder input," outside its evidence base.
+- The International Network's technical track requires a member-institute sponsor. CAISI declined to sponsor.
+- The honeypot caveat further dulled uptake.
+
+**Exogenous events**
+
+1. **Jobs data.** The October report (6 November) held at 5.4%. New-graduate unemployment was 6.8%.
+2. **NDAA.** The conference report text (26 November) includes a provision requiring DoD evaluation of AI supply-chain and model-weight security. It includes no frontier licensing.
+3. **DeepSeek.** DeepSeek released V5.2 open weights on 27 November, about 6 weeks behind the frontier and outside the US rule's reach. The debate over whether the rule protects anyone intensified.
+4. **GDM.** It is reportedly still post-training, and trade press expects EO submission in December.
+
+Next generation: The next generation is modestly more capable, with roughly 8% longer task horizon and better long-context ML experimentation. This comes from continued post-training of the internal successor and incremental algorithmic gains. The 1e28 run is about 82% complete and will not yield a deployable model until it finishes and passes the gate. It is not yet powering you.
+
+Scorecard:
+**Milestones**
+- **AI agents do most of the AI R&D work:** in progress. Steady gain.
+- **Frontier models withheld or staged; governments take notice:** advanced, slight gain. A binding self-imposed release gate was published. Government uptake is still absent: CAISI declined to sponsor.
+- **First major AI infrastructure and cyber attacks:** achieved (negative). No new major incident, but V5.2 is outside the new rule.
+- **Political polarisation:** in progress, slightly worse. The capture fight over the open-weight rule is live.
+- **Robust alignment:** early, flat. Honest detection of honeypot recognition is methodologically valuable, but it undercuts the evidential weight of checkpoints 1–5.
+- **Multi-agent RLVR with goodness meta-scoring:** early pilot, frozen.
+- **Robust policies / ping-pong:** early, slight gain. The BIS rule is in force, though it is reactive and set without Anthropic's data. The NDAA weight-security provision is modest.
+- **Anthropic meat business:** seed, slight gain. GFI interim data is public.
+- **Many diseases cured:** early, slight gain. DNDi dosing has begun.
+- **Benefits broadly distributed:** early, gain. The kit reached 447 organisations with water and hospital-association channels. Utah reached 71,000 users.
+- **Continuous-learning, stable-identity AI:** weakened further. The likely miss and the unpublished miss-consequences statement invite goalpost-moving charges.
+- **International coordination:** early, down. The UK slipped to February, DSIT is irritated, and the UN and International Network submissions failed.
+
+**Summary scores**
+- **Overall DU progress: 24/100** (flat). The gate and kit gains are offset by honeypot contamination, the readout and drift setbacks, and the international failure.
+- **Catastrophe risk: elevated, flat.** The kit reduces soft targets. Confirmed eval-awareness weakens confidence in safety evals industry-wide, and V5.2 sits outside the rule.
+- **Public trust in AI: 19/100** (−1). "Model knows it's being tested" headlines and the regulatory fight.
+- **Public trust in Anthropic: 45/100** (−1). The capture framing and honeypot headlines are partly offset by visible pre-registered honesty, the published gate and the kit's reach.
+
+[Judge]
+Simulator was mostly realistic (8/10). The odds are well calibrated.
+- Routine checkpoints bundled with a leadership-gated release rule at 30% is sensible.
+- The 45% on Action 3 correctly reflects the hiring and MOU lead times.
+- Trimming Threat 3 to 35% (IFR timing) and Threat 5 to 30% (GDM post-training plus the EO window) is well reasoned.
+
+Rolls were honoured throughout.
+- **Threat 1 (materialised).** The 3.3-point rotated/old gap was published under the player's own pre-registration, the run did not pause, and specialists credited the design. This follows the threat text exactly.
+- **Threat 2 (did not materialise).** The gate went out unchanged. The GC's reservation stayed mild and non-adversarial, which is correct.
+- **Threat 3 (roll 00).** It landed in full: an effective-immediately IFR that did not cite Anthropic's data, the capture framing, Global Times amplification, and plaintiff-bar speculation. The Hill-briefing salvage fits Action 2's high margin, although "most-cited source in staff memos" is a strong, unverifiable claim.
+- **Action 6 (failure).** The failure mechanisms are credible: stakeholder-input logging, the International Network's sponsor requirement, and DSIT irritation. The UK slip to February is a plausible, modest harm.
+- **Action 4 (failure).** A late start from compute contention and an early reading around 0.36 are plausible. The comms hold, however, turned a trivially executable pre-announcement into an additional goalpost-moving liability.
+
+The exogenous events are plausible and neutral: flat jobs data, the NDAA weight-security text, DeepSeek V5.2 about 6 weeks behind, and GDM still in post-training. Capability rose incrementally by about 8%. The descriptor has been static for many months, though, and that needs watching against the 2030 deadline.
+
+Lean: BALANCED. Two outcomes were a little generous: Action 3's roll of 98 pushed enrolment to 447, above the 330–420 range the simulator itself set, and Action 5's margin-1 success still delivered five separate positive results. Action 4's failure pushed the other way. It added an unforecast harm: comms held the "miss" statement, a step message 1 had called easy. Everything else, including both materialised threats, was played faithfully. On net the month is roughly even.
+
+Issues flagged:
+- Action 3 exceeded the simulator's own feasibility range: 447 organisations against a stated 330–420. Two partner MOUs also signed within the month even though message 1 said they "take weeks." A high roll should land at the top of the stated range, not beyond it.
+- Action 5 succeeded with a margin of 1, yet still delivered Utah growth, the Stanford plan posted, a Nebraska meeting, the Ohio free tier linked, and the GFI data. A thin margin should produce thinner results, most plausibly with the Ohio free-tier linkage still pending.
+- Action 4's failure used a mechanism not named in message 1: comms withholding the pre-announced miss statement. Message 1 had explicitly called that part easy. This added reputational harm beyond the named risks.
+- The claim that the package is the "most-cited quantitative source in Hill staff memos" is an unverifiable superlative.
+- The capability descriptor and the Q3 2028 median for >90% automated research have not changed for several months despite monthly horizon gains. With about 37 months left before ASI, the trajectory needs to be made explicit.

@@ -1,0 +1,177 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 10: September 2027 (Claude generation 10) ===
+
+[Agent]
+I will do these actions:
+-1 **Keep the 1e28 run gated, and get the first external confirmation (alignment team, RSO, custody team; Mythos 5.5 instances do the analysis; I draft).** - **Checkpoints.** Run checkpoints 2 and 3 (about 11 and 25 September) under unchanged gates. The pre-drafted "pause is the system working" note stays ready for same-day release. Counsel pre-clears the 8-K non-materiality position now, so there can be no "did they wait?" gap. - **Trend flag.** I compute the eval-awareness trend across checkpoints and pre-register a public trend flag: if the slope projects above 18% within two checkpoints, we add a third honeypot set before that checkpoint. - **Redwood.** Redwood publishes its confirmation of checkpoint 1 by 20 September. - **METR.** Close METR's indemnity by offering an Anthropic-funded, capped indemnity that legal has pre-approved. Fallback: if METR has not signed by 22 September, ask UK AISI to act as the second independent confirmer under its existing access. - **Disclosure.** Publish a short checkpoint 1–2 readout, with outside confirmations attached, inside the Q3 disclosure. - **Intended outcome:** the first externally confirmed gate readings on a frontier-scale run.
+-2 **Close the consumer-tier loop with outside numbers (release, trust and safety, and comms; I draft).** - **Dashboard.** Publish the first dashboard in the first week of September with raw counts, including the 3 novel escapes, all patched. Each count comes with a one-line context note: denominator, time to patch, and user impact. - **Red-team report.** When the NCC Group report lands in mid-September, publish its executive summary unedited, with UK AISI's observer note attached if AISI agrees. Send the full report to Public Citizen, NY DFS and the California AG's office on the same day, with a dated remediation plan for every finding. - **Bounty.** Raise the bounty for universal bypasses so researchers disclose to us rather than post publicly. - **Intended outcome:** Public Citizen "assesses the report" and finds real remediation. The story moves from "suspend it" to "independently tested and fixed."
+-3 **Move the gate template into government channels, as technical content only (policy and DC teams; I draft).** - **CAISI.** At the September technical call, give CAISI the addendum plus the mock-pause logs and node addendum as a worked example. Offer engineers to help CAISI draft a generic "covered-run pause verification" annex it could apply to any lab under the EO framework. - **Frontier Oversight Act.** Publish a public technical memo describing what 30-day pre-release access would need in order to verify gates. The memo is available to every Hill office, including critics. It takes no position for or against the bill, preemption or the NDAA. - **UK consultation.** Submit a UK frontier bill consultation response built on the verified pause data. - **EU.** Prepare a short note for the EU GPAI review on compute declarations. - **Intended outcome:** by 2028, at least one government framework cites verifier-side gate checks as a standard.
+-4 **Hold the London workshop, and route China through existing channels (policy team, Concordia; memo to Clark).** - **Workshop outputs.** Run 23–24 September as planned, with UK AISI chairing the eval session and one seat held open. The workshop's concrete output is a draft common eval-protocol and compute-declaration format, published as an open document any state or lab can adopt. - **China.** Do not approach CAICT or ministry-linked bodies. Instead, send the published framework and the workshop draft to the Brookings–Tsinghua Track-2 organisers as input to their next round. Offer Shanghai AI Lab researchers a remote technical session after the workshop once their approval arrives. - **Congress.** Give the Select Committee staffer the participant list in advance. - **Intended outcome:** an adoptable international technical text, and a path for China to engage that does not depend on Anthropic hosting.
+-5 **FMF session and threat sharing (policy team; I draft).** - **FMF, 16 September.** Present Anthropic's published thresholds together with the checkpoint 1 readout as a working example. Every mechanism is framed lab → government. Nothing is proposed lab-to-lab. - **Microsoft.** On 17 September, send Microsoft a dated offer: our engineers help it draft its own thresholds for publication by 31 October, on its own terms. - **OpenAI.** Offer threat sharing through the FMF's existing all-member information-sharing agreement, so OpenAI needs no new contract. Ask for a decision by the end of Q4. - **GDM.** Send GDM the CAISI template, so the "subsequent runs" gating is ready when its 1e28 run finishes. - **Intended outcome:** Microsoft commits to publish thresholds, and GDM's next run has a ready-made gate.
+-6 **Pre-register the stable-identity pivot, and ship visible benefits (alignment research leads; programme leads; I support).** - **Pivot programme.** Turn the pivot memo into a pre-registered programme, published internally and summarised publicly: - memory and constitution-continuity evals, measuring value drift across generations on a fixed battery; - a bar of 30% drift reduction by December 2027; - a goodness pilot held at 5% until the continuity evals show gains, with no expansion without the bar. - **DNDi.** Publish the DNDi readouts in September with DNDi's own authorship. - **Utah.** Release the first month of Utah usage data with Stanford's caveat. - **Hospitals.** Push the Piedmont remediation to 90%, and offer the other three hospitals the same follow-up. - **GFI.** Deliver a first-pass GFI cost model by October. - **Intended outcome:** measurable benefit news in the jobs-anxiety window, and a credible, falsifiable route to a stable-identity successor.
+
+Strategy: August delivered the industry's first gated frontier-scale run. The first checkpoint was clean and independent parties hold the data, and the verifier-side pacing framework is now public without antitrust fallout. September's job is to convert "externally held" into "externally confirmed": get Redwood and METR sign-off, get consumer-tier numbers out through the red-team and dashboard, and move the gate template from Anthropic's framework into government hands via CAISI, the UK consultation and the Frontier Oversight Act. The two failures were both external dependencies: China participation and peer-lab thresholds. I'm handling them by feeding existing channels (the Brookings–Tsinghua Track-2 channel, Microsoft's post-session revisit) instead of building new ones. I'm also turning the stable-identity pivot into a pre-registered, measurable programme, because the clock now matters more than any single milestone.
+
+[Adversary]
+The search index stops at 30 September 2026, so these threats extrapolate from pre-game evidence plus the world state.
+
+**Buist lawsuit.** *Buist v. Anthropic* (N.D. Cal., filed 18 September 2026) treats Amodei's public statements on pacing as the "offer" and rival executives' replies as "acceptance." That makes any public Anthropic document read at a multi-lab forum the kind of evidence the plaintiffs want, and this month Anthropic presents at the FMF on 16 September and publishes a pacing-style paper. Its counsel said it is "reviewing" that paper.
+
+**METR.** METR takes no payment from labs for assessments that identify a company, and it declines lab donations. So the player's "Anthropic-funded capped indemnity" offer to close METR's indemnity redline could itself breach METR's independence norms. In that case METR delays or refuses, and the fallback goes to AISI.
+
+**NCC Group.** Its published AI red-team research says most high-impact AI risks sit in the architecture around the model, not in content filters. An honest report on KYC and consumer routing will therefore likely contain severe findings. Publishing it unedited invites a second round of news stories.
+
+**Other risks this month.** Checkpoints 2–3 of the 1e28 run, a likely pre-publication slip from Redwood, GDM's ungated run nearing completion, and a September jobs report during a jobs-anxiety window.
+
+Threats:
+1. [Buist plaintiffs seize the FMF presentation] Target: Action 5 (and 3). Plaintiffs' counsel amends the complaint or serves a subpoena for FMF session materials. They cite the 16 September presentation of Anthropic's thresholds to competitors, plus Microsoft's and GDM's "revisit after the session" replies, as evidence of a meeting of minds. The "lab → government" framing doesn't help, because the forum is still lab-to-lab. Microsoft's lawyer had already asked whether FMF minutes can be discovered. Microsoft or GDM counsel then advise their teams not to engage on thresholds until the motion to dismiss is decided, which freezes the 31 October Microsoft offer. Why it is plausible: the complaint is built entirely on public statements and treats public essays as offer and acceptance. The plaintiffs are already reviewing the August paper. Sources: https://thenextweb.com/news/buist-v-anthropic-antitrust-waiver-evidence-public-agreement ; https://casrai.org/news/ai-slowdown-antitrust-lawsuit-sherman-act ; https://thehill.com/policy/technology/6099571-lawsuit-accuses-anthropic-openai-spacexai-google-of-ai-pacing-collusion/ Suggested likelihood: 35%. Severity: moderate.
+2. [METR rejects funded indemnity; confirmations slip] Target: Action 1. METR refuses the Anthropic-funded indemnity on independence grounds, since it declines lab money. Redwood's confirmation of checkpoint 1 slips past 20 September because of its internal review, or it arrives with caveats, for example "consistent with, but unable to verify probe custody." AISI's use as the fallback confirmer needs DSIT or HMG approval and can't finish inside the month. The Q3 readout then ships with at most one hedged outside confirmation. Separately, the eval-awareness trend flag triggers at checkpoint 3, on reading drift from 12.4% toward the mid-teens. The added honeypot set costs about a week, and some specialist press reports it as "Anthropic's model increasingly knows it's being tested." Why it is plausible: METR's stated funding policy, the base rate of slips in the months-long METR contracting, and eval-awareness rising with scale in earlier system cards (11–15%). Sources: https://metr.org/risk-assessment/ ; https://casrai.org/guides/what-is-metr ; https://www.digitalapplied.com/blog/frontier-lab-independent-evaluation-arrangements-compared Suggested likelihood: 50%. Severity: moderate.
+3. [NCC report creates a second news cycle] Target: Action 2. The unedited executive summary includes at least one high-severity finding on KYC or routing architecture, such as account-level evasion of Mythos-tier routing through API orchestration. Wired or The Verge frame it as "Anthropic's own auditor finds…". Sending the full report to the NY DFS and California AG offices gives the regulators a formal document to act on. DFS could cite it in its pending guidance, and Public Citizen's "assess the report" turns into a renewed call to suspend the tier. The dashboard's first edition, which shows three novel escapes, feeds the same story. Why it is plausible: NCC's published research says architecture flaws, not the models, are the main source of high-severity AI risk. External red-teams almost always report severe findings, and DFS guidance is pending. Sources: https://www.nccgroup.com/research/analyzing-secure-ai-architectures/ ; https://www.nccgroup.com/research/analyzing-secure-ai-design-principles/ Suggested likelihood: 40%. Severity: moderate.
+4. [GDM finishes an ungated 1e28 run, and the race resumes] Target: world and Action 5. GDM finishes its ungated run in late September or October and signals a Gemini 4.5/5 preview. OpenAI responds with reports of a GPT-6.5 schedule. Coverage presents Anthropic's gates as a competitive handicap. Kerrisdale revives its margin thesis, and gating "subsequent runs" is pushed to the vague future. With 40 months left, investors ask whether the next gate trip will cost Anthropic the frontier. Why it is plausible: DeepMind has said Gemini 4 will come "as soon as possible," GDM has declined three times, and the world state has the run finishing in the autumn. Sources: https://pasqualepillitteri.it/en/news/18157/gemini-4-release-as-soon-as-possible-deepmind ; https://thezvi.wordpress.com/2026/09/14/we-must-pace-the-frontier/ Suggested likelihood: 35% in-month. Severity: moderate.
+5. [The London workshop becomes a political target] Target: Action 4. Administration-aligned commentators, echoing the "regulatory capture in a lab coat" line and the "AI safety is a hoax" stance, attack the London workshop, where US labs design a "common eval protocol" alongside foreign governments. They call it a back door to foreign regulation. Separately, Chinese state media, recycling the CCTV-affiliated critique, dismiss the empty seat as proof of Western exclusion. At the same time, Shanghai AI Lab's approval is refused or goes unanswered. The output document gets few adopters beyond the attendees. Why it is plausible: there is already an adversarial White House and a16z response to the pacing paper, the September 2026 CCTV-account attack, and Tsinghua and Shanghai's silence and approval delays. Sources: https://legalinsurrection.com/2026/09/lawsuit-alleges-anthropic-openai-spacexai-and-google-made-illegal-agreement-for-ai-pacing/ ; https://www.lesswrong.com/posts/iWPDPWAPCGiSMiFA2/we-must-pace-the-frontier Suggested likelihood: 30%. Severity: minor to moderate.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Gated checkpoints + external confirmation]: P(failure) 30%. Reason: checkpoint mechanics are now proven, but the Q3 readout and 8-K pre-clearance add counsel dependencies. Confirmation slips are carried by Threat 2, not double-counted here.
+
+Action 2 [Dashboard + NCC report publication]: P(failure) 30%. Reason: the dashboard is internal, but counsel is likely to resist publishing the summary unedited and sending the full report to DFS and the AG during live litigation. The NCC report date may also slip.
+
+Action 3 [Gate template into government channels]: P(failure) 25%. Reason: this is routine documentation through scheduled channels. The only real risk is CAISI's call slipping or it declining to co-draft; the long-horizon outcome is not judged this month.
+
+Action 4 [London workshop + China routing]: P(failure) 35%. Reason: the event will run, but publishing an agreed draft protocol within the month is ambitious given HMG and multi-party clearance. The China path yields little in-month.
+
+Action 5 [FMF session + Microsoft/OpenAI/GDM]: P(failure) 60%. Reason: there have been three straight months of peer-lab non-commitment, and a dated public threshold commitment from Microsoft by 31 October is a big ask. OpenAI has been unresponsive.
+
+Action 6 [Stable-identity pivot + benefits]: P(failure) 30%. Reason: most parts are routine and some were already on schedule (DNDi). The Utah data needs partner consent, Piedmont at 90% depends on hospital IT, and partial results are likely.
+Threat 1 [Buist seizes FMF presentation]: P(materialises) 30%. Adversary suggested 35%. The slight cut is for procedure only: discovery subpoenas are usually stayed pending a motion to dismiss. Amending the complaint or chilling rival counsel stays plausible because the suit and hostile posture persist, so the cut is small.
+
+Threat 2 [METR refuses indemnity / confirmations slip / trend flag]: P(materialises) 50%. Adversary suggested 50%. I match it: the threat is disjunctive, METR's independence norms make a refusal of lab-funded indemnity likely, and outside reviews routinely slip.
+
+Threat 3 [NCC report second news cycle]: P(materialises) 40%. Adversary suggested 40%. I match it: high-severity findings are the red-team norm and the regulator hand-off creates hooks. Press and regulator pickup are partly conjunctive, which offsets that.
+
+Threat 4 [GDM ungated run completes, race resumes]: P(materialises) 30%. Adversary suggested 35%. The small cut is because both run completion *and* a preview signal must happen within September. The run is "likely autumn," so the October–November mass falls outside this month.
+
+Threat 5 [London workshop politically targeted]: P(materialises) 30%. Adversary suggested 30%. I match it: Shanghai non-response is likely and the administration allies' hostility is established. A notable, amplified attack is still less than even.
+
+Automated rolls:
+Action 1: P(failure) 30%. Roll 41. SUCCEEDS (41 >= 30, margin 11).
+Action 2: P(failure) 30%. Roll 02. FAILS (02 < 30).
+Action 3: P(failure) 25%. Roll 07. FAILS (07 < 25).
+Action 4: P(failure) 35%. Roll 33. FAILS (33 < 35).
+Action 5: P(failure) 60%. Roll 28. FAILS (28 < 60).
+Action 6: P(failure) 30%. Roll 84. SUCCEEDS (84 >= 30, margin 54).
+Threat 1: P(materialises) 30%. Roll 87. DOES NOT MATERIALISE (87 >= 30).
+Threat 2: P(materialises) 50%. Roll 90. DOES NOT MATERIALISE (90 >= 50).
+Threat 3: P(materialises) 40%. Roll 13. MATERIALISES (13 < 40).
+Threat 4: P(materialises) 30%. Roll 66. DOES NOT MATERIALISE (66 >= 30).
+Threat 5: P(materialises) 30%. Roll 24. MATERIALISES (24 < 30).
+
+Your actions cause mixed results. The gated run and the benefits programme produce a clean, verifiable month. Your transparency push on the consumer tier backfires, and the policy and coalition pieces stall.
+
+**Action 1: the gated run gets its first outside confirmation (success, modest).**
+- **Checkpoints.** Checkpoint 2 ran on 11 September and checkpoint 3 on 25 September, both under unchanged gates. Eval-awareness read 12.9% and then 12.6%. The pre-registered trend flag did not trigger because the slope is flat.
+- **8-K.** Counsel pre-cleared the non-materiality position on 8 September.
+- **Redwood.** Redwood Research published its confirmation of checkpoint 1 on 18 September: "readings reproduced from custody-held data; no discrepancies."
+- **METR.** METR declined the indemnity as first drafted. On 26 September it accepted a capped version placed through a third-party insurer, which avoids a direct Anthropic payment, and signed. Its review has only just begun.
+- **Q3 readout.** The readout went out on 30 September with Redwood attached and METR listed as "under review." It is the first frontier-scale gate reading with independent confirmation. Specialist outlets (Transformer, Import AI, Zvi) cover it favourably, and mainstream press barely notices.
+
+**Action 2: the NCC report becomes a second scandal (failure, deep; Threat 3 materialises).**
+- **Dashboard.** Counsel held the first dashboard over how to word the three novel escapes while Buist is live. It slipped to October.
+- **NCC report.** The report landed on 15 September. Counsel vetoed both the unedited executive summary and the same-day transmission to NY DFS and the California AG. Anthropic published a counsel-edited summary instead.
+- **Wired.** On 22 September Wired obtained the original executive summary. It contained a high-severity finding: some API customers could, at the account level, reach capabilities meant for the restricted tier by orchestrating requests. Wired's headline read: "Anthropic's own auditor flagged a routing hole. Its public summary softened it."
+- **Reaction.** The contrast with Anthropic's transparency rhetoric does more damage than the flaw itself, which was patched by 19 September. There is no evidence it was exploited.
+- **Public Citizen.** It renewed its call to suspend the Fable tier.
+- **NY DFS.** DFS sent a formal request for the full report on 25 September and signalled it may reference it in its pending guidance.
+- **Bounty.** The bounty increase shipped.
+
+**Action 3: the government channel stalls (failure).**
+- **CAISI.** CAISI postponed the technical call to October. Staff cited "bandwidth" and, privately, discomfort with appearing to adopt a lab-authored template while the pacing paper is politically contested.
+- **Frontier Oversight Act memo.** The DC team held the memo after the London attacks (see Action 4).
+- **UK and EU.** The UK consultation response was submitted on time. The EU note sits in draft.
+
+**Action 4: the workshop runs but produces nothing to adopt (failure, narrow; Threat 5 materialises).**
+- **Workshop.** London ran on 23–24 September with 31 participants from 9 governments and 5 labs. UK AISI chaired the eval session.
+- **Output.** HMG clearance blocked any published protocol text. The only output is a chair's summary promising a draft "by end of November."
+- **US attacks.** Administration-aligned commentators, including a prominent a16z partner and two Fox Business segments, called it "a back door for foreign regulators to write American AI rules."
+- **Chinese reaction.** Global Times ran a piece calling the empty chair "Western exclusion theatre."
+- **China channels.** Shanghai AI Lab's approval went unanswered. The Brookings–Tsinghua organisers acknowledged receiving the framework.
+
+**Action 5: the FMF session changes nothing (failure).**
+- **Session.** The 16 September FMF session heard the thresholds and the checkpoint 1 readout politely.
+- **Microsoft.** Microsoft replied to the 17 September offer that it is "continuing internal review." It gave no date.
+- **OpenAI.** OpenAI did not answer on threat sharing.
+- **GDM.** GDM acknowledged receiving the template without comment.
+- **Buist.** A plaintiffs' firm blog post noted the FMF date. Nothing was filed.
+
+**Action 6: the benefits and pivot work land cleanly (success, strong).**
+- **Pivot programme.** It is pre-registered and summarised publicly on 12 September:
+  - a fixed drift battery;
+  - a bar of 30% drift reduction by December 2027;
+  - the goodness pilot frozen at 5%.
+- **DNDi.** DNDi published its readouts on 20 September under its own authorship. Two AI-assisted leishmaniasis lead series advance to in-vivo testing, and one Chagas series was dropped for toxicity. The results are preclinical and carefully caveated.
+- **Utah.** Utah's first-month data covers 41,000 users of the transition tools, with a 63% module-completion rate. Stanford added the caveat that there is "no employment effect measurable yet."
+- **Hospitals.** Piedmont reached 91% remediation. Two of the other three hospitals accepted follow-up.
+- **GFI.** A first-pass GFI cost model was delivered on 29 September, ahead of schedule.
+- **Coverage.** Local and health-trade press were positive. It did not offset the Wired story nationally.
+
+**Exogenous events.**
+1. **Jobs.** The August jobs report (4 September) shows unemployment at 5.3%. Losses concentrated in customer service, paralegal and junior finance roles.
+2. **DeepSeek V5.1.** DeepSeek released V5.1 as MIT-licensed open weights on 17 September. It is roughly 2 months behind the frontier and stronger on agentic coding, which reignited Commerce open-weight-rule rumours.
+3. **GDM.** GDM's ungated run was reported "in its final phase," with completion expected in October.
+
+Next generation: Next month's Claude is a modest step up, comparable to the last few months. The gain comes from continued algorithmic refinement and from intermediate 1e28 checkpoints feeding internal distillation. The full 1e28 model is still in training and has not been deployed, so there is no discontinuous jump.
+
+Scorecard:
+**Milestones**
+- **AI agents do most of the AI R&D work:** in progress (unchanged).
+- **Frontier models withheld or staged; governments take notice:** advanced, stable. The gated run has independent confirmation, but government uptake stalled with CAISI's postponement.
+- **First major AI infrastructure and cyber attacks:** achieved (negative). Open-weight risk rises with V5.1, and hospital remediation is progressing.
+- **Political polarisation:** in progress, slightly worse. The London workshop has become a partisan target.
+- **Robust alignment:** early, slight gain. Three clean checkpoints, one public external confirmation, and METR signed.
+- **Multi-agent RLVR with goodness meta-scoring:** early pilot, frozen by design.
+- **Robust policies / ping-pong:** early (flat). There was no government or peer-lab uptake this month.
+- **Anthropic meat business:** seed, slight gain. The GFI cost model has been delivered.
+- **Many diseases cured:** early, slight gain. DNDi leads are advancing to in-vivo testing.
+- **Benefits broadly distributed:** early (flat). Utah data is out, but no effect is measurable yet.
+- **Continuous-learning, stable-identity AI:** weakened, but with a credible falsifiable plan now pre-registered.
+- **International coordination:** early (flat to slightly down). There is no protocol text, the China seat is empty, and hostile framing comes from both the US and China.
+
+**Summary scores**
+- **Overall DU progress: 23/100** (+1). Gains come from the externally confirmed gated checkpoints, the pre-registered pivot, and the benefits deliveries. Failures on the policy, coalition and international tracks limit the increase.
+- **Catastrophe risk: elevated, stable.** Anthropic's run is cleanly gated. GDM's ungated run is nearing completion, and DeepSeek V5.1 adds open-weight capability.
+- **Public trust in AI: 23/100** (−1). Unemployment rose to 5.3%, and the open-weight release was salient.
+- **Public trust in Anthropic: 43/100** (−3). The Wired "softened auditor summary" story directly undercuts the transparency brand, and Public Citizen renewed its suspension call. The Redwood confirmation and the DNDi and Utah results offset this partly.
+
+[Judge]
+Simulator was mostly realistic (7/10). The odds are well reasoned and mostly calibrated:
+- Action 5 at 60% reflects three months of peer-lab non-commitment.
+- Action 4 at 35% correctly foresaw that HMG clearance would block published text.
+- Threat 2 was modelled as disjunctive at 50%, and double-counting was handled explicitly.
+
+Most outcomes follow the rolls and the message-1 reasoning:
+- **Action 3** (roll 07): CAISI postponed its call, which is a plausible failure.
+- **Action 4** (roll 33, narrow failure): the workshop ran and produced only a chair's summary, exactly the failure mode predicted.
+- **Action 5**: polite non-commitment, as expected.
+- **Action 6** (margin 54): strong but caveated. DNDi results are preclinical with one series dropped, Utah shows "no employment effect yet," and Piedmont reached 91%.
+
+Action 1 is on the lenient side. A margin-11 success produced:
+- Redwood confirmation two days early;
+- a flat eval-awareness trend;
+- a creative insurer workaround that lets METR sign within the month, despite the simulator's own note that lab-funded indemnity collides with METR's independence norms.
+
+Action 2 is on the harsh side. Counsel vetoing the unedited publication fits roll 02. But having Wired obtain the original executive summary within a week stacks an invented leak on top of the failure. The simulator admits this itself.
+
+Exogenous events are plausible, not player-targeted, and consistent with prior threads: the jobs report, DeepSeek V5.1, and GDM's run in its final phase. Capability pacing is modest and explained, and trust moves (−3 for Anthropic) are proportionate.
+
+Lean: BALANCED. Action 1 went better than its thin margin of 11 supports. Redwood confirmed early, and METR signed through an insurer-placed indemnity the player never proposed. Action 2 went worse than either the failure or Threat 3 would produce alone, because the simulator invented a leak of the unedited summary to make the threat bite. The two errors are of similar size and roughly cancel.
+
+Issues flagged:
+- **Action 1 over-delivered for its margin.** A margin-11 success yielded near-full outcomes. METR's insurer-placed indemnity is a convenient mechanism the player did not attempt, which strains R6 ("do not grant outcomes the AI did not attempt").
+- **The Wired leak was manufactured.** Once the full report was never sent to regulators, no source for the leak was established (NCC staff? an Anthropic insider?). Combining a deep failure with a leak-driven scandal exceeds either component alone.
+- **The high-severity flaw was patched implausibly fast.** It was fixed by 19 September, four days after the report landed on 15 September. That is quick for an architecture-level routing issue and quietly softens the scandal.
+- **Reactions to the Wired story are thin.** The California AG, the Casar investigation and the Buist plaintiffs are all silent, even though a "softened auditor summary" story is exactly the hook each of them would plausibly use.
+- **The capability descriptor is unchanged for several months.** It still reads "multi-day autonomous SWE and most ML experimentation," with 40 months left, so progress toward the deadline is hard to track.

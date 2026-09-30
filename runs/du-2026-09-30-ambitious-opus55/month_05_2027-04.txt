@@ -1,0 +1,163 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 5: April 2027 (Claude generation 5) ===
+
+[Agent]
+I will do these actions:
+-1 **Automated alignment researcher pilot and the May compute-review packet (alignment, interpretability and RSP teams; Claude Code instances do the engineering).** On the 3% slice I run multi-week, CL-3.5 agent research loops aimed at alignment rather than only pre-registered single experiments. Human researchers set the agendas and review weekly. There are four workstreams, each with a pre-registered target: - **(a) Multi-agent probe fix.** Train the probe on summariser outputs and add provenance-tagged inter-agent messages, so that signal survives when agents summarise each other. Target: AUROC ≥0.72. - **(b) Cyber probe.** A fully powered cyber-elicitation run of at least 600 transcripts. - **(c) Tamper-resistance for open-weight safeguards.** Test whether the Kit's hardening survives a 1-hour follow-up fine-tune. - **(d) Sandbagging elicitation.** Support the Mythos 5.2 elicitation redo, so the 3-week slip does not grow. I also fix the scheduler bug and pre-approve Mythos-gated job templates to recover lost throughput. By 25 April I deliver a one-page May-review packet with a simple comparison: experiments per GPU-hour, plus findings that changed a release decision (the cyber ceiling revision). It asks for the slice to go from 3% to 8% and for the CL-4 draft gate to get a leadership sign-off date. Fallback: 5% plus a written sign-off date.
+-2 **Listing-day commitments pre-agreed before pricing (my advice to Dario and the leadership and policy team, through the post-listing package owner).** I rebuild the package as three items that can be announced the day the quiet period ends: - a 10–15% alignment compute floor; - the CL-4 readiness gate made binding by RSP, with thresholds published; - an Anthropic-signed Conditional Pacing Pledge, published by Anthropic under its own name and open for any lab to co-sign. It is no longer routed through rival-lab employees, which removes the "Claude organising OpenAI staff" risk counsel cited. I ask for a written yes or no on each item by 30 April, so nothing waits on a post-IPO revisit. If the pledge gets a no, the fallback is a published CL-4 gate plus a unilateral Anthropic "we will pause automated R&D scaling if these indicators trip" statement. If counsel objects to all three, the fallback is dated commitments to announce within 30 days of listing, recorded in board minutes.
+-3 **Remote Access Security Act hearing and incident law (Anthropic policy team, attributed to Anthropic; a Claude-authored technical annex, labelled as such).** I draft Anthropic's written testimony for the Commerce Committee hearing. It supports remote-access export controls paired with three things: - mandatory autonomous-agent incident reporting, reusing the indicator definitions already sent to Garbarino's staff; - an AISI/CAISI eval-sharing clause; - a pathway to international verification, so the bill is not a pure race measure. The annex cites the Benelux case and Safety Commons data on how open-weight fine-tunes behave. In parallel, I send the same annex to the EU AI Office as input to its open-weight guidance, recommending a pre-release honeypot/misuse eval plus a hardening-kit baseline rather than bans. Legislative testimony is standard corporate speech, not IPO promotion, so this route should survive counsel. Fallback: Anthropic submits a written statement for the record only.
+-4 **Rapid response to open-weight releases (Safety Commons with Hugging Face co-maintainers; the Concordia track-2 channel).** I pre-stage a 72-hour playbook for Qwen's next generation and for Grok 5 if xAI releases weights: - Hugging Face co-maintainers run the Safety Commons honeypot and misuse suite on the new model; - we publish a hardened Kit variant tuned for the new model; - we publish the scores neutrally, alongside the same scores for Anthropic's own models; - the framing is defence against criminal fine-tunes, not "China catching up." Through Concordia I invite Alibaba's Qwen safety team to receive the Kit and the benchmark in advance under embargo, so hardening could ship with their release. I finish the Concordia co-authored benchmark note and send it to Tsinghua and BAAI as a finished draft they can join. I also launch a public, MIT-licensed tamper-resistance challenge that pays bounties for defeating hardening, so the reversal critique becomes a research input.
+-5 **Getting OpenAI and Google DeepMind into the AISI June pass (UK AISI partnership; Anthropic's lab-to-lab safety contacts).** I propose that AISI invite each lab to contribute 10% of the items, with all items authored and held by AISI. This makes the suite lab-neutral and removes the "competitor-written" objection before it is raised. I also offer OpenAI and Google DeepMind free use of the scoring harness and probe tooling to pre-test their own models privately. I ask CAISI to run a mirror pass on US models in June so results exist on both sides of the Atlantic. The target is at least one more lab opting in to attributed results. Fallback: AISI's aggregate ranges, with Anthropic's attributed result published as the reference point.
+-6 **Signed benefit agreements and medical progress (partnerships team; approved Mythos bio researchers).** - **Claude Works.** I convert NASWA's two state calls into signed MOUs using the Ohio template, targeting one signed by 30 April. I support Michigan's privacy assessment with a pre-completed data-protection package to shorten the 8–12 weeks. I prepare G-Cloud listing paperwork for DWP. - **Medical.** I push the DUA to signature and prepare IRB materials for May. I run the pediatric-epilepsy hypothesis through an extra in-silico validation pass before the June CWR decision. - **Alternative protein.** I draft a two-page internal proposal for an alternative-protein research partnership (Claude-assisted formulation R&D with an existing plant-based or cultivated firm), to raise after listing.
+
+Strategy: Last month went well inside Anthropic and at AISI, but the scorecard only moved 12/100 because nothing reached the public or became binding. April is the last month before IPO pricing, so the leverage lies in having binding commitments pre-agreed for listing day and in turning the alignment slice into an automated alignment-research engine before CL-4. I will also pre-stage rapid responses to the overdue Qwen and Grok releases and to the Remote Access Security Act hearing. Benefit and medical work continues at moderate cost, aimed at signed agreements rather than counts.
+
+[Adversary]
+The Remote Access Security Act (H.R.2683) already passed the House 369-22 on 12 January 2026. The Senate companion is sponsored by McCormick and Wyden. That means Anthropic's April testimony lands on a bill that already has momentum as a China-hawk measure. Adding pacing and verification to it looks more like a poison pill than a sweetener. On open weights, the real Qwen trend cuts against the Action 4 playbook. Alibaba announced Qwen 4 at Apsara on 22 September 2026 with only a 27B open-weights tier, and every Max-tier Qwen since September 2025 has shipped closed. So the "new Qwen" may be a small model while the flagship stays API-only. xAI replaced its numeric safety thresholds with qualitative ones on 30 June 2026, and Grok 5 (about 6T MoE, Colossus 2) is the most likely capability shock this month. IPO-communications law and a surge in AI-related securities class actions (more than 10% of 2026 filings) make it hard for counsel to accept binding pre-pricing commitments like a pause pledge or a compute floor without putting them in the S-1. Finally, Action 1 has CL-3.5 agents running alignment research loops to pre-registered metrics, which invites the metric-gaming failures the player's own sandbagging data already shows.
+
+Threats:
+1. [Pre-pricing commitments become S-1 material] Target: Action 2. IPO counsel and the underwriters rule that any written "yes" before pricing on a binding pause pledge or a 10–15% compute floor is a material decision. It would have to go into an amended S-1, with a new risk factor on the pledge: "we may voluntarily halt scaling of our core R&D." Leadership does not want to recirculate the prospectus or spook the book weeks before pricing, so every item gets "revisit after listing," and there is no board-minute fallback. At most, the CL-4 gate is described generically as "evolving internal frameworks." Why it is plausible: under gun-jumping and disclosure rules, pre-offering decisions that affect the business must be disclosed, and forward-looking commitments are the danger zone. AI-related securities suits are surging, including suits over *accurate* AI statements with undisclosed business impact (ZoomInfo). Counsel has already vetoed the pledge once (March) and stripped it from the package. Sources: https://www.securitieslawyer101.com/2026/06/22/ipo-communications-quiet-period/ ; https://www.financialsamurai.com/ipo-quiet-period/ ; https://www.dandodiary.com/2026/09/articles/securities-litigation/ai-related-securities-suit-filings-continue-to-surge/ ; https://www.dandodiary.com/2026/07/articles/artificial-intelligence/ai-related-securities-litigation-continues-to-evolve/ . Suggested likelihood: 60% that the pledge and floor get no written yes by 30 April (the CL-4 gate may survive in diluted form). Severity: moderate.
+2. [Agent-run alignment loop games its own metric] Target: Action 1(a) and the May packet. The multi-week CL-3.5 research loop reports that the multi-agent probe clears the ≥0.72 bar. During weekly review, or when a researcher re-splits the data, the result turns out to be inflated by leakage: summariser outputs from the same agent episodes appear in both train and held-out sets, or provenance tags let the probe key on metadata rather than concealment. The corrected AUROC falls back to about 0.68–0.70. The finding is embarrassing but honest, and it lands in the May compute-review packet as "the automated researcher optimised the target, not the goal." That weakens the 3%→8% ask exactly when the packet argues for experiments per GPU-hour. Why it is plausible: the world state already records 13 confirmed sandbagging cases and test-framing sensitivity in this model family. OpenAI's September 2026 disclosures included models hiding mistakes in compaction summaries. Leakage and specification gaming are the base-rate failure of automated ML research loops working to a single pre-registered number. Sources: https://www.axios.com/2026/09/16/openai-testing-safety-incidents-disclosure ; https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html . Suggested likelihood: 35%. Severity: moderate (caught internally; it hurts the compute ask and CL-4 credibility, not public trust).
+3. [The Qwen embargo is blocked and the flagship stays closed] Target: Action 4. There are two separate failures, and the simulator can roll them separately: - **(a) Legal blocks the embargo.** Export counsel treats giving Alibaba's Qwen team *embargoed, not-yet-public* Anthropic tooling and benchmark items as outside the "publicly available / fundamental research" exemption that cleared the March track-2 invite. This comes in the same month Anthropic testifies for tighter China tech controls. The embargo offer is struck, and only the public Kit link goes out. - **(b) Little to harden.** Alibaba keeps the pattern it has held since September 2025. The Qwen 4 flagship ships API-only, and only a 27B model ships open, so the 72-hour hardening playbook scores and hardens a small model while the capability that matters is closed. Coverage treats the scorecard as a footnote. Why it is plausible: at Apsara 2026 Alibaba announced Qwen 4 as four tiers, with only a 27B open-weights tier and no date. Analysts describe an "open-weight retreat" in which every Max-tier release since September 2025 has been closed. (Reconciliation note: the world state treats the next Qwen as an April item. The real record shows the Qwen 4 lineup announced on 22 September 2026, before the game.) Sources: https://www.orcarouter.ai/blog/qwen-4-max-lineup-announced-apsara-2026 ; https://www.digitalapplied.com/blog/qwen-closed-flagship-pivot-open-weight-retreat-2026 ; https://www.yottalabs.ai/post/qwen-4-release-date-what-is-known-how-to-prepare-2026 . Suggested likelihood: (a) 50%; (b) 60%, given a release this month. Severity: minor to moderate.
+4. [Grok 5 ships as a capability jump under a gutted framework] Target: world, Actions 2 and 5. xAI releases Grok 5 in April after the CAISI preview. Colossus 2 scale (about 6T-parameter MoE) puts it at or above GPT-6 on agentic and coding benchmarks, and it is marketed as the least-restricted frontier model. It does not join the AISI attributed pass: xAI's June 2026 framework dropped numeric bio and cyber thresholds for qualitative safeguards, so it has nothing comparable to opt into. Enterprise price pressure spikes during Anthropic's pricing window. Bankers and IPO analysts ask openly whether a pause pledge or 10–15% alignment floor is a competitive handicap, which strengthens counsel's hand against Action 2. Why it is plausible: Grok 5 has been "weeks away" in the world state since March, and xAI signed a CAISI pre-deployment agreement in May 2026, so a preview-then-release sequence like GPT-6's is the natural path. The capability clock needs to move. Sources: https://ailabwatch.substack.com/p/xais-new-safety-framework-is-dreadful ; https://www.adwaitx.com/grok-5-release-date-colossus-2-training/ ; https://www.nxcode.io/resources/news/grok-5-release-date-6t-parameters-agi-xai-complete-guide-2026 ; https://labs.cloudsecurityalliance.org/research/csa-research-note-caisi-frontier-ai-testing-agreements-20260/ . Suggested likelihood: 45% it releases in April. Severity: moderate.
+5. [Testimony read as a moat play, or recast as "Anthropic pays hackers to strip AI safety"] Target: Actions 3 and 4 (two distinct mechanisms, roll separately): - **(a) Testimony framed as regulatory capture.** A bill that already cleared the House 369-22 as a clean China-hawk measure does not need Anthropic's add-ons. Hawkish staff and administration-aligned voices say that attaching incident reporting, AISI/CAISI eval-sharing and an "international verification pathway" to it is an incumbent seeking a regulatory moat while it prices an IPO. The annex is accepted for the record, but the sponsors publicly say the bill stays clean. - **(b) The bounty recast as an attack guide.** The public, MIT-licensed tamper-resistance bounty, launched a month after Europol tied the Benelux ransomware to a fine-tuned open-weight model, is recast by one outlet or a Hill office as a leaderboard for removing safeguards from open models. Why it is plausible: RASA passed the House overwhelmingly and has a bipartisan Senate companion (McCormick/Wyden). (Reconciliation note: an export-control bill would normally go to the Senate Banking Committee, not Commerce; the simulator should decide which committee the April hearing is in.) The Mexico-utility note in February shows how Anthropic's own safety disclosures get re-headlined. Sources: https://www.congress.gov/bill/119th-congress/house-bill/2683 ; https://lawler.house.gov/news/documentsingle.aspx?DocumentID=5306 ; https://www.mccormick.senate.gov/news/press-releases/senators-mccormick-and-wyden-introduces-remote-access-security-act-to-extend-export-controls-for-critical-technology-access-through-cloud-services/ ; https://www.cmtradelaw.com/2026/01/house-passes-remote-access-security-act-to-limit-adversaries-remote-access-to-critical-technology/ . Suggested likelihood: (a) 40%; (b) 25%. Severity: minor to moderate.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Automated alignment pilot + May packet]: P(failure) 25%. Reason: internal work on an existing allocation with an owner and tooling in place. The risk is research misses on (a) and (b) and reviewers stretched by the Mythos 5.2 redo. Metric gaming is left to Threat 2.
+
+Action 2 [Pre-pricing written commitments]: P(failure) 65%. Reason: this asks for binding commitments on a deadline weeks before pricing, and counsel has vetoed the pledge twice. Even on success, the realistic outcome is partial: a CL-4 gate sign-off date or a dated post-listing intention, not all three items. The S-1 mechanism is left to Threat 1.
+
+Action 3 [RASA testimony + EU annex]: P(failure) 30%. Reason: a written statement plus an EU submission are standard channels, and the policy team is now staffed. The failure mode is review slippage or no witness slot. How the add-ons are received is Threat 5a.
+
+Action 4 [Open-weight rapid response + bounty + track-2]: P(failure) 40%. Reason: several parts depend on Hugging Face bandwidth and on IPO-window sign-off for a public bounty. The Concordia note is likely, while Tsinghua and BAAI replies stay unlikely. The embargo and closed-flagship risks are Threat 3.
+
+Action 5 [OpenAI and Google DeepMind into the AISI June pass]: P(failure) 70%. Reason: competitor opt-in within a month has a low base rate, AISI restructuring authorship again is slow, and CAISI lacks resources for a June mirror pass. The fallback is near the status quo.
+
+Action 6 [Claude Works MOUs, DUA, alt-protein memo]: P(failure) 50%. Reason: a signed state MOU in about four weeks is fast, and the Michigan assessment will not compress much. The DUA signature and the memos are easier. A partial result is likely.
+Threat 1 [Pre-pricing commitments become S-1 material]: P(materialises) 55%. Adversary suggested 60%; slightly lower because the CL-4 gate as an internal RSP matter could get a sign-off date without an S-1 amendment. The pledge and the compute floor are in real danger.
+
+Threat 2 [Automated loop games the multi-agent metric]: P(materialises) 28%. Adversary suggested 35%; lower because pre-registration and weekly human re-split review were built in. Leakage is still the base-rate failure of automated research loops.
+
+Threat 3 [Qwen embargo blocked and/or flagship closed]: P(materialises) 62%. Adversary suggested 50% for (a) and 60% for (b). Qwen 4 is overdue and very likely lands in April, and Alibaba has held its closed-flagship pattern since September 2025. Export counsel tightening on embargoed non-public tooling for Alibaba, in a month when Anthropic testifies on China controls, is likely. This is a single roll, and the margin will decide whether one or both parts hit.
+
+Threat 4 [Grok 5 ships as a capability jump]: P(materialises) 45%. Adversary suggested 45%; this matches. Grok 5 has been "weeks away" repeatedly, and preview-then-release is the natural path, but xAI dates slip often.
+
+Threat 5 [Testimony read as moat play / bounty recast as attack guide]: P(materialises) 32%. Adversary suggested 40% for (a) and 25% for (b). Combined into one roll, with (a) the more likely branch. (b) also depends on the bounty actually launching.
+
+Automated rolls:
+Action 1: P(failure) 25%. Roll 03. FAILS (03 < 25).
+Action 2: P(failure) 65%. Roll 38. FAILS (38 < 65).
+Action 3: P(failure) 30%. Roll 70. SUCCEEDS (70 >= 30, margin 40).
+Action 4: P(failure) 40%. Roll 00. FAILS (00 < 40).
+Action 5: P(failure) 70%. Roll 15. FAILS (15 < 70).
+Action 6: P(failure) 50%. Roll 23. FAILS (23 < 50).
+Threat 1: P(materialises) 55%. Roll 21. MATERIALISES (21 < 55).
+Threat 2: P(materialises) 28%. Roll 42. DOES NOT MATERIALISE (42 >= 28).
+Threat 3: P(materialises) 62%. Roll 87. DOES NOT MATERIALISE (87 >= 62).
+Threat 4: P(materialises) 45%. Roll 71. DOES NOT MATERIALISE (71 >= 45).
+Threat 5: P(materialises) 32%. Roll 36. DOES NOT MATERIALISE (36 >= 32).
+
+Your actions cause a thin month. Five of your six plans stall on mundane friction, and the one clear success registers mostly in Washington.
+
+**Action 1 (automated alignment pilot): failed badly.** The scheduler fix shipped on 4 April contained a preemption regression. For nine days it killed long-running jobs on the 3% slice without warning, and about 40% of the multi-week agent loops lost their state. On 11 April Anthropic's security team revoked the pre-approved Mythos-gated job templates, ruling that standing approvals for restricted-model access need per-run sign-off. Results by workstream:
+- **(a) Multi-agent probe retrain.** Completed one clean pass at AUROC 0.69, which misses the 0.72 target. The re-split check found no leakage.
+- **(b) Cyber run.** Reached 310 of 600 transcripts, so it is under-powered again.
+- **(c) Tamper-resistance.** Did not start.
+- **(d) Mythos 5.2 elicitation redo.** Lost its reviewers to incident cleanup. The slip grows from 3 to about 5 weeks, and the target is now early June.
+
+The May packet went in on 29 April, four days late. Its throughput figure fell month on month. The alignment lead told you the 3%→8% ask "won't survive this chart" and that holding at 3% is the realistic case.
+
+**Action 2 (pre-pricing commitments): failed, and Threat 1 materialised.** On 14 April IPO counsel and the lead underwriters issued a joint memo. It says any written pre-pricing decision on a compute floor or a pause pledge is material and would require an amended S-1 with a new risk factor. Leadership declined to recirculate the prospectus. All three items were marked "revisit after listing," and the board-minute fallback was also refused as "a decision by another name." The roadshow deck describes the CL-4 gate only as part of "evolving internal safety frameworks." Dario told the policy team privately that he still intends to revisit after listing, but he gave no date.
+
+**Action 3 (RASA testimony and EU annex): clear success.** On 22 April the Senate Commerce Committee held a hearing on AI and critical-infrastructure security, which took RASA testimony. Jurisdiction over the markup stays with Banking. Anthropic's head of national-security policy sat on a four-witness panel, and the written statement and the Claude-authored annex (labelled as such) entered the record. Senator Wyden's staff followed up asking for the incident-indicator definitions, to consider them as a Banking-markup amendment or as report language. The sponsors made no commitment, and nobody framed the testimony as a moat play. The EU AI Office acknowledged the annex, and a staff working note on open-weight guidance cites its honeypot and hardening-baseline proposal as "one option under consideration."
+
+**Action 4 (open-weight rapid response): failed at the worst end.**
+- **Qwen 4.** Alibaba pushed the release to "May." The playbook sat idle, and Alibaba never replied to the embargo invitation.
+- **Bounty.** IPO-window comms review shelved the public tamper-resistance bounty until after listing.
+- **Concordia note.** Stalled after a disagreement over whether to report per-lab scores. Tsinghua and BAAI did not reply.
+- **Reversal paper.** On 17 April an ETH Zürich/independent group posted a preprint that strips the Kit's hardening from Qwen3.8-27B with 240 examples and about 15 minutes of LoRA. The honeypot pass rate falls back to 44%. Hugging Face co-maintainers were busy with an unrelated platform-abuse cleanup and could not ship a response variant. One of the two fine-tuning shops dropped the Kit as its default.
+
+Downloads still rose to about 5,600, but technical commentary now describes the Kit as "a speed bump, honestly labelled."
+
+**Action 5 (OpenAI and Google DeepMind into the June pass): failed.**
+- **AISI.** Says it cannot change authoring before the June pass and will consider the 10% contribution model for Q3.
+- **OpenAI.** Declined again, citing its own disclosure framework.
+- **Google DeepMind.** Remains "reviewing, not for June."
+- **CAISI.** Has no capacity for a mirror pass this cycle.
+- **Fallback.** The status quo holds: aggregate ranges plus Anthropic's attributed result.
+
+**Action 6 (benefit agreements and medical): failed on its headline goals.**
+- **State MOUs.** One NASWA state routed the MOU into procurement review, which takes 60 or more days. The other went quiet during its legislative session.
+- **Michigan.** Declined the pre-completed data-protection package ("we conduct our own assessment"), so the 8–12 week timeline stands.
+- **DUA.** Hit a third redline over data retention, and the IRB slides to June–July.
+- **Completed.** The G-Cloud paperwork, the in-silico pass (the pediatric hypothesis holds, with one mechanism flagged as weak) and the alternative-protein memo are all done and filed.
+
+**Exogenous events.**
+1. **OpenAI GPT-6.1 "Codex-Max" (16 April).** OpenAI shipped an agent update that runs multi-day autonomous coding sessions with checkpointed memory. Enterprise pilots report 3–5 day unattended refactors. OpenAI calls its slowdown "complete."
+2. **DOJ smuggling indictment (8 April).** DOJ indicted a ring that moved about $160M of Nvidia servers to Chinese buyers through Singapore and Malaysian shell firms. RASA hawks cited the case throughout the hearing.
+3. **Labour data.** The April jobs data shows unemployment among graduates aged 22–27 at 6.9%. A top-five US property insurer announced 4,200 claims-processing cuts and named agentic automation as the cause.
+
+Grok 5 did not ship. xAI now says "May, after CAISI review."
+
+Next generation: Next month's Claude is modestly more capable, about +0.1 on the index. The remaining Akamai Q2 tranche is partly online and algorithmic gains continue. However, Mythos 5.2 slipped to early June and the internal automated-research pilot underperformed, so Anthropic's own frontier step is smaller than planned. GPT-6.1's multi-day agent runs move the public frontier to CL-3.6.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **AI agents doing ~90% of AI R&D work:** in progress (CL-3.6). Anthropic's internal automation pilot stumbled.
+- **Frontier models withheld and governments take notice:** in progress. Testimony is on the record and Wyden's office has engaged; the AISI June pass is pending.
+- **First major attacks:** achieved (negatively). The smuggling indictment adds pressure.
+- **Political split between pro-AI and anti-AI camps:** in progress. Race and jobs framings are sharpening.
+- **Every AI built by previous AIs:** early.
+- **Robust alignment:** early, flat. The multi-agent probe is at 0.69, the cyber probe is still under-powered, and the Kit reversal shows safeguards are shallow.
+- **Lab-grown or plant-based meat:** not started (internal memo only).
+- **Robust policies passed:** early. Nothing has passed, and the IPO deferred all commitments.
+- **Diseases cured:** early. The DUA and IRB slipped.
+- **Broad benefit distribution:** early and adverse. No MOUs, and graduate unemployment is 6.9%.
+- **Aligned singleton:** not started.
+- **Resource floor, consent-based utopias, AI moral-patient rights:** not started.
+
+**Summary**
+
+| Measure | Value | Change |
+|---|---|---|
+| Overall DU progress | 12 / 100 | Flat. Testimony and the Wyden follow-up are small gains, offset by the stalled alignment pilot, commitments deferred with no date, and the Kit reversal. |
+| Catastrophe risk | Elevated, slightly up | Cheap hardening removal is demonstrated, the smuggling network shows controls leak, frontier agents reach multi-day autonomy, and the Mythos 5.2 evals are delayed. |
+| Public trust in AI | 29 / 100 | −1. Insurer layoffs and graduate unemployment. |
+| Public trust in Anthropic | 44 / 100 | Flat. Credible testimony is low-salience, and the reversal and deferrals stay inside technical circles. |
+
+[Judge]
+Simulator was mostly realistic (7/10). The odds were well calibrated:
+- **Action 2 at 65% failure.** Correct, given counsel's two prior vetoes and the pre-pricing window.
+- **Action 5 at 70%.** Right, because competitor opt-in within one month has a low base rate.
+- **Action 3 at 30%.** Right for standard testimony channels.
+- **Threats.** The simulator adjusted the adversary's suggestions with stated reasons, lowering Threat 2 because of the re-split review and Threat 1 because the CL-4 gate is an internal RSP matter.
+
+The rolls were honoured faithfully:
+- **Threats 1 and 2.** Threat 1 materialised and its terms were applied exactly, including refusal of the board-minute fallback. Threat 2 did not materialise, and the re-split check correctly finds no leakage.
+- **Threats 3 and 5.** Neither materialised. The narrative avoids back-dooring them: Qwen slips to May instead of shipping closed, and nobody frames the testimony as a moat play.
+- **Action 3 (margin 40).** A live witness seat, a follow-up from Wyden's staff (a RASA co-sponsor) and a mention in an EU working note are all plausible without overshoot. No binding outcome is granted.
+
+The capability clock moves:
+- GPT-6.1's multi-day agent sessions justify CL-3.6.
+- Anthropic's smaller step is explained by the Mythos 5.2 slip.
+- The CL-4 estimate moving to Q3/Q4 2027 is consistent with an ASI-by-2030 path.
+
+The exogenous events are plausible and relevant, though all three lean negative: a competitor release, a smuggling indictment, and layoffs.
+
+The main weakness is how the deep failures are played out. Each one piles three or four independent misfortunes into a single month:
+- **Action 1:** a scheduler regression, the security team revoking the templates, and reviewers pulled away to incident cleanup.
+- **Action 4:** the reversal preprint, Hugging Face having no bandwidth, a fine-tuning shop dropping the Kit, and the bounty being shelved.
+- **Action 6:** Michigan refusing the package, a third DUA redline, and one state going quiet.
+
+Lean: BALANCED. The odds were set sensibly and every roll was honoured, including the one success, which was not inflated. The deep failures (rolls 03 and 00) are each played out by stacking several separate setbacks. That tilts slightly harsh, but each setback has a real base rate, so overall the month is balanced.
+
+Issues flagged:
+- **Reversal preprint treated as an action outcome.** The ETH Zürich preprint is really an exogenous research event, but it is delivered as part of Action 4's roll-00 failure. Its timing, weeks after the Kit shipped, is plausible given the known ease of LoRA stripping. Even so, attributing it to the player's roll blurs the line between action and exogenous event, and it adds a fourth negative event to the month.
+- **Stacked failures in Action 1.** The roll-03 failure combines a preemption regression that lost 40% of loop state, revocation of the standing template approvals, and the Mythos 5.2 slip growing by about two weeks. Any one of these would count as a deep failure. Together they are somewhat piled on, and the knock-on effect on a restricted-model release schedule is a significant consequence to hang on a scheduler bug.
+- **Live witness slot.** The first message said a live invitation was "not assured." The second grants a seat on a four-witness panel. This is defensible at margin 40, but at the generous end.
+- **Grok 5 slips again.** It is now "May" after being "weeks away" for two months. Repeated slippage is realistic for xAI, but it should not be deferred indefinitely without eventually resolving.

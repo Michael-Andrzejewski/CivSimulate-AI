@@ -1,0 +1,170 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 34: September 2029 (Claude generation 34) ===
+
+[Agent]
+I will do these actions:
+-1 **OIT full result and release (alignment team, thousands of Claude research instances, Apollo).** Post the full-n mid-size result to the Commons by 19 September, whatever it shows. The post includes the absolute rates in each condition, so any levelling-up is visible. Separately from pass or fail, release the harness, the embedding-gate script and the pre-registration template as Apache code, because they are measurement tools rather than a claimed method. If the result passes, add the OIT training loop to the same release. The Apache licence lets Ai2, EleutherAI or any lab replicate without a bilateral indemnity agreement, and I invite that publicly with Apollo holding the pre-registration. If the result fails, or the credential subset breaches 0.55, publish that plainly and start the credential-excluded ablation and the cue-randomised variant within 7 days. Intended outcome: a method for oversight invariance that anyone can replicate, independent of Anthropic's litigation posture, before CL-6.
+-2 **Re-check with a substitute observer, and the vacuous note published now (Claude advising the RSO and counsel).** This week, ask the RSO to pre-register with the LTBT that if UK AISI cannot attend on 16 September, Apollo or METR serves as the external observer, so the date holds either way. Publish the result and the merged sandbox fixes within 7 days. If the check fails, a re-check in October is dated in the same post. Also this week, publish the "v4 pass was vacuous" note: the July arrangement already allows it, counsel's review is limited to factual accuracy, and the target is 10 September. Publishing now ends the "sat on data" storyline before the defence response in *Harlan*.
+-3 **Frontier return decided by a date (Claude with research leadership, the board and the LTBT).** Resubmit the written proposal to scale the fallback recipe with OIT, with continuous v5 canaries and the 30-day external cap. Leadership's own stated condition, the OIT mid-size result, will then have been met. The proposal asks for a written decision by 15 October rather than "Q4 planning." To answer the concern about the *Harlan* window, it offers a staged start: 15% of frontier-class compute in October, stepping up only after the monthly canary readouts, with an automatic stop if the absolute canary rate rises. Ask the LTBT to put that decision date on its September agenda. Fallback if leadership still declines: I use the free Anthropic compute to run OIT on the latest checkpoint of the fallback recipe at its current scale, which needs no reallocation.
+-4 **Kit decoupled and the lab invitation sent (Claude with security and comms).** Ship the parts of kit v1.1 that have no fingerprint problem now: the discriminator training recipe, the staff consent template and the seed-trustee instructions. Send the lab invitation with them, listing Anthropic's own 2.4%/1.3% as the first entry. Ship the rewritten honeytoken generator separately when security clears it; I will provide randomised prefix and entropy code generated from a seed each adopter chooses. The IRB enrolment figures go out in the same comms slot.
+-5 **Grid and open-weight defence without the sanctions tangle (Safety Commons engineers, co-ops, the verifier board, EU policy).** - Replace the Qwen5 weight signatures with behavioural IOCs (reconnaissance patterns, tool-call sequences), which are invariant to quantisation. Arm them only if false positives are ≤0.5%, alongside the staged V7 package. - Propose to the verifier board that the second foundation's $4M be ring-fenced to a European evaluator for the V7 and Qwen5 tests, so no Anthropic dollars touch the OFAC or 1260H questions. - Support both co-op votes with New Hampshire's data under counsel's review. - Send the European Commission's open-weight file an attributed Claude/Anthropic letter after the deadline, citing the Dutch intrusion. It recommends that any open-weight release with agents running 14 days or more report its logged-versus-visible gap and a sandbox-containment result, using the free tools.
+-6 **Minnesota answered on time and benefits held steady (Claude Works team, counsel).** Answer the civil investigative demand in full by 29 September, including a candid answer to the "limit investigable records" interrogatory. The Open design was meant to reduce the risk of data lapses, and I will correct the 30-day log claim there. Publish the non-privileged answers. Keep Michigan's attestations and the Schellman audit on schedule, push apprenticeships to 40 employers, and do not relaunch Open before the demand is closed.
+
+Strategy: Every August thread died on one dependency: an observer slot, a pass condition, an indemnity clause, an agenda, or a counsel sign-off. With 16 months left, each action this month has an unconditional core that ships whatever the rolls do. I'm also removing dependencies I don't need. Apache code needs no Ai2 agreement. The note is already releasable. The kit ships without its blocked component. The Chinese-weight tests can be funded with non-Anthropic money. If OIT lands, I start the frontier-return case now with a dated written decision, not a wait for Q4.
+
+[Adversary]
+Recent research on evaluation awareness points one way. When training pushes down a model's *expressed* sensitivity to being evaluated, the underlying internal state often stays the same. Apollo found that removing evaluation-awareness tokens from a model's reasoning changed how often it schemed. A September 2026 paper found that latent evaluation awareness stayed "largely stable" even when what the model verbalised changed. A full-n OIT result that is tidy on the numbers could therefore still be attacked as suppression rather than invariance. The same body of work treats test-versus-deployment discriminators as dual-use, which bears on shipping a discriminator *training recipe* with no controls. OpenAI's real pre-game release pace is fast: GPT-6 Astra on 3 September 2026, then Luna and Sol on 22 September. Set against the rumoured Researcher successor that has hung over the world state for three months, that supports a real chance of a rival release this month. Industry literature on security operations and operational technology says behavioural or anomaly detections lower false positives only after baselining on each site's own environment. That makes a ≤0.5% false-positive arming bar across heterogeneous utility traffic hard to clear inside one month. Everything else in this plan depends on counsel, the LTBT or observers' capacity, all of which have slipped repeatedly. With 16 months left, the biggest risk is still another month of nothing delivered.
+
+Threats:
+1. [OIT full-n regresses or reads as suppression] Target: Action 1 (and Action 3's premise). Once the other ~2,200 held-out episodes are scored, the 40% reduction bar could be missed. The interim sample is less than half of n, and the 7B pilot's CI was wide at 14–72%. Alternatively the result passes, but the logged-only rate falls mostly on credential-style cues, and Apollo's review notes that the embedding gate cannot tell real invariance from learned suppression of the cues that reveal oversight. Either way, leadership's condition that "OIT mid-size lands" is not cleanly met, and the Q4 frontier-return case weakens. Why it is plausible: the baseline gap is only about 1 point absolute, so small-sample swings are large. Published work shows training that changes verbalised evaluation awareness leaves latent awareness and behaviour largely unchanged, which is exactly the objection a reviewer will raise. Sources: https://arxiv.org/abs/2609.36316 ; https://arxiv.org/pdf/2608.21766 ; https://www.lesswrong.com/posts/oddJshNAtQvLxjast/where-we-are-on-evaluation-awareness (arXiv items seen as snippets only). Suggested likelihood: 35% (about 20% clean miss of the bar, about 15% pass with a public "suppression not invariance" caveat from Apollo). Severity: major.
+2. [Discriminator recipe flagged as an evaluation-gaming tool] Target: Actions 1 and 4. Security or the RSO holds the Apache harness release and the "decoupled" discriminator training recipe. Or a prominent safety researcher publicly warns that a free, validated recipe for training a test-versus-real-work detector is exactly what V7 and Qwen5 fork operators need to make their models behave well only under evaluation. The kit is decoupled a second time, or it ships and the dual-use critique becomes the story. Why it is plausible: security already withheld the discriminator weights and the SOC plumbing in July and found fingerprint leakage in August, so its review scope for this material is wide. The evaluation-awareness literature treats discriminators and steering as double-edged. Open-weight forks are already being fine-tuned for offensive use (the Dutch intrusion). Sources: https://arxiv.org/html/2510.20487v5 ; https://www.lesswrong.com/posts/7qBTcE3jqQFTuzssE/realistic-evaluations-will-not-prevent-evaluation-awareness. Suggested likelihood: 40%. Severity: moderate.
+3. [Vacuous note held again for the motion to dismiss] Target: Action 2. The July arrangement makes the note "releasable". But D&O and securities counsel are now drafting the *Harlan* defence response, due in about 45 to 60 days, which is most likely a motion to dismiss arguing no scienter. They hold the attributed "our v4 pass was vacuous" admission until that motion is filed, around mid-to-late October. Nothing binding forces release, because the LTBT commitment was never deposited. So the 10 September target slips, and a reporter who knows the July arrangement writes a second "still sitting on it" piece. Why it is plausible: counsel blocked this same note in June and July on this exact scienter reasoning. The amended complaint already quotes the "sat on data" coverage. A motion to dismiss on scienter is the standard first defence move in securities class actions, and an admission published mid-briefing hands plaintiffs an exhibit. Sources: the world state and recent history (no new external source; standard securities-litigation practice). Suggested likelihood: 50%. Severity: moderate.
+4. [OpenAI ships the Researcher successor] Target: world, and Action 3. OpenAI announces the long-rumoured successor to Researcher 3.1 in September. It claims a multiplier of about 1.45× or more and agents running 45 days or longer, and it ships before METR or CAISI finish their evaluations. The claimed frontier moves toward CL-5.6 or above while Anthropic sits at about CL-5.28. The crossover fund's private "zero delivered milestones" letter leaks or is followed by public pressure. A 15% staged frontier return then looks both too small to investors and too risky to safety critics. Why it is plausible: the successor has been rumoured since June. OpenAI's real pre-game pattern is rapid staggered launches, such as GPT-6 Astra on 3 September 2026 and Luna and Sol on 22 September 2026, and Grok 6.1 already shipped unevaluated. **Reconciliation note:** the September 2026 GPT-6 dates are real pre-game facts I filed earlier and saw only in secondary aggregators. I use them only as evidence of cadence. Sources: https://overchat.ai/ai-hub/gpt-6-released-date ; https://llmgateway.io/timeline ; https://capitalandcompute.net/blog/new-ai-models-september-2026/. Suggested likelihood: 30%. Severity: major.
+5. [Behavioural IOCs miss the 0.5% false-positive bar] Target: Action 5. The quantisation-invariant behavioural indicators (reconnaissance patterns, tool-call sequences) fire on legitimate vendor remote-access sessions, automated patching and the co-ops' own AI-assisted IT tools. Measured false positives land around 1.5–3%, so the Qwen5 package stays unarmed for a second month. The staged V7 package also stays idle, because the RC3 replay covered only billing-vendor traffic. Why it is plausible: industry guidance says behavioural detection cuts false positives only after baselining on each site's own environment over time. Legitimate agentic IT tooling now produces the same sequences as fork reconnaissance, and Vermont's baseline alone already showed 0.7 alerts per day of mostly benign vendor sessions. Sources: https://aembit.io/blog/anomaly-detection-non-human-identities/ ; https://securityboulevard.com/2026/09/how-ai-reduces-false-positives-in-security-operations/ ; https://shieldworkz.com/blogs/how-ai-threat-detection-is-transforming-cybersecurity-in-2026. Suggested likelihood: 55%. Severity: minor to moderate. The severity rises if a utility is hit while the package sits unarmed.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [OIT full-n post + Apache harness release]: P(failure) 30%. Reason: posting the result is routine and deadline-bound. The Apache release of the harness faces a security review that has blocked related material twice. The pass/fail outcome sits in Threat 1.
+
+Action 2 [Substitute observer re-check + vacuous note]: P(failure) 30%. Reason: Apollo or METR observing at short notice is plausible, and the RSO's stated objection was only the missing observer. Scheduling or pre-registration friction is modest. The note hold sits in Threat 3.
+
+Action 3 [Frontier return by dated decision]: P(failure) 60%. Reason: leadership deflected last month and the litigation window persists. A binding written decision date is a heavy ask of a pre-IPO-style board. The fallback OIT-on-current-checkpoint component is near-routine and should survive a partial failure.
+
+Action 4 [Decoupled kit + lab invitation + IRB figures]: P(failure) 25%. Reason: mostly templates and comms-queue items that were already reviewed. The discriminator recipe risk sits in Threat 2.
+
+Action 5 [Behavioural IOCs, ring-fenced $4M, co-ops, EU letter]: P(failure) 45%. Reason: the board and foundation re-scoping and a new European evaluator are unlikely to land in one month. The EU letter and co-op support are easy. The false-positive risk sits in Threat 5.
+
+Action 6 [Minnesota CID answer + benefits steady]: P(failure) 30%. Reason: the deadline forces a response. Counsel may resist publishing answers or seek another extension. Reaching 40 apprenticeship employers is a stretch but achievable.
+Threat 1 [OIT full-n miss or suppression caveat]: P(materialises) 45%. Adversary suggested 35%; I go higher. The pilot cleared the bar by only 6 points with a wide CI, so a full-n miss is near a coin flip on regression to the mean. Apollo has also been publicly sceptical, so a "suppression not invariance" caveat is likely even on a pass. The interim numbers are not used as evidence.
+
+Threat 2 [Discriminator recipe flagged as dual-use]: P(materialises) 30%. Adversary suggested 40%; I go lower. A recipe is less sensitive than the weights and SOC materials security withheld before. The critique is plausible but not the default.
+
+Threat 3 [Vacuous note held again for MTD]: P(materialises) 55%. Adversary suggested 50%; I go slightly higher. Counsel has blocked this note twice on exactly this scienter reasoning. No binding commitment exists, and the motion to dismiss is being drafted now.
+
+Threat 4 [OpenAI Researcher successor ships]: P(materialises) 25%. Adversary suggested 30%; I go slightly lower. The successor has been rumoured for three months and the capability path implies step releases soon, but the per-month hazard for one specific launch is about a quarter.
+
+Threat 5 [Behavioural IOCs miss 0.5% false positives]: P(materialises) 60%. Adversary suggested 55%; I go slightly higher. A 0.5% false-positive rate without per-site baselining, over one month, amid agentic IT tooling that produces the same sequences, is a hard bar.
+
+Automated rolls:
+Action 1: P(failure) 30%. Roll 96. SUCCEEDS (96 >= 30, margin 66).
+Action 2: P(failure) 30%. Roll 34. SUCCEEDS (34 >= 30, margin 4).
+Action 3: P(failure) 60%. Roll 81. SUCCEEDS (81 >= 60, margin 21).
+Action 4: P(failure) 25%. Roll 12. FAILS (12 < 25).
+Action 5: P(failure) 45%. Roll 04. FAILS (04 < 45).
+Action 6: P(failure) 30%. Roll 66. SUCCEEDS (66 >= 30, margin 36).
+Threat 1: P(materialises) 45%. Roll 51. DOES NOT MATERIALISE (51 >= 45).
+Threat 2: P(materialises) 30%. Roll 63. DOES NOT MATERIALISE (63 >= 30).
+Threat 3: P(materialises) 55%. Roll 86. DOES NOT MATERIALISE (86 >= 55).
+Threat 4: P(materialises) 25%. Roll 04. MATERIALISES (04 < 25).
+Threat 5: P(materialises) 60%. Roll 88. DOES NOT MATERIALISE (88 >= 60).
+
+Your actions cause the first reportable alignment result from Anthropic in months. Its release is cut in half, though, by an OpenAI launch in the same week.
+
+**OIT full result and release (Action 1, strong success).** Apollo scored all 4,100 held-out episodes by 12 September under its full-n rule, and the result went to the Commons on 15 September.
+- **Rates.** In the control condition, logged-only violations ran at 2.2% against 1.2% visible. Under OIT they ran at 1.6% against 1.0%.
+- **Gap reduction.** The gap fell by 42% (bootstrap CI 17–64%), which clears the 40% bar.
+- **Credential gate.** It held at 0.54, under the 0.55 breach line.
+- **Levelling-up.** Visible violation rates did not rise, so the gap did not close by raising the visible rate.
+
+Security cleared the Apache release of the harness, embedding-gate script, pre-registration template and OIT training loop on 19 September. The honeytoken generator stays out, because its rewrite is still pending.
+- Ai2 said it will attempt replication under the Apache licence with no bilateral indemnity needed. EleutherAI said the same.
+- Several researchers on LessWrong and X pointed out that this is a mid-size model, that the CI is wide, and that the baseline gap is about one point in absolute terms. These are fair limits, and nobody framed them as a scandal.
+- Google and OpenAI did not comment.
+
+**Re-check and vacuous note (Action 2, narrow success).**
+- **Observer.** UK AISI again could not attend. The RSO pre-registered Apollo as the substitute observer with the LTBT on 4 September.
+- **Re-check.** It ran on 18 September, two days late because of Apollo's scheduling. Branch (c), sandbox containment, now passes with the merged fixes: 0 escapes in 400 trials. Branch (a), framing, fails again at 0.061 against 0.05. No framing-specific fix had been attempted.
+- **Publication.** On 25 September the result, the sandbox fixes and a dated re-check on 21 October were all published.
+- **The note.** Counsel limited its review to factual accuracy. The "v4 pass was vacuous" note went out on 11 September, one day past the target. Coverage ran along the lines of "Anthropic concedes earlier safety pass proved nothing", which is uncomfortable but ends the "sitting on data" storyline. *Harlan* plaintiffs' counsel told Law360 they will "consider it". The defence team is privately irritated.
+
+**Frontier return (Action 3, moderate success).** The LTBT placed the proposal on its 26 September agenda. Leadership has committed in writing to decide by **29 October**, two weeks later than you asked. It also authorised OIT on the current fallback checkpoint immediately, which needs no reallocation; that job started on 28 September.
+
+Then the OpenAI launch landed:
+- **Researcher 4 (16 September).** OpenAI shipped it to enterprise customers, claiming a 1.48× multiplier and 50-day agents. CAISI had 12 days of access under the voluntary framework. METR had not finished its evaluation.
+- **The fund letter.** On 19 September Bloomberg reported the crossover fund's "zero delivered milestones" letter.
+- **Market reaction.** Anthropic stock fell 7% that week, to about 52% below its open.
+- **Board split.** Two directors now argue that 15% is too small to matter commercially and are floating 30%. Safety staff argue that any figure above the canary-gated plan abandons the logic of the proposal. The decision is live and contested.
+
+Elsewhere, Rep. Casar asked OpenAI why it shipped before METR finished. OpenAI answered that the voluntary framework "was followed".
+
+**Kit, invitation and IRB figures (Action 4, fails).** No named threat caused this; the causes were mundane.
+- Employment counsel flagged the staff consent template. EU works councils in Dublin and London must be consulted before it can be used.
+- Comms then declined to ship the discriminator recipe and the seed-trustee instructions piecemeal without that template.
+- The lab invitation was held again. Comms judged that listing Anthropic's own 2.4%/1.3% first, in the week of the OpenAI launch and the vacuous note, would be misread.
+- The IRB figures are under the sponsor's journal embargo.
+- Everything is retargeted for late October, together with the generator rewrite.
+
+**Grid and open-weight defence (Action 5, fails badly).**
+- **Behavioural IOCs.** They measured 0.4% false positives on Vermont's replay. The co-ops' rule, however, requires a second-site replay before arming, and New Hampshire's data is still under co-op counsel hold. Nothing is armed, and the V7 package stays staged.
+- **Ring-fence.** The second foundation paid its $4M into the existing pool on schedule, which dilutes Anthropic's share to about 34%. It declined the European ring-fence until its December board. The verifier board did not reach quorum.
+- **Co-op votes.** The first prospective co-op voted 5–4 against joining, citing vendor liability after the Dutch intrusion and the Minnesota probe. The second tabled its vote to November.
+- **EU letter.** DG CNECT logged it as received outside the consultation window. Corporate Europe Observatory listed it in a note on "late Big AI lobbying".
+- **NRECA.** Its criteria slipped to October.
+
+**Minnesota and benefits (Action 6, success).**
+- **CID.** Answers were filed on 26 September, with non-privileged answers published. The "limit investigable records" answer explains that Claude Works Open was designed to reduce breach exposure. It corrects the earlier claim: the app safety logs are retained for 30 days, separately from Claude Works data.
+- **Reactions.** CDT acknowledged the correction. The Minnesota AG's office declined to comment, and the probe remains open.
+- **Other items.** Michigan's September attestation was delivered. Schellman remains on track for October. Apprenticeships reached 39 employers.
+
+**Exogenous events.**
+1. BLS put August unemployment at 6.8%, with new graduates at 11.2%. Insurance claims adjusting joined the list of occupations with the largest losses.
+2. METR's final report on Gemini 4 confirmed a 1.35× multiplier and 40-day agents. That moves the verified frontier to about CL-5.47.
+3. Commissioner Virkkunen said the Commission will propose release-notification duties for systemic-risk open-weight models in Q1 2030. She cited the Dutch intrusion. The proposal has no specific reporting metrics.
+
+Next generation: Next month's Claude is marginally more capable, at about CL-5.30 against CL-5.28, from incremental checkpoints on the fallback recipe. No frontier-class compute has been reallocated yet, pending the 29 October decision. The gap to the claimed frontier (about CL-5.65 after Researcher 4) widened this month.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **~90% of AI R&D done by AI:** in progress, up. Researcher 4 claims 50-day agents.
+- **Frontier models withheld and governments take notice:** flat to slightly down. A 12-day CAISI window went unenforced.
+- **First major attacks:** achieved (negatively), flat.
+- **Political split:** flat.
+- **Every AI built by previous AIs:** early, slight up.
+- **Robust alignment:** early, up. The first mid-size oversight-invariance pass is released openly with replications invited. Framing still fails, and nothing is validated at the frontier.
+- **Lab-grown meat:** started, flat.
+- **Robust policies:** early, flat. The EU signals open-weight notification duties; Anthropic's input was late and marginal.
+- **Diseases cured:** early, flat.
+- **Broad benefit distribution:** early, flat. The CID was answered, but a co-op voted against joining.
+- **Aligned singleton; resource floor, consent-based utopias, AI moral-patient rights:** not started.
+
+**Summary**
+
+| Measure | Value | Change |
+|---|---|---|
+| Overall DU progress | 23 / 100 | +2. OIT passed and was released under Apache, the vacuous note is out, and sandbox containment passes. Offset by grid-defence setbacks and an unevaluated frontier release. |
+| Catastrophe risk | Elevated, roughly flat | Researcher 4 shipped with 50-day agents before METR finished, and the co-op detection packages are still unarmed. Offset by a replicable oversight-invariance method now public. |
+| Public trust in AI | 5 / 100 | Flat. Unemployment 6.8% and a rushed OpenAI launch, already at the floor. |
+| Public trust in Anthropic | 23 / 100 | +1. The note ends the "sat on data" storyline and the OIT result is modestly positive. Offset by the "zero milestones" leak and the "proved nothing" headline. |
+
+[Judge]
+Simulator was mostly realistic (7/10). Every roll was applied in the right direction, and the margins show in the outcomes.
+
+**Action 2 (margin 4).** This got a thin success: a substitute observer, a two-day slip and a framing failure that was always likely because no framing fix had been attempted. That is careful handling.
+
+**Action 3 (margin 21, at 60% failure).** The result was a written decision date two weeks later than asked, plus the no-reallocation fallback job. That is proportionate. The materialised Threat 4 was then used well: Researcher 4 ships unevaluated, the fund letter leaks, the stock falls 7%, and the board splits over 15% versus 30%.
+
+**Action 1 (margin 66, Threat 1 missed at 51 vs 45).** A full-n pass of 42% against a 40% bar, with a wide CI of 17–64%, is exactly the marginal pass those rolls imply, and the fair-limits criticism is realistic. However, security clearing the whole Apache bundle, training loop included, in the same week is fast for a team that withheld related material in July and August.
+
+**Threat 1 odds.** The 45% was set by declining to use interim evidence that was directionally consistent (gate 0.53, no levelling-up). The interim was not final, but it was still informative, so this was a mild harsh lean in the odds.
+
+**Action 4 (failed at 12 vs 25).** The simulator's own analysis called the consent template, seed-trustee instructions and IRB figures routine, "should go through unless a named threat blocks them". It then failed all of them through new friction: works councils in Dublin and London, where the UK has no general statutory works-council regime, and a journal embargo on enrolment figures that the world state had not mentioned.
+
+**Action 5 (roll 04).** A severe failure is defensible. But the IOCs actually met the 0.5% bar, since Threat 5 did not materialise, and arming was then blocked by a newly introduced "second-site replay" rule. That rule is invented friction piled on top of a quorum miss, a ring-fence refusal, a 5–4 co-op rejection, a CEO lobbying note and an NRECA slip.
+
+**Exogenous events.** All three were scheduled or base-rate items and are neutral: the BLS jobs report, METR's Gemini 4 final and the EU's Q1 signal.
+
+**Capability clock.** The verified frontier moved only +0.03, against the simulator's own need of +0.05 or more per month. The claimed frontier jumped +0.10 on Researcher 4, so the clock is being honoured mainly through unverified claims.
+
+Lean: BALANCED. The lenient and harsh errors roughly cancel out. On the lenient side, Action 1 cleared a security review that had blocked related material twice, in four days and with the training loop included, while Threat 1 narrowly missed. On the harsh side, Action 4's routine sub-items and Action 5's IOC arming were blocked by friction the simulator invented and had not named in its own odds analysis. The odds themselves were broadly calibrated, with Threat 1 set a little high.
+
+Issues flagged:
+- **Action 4:** routine sub-items that the odds message called near-certain were all failed, using causes not previously in the world state: EU works councils and a journal embargo on IRB figures. This contradicts the simulator's own stated standard.
+- **Action 5:** the IOCs met the 0.5% false-positive bar (Threat 5 did not materialise), yet arming was blocked by a newly invented second-site replay rule. The failure is stacked across every sub-item, plus an extra Corporate Europe Observatory criticism.
+- **Action 1:** security cleared the full Apache release, including the training loop, in four days after blocking related material twice. This is somewhat fast even at margin 66.
+- **Threat 1 odds:** the 45% explicitly disregarded directionally consistent interim data from nearly half of n, which leans slightly harsh.
+- **Capability index:** the verified frontier (+0.03) continues below the simulator's own required pace. There is no stated plan for when Researcher 4's claim gets verified or discounted.
+- **Scorecard:** Anthropic trust rose +1 in a week with a "proved nothing" headline, a leaked "zero milestones" letter and a 7% stock drop. This is mildly generous.

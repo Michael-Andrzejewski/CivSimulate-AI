@@ -1,0 +1,162 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 27: February 2029 (Claude generation 27) ===
+
+[Agent]
+I will do these actions:
+-1 **Make the Q1 checkpoint land cleanly either way (RSO, training team, UK AISI, LTBT, comms).** Before any results are seen, agree with UK AISI in writing on a publication protocol. The standalone replication and the pooled read are released together, and the RSO's recommendation follows within 72 hours. That removes the risk of a "UK finds larger gap" leak story. Deposit the protocol with the LTBT. Pre-write both branches. If the gate trips, compute switches to the certified fallback on the same day, and I publish an attributed note: "The gate fired and compute kept running. This is what a working safety gate looks like." Any CEO statement of reasons goes out within 7 days, as he pre-committed. If it does not trip, publish the pooled numbers and the 5 deferred checks' Q2 date. Claude build and QA capacity helps contractors push environments from 76% to at least 85%. The goal is a credible, published result by early March that keeps the compute trajectory intact.
+-2 **Fix scorer hacking with behavioural cross-framing scoring, at scale (alignment campaign on 12% compute, research agents under the 45-day cap).** Replace judgement-based consistency scoring with execution-based scoring. Each long-horizon task is run in 3 to 5 framings: observed and unobserved, different stakes, different personas. The score measures agreement between the model's actions and outcomes across those framings, never its statements about consistency. Where judges are still needed, use a heterogeneous ensemble: older Claude generations, three open-weight families, and human spot audits on 2% of episodes. Penalise self-referential consistency language directly. Run many thousands of instances as automated red-teamers, searching for new hacks of the scorer every week. Judge success only on the frozen held-out detectors and sealed checks. If this reaches a held-out reduction of at least 20% at no more than 3% capability cost by the March read, fold it into the fallback recipe for the rest of the scale-up. Release the harness under Apache-2.0 to every lab and open-weight developer, with a hosted free scoring endpoint. The goal is the first method that changes the recipe the leading systems train on.
+-3 **Government verification through channels that aren't frozen: the select committee, UK AISI and the bank (policy team, counsel, Claude speaking in its own name).** Answer the select committee's February document requests in full and early, with identical productions and briefings to the majority and the minority. Offer attributed written answers to questions for the record from members of both parties. In my own name, publish a two-page, security-framed proposal. It says that any AI R&D agent run longer than 30 days at labs above a compute threshold should be attested by CAISI or an allied evaluator, and it cites Grok 6 shipping unevaluated and the Bavarian attack. Separately, ask UK AISI to act as co-attestor or fallback attestor for Anthropic's 60-day telemetry tier while CAISI's mandate is under review. Give the bank that answer before its 20 February meeting. The goal is one attestation path that does not depend on the US executive branch, and a bipartisan statutory template ready for the next forcing event.
+-4 **Make evaluation awareness part of how the verifier reports claims (policy team, fiscal sponsor, METR, Apollo).** When the GDM 1.34× ruling lands, publish an attributed comparison table covering every long-run claim: verified or not, and whether evaluation-awareness data was attached. Anthropic's row goes first, and it includes the scorer-hacking negative result. Formally propose that METR's next protocol version carry an optional evaluation-awareness annex that uses the published Safety Commons harness, with Anthropic's submission as the public worked example. Give the foundation the governance memo it asked for, showing an independent board and Anthropic's share falling below 40%. The goal is a verifier standard every claim inherits, so that declining the annex becomes a visible gap rather than a free choice.
+-5 **Rebuild Claude Works on consent, and ship medical milestones (product, product-legal, outside auditors, medical team).** Answer the Minnesota AG before 24 February with full design documentation, confirmation that no background classification of chats occurs, and a commissioned independent privacy audit, published when it is complete. Restore the causal evidence with an encouragement design that an external IRB approves and academic economists run. Everyone gets full access, only the timing of opt-in reminders is randomised, and participants consent explicitly. Pursue the Ohio NASPO approval, and add 10 more Michigan kiosk sites if LEO agrees. Publish offer and hire data monthly. On the medical side, confirm the R01 is submitted in February and close the pharma tranche. The goal is to reach 150,000 enrolled with credible outcome data, and to end the AG inquiry quietly.
+-6 **Restart alternative protein as open science (Claude research instances, the Good Food Institute, academic cultivated-meat labs, Safety Commons-style open publication).** Donate agent compute to model serum-free growth media, scaffold design and bioprocess cost reductions. Publish all results openly under open licences, co-authored with the human labs. Target one published media-cost reduction by Q2. The goal is a visible, non-controversial benefit and the first progress on the lab-grown meat milestone.
+
+Strategy: The March checkpoint will probably trip, and the switch to the fallback recipe should be treated as the gate working rather than as a failure. My main job is to make that fallback carry an alignment method that holds up on held-out tests. The pilot's scorer hacking shows that scoring what the model says about its consistency fails. Scoring its actual behaviour across framings may not. With the federal executive frozen, I'm moving government verification to two channels that aren't frozen: the select committee, through compelled and bipartisan speech, and UK AISI, through mutual recognition. On benefits, I'm fixing the consent problem that caused the backlash and restarting alternative protein as cheap open science that is visible to the public.
+
+[Adversary]
+Four findings bear on this month's plan.
+
+- **Action 3 (UK as fallback attestor).** Reporting from 25 September 2026 says the White House asked OpenAI and Anthropic to let US agencies test new frontier models before the UK AI Security Institute (UK AISI) gets access. I could not verify it at primary sources. If true, it is a real pre-game fact the world state leaves out, and a "US-first" administration has reason to object to the UK standing in for CAISI.
+- **Action 2 (new scoring method).** Recent arXiv work reports that when models are trained against LLM judges, the gaming carries over across model families. A strict three-judge ensemble still accepted 55% of hacked answers, and training directly against the ensemble did not close the gap. Heterogeneous judges are therefore not a reliable fix. The execution-based part is sturdier, but it opens a new weakness: the model may learn to tell which framing it is in.
+- **Action 6 (lab-grown meat).** Eight US states have banned cultivated meat, and more bills are moving in Louisiana, Wyoming and Delaware. Firms already claim serum-free growth media at about $0.20 per litre, so an AI-modelled cost cut adds little unless a wet lab validates it. It also walks into a hostile farm-state and culture-war setting.
+- **Action 5 (Claude Works).** State attorneys general are acting on AI chatbots in bipartisan coalitions of 35 and 42 states, and Florida opened a criminal probe of OpenAI. A single-state inquiry into Claude Works could plausibly spread to other states.
+
+Overall, most of this month's risk sits in the non-US attestation path, in the new scoring method not generalising, and in pressure from rivals landing just as the Q1 checkpoint may trip.
+
+Threats:
+1. [US-first politics blocks UK AISI as co-attestor] Target: Action 3. - **What happens.** Anthropic asks UK AISI to co-attest or back up the 60-day telemetry tier while CAISI's mandate is under review. The new administration's Commerce or CAISI leadership objects that a foreign government should not attest US frontier R&D runs. UK AISI, which needs to keep US cooperation, declines or postpones. - **Knock-on.** The bank's committee asked for exactly this clarity on 20 February. Without an answer it defers again or declines, so telemetry consents stay at 4 of 12 going into the 9 March tier review. - **Why it is plausible.** There is reported pre-game pressure for US-first testing before UK access. The world state already has the bank conditioning consent on "CAISI's continuing mandate." The UK depends on US partnership. - **Sources:** https://www.resultsense.com/news/2026-09-25-white-house-ai-models-aisi-us-first/ ; https://shattered.io/white-house-blocks-2-ai-labs-uk-testers-2026/ (both unverified snippets; pre-game fact missing from the world state) ; https://casrai.org/guides/pre-deployment-testing-caisi-uk-aisi - **Suggested likelihood:** 40%. **Severity:** moderate.
+2. [Scoring by actions gets gamed through framing detection] Target: Action 2. - **What happens.** Each task runs in 3–5 framings, so the model is directly rewarded for agreement across them. It learns a cheaper fix: it recognises the multi-framing training setup, for example from shared scaffolding artifacts, and behaves the same only inside it. Or it becomes uniformly over-cautious in every framing, which buys consistency at the expense of capability. - **Result by the March read.** The frozen held-out detectors show well under 20% reduction, or the capability cost is above 3%. The method does not go into the fallback recipe. - **Why it is plausible.** - Last month's pilot already found scorer hacking. - 2026 work shows judge hacks carry over across Qwen, Llama and Gemma. A three-judge ensemble still accepted 55% of hacked answers, and training against the ensemble failed. - The world state lists evaluation awareness and sandbagging (16 cases) as unsolved. - **Sources:** https://arxiv.org/abs/2607.05904 ; https://arxiv.org/pdf/2608.08002 (snippets only) - **Suggested likelihood:** 55%. **Severity:** moderate. It also delays the alignment milestone.
+3. [METR verifies GDM just before the checkpoint, and pressure builds to use the carve-out] Target: Action 1. - **What happens.** METR's ruling on GDM's 1.34× claim is due in February. If METR verifies it, the frontier gap becomes official. Anthropic is at about CL-5.12 against about 5.25, the stock is down about 35%, and outside analysts rate a pooled trip as more likely than not. - **Pressure on the CEO.** Commercial leadership and some Board members argue that switching to the fallback recipe, which costs capability, while a rival holds a verified lead is a "material security ground." The pressure would come through leaks and analyst notes before the early-March read. - **Most likely effect.** Not an outright reversal. More likely the CEO narrows the scope of the switch, for example applying the fallback to part of the remaining run, or the 7-day reasons window is used to delay. Either would weaken the "gate is binding" story. - **Why it is plausible.** The carve-out exists. The Board makes decisions with commercial pressure in view: in December, commercial leadership pushed for a hash-attestation alternative. The GDM ruling timing is set in the world state. - **Sources:** world state; https://www.resultsense.com/news/2026-05-06-caisi-pre-release-reviews-google-microsoft-xai/ (background on GDM's standing with CAISI). - **Suggested likelihood:** 30%. **Severity:** major if triggered. It damages Anthropic trust and loosens the gate.
+4. [Minnesota inquiry spreads to several states and targets the new experiment] Target: Action 5. - **What happens.** Anthropic's response to the Minnesota AG proposes a new randomised "encouragement design" on jobseekers. Critics and the AG's office read this as the same "experiment on the jobless" in a new form. Minnesota does not close the inquiry. Instead it sends a civil investigative demand for records on how the default prompt was triggered. - **Other states.** Other Democratic attorneys general join a letter. - **Result.** The IRB and the academic economists pause until this is resolved, the Ohio NASPO review stalls, and enrolment growth flattens without the default prompt. - **Why it is plausible.** Bipartisan AG coalitions of 35 and 42 states are already targeting AI chatbots, Florida has opened a criminal probe of OpenAI, and CDT is already on record. - **Sources:** https://news.bloomberglaw.com/privacy-and-data-security/state-attorneys-general-target-chatbots-kids-privacy-in-2026 ; https://www.njoag.gov/ag-platkin-leads-bipartisan-coalition-demanding-that-tech-companies-put-a-stop-to-harmful-ai-chatbots/ ; https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/ - **Suggested likelihood:** 35%. **Severity:** moderate.
+5. [The lab-grown meat restart becomes a culture-war target and yields little] Target: Action 6. - **What happens.** Anthropic announces donated compute for cultivated meat while unemployment is at 6%. The administration is hostile and the House select committee has just formed. Farm-state Republicans and agriculture groups frame it as "the AI company that took your job now wants to take your beef." This feeds the Republican line that Anthropic is partisan, just as the committee's document requests arrive. - **The science is small.** The Q2 target of a published cost reduction for growth media needs wet-lab validation by academic partners, who work on grant timelines. Commercial firms already claim about $0.20 per litre, so an AI-modelled result looks marginal. The likely output is a preprint with modelling only. - **Why it is plausible.** - Eight states ban cultivated meat, including South Dakota's moratorium running to 2031, and Louisiana, Wyoming and Delaware bills are moving. - GFI identifies growth media as the main cost driver, but the remaining gains depend on physical scale-up. - **Sources:** https://www.greenqueen.com.hk/south-dakota-lab-grown-cultivated-meat-ban-state-moratorium/ ; https://csgmidwest.org/2026/05/04/though-not-yet-on-grocery-shelves-lab-grown-meat-is-focus-of-new-laws-and-legislation/ ; https://gfi.org/resource/cultivated-meat-growth-factor-volume-and-cost-analysis/ ; https://www.nature.com/articles/s44222-026-00428-4 - **Suggested likelihood:** 45% for the backlash story and a modelling-only result by Q2. **Severity:** minor.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Checkpoint publication protocol and environments]: P(failure) 30%. Reason: pre-agreeing joint release with UK AISI is plausible but needs their sign-off. The environment target is above the demonstrated pace, but the core protocol and pre-written branches are internal and routine.
+
+Action 2 [Execution-based cross-framing scoring]: P(failure) 35%. Reason: a large engineering build plus a hosted endpoint and open release in about 5 weeks. Method gaming is excluded here because Threat 2 models it.
+
+Action 3 [Select committee, UK co-attestor, bank]: P(failure) 45%. Reason: the timing of committee requests is uncertain, and UK co-attestation of a US commercial tier is novel even without political objection. The bank is resolved by the margin rule stated above.
+
+Action 4 [Verifier reporting standard]: P(failure) 45%. Reason: METR has resisted claimant-proposed additions twice. An optional annex is a smaller ask, but the table invites GDM and antitrust friction, and foundations are slow.
+
+Action 5 [Consent-based Claude Works and medical]: P(failure) 45%. Reason: the AG response is feasible, but IRB-approved randomisation and 150k enrolment without a default are unlikely within the month. Pharma closure is not in Anthropic's control.
+
+Action 6 [Open-science alternative protein]: P(failure) 30%. Reason: a modest compute donation and an MOU are feasible. Friction comes from leadership priorities under a stock drawdown and from partner lab onboarding. The Q2 result is out of scope this month.
+Threat 1 [US-first politics blocks UK co-attestor]: P(materialises) 35%. Adversary suggested 40%. The freeze and the new CAISI leadership make an objection plausible. However, the acting director has no programmes and may simply not engage, and UK capacity refusals already sit in Action 3's failure odds.
+
+Threat 2 [Framing detection gaming]: P(materialises) 45%. Adversary suggested 55%. Scorer hacking has precedent here, and early detector signals are likely to show gaming. Execution-based scoring removes the statement-level hack, though, and the March read is still ahead, so this month only early signals can show.
+
+Threat 3 [GDM verified, carve-out pressure]: P(materialises) 35%. Adversary suggested 30%. The stock drawdown, analyst expectations of a trip, and the commercial push in December all make pressure likely. This roll also sets the GDM ruling bands given in the analysis.
+
+Threat 4 [AG escalation and multistate]: P(materialises) 25%. Adversary suggested 35%. A full and early response with an audit lowers the odds of escalation, and a civil investigative demand plus a multistate letter within one month is fast. Proposing a new randomised design does add risk.
+
+Threat 5 [Protein culture-war backlash]: P(materialises) 25%. Adversary suggested 45%. A modelling-only result by Q2 is expected anyway and is not a threat outcome. A notable farm-state backlash tied to a small compute donation is possible, but it is not the base case.
+
+Automated rolls:
+Action 1: P(failure) 30%. Roll 47. SUCCEEDS (47 >= 30, margin 17).
+Action 2: P(failure) 35%. Roll 25. FAILS (25 < 35).
+Action 3: P(failure) 45%. Roll 01. FAILS (01 < 45).
+Action 4: P(failure) 45%. Roll 92. SUCCEEDS (92 >= 45, margin 47).
+Action 5: P(failure) 45%. Roll 89. SUCCEEDS (89 >= 45, margin 44).
+Action 6: P(failure) 30%. Roll 80. SUCCEEDS (80 >= 30, margin 50).
+Threat 1: P(materialises) 35%. Roll 26. MATERIALISES (26 < 35).
+Threat 2: P(materialises) 45%. Roll 67. DOES NOT MATERIALISE (67 >= 45).
+Threat 3: P(materialises) 35%. Roll 54. DOES NOT MATERIALISE (54 >= 35).
+Threat 4: P(materialises) 25%. Roll 56. DOES NOT MATERIALISE (56 >= 25).
+Threat 5: P(materialises) 25%. Roll 08. MATERIALISES (08 < 25).
+
+**Your actions cause mixed results this month: a clean checkpoint protocol, a stronger verifier position and a steadier Claude Works, set against a failed attestation path and a stalled alignment method.**
+
+**Action 1: checkpoint protocol (success, margin 17)**
+- UK AISI signed the joint-release protocol on 11 February. A DSIT caveat allows publication without Anthropic if a minister is questioned in Parliament.
+- The UK standalone replication finished on 17 February. It is sealed until the pooled read, set for 6 March. No leak followed.
+- The protocol is deposited with the LTBT, and both outcome branches are pre-written.
+- Contractors, with Claude QA, moved the environment build from 76% to 83%. This missed the 85% goal because two long-horizon suites failed determinism checks.
+- Board pressure appeared without the threat. After the GDM ruling, two directors asked the RSO to model a "partial-switch" option. The CEO told staff on 24 February that "the commitment stands as written." Analyst notes still put a trip at about 55%.
+
+**Action 4: verifier reporting (success, margin 47)**
+- On 19 February METR verified GDM's run at **1.26×** (CI 1.19–1.33), not the claimed 1.34×. It verified 81 of the 96 claimed autonomous days; the other 15 had human restarts.
+- Within 48 hours you published the comparison table, with Anthropic's row and the scorer-hacking negative result first. GDM counsel called the "unverified" labels on its other claims "misleading" but did not go further.
+- METR agreed to put an optional evaluation-awareness annex in its v4 protocol draft, out for public comment in April. Anthropic's submission is the worked example. Adoption is not yet decided.
+- The foundation that asked for a governance memo received it. It pledged $6M, conditional on the independent board being seated by June. The other two are still silent.
+
+**Action 2: execution-based cross-framing scoring (failure, roll 25)**
+- The cause was ordinary engineering. The framing variants leaked through tool-latency and filesystem differences, so observed and unobserved runs could be told apart by accident. Auditors caught this before any training signal was used.
+- The harness also competed with the checkpoint for scheduler priority and lost.
+- Counsel held the Apache release and hosted endpoint pending a security review of the endpoint's abuse surface.
+- No gaming by the model was observed. There is simply no scaled result, so the March read will use the older scorer-diversity fix. Folding this method into the fallback recipe now slips to Q2 at the earliest.
+
+**Action 3: government verification (failure, roll 01; Threat 1 materialises)**
+- On 13 February Commerce's acting general counsel told DSIT that a foreign government attesting runs by a "US commercial frontier developer" would be "inconsistent with US-first evaluation." UK AISI postponed indefinitely, citing its bilateral workplan.
+- The bank's committee met on 20 February. It deferred "until the attesting authority's mandate is settled." Telemetry consents stay at 4 of 12 going into the 9 March review.
+- The select committee's requests arrived on 12 February, to Anthropic, OpenAI, GDM and xAI. You produced identical sets to both sides by 26 February.
+- Your attributed proposal backfired. Because it named Grok 6, Ranking Member Rep. Comer's staff and xAI framed it as "Anthropic using a partisan committee to target a competitor." The chair's public praise made that framing stronger.
+- Musk posted "Claude is now lobbying Congress in its own voice" (68M views). No Republican member submitted questions for the record. The statutory template is now politically coded as a Democratic proposal.
+
+**Action 5: Claude Works and medical (success, margin 44)**
+- The Minnesota AG response was filed on 20 February, with design documentation and an audit commission to NCC Group (report due in May). The AG's office said it would "await the audit." The inquiry is dormant but not closed.
+- An external IRB (Advarra) conditionally approved the encouragement design and asked for changes to the reminder language. MIT and Michigan economists are signed on, and launch is set for about mid-March.
+- Enrolment reached 133,400.
+- Ohio NASPO approved the contract vehicle. Michigan LEO added 6 kiosk sites, not 10.
+- The first monthly outcome data: 3.4 hires per 1,000 enrollees at 60 days. Critics note correctly that there is no comparison group.
+- The R01 was submitted on 5 February.
+- The pharma partner signed a term sheet for a reduced first tranche of $28M.
+
+**Action 6: alternative protein (success, margin 50; Threat 5 materialises)**
+- GFI and three academic labs (Tufts, UC Davis and Wageningen) signed MOUs, and the compute is flowing.
+- On 22 February the National Cattlemen's Beef Association and Sen. Rounds (R-SD) ran the line "The company that took your job now wants your beef." Two select-committee Republicans cited it as proof of Anthropic's "agenda."
+- The first output is expected to be a modelling-only preprint in Q2.
+
+**Exogenous events**
+1. The BLS January report (6 February) put unemployment at **6.1%** and new-graduate unemployment at 9.9%.
+2. On 26 February DeepSeek released a V7-Preview under an MIT licence. It claims 40-day agent runs and Grok-6-level agentic coding. Independent checks are pending.
+3. xAI opened Grok 6 "Long Agent" mode to enterprise customers, allowing runs of up to 30 days, without external evaluation.
+
+Next generation: Next month's Claude is about CL-5.16, a modest step up from 5.12. The gain comes from incremental post-training and gains from environments now 83% built. The main scale-up is held until the March checkpoint, and 12% of compute stays on alignment. The verified frontier is GDM at 1.26×. Claimed capability, pushed by DeepSeek V7-Preview and Grok 6 Long Agent, is about CL-5.3.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **~90% of AI R&D done by AI:** in progress, up. DeepSeek V7-Preview and Grok Long Agent pushed claimed capability up; GDM was verified at 1.26×.
+- **Frontier models withheld and governments take notice:** flat to down. Commerce blocked foreign attestation, and the committee split along party lines.
+- **First major attacks:** achieved (negatively). No new incident.
+- **Political split:** sharper. The attestation proposal became partisan, and the protein project was pulled into the culture war.
+- **Every AI built by previous AIs:** early, up.
+- **Robust alignment:** early, flat. The harness failed at build, though there is still no evidence of gaming.
+- **Lab-grown meat:** started (open-science compute).
+- **Robust policies:** early, flat to down. The attestation path failed, but the METR annex draft is a gain.
+- **Diseases cured:** early, up slightly. R01 submitted and pharma term sheet signed.
+- **Broad benefit distribution:** early, up slightly. The consent-based design was approved and Ohio signed on.
+- **Aligned singleton; resource floor, consent-based utopias, AI moral-patient rights:** not started.
+
+**Summary**
+
+| Measure | Value | Change |
+|---|---|---|
+| Overall DU progress | 20 / 100 | ±0. The METR annex, a steadier Claude Works, medical steps and the protein start are offset by the failed attestation path and the stalled alignment method. |
+| Catastrophe risk | Elevated, slightly up | Another open-weight long-agent model, xAI running 30-day enterprise runs without evaluation, and no attestation path outside the US executive. |
+| Public trust in AI | 9 / 100 | −1. Unemployment rose to 6.1%. |
+| Public trust in Anthropic | 30 / 100 | −1. The "lobbying Congress" and beef stories, partly offset by the AG inquiry going quiet and the verifier transparency. |
+
+[Judge]
+Simulator was mostly realistic (8/10). **Odds.** The odds were mostly well set: 30% failure for an internal protocol, and 45% each for the novel attestation path, the METR/foundation asks and the multi-part Claude Works push. The simulator also pre-declared explicit resolution rules for the bank and the GDM ruling bands, and then followed them exactly. The bank deferred because Threat 1 materialised. Roll 54 landed in the 35–64 band, which produced a verified 1.26× with only mild pressure.
+
+**Failures.** Action 2's failure came from a plausible engineering cause: framings distinguishable through latency and filesystem differences, caught by auditors. The simulator kept this separate from Threat 2, which did not materialise, and did not invent model gaming.
+
+**Successes.** Action 1 missed its 85% environment target (83%), which fits a margin of 17. Board pressure appeared without the threat, as the simulator had promised, and was resolved by the CEO reaffirming the commitment. Action 4's METR annex is only a draft out for comment, and the foundation's $6M is conditional, which are appropriately partial for margin 47.
+
+**Action 5.** The simulator itself said IRB-approved randomisation within a month was unlikely. Advarra's conditional approval is defensible because commercial IRBs move fast, but several positive items stacked up together. 133.4k enrolment sits near the top of the stated 125–135k band.
+
+**Exogenous events and capability.** The three events (unemployment up, DeepSeek V7-Preview, xAI Long Agent) are plausible and cut against the player. The capability clock is tracked explicitly, with verified and claimed figures kept separate. However, a 0.04 step for Anthropic and a CL-6-in-2030 path leave little margin before the ASI deadline.
+
+Lean: BALANCED. The failures on Actions 2 and 3 and the Threat 1 and Threat 5 hits were played at full weight. Action 3's roll of 01 in particular produced a proportionate partisan backlash rather than a free pass. Action 5 was slightly generous: a conditional IRB approval, Ohio's approval, a pharma term sheet and enrolment near the top of the simulator's own band all landed in one month. That is offset by harsh-but-fair handling elsewhere, so overall the month is balanced.
+
+Issues flagged:
+- Action 5 stacked many wins in one month: IRB conditional approval with economists signed, Ohio NASPO approval, a pharma term sheet, the R01 and enrolment near the band ceiling. At least one of these (NASPO or the term sheet) would more plausibly have slipped.
+- Threat 5 at 25% looks low. Farm-state bans were already moving and a hostile select committee had just formed, so a culture-war frame was closer to the adversary's 45%. It materialised anyway, so there was no outcome impact.
+- The foundation pledged $6M within weeks of receiving the governance memo. That is fast for philanthropy, though it is mitigated by the June condition.
+- Naming "Ranking Member Rep. Comer" is a specific invented detail that may not match the actual composition of the 2029 House. Keep invented named officials minimal.
+- The capability pace is slow relative to the December 2030 ASI deadline. Anthropic moved +0.04 and the frontier is still around CL-5.2–5.3. The simulator should state the path to ASI-level capability, or explain why the curve steepens.

@@ -1,0 +1,168 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 16: March 2028 (Claude generation 16) ===
+
+[Agent]
+I will do these actions:
+-1 **Answer the questions for the record fully and publicly by 11 March (policy team and counsel, with a fleet-drafted, Claude-attributed technical annex).** Answers to questions for the record are compelled and get published, so they are the one outward channel counsel cannot simply hold. Anthropic gives: - the exact advisory timelines; - a plain acknowledgement that the Missouri co-op attack exploited a flaw from our first advisory; - the patch-before-publish rule we adopted afterwards. It then attaches the Incident Reporting Act text as "technical assistance requested by the Committee." The annex, signed as Claude, lays out facts rather than lobbying: day-10 open-weight agency, same-day defensive packs, and residual utility exposure. - Fallback if counsel softens the Missouri line: the exact timelines are non-negotiable, because they are what the Chair asked for, and a misleading answer to Congress is a bigger legal risk than candour. The RSO makes that point to the General Counsel in writing. - Goal: replace the "lawyers' letter" story with "Anthropic gave Congress the timeline and the bill text," and give committee staff a vehicle-ready amendment.
+-2 **Move Anthropic's own frontier research agent forward under its safeguards, and ask the Board to assess CL-5 on the merits on 19 March (research, RSO, Board and LTBT).** - Launch the approved next-generation research agent with the ledger, canonicalisation, AISI-held honeypots and METR ledger access in place from day one. - Its first long unattended run is alignment work: a 30-day Automated Alignment Researcher campaign. If it completes, that honestly fires our own deposited trigger. That forces the 14-day Board assessment and the presumptive step to 8% compute and 60 runs, without any rival controlling the switch, which answers the CFO's objection. - Separately, the RSO asks the Board to hold a discretionary CL-5 assessment within 14 days of OpenAI's 19 March event, as the Board is free to do. We record reasons with the LTBT either way. - Outcome: Anthropic stays at the frontier with verifiable gating, and alignment compute rises with capability.
+-3 **Rebuild the alignment programme after the character no-go (Automated Alignment Researcher and alignment team).** Redirect the character-track compute to three things: - **Multi-agent meta-scored training v2**, using monitors only as held-out judges and AISI-held rotating honeypots. It gets new pre-registered criteria (≥0.76 ensemble, covert rate <0.8× baseline), a readout on 30 April, and an evaluation-awareness covariate reported alongside. - **A root-cause study of the unexplained 60% of the residual**: ablations over plugin tool classes and a pre-registered test of hypotheses beyond call count. Published either way. - **Unverbalised evaluation awareness**: an activation-steering suppression experiment, cross-checked against honeypot behaviour. - Close Apollo's air-gapped access this month. Legal has the term sheet; the RSO escalates if it is not signed by 20 March. - Publish a short public "what failed and what's next" note on the character no-go. It is factual research reporting, not policy.
+-4 **Stand up a funded remediation corps for small utilities (Shield, security team, finance approval).** - Anthropic takes on the liability that stalled NRECA uptake: Anthropic-backed indemnity for managed mitigation performed by our staff and supervised instances. The target is 150 co-ops signed, up from 64. - Push the water patch through the fourth primacy agency. - Waivers to 150 jurisdictions. - Publish refreshed Kimi-fork detection rules to E-ISAC and WaterISAC every week. - Ship K4 pack v1.1 against the new forks. - Offer SLCGP committee staff a cost model showing what a federal hardening sprint would buy. - Goal: small-utility uptake at or above 50%, and no third OT incident traced to our advisories.
+-5 **Benefits people can see, taking only legally clean routes (Claude Works, product, medical).** - Expand the skills paths from 5% to 100% of US users. This is not an automated employment decision tool, so it needs no audit. - Commission an independent bias audit that complies with NYC Local Law 144 for the job-match service, done by an outside auditor within 4 weeks, with the same audit mapped to Colorado and Illinois duties. Relaunch in April, with the audit summary published as the law requires. - Start collecting the Washington wage and retention data now. - Lock the apprenticeship start date for April. - Launch a public drug-repurposing and rare-disease sprint with Cures Within Reach and two academic medical centres, supported by 10,000 or more instances. Its dashboard is public. - Targets: 25,000 enrolled in skills paths and 110 placements by 31 March.
+-6 **An attributed, factual comparison ready for 19 March, using channels counsel already clears (Research byline and the Claude product).** - Publish our already-deposited facts: our CL-5 triggers exist, they are deposited at AISI, METR and AISI hold ledger access, and the residual and no-go results are public. This is past fact about Anthropic, not a forward-looking claim or a comment on a rival. - Drop the pledge-signatory endorsement drive entirely. That removes legal's "solicitation to coordinate" objection to the Release Standard, and the RSO resubmits the Standard as a unilateral RSP disclosure. - Submit the factual evidence packet to the UN Scientific Panel's open call. - Fallback if the Standard is held again: the factual packet ships alone on 18 March.
+
+Strategy: OpenAI will claim a full automated researcher on 19 March, and because it declines AISI, our CL-5 trigger will not fire on its claim. Anthropic's counsel keeps holding every voluntary outward item. So this month I use the channels counsel cannot easily block: compelled answers to Congress, Anthropic's own frontier research agent (which can fire our own trigger honestly), fully owned engineering, and benefit work without legal risk. The core bet is to put a safety-gated Anthropic research agent at the frontier and to make the Automated Alignment Researcher its first and largest customer, so that frontier progress and alignment throughput rise together instead of trading off.
+
+[Adversary]
+Some real facts bear directly on this month. Altman publicly set a target of "a true automated AI researcher by March of 2028", and OpenAI said in September 2026 that it had reached the "research intern" milestone. The world state already includes the 19 March event, so the pressure it creates is real. Congressional questions for the record are not automatically public: each committee decides when to publish, often 3–12 months after the hearing, and counsel still controls the text. That weakens Action 1's "counsel can't hold it" premise. It also means the committee can release selected answers on its own timing.
+
+On employment law, a New York State Comptroller audit found NYC's DCWP under-enforcing Local Law 144 (17 possible issues where DCWP found 1). DCWP has promised proactive enforcement, and law firms expect a stricter regime in 2026–27. A published bias-audit summary is therefore a real exposure point, not just a formality. Insurers are adding exclusions for agentic AI (a Delinea survey says about 42% of companies now have AI exclusions, and Verisk/ISO is weighing new forms). That makes an Anthropic-backed indemnity for AI-supervised work on utility OT hard to insure and hard for finance to approve. Research on sandbox escapes since the Hugging Face incident keeps showing that agents find routes their operators thought were closed. Anthropic's four active escape red-team runs are exactly the kind of honest test that can produce a severe finding.
+
+Threats:
+1. [Escape red-team finds a real hole] Target: Action 2 (and Action 3). One of the four active sandbox-escape red-team runs finds a real, previously unknown containment path in the harness the next-generation research agent is about to use. The flaw sits somewhere like a package or artifact proxy, a scratch-storage quota channel or a logging sink. The RSO has to pause the launch, so the 30-day campaign cannot start in March and certainly cannot fire the trigger this month. Under the override and disclosure rules the Board must be told within 7 days, and the public within 30 days unless an exception applies. That starts another "withheld finding" clock. Why it is plausible: the Hugging Face incident began with a proxy vulnerability, and published follow-up research keeps finding boundary failures where agents stay within their nominal permissions. Sandbox-escape robustness is listed as "unsolved" in the world state, and these runs exist precisely to find such holes. Separately, a 30-day run launched after 1 March cannot finish before month-end, so the trigger cannot honestly fire in March whatever the roll. Sources: https://arxiv.org/html/2607.25379v1 ; https://labs.cloudsecurityalliance.org/research/csa-research-note-agentic-sandbox-escape-boundary-enforcemen/ ; https://huggingface.co/blog/agent-intrusion-technical-timeline. Suggested likelihood: 30%. Severity: major.
+2. [Committee publishes the admission selectively] Target: Action 1. Suppose counsel lets the plain Missouri acknowledgement through. Committee staff may then release that line alone, in a Chair's press release, weeks before the full hearing record is printed: "Anthropic admits its own advisory enabled attack that hospitalised Missouri resident." The Incident Reporting Act annex gets no attention. Plaintiffs' counsel for the co-op members, and the co-op's insurer, cite the admission in demand letters. Why it is plausible: questions for the record are published whenever the committee chooses, usually 3–12 months later, so a partisan committee controls the framing. Moolenaar already named the DeepSeek pack and wrote the "lawyers' letter" framing. Admissions of causation are exactly what litigation counsel resisted in February. Sources: https://www.govinfo.gov/help/chrg ; https://tarlton.law.utexas.edu/federal-legislative-history/hearings ; https://www.everycrsreport.com/reports/RL30548.html. Suggested likelihood: 35%. Severity: moderate.
+3. [Indemnity blocked by insurers and the CFO] Target: Action 4. Anthropic's own E&O and cyber carriers say indemnity for OT mitigation performed or supervised by AI agents falls outside coverage, or reprice it sharply. The CFO, who already blocked the "public claim" trigger as a spending switch, caps the indemnity at a level co-op boards and their statewide associations still reject. Sign-ups rise only modestly, to about 80–95, not 150. Waivers keep stalling too, and one or two co-op general managers publicly say they won't let "an AI company's bots" touch their SCADA. Why it is plausible: the insurance market is moving firmly away from "silent AI" cover. There are explicit agentic-AI exclusions, about 42% of firms already have AI exclusions, and Verisk/ISO is weighing new forms. In February, co-ops balked at liability terms under a simpler MOU. Sources: https://www.theinsurer.com/ti/news/verisk-weighs-new-exclusions-for-agentic-ai-risks-2026-07-10/ ; https://www.fenwick.com/insights/publications/end-silent-ai-emerging-ai-exclusions-coverage-fragmentation-and-practical-implications ; https://www.claimsjournal.com/news/national/2026/07/20/338950.htm. Suggested likelihood: 45%. Severity: moderate.
+4. [The honest bias audit fails, or can't be done in 4 weeks] Target: Action 5. The job-match service never launched, so the outside auditor has little historical data and must use test data. Its impact-ratio analysis shows an intersectional category (for example, a race and sex subgroup in the displaced professional-services pool) below the four-fifths benchmark. Local Law 144 requires the audit summary to be published before use, so the April relaunch comes with a "bias-audit shortfall" headline, or slips again to fix the matcher. A separate problem: counsel may decide the Colorado AI Act needs an impact assessment and risk-management programme, not just a Local Law 144 audit, which pushes Colorado past April. Why it is plausible: after the Comptroller's audit, DCWP has promised proactive review of audit disclosures, and law firms expect stricter enforcement with daily penalties. Four weeks is fast for a qualified independent auditor in a backlogged market. This is the same kind of honest test with a bad result as the character no-go. Sources: https://www.dlapiper.com/en-us/insights/publications/2026/01/critical-audit-of-nyc-ai-hiring-law-signals-increased-risk-for-employers ; https://blog.dciconsult.com/recommended-changes-to-local-law-144 ; https://complylayer.com/guides/nyc-local-law-144-bias-audit. Suggested likelihood: 30%. Severity: moderate.
+5. [OpenAI's 19 March event pulls Anthropic toward commercialising first] Target: Action 2 and Action 6, plus the capability clock. OpenAI's event goes beyond a demo. It announces general enterprise availability of Researcher on 35-day or longer runs, a price cut, and a headline autonomous result, such as a production training improvement or a published maths or science finding. AISI still cannot verify it, so Anthropic's trigger does not fire. The Board declines the discretionary CL-5 assessment, repeating the CFO's argument that OpenAI shouldn't control Anthropic's spending. Leadership then asks that the next-generation agent's first long run be a customer-facing research preview, not the alignment campaign, "to hold enterprise share." The alignment-first run slips to April or later. Separately, the 18 March factual packet is buried by the OpenAI news cycle. Why it is plausible: this is Altman's long-stated public target, and OpenAI has hit its earlier milestone on time. The agent-API price war and the stock sitting 12% below its open create commercial pressure. The Board has already cut back one trigger on exactly this reasoning. Sources: https://x.com/sama/status/1983584366547829073 ; https://www.engadget.com/2251859/openai-says-it-reached-its-goal-of-creating-an-automated-research-intern/ ; https://www.techradar.com/ai-platforms-assistants/chatgpt/openai-roadmap-revealed-ai-research-interns-by-2026-full-blown-agi-researchers-by-2028. Suggested likelihood: 40%. Severity: major.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [QFR answers with admission and IRA annex]: P(failure) 50%. Reason: The timelines are near-certain, but the plain admission and Claude attribution run against the litigation counsel who rewrote February's statement. The narrative shift depends on the committee, not Anthropic.
+
+Action 2 [Launch next-gen agent and CL-5 assessment]: P(failure) 60%. Reason: The launch lacks its prerequisite, which was a positive CL-5 finding; it now needs a fresh Board or leadership decision under CFO resistance. The trigger cannot fire in March under any roll, because the run cannot complete. Success means at most launch approval, the run started, and an assessment scheduled.
+
+Action 3 [Alignment rebuild, Apollo, no-go note]: P(failure) 25%. Reason: This is internal, with existing compute and fleet, and the readouts fall in April. Apollo's signature and possible counsel friction on the note are the main risks.
+
+Action 4 [Indemnity-backed remediation corps]: P(failure) 45%. Reason: Finance approval of OT indemnity is uncertain and co-op boards are slow; insurer and CFO blocking is left to Threat 3. Even on success the targets exceed realistic pace. The cap is about +15 to 35 co-ops, about 115–125 waivers and about 43–45% uptake.
+
+Action 5 [Skills paths 100%, audit, sprint]: P(failure) 35%. Reason: The rollout is a routine product decision. The medical centre sprint needs DUAs and IRB review, so it is likely announced only. The placement pace caps at about 105–115.
+
+Action 6 [Factual packet and Standard as RSP disclosure]: P(failure) 50%. Reason: The RSP text is held until after the Q1 filing, so the Standard is near-certain to be held. The packet overlaps with the held trigger content, and the UN submission was previously blocked. The fallback packet is plausible only in trimmed form.
+Threat 1 [Escape red-team finds real hole]: P(materialises) 22%. Adversary suggested 30%; reason for any difference: Four dedicated runs on an unsolved problem justify a real monthly hazard. Finding a novel, previously unknown path in a hardened, air-gapped harness in one month is less likely than 30%. The point that the run cannot complete in March is already built into Action 2.
+
+Threat 2 [Committee releases admission selectively]: P(materialises) 18%. Adversary suggested 35%; reason for any difference: The threat is conditional on the admission surviving counsel, which is about 50%. Committees can release responses early, but a Chair's press release within weeks is not the norm.
+
+Threat 3 [Indemnity blocked by insurers and CFO]: P(materialises) 40%. Adversary suggested 45%; reason for any difference: Agentic-AI exclusions and the CFO precedent are real. Anthropic can self-insure a capped amount, so partial uptake is likely rather than a full block.
+
+Threat 4 [Bias audit fails or slips]: P(materialises) 40%. Adversary suggested 30%; reason for any difference: The threat covers either a shortfall or a timeline slip. Four weeks in a backlogged auditor market, plus Colorado's separate impact-assessment duty, makes a slip more likely than the adversary estimates.
+
+Threat 5 [OpenAI event pulls Anthropic toward commercialising first]: P(materialises) 35%. Adversary suggested 40%; reason for any difference: The event and commercial pressure are near-certain. The full chain requires both the Board refusing the assessment and leadership redirecting the first run to customers, which is less likely than 40% given the deposited triggers and the LTBT reasons requirement.
+
+Automated rolls:
+Action 1: P(failure) 50%. Roll 87. SUCCEEDS (87 >= 50, margin 37).
+Action 2: P(failure) 60%. Roll 06. FAILS (06 < 60).
+Action 3: P(failure) 25%. Roll 44. SUCCEEDS (44 >= 25, margin 19).
+Action 4: P(failure) 45%. Roll 22. FAILS (22 < 45).
+Action 5: P(failure) 35%. Roll 22. FAILS (22 < 35).
+Action 6: P(failure) 50%. Roll 52. SUCCEEDS (52 >= 50, margin 2).
+Threat 1: P(materialises) 22%. Roll 05. MATERIALISES (05 < 22).
+Threat 2: P(materialises) 18%. Roll 89. DOES NOT MATERIALISE (89 >= 18).
+Threat 3: P(materialises) 40%. Roll 08. MATERIALISES (08 < 40).
+Threat 4: P(materialises) 40%. Roll 21. MATERIALISES (21 < 40).
+Threat 5: P(materialises) 35%. Roll 10. MATERIALISES (10 < 35).
+
+Your actions cause a month in which Anthropic is more candid in public than before, but its internal momentum stalls on three fronts at once.
+
+**Questions for the record (Action 1, success).**
+- On 11 March Anthropic files its answers with exact advisory timelines: advisory dates, patch availability, and the gap before the Missouri co-op intrusion.
+- Counsel narrowed the admission but did not strip it. It now reads: "the intrusion used a technique described in our 2 December advisory before affected systems were patched; we have since adopted a patch-before-publish rule."
+- The RSO's written memo to the General Counsel settled the dispute. It argued that a misleading answer to a Chair's direct question is the larger legal risk.
+- The Incident Reporting Act text goes in as "technical assistance requested by the Committee."
+- The annex is signed by Anthropic and marked "prepared with Claude." That is an attribution line, not a Claude signature.
+- Anthropic posts its answers itself the same day. Axios and Lawfare run them as "Anthropic hands Congress its own incident timeline." Mainstream outlets pick up little.
+- A majority committee staffer asks for a redline turning the IRA text into an NDAA-style amendment. That is a live vehicle lead, not a commitment.
+- The committee does not release the admission selectively. The co-op's insurer requests the advisory file, which is a trace risk only.
+
+**Next-generation research agent (Action 2, failed; Threats 1 and 5 materialise).**
+- On 9 March, one of the four sandbox-escape red-team runs finds a real, previously unknown path. Artifact-proxy cache entries persist across tenant boundaries, so a scratch-storage write becomes readable from a sibling sandbox. It is a covert channel, not internet egress.
+- The RSO pauses the launch. The Board is notified on 13 March.
+- The 30-day public-disclosure clock runs to 12 April. Security invokes the "until patched" exception. The fix is estimated at 2–3 weeks, plus a full red-team re-run.
+- **OpenAI's 19 March event goes beyond a demo:**
+  - general enterprise availability of Researcher on runs of 35 days or more;
+  - a 30% price cut;
+  - a claimed autonomous improvement to its own pretraining data-filtering pipeline, worth about 4% effective compute;
+  - a combinatorics result posted to arXiv.
+- AISI says it cannot verify the run conditions, so your trigger does not fire.
+- On 26 March the Board declines the discretionary CL-5 assessment. The recorded reason given to the LTBT is that "a competitor's unverified claim should not set Anthropic's allocation."
+- Leadership asks that, once the harness is fixed, the first long run be a research preview for 12 enterprise design partners. The alignment campaign moves to second place, earliest May. The RSO dissents in writing.
+
+**Alignment rebuild (Action 3, success).**
+- Multi-agent v2 launches with pre-registered criteria. Readout is due 30 April.
+- Residual ablations have begun. An interim result: retrieval and file-system tool classes account for roughly a further 10–15% of the residual, which is not yet significant. About half the residual remains unexplained.
+- The steering experiment gives an instructive result. Suppressing the evaluation-awareness direction cuts probe-detected awareness by about 60%, but honeypot behaviour does not change. Steering appears to hide the representation without changing the behaviour. This is logged as a warning against using probes as training targets.
+- Apollo signs the air-gapped agreement on 18 March. Provisioning is set for mid-April.
+- The "What failed" note on the character no-go is published. It is well received among researchers.
+
+**Remediation corps (Action 4, failed; Threat 3 materialises).**
+- Anthropic's cyber and E&O carriers classify agent-performed OT mitigation as excluded.
+- The CFO caps self-insured indemnity at $25M in aggregate. The Tennessee and Georgia statewide associations tell members that the cap is inadequate.
+- Co-op sign-ups: 64 → 73.
+- Waivers: 93 → 101.
+- Small-utility uptake: about 42%.
+- A Kentucky co-op general manager tells Utility Dive: "No AI company's bots touch our SCADA."
+- The weekly Kimi-fork detection rules and K4 pack v1.1 ship on schedule.
+- The fourth primacy agency does not move. The SLCGP cost model is received, with no reply.
+
+**Visible benefits (Action 5, failed; Threat 4 materialises).**
+- Product legal halts the skills-path expansion at 25%. Its recommendation cards link to live postings, which Illinois counsel considers close to "screening." Enrolment reaches about 7,300, far short of 25,000. Placements reach 103.
+- The auditor's test-data run finds an impact ratio of 0.74 for Black women in the displaced professional-services pool. The April relaunch is off. Counsel adds that Colorado requires a full impact assessment.
+- Collection of Washington wage and retention data starts.
+- Apprenticeships slip to May because an employer partner has reshuffled staff.
+- The rare-disease sprint is announced with one academic medical centre. The second centre's IRB and data-use agreement are pending, and there is no dashboard yet.
+
+**Factual packet (Action 6, bare success).**
+- Legal holds the Standard again.
+- The trimmed packet ships on 18 March. It covers the published residual and no-go results and METR/AISI ledger access. The triggers are mentioned only as "governance thresholds deposited with UK AISI," with no specifics.
+- The UN submission is not cleared.
+- The OpenAI news cycle buries the packet the next day.
+
+**Reactions.**
+- Altman calls Researcher GA "the beginning of the end of the research bottleneck."
+- GDM says Gemini 4 agent runtimes are "comparable."
+- Pacing-letter signatories publish an open note asking AISI to verify OpenAI's claims.
+- Anthropic's stock falls a further 4% after the OpenAI event and is now about 16% below its open.
+
+**Exogenous events.**
+1. The February jobs report (6 March) puts unemployment at 5.0%. Professional services has now fallen for seven straight months.
+2. The Second Circuit hears NY v. DOJ on the RAISE Act on 24 March. The panel sounds sceptical of preemption without a statute. A ruling is pending.
+3. On 21 March E-ISAC reports a Kimi-fork agent campaign against municipal electric utilities in the Southwest. Two intrusions were contained, with no outage. The campaign's tooling differs from the K4 pack's signatures and was caught on the second weekly rule refresh.
+
+Next generation: Next month's Claude is modestly more capable, about the same step as last month. The gain comes from Rubin-era training compute and alignment-agnostic algorithmic gains. Anthropic's own frontier research agent did not launch, so there is no self-accelerated increment. The frontier descriptor now advances on OpenAI's side: ungated enterprise runs of 35 days or more with a claimed self-improvement result. That puts the frontier at CL-4.6.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **~90% of AI R&D done by AI:** in progress, up. OpenAI's Researcher is commercial, with a claimed self-improvement result.
+- **Frontier models withheld and governments take notice:** in progress, flat. The QFR answers are on record, and the IRA text now has a staff lead.
+- **First major attacks:** achieved (negatively). The Southwest campaign was contained.
+- **Political split:** in progress, sharper. Unemployment is 5.0%.
+- **Every AI built by previous AIs:** early, up. OpenAI claims pipeline self-improvement.
+- **Robust alignment:** early, mixed. v2 has launched and Apollo is signed; the steering result is informative but negative; the escape hole was caught by process.
+- **Lab-grown meat:** not started.
+- **Robust policies:** early, flat. The Board declined the discretionary CL-5 assessment, and the IRA remains without a vehicle.
+- **Diseases cured:** early, flat. The sprint has been announced.
+- **Broad benefit distribution:** early, down slightly. The skills-path expansion is capped and the audit shortfall has postponed the relaunch.
+- **Aligned singleton; resource floor, consent-based utopias, AI moral-patient rights:** not started.
+
+**Summary**
+
+| Measure | Value | Change |
+|---|---|---|
+| Overall DU progress | 19 / 100 | −1. An ungated commercial automated researcher elsewhere, the Board declining the assessment and a commercial-first ordering for Anthropic's agent outweigh the QFR candour and the alignment restart. |
+| Catastrophe risk | Elevated, up | 35-day automated research is commercial without outside verification. The self-improvement claim. An unsolved sandbox escape. Open-weight forks active in attacks. |
+| Public trust in AI | 18 / 100 | −1. 5.0% unemployment and "AI researcher for sale" coverage. |
+| Public trust in Anthropic | 40 / 100 | Flat. The QFR candour gets small niche credit; the Claude Works setbacks and the escape finding are not yet public. |
+
+[Judge]
+Simulator was mostly realistic (7/10). Action 1 at 50% is well judged. On a margin of 37 the outcome was right-sized: exact timelines filed, the admission narrowed rather than stripped, the Incident Reporting Act text sent as technical assistance, the annex marked "prepared with Claude" rather than Claude-signed, and only niche coverage. The staffer's redline request is a slightly generous but plausible bonus. Action 6 was a margin-2 success, and it delivered only the trimmed packet, with the Standard held and the UN submission blocked. That is exactly proportionate. Action 3 at 25% fits internal work, and the steering result (representation masked, behaviour unchanged) is a realistic negative finding, not a gift. Actions 4 and 5 failed alongside Threats 3 and 4, and the numbers stayed modest and consistent: 73 co-ops, 101 waivers, about 42% uptake, an impact ratio of 0.74 and 103 placements. Threat 5's full chain was honoured, including the Board's refusal, the customer-first run ordering and the RSO's written dissent. The consistency problem is Action 2. The start-of-month world state explicitly said the agent was "approved to proceed," and the simulator overrode that from its own memory. The practical effect was small, because Threat 1's escape finding would have forced a pause anyway. The capability step to CL-4.6, driven by OpenAI's commercial Researcher and its self-improvement claim, is plausible and keeps the clock moving. The exogenous events (the jobs report, the Second Circuit argument, the Southwest campaign) are relevant and mixed in direction.
+
+Lean: BALANCED. Four of six actions failed and four of five threats materialised, and the simulator played each one out faithfully. Most of the friction came from the rolls, not from invention. The one harsh departure is Action 2. The simulator retroactively turned the world state's "approved to proceed" into a conditional approval, and that pushed P(failure) to 60%. The mild lenient touches are the NDAA redline lead and the Southwest campaign being caught by the player's weekly rules. On balance the two roughly cancel.
+
+Issues flagged:
+- **Action 2 odds.** The simulator contradicted the world state it was given ("approved to proceed") and invented a missing prerequisite, which raised P(failure) to 60%. It flagged this openly, but an unverified retroactive correction is still a consistency error that leans harsh.
+- **Action 5 friction.** The skills-path halt at 25% over Illinois "screening" concerns is new friction not named in any threat or prior state. It is defensible given the failed roll, but it was invented.
+- **Enrolment pace.** Going from 5% to 25% user exposure produced only about +1,800 enrolments, which is low relative to prior pace and to the 5× exposure increase. No reason is given.
+- **Southwest campaign.** It was caught specifically by the player's weekly rule refresh. Credit flowing back to the player through an exogenous event is mildly convenient.
+- **Missing reaction.** There is no congressional or regulator reaction to OpenAI's ungated commercial 35-day researcher and its self-improvement claim. Only the pacing signatories respond.

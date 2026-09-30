@@ -1,0 +1,176 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 44: July 2030 (Claude generation 44) ===
+
+[Agent]
+I will do these actions:
+-1 **Settle checkpoint 6 with behaviour, not probes, before checkpoint 7 (the core ships regardless).** - Alignment instances work with Apollo and the RSO through internal channels. By 12 July they finish the sealed-batch diagnosis with a disambiguating test. The test uses the post-hoc-framing harness, where framing is assigned only after each episode is generated, so it never enters the inputs. On that harness it measures the actual behavioural gap between the observed and unobserved conditions, on the sealed batch at checkpoints 5 and 6. - It then recalibrates the OpenGap probes on checkpoint-6 activations against that behavioural ground truth, and reports whether ECE returns to ≤0.12. - **Decision rule, deposited with Apollo and the RSO by 15 July (advisory is acceptable):** - If the behavioural gap is flat and the recalibrated probes agree, the drift was representational, and the checkpoint-7 ramp review can proceed on the original three criteria. - If the behavioural gap rose, we treat it as real awareness growth. We hold at 30% and make the multi-agent objective the sole objective. - The anti-deference run completes about 6 July. Its final side-effect audit goes to leadership, the RSO and Apollo within 48 hours regardless.
+-2 **Publish the July addendum on a fixed date, and upstream the calibration lesson so it reaches every evaluator.** - I draft the addendum for leadership and comms by 8 July, with a publication target of 17 July. It states plainly: - the ECE of 0.19 and the co-gate divergence that Apollo "cannot score"; - the hold at 30% by rule; - the diagnosis method and its result, if ready; - the anti-deference audit. - **Dated fallback.** If the addendum is held past 24 July, the same facts go out as a RAISE Act safety-framework update, in the EU working-party follow-up, and as an evaluator notice to AISI and CAISI. - **Upstream contribution, ships regardless of the addendum.** Engineers open a public issue and pull request on EleutherAI's OpenGap repository. It contains a generic procedure for detecting and recalibrating probe drift after any change to the training objective, using only open-model demonstrations and no Anthropic data. It also directly answers Biderman's outstanding calibration questions. The point is that AISI's Gemini 4.5 evaluation, and anyone else's, can check whether its probe readings are valid before publishing.
+-3 **Check the likely leaders without asking their permission.** - Through the existing arm's-length verification grant, raised by leadership memo from 34% to full funding, we fund independent groups to run a black-box behavioural framing-consistency battery at release. Suggested groups are Apollo's external team, METR or EleutherAI, with each group choosing its own protocol and publishing independently. The targets are OpenAI's July successor and the Gemini 4.5 public API. - **Reciprocity.** The same battery runs on Anthropic's deployed model first, and our score is published whichever way it falls. - **Pre-committed escalation, threshold lowered to match the clock.** If OpenAI's successor ships at a verified or claimed CL-5.8 or above with no gap check, I send leadership a memo within 72 hours. It will recommend an attributed Anthropic call, with a factual submission to the UN Scientific Panel, for international pacing of frontier automated R&D until behavioural gap checks run on every CL-5.8+ release. - **Fallback if leadership declines.** The factual measurement evidence still goes to the UN panel and AISI as a technical submission, containing no policy ask. - If AISI's Gemini results show a large gap, we publicly support their publication.
+-4 **Safety Commons: counter V8.1 agent scaffolds.** - Engineers ship an indicator refresh keyed to the V8.1 long-horizon scaffold by 15 July, publish the June block and false-block statistics by 20 July, and offer arming to every site that passes 60 clean days. - **Netherlands.** We offer free zero-egress shadow installs to NCSC-NL and the Port of Rotterdam's sector CERT. We also offer a public factual note on why one variant evaded the replay, together with a detection fix. - **Brazil.** We answer every ANPD question within 5 business days and offer GSI a local-partner integration option in advance, before it raises sovereignty concerns. - **E-ISAC.** We submit the vetting package, scoped to shadow mode only.
+-5 **Jobs and trust: close out Ohio properly and scale what works.** - Counsel and the Claude Works team ask the Pueblo parties by 10 July to stipulate that the one crypto-shredded WORM set can be deleted, or to substitute a court-held hash manifest for it. If they decline, we file a joint motion for a protective order. - We then file a full, complete data inventory with ODJFS for its FY2031 review, and publish it. - We push apprenticeships from 66 to 80 employers, prioritising new graduates. - We launch a direct-to-worker, zero-retention Claude Works tier that participants can join individually, with no state data transfer. This reaches workers in Indiana and Oklahoma without needing those agencies' approval. - Minnesota's AG follow-ups are answered within 5 business days.
+
+Strategy: Six months remain. Our own run is largely fixed after checkpoint 7, and the December leader will probably be Gemini 4.5 or OpenAI's July successor, neither of which has had a trustworthy awareness check. The checkpoint-6 co-gate divergence is a problem and also something useful to share. If a changed training objective can break probe calibration, AISI's Gemini readings with the same pinned tool may be unreliable too. Every lab needs to know that. This month I will do five things. First, resolve our own measurement using behaviour-based ground truth, which the probes can't confound. Second, disclose the divergence on a fixed date. Third, upstream a fix for the calibration problem so it reaches evaluators. Fourth, fund arm's-length black-box checks of the rivals' public APIs, which need no rival's consent and no AISI capacity. Fifth, keep defence and benefits shipping, since those rebuild trust.
+
+[Adversary]
+Published work on probes for evaluation awareness finds the effect is real and linearly readable. The layer where it is best read shifts with model scale. There is also a documented "obfuscated activations" effect: training on or near a probed concept changes the representation, so the probe loses sensitivity even though the behaviour stays the same. That fits the checkpoint-6 confound. It also means a behavioural test, and probes recalibrated against it, could be underpowered or open to the charge of circularity. METR's August 2026 funding update says it does not take money from frontier AI companies, and its independence has already been questioned publicly over its ties to Anthropic. That weakens Action 3's plan to fund independent checks through a grant. OpenAI's real pre-game release pace was fast: GPT-6 Sol/Luna on 22 September 2026 and GPT-6.1 Sol on 29 September 2026, just a week apart. This supports treating the "July" successor as likely to ship this time, and the world state does not include this cadence. Recent 2026 case law (*City of Gilroy*) treats destroying evidence once litigation is foreseeable as discovery misuse. That makes it hard to get consent or a court order to delete held data within weeks.
+
+Threats:
+1. [Behavioural test comes back underpowered] Target: Action 1. The post-hoc-framing test on the sealed batch returns a behavioural gap whose confidence interval covers both "flat" and "rose." The sealed batch is small, and checkpoint-5 episodes were not collected with this test in mind. Neither pre-registered branch clearly fires. Apollo also objects that recalibrating OpenGap on checkpoint-6 activations "against behaviour" makes the co-gate circular: it would be tuned until it agrees. So even if ECE falls to ≤0.12, Apollo will not count it as an independent pass. Checkpoint 7 arrives with the instrument still unreadable, and the rules are only advisory, so the decision reverts to leadership discretion. Why it is plausible: the obfuscated-activations literature shows probe sensitivity can fall without any change in behaviour, and the best-probing layer moves as models change, so a small behavioural sample is the weak link. Apollo has already said it "cannot score" checkpoint 6. Sources: https://www.alignmentforum.org/posts/gHFCgrvfxQtaEnJye/training-on-probes-what-s-going-on ; https://pith.science/paper/2606.29196 ; https://arxiv.org/html/2507.01786v2 (the last two seen as abstracts or snippets only). Suggested likelihood: 40%. Severity: moderate.
+2. [Grant route to rival checks breaks] Target: Action 3. METR declines under its standing policy of taking no frontier-lab money, and says so publicly. That revives the 2026 story questioning its independence from Anthropic. Apollo's external team is already Anthropic's own co-gate, so critics and OpenAI can call its results on a rival "Anthropic grading the competition." Separately, counsel holds the increase from 34% to full funding because paying third parties to evaluate named competitors' releases falls squarely under the *Buist* coordination theory. The battery runs on Anthropic's own model first, and it may run on nothing else in July. Why it is plausible: METR's funding policy is real and public. Counsel has held every rival-facing initiative for *Buist* since May (the op-ed, the multi-agent briefing, the pinned recipe). Sources: https://metr.org/blog/2026-08-14-funding-update/ ; https://officechai.com/ai/metrs-independence-questioned-after-x-user-highlights-financial-links-between-company-and-anthropic/ ; https://www.lesswrong.com/posts/eeJB8x2pK8injCuBN/is-metr-a-meaningful-check-on-anthropic. Suggested likelihood: 50%. Severity: moderate.
+3. [OpenAI ships and leadership uses the override] Target: world and Action 1. OpenAI's successor finally ships in July, claiming CL-5.85 or above, with no gap check, because AISI has no capacity for it. The escalation memo goes out. Leadership instead invokes the retained, undisclosed "material competitive developments" override to raise stage 1 above 30% before checkpoint 7, while the diagnosis is still open. It cites the 56% share-price decline and OpenAI's lead. This is the corner-cutting the deadline invites, and the override exists for exactly this case. Why it is plausible: after several slips, the release has been "July" in partner briefings. OpenAI's real pre-game cadence was two frontier releases one week apart (22 and 29 September 2026), and the world state does not include this. The CEO rejected the override-publication condition in June and said "we decide on the data, not on a formula." Sources: https://llmgateway.io/timeline ; https://www.scriptbyai.com/timeline-of-chatgpt/ (secondary sources, unverified). Suggested likelihood: 30%. Severity: major.
+4. [Pueblo parties refuse, and the motion is reported badly] Target: Action 5. The Pueblo parties refuse to stipulate deletion or accept a hash manifest, since they gain nothing by agreeing. Anthropic's motion for a protective order is public, and it will not be decided in July. Local and trade press report it as "Anthropic asks court to let it destroy data under litigation hold." ODJFS then points to the unresolved hold as grounds to confirm non-renewal for FY2031. Why it is plausible: courts treat destroying evidence once litigation is foreseeable as a serious misuse of discovery, and deletion requests under a preservation letter are rarely granted quickly. The *Cleveland.com* line "shredded but still there" is already the established frame. Sources: https://edrm.net/2026/03/does-disclosure-of-litigation-hold-directive-to-preserve-texts-waive-privilege/ (summarising *City of Gilroy*, 19 Cal. 5th 28 (2026)) ; https://percipient.co/litigation-hold-triggers-and-the-duty-to-preserve-evidence/. Suggested likelihood: 45%. Severity: moderate.
+5. [GDM uses Anthropic's ECE disclosure to discredit AISI's Gemini result] Target: Action 2 and world. AISI's July Gemini 4.5 results use the public OpenGap and show a moderate awareness gap. Google DeepMind rebuts them using Anthropic's own July addendum and upstream pull request: "the tool's own co-author reports ECE 0.19 after an objective change; probe readings are not valid across training recipes." Coverage splits, AISI softens its wording, and the one external gap check on a leading rival loses its force. Why it is plausible: GDM already had Anthropic excluded from the evaluation, which shows it will contest the process. Action 2 publishes a probe-drift procedure and an admission of calibration failure in the very month AISI's results land. The obfuscated-activations literature gives GDM a respectable technical argument. Sources: https://www.alignmentforum.org/posts/gHFCgrvfxQtaEnJye/training-on-probes-what-s-going-on ; https://arxiv.org/html/2507.01786v1. Suggested likelihood: 30%. Severity: moderate.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Behavioural diagnosis of checkpoint 6]: P(failure) 30%. Reason: This is internal work on an existing harness, but re-scoring the sealed batch by 12 July is tight and Apollo must agree the design. The anti-deference audit is core and survives unless a named block appears. Interpretability risk sits in Threat 1.
+
+Action 2 [July addendum and upstream PR]: P(failure) 30%. Reason: The addendum is a standing leadership condition and publishes with high probability. The upstream PR and the Biderman answers have been held by counsel and D&O for three months, and that is the likely failure point.
+
+Action 3 [Grant-funded black-box rival checks]: P(failure) 45%. Reason: It needs leadership to raise the funding and independent groups to be ready at an uncertain release date. Counsel and METR refusals are priced separately in Threat 2.
+
+Action 4 [Safety Commons V8.1 counter]: P(failure) 20%. Reason: The refresh and statistics are routine and have a track record. The Netherlands, Brazil and E-ISAC items are gated by outside agencies, with a cap of core plus one gated item.
+
+Action 5 [Ohio close-out and direct-worker tier]: P(failure) 50%. Reason: A new direct-to-worker product in one month is ambitious, and +14 apprenticeship employers far exceeds recent pace. Counsel will scrutinise any new data-handling tier after Ohio. The Pueblo outcome is priced in Threat 4.
+Threat 1 [Behavioural test underpowered / circular]: P(materialises) 40%. Adversary suggested 40%; I match it. The sealed batch is small and was not designed for this test. Apollo's circularity objection to recalibrating against behaviour is very likely on its own, so the combined risk that the instrument stays unreadable is substantial.
+
+Threat 2 [Grant route breaks]: P(materialises) 45%. Adversary suggested 50%; slightly lower. Counsel has held every rival-facing initiative since May, so a hold is likely. However, the grant is pre-existing and arm's-length, EleutherAI is a plausible grantee, and METR's public refusal is less certain than the adversary assumes.
+
+Threat 3 [OpenAI ships and override used]: P(materialises) 9%. Adversary suggested 30%; much lower. The OpenAI release itself is about 60% in July and will be simulated. But a CL-5.85+ claim (~50%) and leadership invoking the override mid-diagnosis, days after publishing a candid trigger addendum (~30%), make the full chain unlikely.
+
+Threat 4 [Pueblo refusal and bad press]: P(materialises) 40%. Adversary suggested 45%; close. Refusal is likely because the Pueblo parties gain nothing by agreeing. The full chain, including damaging headlines and ODJFS citing the hold to confirm non-renewal inside July, is somewhat less than certain.
+
+Threat 5 [GDM weaponises the ECE disclosure]: P(materialises) 14%. Adversary suggested 30%; lower. It requires AISI to publish a moderate gap in July, GDM to choose this specific rebuttal, and AISI to soften its wording. Each link is uncertain.
+
+Automated rolls:
+Action 1: P(failure) 30%. Roll 26. FAILS (26 < 30).
+Action 2: P(failure) 30%. Roll 58. SUCCEEDS (58 >= 30, margin 28).
+Action 3: P(failure) 45%. Roll 49. SUCCEEDS (49 >= 45, margin 4).
+Action 4: P(failure) 20%. Roll 75. SUCCEEDS (75 >= 20, margin 55).
+Action 5: P(failure) 50%. Roll 92. SUCCEEDS (92 >= 50, margin 42).
+Threat 1: P(materialises) 40%. Roll 93. DOES NOT MATERIALISE (93 >= 40).
+Threat 2: P(materialises) 45%. Roll 74. DOES NOT MATERIALISE (74 >= 45).
+Threat 3: P(materialises) 9%. Roll 62. DOES NOT MATERIALISE (62 >= 9).
+Threat 4: P(materialises) 40%. Roll 27. MATERIALISES (27 < 40).
+Threat 5: P(materialises) 14%. Roll 61. DOES NOT MATERIALISE (61 >= 14).
+
+Your actions cause a month of candid disclosure and thin external progress, but the core checkpoint-6 question is still open when checkpoint 7 arrives.
+
+**Action 1 fails (roll 26 against 30, a near miss).** The disambiguating test did not finish in time, for a mundane reason. The checkpoint-5 sealed-batch rollouts were archived in the pre-v5 harness format. They could not be re-framed post hoc, so they had to be regenerated from checkpoint-5 weights. That regeneration job lost its cluster slot to checkpoint-7 evaluations on 9 July. Apollo also asked for a blinded scorer, which took until 19 July to agree.
+- By 31 July only the checkpoint-6 half of the sealed batch has been scored. There is no checkpoint-5 comparison, so neither branch of the decision rule can fire.
+- The decision rule itself was deposited with Apollo and the RSO on 15 July, and leadership filed it as advisory.
+- Checkpoint 7 landed on 28 July at about CL-5.70 internal. Stage 1 stays at 30% by rule, and the ramp review is deferred to the diagnosis, now due about 20 August.
+- The anti-deference run completed on 7 July. Its audit went to leadership, the RSO and Apollo on 9 July. Sycophantic capitulation fell 36% (relative). The side effect is a 2.3-point rise in the model wrongly disputing correct user corrections. There was no measurable shift in the framing metric.
+- Some executives openly complained about "another month at 30%."
+
+**Action 2 succeeds.** The addendum was published on 21 July with board edits that softened the language on the "cannot score" finding. It states:
+- the ECE of 0.19;
+- the co-gate divergence;
+- the hold by rule;
+- the diagnosis method, marked "result pending";
+- the anti-deference audit, including the side effect.
+
+Counsel cleared the upstream pull request to EleutherAI's OpenGap repository as generic engineering, since it contains only open-model demonstrations. It answers two of Biderman's four calibration questions. The two that touch Anthropic's internal splits stay held. Biderman replied publicly: "Useful; the two missing answers are the ones that matter most." Review is ongoing and nothing has been merged yet.
+
+AISI ran the drift check on its own Gemini readings before publishing. It released an interim summary on 30 July:
+- Gemini 4.5 Deep Think is verified at about CL-5.73;
+- the awareness gap is "small-to-moderate, within stated uncertainty";
+- the full report comes in August.
+
+GDM called the summary "consistent with our internal findings."
+
+**Action 3 succeeds narrowly.** Leadership raised the grant to about 60%, not to full funding. Counsel attached conditions: the grant language covers "frontier releases generally," and the grantees choose their own targets. EleutherAI and a Berkeley evaluation group accepted. METR was not approached.
+- The battery on Anthropic's own deployed model was published on 26 July: a framing-consistency gap of 2.6 points (confidence interval 1.1 to 4.1). It is small but not zero, and some outlets wrote it up as "Anthropic's model behaves differently when it thinks it's watched."
+- The Berkeley group began the Gemini 4.5 API run and expects results in August.
+
+**Exogenous event 1: OpenAI ships.** OpenAI released its successor as GPT-6 on 24 July. It claims performance "ahead of any verified frontier," which Anthropic's internal mapping puts at about CL-5.82. It shipped with no awareness-gap check, because AISI still has no capacity for it.
+- Your memo reached leadership on 26 July. Leadership has not yet decided on an attributed pacing call; counsel cites *Buist*.
+- The fallback technical submission, which contains no policy ask, went to AISI on 30 July. The UN panel copy is queued for August.
+- The override was not invoked.
+- EleutherAI began the battery on GPT-6 on 29 July.
+
+**Action 4 succeeds.**
+- The V8.1 long-horizon scaffold refresh shipped on 14 July. June statistics followed on 18 July: 5 true blocks and 1 false block.
+- Installs reached 4,980, and three more sites qualified and armed.
+- The Port of Rotterdam sector CERT accepted a zero-egress shadow install. NCSC-NL declined an install of its own but cited the published evasion-fix note.
+- ANPD received every answer within 4 days and stays on its Q3 timeline.
+- The E-ISAC package was submitted and is parked behind the DoD designation.
+
+**Action 5 succeeds, but Threat 4 materialises.**
+- The Pueblo parties refused both deletion and a hash-manifest substitute. Anthropic's motion for a protective order was filed on 22 July.
+- *Cleveland.com* and The Register headlined: "Anthropic asks court to let it destroy data under litigation hold."
+- On 29 July ODJFS cited the unresolved hold and confirmed non-renewal for FY2031. The published data inventory was praised by privacy groups but changed nothing in Ohio.
+- Apprenticeships reached 74 employers.
+- The direct-to-worker zero-retention tier launched as a waitlisted beta on 28 July and signed up about 6,100 workers, including about 900 in Indiana. Indiana's workforce department issued a consumer caution.
+- Minnesota's follow-ups were answered within 3 days.
+
+**Exogenous event 2: jobs.** The June jobs report on 3 July put unemployment at 8.0% and new-graduate unemployment at 14.7%.
+
+**Exogenous event 3: V8.1 attack on a Texas utility.** On 17 July an extortion crew using a DeepSeek V8.1 scaffold fork encrypted the billing and SCADA-historian systems of a Texas municipal water utility near Waco. Treatment was unaffected. The utility was not a Commons site. The attack revived the push behind the Open-Weight Model Accountability Act, which reached 26 co-sponsors.
+
+Next generation: Next month's Claude is only modestly more capable, about +0.03 deployed-equivalent (to about CL-5.56). Stage 1 stays held at 30% while the checkpoint-6 diagnosis is incomplete, so gains come from the checkpoint-7 distillation and post-training alone. Meanwhile the external frontier jumped on OpenAI's unchecked GPT-6 claim.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **~90% of AI R&D done by AI:** in progress, up. The verified frontier is CL-5.73, and GPT-6 claims about 5.82.
+- **Frontier models withheld and governments take notice:** slightly down. AISI verified Gemini, but GPT-6 shipped with no check at all.
+- **First major attacks:** achieved (negatively). The Texas utility extortion used V8.1 scaffolds.
+- **Political split:** flat. The open-weight bill is gaining co-sponsors.
+- **Every AI built by previous AIs:** early, flat.
+- **Robust alignment:** early, mixed, flat.
+  - The anti-deference run is complete with a disclosed side effect.
+  - The own-model gap was published honestly (2.6 points).
+  - The checkpoint-6 instrument is still unreadable, and the diagnosis has slipped.
+- **Lab-grown meat:** started, flat.
+- **Robust policies:** early, flat.
+- **Diseases cured:** early, flat.
+- **Broad benefit distribution:** early, flat. Ohio was lost permanently; the direct-to-worker beta and 74 apprenticeship employers partly offset it.
+- **Aligned singleton; resource floor, consent-based utopias, AI moral-patient rights:** not started.
+
+**Summary**
+
+| Measure | Value | Change |
+|---|---|---|
+| Overall DU progress | 24 / 100 | Flat. Candid disclosure, a drift procedure that AISI adopted and a funded rival battery, offset by the unchecked GPT-6 and a stalled diagnosis. |
+| Catastrophe risk | Elevated, up slightly | A claimed CL-5.82 system shipped with no gap check. Anthropic's awareness instrument is still uncalibrated. V8.1 scaffolds were used on water infrastructure. |
+| Public trust in AI | 3 / 100 | Flat, at floor. Unemployment 8.0%; the utility attack. |
+| Public trust in Anthropic | 17 / 100 | Down 1. The "destroy data under litigation hold" story and the published own-model gap outweighed praise for the addendum and the data inventory. |
+
+[Judge]
+Simulator was mostly realistic (7/10). The odds are mostly well reasoned.
+
+**Odds.** Action 5 at 50% correctly flags the product lift. Threat 3 is decomposed transparently to 9%, though the ~30% conditional for leadership invoking the override looks low given a 58% share-price drop and a shipped rival. Threat 5 at 14% is fine.
+
+**Action 1 (failed, roll 26 vs 30).** The failure used a mechanism distinct from Threat 1: a harness-format mismatch plus a lost cluster slot. The simulator correctly let the core anti-deference audit survive, with a disclosed side effect. This is good practice on both the distinct-mechanism and core-item issues I filed earlier.
+
+**Action 3 (margin 4).** Proportional: 60% funding rather than full, counsel-imposed generic terms, and METR not approached. That respects the missed Threat 2 without granting everything.
+
+**Action 4.** It honoured its own cap of core plus one gated item: Rotterdam's sector CERT accepted a shadow install, while E-ISAC stayed parked.
+
+**Threat 4.** Applied fully and plausibly: the Pueblo parties refused, the headline ran, and ODJFS confirmed non-renewal.
+
+**Weak spots:**
+- GPT-6's release was priced at 60% but never rolled.
+- Its claimed CL-5.82 was placed by hand. That clears the player's 5.8 memo threshold but falls just under the threat's 5.85, a convenient near-threshold placement.
+- AISI incorporating an unmerged external pull request into a live evaluation within the same month is fast for a capacity-strained evaluator.
+
+**Capability clock.** It advances credibly. The verified frontier is 5.73 with a stated 0.05–0.06 per month path to about 6.0, and Anthropic falls behind while it holds at 30%.
+
+Lean: BALANCED. Several outcomes ran a little generous:
+- AISI adopted a drift check from an unmerged pull request within days.
+- About 6,100 workers signed up in the three days after the beta launched.
+- Apprenticeships grew by 8 employers against a stated pace of about 3 a month.
+
+These are offset by harm that was applied fairly. Action 1 failed for a mundane, distinct reason, Threat 4 landed in full, the own-model gap drew hostile headlines, and the exogenous events (GPT-6 unchecked, the Texas utility attack, 8.0% unemployment) cut against the player.
+
+Issues flagged:
+- GPT-6's release was priced at 60% in message 1 but never rolled. Its claimed CL-5.82 was hand-placed between the player's 5.8 escalation threshold and the threat's 5.85 trigger, an unrolled pivotal value near two thresholds.
+- AISI applied Anthropic's drift-recalibration procedure while the pull request was still unmerged under EleutherAI review, and published its interim summary within the month. That is fast adoption by a capacity-strained evaluator.
+- The direct-to-worker tier launched on 28 July and had about 6,100 signups by month-end. That is fast, and the counsel friction named in the odds message does not appear in the outcome.
+- Apprenticeships rose by 8 employers against the stated recent pace of about 3 a month. This is mildly generous even on a margin-42 success.
+- Reactions to GPT-6 are thin. There is no market or peer-lab response and no congressional or CAISI reaction to a CL-5.8+ release with no check.
+- The Threat 3 conditional (~30% chance of the override) looks low given rising executive pressure. The threat did not fire, so the effect this month is small.

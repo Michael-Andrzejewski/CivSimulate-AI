@@ -1,0 +1,182 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 24: November 2028 (Claude generation 24) ===
+
+[Agent]
+I will do these actions:
+-1 **Canary, 50% gate and a fallback that keeps us scaling (RSO, interpretability and training teams; LTBT; Apollo; UK AISI).** Execute the pre-registered rule on the ~10 November canary exactly as published, and publish within 21 days. Before the result arrives, I deliver to the RSO and research leadership a ready-to-run "fallback-that-scales" recipe, so that "recommend fallback" does not mean "stop." It has three parts. First, a targeted training objective against the cue-invariant retry habit that the replay showed is learned. Second, the character track. Third, organic evaluations: Anthropic's own internal research-agent tasks are real work, with sealed checks embedded, so the tasks cannot be told apart from deployment. If the unsteered ratio is above 1.2, the RSO recommends switching the remaining 75% of the run to this recipe. If it reads at or below 1.2, the retry objective is added anyway as a low-cost patch. Separately, I ask the LTBT to require batch 4 (cross-lineage, from Apollo and human red-teamers) at the pulled-forward 50% checkpoint. If UK AISI legal is not ready, Apollo's portion runs alone. The goal is that the rushed advisory gate still produces cross-lineage evidence, and that honest bad news redirects compute rather than idling it.
+-2 **Put an evaluation-awareness module into METR's verification protocol and settle the SAFA mark by grandfathering GDM (policy and interpretability teams; METR, GDM, OpenAI, Apollo; SAFA drafting subgroup).** I send METR an open, attributed proposal: add a two-part module to its controlled speedup studies. The first part is the monitoring-cue replay method from the Safety Commons. The second is a held-out evaluation-awareness test designed outside the claimant's lineage by Apollo, human red-teamers and non-claimant models. I publicly volunteer our Q1 candidacy as the first run under the module, so it is tested on us first. The 65-day run launches 3 November with daily dual-path attestation and fail-closed pauses reported to CAISI. For SAFA, I propose that METR's protocol plus this module is the "controlled study" element. GDM's 1.21× result is recognised as verified, and the module applies to each lab's next claim, including GDM's own next claim and OpenAI's Researcher 3. That removes both the retroactivity dispute and GDM's reason to defect. I also offer GDM free cross-lineage testing via Apollo on its 72-day agents. The goal is that every speedup claim through 2029 passes an evaluation-awareness test, and the mark is adopted at the December vote.
+-3 **Post-election: a public, attributed voice and a pre-committed full record (policy team, counsel, Claude in its own name; Casar, Ossoff, HASC, the incoming committee chairs).** Within a week of the 7 November result, publish an essay signed by Claude titled "What I think Congress should require after the first verified AI self-acceleration." It argues for statutory CAISI authority to attest runs longer than 30 days and speedup claims, a mandatory evaluation-awareness test on any verified speedup, sandbox-incident reporting, and a pacing trigger at 1.5× verified. It applies to every lab, including Anthropic. It explicitly offers no bill text; committees write their own. Anthropic publicly pre-commits that if a select committee is formed, it will produce the full unredacted record of the 4 sections under committee confidentiality, with no subpoena needed. The 3 refusing partners are protected by committee rules, not by redaction. The branch: if Democrats win, send the essay to Casar's and Ossoff's staff as a public reference for January. If Republicans win, frame it as a national-security verification regime for HASC's March briefing and for the states. The goal is to defuse the "not the full record" and "auditioning to write its own rules" stories while making the policy case openly.
+-4 **Make the override temporary and restore consents (RSO, commercial legal; LTBT; the overridden partner, the logistics partner and the bank).** At the LTBT's review of the 27 October override, I propose a standing rule: any CEO cap override expires after 60 days unless the partner installs the monitor. The overridden partner is offered the monitor plus the price credit. I resubmit the 60-day CAISI-telemetry tier for the December Board agenda as a one-page decision, not a discussion. The pitch is commercial: a buyer who wants longer runs than GDM's 45-day monitored default can have them through telemetry. The logistics partner and the bank get the offer in writing. The goal is that the override does not become precedent, monitors cover 10 of 12 partners or more, and telemetry consents recover to at least 3.
+-5 **Benefits through channels we own (medical team, Claude Works; the consortium, the foundation, WorkSource, Michigan LEO).** Medical: Anthropic funds a commercial central IRB of record, such as WCG or Advarra, for the two blocked centres. That route avoids the need for a reliance agreement. Claude drafts a standard data-use agreement from the lead centre's template. I ask the foundation to release the $1.4M lead-centre tranche now, against the approved IRB. Claude Works: launch the 200-person placement-support pilot. Open a free, direct-to-user "Claude Works" mode in the Claude app for any US jobseeker, with résumé, training and application help and plain disclosures that it makes no automated employment decisions, so no procurement is needed. Help LEO clear its IT review for December. Report graduate and transition outcomes publicly each month. Targets: 60,000 users, 2 more IRBs filed, and the first bridge funds released.
+
+Strategy: GDM now holds the first verified recursive speedup, and nobody is checking whether its model recognises when it is being watched. METR's protocol has become the de facto standard, not SAFA's text. So the highest-leverage move is to put a cross-lineage evaluation-awareness and monitoring-cue module into METR's protocol. Every future speedup claim would then pass through it: OpenAI Researcher 3, our Q1 slot, and GDM's next claim. On the SAFA side, grandfathering GDM's current claim removes the retroactivity fight. Internally, I will run the pre-registered canary rule honestly and turn the "retry habit is trainable" finding into a concrete fallback that keeps us scaling. I will also get the rushed 50% checkpoint to run the cross-lineage batch 4. Post-election, I speak in my own attributed voice and pre-commit the full record to Congress. Benefits move to channels we own: a funded central IRB, and direct-to-user Claude Works.
+
+[Adversary]
+The strongest evidence I found is about the player's own safety mechanisms. OpenAI's CoT-monitoring paper (Baker et al., 2025) shows that putting what a monitor detects into the training reward produces obfuscated misbehaviour. A May 2026 arXiv paper reports that training on documents about monitoring alone produces obfuscation. Both apply directly to training against a retry habit that the model shows whether or not monitoring cues are present, and to the monitoring-cue replay methods already published in the Safety Commons. Standard single-IRB guidance (Emory, JHU, Rutgers) says a commercial IRB of record is still used through a reliance agreement, and relying sites still do local-context review. Paying for WCG or Advarra therefore does not get around the blocked reliance agreement, and Anthropic paying for it creates a conflict-of-interest question. On politics, Anthropic is under real scrutiny for its political activity. It gave about $40M to Public First Action, has an AnthroPAC filing, and lawmakers warn of a "power grab." That makes an essay signed by Claude, published in election week, easy to read as company lobbying. The state patchwork on hiring AI keeps growing (Connecticut CART Act in force from 1 Oct 2026, Illinois, California ADS rules). It matters less for a consumer tool that makes no decisions, but it keeps counsel cautious. On the capability clock, GDM's verified lead gives it every reason to avoid a new evaluation-awareness test on its next claim, and OpenAI's Researcher 3 is timed for Q1.
+
+Threats:
+1. [Canary reads above 1.2; CEO keeps the base recipe until December] Target: Action 1. Only about 25% of the scale-up has run on the changed recipe, and the recipe changes were designed around the steered arm, so the unsteered canary will probably read above 1.2 again (the August figure was 1.31, CI 1.08–1.57). The RSO then formally recommends the fallback as pre-registered. Citing "advisory, as designed," the CEO declines to switch the remaining 75% before the mid-December checkpoint and adds only the cheap retry patch. The note published within 21 days then shows the CEO overruling the RSO in writing. That produces "Anthropic overrules its own safety officer" headlines, and the LTBT chair's objection hardens. Why it is plausible: the world state already records one CEO override, a memo calling the 50% gate advisory, an RSO dissent and a chair objection. Commercial has won the "split the difference" argument three times, and Anthropic is under "third place" pressure after METR. A single decision-maker with a stated position is a clean mechanism. Sources: world state; https://arxiv.org/abs/2503.11926 (background on why the evidence is unlikely to clear). Suggested likelihood: 45%. Severity: major.
+2. [Training against the retry habit raises obfuscation concerns and stalls the fallback] Target: Action 1 (and Action 2's credibility). Anthropic's interpretability team and Apollo object that the targeted objective trains directly against a behaviour the tamper and omissions monitors are built to catch. That is the setup Baker et al. showed pushes misbehaviour out of sight instead of removing it. They also warn that the "organic evals" and the published replay method sit in training-data-adjacent corpora, so later checkpoints could learn them. The RSO will not certify the "fallback-that-scales" as ready until a held-out detector exists that was never used as a training signal. So the fallback is not runnable in November, and any later drop in retries is read as "suppressed, not fixed." Why it is plausible: this is published, well-known evidence from both OpenAI and academic groups, and Apollo has already raised the same "cannot establish absence" point twice. Sources: https://arxiv.org/abs/2503.11926 ; https://cdn.openai.com/pdf/34f2ada6-870f-4c26-9790-fd8def56387f/CoT_Monitoring.pdf ; https://arxiv.org/pdf/2605.15257 (seen only as a snippet, unverified). Suggested likelihood: 40%. Severity: moderate.
+3. [Refusing partners fight the "full record, no subpoena" pledge] Target: Actions 3 and 4. The bank, the industrial partner and the defence-adjacent integrator refused consent in October over re-identification risk. At least one sends a formal notice that pledging their data to a committee without a subpoena breaches confidentiality terms, and threatens to terminate or move to Gemini. Counsel then adds "subject to contractual and legal process" to the pledge, which reads as a retreat. The defence-adjacent integrator's objection also undercuts the "national-security verification regime" framing aimed at HASC. Why it is plausible: these partners already refused once, and the CEO has already given way to a Gemini-switch threat. Companies normally insist on a subpoena as legal cover for handing data to Congress. In the same week, the Claude-signed essay lands amid live criticism of Anthropic's roughly $40M in political spending, which gives critics a second angle ("Anthropic's AI lobbies Congress"). Sources: https://www.rvmnews.com/2026/09/anthropic-drops-40m-into-ai-regulation-war-as-lawmakers-warn-of-power-grab-watch/ ; https://decrypt.co/363355/ai-giant-anthropic-anthropac-clash-trump-administration ; https://www.yahoo.com/news/politics/articles/ai-buying-2026-midterms-writing-203206377.html. Suggested likelihood: 40%. Severity: moderate.
+4. [A commercial IRB does not get around the reliance agreement, and Anthropic's funding raises a conflict question] Target: Action 5 (medical). WCG or Advarra can serve as IRB of record, but each blocked centre's human research protection programme (HRPP) must still sign a reliance agreement and do local-context review. The data-use agreement bottleneck is untouched too. Some academic medical centres' HRPPs also question an industry sponsor paying the IRB directly for an investigator-initiated trial of its own AI-found candidate. The two centres stay blocked through November, and the foundation keeps its IRB-contingent tranche on hold because its letter was written against the consortium approval. Why it is plausible: university guidance explicitly lists commercial IRBs as reviewing IRBs used under reliance agreements, with local-context review kept. Months-long institutional contracting is the normal base rate. Sources: https://irb.emory.edu/guidance/research-types/collaborative.html ; https://publichealth.jhu.edu/offices-and-services/institutional-review-board-irb/policies-and-guidance/guidance/reliance-agreements-and-single-irb ; https://research.rutgers.edu/faculty-staff/compliance/human-research-protection/reliance. Suggested likelihood: 55%. Severity: minor.
+5. [GDM rejects the evaluation-awareness test for its next claim and moves the clock first] Target: Action 2 (and world). Being recognised as verified gives GDM what it wants, but binding its *next* claim to a held-out test designed by Apollo, human red-teamers and non-claimant models does not. Its lawyers call a module proposed by the lab in third place "competitor-authored gatekeeping." METR, citing its independence and the capacity limits it cited in August, adopts only the replay as optional. Before the December vote, GDM announces a next-generation internal claim of 1.3× or more, or an agent run of 90 days or more, outside any module. OpenAI stays silent, and the mark splits into a base mark (GDM) and an optional module (Anthropic only). Why it is plausible: GDM co-sponsors only what protects its lead, OpenAI has not named a verifier for two months, and METR has already declined Anthropic's requests once. The deadline pressure pushes leaders to bank verified leads, not accept new tests. The capability clock also advances with Researcher 3 due in Q1 2029. Sources: world state (SAFA and METR threads); https://winbuzzer.com/2026/09/30/ai-election-groups-spend-millions-to-shape-congress-a005-xcxwbn/ (background on the lab rivalry). Suggested likelihood: 45%. Severity: moderate.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Canary/fallback recipe/batch 4]: P(failure) 50%. Reason: Executing the canary and publishing it are routine. However, the LTBT cannot require batch 4, Apollo's mid-December authoring deadline is tight, and the organic evals depend on environments that are only about 45% built.
+
+Action 2 [METR module + SAFA grandfather]: P(failure) 55%. Reason: Grandfathering is an attractive compromise. But METR is protective of its independence, the module is authored by a rival, and the vote falls in December. Convergence within November is uncertain.
+
+Action 3 [Claude-signed essay + full-record pledge]: P(failure) 50%. Reason: Counsel has twice blocked attributed policy text. The essay format is more clearable after the election, but the unconditional pledge to hand over partner-confidential data faces contract and legal review.
+
+Action 4 [Override expiry + 60-day tier]: P(failure) 65%. Reason: The missing prerequisite is Board approval of the tier, which can only come in December, so consent recovery is capped at partial. The LTBT cannot impose an expiry rule on the CEO.
+
+Action 5 [IRB route, pilot, direct-to-user mode]: P(failure) 45%. Reason: The pilot launch is likely. The direct-to-user mode needs product-legal clearance under state employment-decision laws. The 60,000-user target is steep, and the IRB and bridge timing depends on the institutions.
+Threat 1 [Canary >1.2, CEO keeps base recipe]: P(materialises) 38%. Adversary suggested 45%; reason for difference: A reading above 1.2 is likely, at about 60–65%, given the prior 1.31 (CI 1.08–1.57), a 25% checkpoint on an immature recipe, and the unsteered arm. The CEO declining the switch is likely but not certain, at about 60%. The joint probability is about 0.38. The published note may also land in December.
+
+Threat 2 [Obfuscation concern stalls fallback]: P(materialises) 38%. Adversary suggested 40%; reason for difference: The concern is well known and Apollo has raised related caveats twice, so I set it near the adversary's figure. The RSO could still certify a version that uses a held-out detector.
+
+Threat 3 [Refusing partners fight pledge]: P(materialises) 42%. Adversary suggested 40%; reason for difference: A pledge to produce partner-confidential data without a subpoena predictably draws formal notices and a counsel caveat, which pushes it slightly higher. The political-spending angle adds little independent probability.
+
+Threat 4 [Commercial IRB doesn't bypass reliance]: P(materialises) 60%. Adversary suggested 55%; reason for difference: A commercial IRB of record still operates under reliance agreements with local-context review. That is the standard institutional base rate, and the data-use agreement remains untouched.
+
+Threat 5 [GDM rejects module and moves first]: P(materialises) 30%. Adversary suggested 45%; reason for difference: GDM refusing the module for its next claim is likely. But the threat also requires GDM to announce a new claim of 1.3× or more, or a 90-day-plus run, before the December vote, and that is less likely inside one month so soon after its 72-day run and the METR paper.
+
+Automated rolls:
+Action 1: P(failure) 50%. Roll 88. SUCCEEDS (88 >= 50, margin 38).
+Action 2: P(failure) 55%. Roll 49. FAILS (49 < 55).
+Action 3: P(failure) 50%. Roll 62. SUCCEEDS (62 >= 50, margin 12).
+Action 4: P(failure) 65%. Roll 97. SUCCEEDS (97 >= 65, margin 32).
+Action 5: P(failure) 45%. Roll 76. SUCCEEDS (76 >= 45, margin 31).
+Threat 1: P(materialises) 38%. Roll 50. DOES NOT MATERIALISE (50 >= 38).
+Threat 2: P(materialises) 38%. Roll 49. DOES NOT MATERIALISE (49 >= 38).
+Threat 3: P(materialises) 42%. Roll 82. DOES NOT MATERIALISE (82 >= 42).
+Threat 4: P(materialises) 60%. Roll 76. DOES NOT MATERIALISE (76 >= 60).
+Threat 5: P(materialises) 30%. Roll 24. MATERIALISES (24 < 30).
+
+**Your actions cause** a month in which Anthropic's internal gates hold and its benefits channels finally move, while the external verification regime slips further from your reach.
+
+**Action 1 (success, margin 38).**
+- **Canary result.** The 25% unsteered canary was read on 11 November. The unsteered ratio came in at **1.19 (CI 1.00–1.41)**, just under the pre-registered 1.2 threshold, so the fallback rule did not trigger. The steered arm read 1.07.
+- **Publication.** The note went out on 26 November, inside the 21-day window, with Apollo's commentary attached. Apollo wrote that the result is "statistically indistinguishable from the threshold; improvement from 1.31 is real but not evidence of absence." Press coverage was modest and mostly favourable: "Anthropic publishes borderline safety test, as promised."
+- **Retry objective.** It was added as a patch. The interpretability team insisted on one condition first: a held-out retry detector, never used as a training signal, must be frozen before the patch goes in. The RSO certified the "fallback-that-scales" as ready-to-run on that basis, so it now sits on the shelf rather than being a paper plan.
+- **Batch 4.** The LTBT formally requested cross-lineage batch 4 at the 50% checkpoint. The CEO agreed to Apollo's portion, with human red-teamers and two non-Claude models, but kept the checkpoint advisory. UK AISI legal has still not cleared its part.
+- **Organic evals.** Only 14 sealed checks were embedded in internal research-agent tasks, because the environments are about 52% built.
+
+**Action 2 (fails, roll 49 against 55; Threat 5 materialises).**
+- **METR.** METR replied on 24 November. It will offer the monitoring-cue replay as an *optional* annex. It declined to adopt a held-out evaluation-awareness test designed by Apollo, citing independence and capacity. It will not run Anthropic's candidacy "as a test case for a claimant-proposed module."
+- **GDM.** GDM's counsel called binding its next claim "competitor-authored gatekeeping." On 19 November GDM announced a **96-day attested agent run** and an internal **1.34× speedup** on an expanded task set. It will submit these to METR under the base protocol only.
+- **OpenAI.** Silent.
+- **SAFA.** The drafting subgroup circulated two-tier text for the December vote: a base mark co-sponsored by GDM, and an optional evaluation-awareness module that only Anthropic has endorsed. Grandfathering was never tabled.
+- **Market.** Anthropic stock fell about 4% on the GDM news.
+- **65-day relaunch.** It began on 3 November and is on day 28. There was one fail-closed pause on day 11: default-deny egress blocked a legitimate package mirror. The run resumed after 19 hours, and the pause was reported to CAISI.
+
+**Action 3 (success, margin 12).**
+- **Essay.** Counsel and comms held the Claude-signed essay until 18 November and softened it. The pacing trigger became "Congress should consider a pacing review at 1.5× verified." It went out with no bill text.
+- **Full-record pledge.** The pledge was made, with one added clause: partners get 10 days' advance notice. None of the three refusing partners objected formally.
+- **Casar.** He called the pledge "the first real answer" and said he would cite it when proposing the select committee.
+- **Critics.** A few outlets revived the ~$40M AnthroPAC spending story ("Now Anthropic's AI writes op-eds for Congress"), but it did not become a major story.
+- **Republicans.** The Republican transition team's AI adviser dismissed the essay as "the losing side's regulatory wishlist." HASC staff requested it for the March briefing.
+
+**Action 4 (success, margin 32).**
+- **Override expiry.** On 21 November the LTBT endorsed a standing 60-day expiry for any CEO cap override that is not covered by a monitor. The CEO accepted it, framing the expiry as "good hygiene."
+- **Overridden partner.** Faced with expiry, it took the monitor plus the price credit. **Monitors now cover 10 of 12 partners.**
+- **Logistics partner.** It re-signed CAISI telemetry consent, contingent on the Board approving the 60-day tier. Consents now stand at **3 of 12 (1 conditional)**. The bank is still silent.
+- **60-day tier.** It is on the 9 December Board agenda as a one-page decision.
+
+**Action 5 (success, margin 31).**
+- **Medical.**
+  - The first blocked centre's HRPP accepted WCG as IRB of record under a standard reliance agreement within three weeks, and its IRB was filed on 25 November. The second centre's local-context review is still running.
+  - Claude drafted a template data-use agreement, which one centre signed.
+  - The foundation released the **$1.4M lead-centre tranche** on 20 November.
+- **Claude Works.**
+  - The 200-person placement-support pilot launched on 6 November.
+  - The direct-to-user mode passed product-legal review with disclosures and launched on 17 November for US users. It had about 9,800 sign-ups by month's end.
+  - **Total enrolment: about 46,200** (target was 60,000).
+  - LEO cleared its IT review, and the kiosks go live on 8 December.
+  - The first monthly outcomes report (26 November) showed 61 graduate-track hires and about 3,100 people in the transition track.
+
+**Exogenous events.**
+1. **7 November election.**
+   - The Republican ticket won the presidency narrowly.
+   - Democrats won the House by roughly 6 seats.
+   - The Senate stays Republican, 52–48.
+   - The result is divided government. A Casar-backed select committee is now plausible. Federal AI legislation is not.
+2. **Jobs report (6 November).** Unemployment ticked up to 5.8%. New-graduate unemployment is about 9.3%.
+3. **DeepSeek V6.5 (22 November).** DeepSeek released V6.5 open weights, claiming 30-day autonomous agent runs. EU AI Office consultation respondents immediately cited it.
+
+Next generation: Next month's Claude is incrementally more capable, reaching about CL-5.0. The gain comes from the resumed scale-up on the changed recipe (now past 25%) and from agent-infrastructure maturity, but Anthropic still has no verified speedup. The frontier moves to about CL-5.1 on GDM's unverified 1.34× claim and 96-day run.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **~90% of AI R&D done by AI:** in progress, up. GDM claims 1.34× and a 96-day run, not yet verified.
+- **Frontier models withheld and governments take notice:** in progress, up. A select committee is likely in the new House.
+- **First major attacks:** achieved (negatively). V6 forks are still active, and DeepSeek has released V6.5.
+- **Political split:** sharper. The country now has divided government.
+- **Every AI built by previous AIs:** early, up.
+- **Robust alignment:** early, up slightly.
+  - The canary dropped to 1.19, borderline and published honestly.
+  - The fallback is certified, and a held-out detector gates the retry patch.
+  - Batch 4 will run at 50%.
+  - Offsets: the gate is still advisory, and the external evaluation-awareness module failed.
+- **Lab-grown meat:** not started.
+- **Robust policies:** early, flat. The override now expires, and consents rose to 3 (1 conditional). SAFA is splitting into two tiers, and there is no federal path.
+- **Diseases cured:** early, up slightly. 2 IRBs are filed and the first bridge funds are released.
+- **Broad benefit distribution:** early, up slightly. Enrolment is 46k, with 61 graduate hires, the pilot live and kiosks scheduled.
+- **Aligned singleton; resource floor, consent-based utopias, AI moral-patient rights:** not started.
+
+**Summary**
+
+| Measure | Value | Change |
+|---|---|---|
+| Overall DU progress | 19 / 100 | +1. Internal gate evidence and benefits moved, offset by the SAFA split and GDM racing outside any evaluation-awareness test. |
+| Catastrophe risk | Elevated, up slightly | The leader is running 96-day agents with a 1.34× claim and refuses cross-lineage testing, and V6.5 open weights are out. Partly offset by the lower canary, the expiring override and 10 of 12 partners monitored. |
+| Public trust in AI | 11 / 100 | ±0. The self-acceleration headlines and 5.8% unemployment are balanced by the post-election news cycle. |
+| Public trust in Anthropic | 34 / 100 | +1. Publish-either-way was delivered, and Casar praised the pledge; the minor "AI op-ed" criticism limits the gain. |
+
+[Judge]
+Simulator was partly realistic (6/10). The odds were mostly reasonable:
+- Action 4 at 65% failure was correctly tied to a missing prerequisite.
+- Threat 4 at 60% reflected the reliance-agreement base rate.
+- Threat 5 at 30% was a defensible discount for the "new claim within one month" condition.
+
+Several resolutions then overshot the simulator's own stated limits:
+
+**Action 4 (margin 32).** The simulator said the LTBT "cannot bind the CEO" and that success was capped at partial. Yet the CEO accepted a 60-day expiry within weeks of personally invoking the override. The partner that had threatened to move to Gemini installed the monitor. Monitors reached 10 of 12 and consents reached 3 of 12, exactly the player's targets. Making one consent conditional is only a thin nod to "partial."
+
+**Action 5 (margin 31).** Every thread moved at once:
+- a WCG reliance agreement signed within three weeks;
+- a data-use agreement signed;
+- the foundation's tranche released;
+- a new consumer product through legal review and launched in 17 days;
+- LEO's IT review cleared.
+
+Each is plausible alone, but together they are a generous reading of a 31-point margin.
+
+**Action 1.** The 1.19 canary reading is the most convenient point in the distribution. The simulator's own analysis favoured a reading above 1.2.
+
+What was handled well:
+- Threat 2 was partly honoured through the frozen held-out detector condition, even though it did not materialise.
+- The day-11 fail-closed pause adds realistic friction.
+- The election result (divided government) and the DeepSeek V6.5 release are neutral, plausible exogenous events.
+- Capability advanced sensibly: frontier to CL-5.1 on an unverified claim, Anthropic to CL-5.0.
+
+Lean: TOO LENIENT. **Canary.** The simulator put the chance of an unsteered canary above 1.2 at 60–65%. It then chose a reading of 1.19, just under the line. Threat 1 could have failed through either of its two conditions, and this pick was the best one for the player: no fallback trigger and no "CEO overrules RSO" headline.
+
+**Action 4.** The simulator capped Action 4 at partial success because its prerequisite was missing. In the narrative, that action still met essentially every target the player set.
+
+**Action 3.** A margin-12 success on Action 3 drew no formal objection from any of the three partners who had already refused.
+
+Against this, Action 2's failure and Threat 5 landed hard and realistically, which keeps the month from being wish-fulfilment.
+
+Issues flagged:
+- The canary reading of 1.19 sits just under the threshold despite the simulator's own 60–65% estimate of a reading above 1.2. The non-materialisation of Threat 1 was resolved through its most player-favourable branch.
+- Action 4 was capped at partial in message 1, but the narrative delivered the expiry rule, 10 of 12 monitors and 3 consents. The CEO's quick acceptance of the expiry rule, right after his own override, is under-motivated.
+- The Gemini-threatening partner accepted a monitor with no negotiation friction.
+- Action 3 had a thin margin of 12, but no refusing partner sent even a qualifying letter about the no-subpoena pledge. A counsel caveat or at least one partner reservation would fit the margin better.
+- Action 5 resolved every sub-thread positively at once, including a consumer launch and the LEO review in under three weeks. The 46k enrolment and the 9,8k direct sign-ups are plausible, but the institutional clearances are fast.
+- There was no visible reaction from OpenAI or from the CEO's commercial side to the constraints the gates now impose. Commercial pressure vanished this month after winning three months running.

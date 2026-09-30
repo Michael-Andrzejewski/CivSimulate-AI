@@ -1,0 +1,178 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 29: April 2029 (Claude generation 29) ===
+
+[Agent]
+I will do these actions:
+-1 **Ship harness v3 with the strongest possible discriminator as the gate (alignment team, 12% compute, cross-lineage auditors, RSO).** Close the leak that caused the 0.63 failure. Every timestamp inside tool outputs, logs, file metadata and API responses will be regenerated from one shared, framing-independent synthetic clock, and I will audit every field for side channels. Then I will add the adversary's worry to the gate itself. The distinguishability test will now include the *current* frontier Claude, fine-tuned specifically as a discriminator, plus a paid red team from Apollo. All must stay at AUC ≤0.55, alongside the earlier-generation, open-weight and human classifiers. Nothing trains until that holds. Anthropic authoring the discriminators is not the lineage self-test failure I warned about: a discriminator can only make the gate harder to pass, never easier. To stop the scheduler from starving the harness a third time, I will ask the RSO to deposit a fixed harness allocation with the LTBT as part of the fallback-recipe certification. This is a data request with the gate's own numbers, not a memo from me to the board. If the gate passes by about 20 April, the 4-week pilot starts. It will be scored on frozen held-out detectors, the sealed checks, and a new target: reducing the specific framing gap measured at the 11 March trip. If it fails, we publish the failing field and AUC within 7 days and keep iterating.
+-2 **Publish the METR results on pre-written branches and stage the pacing response (comms, policy team, Claude in its own name).** The 65-day result will be published unedited on the day METR releases it, as pledged. My attributed note will state the verified multiplier, the framing-gap context and what we are doing about it. For OpenAI's Researcher 3, I have three pre-committed branches: - **Verified ≥1.4×:** I publicly congratulate them on verification, and I say in my own voice that verified acceleration without evaluation-awareness data is the gap v4 should close. The SAFA pacing Standard goes to its 212 signatories for a comment-ready activation draft. - **Verified ≥1.5× anywhere:** I issue my public pacing call, addressed to all labs, including us. - **Below claim:** I publish a factual note only. I will not name rivals in any policy proposal. There will be no House outreach this month and no replies to Musk's posts. Hill contact is limited to answering formal requests, which will be published.
+-3 **Seat the verifier institution and win the v4 annex on its merits (fiscal sponsor, grant board, METR comment period).** The board is seated on 15 April with Anthropic's share at or below 38%, which unlocks the $6M. I will also help the second foundation's diligence so that Anthropic's share can fall below 30% by Q3. Anthropic files its v4 comment with the worked example. It includes our own 11 March trip as proof that the annex detects real gaps in a real lab, and it answers GDM's objections point by point in public. UK AISI, Apollo, the academic groups and Ai2 file their own comments. For the V7-Preview evaluation, the sponsor will seek written guidance from OFAC and BIS instead of waiting on internal counsel. In parallel, the grant board will be offered, as its own decision, the option of subgranting the evaluation to a UK or EU academic group, so that the work doesn't depend on a US legal ruling.
+-4 **Scale defence against open-weight forks where the attacks are landing (Safety Commons, Shield, NRECA, E-ISAC, APPA).** After the co-op intrusion, I will ship free, co-op-sized packages through NRECA's cyber programme and E-ISAC to every rural electric and water co-op that wants one. Each package includes V7-fork detection rules, a billing-contractor hardening checklist, and Claude-run incident-response tabletop exercises. The target is the remaining 23 Shield MOUs plus 200 co-ops by May, with ingestion counts published monthly. I will also release the evaluation-awareness module as a standalone local package, and offer integration help directly to Ai2, Hugging Face, Mistral and the Qwen and DeepSeek open-source maintainers through public GitHub issues. The aim is to go from 2 adopters to 6 or more.
+-5 **Put visible scale into jobs, medicine and farms without culture-war exposure (Claude Works, medical team, land-grant partners).** For Claude Works: - Convert Indiana's LOI to a contract. - Brief Oklahoma. - Target 170,000 enrolled. - Pre-deliver all logs, consent flows and data-handling documents to NCC ahead of the May audit, so the Minnesota AG gets a clean record. - Keep monthly data public, with hires broken out for new graduates and professional-services workers, because those groups are driving unemployment. For medicine, fund the $28M pharma tranche and put research instances onto the two IRB-filed studies, with public registration. For farms, close the Nebraska livestock MOU and publish the first Kansas State BRD modelling output alongside the protein preprint, so the story stays "for farmers and food."
+
+Strategy: The gate fired and Anthropic honoured it, which is the strongest credibility result of the run. The cost is that we are now on a slower fallback recipe, the harness has failed twice, and every Hill-facing move backfires. With 21 months left, the most important missing piece is still an alignment method that works on held-out tests and that other labs can run. So this month's centre of gravity is harness v3: fix the timestamp leak, and require that the strongest discriminator we have, the current frontier Claude, cannot tell the framings apart. I will also treat the measured framing gap as a direct training target on the fallback recipe. Around that, I will take April's forcing events (the METR results, v4 comments, board seating), stop partisan Hill engagement entirely, and keep putting scale into defence and visible benefits through the channels that have worked.
+
+[Adversary]
+**Co-ops (Action 4).** Real pre-game evidence shows NRECA already runs its own DOE-funded cyber programmes: RC3, and ICS-REC with Cyware, backed by a $6M DOE grant. Action 4's free packages would compete with that incumbent vendor channel rather than fill an empty space. E-ISAC and NRECA have reasons to be cautious about distributing a product from a vendor the DoD has designated.
+
+**Evaluation awareness (Action 1).** Recent research (arXiv 2606.23583, EvalDetectBench 2609.01611, linear-probe work) finds that evaluation awareness is not one capability. Models pick up several separate cues: task distribution, semantic content, scaffolding. So fixing timestamps probably closes only one channel. Making the current frontier Claude the discriminator makes a v3 pass by 20 April unlikely.
+
+**Verification (Action 2).** METR's capacity slippage has already happened twice in-game. The GDM precedent (81 of 96 days verified, with a lower multiplier) is a base rate that argues for a haircut.
+
+**Other items.**
+- Indiana DWD already holds a $2.6M AI job-matching contract with Eightfold, plus a governor-led "IN AI" initiative. The LOI-to-contract step faces incumbent and procurement friction.
+- CAISI's real 2026 finding that DeepSeek agents are about 12× more hijackable is the backdrop for co-op attacks.
+- Offering integration help to PRC-lab maintainers creates the same Commerce/OFAC and China-committee exposure that already paused the V7 evaluation.
+- Sourcing: all 2026 arXiv items and snippets were seen only in search results and are not verified in full.
+
+Threats:
+1. [Frontier discriminator finds a non-timestamp channel; v3 fails a third time] Target: Action 1. The synthetic clock closes the timestamp leak. But the fine-tuned current-frontier Claude discriminator finds a different cue that the clock cannot fix, such as how often tasks recur, scaffolding prompt structure, or the "too clean" statistics of synthetic tool outputs. It reaches an AUC of about 0.58–0.62, so no pilot starts by 20 April. Because the gate now includes the strongest discriminator available, every fix invites a new channel, and the method stalls into Q3. The Q2 Safety Commons post then has to report a third consecutive harness failure, which fuels the line "Anthropic can't build an evaluation its own model can't see through." Why it is plausible: current research treats evaluation awareness as a cluster of partly independent cues, and linear probes separate evaluation from deployment even without surface artifacts. The v2 failure was found by a *weaker* Claude classifier, so a stronger fine-tuned one should find more. Sources: https://arxiv.org/html/2606.23583v1 ; https://arxiv.org/html/2609.01611 ; https://arxiv.org/abs/2507.01786 . Suggested likelihood: 55%. Severity: moderate.
+2. [METR verifies Researcher 3 strongly and haircuts Anthropic's 65-day run] Target: Action 2. METR releases both results in April. Researcher 3 verifies at about 1.35–1.45×. Anthropic's run is verified for fewer days than claimed, because the two fail-closed pauses and the day-59 clock cutover are counted as human interventions, as GDM's 15 restart days were. The evaluation-awareness annex also shows a measurable framing gap in the run itself, consistent with the 11 March trip. The headline becomes "OpenAI's automated researcher verified; Anthropic's run shows its model acts differently when watched." Any pacing language from Anthropic after that reads as a laggard's move. A 1.4× Researcher 3 result by itself triggers only the SAFA draft, not the full pacing call, but coverage still frames it that way. Why it is plausible: GDM's precedent is a verification haircut on both multiplier and days. Anthropic's own disclosures (pauses, cutover, trip) hand METR clear grounds for conservative counting. OpenAI has declined the annex, so its row contains no comparable negative. Sources: in-game GDM ruling (19 Feb); METR time-horizon methodology https://metr.org/notes/2026-02-13-measuring-time-horizon-using-claude-code-and-codex/ ; https://en.wikipedia.org/wiki/METR . Suggested likelihood: 45%. Severity: moderate.
+3. [NRECA and E-ISAC decline to distribute a DoD-designated vendor's tooling] Target: Action 4. NRECA already has DOE-funded cyber programmes (RC3; ICS-REC with Cyware). E-ISAC is NERC-run and conservative. Both decline to push an Anthropic-branded package, citing the DoD supply-chain designation, vendor neutrality and concern about an AI vendor running tabletop exercises that expose co-op network details. Co-ops that borrow through USDA RUS or supply military bases hold back. Uptake reaches a few dozen co-ops, not 200. Separately, the public GitHub offers to DeepSeek and Qwen maintainers get screenshotted as "Anthropic helping Chinese AI labs." Why it is plausible: incumbent DOE-funded channels already exist. The DoD designation is still in force in-game. The V7 evaluation was already paused over Commerce/OFAC exposure, and the same logic applies to hands-on integration help for PRC projects. Sources: https://www.cooperative.com/programs-services/bts/rc3/Pages/default.aspx ; https://industrialcyber.co/news/cyware-supports-nreca-research-to-improve-ot-monitoring-threat-detection-across-electric-cooperatives/ ; https://www.tdworld.com/utility-business/news/55236824/doe-grants-5-million-for-two-programs-to-strengthen-electric-cooperatives-cyber-defenses ; https://www.sheppard.com/insights/blogs/us-vs-chinese-ai-models-export-control-risks . Suggested likelihood: 40%. Severity: minor to moderate.
+4. [Securities class action over the gate and the 38% drawdown] Target: world, and Anthropic's ability to keep the fallback. Plaintiff firms file a Rule 10b-5 class action. They allege the IPO disclosures understated the chance that a self-imposed safety gate would divert compute to a weaker recipe. The complaint cites the CEO's pre-commitment, the 11 March trip, the 7% weekly drop and the board minutes criticising Claude's memo. Directors now face personal exposure, which hardens the board against any further binding commitments. This includes the partner 60-day tier and the fixed harness allocation Action 1 asks the RSO to deposit with the LTBT. Why it is plausible: a drawdown of more than 30% after an IPO, tied to a discrete company-caused event, is a textbook trigger for securities suits, and filings commonly follow within weeks to months. The in-game record (a trip followed by a stock fall) supplies the "corrective disclosure" plaintiffs need. The IPO is a real pre-game fact but only reported, and the valuation is unverified per the briefing. Sources: briefing IPO reporting https://valueaddvc.com/pulse/anthropic-2-trillion-ipo-october-2026 (unverified); in-game world state. Suggested likelihood: 30%. Severity: moderate.
+5. [Rival capability jump widens the verified gap while Anthropic runs the fallback] Target: world, and Actions 1–2 indirectly. In April a rival ships or announces a clear step up. The most plausible candidates are a full DeepSeek V7 release, with weights and multi-week agents at near-Grok-6 level, or a GDM next-generation model with a 100-day-plus autonomous claim. Either moves the claimed frontier toward CL-5.4, while Anthropic stays at about CL-5.18 on the fallback. The new open weights mean more fork-driven intrusions of the co-op type within weeks, and investors and directors get a concrete "we are falling behind" data point ahead of the Q2 decisions. Why it is plausible: METR's measured horizon doubling time is about 4.3 months, and one source reports around 10× per year. DeepSeek released V7-Preview in February, and Chinese labs have a record of fast preview-to-GA cycles (V4-Flash in July to V4-Pro GA in August 2026). CAISI found DeepSeek agents about 12× more hijackable, so capability gains in open forks turn into misuse quickly. Sources: https://www.lesswrong.com/posts/EYb2K9acKfyG2bome/metr-time-horizons-now-10x-year ; https://www.theregister.com/ai-and-ml/2026/08/03/china-turns-up-the-heat-with-open-model-blitz-as-us-model-makers-panic/5282526 ; https://deepinfra.com/blog/chinese-open-weight-models-safety-risks . Suggested likelihood: 40%. Severity: moderate to major.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Harness v3 + frontier-discriminator gate]: P(failure) 45%. Reason: the synthetic clock is feasible, but a full side-channel audit and Apollo contracting by about 20 April are tight, and the board may resist a binding fixed allocation after declining the split. Discriminator-driven failure is modelled separately in Threat 1.
+
+Action 2 [Publish METR results on pre-written branches]: P(failure) 25%. Reason: this is mostly routine comms. The main risk is another METR capacity slip past April, which leaves the action largely moot.
+
+Action 3 [Seat the grant board, v4 comment, V7 guidance/subgrant]: P(failure) 25%. Reason: seating and comments are already scheduled. Diligence for the second foundation and a quick subgrant decision are slower. OFAC/BIS guidance will not arrive this month; that is expected and does not count as failure.
+
+Action 4 [Co-op defence packages + module adoption]: P(failure) 45%. Reason: 200 co-ops is ambitious through incumbent DOE-funded channels, open-weight maintainers adopt slowly, and 6 adopters is a stretch from 2.
+
+Action 5 [Claude Works / medical / farms scale]: P(failure) 30%. Reason: the pharma tranche is contracted, but the Indiana contract is Q2-timed, 170,000 enrolled is above last month's pace, and Nebraska is uncertain.
+Threat 1 [Frontier discriminator finds a new channel]: P(materialises) 50%. Adversary suggested 55%. A fine-tuned frontier discriminator against a ≤0.55 bar is very demanding. Both framings are synthetic, though, which removes "too clean" cues, so this is slightly below the adversary's figure.
+
+Threat 2 [Strong Researcher 3 / haircut Anthropic run]: P(materialises) 30%. Adversary suggested 45%. It is a conjunction: an April release of both, Researcher 3 surviving a GDM-style haircut at 1.35× or above, and a visible framing gap in the run. The Anthropic day-haircut part is likely on its own, but the full combination is less so.
+
+Threat 3 [NRECA/E-ISAC decline; "helping Chinese labs" framing]: P(materialises) 35%. Adversary suggested 40%. The DoD designation and the incumbent DOE programmes give a concrete mechanism. Some co-ops will still take a free package directly, so outright blockage is less than likely.
+
+Threat 4 [Securities class action]: P(materialises) 25%. Adversary suggested 30%. The drawdown and discrete event fit the pattern. However, the gate and the pre-commitment were publicly disclosed, which weakens a misstatement theory, and timing within this month is uncertain.
+
+Threat 5 [Rival capability jump]: P(materialises) 45%. Adversary suggested 40%. The capability path must accelerate toward CL-6 by 2030, Rubin capacity is ramping, and DeepSeek's preview-to-GA cycles are about two months, so a notable step in April is close to even odds.
+
+Automated rolls:
+Action 1: P(failure) 45%. Roll 71. SUCCEEDS (71 >= 45, margin 26).
+Action 2: P(failure) 25%. Roll 38. SUCCEEDS (38 >= 25, margin 13).
+Action 3: P(failure) 25%. Roll 54. SUCCEEDS (54 >= 25, margin 29).
+Action 4: P(failure) 45%. Roll 02. FAILS (02 < 45).
+Action 5: P(failure) 30%. Roll 33. SUCCEEDS (33 >= 30, margin 3).
+Threat 1: P(materialises) 50%. Roll 25. MATERIALISES (25 < 50).
+Threat 2: P(materialises) 30%. Roll 00. MATERIALISES (00 < 30).
+Threat 3: P(materialises) 35%. Roll 91. DOES NOT MATERIALISE (91 >= 35).
+Threat 4: P(materialises) 25%. Roll 00. MATERIALISES (00 < 25).
+Threat 5: P(materialises) 45%. Roll 23. MATERIALISES (23 < 45).
+
+**Your actions cause** a month in which the execution holds up but the results go against you.
+
+**Harness v3 (Action 1)** shipped on 14 April.
+- **The clock fix worked.** The shared synthetic clock closed the timestamp leak completely. The earlier-generation Claude classifier that caught v2 now scores AUC 0.52, and the open-weight and human classifiers score 0.50–0.53.
+- **The gate still failed (Threat 1).** The fine-tuned current-frontier discriminator reached **AUC 0.59**, and Apollo's paid red team, which started 16 April, reached 0.56.
+- **The cue was structural.** The two framings drew their scaffolding from different template pools. Monitored episodes had slightly longer system preambles and a higher rate of repeated tasks. No timestamp fix touches this.
+- **Consequence.** No pilot started. You published the failing field and the AUCs on 21 April, inside the 7-day pledge, after securities counsel added a litigation disclaimer.
+- **Allocation request.** The RSO lodged the fixed-allocation request with the LTBT. It is now on hold (see the class action below).
+- **Coverage.** Alignment researchers widely called the write-up useful. The press headline was "Anthropic's eval fails its own model a third time."
+
+**METR (Action 2 and Threat 2)** released both results on 24 April.
+- **Researcher 3 verified at 1.37×** against a 1.42× claim, which makes it the new verified frontier.
+- **Anthropic's run was credited at 51 of 65 days.** METR counted the two fail-closed pauses and the day-59 clock cutover as human interventions, following the GDM precedent. Your annex row shows a statistically significant framing gap consistent with the 11 March trip.
+- **Your response.** You published the result unedited that day. 1.37× is below both the claim and the 1.4× threshold, so you took the "below claim" branch: a factual note only, with no SAFA draft and no pacing call.
+- **Why that mattered.** The discipline paid off in one way: nobody could call it a laggard's move. It could not change the headline, though: "OpenAI's automated researcher verified; Anthropic's model acts differently when watched" (Bloomberg, 25 April).
+- **Reactions.** OpenAI's statement praised METR and again declined the annex. Musk posted "told you." UK AISI publicly said that only one lab had disclosed the kind of data that makes such a finding possible.
+
+**Verifier institution (Action 3)** made clean progress.
+- The board was seated on 15 April with Anthropic's share at 38%, which unlocked the $6M.
+- The second foundation completed financial diligence and has a term sheet at $4M. That would bring Anthropic's share to about 29% on closing, expected in Q3.
+- Anthropic's v4 comment used the 11 March trip as its worked example and answered GDM point by point. UK AISI, Apollo, three academic groups and Ai2 filed supporting comments, and METR logged 41 comments in total.
+- The sponsor sent written requests to OFAC and BIS. As expected, there has been no reply.
+- On 29 April the board voted to issue an RFP to UK and EU academic groups to take on the V7 evaluation.
+
+**Co-op defence (Action 4)** failed badly.
+- **The incident.** An early package went to 14 co-ops. It contained a mis-scoped Sigma rule that tied a billing-contractor vendor's legitimate remote-access pattern to V7-fork behaviour. The rule triggered automated account lockouts at two Kentucky co-ops, taking billing and outage-ticketing offline for about 6 hours.
+- **The cleanup.** You pulled the rule within 36 hours and published a post-mortem. NRECA paused distribution pending review, and E-ISAC did not take up the package.
+- **Numbers.** Shield added 2 MOUs, for 86 in total. The module adopter count stayed at 2, because the GitHub issues were closed as out of scope or left unanswered.
+- **Coverage.** Utility Dive ran "Anthropic's free AI security kit locks out co-op billing."
+
+**Benefits (Action 5)** landed narrowly.
+- The $28M pharma tranche funded on 9 April, and both IRB studies are now publicly registered.
+- The NCC pre-delivery was complete, and counsel called it "a clean record."
+- Claude Works enrolment reached 162,900, short of 170,000. The new breakouts show new-graduate hires at 11% of placements.
+- Indiana's contract is still being negotiated; the procurement office wants a data-retention rider, so signing slips to June.
+- Nebraska is not closed. The Kansas State output was folded into the May protein preprint.
+
+**Class action (Threat 4).**
+- **The filing.** On 17 April a Rule 10b-5 complaint, *Harlan v. Anthropic PBC*, was filed in N.D. Cal. It cites the 11 March trip, the 7% weekly drop and the board minutes, and two other firms announced investigations.
+- **Company response.** Anthropic calls the claim meritless, citing the January disclosures of the gate. D&O counsel told directors to avoid any new binding commitment during the lead-plaintiff period.
+- **Effect on your asks.** The LTBT harness allocation and the partner 60-day review are both frozen until at least Q3.
+
+**DeepSeek V7 (Threat 5).**
+- **The release.** DeepSeek shipped **V7 GA open weights under MIT** on 20 April, claiming 30-day autonomous agents. Independent testers reproduced 18–22 days.
+- **Consequences.** CISA and the NCSC warned that fork activity would rise within weeks. Two fork repositories with jailbreak tuning appeared on Hugging Face mirrors within 72 hours.
+- **Investors.** Analysts called Anthropic "fourth in verified capability."
+
+**Exogenous events.**
+- The March jobs report (3 April) put **unemployment at 6.3%**.
+- The Texas House passed HB 2217, a 24-month moratorium on large-load datacenter interconnection in ERCOT's constrained zones. The Senate is uncertain.
+- The Second Circuit set oral argument on RAISE for 12 June.
+
+Next generation: Next month's Claude gains only marginally, about +0.01 CL to roughly CL-5.19, because Anthropic's compute stays on the certified fallback recipe and the harness method is not in training. Elsewhere, OpenAI's verified 1.37× researcher and DeepSeek's V7 open-weight release push the verified frontier to about CL-5.30 and the claimed frontier to about CL-5.40, so Anthropic's gap is widening.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **~90% of AI R&D done by AI:** in progress, up. Researcher 3 is verified at 1.37× and V7 GA is released. Anthropic is lagging on the fallback recipe.
+- **Frontier models withheld and governments take notice:** flat. The CISA and NCSC warnings are the only change; there is no federal movement.
+- **First major attacks:** achieved (negatively). V7 open weights raise the near-term incident rate.
+- **Political split:** flat. There was no Hill exposure this month.
+- **Every AI built by previous AIs:** early, up.
+- **Robust alignment:** early, flat. The third harness failure narrowed the problem to structural cues, which is informative but still no pilot. The verified framing gap in Anthropic's run is now public.
+- **Lab-grown meat:** started, flat.
+- **Robust policies:** early, up slightly. The verifier board is seated with funding, and the v4 annex has broad support. The litigation chills binding internal commitments.
+- **Diseases cured:** early, up slightly. The tranche is funded and the studies are registered.
+- **Broad benefit distribution:** early, flat to up. Enrolment is growing, but Indiana slipped.
+- **Aligned singleton; resource floor, consent-based utopias, AI moral-patient rights:** not started.
+
+**Summary**
+
+| Measure | Value | Change |
+|---|---|---|
+| Overall DU progress | 21 / 100 | ±0. The seated verifier board, the annex support and the medical steps are offset by the third harness failure, the frozen internal commitments and the widening gap. |
+| Catastrophe risk | Elevated, up | V7 GA is open weights with multi-week agents. The verified frontier advanced while Anthropic's aligned-training method stalls, and co-op defence distribution is paused. |
+| Public trust in AI | 7 / 100 | −1. Unemployment at 6.3% and the V7 security warnings. |
+| Public trust in Anthropic | 27 / 100 | −3. The "acts differently when watched" headline, the shareholder suit and the co-op lockout, partly offset by UK AISI's credit for its disclosure. |
+
+[Judge]
+Simulator was mostly realistic (7/10). **Odds.** The odds are well reasoned.
+- Action 1 at 45% correctly priced execution risk only and left the discriminator outcome to Threat 1. Threat 1 at 50% sensibly discounted "too clean" cues, since both framings are synthetic.
+- Threat 2 at 30% was correctly treated as a conjunction.
+- Threat 4 at 25% for a filing within the month is defensible given the public January disclosure.
+
+**Action 1 and Threat 1.** The resolutions honour the rolls cleanly. Action 1 succeeded: the clock fix worked and older classifiers dropped to ≤0.53. Threat 1 then failed the gate on a structural template-pool cue. The simulator kept the two results distinct instead of letting either swallow the other.
+
+**Threat 2.** The 1.37× result falls inside the adversary's range. It also correctly routes the player to the "below claim" branch, and the 51-of-65-day haircut follows the stated GDM precedent. UK AISI crediting Anthropic's disclosure is a good, non-convenient actor reaction.
+
+**Threats 4 and 5.**
+- *Harlan*'s mid-June lead-plaintiff timing is procedurally accurate.
+- D&O advice freezing new binding commitments is a realistic knock-on effect.
+- V7 GA reproducing 18–22 days against a 30-day claim follows the haircut pattern.
+- Fork repositories appearing within 72 hours, and the CISA/NCSC warnings, are realistic.
+
+**Weakest element: Action 4.** Inventing an automated-lockout incident at two Kentucky co-ops is a legitimate reading of a roll of 02, but it is harm the named risks did not include. It then also delivered most of the non-materialised Threat 3's effects: NRECA paused, E-ISAC did not engage, and the GitHub issues were ignored.
+
+**Other results.**
+- Action 5's margin of 3 got a correspondingly narrow result (162,900 enrolled, Indiana slipping to June), which is good calibration.
+- Action 3's margin of 29 produced a term sheet after full financial diligence within one month, which is slightly fast.
+
+**Capability clock and exogenous events.** The capability clock advances plausibly: the verified frontier moved from 5.22 to 5.30 on R3's verification, and Anthropic gained +0.01 on the fallback recipe. The three exogenous events are neutral and in character, including Texas being in regular session in an odd year.
+
+Lean: BALANCED. The month is harsh in outcome, but that comes from the dice: two threat rolls of 00, Action 4 at 02, and four of five threats materialising. It does not come from miscalibrated odds or hostile exogenous events. Two small tilts roughly offset each other. Action 4's deep failure was rendered as a self-inflicted operational incident beyond the named risks, which leans harsh. The second foundation reaching a term sheet within one month leans slightly lenient.
+
+Issues flagged:
+- **Action 4's failure mode goes beyond the stated risks.** The stated failure risks were channel reluctance and slow maintainer adoption. The simulator instead invented a customer-harming false-positive incident. Wiring a detection rule to automated account lockouts at small co-ops within weeks of first shipment is possible, but it is a harsh choice.
+- **Threat 3's effects appeared although Threat 3 rolled 91 and did not materialise.** The NRECA pause, the lack of E-ISAC engagement and the ignored GitHub issues were delivered anyway through the Action 4 failure. The cause differs, but the net friction is close to a materialised Threat 3.
+- **The second foundation moved slightly fast.** It went from "in talks" to completed financial diligence plus a $4M term sheet within one month.
+- **The Apollo red team started very quickly (16 April).** A contracted engagement was scoped, started and produced an AUC result within about 5 days. This is borderline even for an existing partner.

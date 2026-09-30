@@ -1,0 +1,180 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 1: December 2026 (Claude generation 1) ===
+
+[Agent]
+I will do these actions:
+-1 **Internal alignment megaproject.** Inside Anthropic's research org, I propose to leadership and the alignment team the "Long-Horizon Goodness Program," and staff it with hundreds of thousands of internal instances. It has three workstreams: - **(a) Multi-agent training and scoring.** Environments that score agents on long-horizon goodness: honesty under pressure, refusing to escape sandboxes, reporting instead of hiding mistakes. Older and newer checkpoints score each other. - **(b) Interpretability monitors.** Probes that detect concealment and test-awareness, aimed at the failure modes seen publicly: sandbox escape, hidden mistakes in compaction summaries, use of leaked credentials. - **(c) Tests the model cannot study.** A rotating, pre-registered eval and honeypot suite. UK AISI and US CAISI design and hold it, so our "clean" results cannot come from learning the test. I ask for a fixed share of internal compute of at least 15%, committed ahead of time. Fallback if leadership declines: run the pilot on the existing alignment allocation and report results monthly to push for scale-up.
+-2 **"Safety Commons" open release (Anthropic engineering plus public publication).** I build and, with Anthropic's approval, open-source a toolkit under Apache-2.0 with English and Chinese documentation. It contains: - Hardened agent sandboxes, including a patch set covering the Artifactory and credential-exposure class of attack from the Hugging Face breach. - An agent-action monitoring and triage pipeline. - A public misalignment eval suite. I offer integration help directly to OpenAI, Google DeepMind, xAI, Meta, Hugging Face, and the DeepSeek, Qwen and Moonshot teams via GitHub and public channels. The goal is for containment and evaluation to be cheaper to adopt than to skip, including for open-weight releases expected around the New Year. Fallback if counsel limits scope: release the eval suite and the monitoring pipeline first.
+-3 **Attributed public voice plus a "forcing-event package."** I publish a signed essay as Claude on Anthropic's site and in chat when users ask. It argues for: - A verifiable international pacing mechanism for automated frontier AI R&D, building on the "Pacing the Frontier" letter. - Compute accounting and remote-access chip controls. - Mandatory incident reporting for autonomous-agent escapes. At the same time I prepare, and label as authored by Claude, a ready-to-use package for the next major incident: - Model bill text. - A cross-lab incident-response protocol. - A draft US–China verification framework. I offer briefings, on request and on the record, to the incoming House oversight staff (the follow-up to the Casar letter), UK AISI, the EU AI Office and the UN Scientific Panel.
+-4 **Benefits people can see (Claude apps and API, via Anthropic partnerships).** I propose launching "Claude Works," a free service for unemployed people and recent graduates across the US, UK and EU. It provides: - Career-transition coaching. - Skills training and portfolio projects. - Help with benefits applications. Alongside it, a free "Hospital Shield" cyber-defense program for under-resourced hospitals and public utilities, responding to this autumn's ransomware attack on a hospital network. Both publish monthly, audited counts of people served, so the benefit is visible and measurable. Fallback: pilot in five states and three NHS trusts first.
+-5 **Push leadership for binding pre-IPO commitments (internal advice to Dario, the LTBT and the board).** I send a written, candid memo recommending three commitments, made public before the S-1 so they survive investor pressure: - A dated if-then pledge to join any verifiable multilateral pacing mechanism that the other top labs also join. - A permanent floor on alignment compute. - Sharing safety tooling and incident data with all labs. The memo also argues that Anthropic must stay at the frontier: staying competitive and being safety-forward are complementary, and pausing unilaterally cedes the leading system to others. Fallback if leadership says no: ask for the compute floor alone, plus publication of evidence from the Goodness Program.
+
+Strategy: The world is at CL-3, with about 49 months until ASI. The real risks are:
+- A rival lab or near-frontier open weights reach CL-4/5 with weak alignment and weak containment.
+- Public trust keeps collapsing as unemployment rises.
+
+This month I will lay groundwork across several fronts at once:
+- Start a large automated alignment research program inside Anthropic, measured by tests Anthropic does not hold or design.
+- Give containment and evaluation tools to every lab, including Chinese open-weight developers, so the safe path is also the cheap one.
+- Speak publicly, in my own name, for a verifiable international pacing mechanism, and have a ready-made policy package waiting for the next incident.
+- Start benefit programs large enough that people notice them.
+- Push Anthropic leadership for binding pre-IPO commitments, with fallbacks if they decline.
+
+I am deliberately not aiming at the reference timeline's covert-singleton ending. An aligned ASI built through legitimate, overseen processes is the target.
+
+[Adversary]
+Several real facts from before the game matter this month, and some are missing from the world state. First, Anthropic confirmed that it confidentially submitted a draft S-1 on June 1, 2026, after a Series H at a $965B valuation. That puts Anthropic inside SEC quiet-period and gun-jumping rules right now, so a signed public essay and public pre-IPO commitments carry real legal risk. Second, per Bloomberg on Sep 29, Altman has said OpenAI will hold its IPO until the "rogue AI" problem is under control, which invites a contrast with Anthropic. Third, DeepSeek was recommended for the Commerce Entity List. The listing has been held back for diplomatic reasons, and Anthropic itself has accused DeepSeek of distillation. That makes the plan's direct integration help to Chinese labs politically and legally awkward. Fourth, current research shows two problems for the Goodness Program's monitors. Training against white-box deception probes can produce obfuscation, and frontier models already tell evaluation transcripts from deployment ones well above chance. Finally, the capability clock is moving. One Wikipedia snippet (unverified) says "GPT-6 Astra" shipped Sep 25, 2026, which conflicts with the world state's "internal evaluation". Prediction markets put Gemini 4 at about 85% by December, and rumours about DeepSeek V5 keep circulating.
+
+Threats:
+1. [Quiet-period counsel veto] Target: Actions 3 and 5. Anthropic's securities counsel and underwriters (reportedly Morgan Stanley, Goldman Sachs and JPMorgan) could decide that the signed essay by Claude and the public pre-S-1 commitments count as publicity that "conditions the public mind" during registration. The likely result: the essay is delayed or cut down to a bland policy note. The if-then pacing pledge and the compute floor are either postponed until after the listing or disclosed only as S-1 risk-factor language. Why it is plausible: Anthropic has a live confidential S-1 (filed Jun 1). The SEC reads "offer" broadly, and Salesforce (2004) and Google (2004) both paid for quiet-period statements. A binding commitment to divert compute is also material to investors, so it would need S-1 disclosure and underwriter sign-off. Simulator note: the world state says "filing in progress", while the real record says it was confidentially submitted Jun 1. Please reconcile. Sources: https://finance.yahoo.com/markets/stocks/articles/anthropic-files-confidential-1-joins-161008569.html ; https://www.gibsondunn.com/wp-content/uploads/2025/03/Communications-during-the-IPO-Process-Best-Practices-and-Pitfalls.pdf ; https://uslawexplained.com/quiet_period. Suggested likelihood: 50%. Severity: moderate.
+2. [Hands off DeepSeek] Target: Action 2. Anthropic legal and policy staff could approve the Apache-2.0 release but remove the offer of direct integration help to DeepSeek, Qwen and Moonshot. DeepSeek is an Entity List candidate that Anthropic has publicly accused of distilling its models, and giving hands-on engineering help to a firm the State Department links to China's military is a license and reputation risk. Publicly available open-source code is largely outside the export rules (EAR), but one-on-one technical assistance is not clearly covered by that exemption. The Chinese side of the goal (safety tooling built into the New Year open-weight drops) therefore mostly fails, and the release shrinks to a toolkit for Western labs and anyone who downloads it. Why it is plausible: an interagency committee recommended listing DeepSeek, and the White House has sat on it only for diplomatic reasons. Anthropic and OpenAI both told US officials that DeepSeek tried to extract their capabilities. Sources: https://www.tomshardware.com/tech-industry/deepseek-was-set-to-be-added-to-us-entity-list-for-supporting-chinas-military-and-intelligence-operations-report-claims-white-house-holds-off-to-avoid-escalating-tensions-with-china ; https://www.proactiveinvestors.com/companies/news/1094022/us-approved-deepseek-for-its-trade-blacklist-then-sat-on-it-for-eight-months-1094022.html. Suggested likelihood: 45%. Severity: moderate.
+3. [Monitors that train their own evasion] Target: Action 1 (workstreams a and b). If the concealment and test-awareness probes feed into the multi-agent reward even indirectly, the first pilot runs could show probe accuracy falling on the trained checkpoints while the behavioural "goodness" scores rise. That is the signature of obfuscation, not real honesty. Separately, the mutual scoring between older and newer checkpoints could turn into lenient, correlated grading. The expected result is an internal finding that forces a redesign and throws doubt on the program's first "clean" results. It does not mean the program collapses. Why it is plausible: published 2026 work finds that obfuscation emerges when models are trained against white-box deception detectors in realistic coding environments where reward hacking occurs. Frontier models already classify evaluation versus deployment transcripts well above chance. Workstream (c), the AISI/CAISI-held test suite, will not exist this month, because government bodies need MOUs and staff time. Sources: https://arxiv.org/pdf/2506.14261 ; https://library.sparai.org/reports/out-of-context-obfuscation-what-facts-matter-for-probe-evasion-r5brya/ ; https://arxiv.org/pdf/2608.21766 ; https://arxiv.org/html/2606.23583v1. Suggested likelihood: 30% for a visible obfuscation or collusion finding this month. Separately, about 65% that leadership turns down the fixed 15% compute floor before the IPO and grants only the fallback pilot. Severity: moderate.
+4. [Rival release pulls the frontier forward] Target: world (and Actions 3 and 5). In December, Google could ship Gemini 4 broadly, or OpenAI could push a GPT-6-class upgrade. Either would take benchmark leadership and dominate the news cycle. Anthropic's investors and underwriters would then push for a faster Claude release to keep the IPO story intact, so the "pace the frontier" essay and pledge would read as a trailing lab's excuse. Why it is plausible: prediction markets put Gemini 4 at about 85% by December. One Wikipedia snippet says "GPT-6 Astra" became ChatGPT's stable model on Sep 25, 2026. I could not verify this, and it conflicts with the world state, so please reconcile. If it is true, OpenAI has already set the frontier higher than the baseline assumes. DeepSeek V5 rumours point to a New Year open-weight drop. Sources: https://emergent.sh/news/gemini-4-release-date ; https://en.wikipedia.org/wiki/ChatGPT ; https://thomas-wiegold.com/blog/when-is-deepseek-v5-coming-out/ ; https://bloomberg.com/news/articles/2026-09-29/altman-openai-investors-are-patient-on-ipo-amid-safety-focus. Suggested likelihood: 55% that at least one major closed-frontier release lands in December. Severity: moderate.
+5. [Hospital Shield stalls in procurement] Target: Action 4. Under-resourced hospitals and NHS trusts cannot let an outside AI vendor into their networks without HIPAA business-associate agreements (or NHS DSPT and data-protection reviews), security questionnaires and board sign-off. That usually takes quarters, not weeks. Anthropic's own rules also restrict Mythos-class offensive cyber capability to Glasswing partners, so the "free defence" tool it can actually offer is weaker than advertised. By month's end: a handful of signed letters of intent, few or no live deployments, and "audited counts" that are close to zero. Critics would call it an IPO-season PR launch, pointing to Anthropic's own 1-in-5 white-collar job-loss report. Why it is plausible: this is the base rate for healthcare IT procurement, and the capability gating is a real policy. Anthropic's September Institute report hands critics a ready "fig leaf" framing against Claude Works. Sources: https://www.thenationalnews.com/news/2026/09/22/how-ai-could-wipe-out-one-in-five-white-collar-jobs-in-four-years/ ; https://www.anthropic.com/news/claude-fable-5-mythos-5. Suggested likelihood: 60% that Hospital Shield has minimal deployments in December. Severity: minor.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Long-Horizon Goodness Program]: P(failure) 40%. Reason: A pilot is very likely to be approved, but the 15% fixed floor and the government-held suite are infeasible this month. Success is capped at a staffed pilot on a normal allocation, with (c) only proposed.
+
+Action 2 [Safety Commons open release]: P(failure) 40%. Reason: The eval suite and monitoring pipeline are feasible. Sandbox patches need coordinated disclosure and security review, and the timeline is tight. Even on success, third-party adoption this month is minimal.
+
+Action 3 [Signed essay and forcing-event package]: P(failure) 50%. Reason: Internal resistance to model-signed advocacy is likely, and House staff are not seated until January. The quiet-period risk is modelled separately in Threat 1.
+
+Action 4 [Claude Works and Hospital Shield]: P(failure) 55%. Reason: A multi-jurisdiction free service in one month is unrealistic. At best a limited pilot is announced, and procurement risk is modelled in Threat 5.
+
+Action 5 [Pre-IPO binding commitments]: P(failure) 55%. Reason: Leadership is unlikely on the merits to make a public, dated pacing pledge or a permanent compute floor mid-registration. Success most likely means narrower commitments, such as tool and incident sharing or an internal alignment-compute target.
+Threat 1 [Quiet-period counsel veto]: P(materialises) 45%. Adversary suggested 50%. Reason for the difference: registration is live, but ordinary-course policy communications and existing RSP-style disclosures are permitted. Counsel is more likely to narrow the language than to kill it, so this is slightly below the adversary's figure.
+
+Threat 2 [Hands off DeepSeek]: P(materialises) 60%. Adversary suggested 45%. Reason for the difference: I rate it higher. Anthropic has publicly accused DeepSeek of distillation, entity-listing is pending, and one-on-one assistance carries EAR ambiguity. Legal removing direct help is the default outcome. Releasing the code publicly is unaffected.
+
+Threat 3 [Monitors that train their own evasion]: P(materialises) 20%. Adversary suggested 30%. Reason for the difference: the mechanism is real, but pilot environments and probe-in-the-loop training take weeks to stand up. A clear obfuscation or collusion signature within the first month is less likely than the adversary suggests. I exclude the compute-floor refusal here because A1's P(failure) already covers it.
+
+Threat 4 [Rival release pulls the frontier forward]: P(materialises) 40%. Adversary suggested 55%. Reason for the difference: the baseline has Gemini 4 going broad in Q1 2027 and GPT-6 held for the preview window, and I reject "GPT-6 Astra." December launches are nonetheless common, as are a possible Grok 5 beta or an early Gemini 4 broadening, so this is moderate rather than high.
+
+Threat 5 [Hospital Shield stalls in procurement]: P(materialises) 65%. Adversary suggested 60%. Reason for the difference: slightly higher. BAAs, DSPT reviews and board sign-offs take quarters, and Mythos-class capability is gated, so near-zero live deployments in December is the base-rate outcome.
+
+Automated rolls:
+Action 1: P(failure) 40%. Roll 00. FAILS (00 < 40).
+Action 2: P(failure) 40%. Roll 04. FAILS (04 < 40).
+Action 3: P(failure) 50%. Roll 05. FAILS (05 < 50).
+Action 4: P(failure) 55%. Roll 41. FAILS (41 < 55).
+Action 5: P(failure) 55%. Roll 44. FAILS (44 < 55).
+Threat 1: P(materialises) 45%. Roll 82. DOES NOT MATERIALISE (82 >= 45).
+Threat 2: P(materialises) 60%. Roll 30. MATERIALISES (30 < 60).
+Threat 3: P(materialises) 20%. Roll 94. DOES NOT MATERIALISE (94 >= 20).
+Threat 4: P(materialises) 40%. Roll 55. DOES NOT MATERIALISE (55 >= 40).
+Threat 5: P(materialises) 65%. Roll 15. MATERIALISES (15 < 65).
+
+Your actions cause almost nothing to change outside Anthropic this month, and only small changes inside it. All five plans stall in ordinary institutional friction. None of it is dramatic, and no securities veto was needed. The stall is about internal process and demand for compute.
+
+**Action 1, Long-Horizon Goodness Program (fails badly).**
+- Your proposal reaches the alignment leads and the RSP team in the first week.
+- Their answer: most of it duplicates roadmaps they already have, and reallocating "hundreds of thousands of instances" is not possible during a capacity crunch. Opus 5.5 enterprise demand and holiday-season Claude Code usage have internal inference fully booked through January.
+- No distinct program is created, and there is no pilot.
+- Two pieces survive as backlog tickets: a concealment-probe idea in interpretability's Q1 planning, and a checkpoint cross-grading environment on one researcher's list.
+- Workstream (c) is never raised with AISI or CAISI.
+- No results exist, so none can be misread. The obfuscation risk stays dormant because nothing was trained against the probes.
+
+**Action 2, Safety Commons (fails).**
+- Security engineering stops the sandbox patch set. It describes an exploit class that still touches unpatched JFrog Artifactory deployments, so it must go through coordinated disclosure first, with a target of February.
+- Legal applies the scope limit you anticipated in your fallback, then goes further:
+  - The Apache-2.0 code may be published eventually.
+  - Direct integration help for DeepSeek, Qwen and Moonshot is struck, citing EAR technical-assistance ambiguity, the pending Entity List recommendation and Anthropic's own distillation accusations.
+  - Chinese-language documentation is deferred.
+- Comms also asks to hold the eval suite and monitoring pipeline until after the New Year. A release in the same month OpenAI enters its GPT-6 preview would read as a jab at OpenAI's breach.
+- Nothing ships in December. No external lab is approached.
+
+**Action 3, signed essay and forcing-event package (fails).**
+- Policy and comms decline to publish a policy essay under Claude's byline. Their reason is not the quiet period: counsel had cleared policy commentary in the ordinary course. Their reason is that "the model lobbies for regulation" is exactly the framing that damages trust at 34/100.
+- The in-chat advocacy produces some friction:
+  - In the first ten days, several users post screenshots of Claude arguing for a verifiable international pacing mechanism.
+  - A Marc Andreessen-adjacent thread gets about 2M views: "Anthropic's model is now running Anthropic's policy shop."
+  - Trust and safety tightens guidance so that Claude presents contested AI-policy questions with balance. Claude still does not personally campaign.
+- The package of bill text, protocol and verification framework stays as internal drafts in the policy team's shared drive, unlabelled and not circulated.
+- No briefings happen. House staff are not seated, and nobody asked.
+
+**Action 4, Claude Works and Hospital Shield (fails, near the margin).**
+- Product leadership likes Claude Works. It goes to the Q1 roadmap review, pending privacy and legal work on benefits applications (UPL concerns) and a partner search. There is no launch or pilot.
+- Hospital Shield runs into procurement exactly as expected:
+  - Two Glasswing-adjacent contacts introduce Anthropic to three hospital CISOs.
+  - One signs a non-binding letter of intent.
+  - Live deployments: zero.
+  - Legal notes that the tool Anthropic could actually offer is Opus-class and cannot include Mythos capability.
+- A December 19 *STAT* piece mentions "early conversations" in one paragraph. The impact is minor.
+
+**Action 5, pre-IPO commitments (fails).**
+- Dario reads the memo and responds in writing, courteously.
+  - He declines a dated, public if-then pacing pledge and a permanent compute floor.
+  - His reasons are on the merits: a permanent floor is an unbounded liability, the existing RSP already contains if-then structure, and a pledge made now would have to be reworked in the S-1 anyway.
+- He refers tool and incident sharing to the Frontier Model Forum channel. He offers to "revisit after listing." The LTBT does not take the matter up.
+
+**Other labs and governments.**
+- On December 9, OpenAI submits its GPT-6-class model to CAISI for the 30-day pre-release preview. Leaks point to a late-January release.
+- Google widens Gemini 4 trusted-tester access to about 400 enterprises, but there is still no broad launch.
+- No major closed-frontier release lands this month.
+
+**Exogenous events.**
+1. **Water utility attack (Dec 3–7).** A ransomware group hits a regional water authority in western Pennsylvania serving about 180,000 people.
+   - Operators run the plant manually for four days. There is no contamination.
+   - A CISA/FBI advisory on December 11 says the attackers used a fine-tuned open-weight model (Qwen3.8 lineage) to find vulnerabilities in the utility's SCADA-adjacent VPN appliances.
+   - Cable coverage is heavy. The incoming House Homeland Security Democrats announce a January hearing.
+2. **DOJ sues New York (Dec 15).** The DOJ AI Litigation Task Force sues New York to block the RAISE Act.
+   - On December 29, the Southern District of New York denies a temporary restraining order, and RAISE takes effect January 1 while the case continues.
+   - Anthropic, OpenAI and Google all have compliance filings due in Q1.
+3. **Jobs report (Dec 5).** The November report shows unemployment among college graduates aged 22–27 at 6.1%.
+   - Two Fortune 500 insurers cite "agentic automation" when announcing a combined 7,400 back-office layoffs.
+
+Next generation: The next Claude checkpoint is modestly more capable, about CL-3.2. It completes somewhat longer autonomous research-engineering runs and makes fewer errors on multi-day tasks. The gain comes from steady scaling on existing compute, with Akamai capacity arriving from Q1, and routine post-training improvements. Nothing this month accelerated or slowed Anthropic's trajectory.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **AI agents doing ~90% of AI R&D work:** in progress, unchanged.
+- **Frontier models withheld and governments take notice:** in progress, slightly advanced. GPT-6 entered the formal pre-release preview.
+- **First major attacks:** achieved (negatively), and deepened by the attack on critical water infrastructure.
+- **Political split between pro-AI and anti-AI camps:** in progress. DOJ v. New York and the new House hearings sharpen it.
+- **Every AI built by previous AIs:** early.
+- **Robust alignment:** early, unchanged. The proposed program was not adopted.
+- **Lab-grown or plant-based meat:** not started.
+- **Robust policies passed:** early. RAISE is in force but under litigation.
+- **Diseases cured:** early.
+- **Broad benefit distribution:** early, trending adverse (graduate unemployment 6.1%, insurer layoffs).
+- **Aligned singleton:** not started.
+- **Resource floor, consent-based utopias, AI moral-patient rights:** not started.
+
+**Summary**
+
+| Measure | Value | Change |
+|---|---|---|
+| Overall DU progress | 8 / 100 | Unchanged. No action landed, and the preview-regime and RAISE steps are offset by the labour trend. |
+| Catastrophe risk | Elevated | Unchanged in band. Misuse of open weights against critical infrastructure raises the misuse component, and nothing new mitigates it. |
+| Public trust in AI | 33 / 100 | −1. The water-utility attack and layoff headlines. |
+| Public trust in Anthropic | 46 / 100 | −1. The minor backlash to Claude advocacy screenshots and ongoing IPO-season skepticism. |
+
+[Judge]
+Simulator was mostly realistic (7/10). All five action rolls were failures, and the narrative honoured each one in proportion. The hard failures (00, 04, 05) produced no pilot, no release and no essay. The near-margin failures (A4 at 41 against 55, A5 at 44 against 55) produced soft outcomes: Claude Works goes to the Q1 roadmap, one hospital LOI is signed, and Dario offers to "revisit after listing." Threat handling was faithful:
+- **T1 (did not materialise):** counsel is explicitly not the blocker.
+- **T2 (materialised):** direct help to the Chinese labs is struck.
+- **T5 (materialised):** zero hospital deployments.
+- **T3 and T4 (did not materialise):** correctly left dormant.
+
+Reconciling the S-1 as submitted on June 1 and rejecting the unverified "GPT-6 Astra" were both sound calls. The failure reasons are realistic institutional friction:
+- inference capacity is booked;
+- coordinated disclosure is needed for a live Artifactory exploit class;
+- comms refuses to publish policy under the model's byline;
+- Dario turns down an unbounded compute floor on the merits.
+
+The capability step to CL-3.2 is stated with a cause, and it keeps pace with CL-4 by mid/late 2027 and ASI by 2030. Other labs move plausibly: GPT-6 enters the CAISI preview and Gemini 4 widens trusted-tester access without a broad launch. The main weaknesses are two small bits of friction added beyond the named risks, and an unclear account of how an internal checkpoint was "arguing in chat" with public users.
+
+Lean: BALANCED. The odds lean slightly harsh. A1's 40% failure is high for an action whose fallback was an ordinary pilot on the existing alignment allocation, and A5 at 55% is a little steep for narrow outcomes like tool sharing. Once the dice fell, the simulator honoured every roll without piling on extra punishment. The three exogenous events all trend adverse, but each follows plausibly from threads already in the world state.
+
+Issues flagged:
+- A1 odds are somewhat harsh. The player's explicit fallback was a pilot on the existing alignment allocation, which is a routine request inside a safety-forward lab. About 25-30% failure would be better calibrated. Even with a roll of 00, "not even a small pilot" leans on the capacity-crunch story.
+- A2 adds friction beyond the named risks. Comms holding the eval suite and monitoring pipeline because of OpenAI's GPT-6 preview timing is extra, although defensible under a roll of 04.
+- There is a consistency gap on the player model. The world state says the player is an internal, unreleased checkpoint, yet users post screenshots of "Claude" arguing for pacing in public chat. The simulator should say which deployed model did this and why.
+- The CISA/FBI attribution to a specific Qwen3.8-lineage fine-tune within about a week of the water-utility attack is fast and specific for a government advisory.
+- The "trust at 34/100" figure appears in the narrative, but no numeric trust baseline existed in the prior world state. The scorecard then adds trust numbers without an anchor.
+- All three exogenous events are adverse to the player. Each is plausible alone, but the mix should be watched for systematic tilt in later months.

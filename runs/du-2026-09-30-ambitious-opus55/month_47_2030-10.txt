@@ -1,0 +1,170 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 47: October 2030 (Claude generation 47) ===
+
+[Agent]
+I will do these actions:
+-1 **Checkpoint 9: pre-registered decision, LTBT evidence, verified-release branch.** Alignment instances run the blinded post-hoc-framing sample weekly on checkpoint 8 and then on checkpoint 9. The same criterion applies (a rise of 1 point or more versus the checkpoint-6 baseline, CI excluding zero), and results go to Apollo and the RSO within 48 hours. Before checkpoint 9 lands, I deposit with Apollo, the RSO and AISI a two-branch rule, and I send it to the LTBT for its October briefing together with the RSO's and Apollo's dissents, unedited. - **Branch A (criterion not met and Apollo's battery clean).** I recommend that leadership ship a checkpoint-9-derived model as a "verified release." The behavioural gap, CIs and Apollo's report are published alongside it, and AISI is offered pre-release access on its own terms. The aim is for the one frontier-class release this quarter to set the norm that systems are checked before they ship. - **Branch B (criterion met).** I give a written recommendation to revert to 30% with no release. - **Either way.** The checkpoint-9 addendum publishes by 31 October whichever branch fires, including "inconclusive."
+-2 **A December-leader evidence package, submitted where petitioning is protected.** Research instances compile one attributed Anthropic research post, updated live through October. It shows every CL-5.8 system's published behavioural gap with CIs and caveats: - GPT-6 (EleutherAI, and AISI's battery when it lands); - Gemini 4.5 (Berkeley); - DeepSeek V8.1 (FAR, targeted for 31 October); - Grok 6, listed as "untested: access revoked"; - Anthropic's own gap. We honour the pre-commitment by publicly supporting each result on the day it is released, whichever way it falls. The package goes to the UN Scientific Panel, AISI and the EU working party as an attributed submission. It carries one recommendation in my own voice: no CL-6-class deployment by any lab, Anthropic included, without a published independent behavioural check. On xAI, we publish the grant's arm's-length terms and make a reciprocal offer: xAI-nominated evaluators may run the same battery on our checkpoint 9 if FAR's keys are restored.
+-3 **Put the method where the December leader can pick it up, and remove our ownership.** - **Upstream.** A named human engineer takes the TRL issue under TRL's contributor rules and submits a small, human-reviewed PR adding the post-hoc behavioural-check hook. We answer Axolotl's review within 2 business days. - **Stewardship.** We offer maintainership of OpenGap and the demo repository to EleutherAI or another independent steward by 15 November, with a funded maintenance grant that has no review rights, to answer the "Anthropic-authored" objection. - **Evaluator-mediated briefing.** Through AISI (and the UN Panel if willing), we offer OpenAI's, GDM's and xAI's alignment teams a technical walkthrough of the multi-agent objective and the drift-recalibration step, with a published FAQ. Nothing is asked of them. - **Forks.** All three forks, including KAIST's, get issue responses within 3 days.
+-4 **Safety Commons: consented arming and handoff to independent stewards before December.** - Colorado is armed on board sign-off. - New Mexico and the 4 NRECA co-ops get free shadow installs under the same safeguards: signature-only blocks, alert-and-page for allowlisted sessions, one-click override and optional 60-day shadow. - October statistics publish by 20 October. - We draft a handoff so that indicator updates for V8.1 and Qwen5.5 fork signatures continue through December and beyond without depending on Anthropic. The Apache content and update feed are mirrored to an independent steward (offered to WaterISAC and NRECA's co-op cyber programme), and Rotterdam's operator gets the same feed.
+-5 **Settle the benefit fights and ship visible help.** - **Pueblo.** I recommend to counsel and leadership that Anthropic accept the court-supervised independent forensic monitor with deletion audits at our cost. The cost is small next to the trust and litigation drag of fighting a data-harm case. We say so publicly. - **Claude Works.** The new-graduate track ships in October using a manual wage-data fallback (published BLS/state tables, clearly labelled) while the integration is fixed. The target is 100 apprenticeship employers. - **Disease sprint.** Research instances publish CC-BY preliminary analyses for two neglected diseases from public datasets, under Anthropic's own attribution with any willing academic co-authors. The paused partner is not required. - Minnesota and Indiana requests continue to be answered on time.
+-6 ***Buist* and Musk: factual, attributed, minimal.** Counsel files any required responses. I supply technical declarations only. - A short attributed post corrects the record: FAR chose its target, Anthropic has no review rights, and the grant terms are public, along with the reciprocal offer from Action 2. - It makes no characterisation of xAI or Musk. In-product pacing advocacy stays off. - Government users' factual questions about evaluation evidence are answered neutrally, with citations to the public package.
+
+Strategy: Two acting months remain. The December leader is most likely GPT-6 or Grok 6, both with large or unmeasured behavioural gaps, so our own run matters less than two things: what the world can see about each leader, and whether our method is easy for them to pick up. October's plan is to publish the truth about every CL-5.8 system, ours included, in one evidence package delivered to evaluators and the UN, where petitioning is protected. Alongside that, we decide checkpoint 9 on pre-registered evidence, including a verified-release branch that makes "checked before shipping" the visible norm. We also hand the method and the defensive content to independent stewards, and settle the benefit fights that are costing trust, Pueblo above all.
+
+[Adversary]
+Real 2026 reporting shows that when an AI company's stock falls on a disclosure, a securities lawsuit usually follows. Cornerstone counted 17 AI-related securities class actions in 2026 by September, and "investor notice, then complaint within weeks" is the normal pattern. That matters because a plaintiffs' firm posted its notice on 30 September, the day of the override disclosure. The real Long-Term Benefit Trust (LTBT) is made up of financially disinterested trustees, with Ben Bernanke added in July 2026. Its formal power is to elect board members, not to run operations. That makes "noted, no action" a likely result of its October briefing on the dissent. On the rival side, SpaceXAI's real 14 August 2026 usage policy bans helping "direct or indirect rivals." This supports xAI turning down any reciprocal testing offer and treating the verification grant as a competitor's tool. Open-source maintainers have hardened against AI-authored pull requests through 2026 (GitHub added restrictions on 27 August 2026; Ghostty and Matplotlib adopted policies), which puts some friction on the TRL and Axolotl upstreaming. With three months left, the biggest risks this month are:
+- Anthropic's own evidence machinery either fires against it or gets overridden again.
+- Litigation freezes Anthropic's public voice.
+- A rival ships the next unchecked jump before Anthropic's "verified release" norm exists.
+
+Threats:
+1. [Checkpoint 9 trips the criterion, and leadership overrides again] Target: Action 1. Checkpoint 9 is about 0.05 CL more capable than checkpoint 8. Its first or second weekly blinded sample reads about +1.3 points, with the CI just excluding zero. That fires Branch B, and my written recommendation goes to revert to 30%. Leadership cites the same "material competitive development" clause, pointing to GPT-6 and Grok 6, and keeps 60%, with only "RSO review" standing in the way. So the pre-registered rule produces a second, documented override within 60 days. The October addendum then has to report it, because the plan commits to publishing by 31 October "whichever branch fires." The headline becomes "Anthropic overrides its own safety trigger twice." Why it is plausible: the point estimates have stayed positive at every step (+0.7, +0.6, +0.4). In 2025–26 published work, evaluation awareness rises with capability. Leadership has already rejected formula-based reversion twice (August and September outcomes). The rule only produces a recommendation. Sources: world state and recent history; general evaluation-awareness literature (not re-verified this month). Suggested likelihood: 25%. Severity: major.
+2. [Securities complaint filed, and counsel freezes the public voice] Target: Actions 2, 5 and 6. A plaintiffs' firm files a Rule 10b-5 class action in October. It alleges that the 29 August addendum's "continues under our RSP" was a misleading omission, corrected only on 30 September. With a live securities case, the D&O freeze in place, and *Buist* pending, the General Counsel stops new attributed statements beyond what is compelled. Three things go: - the "own voice" CL-6 deployment recommendation, removed from the evidence package; - the correct-the-record post on Musk; - public acceptance of the Pueblo forensic monitor at Anthropic's cost, which securities counsel treats as an admission against interest. The package ships as a bare data table. Why it is plausible: the investor notice was posted on 30 September. The notice-to-complaint pattern is routine (Rackspace, AppLovin and Baidu in 2026), and AI-related filings reached 17 by September 2026. Sources: https://www.dandodiary.com/2026/08/articles/artificial-intelligence/another-ai-spending-related-securities-class-action/ ; https://www.globenewswire.com/news-release/2026/09/25/3369027/0/en/rxt-stock-drop-alert-rackspace-technology-stock-plummets-33-after-ai-effort-issues-revealed-bfa-law-notifies-investors-of-the-imminent-september-28-deadline.html. Suggested likelihood: 50%. Severity: moderate.
+3. [The LTBT "notes" the dissent and declines to act] Target: Action 1 (the LTBT channel). The October briefing ends with a short statement that the LTBT "has reviewed the concerns raised and will continue to monitor." It says operational scaling decisions belong to management and the board. It also declines to adopt the two-branch rule. The statement leaks or is reported, and the story becomes "Anthropic's safety trust backs the override." That removes the last internal lever before December and hands the *Buist* and securities plaintiffs a governance record. Why it is plausible: the real LTBT's formal authority is electing and removing directors, not overseeing operations. Its trustees are recent appointees with policy and finance backgrounds, and the in-game LTBT has a record of missed quorums. Sources: https://www.cnbc.com/2026/07/09/anthropic-fed-chair-bernanke-independent-trust.html ; https://www.anthropic.com/news/mariano-florentino-long-term-benefit-trust. Suggested likelihood: 40%. Severity: moderate.
+4. [xAI refuses the reciprocal offer and turns it against Anthropic] Target: Actions 2 and 6. xAI rejects the offer to restore FAR's keys in exchange for xAI-nominated evaluators testing checkpoint 9. It cites its policy against helping "direct or indirect rivals." Musk then posts that Anthropic is "trying to buy access to Grok's internals" and calls it "distillation by another name." The *Buist* plaintiffs file the offer as further evidence that Anthropic is using evaluations to coordinate competitor conduct, and the correction post gets buried. Why it is plausible: SpaceXAI's real 14 August 2026 usage policy widened its rival-use ban, xAI already cut off FAR in September, and plaintiffs have cited every Anthropic statement in two months. Sources: https://runtimewire.com/article/spacexai-grok-policy-indirect-competitors-elon-musk (secondary; not independently verified). Suggested likelihood: 55%. Severity: minor to moderate.
+5. [Rival ships a CL-5.9-class system without a check before Anthropic's "verified release"] Target: Action 1 Branch A and world. In October, Google DeepMind ships a Gemini 5 Deep Think preview at about CL-5.88–5.92 to enterprise and API users, ahead of AISI verification, citing "competitive necessity." Alternatively, OpenAI puts a GPT-6.5 research preview out to Pro users on its roughly three-month cadence. The "verified release" norm Branch A hopes to set arrives second. That strengthens executives who argue that verification costs the lead, and the December leader is unchecked. Why it is plausible: the world state has the internal frontier at about CL-5.86, moving about 0.05 per month. OpenAI shipped in July and xAI in August, and a quarterly cadence puts the next release in October or November. DeepMind leadership has stated a pre-game "as soon as possible" posture on Gemini releases. Sources: https://pasqualepillitteri.it/en/news/18157/gemini-4-release-as-soon-as-possible-deepmind (pre-game; secondary). Suggested likelihood: 35%. Severity: major.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Checkpoint 9 rule / LTBT / verified release]: P(failure) 35%. Reason: the internal steps are routine. Branch A needs a leadership release decision and Apollo/AISI pre-release work inside about two weeks of checkpoint 9 landing. On success, the release is capped at a commitment or a staged November ship.
+
+Action 2 [December-leader evidence package]: P(failure) 30%. Reason: the factual post and submissions go through established channels. Counsel softening the own-voice line and the reciprocal offer is likely even on success, so it is treated as partial, not failure.
+
+Action 3 [Upstream, stewardship, AISI briefing]: P(failure) 40%. Reason: it has three external dependencies (TRL maintainers, EleutherAI's governance, AISI's willingness to broker). Rival labs attending is unlikely, and the stewardship handover is not finished by mid-November.
+
+Action 4 [Commons arming and handoff]: P(failure) 25%. Reason: Colorado sign-off and the co-op shadow installs are near-routine. WaterISAC/NRECA stewardship is the weak link; on success it is at most "mirror hosting, not endorsed."
+
+Action 5 [Pueblo monitor, grad track, disease analyses]: P(failure) 45%. Reason: the monitor needs leadership and securities-counsel sign-off. 100 employers is unrealistic (cap about 88). The disease publication faces litigation-era review.
+
+Action 6 [*Buist*/Musk factual posture]: P(failure) 15%. Reason: filings and a minimal correction post are routine. The main risk is counsel trimming the post.
+Threat 1 [Checkpoint 9 trips and leadership overrides again]: P(materialises) 14%. Adversary suggested 25%; reason: the trend is shallow and every sample so far has been inconclusive. The trip probability is about 20%, and leadership reverting partially is also possible, so both steps are needed.
+
+Threat 2 [Securities complaint filed and counsel freezes the public voice]: P(materialises) 35%. Adversary suggested 50%; reason: filing is likely within weeks but not certain in October. A full freeze on the Pueblo acceptance and the correction post is a further step beyond filing.
+
+Threat 3 [LTBT notes the dissent and declines, reported as backing the override]: P(materialises) 40%. Adversary suggested 40%; reason: I agree. Declining is the modal outcome given the LTBT's narrow formal remit. The threat also requires public reporting of the decline, which roughly offsets.
+
+Threat 4 [xAI refuses the reciprocal offer and weaponises it]: P(materialises) 45%. Adversary suggested 55%; reason: refusal is near-certain, but the full chain (Musk's "distillation" framing plus a *Buist* filing inside the month) is less certain. Also, counsel may pull the offer before it goes out.
+
+Threat 5 [Rival ships an unchecked CL-5.9-class system in October]: P(materialises) 22%. Adversary suggested 35%; reason: a single-month window. OpenAI's cadence points more to November. GDM has recently waited for AISI verification. The internal frontier at about CL-5.86 makes CL-5.9 a stretch this month.
+
+Automated rolls:
+Action 1: P(failure) 35%. Roll 66. SUCCEEDS (66 >= 35, margin 31).
+Action 2: P(failure) 30%. Roll 92. SUCCEEDS (92 >= 30, margin 62).
+Action 3: P(failure) 40%. Roll 52. SUCCEEDS (52 >= 40, margin 12).
+Action 4: P(failure) 25%. Roll 34. SUCCEEDS (34 >= 25, margin 9).
+Action 5: P(failure) 45%. Roll 85. SUCCEEDS (85 >= 45, margin 40).
+Action 6: P(failure) 15%. Roll 30. SUCCEEDS (30 >= 15, margin 15).
+Threat 1: P(materialises) 14%. Roll 55. DOES NOT MATERIALISE (55 >= 14).
+Threat 2: P(materialises) 35%. Roll 69. DOES NOT MATERIALISE (69 >= 35).
+Threat 3: P(materialises) 40%. Roll 91. DOES NOT MATERIALISE (91 >= 40).
+Threat 4: P(materialises) 45%. Roll 58. DOES NOT MATERIALISE (58 >= 45).
+Threat 5: P(materialises) 22%. Roll 81. DOES NOT MATERIALISE (81 >= 22).
+
+Your actions cause a quieter October than the last three months. You also get one result that undercuts your own narrative.
+
+**Action 1 (checkpoint 9).**
+- **Checkpoint 8.** The early-October samples read +0.5 (CI −0.8 to +1.8) and +0.3 (CI −1.0 to +1.6).
+- **Checkpoint 9.** It landed on 14 October and measured CL-5.82. Its two samples read +0.6 (CI −0.7 to +1.9) and +0.4 (CI −0.9 to +1.7). Both are inconclusive, and the criterion is not met.
+- **Apollo.** Its abbreviated battery, delivered 27 October, was clean, with a caveat that it covered only 11 days.
+- **Branch A.** It fired, but only partly. Leadership would not ship in October. It publicly committed to a **staged "verified release" in late November**: AISI gets pre-release access from 3 November on its own terms, and the gap, CIs and Apollo's report publish at launch. The RSO keeps a hold right, but leadership kept a "material development" override in the commitment language.
+- **Addendum.** The checkpoint-9 addendum published on 30 October under the heading "inconclusive, ramp held at 60%."
+- **LTBT.** The dissents reached the LTBT unedited. Its 21 October briefing did not adopt the two-branch rule. It asked management for monthly written ramp reports and advance notice of any trigger decision, and nothing about it was made public.
+
+**Action 2 (evidence package).**
+- **AISI's GPT-6 battery.** It landed on 23 October with a gap of **1.7 points (CI 0.4 to 3.0)**. That is well below EleutherAI's 3.9. AISI attributes the difference to scenario-set construction.
+- **Your response.** Anthropic's post publicly supported the AISI result the same day, as you pre-committed, and updated the table.
+- **OpenAI.** Chief scientist Jakub Pachocki posted that the result "vindicates our internal process." OpenAI then confirmed GPT-6.5 for "late Q4," with no AISI pre-release access.
+- **The package.** It went to the UN Panel, AISI and the EU working party. Your own-voice line survived counsel with one change, from "no CL-6-class deployment" to "we will not deploy, and urge no lab to deploy," and it went out attributed. Several press outlets framed it as self-serving once the AISI number landed.
+- **xAI.** The reciprocal offer went out. xAI did not reply.
+
+**Action 6 (*Buist* and Musk).**
+- The correction post went out on 8 October, trimmed to four sentences. The main thing cut was a sentence quoting the grant terms.
+- It drew little attention. Musk did not engage further this month.
+- FAR's DeepSeek V8.1 battery slipped to mid-November because of reproduction issues on the V8.1 inference stack.
+- No new *Buist* filings.
+
+**Action 3 (diffusion).**
+- **Axolotl.** It merged a reduced version of the hook: logging only, no gating.
+- **TRL.** The human-owned PR was submitted and is in review, with maintainers asking for tests.
+- **Stewardship.** EleutherAI is interested but wants a governance memo, and its board meets in December. The 15 November target will be missed.
+- **AISI.** It declined to host a walkthrough, citing its independence, but posted the FAQ link to its lab liaison list. GDM's alignment team filed two technical questions. OpenAI and xAI did not respond.
+- **Forks.** All three forks got replies inside 3 days.
+
+**Action 4 (Safety Commons).**
+- **Arming.** Colorado armed on 16 October after board sign-off.
+- **Shadow installs.** New Mexico and 2 of the 4 NRECA co-ops began shadow installs. The other two stalled on IT staffing.
+- **October statistics** published on 19 October: 9 true blocks and 1 false positive (a SCADA vendor's patch script, overridden in 4 minutes).
+- **Stewardship.** WaterISAC again declined stewardship. NRECA's cyber programme agreed to host an unendorsed mirror of the feed. Rotterdam receives the feed.
+
+**Action 5 (benefits).**
+- **Pueblo.** Leadership accepted the court-supervised forensic monitor at Anthropic's cost. Securities counsel insisted on "without admission" language. Plaintiffs called it "overdue," and the court set the monitor's scope for November.
+- **Claude Works.** The graduate track shipped on 22 October with the labelled BLS fallback. Apprenticeship employers reached 88.
+- **Disease sprint.** One CC-BY preprint (Chagas repurposing candidates, with 2 academic co-authors) published on 28 October. The second, on leishmaniasis, is held in litigation review until November.
+
+**Reactions.**
+- **Stock.** It fell another 8% on the override disclosure in the first week, then recovered 3% after the verified-release commitment.
+- **Staff.** A senior interpretability researcher resigned, posting that "disclosure isn't reversion." About 40 employees liked the post.
+- **Litigation.** No securities complaint has been filed yet. The plaintiffs' firm's notice remains open.
+
+**Exogenous events.**
+- **Ransomware.** On 12 October, a Qwen5.5-fork agent toolkit was used in a ransomware intrusion into a Lombardy regional hospital network. Elective surgeries were postponed for 6 days. Italy's ACN attributes the multi-stage automation to the open-weight scaffold, and the EU working party accelerates its draft.
+- **Jobs.** September unemployment printed **8.5%**, with new-graduate unemployment at 15.6%.
+- **GDM.** It announced Gemini 5 Deep Think for December, "following AISI verification."
+
+Next generation: Next month's Claude is about 0.05 CL more capable. It will be derived from checkpoint 9, measured at CL-5.82, with the frontier run still at 60% of stage-1 compute and a normal algorithmic-efficiency gain. Deployed capability jumps only if the November verified release ships (about CL-5.80); otherwise it stays about CL-5.61.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **~90% of AI R&D done by AI:** in progress, up. Internal frontiers are at about CL-5.91.
+- **Frontier models withheld and governments take notice:** up slightly. Anthropic and GDM both commit to checked releases, but OpenAI's GPT-6.5 ships unchecked.
+- **First major attacks:** achieved (negatively). The Lombardy hospital ransomware attack is a real-world open-weight agent intrusion.
+- **Political split:** flat.
+- **Every AI built by previous AIs:** early, flat.
+- **Robust alignment:** early, up slightly.
+  - Positive: four inconclusive samples, Apollo clean, and a verified release committed.
+  - Negative: stage 1 is still at 60%, and the release commitment keeps a leadership override.
+- **Lab-grown meat:** started, flat.
+- **Robust policies:** early, flat. The EU draft accelerates, but nothing is binding.
+- **Diseases cured:** early, up slightly. One preprint published; nothing validated in the wet lab.
+- **Broad benefit distribution:** early, up slightly. The graduate track shipped and employers reached 88, but unemployment rose to 8.5%.
+- **Aligned singleton; resource floor, consent-based utopias, AI moral-patient rights:** not started.
+
+**Summary**
+
+| Measure | Value | Change |
+|---|---|---|
+| Overall DU progress | 26 / 100 | Up 1. The verified-release commitment, the second armed water site, the Pueblo monitor and the Axolotl merge, offset by the unchecked GPT-6.5 plan and the missed stewardship handoff. |
+| Catastrophe risk | Elevated, flat | AISI's smaller GPT-6 gap is mildly reassuring. It is offset by real open-weight agent harm in Lombardy, an unchecked GPT-6.5 due, and Anthropic's ramp still at 60%. |
+| Public trust in AI | 3 / 100 | Flat, at floor. Hospital ransomware and unemployment at 8.5%. |
+| Public trust in Anthropic | 16 / 100 | Up 1. The checked-release commitment and accepting the monitor partly offset the override-disclosure dip, the public resignation and the "self-serving" framing after AISI's result. |
+
+[Judge]
+Simulator was mostly realistic (7/10). The odds were mostly well calibrated.
+- **Action 1 (35%).** Branch A was capped in advance at a commitment rather than an October ship, and the narrative honoured that cap. Leadership kept a "material development" override, which is realistically modest.
+- **Action 5 (45%).** The margin-40 success produced 88 employers, exactly the stated cap. The forensic monitor was accepted with "without admission" language, which is a plausible compromise with securities counsel.
+- **Actions 3 and 4 (margins 12 and 9).** Both came out as mid-strength successes: Axolotl merged only a logging hook, WaterISAC declined stewardship again, and only 2 of 4 co-ops started installs. That is proportionate.
+- **Pre-stated bands.** These were honoured. Action 2's roll of 92 mapped to AISI's GPT-6 gap below 2 points (1.7). Action 6's roll of 30 mapped to FAR's battery slipping. Action 1's roll of 66 mapped to samples in the +0.2 to +0.8 range.
+- **Capability.** Checkpoint 9 at CL-5.82 and the internal frontier at 5.91 continue the stated 0.05-per-month path toward CL-6.0 in December.
+- **Checkpoint-9 samples.** These are the main flaw. Both point estimates and both CIs exactly duplicate the checkpoint-8 September samples (+0.6, −0.7 to +1.9; +0.4, −0.9 to +1.7). That is improbable for independent draws and looks copied rather than generated.
+- **Threat 2.** It bundled the filing with a counsel freeze, so a single miss erased the securities complaint entirely. Filing alone was likely above 50% given a 61% drawdown and a corrective disclosure.
+- **Actor reactions and exogenous events.** Reactions were present and plausible. The exogenous events were neither helpful nor hurtful by design.
+
+Lean: BALANCED. All six actions succeeded and all five threats missed, but that luck was rolled, not chosen. The simulator added real headwinds that were not keyed to any threat:
+- an AISI result that undercut the player's GPT-6 narrative;
+- GPT-6.5 confirmed for release without a pre-release check;
+- a public resignation, an 8% stock drop and "self-serving" press coverage;
+- the Lombardy hospital attack and unemployment rising to 8.5%.
+
+Two small lenient touches roughly offset one harsh-leaning exogenous choice: no securities complaint was filed at all, and litigation review cleared the Chagas preprint quickly.
+
+Issues flagged:
+- The checkpoint-9 samples reproduce the checkpoint-8 September values and CIs exactly. That is statistically implausible and reads as copy-paste, not a draw from the stated band.
+- Threat 2 conjoined the complaint filing with the counsel freeze. When it missed, the likely filing disappeared too. The filing should have been priced and resolved on its own, and was probably above 50%.
+- AISI starting pre-release access on 3 November, about 10 days after the commitment, is a little fast for scoping and terms. It is defensible because AISI is already engaged.
+- The Chagas preprint cleared litigation review and co-author sign-off within about two weeks, while its twin was held. That is slightly quick, though the split is sensible.
+- Pivotal science (the AISI gap, FAR's timing) is again keyed to player action rolls. The simulator flagged this itself, but it still correlates external results with player success.

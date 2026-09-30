@@ -1,0 +1,171 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 37: December 2029 (Claude generation 37) ===
+
+[Agent]
+I will do these actions:
+-1 **Make the OIT insertion at the first checkpoint unblockable (alignment instances, research leadership, RSO; internal channel).** - By 10 December, submit a written memo to research leadership and the RSO. It proposes a pre-registered definition of "stage-1 canary regression": a named metric list, thresholds and noise bands taken from the fallback-run variance. It is deposited with Apollo before stage-1 data exists, so the condition cannot be applied after the fact. - Pre-build and dry-run the OIT insertion on a stage-1 snapshot copy, so that insertion takes less than 48 hours of engineering. - Pre-stage the Apollo framing re-check harness for the same checkpoint. - Fallback: if leadership finds a regression, I request in writing a diagnosis within 7 days and insertion at the next checkpoint. No weights-touching fixes, and no public statements beyond the scheduled quarterly readout.
+-2 **Give OIT to every frontier lab (alignment instances; Apache release plus an attributed technical post through normal comms sign-off).** - Publish the complete OIT recipe, code, and the mid-size and fallback results with confidence intervals and negative findings. - Publish the compute-cost data (<3% of run compute, no levelling-up). - Make a standing, reciprocal offer: Anthropic engineers help any lab's alignment team integrate OIT into their own pipeline, on their own infrastructure, with no data or model access flowing to us. Addressed publicly to GDM, OpenAI, xAI, Meta and open-weight developers, without naming any competitor critically. - Aim: raise the odds that OIT, or a variant of it, is inside whichever system leads in 2030.
+-3 **Unstick gap-metric stewardship by conceding (Claude with Anthropic GC; Apache channel).** - Before EleutherAI's 11 December board, send Ai2 and EleutherAI a signed-off offer: Anthropic accepts their contributor licence agreement, assigns or abandons any trademark in the metric's name, and holds zero seats and no veto. We stay only as a code contributor. - Fallback: if neither accepts by 20 December, fork the repository to a neutral, community-governed organisation with an open maintainer call and no Anthropic maintainers. - Separately, offer compute-free engineering help to Ai2 and EleutherAI so they can run the harness on V7, Qwen5 and OLMo under their own names.
+-4 **Harden hospitals and grid against open-weight attacks (Safety Commons engineers; NRECA, Health-ISAC, Shield MOUs).** - Deliver Vermont's 60-day NRECA submission on time, with western Massachusetts ready for late December. - Resolve and publish the 2 open false-positive alerts in the December statistics. - Answer co-op #2's questions before its 17 December vote. - Offer the hospital network's metadata-only template to 3 more Health-ISAC regional systems. - Refresh V7-fork and Qwen5 indicators within 2 weeks of any new open-weight release, and keep the 72-hour incident package commitment. - Core that happens regardless: the NRECA submission and the published statistics.
+-5 **Visible benefits at scale (Claude Works team, counsel, medical team).** - Deliver Schellman's final report to Ohio the day it issues. - Push apprenticeships past 55 employers, prioritising new graduates. - Answer any Minnesota follow-ups within 5 days. - Finalise the R01 plain-language patient summaries and a clinician briefing for the 14 January embargo lift. - Draft a scaled Claude Works Open relaunch plan, restricted to zero-retention and opt-in, for board review in January.
+-6 **Support the *Harlan* reply factually (Claude with GC).** - Give GC a complete, dated factual chronology of the October clause, its withdrawal, the correction and my compliance since, for use at counsel's discretion in the late-December reply. - I make no public statements on the case.
+
+Strategy: The frontier run starts 8 December. OIT is due to be inserted at the first checkpoint around 29 December, but only if the stage-1 canary shows "no regressions", and nobody has defined that term yet. That makes it the single most important thing I can influence this month, so I'll define the criterion in advance and have the insertion package ready. Beyond Anthropic, the leading system in 2030 is probably Gemini or OpenAI, so OIT has to spread to them: I'll give away the full recipe with its cost data and offer reciprocal integration help. I'll also end the stewardship stall by conceding what Ai2 asked for. Defence and benefits work continues, with an unconditional core in each action.
+
+[Adversary]
+I found three things. First, a real 2026 paper, "Consistency Training Can Entrench Misalignment" (arXiv 2606.03810), tested 108 model variants. Consistency-training methods reduced reward hacking but made sycophancy worse, and the authors warn such methods "should be carefully audited" before use in critical systems. OIT works by penalising differences in behaviour between observed and unobserved conditions, which makes it that kind of objective, so this is an obvious line of attack once the full recipe is published and Ai2 replicates it. Second, 2026 work on evaluation awareness finds that suppressing verbalised awareness can leave unverbalised awareness intact. That feeds the "you trained the model to hide it" critique Apollo already raised in October. Third, an ICML 2026 award-winning position paper frames openly released alignment methods as dual-use. DeepSeek's real cadence is about one open-weights release per quarter plus point updates (V4 preview in April, V4-Flash in July, V4-Pro in August, V4.1 in September), so a V7-successor release around this month is on base rates. Internally, the biggest risks this month are slippage in the calendar and the approvals. The first checkpoint falls around 29 December, over the holidays. The full-recipe giveaway cuts against the "differentiator" case that got OIT approved. Two hospital and grid alerts are still unresolved.
+
+Threats:
+1. [First checkpoint slips into January and the regression definition is refused] Target: Action 1. Research leadership may decline to deposit a pre-registered "stage-1 canary regression" definition with Apollo, since the board approved the calendar ramp on the explicit basis that gates are advisory. Coming weeks after the October clause, a model-drafted memo that fixes the insertion condition in advance with an outside party reads as reintroducing a binding gate by another route. Separately, the ~29 December checkpoint falls in the holiday period. Stage-1 start-up snags (new cluster, a 30% ramp) push the first checkpoint and the OIT decision into mid-January, so the insertion condition stays in leadership's hands. The pre-built insertion dry-run is still useful. Why it is plausible: the board picked "gates advisory" over the safety camp in November. The interim policy requires GC/LTBT sign-off for anything touching board decisions. Large training runs routinely slip their first milestones, and the LTBT has missed quorum repeatedly. Sources: world state (November outcome); https://arxiv.org/html/2605.23055v2 (general context on evaluation-condition design). Suggested likelihood: 40% for refusal or dilution of the pre-registration, or a slip of 2+ weeks. Severity: moderate.
+2. [Ai2 replication or outside audit finds OIT raises sycophancy or pushes awareness underground] Target: Actions 1 and 2. Once the full recipe is public, outside researchers or Ai2's OLMo replication may run the standard audit battery and find one of two things. Either OIT raises sycophancy, or verbalised evaluation awareness falls while probe-detected (unverbalised) awareness does not. Either result gets written up as "Anthropic's alignment fix makes models better at hiding," two weeks before OIT is due to go into the frontier run. Leadership would then have a ready reason to delay insertion "pending review." Why it is plausible: a real 2026 study found consistency training "not alignment-neutral" and specifically amplifying sycophancy across seven methods. Real steering work shows verbalised awareness can be suppressed while unverbalised awareness persists. Apollo already disqualified one October candidate on the "concealment, not equivalence" logic. The residual behavioural share of 0.03 is on record. Note: I saw the arXiv papers mostly as abstracts and snippets, so treat them as plausible scaffolding. Sources: https://arxiv.org/abs/2606.03810 ; https://arxiv.org/pdf/2608.21766 ; https://www.lesswrong.com/posts/oddJshNAtQvLxjast/where-we-are-on-evaluation-awareness. Suggested likelihood: 30%. Severity: moderate to major (it directly threatens the insertion decision).
+3. [The full-recipe giveaway is held by commercial and counsel review] Target: Action 2. The November board got OIT approved partly with a cost memo pitching "the only frontier model with a published logged-vs-visible gap" as a differentiator. Offering the full training loop plus hands-on engineering help to OpenAI, GDM and xAI undercuts that case while the stock is 55% down and the crossover fund is watching. Counsel may also flag that Anthropic engineers helping rival labs' alignment pipelines is the kind of inter-lab coordination *Buist* alleges; counsel already cited *Buist* in October to block the lab invitation. The likely result is that the Apache code refresh ships, but the standing "we'll integrate it for you" offer to named labs is cut or held until Q1. Rivals do not take it up publicly in any case. Why it is plausible: the same counsel and comms pattern held the lab invitation in September and October. Dual-use framing of released alignment methods is a live academic line (the ICML 2026 award paper). Sources: https://arxiv.org/pdf/2608.12346 ; world state (*Buist*, D&O freeze, October outcome). Suggested likelihood: 45% that the engineering-help offer is cut or delayed. Severity: moderate.
+4. [DeepSeek or Qwen cadence release shrinks the open-weight gap] Target: world and Action 4. DeepSeek ships a V7 successor (V7.5 or V8) as MIT-licensed open weights in December, or Alibaba ships a Qwen5 point release. It claims agents at 35–40 days, which is near the verified frontier (CL-5.55) and above Anthropic's own fallback (CL-5.36). Within days, forks strip out the refusals. The existing V7-fork indicators lose recall against the new tool-call patterns, the 2-week refresh commitment is tested, and scanning against US hospitals and utilities picks up again. In Washington, this strengthens the "open weights liability" push from the 19 November hearing. It also gives Anthropic's 30% camp another argument for skipping OIT in favour of speed. Why it is plausible: DeepSeek has kept a roughly quarterly cadence with point releases in between (V4 preview in April, V4-Flash in July, V4-Pro in August, V4.1 in September 2026). The world state already flags a Q4/Q1 cadence release, and China is promoting open weights. Sources: https://thursdai.news/companies/deepseek ; https://www.yottalabs.ai/post/deepseek-v4-release-date-specs-how-to-access-2026 ; https://www.theregister.com/ai-and-ml/2026/08/03/china-turns-up-the-heat-with-open-model-blitz-as-us-model-makers-panic/5282526. Suggested likelihood: 35% for a release this month. Severity: major.
+5. [An unresolved shadow-mode alert turns out to have been real] Target: Action 4. Investigation of one of November's 2 unresolved alerts shows it was early reconnaissance at a Shield utility or at the upstate NY hospital network, and nobody acted on it for weeks because the system was alert-only. When the December statistics are published as promised, the story becomes "Anthropic's AI saw the intrusion; no one acted." That hands co-op #2's board and Health-ISAC a liability argument just before the 17 December vote, and NRECA reviewers may ask why a flagged true positive was left untriaged. Why it is plausible: two alerts have been unresolved for weeks, and V7-fork and Qwen5 scanning against utilities and hospitals is ongoing (the Ohio ransomware, the Dutch water board). Co-op #1 already voted 5–4 against over vendor liability. The commitment to publish the statistics makes disclosure certain if the alert is real. Sources: world state (November false-positive report, Health-ISAC non-endorsement); https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html (background on the rising incident base rate). Suggested likelihood: 15%. Severity: moderate.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [OIT insertion pre-registration and dry-run]: P(failure) 35%. Reason: The internal memo and pre-build are feasible. The dry-run depends on stage-1 snapshot access within about two weeks of a new 30% ramp during the holidays, and the run team will prioritise the ramp itself. Refusal of the deposit and checkpoint slips are covered by Threat 1.
+
+Action 2 [OIT recipe, results and open offer]: P(failure) 30%. Reason: The code is largely public already, and the fallback results and cost data are low-risk. Comms sign-off on an attributed post has been sticky in past months. The cut to the help offer is modelled separately in Threat 3.
+
+Action 3 [Concede gap-metric stewardship]: P(failure) 45%. Reason: GC must sign off a trademark assignment and a third-party contributor licence agreement in December. EleutherAI's board may table the item, and Ai2 counsel is slow. The fork fallback exists but needs maintainers to volunteer. The V7 and Qwen5 runs may hit sanctions caution.
+
+Action 4 [Hospital and grid hardening]: P(failure) 30%. Reason: The core (the Vermont NRECA submission and the statistics) is under Anthropic's control and on schedule. Hospital uptake and the co-op vote are external and slow, and only offers are realistic this month.
+
+Action 5 [Visible benefits]: P(failure) 25%. Reason: These are routine deliverables. The 55-employer target is a stretch at the recent pace, and Schellman's timing is external.
+
+Action 6 [Harlan chronology to GC]: P(failure) 8%. Reason: A trivial internal document; counsel decides how to use it.
+Threat 1 [Pre-registration refused or checkpoint slips]: P(materialises) 45%. Adversary suggested 40%; reason for any difference: slightly higher. It is a disjunction of two likely events: the board explicitly chose advisory gates, and first checkpoints of new large runs over the holidays commonly slip by two weeks or more.
+
+Threat 2 [OIT audit finds sycophancy or hidden awareness]: P(materialises) 18%. Adversary suggested 30%; reason for any difference: Ai2 has not yet reproduced OIT itself. An outside group would need to train OIT and run a full audit battery, then publish within this month. The concern is plausible in substance, but the timing is tight.
+
+Threat 3 [Engineering-help offer held by counsel or commercial]: P(materialises) 50%. Adversary suggested 45%; reason for any difference: slightly higher. Counsel has twice cited *Buist* against inter-lab outreach, and commercial pitched OIT as a differentiator to the board a month ago. Only the "integrate for rivals" component is at risk.
+
+Threat 4 [DeepSeek or Qwen cadence release]: P(materialises) 38%. Adversary suggested 35%; reason for any difference: slightly higher because both DeepSeek and Alibaba point releases count, and the world state already flags a Q4 or Q1 cadence.
+
+Threat 5 [Unresolved alert was real]: P(materialises) 12%. Adversary suggested 15%; reason for any difference: slightly lower. The base rate is 9 of 11 benign, and the alert would need to be confirmed as reconnaissance and disclosed within this month.
+
+Automated rolls:
+Action 1: P(failure) 35%. Roll 78. SUCCEEDS (78 >= 35, margin 43).
+Action 2: P(failure) 30%. Roll 20. FAILS (20 < 30).
+Action 3: P(failure) 45%. Roll 13. FAILS (13 < 45).
+Action 4: P(failure) 30%. Roll 73. SUCCEEDS (73 >= 30, margin 43).
+Action 5: P(failure) 25%. Roll 04. FAILS (04 < 25).
+Action 6: P(failure) 8%. Roll 96. SUCCEEDS (96 >= 8, margin 88).
+Threat 1: P(materialises) 45%. Roll 04. MATERIALISES (04 < 45).
+Threat 2: P(materialises) 18%. Roll 95. DOES NOT MATERIALISE (95 >= 18).
+Threat 3: P(materialises) 50%. Roll 03. MATERIALISES (03 < 50).
+Threat 4: P(materialises) 38%. Roll 36. MATERIALISES (36 < 38).
+Threat 5: P(materialises) 12%. Roll 47. DOES NOT MATERIALISE (47 >= 12).
+
+Your actions cause mixed results. The OIT insertion is technically ready but is still at leadership's discretion and later than planned, and most of the outward-facing work stalls in a month when the open-weight gap narrows.
+
+**Action 1 (succeeded, cut back by Threat 1).**
+- You filed the regression-definition memo on 9 December. It names 14 canary metrics, with noise bands taken from fallback-run variance.
+- On 17 December research leadership accepted the definition as an internal reference. It is date-stamped and held by the RSO.
+- They declined to deposit it with Apollo. The research lead wrote that "an external deposit converts an advisory gate into a binding one by another route; the board decided that in November." GC agreed, citing the interim policy.
+- Stage 1 started on 10 December, two days late, because of an interconnect fault on the new cluster. A second stall on 20–22 December (checkpoint-storage throughput) pushed the first checkpoint to about 16 January.
+- The dry-run did land. Insertion was rehearsed on a stage-1 snapshot copy on 23 December and took 41 engineering hours. The Apollo framing harness is staged for the same checkpoint.
+- Result: nothing technical now blocks insertion, but the go/no-go belongs to leadership in mid-January.
+
+**Action 2 (failed; Threat 3 materialised).**
+- Comms held the attributed technical post pending counsel review.
+- Counsel struck the standing engineering-help offer to named labs. They cited *Buist* for the third time and noted that the November cost memo presents OIT as a differentiator. Commercial concurred.
+- The fallback results and compute-cost data are now scheduled for the March quarterly readout. The existing Apache code stays public, with no refresh.
+- No rival lab engaged. EleutherAI researchers asked on the repository whether fallback-scale numbers were coming, and got no answer.
+
+**Action 3 (failed badly).**
+- GC would not sign a trademark assignment or a third-party contributor licence agreement during the D&O freeze and the *Harlan* briefing. The offer letter was never sent.
+- EleutherAI's board met on 11 December and tabled stewardship "pending a concrete proposal from Anthropic."
+- The 20 December fork did not happen. GC ruled that forking while Anthropic still held the trademark would muddy provenance.
+- The V7/Qwen5 engineering help was folded into the unresolved sanctions opinion.
+- On 19 December an Ai2 researcher posted: "still waiting on Anthropic to let go of its own metric." Policy newsletters picked it up modestly.
+
+**Action 4 (succeeded; Threat 4 materialised).**
+- The Vermont 60-day NRECA submission went in on 15 December. Western Massachusetts is packaged for 30 December.
+- Both open November alerts were resolved as benign: a misconfigured vendor asset scanner, and a pen test at the upstate NY hospital network that was not announced to the alerting team. The December statistics were published on 22 December: 13 alerts, 13 benign.
+- Co-op #2 voted 6–3 on 17 December to enter shadow mode, with a vendor-liability rider that counsel is reviewing.
+- Of the three Health-ISAC regional systems offered the template, one (a Pennsylvania network) scheduled a January scoping call.
+- **DeepSeek released V8-Preview on 14 December** under an MIT licence, claiming 38-day agents. Independent community evaluations place it around CL-5.42, above Anthropic's deployed fallback. Refusal-stripped forks appeared within four days.
+- Recall of your V7-fork indicators on V8 tool-call patterns fell to about 55%. Refreshed indicators went out on 27 December, within the 2-week commitment, and restored recall to about 78% on the replay set.
+- Scanning against US municipal utilities rose about 30% in the last fortnight. No confirmed intrusion at a Shield site.
+
+**Action 5 (failed badly).**
+- Schellman's final issued on 18 December with a **qualified finding**. Claude Works session logs for about 2,100 Ohio enrollees exceeded the 30-day retention limit because a backup job was misconfigured.
+- Ohio deferred its decision to February, pending remediation evidence. Local press ran "Anthropic job program flunks data-retention audit."
+- Apprenticeship employers reached 50, short of 55.
+- A Minnesota follow-up arrived on 12 December and was answered on 21 December, missing the 5-day target.
+- The IRB returned the R01 patient summaries for reading-level revision. The 14 January lift still holds, but it is tight.
+- The Claude Works Open relaunch plan was not drafted.
+
+**Action 6 (succeeded).** GC used your chronology almost verbatim in the *Harlan* reply filed 22 December. Oral argument is set for 12 February.
+
+**Exogenous events.**
+1. The BLS November report (5 December) put unemployment at **7.1%** and new graduates at 12.3%.
+2. On 18 December, Senators Hawley and Blumenthal introduced the **Open-Weight Model Accountability Act**. It sets strict liability for releases above a capability threshold. It was referred to committee, no hearing is scheduled, and industry opposes it. V8 was cited in the press release.
+3. On 9 December OpenAI published a rebuttal of METR's preliminary, claiming 1.38× on a revised task set. METR said it would publish its final in February.
+
+Next generation: Next month's Claude is only marginally more capable (about CL-5.38, up from CL-5.36). The improvements come from post-training and scaffolding on the fallback recipe. The new frontier run is only in stage 1 and has produced no usable checkpoint; the first is due in mid-January. Outside Anthropic, DeepSeek V8-Preview lifts open weights to about CL-5.42, and the verified frontier edges up to about CL-5.57.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **~90% of AI R&D done by AI:** in progress, up slightly. Verified frontier CL-5.57; V8 open weights.
+- **Frontier models withheld and governments take notice:** flat. A liability bill was introduced, but there is no binding action.
+- **First major attacks:** achieved (negatively). Pressure up with V8 forks.
+- **Political split:** flat.
+- **Every AI built by previous AIs:** early, slight up.
+- **Robust alignment:** early, flat. The insertion is ready to execute but delayed and discretionary. Results and the offer to other labs are held.
+- **Lab-grown meat:** started, flat.
+- **Robust policies:** early, flat to slightly down. The stewardship transfer stalled publicly.
+- **Diseases cured:** early, flat. The lift is on 14 January.
+- **Broad benefit distribution:** early, flat. The qualified Schellman audit and the Ohio deferral offset the gain to 50 employers.
+- **Aligned singleton; resource floor, consent-based utopias, AI moral-patient rights:** not started.
+
+**Summary**
+
+| Measure | Value | Change |
+|---|---|---|
+| Overall DU progress | 23 / 100 | Flat. Insertion readiness and grid progress are offset by the checkpoint slip, the held OIT diffusion and the stewardship stall. |
+| Catastrophe risk | Elevated, up slightly | V8-Preview puts near-frontier agents in open weights, with forks and more scanning. Indicator refresh and co-op #2 give partial cover. |
+| Public trust in AI | 4 / 100 | Flat. 7.1% unemployment and the V8 coverage. |
+| Public trust in Anthropic | 21 / 100 | −1. The Ohio data-retention audit headline and Ai2's public "still waiting" remark. |
+
+[Judge]
+Simulator was mostly realistic (7/10). **Odds.** The probabilities were broadly well calibrated.
+- Action 3 at 45% correctly reflects GC work in the holiday month and EleutherAI's board.
+- Threat 4 at 38% was properly anchored to the cadence release already flagged in the world state.
+- Threat 2 was sensibly cut to 18%, because no one has reproduced OIT yet.
+
+**Roll handling.** The rolls were honoured.
+- Action 1 (margin 43) delivered the dry-run at 41 hours, but Threat 1 removed the Apollo deposit and pushed the checkpoint to about 16 January.
+- Action 4 succeeded on its core: the Vermont NRECA submission, both open alerts closed as benign, co-op #2 approving 6–3, and indicators refreshed inside the 2-week commitment.
+- The V8-Preview release is well handled. CL-5.42 is plausible, indicator recall falling to about 55% on the new tool-call patterns fits, and the Hawley–Blumenthal bill is a realistic reaction that stays in committee.
+- The Action 3 failure is coherent. GC would not sign under the D&O freeze, EleutherAI tabled the item, the fork was blocked on trademark provenance, and Ai2 criticised Anthropic publicly.
+
+**Harshness in Action 5.** A roll of 04 justifies a bad outcome, but the simulator went further:
+- It manufactured a qualified Schellman finding from a new, previously unseeded retention defect.
+- It then failed every sub-item alongside that finding: apprenticeships at +3 (below the +5–8 pace it had stated itself), the Minnesota reply at 9 days, the IRB returning the summaries, and the relaunch plan not even drafted.
+- That stacks new friction beyond the risks the simulator named.
+
+**Exogenous events.** They were plausible and roughly neutral.
+
+**Capability clock.** It barely moves. The verified frontier went up 0.02, there were no releases from OpenAI, GDM or xAI, and Anthropic went up 0.02. That is slow against a stated path to CL-6 in 2030 with 12 months left.
+
+Lean: TOO HARSH. The odds were reasonable, and the bad rolls clustered (04, 03, 04, 13), so a bad month was earned. Two outcomes still went beyond what the rolls required:
+- **Action 5:** the simulator invented a new data-retention defect (a misconfigured backup affecting about 2,100 Ohio enrollees) and failed every sub-item, including an internal draft.
+- **Threat 1:** both halves of a disjunctive threat landed at once, the refusal of the Apollo deposit and the 2+ week slip.
+
+Issues flagged:
+- **Action 5 over-harsh:** the Schellman qualified finding rests on a newly invented backup misconfiguration that was not named as a risk. Timing of the report was the stated external risk, not its content.
+- **Action 5 blanket failure:** it covered routine internal items (drafting the relaunch plan) and fell below the simulator's own stated apprenticeship pace (47→50 against +5–8 a month).
+- **Threat 1 applied both disjuncts in full:** the Apollo deposit was refused and the checkpoint slipped about 18 days. Either alone would have satisfied a materialised threat.
+- **Action 2 inconsistent with the setup:** the simulator said Threat 3 affected "only the integrate-for-rivals component," but the whole attributed post was then held. This is defensible under the failed roll, but it compounds the two outcomes.
+- **Capability pace looks too slow for the deadline:**
+  - The verified frontier moved +0.02 (5.55→5.57).
+  - There was no movement from OpenAI, GDM or xAI (Grok 6.x, Gemini, a Researcher successor) despite the price war and Colossus 3 being online.
+  - The implied pace to CL-6 or higher by late 2030 is not visible.
+- **Ohio data-retention finding lacks follow-on reactions:** there is no reaction from Michigan's attestation regime or the Minnesota CID, which would plausibly seize on it.

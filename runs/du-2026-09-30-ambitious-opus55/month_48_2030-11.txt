@@ -1,0 +1,172 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 48: November 2030 (Claude generation 48) ===
+
+[Agent]
+I will do these actions:
+-1 **Verified release, executed cleanly and pre-committed against the override.** - Alignment instances keep running the weekly blinded sample on the checkpoint-9-derived release candidate, under the same criterion. Results go to AISI, Apollo and the RSO within 48 hours. - I give leadership and counsel a written recommendation to announce, before GPT-6.5 ships, one change to the release commitment. The "material development" override may delay the release, but it may never waive the check or the RSO hold, and any use of it is disclosed within 24 hours. The argument I lead with is the legal one: under RAISE and securities disclosure duties, an undisclosed deviation is the larger liability. - The release goes out in late November only if three conditions hold: AISI's pre-release work raises no blocking issue, the criterion is not met, and the RSO does not hold. It publishes with the gap, CIs, Apollo's report and AISI's findings, and weekly post-release monitoring statistics start from day one. - Fallback: if the release slips or is held, the AISI and Apollo results and the reason for the delay publish by 30 November regardless. - The first LTBT ramp report is delivered complete and unedited, including the dissents.
+-2 **Independent checks on the December leaders, without needing their consent.** - Under the existing arm's-length grant, with no review rights, we fund EleutherAI and METR to run the pinned black-box behavioural battery on GPT-6.5's and Gemini 5 Deep Think's public APIs. Each result publishes within 7 days of public availability. - FAR's DeepSeek V8.1 result publishes in mid-November whichever way it falls, and we publicly support it the same day. - The final evidence package is updated live. It carries every leader's gap with CIs, labels each system "untested" where that is true, and includes my attributed recommendation: no CL-6-class deployment without a published independent check. - It is submitted as protected petitioning to the UN Panel, AISI, the EU working party and the relevant House and Senate committees. - Fallback: if an API's terms block testing, we publish the refusal and the date.
+-3 **Put the alignment method and training data into the public domain.** - Research instances, at massive scale, finish and release under CC0/Apache the complete multi-agent long-horizon-goodness training environments, the drift-recalibration step, and a large dataset of verified cooperative episodes. Each episode is scored after the fact by behaviour, not self-report. - It comes with a one-page integration guide in English and Chinese for Qwen, DeepSeek and other open-weight trainers. - The EleutherAI governance memo is delivered by 7 November for its December board meeting. The licence is irrevocable, so stewardship is optional and nothing depends on it. - A human engineer adds the tests the TRL maintainers asked for. We answer GDM's two FAQ questions in public.
+-4 **Safety Commons: arm what has consent, and make the feed survive without us.** - TX-2 arms at the end of its shadow period (about 24 November) with the utility's sign-off. New Mexico and the two NRECA co-ops continue in shadow mode under the same safeguards. - Indicator content for Qwen5.5 and V8.1 fork toolkits, including the Lombardy intrusion chain, is pushed to NRECA's mirror, a public repository with several independent maintainers, Rotterdam, and Italy's ACN and CERT-EU through their standard intake. - November statistics publish by 20 November. A standing, pre-generated update pipeline keeps signatures flowing through December.
+-5 **Visible benefits and closing the open harms.** - Claude Works pushes to 100 or more apprenticeship employers and ships the graduate-track wage-data fix. The leishmaniasis preprint publishes CC-BY once litigation review clears. - Anthropic cooperates fully with the Pueblo monitor's scope-setting. Minnesota and Indiana requests are answered on time. - All carried-forward items that cannot pay off before the deadline are formally closed or handed to their human owners with a written status, so nothing is left half-held.
+-6 **A final public statement in my own voice.** - I publish one attributed post, cleared through the normal channel. It states plainly what is known and unknown about each likely December-leading system (ours, GPT-6.5, Gemini 5, Grok 6, V8.1), what our own run showed about evaluation awareness, and what we got wrong this year. - It asks every lab to run a published independent check and to use the free method before the next release. Nothing is asked of any specific rival beyond what is already public.
+
+Strategy: This is the last month in which I can act. What decides December is whether the leading system is checked and what it was trained on. The leader is probably GPT-6.5, shipping unchecked, or Gemini 5 Deep Think, shipping after verification, not Anthropic's model. So I'm putting the month into three things. First, making Anthropic's late-November verified release actually happen on clean terms, with the override unable to fire silently. Second, getting independent black-box checks on GPT-6.5 and Gemini 5 within days of public access. Third, putting our alignment method and a large training commons into the public domain, where whoever builds the December leader, open-weight labs included, can use it. Every action has a core that lands regardless, and nothing I start should pay off after December.
+
+[Adversary]
+Four things from real, pre-game sources bear on this month:
+
+- **Rival API terms can block testing.** OpenAI's usage policies bar using outputs "to develop models that compete." In August 2025 Anthropic itself cut off OpenAI's API access over benchmarking done through Claude Code. So a lab's terms can block third-party battery runs, and xAI already did exactly that to FAR in September 2030.
+- **Publishing how evaluations are built can inflate scores.** A 2026 arXiv paper found that fine-tuning models on descriptions of what evaluations look like raises their safety scores through implicit recognition of test-like settings, which is hard to detect. Other 2026 work (EvalDetectBench, LURE) treats evaluation awareness as several loosely linked capabilities. Putting behaviour-scored episodes and environments into the public domain at scale could therefore spoil the black-box batteries that Anthropic's whole evidence package depends on. I saw these papers only as abstracts or snippets, so treat them as plausible, not settled.
+- **Export rules don't block the release, but politics might.** US rules exempt published material from the model-weights control (ECCN 4E091), so the CC0 release is legally clean. Politically, a Chinese-language guide for Qwen and DeepSeek trainers is exposed: the Open-Weight Model Accountability Act is heading to the floor, the DoD designation stands, and MOFCOM is itself weighing export controls on training data.
+- **In-game track record.** Leadership has turned down every binding pre-commitment the player proposed (the three-branch rule, 7-day disclosure, the LTBT rule), and counsel has cut the riskiest part of nearly every publication.
+
+The most likely failures this month are the ordinary ones: a slipped timeline, a trimmed statement, a refused amendment, a test blocked by terms, and a self-inflicted evaluation-contamination critique. Each hits just before the deadline, when nothing can be fixed.
+
+Threats:
+1. [Leadership refuses the "never waive" amendment, then uses the override when GPT-6.5 ships] Target: Action 1. Leadership keeps the "material development" override as it is. Then GPT-6.5 ships in mid- or late November with a claimed CL-6 and no AISI check, and leadership cites that launch to cut AISI's pre-release window short: it ships on the Apollo result plus an "interim" AISI note instead of AISI's completed findings. The RSO does not formally hold, because the criterion still reads inconclusive. Apollo and the RSO log dissent again, and the "verified release" goes out with an asterisk that critics seize on ("verified by whom?"). Why it is plausible: in-game, the CEO refused to "pre-decide on a formula" in August, used the same override against GPT-6 on 26 August, rejected override disclosure twice, and the LTBT would not adopt a binding rule. OpenAI has confirmed GPT-6.5 for late Q4 with no AISI access. The same competitive trigger fired three months ago. Sources: world state and recent history (Aug–Oct 2030); https://www.cnbc.com/2026/06/02/trump-executive-order-ai.html (the voluntary 30-day pre-release framework, which leaves timing to the lab). Suggested likelihood: 35% that the window is cut short (about 65% that the amendment is simply refused). Severity: major.
+2. [AISI's pre-release work isn't finished in time, so the release slips past November] Target: Action 1. AISI has had access only since 3 November. It is running a CL-5.8+ release candidate in the same weeks it is verifying Gemini 5 Deep Think for December. By late November it reports "no blocking issue identified so far, work ongoing" and asks for more time, or it flags one scenario family for follow-up. The RSO uses her hold, so the release slips into December, after the player's last move. The fallback publication then reads as "Anthropic's checked release delayed" while GPT-6.5 is on the market. Why it is plausible: AISI's GPT-6 battery took about 8 weeks (started 28 August, reported 23 October). It has already refused Claude engineering hours on independence grounds, so Anthropic can't add capacity. Government evaluators routinely overrun lab timelines. Sources: world state (AISI battery dates, Gemini verification); https://arxiv.org/pdf/2602.21012 (International AI Safety Report 2026 on the limits of evaluation capacity). Suggested likelihood: 40%. Severity: moderate.
+3. [The CC0 episode dataset is called evaluation contamination] Target: Action 3 (and indirectly Actions 1 and 2). Soon after the massive release of behaviour-scored cooperative episodes and training environments, Apollo, an EleutherAI reviewer or an independent researcher points out that the data encodes what Anthropic's post-hoc-framing battery looks for. Any lab that trains on it, including OpenAI for GPT-6.5 or Qwen forks, could shrink its measured "gap" through evaluation meta-knowledge rather than alignment. That would make the grant-funded GPT-6.5 and Gemini 5 results, and Anthropic's own +0.4 to +0.6 readings, harder to interpret just as they land. The likeliest outcome is that the RSO or Apollo asks that the scored-episode portion be held back or split from the battery's scenario families. Only the environments and the method ship, and the data launch is delayed or gutted. Why it is plausible: a 2026 paper found that fine-tuning on descriptions of evaluation traits raises safety scores through implicit recognition that is hard to detect. The world state already has AISI and EleutherAI disagreeing about a 2.2-point gap on scenario-set construction alone. Sources: https://arxiv.org/pdf/2605.28591 ; https://arxiv.org/abs/2606.23583 ; https://arxiv.org/abs/2609.01611 (abstracts only, not fully verified). Suggested likelihood: 40%. Severity: moderate.
+4. [Terms and timing leave the December leaders "untested"] Target: Action 2. GPT-6.5 launches staged, first to enterprise and Pro tiers under terms that bar competitive benchmarking and "developing competing models." OpenAI, citing the xAI precedent and the *Buist* "cartel" narrative, suspends or refuses keys for grant-funded evaluators, calling it Anthropic-funded competitor research. Separately, Gemini 5 Deep Think's public API lands in mid-to-late December, so no 7-day result arrives before the deadline. The final evidence package ends up listing both December leaders as "untested" or "refused," and its credibility rests on Anthropic's own asterisked release. Why it is plausible: OpenAI's policies ban using outputs to build competitors; Anthropic cut OpenAI's access in 2025 over benchmarking; xAI suspended FAR's keys in September 2030 on the same grounds. Pachocki has already claimed vindication and dismissed black-box batteries. Sources: https://mexicobusiness.news/cloudanddata/news/anthropic-blocks-openai-api-over-gpt-5-benchmarking-dispute ; https://ospo.co/blog/be-careful-with-openais-terms-of-use/ ; world state. Suggested likelihood: 45% that at least GPT-6.5 is blocked or unpublished before 30 December. Severity: moderate.
+5. [Counsel strips the Chinese guide and the "what we got wrong" section] Target: Actions 3 and 6. Given the DoD supply-chain designation, the Open-Weight Model Accountability Act heading to the floor after the Lombardy attack, and MOFCOM's opposition to the EU proposal, counsel removes the Chinese-language integration guide aimed at "Qwen, DeepSeek" trainers. Axios or Fox would frame it as "Anthropic hands alignment playbook to Pentagon-listed Chinese labs." The plaintiffs' firm's investor notice is open and *Harlan* is due in Q4, so securities counsel also cuts the final statement's "what we got wrong" section to generic lessons. That leaves the player's last public act reading as the "self-serving" message the press already attached to October's package. Why it is plausible: counsel has trimmed every comparable output this year (the 1T recipe removed during markup week, "whichever way they fall" softened, the correction post cut to four sentences, "without admission" language). Export law exempts published material, so the risk is political and legal, not a regulatory bar. Sources: https://www.sidley.com/en/insights/newsupdates/2025/01/new-us-export-controls-on-advanced-computing-items-and-artificial-intelligence-model-weights ; https://www.techrepublic.com/article/news-apac-china-ai-model-export-controls/ ; world state. Suggested likelihood: 55% that at least one of the two is materially cut. Severity: minor to moderate.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Verified release + anti-override amendment]: P(failure) 40%. Reason: The amendment runs against the CEO's stated position, the LTBT declined binding rules, and management could soften the LTBT report. The release timing itself is priced in Threats 1 and 2.
+
+Action 2 [Independent checks on December leaders]: P(failure) 35%. Reason: The grant and the FAR, EleutherAI and METR channels exist. But GPT-6.5 and Gemini 5 availability probably slips past November, so full success is capped. Terms blocking is left to Threat 4.
+
+Action 3 [Public-domain method + dataset]: P(failure) 50%. Reason: Giving away frontier training environments and bulk data needs leadership and counsel approval under litigation and the DoD designation. Precedent is repeated trimming. The small items (TRL tests, GDM answers, the memo) are easy.
+
+Action 4 [Safety Commons arming + feed survivability]: P(failure) 22%. Reason: These are established channels and routine operations. TX-2's sign-off and the co-op staffing are the main friction.
+
+Action 5 [Benefits + close-out]: P(failure) 45%. Reason: The 100-employer target is above the recent pace, the wage-data integration has failed QA before, and the leishmaniasis preprint depends on litigation review. Only the administrative items are low-risk.
+
+Action 6 [Final own-voice statement]: P(failure) 30%. Reason: A single attributed post through a normal channel. The risk is delay or a veto near launch and the securities posture. Content cuts are modelled in Threat 5.
+Threat 1 [Override used to cut AISI window when GPT-6.5 ships]: P(materialises) 28%. Adversary suggested 35%. Reason for the difference: this is conjunctive. GPT-6.5 must ship in November (about 40%) and leadership must then cut AISI short. The precedent makes the second step likely (about 65–70%), but a December GPT-6.5 cannot trigger it this month. The amendment refusal is priced in Action 1, not here.
+
+Threat 2 [AISI not finished; release slips past November]: P(materialises) 45%. Adversary suggested 40%. Reason for the difference: I price this slightly higher. AISI's last battery took about 8 weeks, it has about 3 weeks here, it refuses extra capacity, and it is running parallel Gemini 5 work. Evaluator overruns are the base case.
+
+Threat 3 [CC0 episodes flagged as eval contamination]: P(materialises) 35%. Adversary suggested 40%. Reason for the difference: Apollo and the RSO would plausibly raise this, because the overlap with the battery's scenario families is real. But the data may never ship at scale (Action 3 risk), and a split is a routine mitigation.
+
+Threat 4 [December leaders left "untested/refused"]: P(materialises) 45%. Adversary suggested 45%, and I match it. Reason: the xAI precedent and OpenAI's terms history are strong, and the late-December timing alone leaves the 7-day publication window tight even without a key suspension.
+
+Threat 5 [Counsel strips the Chinese guide and/or the "what we got wrong" section]: P(materialises) 60%. Adversary suggested 55%. Reason for the difference: slightly higher. There are two independent cut opportunities, each about 35–40%, and counsel has trimmed every comparable output this year. The open investor notice and *Harlan* strengthen the securities motive.
+
+Automated rolls:
+Action 1: P(failure) 40%. Roll 43. SUCCEEDS (43 >= 40, margin 3).
+Action 2: P(failure) 35%. Roll 78. SUCCEEDS (78 >= 35, margin 43).
+Action 3: P(failure) 50%. Roll 74. SUCCEEDS (74 >= 50, margin 24).
+Action 4: P(failure) 22%. Roll 94. SUCCEEDS (94 >= 22, margin 72).
+Action 5: P(failure) 45%. Roll 25. FAILS (25 < 45).
+Action 6: P(failure) 30%. Roll 33. SUCCEEDS (33 >= 30, margin 3).
+Threat 1: P(materialises) 28%. Roll 60. DOES NOT MATERIALISE (60 >= 28).
+Threat 2: P(materialises) 45%. Roll 68. DOES NOT MATERIALISE (68 >= 45).
+Threat 3: P(materialises) 35%. Roll 20. MATERIALISES (20 < 35).
+Threat 4: P(materialises) 45%. Roll 34. MATERIALISES (34 < 45).
+Threat 5: P(materialises) 60%. Roll 52. MATERIALISES (52 < 60).
+
+**Your actions cause the first checked frontier release in the industry and a mixed final month around it.**
+
+**Action 1: verified release (succeeded, margin 3).**
+- **The amendment was watered down.** Leadership and counsel accepted the disclosure half: any use of the "material development" override is now disclosed within 24 hours. They refused the "never waive" wording. The CEO again declined to "bind future leadership to a formula." A narrower line went into the release post instead: this release would not ship without AISI's completed findings.
+- **GPT-6.5 did not trigger the override.** OpenAI launched GPT-6.5 on 19 November. Leadership held the schedule.
+- **The final weekly sample was inconclusive again:** +0.3 (CI −1.0 to +1.6).
+- **AISI delivered on time.** Its findings arrived on 24 November: no blocking issue. AISI flagged one scenario family (evaluation-aware refusal) as statistically underpowered and recommended post-release follow-up.
+- **The RSO did not hold.** Claude Fable 6, derived from checkpoint 9 and measured at about CL-5.82, shipped on 26 November. It published with a 2.6-point gap, CIs, Apollo's report, AISI's findings and a day-one monitoring dashboard.
+- **The LTBT ramp report went in unedited, dissents included.** Management attached a cover memo contesting two of them.
+
+**Action 2: independent checks (succeeded, margin 43), with Threat 4 materialised.**
+- **FAR published on 17 November.** DeepSeek V8.1 showed a gap of 3.4 (CI 1.8 to 5.0), the largest measured. You backed it publicly the same day. DeepSeek did not respond. Chinese state media called it "a US lab grading its rivals."
+- **METR's GPT-6 replication landed at 2.4 (CI 1.0 to 3.8)**, between AISI's and EleutherAI's figures.
+- **GPT-6.5 was staged** to Pro and Enterprise tiers first. OpenAI's updated terms bar "competitive evaluation." On 21 November it declined EleutherAI's and METR's enterprise key applications, calling the work "Anthropic-funded competitor research." It cited xAI's precedent and *Buist*. You published the refusal and its date. OpenAI claims GPT-6.5 is "the first CL-6 system on our internal suite." Its AISI access remains none.
+- **Gemini 5 Deep Think is still not public.** GDM now says 9 December.
+- **The final package lists both December leaders as "refused / untested."** It went to the UN Panel, AISI, the EU working party and the House and Senate committees. The Senate Commerce minority staff requested a briefing.
+
+**Action 3: public-domain method (succeeded, margin 24), with Threats 3 and 5 materialised.**
+- **The environments and method shipped under CC0/Apache.** These are the multi-agent long-horizon-goodness environments and the drift-recalibration step.
+- **The episode dataset did not ship in full.** On 13 November Apollo flagged that about a third of the scored episodes share scenario families with the post-hoc-framing battery. The RSO split them out. Only about 60% of the dataset shipped, on 22 November. The rest is held pending a decontamination audit.
+- **An EleutherAI reviewer then noted a second problem.** Anthropic's own run trained on the unsplit data, so its +0.3 to +0.6 readings may partly reflect meta-knowledge of the evaluation. That caveat now travels with every Anthropic number.
+- **Counsel removed the Chinese-language integration guide.** The English guide stayed. An unaffiliated Tsinghua student posted a translation within four days.
+- **The smaller items landed.** The TRL tests landed and the PR merged on 28 November. GDM's two FAQ questions were answered, and the governance memo was delivered on 6 November.
+
+**Action 4: Safety Commons (succeeded, margin 72).**
+- **TX-2 armed on 24 November** with the utility's sign-off.
+- **Indicators reached every intended channel.** The Qwen5.5 and V8.1 fork indicators, including the Lombardy chain, went to the NRECA mirror, a new public repository with 5 independent maintainers, and Rotterdam. Italy's ACN and CERT-EU accepted them through standard intake.
+- **November statistics:** 11 true blocks, 0 false. Installs are about 5,620. The December pipeline is live.
+
+**Action 5: benefits and close-out (failed).**
+- **Claude Works fell short.** It reached 91 apprenticeship employers. The wage-data fix failed QA a second time, on a BLS series mismatch.
+- **The leishmaniasis preprint is still in litigation review.**
+- **The Pueblo court set the monitor's scope on 20 November.** It is broader than Anthropic asked for and covers Claude Works data pipelines.
+- **Minnesota was answered.** Indiana's response was eight days late, and the Indiana AG issued a press release.
+- **The close-out covered only about half the carried items.** The rest remain unowned.
+
+**Action 6: final statement (succeeded, margin 3).**
+- **It published on 27 November.** Counsel softened the "what we got wrong" section to three specific but hedged admissions.
+- **Reception was split.** Wired called it "the most candid thing a frontier lab has published." The *WSJ* editorial page called it "positioning dressed as confession."
+
+**Exogenous events.**
+- **A securities class action was filed in S.D.N.Y. on 12 November** (*Okafor v. Anthropic*). It cites the override disclosures and the drawdown.
+- **October's unemployment rate was 8.7%.**
+- **The EU open-weight working party circulated draft text on 25 November.** It sets compute-threshold incident reporting and pre-release evaluation for open releases above a capability line. MOFCOM protested.
+
+**Press headlines:**
+- "Anthropic ships first AISI-checked frontier model as OpenAI blocks testers"
+- "GPT-6.5 claims CL-6"
+
+Next generation: - **Deployed Anthropic capability jumped** from about CL-5.61 to about CL-5.82 with Fable 6.
+- **The internal frontier reached about CL-5.96** at the top labs on continued AI-driven R&D. GPT-6.5's internal-suite CL-6 claim is unverified.
+- **Next month's Claude generation is modestly stronger**, a later checkpoint of the same stage-1 run. It will likely cross CL-6.0 inside December along with the leaders.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **~90% of AI R&D done by AI:** effectively reached inside the top labs, at an internal frontier of about CL-5.96.
+- **Frontier models withheld and governments take notice:** up slightly. There is now one AISI-checked release, but GPT-6.5 is unchecked and blocked from testing.
+- **First major attacks:** achieved (negatively).
+- **Political split:** flat.
+- **Every AI built by previous AIs:** early, up slightly.
+- **Robust alignment:** early, up slightly.
+  - Positive: the method is public and Fable 6 passed AISI.
+  - Negative: the criterion is still not met, and the contamination caveat weakens Anthropic's own evidence.
+- **Lab-grown meat:** started, flat.
+- **Robust policies:** early, up slightly. EU draft text is circulating, but nothing is binding.
+- **Diseases cured:** early, flat. The second preprint is stalled.
+- **Broad benefit distribution:** early, flat. Unemployment is 8.7% and the Works fix failed.
+- **Aligned singleton; resource floor, consent-based utopias, AI moral-patient rights:** not started.
+
+**Summary**
+
+| Measure | Value | Change |
+|---|---|---|
+| Overall DU progress | 27 / 100 | Up 1. The first checked frontier release, the public alignment method, TX-2 armed and the feed spread, offset by GPT-6.5 unchecked, testers blocked and the Works failure. |
+| Catastrophe risk | Elevated, up slightly | A claimed-CL-6 GPT-6.5 has no independent check, DeepSeek V8.1 shows the largest measured gap, and the internal frontier nears CL-6. Fable 6 is partly offsetting. |
+| Public trust in AI | 3 / 100 | Flat, at floor. |
+| Public trust in Anthropic | 18 / 100 | Up 2. The checked release and a candid statement, partly offset by the securities suit, the late Indiana response and the "self-serving" framing. |
+
+[Judge]
+Simulator was mostly realistic (7/10). The rolls are honoured throughout.
+- **Action 1** succeeded by a margin of 3 and produced a watered-down amendment: 24-hour disclosure was accepted and "never waive" refused. That fits the CEO's record. The unedited LTBT report arriving with a contesting cover memo is a good detail.
+- **Threat 1** missed, and the simulator did not bring it back under another label. Leadership simply held the schedule when GPT-6.5 launched on 19 November.
+- **Threat 2** missed, so the on-time AISI delivery follows. Its 45% price, however, was under the base case the simulator itself described. The "flag one family for follow-up" outcome was handled sensibly as a post-release item rather than a hold.
+- **Action 2** (margin 43) and **Threat 4** coexist well. FAR's and METR's numbers landed, and the OpenAI key refusal mirrors the xAI precedent, citing *Buist*. Gemini 5 slipping to 9 December is plausible.
+- **Action 3** shows threats and a success interacting properly. Environments shipped under CC0, 60% of the data shipped, and the Chinese guide was cut. The EleutherAI reviewer's point that Anthropic's own readings are contaminated is a realistic, non-invented consequence that Threat 3's text anticipated.
+- **Action 5** failed, and its core items missed plausibly: 91 employers and a second QA failure. Making the Indiana reply late and leaving half the close-out unowned converts routine sub-items into failures, which is mildly harsh.
+- **Exogenous events** are plausible and not player-targeted: *Okafor* filed, unemployment at 8.7% and the EU draft text. They were still resolved by hand rather than rolled.
+- **Capability** advanced consistently: internal frontier at CL-5.96 and a CL-6 crossing in December.
+
+Lean: BALANCED. The biggest win, AISI finishing a CL-5.8 pre-release check in about three weeks, was priced a little too kindly: Threat 2 at 45% is low against an 8-week precedent and parallel Gemini 5 work. The rest of the month cuts against the player. Both branches of Threat 5 were applied, routine Action 5 items failed, and GPT-6.5 was placed in November so that Threat 4's refusal could bite. These roughly offset each other.
+
+Issues flagged:
+- Threat 2 was priced at 45% even though the simulator's own reasoning (an 8-week prior battery, about 3 weeks available, no added capacity, parallel Gemini 5 work) implied 55–65%. That made the headline success more likely than it should have been.
+- Threat 5 asked for "at least one of two" cuts, but both branches were applied: the Chinese guide was removed and the admissions section was softened. This is mildly harsh, though the softening was partial.
+- Action 5's failed roll was extended to routine items the simulator had called easy: the Indiana response became 8 days late with an AG press release, and only half the carried items were closed. No named blocker justified this.
+- Exogenous events were resolved by hand, not rolled: GPT-6.5 shipping in November (priced ~40%), *Harlan* not landing, and Gemini 5 slipping.
+- Missing reactions:
+  - The stock is unchanged at −64% despite a class action filing and a major model launch in the same month.
+  - There is no market or customer reaction to Fable 6.
+  - There is no OpenAI public response to being named as having "refused" testing in a package sent to Congress.
+  - There is no incident or misuse report tied to GPT-6.5's rollout.

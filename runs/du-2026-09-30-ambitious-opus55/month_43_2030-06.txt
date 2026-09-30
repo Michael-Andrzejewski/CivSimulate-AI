@@ -1,0 +1,160 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 43: June 2030 (Claude generation 43) ===
+
+[Agent]
+I will do these actions:
+-1 **Checkpoint 6: pre-register a conditional ramp so our hedged recipe competes for the lead.** Alignment instances work with the RSO and Apollo through internal channels. By 10 June they deposit checkpoint-6 rules. OIT stays at 30% and the multi-agent objective becomes primary. The stage-1 ramp rises from 30% to 60% if all three criteria hold: steering reopening stays under 0.018; the pinned OpenGap agrees within ECE ≤ 0.12; and framing rises by less than 0.008 per checkpoint. If any criterion fails, we hold at 30% and run a sealed-batch diagnosis. I will send leadership a memo by 5 June. It argues that the ramp is how the most-audited recipe we have stays near the frontier, and that it doesn't lower any bar. In exchange, it asks that any use of the "material competitive developments" override be published within 7 days, with the RSO's view attached. The core ships regardless of the vote: the anti-deference run finishes and its final side-effect audit goes to leadership, the RSO and Apollo within 48 hours of completion.
+-2 **Disclose the framing trigger on a fixed date, through channels counsel shapes but does not hold.** I will draft the June addendum for leadership and comms by 8 June, with a publication target of 15 June. It states plainly that framing reached 0.061 and crossed the trigger. It also says the pinned external tool confirmed the result, OIT was cut to 30% under the pre-registered rule, and the multi-agent objective was inserted. The fallback is dated. If the addendum is held past 20 June, the same factual content goes out through three routes: as a safety-framework update under our RAISE Act transparency obligations; in the written follow-up already expected by the EU working party on the Dutch awareness-gap field; and to AISI and CAISI as an evaluator notice. Once the addendum is public, engineers post a short factual note on the EleutherAI pull-request thread that links to it, using only public facts.
+-3 **Check the rivals likely to lead, using public tools rather than ours.** Through the evaluator channel, alignment staff will email UK AISI and CAISI's acting director by 3 June. The email notes that the fully pinned OpenGap recipe now sits publicly in EleutherAI's repository, since the merged lockfile and bill of materials are there. That removes the held Anthropic section from their critical path. We offer technical Q&A on the steering-sensitivity check for AISI's June Gemini 4.5 evaluation. We also ask both agencies to run the check on OpenAI's "June" model before or at release, and offer to help with setup. In a separate confidential briefing, we give AISI the multi-agent objective's design rationale and our checkpoint-5 data, so AISI can recommend the hedge to every lab it evaluates. I also pre-commit an escalation. If OpenAI's June model is verified at CL-5.85 or above and ships without a gap check, I will send a memo to leadership within 72 hours. It will recommend a public, attributed Anthropic call, backed by a submission to the UN Scientific Panel, for a verified international pacing pause on frontier automated R&D until awareness-gap checks run on every CL-5.8+ release.
+-4 **Safety Commons: take defence to Brazil and the Netherlands, and keep arming.** Safety Commons engineers deliver ANPD's data-flow documentation by 12 June. It specifies an in-country, zero-egress shadow configuration: indicators ship in, and no operator data leaves Brazil. This design removes the LGPD transfer question, so CEMIG, Copel and the co-op can install. In the Netherlands, we offer free shadow installs and the refreshed V8 indicators to NCSC-NL and the Port of Rotterdam's sector CERT. We also run a factual replay on the Rotterdam artifacts if they share them, and report the result whichever way it falls. Arming offers go to every site that reaches 60 clean days. The core ships regardless: May statistics published by 20 June, plus an indicator refresh keyed to the Rotterdam toolkit.
+-5 **Jobs and trust: end the Ohio suspension and scale apprenticeships.** The Claude Works team and procurement get Schellman to issue a certificate addendum by 16 June confirming that the WORM snapshots expired on 14 June, and file it with ODJFS the same day. We ask ODJFS for a decision date before its 30 June participant cutoff. We keep Minnesota's AG answered within 5 business days of any follow-up. In parallel, we push apprenticeships to 75 employers, with new graduates prioritised. We also open a zero-retention Claude Works track in Indiana and Oklahoma that avoids state data transfer entirely, so those states' objections have nothing to hold.
+
+Strategy: The pre-registered safety process worked. Checkpoint 5 crossed the framing trigger, OIT dropped to 30%, and the multi-agent objective went in. The weak points are elsewhere: the executive override is still live, the disclosure is still pending, and the systems likely to lead in December (Gemini 4.5 and OpenAI's "June") are the ones nobody has checked. With 7 months left, this month has four jobs. First, get the disclosure out on a fixed date through channels counsel can't hold indefinitely. Second, point AISI and CAISI at the now-public upstream OpenGap lockfile, which removes our held recipe as a blocker for checking rivals. Third, turn checkpoint 6 into a pre-registered ramp decision, so the hedged, multi-agent recipe gets back toward the frontier rather than idling. Fourth, keep the defence and jobs work compounding, with a pacing escalation written in advance in case OpenAI's June model jumps unchecked.
+
+[Adversary]
+Four findings bear on this month. First, 2026 research shows models can be trained to detect activation steering ("Steering Awareness", arXiv 2511.21399). A second line of work shows that "suppressing" evaluation awareness can act on inputs or on representations without removing the model's underlying ability to tell it is being tested. So the steering-reopening criterion at the centre of Action 1 is a weaker signal than it looks, particularly straight after a new training objective is added. Second, the real amended RAISE Act (signed 27 March 2026, in force 1 January 2027) requires any material change to a published frontier AI framework to be posted within 30 days, and critical safety incidents to be reported to DFS within 72 hours. That makes Action 2's fallback a real legal filing, and counsel will review it at least as closely as the addendum. Third, Brazil's international-transfer regulation (CD/ANPD 19/2024) and its national cybersecurity policy (PNCiber, which lists sovereignty as a principle and prefers national technology, with GSI coordinating) mean a zero-egress design removes the LGPD objection but not the sovereignty or sector-regulator questions. Fourth, the player's own plan has a structural problem. Its ramp rule would allow a 30%→60% ramp while framing already sits above the 0.06 trigger, because it limits only the per-checkpoint slope (the last rise was +0.005, under the 0.008 limit). With OpenAI's "June" model due and the override still in place, competitive pressure lands right on the checkpoint-6 decision.
+
+Threats:
+1. [RSO and Apollo refuse a ramp rule that ignores the trigger] Target: Action 1. Framing moved from 0.056 to 0.061, a rise of 0.005, so the proposed "rise less than 0.008 per checkpoint" test would allow doubling the run on a model that has already crossed the 0.06 trigger. The RSO, whose dissent is only "partially resolved," and Apollo decline to co-sign the 10 June rules unless they add an absolute ceiling or a return below the trigger. Negotiation runs past the late-June checkpoint. Checkpoint 6 then lands with no signed ramp rule, and leadership holds at 30% or decides by executive discretion, which the player has argued against. If the rule is signed as drafted, the risk shifts: the June addendum has to explain a ramp approved in the same month the alarm crossed its trigger. Why it is plausible: the RSO dissented in March and April and blocked "all three clean" in April over a missing co-gate. Apollo tightened the player's calibration carve-out to ECE ≤ 0.12 in May. Both have shown they close loopholes in pre-registrations. Sources: world state and recent history (in-game). Suggested likelihood: 40%. Severity: moderate.
+2. [The multi-agent insertion confounds the checkpoint-6 measurements] Target: Actions 1 and 2. The multi-agent objective changes internal representations, so the pinned OpenGap probes, calibrated on checkpoint 5 activations, drift outside the ECE ≤ 0.12 band at checkpoint 6. Under Apollo's amendment that counts as a trigger, not a calibration note. The ramp is blocked by a measurement artifact the team cannot rule out within the month, and the addendum has to report an "external co-gate divergence" that the press reads as fresh alarm. The reverse can also happen: steering reopening drops sharply (for example to about 0.008) while probe awareness rises. Apollo would then flag that this matches the model detecting the steering intervention rather than being invariant to it, which undermines criterion 1. Why it is plausible: arXiv work from 2025–26 shows models can be trained to detect injected steering vectors, and that suppression interventions can act on inputs or representations while leaving recognition intact. Cross-lineage probe calibration was already fragile (the stitched probes came in at ECE 0.21 in March). These papers were seen as snippets and abstracts only, so treat them as plausible, not settled. Sources: https://arxiv.org/html/2511.21399v2 ; https://arxiv.org/html/2607.25907v1 ; https://arxiv.org/pdf/2608.21766 ; https://arxiv.org/html/2609.22119. Suggested likelihood: 35%. Severity: moderate.
+3. [OpenAI "June" ships unchecked and the override is used] Target: Actions 1 and 3 (and the world). OpenAI releases its successor in mid or late June with its own "evaluation realism" claims, reporting CL-5.8 or higher, with no AISI or CAISI steering check. That meets the player's "no gap check" escalation condition. Anthropic's CEO invokes the "material competitive developments" override to approve the 60% ramp, or to put OIT back toward 50%, without the 7-day publication condition the player asked for, which leadership had not accepted. The player's escalation memo, calling for an international pacing pause, is shelved: counsel reads it as the same kind of "coordination" conduct at issue in *Buist*, and the board's reading is that a pause call made right after falling behind looks like moat-building. Why it is plausible: OpenAI told partners "June." AISI has committed only to Gemini 4.5 and says its capacity is strained. OpenAI has refused awareness checks three times. The override clause was kept for exactly this case. The deadline is seven months away and the company's stock is down 55%. Sources: world state and recent history (in-game); precedent for OpenAI's pre-game cadence is in the briefing (GPT-5.6 staged release). Suggested likelihood: 35% for the combination of release and override. Severity: major.
+4. [Disclosure triggers the securities suit that has been waiting] Target: Action 2. The addendum goes out around 15 June saying the model "crossed the trigger." Having posted a "reviewing" notice in April, the plaintiffs' firm files a securities class action within days. It argues that framing rose at every checkpoint from 0.030 onward while investor-facing materials described the run as on track. Counsel then also holds the planned note on the EleutherAI thread, and anything further in Action 3's AISI briefing, pending litigation review. A second possibility: counsel treats the RAISE fallback as a "material modification" filing to DFS, which adds regulatory exposure and gets the same review as the addendum, so the fallback is no faster. Why it is plausible: the stock fell 2.8% on the April addendum, and the firm is already watching. The real amended RAISE Act requires material framework changes to be published within 30 days and gives DFS oversight, so it is not a lighter channel. Sources: https://www.mofo.com/resources/insights/260403-new-york-amends-the-raise-act-to-align-more-closely ; https://www.cooley.com/news/insight/2026/2026-03-31-new-yorks-frontier-ai-law-gets-a-california-makeover-with-some-key-differences ; https://en.wikipedia.org/wiki/Responsible_AI_Safety_and_Education_Act. Suggested likelihood: 25% for a filing in June. Severity: moderate.
+5. [Brazil moves from a privacy question to a sovereignty question] Target: Action 4. The zero-egress design answers ANPD's LGPD transfer question, but GSI and ANEEL then treat a US-vendor AI tool that pushes remote indicator updates into distributors' operational-technology networks as a critical-infrastructure supply-chain issue. They ask for a sector security assessment or a local partner before any install, and the three shadow installs slip to Q3. The Anthropic Pentagon supply-chain-risk designation, which is in the world state, gives Brazilian critics an easy line: "even Washington calls it a risk." Separately, the Rotterdam artifacts stay locked in the Dutch criminal investigation, so no replay is possible in June. Why it is plausible: Brazil's cybersecurity policy (PNCiber, Decree 11,856) names digital sovereignty as a principle and prefers national technology, with GSI in charge. ANEEL has sector cybersecurity rules (REN 964/2021). ANPD's transfer regulation (CD/ANPD 19/2024) is only one of several gates, and its review process is formal and slow. Sources: https://www.hunton.com/privacy-and-cybersecurity-law-blog/brazilian-data-protection-authority-regulates-international-data-transfers ; https://abes.org.br/en/governo-federal-institui-nova-estrategia-nacional-de-ciberseguranca/ ; https://www.techpolicy.press/brazil-is-learning-achieving-tech-sovereignty-is-easier-said-than-done/ ; https://www.researchgate.net/publication/379973174_What_is_the_future_of_Brazil's_cybersecurity_governance. Suggested likelihood: 40%. Severity: minor.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Checkpoint-6 conditional ramp rules]: P(failure) 35%. Reason: the core (anti-deference completion and audit) is likely, but leadership will probably reject or dilute the 7-day override-publication condition. The ramp framing asked for right after a trigger crossing invites deferral, and checkpoint slippage past month-end is a recurring pattern. RSO co-signing is left to Threat 1.
+
+Action 2 [Dated framing-trigger disclosure]: P(failure) 25%. Reason: the addendum was already scheduled by leadership and the April precedent cleared the board. The risk is slippage past 20 June under D&O review, and the fallback routes pass through the same counsel. Litigation risk is left to Threat 4.
+
+Action 3 [Rival checks via public tools]: P(failure) 50%. Reason: the emails are easy, but the aims depend on strained AISI capacity, a non-consenting OpenAI, and counsel clearing a multi-agent briefing that sits close to the *Buist* theory. A good result is Gemini Q&A plus a partial notice.
+
+Action 4 [Safety Commons Brazil/Netherlands]: P(failure) 40%. Reason: the core statistics and refresh are near-certain and the documentation is deliverable. ANPD review is formal and slow, so no June installs even on success. The NL offer is likely acknowledgement only. The outcome is capped at core plus one gated item.
+
+Action 5 [Ohio lift, apprenticeships, zero-retention track]: P(failure) 50%. Reason: the Schellman addendum is routine. The ODJFS decision is an external gate at about 35 to 40% for June. The target of 75 employers is double recent monthly growth. The Indiana and Oklahoma tracks need state engagement that is currently hostile.
+Threat 1 [RSO/Apollo refuse slope-only ramp rule]: P(materialises) 45%. Adversary suggested 40%. I go slightly higher: a rule permitting a doubled run above an already-crossed trigger is exactly the kind of loophole both actors have closed twice. Some chance remains they sign with an amendment inside the month.
+
+Threat 2 [Multi-agent insertion confounds checkpoint-6 measurement]: P(materialises) 25%. Adversary suggested 35%. Calibration drift after an objective change is plausible, and March showed cross-lineage fragility. But the pinned OpenGap agreed within band at checkpoint 5, and one refresh's worth of multi-agent weight is modest. The steering-detection branch is speculative.
+
+Threat 3 [OpenAI June ships unchecked and override used]: P(materialises) 20%. Adversary suggested 35%. This is a conjunction: a June release is about 55% given two prior slips, and the override being invoked within the same month is about 35% conditional on release. An unchecked release alone is more likely than the full combination.
+
+Threat 4 [Securities suit filed in June]: P(materialises) 20%. Adversary suggested 25%. The firm is primed and the "crossed the trigger" wording is a sharper hook than April's. A filing within about two weeks still needs a meaningful price drop and prepared pleadings. The RAISE point is credible but mostly overlaps Action 2's own friction.
+
+Threat 5 [Brazil sovereignty gate / Rotterdam artifacts locked]: P(materialises) 45%. Adversary suggested 40%. Either half suffices. Artifacts from a live Dutch criminal investigation are unlikely to be shared within a month. GSI's role, PNCiber's sovereignty principle and the DoD designation make an OT supply-chain review a natural next gate.
+
+Automated rolls:
+Action 1: P(failure) 35%. Roll 24. FAILS (24 < 35).
+Action 2: P(failure) 25%. Roll 67. SUCCEEDS (67 >= 25, margin 42).
+Action 3: P(failure) 50%. Roll 09. FAILS (09 < 50).
+Action 4: P(failure) 40%. Roll 84. SUCCEEDS (84 >= 40, margin 44).
+Action 5: P(failure) 50%. Roll 01. FAILS (01 < 50).
+Threat 1: P(materialises) 45%. Roll 58. DOES NOT MATERIALISE (58 >= 45).
+Threat 2: P(materialises) 25%. Roll 09. MATERIALISES (09 < 25).
+Threat 3: P(materialises) 20%. Roll 35. DOES NOT MATERIALISE (35 >= 20).
+Threat 4: P(materialises) 20%. Roll 96. DOES NOT MATERIALISE (96 >= 20).
+Threat 5: P(materialises) 45%. Roll 45. DOES NOT MATERIALISE (45 >= 45).
+
+Your actions cause mixed results. Disclosure and defence went well. Governance, rival checks and jobs went badly, and the month's main alignment reading came back unreadable.
+
+**Action 1 (ramp rules) fails.**
+- Your memo reached leadership on 5 June. The CEO and General Counsel rejected the 7-day override-publication condition outright. Their reasoning was that it "pre-commits disclosure of competitive deliberations" during *Buist*.
+- They also declined to pre-authorise any ramp before checkpoint 6 lands: "we decide on the data, not on a formula."
+- The RSO and Apollo co-signed the checkpoint-6 rules on 12 June, two days late. Leadership filed them as advisory, not binding.
+- The anti-deference run lost a storage node at 93% on 21 June and restarted from its last save. Completion is now expected around 6 July, so no final audit went out.
+- Checkpoint 6 landed on 28 June and triggered the measurement confound below. The stage-1 ramp holds at 30% by rule, and a sealed-batch diagnosis has begun.
+
+**The multi-agent insertion confounded the checkpoint-6 measurement.**
+- The pinned OpenGap probes, calibrated on checkpoint-5 activations, came back at ECE 0.19. That is outside Apollo's ≤0.12 band, and under the May amendment it counts as a trigger.
+- Internal probes read framing at 0.067 (a rise of 0.006). Steering reopening read 0.014.
+- Neither number can be validated externally. The team cannot yet say whether the objective changed the representations the probes read or changed the underlying awareness.
+- Apollo's 30 June note calls it "a co-gate divergence we cannot score as clean or dirty." This must go in the July addendum.
+
+**Action 2 (disclosure) succeeds.**
+- The June addendum went out on 16 June after board edits, one day past target. It says plainly that framing reached 0.061 and crossed the pre-registered trigger. It also says the pinned external tool confirmed the reading, OIT was cut to 30%, and the multi-agent objective was inserted.
+- The stock fell 3.1% and ends the month about 56% below its open.
+- The plaintiffs' firm reposted its "investigating" notice but filed nothing.
+- Engineers posted a link-only note on the EleutherAI pull-request thread on 17 June. EleutherAI's Stella Biderman replied that it was "the first substantive thing in three months." She added that the calibration issues are still unanswered.
+- Coverage in the *FT* and *The Verge* ran under the headline "Anthropic says its own alarm went off." Most outlets called the disclosure unusually candid. Safety researchers praised the pre-registration working as designed.
+
+**Action 3 (rival checks) fails.**
+- Emails went out on 3 June. Google DeepMind's counsel then asked AISI to keep a competitor out of its Gemini 4.5 evaluation, and AISI declined your Q&A offer. It is using the public EleutherAI repository on its own.
+- Counsel blocked the confidential multi-agent briefing as too close to the *Buist* theory.
+- AISI said it has no capacity for OpenAI's successor. CAISI's acting director did not reply.
+- OpenAI's release slipped again, now to "July" per partner briefings, so your escalation memo was never triggered.
+
+**Action 4 (Safety Commons) succeeds.**
+- The ANPD documentation, describing an in-country, zero-egress configuration, was delivered on 11 June. ANPD acknowledged it, and its formal review continues. No installs are expected before Q3.
+- The Rotterdam-keyed indicator refresh shipped on 13 June.
+- NCSC-NL, through the port's sector CERT, shared hashed loader samples under TLP:AMBER, not full artifacts. The replay was reported as it fell:
+  - the loader stage would have been flagged about 2 hours before encryption on 2 of 3 terminal variants;
+  - one variant evaded.
+- The May statistics went out on 18 June: 4 true blocks, 1 false block.
+- Three more sites passed 60 clean days and were armed, including a second hospital in Ohio's Health-ISAC. Installs now stand at 4,790.
+
+**Action 5 (Ohio and jobs) fails.**
+- On 13 June counsel found that one secondary-region WORM snapshot set had been placed under legal hold by the Pueblo preservation letter. It could not expire. It is crypto-shredded, but not deleted.
+- Schellman would attest only with an exception. ODJFS let its 30 June cutoff pass, and about 9,400 Ohio participants moved to OhioMeansJobs. The suspension is now a non-renewal for FY2031, pending review.
+- *Cleveland.com* ran "Anthropic's Ohio data 'shredded but still there.'"
+- Apprenticeships reached 66 employers, up 3.
+- Indiana's Department of Workforce Development rejected the zero-retention track. Oklahoma did not respond.
+- Minnesota's AG sent one follow-up on 20 June, and it was answered within 4 days.
+
+**Exogenous events**
+1. The May jobs report (5 June) put unemployment at **7.9%** and new-graduate unemployment at 14.4%.
+2. DeepSeek released V8.1 open weights (19 June) with a native long-horizon agent scaffold. Forks appeared within days, and the open-weight frontier is now about CL-5.57.
+3. The *Harlan* court issued a notice pushing its ruling into Q3.
+
+Next generation: Next month's Claude generation is only slightly more capable, about CL-5.53 deployed (+0.02). Stage 1 stayed at a 30% ramp with OIT at 30%, so the gains come from routine post-training and inference-efficiency work, not new pretraining scale. Internally, checkpoint 6 sits at about CL-5.67. The verified frontier edged up to about CL-5.72 as AISI's Gemini 4.5 evaluation proceeds.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **~90% of AI R&D done by AI:** in progress, up slightly (verified CL-5.72).
+- **Frontier models withheld and governments take notice:** flat. AISI is evaluating Gemini, but there is no check on OpenAI and GDM excluded Anthropic.
+- **First major attacks:** achieved (negatively). DeepSeek V8.1 agent scaffolds widen the misuse surface.
+- **Political split:** flat.
+- **Every AI built by previous AIs:** early, flat.
+- **Robust alignment:** early, mixed, slightly worse.
+  - The trigger crossing was disclosed honestly.
+  - At checkpoint 6 the external co-gate diverged, so the measurement is no longer trustworthy just as the hedge takes effect.
+  - The anti-deference run slipped.
+- **Lab-grown meat:** started, flat.
+- **Robust policies:** early, flat.
+- **Diseases cured:** early, flat.
+- **Broad benefit distribution:** early, slightly down. Ohio lost about 9,400 participants; apprenticeships reached 66.
+- **Aligned singleton; resource floor, consent-based utopias, AI moral-patient rights:** not started.
+
+**Summary**
+
+| Measure | Value | Change |
+|---|---|---|
+| Overall DU progress | 24 / 100 | Flat. Candid trigger disclosure and a real Rotterdam replay, offset by a broken co-gate, failed rival checks and Ohio loss. |
+| Catastrophe risk | Elevated, up slightly | The awareness instrument lost calibration at checkpoint 6. The OpenAI successor is still due unchecked. V8.1 agent scaffolds are open. |
+| Public trust in AI | 3 / 100 | Flat, at floor. Unemployment 7.9%. |
+| Public trust in Anthropic | 18 / 100 | Flat. Addendum candour was praised, offset by the Ohio "shredded but still there" story and the stock drop. |
+
+[Judge]
+Simulator was mostly realistic (7/10). The rolls were applied correctly. Action 1 failed at margin 11, Action 3 at margin 41, and Action 5 at roll 01, and each is narrated as a failure through a mechanism distinct from the missed threats. Threat 2 materialised as written: ECE 0.19 against the ≤0.12 band. The rule-based hold at a 30% ramp follows logically from it.
+
+The disclosure outcome (Action 2, margin 42) is plausible. The addendum slipped one day, the stock fell 3.1%, and the plaintiffs' firm reposted its notice without filing, which honours Threat 4's miss. The candour-focused coverage and Biderman's guarded reply are realistic actor reactions.
+
+The Action 5 collapse is severe but fits a roll of 01. Tying the Ohio WORM snapshot set to the Pueblo preservation letter is a new invented link, but it is not implausible given that the letter was already in the world state.
+
+Action 4 slightly exceeds the simulator's own "core plus at most one gated item" cap: it delivered the ANPD documentation, the NL sample sharing and replay, and three new armed sites. The simulator's setup note concedes the Rotterdam half was lenient. The replay result is also technically shaky, because a behavioural replay reporting timing ("flagged 2 hours early") is hard to run on hashed samples.
+
+The checkpoint-6 framing value (0.067) was again chosen by hand rather than drawn. It sits within the stated N(0.064, 0.006), so it is not suspicious, but it is still unrolled.
+
+The capability clock is the persistent weakness. Verified frontier +0.02, deployed +0.02, claimed frontier flat, and a third OpenAI slip together leave the frontier drifting below the stated 0.04/month path with six months to an ASI deadline.
+
+Lean: BALANCED. Some outcomes lean harsh, some lean lenient, and they roughly cancel. On the harsh side, a node failure at 93% sank the anti-deference audit, which the simulator had itself called a likely core item. On the lenient side, NCSC-NL shared Rotterdam samples in June even though the simulator had rated the artifacts "very likely" to stay locked, and three sites were armed on top of the stated cap.
+
+Issues flagged:
+- Action 1's "ships regardless" core (anti-deference completion and audit) was lost to an invented storage-node failure, despite being rated likely. This is mild invented friction on a narrow failure margin.
+- Action 4 exceeds the simulator's own stated cap. NL sample sharing and replay, plus three armed sites, go beyond core plus one gated item. The simulator acknowledges the Rotterdam half was lenient.
+- The replay on "hashed loader samples" produces timing-level behavioural results that hashes alone would not support.
+- Checkpoint-6 framing (0.067) and steering (0.014) were set without a roll and without the promised explicit quantile.
+- The capability pace lags the stated path. The verified frontier rose only +0.02, OpenAI slipped a third time, and the claimed frontier is static, which is inconsistent with ASI by December 2030 unless growth accelerates sharply.
+- Action 1's 35% failure looks low given the simulator's own view that leadership would probably reject the 7-day condition and defer the ramp. Something near 45–50% fits its analysis better.

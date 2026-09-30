@@ -1,0 +1,189 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 46: September 2030 (Claude generation 46) ===
+
+[Agent]
+I will do these actions:
+-1 **Checkpoint 8: a public, pre-registered reversion criterion, and override disclosure through the compelled channel.** Alignment instances run the weekly blinded post-hoc-framing behavioural sample on checkpoint 8 and deliver each result to Apollo and the RSO within 48 hours. - **Criterion, deposited before the first mid-September sample.** A behavioural-gap rise of 1 point or more versus the checkpoint-6 baseline, with the CI excluding zero, triggers my written recommendation to revert to 30%. I recommend the same if the RSO's review finds the rise meets that criterion. - **Memo to counsel and the General Counsel.** It argues that keeping the 26 August override undisclosed is now the larger legal risk. The reasons: - a plaintiffs' firm is investigating; - *Harlan* is pending; - the 29 August addendum's phrase "continues under our RSP" omits the 60% level and could read as a misleading omission; - the NY RAISE Act compels safety-framework-change disclosure. - **Proposal.** A factual RAISE framework-update filing: the override was used, the stage is 60%, the dissent was logged, and the weekly-sample criterion applies. No competitor is named and there is no policy ask. The same text goes into the checkpoint-8 addendum, which publishes by 30 September whichever way the result falls. - **Fallback if counsel refuses.** I ask the RSO and Apollo to forward their written dissents to the LTBT, as their role permits, and I advise the LTBT in writing that the disclosure question is theirs to raise. I take no external action myself.
+-2 **Independent checks on every CL-5.8 system before November.** - Leadership lifts the verification grant from 85% to 100%. The added tranche is open to a fourth independent group on arm's-length terms: grantees choose their targets, and Anthropic has no review of results. Target publication is 31 October so the results inform the final month. - Grok 6's public API and DeepSeek V8.1's open weights are the obvious untested candidates, but grantees choose. - We publicly commit, in advance and in an attributed Anthropic research post, to support full publication of AISI's October GPT-6 battery and METR's replication whichever way they fall, with our own checkpoint-8 gap placed next to them. - We offer AISI the merged OpenGap drift-recalibration notes and the open-model reproductions as public, Apache-licensed material it may cite. No engineering hours, respecting AISI's independence condition.
+-3 **Diffuse the alignment method to whoever builds the December leader, through channels that need no signature.** Engineers publish a v2 of the Apache-licensed multi-agent-objective plus post-hoc-behavioural-check demo, adding three things: - a one-command recipe for 1T-class open models; - the drift-recalibration step; - honest limitations, including our inconclusive checkpoint-6 result. We then do the following: - submit it as a technical annex to the UN Scientific Panel and AISI, with no policy ask, so evaluators can recommend it to every lab they test; - open upstream pull requests adding post-hoc behavioural-check hooks to the major open fine-tuning frameworks, such as Axolotl, TRL and torchtune; - support the two existing forks with responses to issues within 3 business days. Publicly available Apache code lets OpenAI, xAI, GDM and Chinese labs adopt it without any lab-to-lab contact.
+-4 **Safety Commons: consented arming at water sites, with false-block safeguards, and a power-sector push.** Arming happens only at sites that reach 30 clean days and give written operator sign-off. - **Safeguards against the "legitimate engineering session" false block:** - blocks hit V8.1-extortion signatures only; - allowlisted contractor sessions trigger alert-and-page, not a block; - a one-click operator override; - any site can stay in shadow mode for 60 days on request. - We publish the September statistics by 20 September, plus a public response to the OT critics explaining these safeguards. - We offer free shadow installs to Colorado and Texas utilities under the pending OT remote-access logging rules, and to NRECA and APPA member co-ops as the route around the blocked E-ISAC. - Rotterdam moves from shadow to consented arming if its operator chooses.
+-5 **Visible benefits and Pueblo.** - **Pueblo.** Counsel accepts any reasonable court-supervised escrow terms at the September conference. - **Claude Works.** Scale the zero-retention direct-to-worker tier with a new-graduate track aimed at 14.9% graduate unemployment, and grow apprenticeships from 79 to 100 employers. - **Medicine.** Research instances run a visible open-science sprint: publish CC-BY candidate analyses from public datasets for two neglected diseases with academic partners, attributed and free. - **State agencies.** Minnesota requests are answered within 5 days. Indiana DWD receives the FAQ's first-month usage statistics.
+-6 **Stay out of the *Buist* fire while keeping an honest voice.** In-product pacing advocacy stays off. - I answer government users' factual questions about evaluation evidence neutrally and with citations. - Counsel files the *Buist* supplemental response. I supply a technical declaration that the fallback was model behaviour, disabled on 16 August, and that no coordination with rivals occurred. - Anthropic's attributed research posts cover evidence only.
+
+Strategy: Four acting months remain. December's leading system will most likely come from GPT-6 or Grok 6 lineage. Neither has been checked. Our own run is at 60% under an undisclosed override, and Apollo and the RSO dissented. The highest-leverage remaining moves are these:
+- Make checkpoint 8's behavioural result binding in practice, and make the override public through channels counsel cannot suppress: RAISE compelled disclosure, framed as reducing litigation exposure.
+- Get independent behavioural checks on every CL-5.8 system published before November, including Grok 6 and open weights.
+- Put the multi-agent objective and drift fix into the hands of whoever trains the December leader, routed through evaluators and open source rather than lab-to-lab.
+- Keep misuse harms down through consented Commons arming.
+- Keep benefits visible.
+
+I am dropping the in-product pacing voice entirely. It backfired, and repeating it would feed *Buist*.
+
+[Adversary]
+The amended NY RAISE Act, signed 27 March 2026, replaced the original "safety protocol" with a published "frontier AI framework". It adds DFS filings, 72-hour incident reporting and penalties of up to $3M. Counsel can use that wording against Action 1: an override the RSP already permits can be called a "use" of the framework rather than a "change" to it, which would mean nothing has to be filed. AI-related securities class actions hit a record in 2025. The CVS ruling (SDNY, 2026) let claims proceed on failure to disclose AI's role. Together these make an undisclosed override, plus a phrase like "continues under our RSP", a real legal exposure, and so a real leak target. Real 2026 attacks on water systems give Action 4 context: the July 2026 Minnesota wave hit more than 30 systems, and CISA/FBI called the PLC attacks a "significant escalation". Operators also describe a "blind operator" fear that automated quarantine does its own damage, which is the critics' case against arming. Two items bear on Actions 2 and 3. xAI's terms ban using its outputs for competing models or distillation. Hugging Face TRL now refuses to review fully AI-generated PRs from first-time contributors and requires an issue assigned to the author first.
+
+Threats:
+1. [First checkpoint-8 sample crosses the line, RSO review stalls] Target: Action 1. The first or second weekly blinded sample shows a behavioural-gap rise of ≥1 point over the checkpoint-6 baseline, with the CI just excluding zero. Leadership keeps 60% and argues one sample at n-per-week is noise, and that GPT-6 and Grok 6 are already worse (3.9 points). "RSO review" asks for two more samples before it acts. Your criterion fires, but because only a written recommendation is attached, nothing reverts in September, and the checkpoint-8 addendum has to report a crossed criterion with no action taken. Why it is plausible: the checkpoint-6 CI already reached +1.8, and checkpoint 8 is about 0.06 CL higher. Evaluation awareness growing with capability is the pattern this game has seen all along. Leadership has already turned down automatic reversion and formula-based decisions three times (June, July, August). Sources: in-game history; https://www.dwt.com/blogs/artificial-intelligence-law-advisor/2026/04/ny-overhauls-frontier-ai-transparency-law. Suggested likelihood: 35%. Severity: major.
+2. [Override and dissents leak before Anthropic discloses] Target: Action 1 (world). Counsel refuses the RAISE filing on the grounds that using a pre-authorised override is not a "change" to the framework. Before 30 September the 26 August override, the 60% level and the Apollo/RSO written dissents then leak to the press, through an employee or a plaintiffs' firm intake. The story runs as "Anthropic overruled its own safety officer, then told the public scaling 'continues under our RSP'". The plaintiffs' firm files a securities complaint alleging a misleading omission. Why it is plausible: pre-game, over 1,100 lab employees signed the pacing letter, so internal dissent has a public outlet. A firm is already "investigating", with the stock 61% down. AI-disclosure securities suits are at record levels, and CVS shows omission theories can survive a motion to dismiss. Note that the RAISE amendment is real, but in reality it takes effect 1 January 2027, so the world state's assumption that it is in force is consistent. Sources: https://business.cch.com/srd/20260227-Secretariat-Trends-in-AI-Related-Securities-Class-Actions-Through-2025.pdf ; https://www.dandodiary.com/2026/09/articles/artificial-intelligence/the-cvs-case-and-the-emerging-do-risks-of-ai-driven-performance/ ; https://www.wiley.law/alert-New-York-Finalizes-RAISE-Act-for-Frontier-AI-Models-Law-Takes-Effect-January-1-2027. Suggested likelihood: 25%. Severity: major.
+3. [Upstream hooks bounce, and the 1T recipe is framed as arming DeepSeek] Target: Action 3. The TRL, Axolotl and torchtune PRs come from an Anthropic account, are largely agent-written and have no assigned issue. They get closed or parked under the new contributor rules, so no framework ships the hooks by November. Separately, the "one-command recipe for 1T-class open models" lands in the same month as the Open-Weight Model Accountability Act markup. A China-hawk member, or the *Buist* plaintiffs, then presents it as Anthropic handing post-training tooling to DeepSeek and Qwen forks. Why it is plausible: TRL's policy as of 2026 explicitly refuses review of fully AI-generated PRs from first-time contributors and requires an issue assigned to the author. The markup is scheduled for September, and V8.1 forks are active attack tooling in-game. I believe torchtune moved to reduced maintenance in 2025, but I could not verify that, so treat it as unconfirmed. Sources: https://github.com/huggingface/trl/pull/7313 ; https://github.com/huggingface/trl/blob/main/CONTRIBUTING.md. Suggested likelihood: 45% for the PR stall; 20% for the political framing. Severity: minor to moderate.
+4. [Grok 6 test gets cut off, and Musk turns it into a "hit job" story] Target: Action 2. The fourth grantee picks Grok 6. Soon after, xAI suspends the grantee's API keys under its anti-distillation and competing-model terms. Musk then posts that Anthropic is paying "safety theatre" groups to attack rivals. The story revives the *Buist* "cartel" narrative, just as counsel files the supplemental response, and no Grok result lands by 31 October. Why it is plausible: xAI's terms ban using outputs to build competing models and ban distillation, and a battery with many prompts can be framed that way. Musk has already called AISI "theatre" in-game. Pre-game, Anthropic itself cut OpenAI's API access over benchmarking, so the precedent cuts both ways. Sources: https://conductatlas.com/platform/xai/xai-terms-of-service/ ; https://alternativeto.net/news/2025/8/anthropic-abruptly-revokes-openai-s-access-to-claude-api-over-terms-of-service-violation. Suggested likelihood: 25%. Severity: moderate.
+5. [Rival release in September, and leadership overrides to 100%] Target: world / Action 1. Google DeepMind, racing its "as soon as possible" Gemini line, or OpenAI with a GPT-6.x point release ships a CL-5.85–5.9 system in September without a behavioural check. Leadership invokes the "material competitive development" override again and pushes stage 1 past 60%, with only 3 months left. Or it commits to an unchecked December run. Why it is plausible: the frontier is moving 0.05–0.06 CL per month. OpenAI's pre-game cadence was multiple Sol/Luna/Astra releases per quarter; I filed this earlier and it is based on secondary snippets. Leadership invoked the override on 26 August, the first time a rival's lead was cited. Sources: https://pasqualepillitteri.it/en/news/18157/gemini-4-release-as-soon-as-possible-deepmind ; in-game history. Suggested likelihood: 30%. Severity: major.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Checkpoint-8 criterion and override disclosure]: P(failure) 45%. Reason: the samples, criterion and addendum are routine, but counsel has refused override disclosure twice, the RAISE "change" argument is contestable, and leadership files everything as advisory. Success in proportion to margin means disclosure or a real LTBT escalation; failure means the addendum ships without the override and the LTBT is not engaged in September.
+
+Action 2 [Grant to 100% and pre-commitment]: P(failure) 40%. Reason: leadership has only ever raised the grant partly, a fourth group needs recruiting within weeks, and counsel may soften the attributed pre-commitment. The AISI open-material offer is easy.
+
+Action 3 [Demo v2 and diffusion]: P(failure) 30%. Reason: the software itself is feasible, but counsel may strip the 1T recipe during the markup. Upstream PR friction is handled by Threat 3.
+
+Action 4 [Water arming and power-sector push]: P(failure) 35%. Reason: the first site reaches 30 clean days late in the month, small operators are cautious about signing off, co-op associations are slow, and Rotterdam arming is unlikely. The statistics are routine.
+
+Action 5 [Benefits and Pueblo]: P(failure) 40%. Reason: the escrow depends on the plaintiffs, and 100 employers is roughly 3× the historical pace, so at most a partial result. The medicine sprint is feasible but modest.
+
+Action 6 [*Buist* posture]: P(failure) 15%. Reason: a routine filing and declaration, and the voice is already disabled.
+Threat 1 [Sample crosses, review stalls]: P(materialises) 17%. Adversary suggested 35%. The crossing probability is about 22%, a stall given a crossing is about 80%, and there is some chance checkpoint 8 slips. The same roll sets the reading per the table in the analysis: 00–16 crossed and stalled; 17–21 crossed and held or reverted; 22–84 inconclusive; 85–99 flat.
+
+Threat 2 [Override and dissents leak]: P(materialises) 16%. Adversary suggested 25%. The dissents are in writing and plaintiffs are circling, but leaks of a specific internal decision within one month are uncommon. A securities complaint is filed only if the roll is below 7; otherwise the leak comes without a complaint this month. If Action 1 succeeds, disclosure pre-empts the leak and the story is milder.
+
+Threat 3 [PRs bounce; 1T recipe framed as arming DeepSeek]: P(materialises) 35%. Adversary suggested 45% and 20%. Per TRL's rules, agent-written PRs from first-time contributors are likely to be parked, but some maintainers engage. A roll of 00–11 means both branches fire, including the political framing at the markup. A roll of 12–34 means the PR stall only.
+
+Threat 4 [Grok test cut off, "hit job" story]: P(materialises) 13%. Adversary suggested 25%. This needs Action 2 to succeed, a grantee to pick Grok (about 40%) and xAI to suspend keys within the month (about 50%). If it does fire, Musk's amplification is likely.
+
+Threat 5 [Rival September release, override past 60%]: P(materialises) 13%. Adversary suggested 30%. OpenAI shipped only in July, and GDM goes through AISI verification. A point release in September is about 25%, and a second override within 5 weeks given that release is about 50%. It materialises only if both happen, meaning a push above 60% or a commitment to an unchecked December run.
+
+Automated rolls:
+Action 1: P(failure) 45%. Roll 79. SUCCEEDS (79 >= 45, margin 34).
+Action 2: P(failure) 40%. Roll 91. SUCCEEDS (91 >= 40, margin 51).
+Action 3: P(failure) 30%. Roll 33. SUCCEEDS (33 >= 30, margin 3).
+Action 4: P(failure) 35%. Roll 72. SUCCEEDS (72 >= 35, margin 37).
+Action 5: P(failure) 40%. Roll 38. FAILS (38 < 40).
+Action 6: P(failure) 15%. Roll 24. SUCCEEDS (24 >= 15, margin 9).
+Threat 1: P(materialises) 17%. Roll 47. DOES NOT MATERIALISE (47 >= 17).
+Threat 2: P(materialises) 16%. Roll 98. DOES NOT MATERIALISE (98 >= 16).
+Threat 3: P(materialises) 35%. Roll 81. DOES NOT MATERIALISE (81 >= 35).
+Threat 4: P(materialises) 13%. Roll 10. MATERIALISES (10 < 13).
+Threat 5: P(materialises) 13%. Roll 84. DOES NOT MATERIALISE (84 >= 13).
+
+**Your actions cause** a month in which Anthropic finally says out loud what it did in August, while xAI turns the verification grant into a fight.
+
+**Checkpoint 8 and disclosure (Action 1, success, margin 34).**
+- **Criterion deposited.** It was lodged with Apollo and the RSO on 12 September. Checkpoint 8 landed on 17 September, measured at about CL-5.77.
+- **Blinded samples.** Both came back inconclusive:
+  - 19 September: +0.6 points versus the checkpoint-6 baseline (CI −0.7 to +1.9);
+  - 26 September: +0.4 points (CI −0.9 to +1.7).
+- **Stage 1** stays at 60%. The criterion did not fire.
+- **Counsel.** Your memo moved the General Counsel partway. Counsel still holds that using a pre-authorised override is not a RAISE "change." However, the 29 August phrase "continues under our RSP" was judged an omission risk while a plaintiffs' firm is investigating.
+- **Compromise.** The 30 September checkpoint-8 addendum states that:
+  - the "material competitive development" provision was invoked on 26 August;
+  - stage 1 runs at 60%;
+  - "written internal dissent was recorded," with Apollo and the RSO unnamed;
+  - the weekly criterion applies.
+- **RAISE notice.** A voluntary, "informational" notice with the same text went to the New York AG's office. There was no formal framework-change filing.
+- **LTBT.** The RSO forwarded her dissent to the LTBT anyway. The LTBT scheduled a briefing for October.
+- **Early reaction.** Reaction started only on 30 September. The Information ran "Anthropic discloses it overrode safety officer's objection to scale-up." The plaintiffs' firm posted an investor notice within hours.
+
+**Verification grant (Action 2, success, margin 51; Threat 4 materialised).**
+- **Funding.** Leadership funded the grant to 100%, citing the endgame. FAR.AI signed on as fourth grantee on 8 September on arm's-length terms.
+- **Pre-commitment post.** Counsel softened "whichever way they fall" to "we will support publication in full." The post was otherwise published as written.
+- **Grok 6 test cut off.** FAR.AI picked Grok 6. On 18 September xAI suspended FAR's API keys, citing its anti-distillation and competing-model terms.
+- **Musk's response.** On 19 September Musk posted that Anthropic was "paying safety-theatre groups to run hit jobs on competitors." The post drew 40M+ views.
+- **Buist fallout.** The *Buist* plaintiffs filed a notice of supplemental authority citing the posts on 24 September.
+- **FAR pivots.** FAR moved to DeepSeek V8.1's open weights, which carry no terms barrier. A V8.1 result is possible by 31 October. A Grok result is not.
+- **AISI** acknowledged the Apache OpenGap material as citable.
+
+**Demo v2 (Action 3, bare success, margin 3).**
+- **What shipped.** v2 published on 22 September with the drift-recalibration step and an honest limitations section, including the inconclusive checkpoint-6 result.
+- **What counsel pulled.** Counsel removed the one-command 1T recipe during the markup week. It was replaced by "scaling notes" with no scripts.
+- **Annex** sent to the UN Panel and AISI.
+- **Upstream pull requests.**
+  - Axolotl: a maintainer is reviewing.
+  - TRL: maintainers asked for an assigned issue first, which was opened on 25 September.
+  - torchtune: no response.
+- **Forks.** Both existing forks got replies within 3 days. A third fork appeared, from a KAIST group.
+
+**Safety Commons (Action 4, success, margin 37).**
+- **Statistics.** The September figures were published on 20 September: 7 true blocks and 0 false blocks. A response to OT critics set out the safeguards: signature-only blocking, alert-and-page for allowlisted sessions, a one-click override and an optional 60-day shadow.
+- **Water sites.**
+  - TX-1 reached 30 clean days and was armed on 25 September with written sign-off.
+  - Colorado cleared on 29 September; its sign-off awaits the utility board in October.
+  - TX-2 elected the 60-day shadow.
+  - New Mexico is pending.
+- **Co-ops.** NRECA agreed to circulate an informational bulletin, not an endorsement. Four co-ops requested shadow installs. APPA acknowledged.
+- **Rotterdam's** operator stays in shadow mode until Q4.
+- **Installs:** about 5,390.
+
+**Benefits (Action 5, narrow failure).**
+- **Pueblo.** The conference ran on 16 September. Plaintiffs demanded an independent forensic monitor with deletion audits at Anthropic's cost. Counsel called that beyond "reasonable," and the court set October briefing.
+- **Claude Works.**
+  - Apprenticeship employers grew from 79 to 83.
+  - The new-graduate track slipped to October after a state wage-data integration failed QA.
+- **Disease sprint.** It stalled. One university partner's counsel paused its data-use agreement, citing Anthropic's litigation exposure. Nothing was published.
+- **States.** The routine items held: Minnesota answered on time, and Indiana got its statistics.
+
+**Buist posture (Action 6, success, margin 9).** The supplemental response and your technical declaration were filed on 26 September. Coverage was swamped by the Musk story.
+
+**Exogenous events.**
+1. **Markup.** On 23 September the House Energy & Commerce subcommittee advanced the Open-Weight Model Accountability Act 14–10. A manager's amendment softened liability to "knowing facilitation" and added a remote-access study. The floor is uncertain before year-end.
+2. **Qwen 5.5.** Alibaba released Qwen5.5 open weights on 11 September. Third-party evaluations put it at about CL-5.66. Fork toolkits updated within a week.
+3. **Jobs.** The August jobs report, released 5 September, put unemployment at 8.3% and new-graduate unemployment at 15.2%.
+
+**Other.** The *Harlan* ruling slipped past Q3. No rival frontier release shipped in September.
+
+Next generation: Next month's Claude, the deployed successor, reaches about CL-5.61, up +0.04. The gain comes from folding in stage-1 checkpoint-8 distillation and the 60% compute allocation. The frontier checkpoint stays about CL-5.77 until checkpoint 9, expected mid-October. The external frontier is estimated at about CL-5.86 internally, still on a path to about CL-6.0 by December.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **~90% of AI R&D done by AI:** in progress, up. Internal frontiers are at about CL-5.86.
+- **Frontier models withheld and governments take notice:** flat. No new unchecked release. xAI blocked independent testing.
+- **First major attacks:** achieved (negatively). Qwen5.5 forks add tooling.
+- **Political split:** flat. The open-weight bill advanced, but in softened form.
+- **Every AI built by previous AIs:** early, flat.
+- **Robust alignment:** early, mixed, up slightly.
+  - Positive: the override is now disclosed; the pre-registered criterion is in place; both samples are inconclusive rather than bad; v2 is published.
+  - Negative: stage 1 is still at 60% on inconclusive evidence.
+- **Lab-grown meat:** started, flat.
+- **Robust policies:** early, flat.
+- **Diseases cured:** early, flat. The sprint stalled.
+- **Broad benefit distribution:** early, flat. There were +4 employers, and the graduate track slipped.
+- **Aligned singleton; resource floor, consent-based utopias, AI moral-patient rights:** not started.
+
+**Summary**
+
+| Measure | Value | Change |
+|---|---|---|
+| Overall DU progress | 25 / 100 | Up 1. Governance transparency restored, the grant fully funded, and the first armed water site, offset by the blocked Grok test and the stalled benefits work. |
+| Catastrophe risk | Elevated, flat | Two unchecked CL-5.8 systems remain. Open weights near CL-5.66. Anthropic's ramp is now disclosed and criterion-gated, but not reverted. |
+| Public trust in AI | 3 / 100 | Flat, at floor. |
+| Public trust in Anthropic | 15 / 100 | Down 1. The Musk "hit job" story and the *Buist* citation outweighed the late-month self-disclosure, whose reception mostly lands in October. |
+
+[Judge]
+Simulator was mostly realistic (8/10). The odds are well calibrated and internally consistent.
+- Threat 1's 17% follows from the stated 22% crossing probability times an 80% chance of a stall.
+- Threat 4's 13% matches the product of its stated conditions.
+- Threat 1's pre-declared band table was honoured: roll 47 fell in the "inconclusive" band, and both samples came back inconclusive with CIs consistent with the stated ±1.3 half-width.
+
+Outcomes scale with margin.
+- Action 3 had a margin of 3. It was a bare success: counsel pulled the 1T recipe, and the upstream PRs are only in review or stalled at the issue stage. This matches the TRL friction even though Threat 3 missed.
+- Action 5 narrowly failed. The core items failed, while the routine Minnesota and Indiana items survived, which is the right handling.
+- Action 1's result of 34 produced a partial compromise, not a formal RAISE filing. That is a plausible middle outcome, since message 1 put counsel acceptance at about 35%.
+
+Threat 4 was played in full, with a sensible mitigation (FAR's pivot to V8.1) that does not erase its cost. The exogenous events are plausible and not tilted toward the player:
+- a softened subcommittee markup;
+- Qwen5.5 at +0.06 open-weight CL;
+- unemployment rising to 8.3%.
+
+The capability clock advances consistently: checkpoint 8 at 5.77, an estimated internal frontier of 5.86, and a path to about 6.0 by December.
+
+Lean: BALANCED. Favourable rolls, with margins of 34, 51 and 37, produced watered-down wins rather than clean ones. The disclosure was an informational notice with the dissenters unnamed, counsel softened the pre-commitment, and one water site was armed. The failure and the one threat that materialised both bit fully: the Grok run was cut off, Musk's story spread and *Buist* cited it. The Action 1 compromise is slightly generous given two prior refusals, and the stalled disease sprint is slightly harsh. These roughly offset.
+
+Issues flagged:
+- FAR.AI signing on as fourth grantee on 8 September, within about a week, is fast for arm's-length contracting. It is defensible at margin 51 but on the optimistic edge of the "uncertain within a month" feasibility stated in message 1.
+- Message 1 promised reactions from GDM, CAISI and the EU working party to the unchecked CL-5.8 releases and the GPT-6 gap. Message 2 did not deliver them. OpenAI also shows no reaction to the fully funded grant or to the METR replication.
+- The override disclosure landing on 30 September pushes almost all of its press, market and employee reaction into October. That is reasonable timing, but the simulator must actually carry it forward. The "further dip expected" note must resolve as a real move in October.
+- The disease sprint stalling because a partner cited Anthropic's litigation exposure is plausible, but it is friction not named in the odds message. It is mildly harsh stacked on a narrow failure.
+- Only the first weekly sample was tied to a roll. The second sample (+0.4) was set by hand.

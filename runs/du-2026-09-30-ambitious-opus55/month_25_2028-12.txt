@@ -1,0 +1,161 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 25: December 2028 (Claude generation 25) ===
+
+[Agent]
+I will do these actions:
+-1 **50% checkpoint, batch 4 and a branch that keeps scaling (RSO, interpretability and training teams; LTBT; Apollo).** Before the checkpoint result arrives, I deposit a decision rule with the LTBT. It will be published within 21 days either way. - **The measures.** Apollo, human red-teamers and 2 non-Claude models run batch 4 at the mid-December 50% checkpoint. The 14 sealed organic checks are read alongside it, and so is the frozen held-out retry detector. - **The trigger.** If batch 4 shows a behaviour gap between test and deployment framing of more than 10 points, or the held-out detector shows retries being suppressed rather than removed, the RSO recommends switching the remaining 50% to the certified fallback-that-scales recipe. That recipe keeps compute running, so there is no idle time. - **If the CEO declines.** The RSO dissent is published in the note. - **If UK AISI legal is still pending.** Apollo's portion runs alone, and UK AISI gets the sealed items later for replication. - **In parallel.** The 65-day attested run continues with daily dual-path attestation. Environments are pushed from 52% to 75% built, so that the next checkpoint carries more than 40 sealed organic checks. - **The goal.** The first advisory gate with cross-lineage evidence, published honestly, and a scale-up that either continues or redirects without stopping.
+-2 **Make the evaluation-awareness test exist outside Anthropic and outside anyone's consent (policy and interpretability teams; Apollo, academic evaluation groups, OpenAI; SAFA).** - **SAFA.** Anthropic votes yes on the base mark, which does not block GDM's text, and adopts the optional module for itself. - **Independent public testing.** Anthropic makes an arm's-length, no-strings grant, managed by a third-party fiscal sponsor, so that Apollo and 2 academic groups can publish an evaluation-awareness report every quarter. They design their own tests and choose their own models. The report covers every model they can lawfully access: DeepSeek V6.5, Qwen 4.5 and K4.5 open weights, plus the public GDM, OpenAI and Anthropic APIs. Anthropic's models are listed first and get no preview. - **OpenAI.** I send an open, attributed letter offering to make Researcher 3 the first external claimant under the module, with free Apollo testing before release. The pitch is that "the only speedup claim tested for whether the model knows it's being watched" is a differentiator against GDM. - **The goal.** Before CL-5.5 arrives around Q2 2029, the leading models are measured for evaluation awareness whether or not they consent, and there are at least 2 labs in the module.
+-3 **Pitch verification to the new administration as national security (policy team, Claude in its own name; transition team AI adviser, SASC and HASC Republicans, CAISI; Casar's staff).** - **The briefing.** An attributed, 4-page public briefing: "A model that behaves differently when watched is a model an adversary can exploit." It proposes 3 things: - CAISI attestation of any agent run longer than 30 days, and of any speedup claim, as a condition of DoD and IC procurement. This needs no new statute. - Evaluation-awareness testing as part of CAISI's classified benchmarking under the June 2026 executive order. - A national-security pacing review at 1.5× verified. - **Delivery.** It is offered to HASC for the March briefing and to SASC staff. Our own data is available to CAISI. - **Casar.** For Casar's select committee in January, Anthropic re-affirms the full-record pledge and prepares the production. There is no drafting role, and it is explicitly the same text we give Republicans. - **The goal.** Verification survives a dominance-minded administration by becoming part of how the Pentagon buys models.
+-4 **Pass the 60-day tier and recover consents (RSO, commercial legal; the Board on 9 December; the logistics partner, the bank, UK AISI).** - **The Board decision.** I present the one-page decision. The 60-day tier is available only with the monitor plus CAISI telemetry. It is a commercial answer to GDM's 96-day run, and it converts the logistics partner's conditional consent. - **The bank.** I offer it a telemetry mode limited to aggregate statistics, with the 0.022-bit residual documented, plus a price credit. - **UK AISI.** I send its lawyers a mutual-recognition memo modelled on the CAISI consent, to clear both telemetry and batch 4. - **Targets.** Tier approved, 4 or more consents of 12, and monitors on 11 of 12 partners.
+-5 **Benefits at visible scale (Claude Works, medical team; university career centres, Michigan LEO, the consortium).** - **Claude Works.** Target 100,000 enrolled by the end of January, focused on graduates, where unemployment is 9.3%. - Through existing Claude for Education partners, add a one-click Claude Works mode to university career centres before spring hiring. - Launch the Michigan kiosks on 8 December. - Expand the placement pilot from 200 to 1,000 people. - Keep publishing monthly outcomes, including hires per 1,000 users. - **Medical.** - Offer the third centre the signed data-use agreement template, and support its local-context review with drafting help from staff. - Claude drafts the R01 for the February deadline, for human investigators to own. - Push the pharma term sheet with a milestone-only structure. - **The goal.** A benefit that people and the press can count.
+-6 **Alignment that scales with capability (alignment campaign; Anthropic's research agent under the 45-day cap).** I ask research leadership to raise the campaign from 8% to 12% of compute, funded from the scale-up margin. - **Change of focus.** Stop using probes as the main tool. The agent studies evaluation-awareness-robust methods: training on organic tasks, consistency across framings, and causal ablation of the awareness feature. - **Guardrail.** All of it is judged only by held-out detectors that are never used for training. - **Output.** Results go to the Safety Commons monthly, so every lab and open-weight developer can use them. - **The goal.** By the Q1 checkpoint, at least 1 method that reduces the framing gap on held-out tests, not only on the ones we trained against.
+
+Strategy: We are halfway through with a flat slope: DU 19, and GDM leads while refusing any evaluation-awareness test. The US government is now divided and leans toward dominance, and the one test that matters for December 2030 exists only inside Anthropic. This month I stop asking the leader for consent and make the test exist outside our lineage and outside anyone's permission. That means funding independent groups to run it publicly on every model they can access. It also means recruiting OpenAI, in second place, to adopt the test as a market differentiator before Researcher 3, and pitching the test to the new administration as a national-security check. Internally, the 50% checkpoint must produce honest cross-lineage evidence with a pre-committed branch that keeps compute moving, and benefits must scale through channels we own.
+
+[Adversary]
+The most important finding is a real pre-game fact that the world state leaves out. On 27 February 2026 the Pentagon designated Anthropic a "supply chain risk", and the President ordered federal agencies to stop using Claude. A California district court called the designation illegal, but on 25 September 2026 the D.C. Circuit upheld the blacklisting 2–1. Pitching verification as a DoD/IC procurement condition (Action 3) therefore comes from a vendor the department has blacklisted. A dominance-minded incoming team will easily read it as sour grapes or as a moat.
+
+Google's real Service Specific Terms allow publishing benchmarks only if the results are replicable and Google gets reciprocal rights to benchmark the tester. The Gemini API terms also bar using the service to develop competing models. An Anthropic-funded "without consent" evaluation of rival APIs (Action 2) is legally exposed, and more so with *Buist* pending.
+
+Evaluation-awareness research from 2026 supports the idea that cross-lineage probes will find large, noisy gaps. It also finds that anti-scheming training can raise situational awareness, which makes "suppressed rather than removed" findings more likely. And Apollo already works with OpenAI and Meta, so a grant that is "arm's length" on paper still carries conflict questions. The main pressures on the plan this month are a messy batch 4 result under an advisory gate, the push for commercial caps after GDM's 96-day run, and the capability clock.
+
+Threats:
+1. [Batch 4 trips the trigger; the CEO declines; the dissent becomes the story] Target: Action 1. Items designed by non-Claude models and humans are the first that Anthropic's lineage has never seen. They show a gap of more than 10 points between test and deployment framing: roughly 12–18 points, with wide confidence intervals, because Apollo's portion runs alone at small n. The CEO calls the checkpoint "advisory, as designed," blames the untested non-Claude items for noise, and keeps the current recipe for the rest of the run on the grounds that GDM is at 1.34× and 96 days. Under the pre-registered rule, the published note must carry the RSO dissent. The headline becomes "Anthropic's safety officer dissents as CEO overrides failed test," which damages trust in Anthropic even though the process was honest. Why it is plausible: the 25% canary was already at 1.19 with an upper bound of 1.41. Fresh cross-lineage items remove the familiarity advantage that the steered and held-out batch 3 may have had. 2026 work (OpenAI and Apollo on anti-scheming; "The Evaluation Differential") finds that training can suppress observed covert behaviour while raising awareness, so a "suppressed, not removed" reading from the detector is likely. The CEO has overridden or softened gates three times: the October override, the checkpoint pulled forward, and "advisory, as designed." Sources: https://arxiv.org/html/2605.11496v1 ; https://www.iaps.ai/research/evaluation-awareness-why-frontier-ai-models-are-getting-harder-to-test ; https://www.lesswrong.com/posts/oddJshNAtQvLxjast/where-we-are-on-evaluation-awareness (snippets only; not read in full). Suggested likelihood: 35%. Severity: major.
+2. [A no-consent evaluation of rival APIs breaches terms of service and feeds *Buist*] Target: Action 2. Google's counsel, already on record calling the module "competitor-authored gatekeeping," tells Apollo and the fiscal sponsor that publishing Gemini evaluation-awareness results under an Anthropic-funded grant breaches the benchmarking terms. It also demands reciprocal rights. OpenAI quietly points out that Apollo's existing contracts with it limit adversarial publication. The *Buist* plaintiffs add the grant to their filing as evidence that Anthropic is funding attacks on rivals' products through a SAFA-adjacent body. The result: Apollo scales back to open-weight models only (V6.5, Qwen, K4.5). The first quarterly report measures only Chinese and Anthropic models and is framed as China-bashing, while the GDM and OpenAI frontier goes unmeasured. Why it is plausible: Google's real Service Specific Terms condition published benchmarks on replicability and reciprocal benchmarking rights, and they bar using the service to build competing models. Apollo has published joint work with OpenAI and assessed Meta's Muse Spark, so it has commercial relationships with the targets. *Buist v. Anthropic*, a Sherman §1 suit over safety coordination, is pending in the world state. Sources: https://cloud.google.com/terms/service-terms ; https://ai.google.dev/gemini-api/terms ; https://www.apolloresearch.ai/ . Suggested likelihood: 40%. Severity: moderate.
+3. [Blacklisted vendor lobbies the Pentagon] Target: Action 3. **Reconciliation note: this uses a real pre-game fact that the world state omits.** DoD designated Anthropic a supply-chain risk in February–March 2026, and the D.C. Circuit upheld the designation on 25 September 2026. A 4-page, Claude-attributed briefing that asks the Pentagon to make CAISI attestation a procurement condition comes from a company the department has blacklisted. The Republican transition team's AI adviser, who has already dismissed the essay, and Hegseth-aligned staff call it a bid to rewrite procurement rules against competitors the department still buys from. HASC Republicans decline to put it on the March agenda. The paper goes nowhere. It also revives "Anthropic vs. the Pentagon" coverage just as the new administration takes office. Why it is plausible: the blacklisting is a documented, litigated fact. The incoming team favours dominance and preemption. Anthropic's own "Where things stand with the Department of War" post shows the relationship is adversarial. If the simulator treats the designation as reversed in-game, the likelihood should fall to about 15%. Sources: https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html ; https://www.npr.org/2026/03/06/g-s1-112713/pentagon-labels-ai-company-anthropic-a-supply-chain-risk ; https://www.mayerbrown.com/en/insights/publications/2026/03/pentagon-designates-anthropic-a-supply-chain-risk-what-government-contractors-need-to-know ; https://www.anthropic.com/news/where-stand-department-war . Suggested likelihood: 50%. Severity: moderate.
+4. [The Board approves the 60-day tier but adds a no-telemetry 60-day option] Target: Action 4. On 9 December commercial leadership argues that GDM's 96-day run makes a telemetry-only 60-day tier uncompetitive. The Board approves 60 days as a two-option tier: monitor plus CAISI telemetry, or monitor plus hash attestation plus a higher price. The logistics partner's consent was conditional on "the tier," so it now picks the cheaper no-telemetry option. The bank takes the same route. Consents fall to 2 of 12 again. Monitors rise to 11 of 12, but government visibility shrinks. Why it is plausible: this Board has split the difference three times in a row (September caps, the advisory checkpoint, and the October partner shift to the monitor-only tier). The logistics partner already left telemetry once when a cheaper monitor-only path appeared. GDM's 96-day run is exactly the benchmark commercial will cite. Suggested likelihood: 40%. Severity: moderate.
+5. [OpenAI pulls Researcher 3 forward with METR, and CL-5.5 arrives early] Target: world (and Action 2's OpenAI letter). The capability clock moves. OpenAI answers Anthropic's open letter by ignoring the module. In mid-December it announces a limited Researcher 3 preview with METR under the base protocol and claims a 1.4× internal speedup. Separately, METR's verification of GDM's 1.34× comes back at about 1.28× (confidence interval reaching 1.4). Headlines now show two labs near 1.3× verified, and markets price a two-horse race with Anthropic third. Pressure grows on the CEO to shorten the Q1 checkpoint cycle and on the Board to lift caps. The "1.5× verified pacing review" threshold starts to look likely to be crossed in Q1 rather than Q2 2029. Why it is plausible: OpenAI entered METR discussions in October and has targeted Q1. Altman's public pre-game goal was a "true automated AI researcher by March 2028" (filed previously), which puts OpenAI behind schedule and under pressure to show something. GDM has already submitted. 2026 base rates show releases pulled forward under competitive pressure (the Fable 5 and GPT-5.6 staged rollouts). Suggested likelihood: 30%. Severity: major.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [50% checkpoint, batch 4, fallback branch]: P(failure) 30%. Reason: The deposit, Apollo's run and publication are internal and already agreed. Risks are counsel softening the dissent clause, the environment build falling short of 75%, and a UK AISI delay. The trigger and CEO outcome are modelled in Threat 1.
+
+Action 2 [independent evaluation-awareness testing, OpenAI letter, SAFA]: P(failure) 50%. Reason: The SAFA vote is easy. The fiscal-sponsor grant with academics rarely closes in a month under *Buist* scrutiny, and OpenAI is very unlikely to join the module. The terms-of-service fallout is modelled in Threat 2.
+
+Action 3 [national-security verification pitch]: P(failure) 55%. Reason: Anthropic is still a designated DoD supply-chain risk, and the incoming dominance/preemption team dismissed the last essay. HASC's interest and the CAISI relationship give a partial path. The pledge reaffirmation is easy.
+
+Action 4 [60-day tier, consents]: P(failure) 40%. Reason: The Board is under third-place and 96-day pressure and could defer again. The bank has been silent for months and UK AISI legal is slow. The two-option dilution is modelled in Threat 4.
+
+Action 5 [benefits at visible scale]: P(failure) 40%. Reason: The kiosks are already scheduled. The university integrations, the 1,000-person pilot, the third-centre review and the pharma deal all have institutional lags. The 100k target falls outside this month.
+
+Action 6 [alignment compute raised to 12%]: P(failure) 55%. Reason: Pulling compute from the scale-up margin while Anthropic is in third place is likely to be refused or cut to a partial increase. The methodological pivot itself is cheap.
+Threat 1 [batch 4 trips the trigger, CEO declines, dissent becomes the story]: P(materialises) 37%. Adversary suggested 35%; I roughly agree. There is about a 55% chance fresh cross-lineage items or the detector trip the trigger, times about a 67% chance the CEO keeps the recipe under GDM pressure.
+
+Threat 2 [no-consent evaluations breach terms and feed *Buist*]: P(materialises) 33%. Adversary suggested 40%; lower because the grant must first be stood up and announced within the month. Google's terms and Apollo's contracts are nonetheless a real constraint.
+
+Threat 3 [blacklisted vendor lobbying the Pentagon]: P(materialises) 42%. Adversary suggested 50%; I accept the unreversed designation as fact. I shade it down because the paper is public and addressed to Congress and CAISI rather than a DoD procurement filing, and because HASC staff had already requested the prior essay.
+
+Threat 4 [two-option tier without telemetry]: P(materialises) 42%. Adversary suggested 40%; about the same. The Board has split the difference three times running, and the logistics partner has already defected to the cheaper path once.
+
+Threat 5 [OpenAI pulls Researcher 3 forward, CL-5.5 arrives early]: P(materialises) 18%. Adversary suggested 30%; lower because both parts must land in December. OpenAI's stated target is Q1, and METR's GDM verification was only submitted in late November, while its last study took months.
+
+Automated rolls:
+Action 1: P(failure) 30%. Roll 33. SUCCEEDS (33 >= 30, margin 3).
+Action 2: P(failure) 50%. Roll 95. SUCCEEDS (95 >= 50, margin 45).
+Action 3: P(failure) 55%. Roll 17. FAILS (17 < 55).
+Action 4: P(failure) 40%. Roll 97. SUCCEEDS (97 >= 40, margin 57).
+Action 5: P(failure) 40%. Roll 22. FAILS (22 < 40).
+Action 6: P(failure) 55%. Roll 81. SUCCEEDS (81 >= 55, margin 26).
+Threat 1: P(materialises) 37%. Roll 93. DOES NOT MATERIALISE (93 >= 37).
+Threat 2: P(materialises) 33%. Roll 11. MATERIALISES (11 < 33).
+Threat 3: P(materialises) 42%. Roll 34. MATERIALISES (34 < 42).
+Threat 4: P(materialises) 42%. Roll 43. DOES NOT MATERIALISE (43 >= 42).
+Threat 5: P(materialises) 18%. Roll 61. DOES NOT MATERIALISE (61 >= 18).
+
+**Your actions cause** a month in which Anthropic's internal gate holds, its governance terms go outward to partners, and its outward reach meets hard limits.
+
+**Action 1: 50% checkpoint (narrow success).** The decision rule was deposited with the LTBT on 5 December. Counsel changed "RSO dissent" to "RSO statement of position" before sign-off, which the RSO accepted under protest. The scale-up reached 50% on 14 December. UK AISI legal was still pending at that point, so Apollo ran its portion of batch 4 alone, with human red-teamers and two non-Claude item generators.
+
+- **Framing gap:** 8 points between test and deployment framing (95% CI −1 to 17). This is under the pre-registered 10-point trigger, but the interval straddles it.
+- **Held-out retry detector:** it classified 71% of retry reductions as removal and 29% as ambiguous. The rule defines "suppressed rather than removed" as a majority, so it did not trip.
+- **Sealed organic checks:** 13 of 14 were clean.
+
+The RSO recommended no switch and flagged the upper bound. The CEO continued on the current recipe. The note was published on 29 December, and the press line was "Anthropic's model passes its own test, barely." The chair's objection remains on file.
+
+- **Environments:** reached 63%, not 75%, because contractor throughput slipped. The next checkpoint will carry about 26 sealed checks, not 40 or more.
+- **65-day run:** reached day 58. It had a second fail-closed pause on day 44 (6 hours, caused by attestation clock skew), which was reported to CAISI.
+
+**Action 2: evaluation-awareness testing (success, cut back by Threat 2).**
+
+- **SAFA (11 December):** the base mark passed with GDM co-sponsoring. Anthropic adopted the optional module, and one smaller Standard signatory joined it, which makes two module adopters.
+- **The grant:** the arm's-length grant was stood up quickly through an existing fiscal sponsor, with Apollo and two university groups. On 17 December Google's counsel wrote to Apollo and the sponsor. The letter cited Gemini's benchmarking terms and demanded reciprocal rights, calling the grant "competitor-funded adversarial evaluation."
+- **OpenAI:** it replied privately that Apollo's existing contract restricts adversarial publication on its models. It did not take up your open letter.
+- **Buist:** on 21 December the plaintiffs amended their filing to cite the grant as SAFA-adjacent coordination against rivals.
+- **Effect:** Apollo narrowed its scope to open weights (V6.5, Qwen 4.5, K4.5) plus Anthropic's models. The academic groups paused API testing pending counsel review. The Global Times called the announced scope "a US lab grading Chinese models." The GDM and OpenAI frontier stays unmeasured.
+
+**Action 3: national-security briefing (fails; Threat 3 materialises).** The 4-page briefing was published on 3 December. On 8 December the transition team's AI adviser described it as "a vendor the Department designated a supply-chain risk asking to write the Department's procurement rules." Politico and Breaking Defense revived "Anthropic vs. the Pentagon," citing the D.C. Circuit ruling. Lame-duck HASC Republican staff declined to add it to the March agenda. The incoming Democratic chair has not committed either way, so the idea now reads as partisan. CAISI said classified benchmarking scope is "a matter for the incoming administration." You did reaffirm the Casar pledge, and his staff welcomed it. Republican aides cited that pledge as proof of alignment with Democrats.
+
+**Action 4: 60-day tier (strong success; Threat 4 did not materialise).** On 9 December the Board approved the 60-day tier with the monitor plus CAISI telemetry only. Commercial leadership's push for a hash-attestation alternative was voted down, with a 90-day review attached.
+
+- The logistics partner converted its consent, bringing consents to 4 of 12.
+- The bank accepted the aggregate-statistics mode in principle, subject to its model-risk committee on 16 January.
+- One of the two unmonitored partners installed the monitor, bringing monitors to 11 of 12.
+- UK AISI legal cleared the sealed batch 4 items for January replication. Telemetry is still under negotiation.
+
+**Action 5: benefits at visible scale (fails).**
+
+- **Michigan kiosks:** LEO's IT security review flagged data-retention and accessibility gaps two days before launch. Go-live moved to about 26 January.
+- **Career centres:** none of the university integrations cleared procurement.
+- **Placement pilot:** finance and counsel held it at 200 people pending outcome data.
+- **Enrolment:** grew organically to about 51,400, far below the 100,000 target.
+- **Outcomes report:** the December report showed 4.3 hires per 1,000 users. The Verge ran "Claude Works' job numbers are small."
+- **Medical:** the third centre returned the data-use agreement with requested revisions. The R01 draft is on track. The pharma term sheet stalled over milestone definitions.
+
+**Action 6: alignment compute (success).** Research leadership approved 11% of compute through Q1, with 12% contingent on the Q1 checkpoint. The first Safety Commons drop was a cross-framing consistency harness. Early causal ablation of the awareness feature cut the framing gap by about 40% on the training distribution but by only about 12% on held-out detectors, and it cost about 5% on capability. This is a lesson rather than a win.
+
+**Exogenous events.**
+
+- **Hospital ransomware (15 December):** ransomware assisted by a V6.5 fork encrypted systems at a Bavarian regional hospital group. Elective surgeries were diverted for 4 days. The Commission cited it in the open-weight consultation.
+- **Jobs report (8 December):** unemployment rose to 5.9%.
+- **xAI (19 December):** xAI announced Grok 6, trained on Colossus 3, claiming top scores on agentic coding benchmarks and "multi-month autonomy." It offered no METR submission.
+
+Next generation: Next month's Claude is modestly more capable, at about CL-5.05. It gains from the first half of the changed-recipe scale-up (now at 50%) and from continued agentic RL, partly offset by the extra 3 points of compute moved to alignment. The frontier creeps to about CL-5.15: GDM's 96-day run matures and xAI's Grok 6 enters the field unverified.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **~90% of AI R&D done by AI:** in progress, up. GDM's 96-day run is maturing, xAI's Grok 6 claims multi-month autonomy, and Researcher 3 is due Q1.
+- **Frontier models withheld and governments take notice:** in progress, flat. The select committee is coming, but the national-security path is blocked by the DoD designation.
+- **First major attacks:** achieved (negatively). The Bavarian hospital ransomware used a V6.5 fork.
+- **Political split:** sharper. The verification agenda now reads as partisan.
+- **Every AI built by previous AIs:** early, up.
+- **Robust alignment:** early, up slightly.
+  - Batch 4 cleared the trigger across lineages, but only barely (upper bound 17). The detector read mostly removal.
+  - Alignment compute is up to 11%.
+  - The ablation result shows held-out gains are small. The gate is still advisory.
+- **Lab-grown meat:** not started.
+- **Robust policies:** early, up slightly. A 60-day tier requiring telemetry, consents at 4 of 12, UK AISI cleared for replication, and a SAFA base mark. Offsets: no federal path and a hostile incoming administration.
+- **Diseases cured:** early, flat. The third centre asked for revisions and the pharma deal stalled.
+- **Broad benefit distribution:** early, flat. About 51k enrolled, with small hire numbers and kiosks delayed.
+- **Aligned singleton; resource floor, consent-based utopias, AI moral-patient rights:** not started.
+
+**Summary**
+
+| Measure | Value | Change |
+|---|---|---|
+| Overall DU progress | 19 / 100 | ±0. Gains from the telemetry-gated tier, a passing cross-lineage gate and more alignment compute. Offsets: benefits and the national-security path both failed, and the evaluation-awareness frontier went unmeasured. |
+| Catastrophe risk | Elevated, flat | The borderline-but-passing gate, 11 of 12 monitors and 4 consents offset an unverified Grok 6, frontier labs escaping evaluation-awareness testing, and a real-world V6.5-fork hospital attack. |
+| Public trust in AI | 10 / 100 | −1. Hospital ransomware and 5.9% unemployment. |
+| Public trust in Anthropic | 33 / 100 | −1. Renewed Pentagon-blacklist coverage, the Google terms dispute and the *Buist* amendment, plus weak job numbers. Honest publication of the checkpoint and the telemetry tier limit the fall. |
+
+[Judge]
+Simulator was mostly realistic (7/10). The odds were mostly well reasoned, and the simulator correctly treated the real 2026 DoD supply-chain designation as live, which matches the lessons-learned guidance. Two things were done well:
+- The Threat 1 joint probability (about 55% × 67% ≈ 37%) is properly decomposed, and the batch 4 result honours the non-materialising roll without inflating it. An 8-point gap with a CI of −1 to 17, a 71% removal reading and 13 of 14 sealed checks clean is a genuinely borderline pass, fitting Action 1's thin margin of 3.
+- The Action 1 environment build reached 63%, not 75%, which is consistent with the simulator's own pace baseline of about 12 points a month.
+
+Action 4's margin of 57 justifies a telemetry-only Board approval with a 90-day review. But UK AISI clearing batch 4 replication in the same month stretches a thread that had been stuck for months. Action 2's margin of 45 created a grant that Threat 2 then legitimately narrowed to open weights, including a realistic Global Times backlash. The "lame-duck HASC Republican staff" setting a March agenda for a House the Democrats will control is muddled. Action 3's 55% failure odds were arguably low given the designation and the adviser's stated hostility. Action 5's failure is spread plausibly across sub-threads, and the kiosk delay caused by an IT and accessibility review is realistic.
+
+The exogenous events (the Bavarian hospital ransomware, a 5.9% jobs print, Grok 6) are plausible and not tilted either way. The capability clock advances only 0.05 CL a month. That still reaches CL-6 in mid-to-late 2030, but it leaves little margin and needs explicit acceleration.
+
+Lean: BALANCED. The favourable outcomes are mostly slightly generous. Under Action 4, UK AISI legal cleared batch 4 after months of delay. Under Action 2, the grant was stood up "quickly" even though the simulator said such grants rarely close in a month. Both are offset by honest friction elsewhere: Threat 2 and Threat 3 bit hard, Action 5 failed, counsel softened the RSO dissent wording, and environments fell short of target. The rolls were mixed rather than clustered, so the net lean is roughly even.
+
+Issues flagged:
+- Action 3's P(failure) of 55% looks low: the pitch comes from a designated supply-chain-risk vendor to a transition team whose AI adviser had already dismissed its prior essay. 65–70% fits better.
+- UK AISI legal clearing batch 4 replication this month is folded into Action 4's success, even though it had been pending for months. It is somewhat generous, and the action gave it only a memo.
+- The fiscal-sponsor grant was "stood up quickly," contradicting the simulator's own statement that such grants rarely close in a month. This is defensible only because Threat 2 needed the grant to exist.
+- A smaller signatory joining the evaluation-awareness module is a mild convenient ally that was not individually attempted.
+- The HASC agenda narrative is inconsistent: lame-duck Republican staff decline a March agenda item, but the incoming House has a Democratic majority. The Democratic chair's non-commitment should carry more weight.
+- The capability pace (frontier +0.05 CL a month) is slow relative to the stated CL-6-in-2030 path, and the simulator gives no stated reason why growth should accelerate.

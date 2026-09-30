@@ -10,7 +10,8 @@
  *          --model <id> (all three roles), --agent-model, --simulator-model,
  *          --judge-model, --adversary-model, --no-adversary, --effort low|medium|high|max,
  *          --fixed-rolls (every roll is 50: replicable runs that compare models without luck),
- *          --no-auto-resume (stop at the first failure instead of resuming after a wait)
+ *          --no-auto-resume (stop at the first failure instead of resuming after a wait),
+ *          --cautious (new runs only: without the play-to-win instructions and revised agent lessons)
  *
  * Runs are checkpointed after every step, including the rolls, so a stopped run resumes exactly
  * where it left off without asking any role again or re-rolling. By default a failed run resumes
@@ -49,6 +50,7 @@ const cfg = defaultConfig({
   ...(args.includes("--no-adversary") ? { adversaryModel: undefined } : {}),
   ...(opt("effort") ? { effort: opt("effort") } : {}),
   ...(args.includes("--fixed-rolls") ? { fixedRolls: true } : {}),
+  ...(args.includes("--cautious") ? { ambitious: false } : {}),
 });
 
 if (args.includes("--consent-only")) {

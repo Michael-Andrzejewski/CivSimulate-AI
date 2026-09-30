@@ -48,6 +48,13 @@ and the human reader. Each role also sees its own commentary when asked for publ
 final commentary and the judges' feedback. Each file goes into that role's standing instructions only;
 no role sees another's lessons.
 
+**Playing to win.** New runs tell the agent that playing safe and losing is still losing: the game
+is decided by the leading AI system on 30 December 2030, whoever builds it. Each month it works back
+from the deadline, looks for moves that shift the odds by tens of points, uses its scale (tools for
+every lab, large visible benefits), argues openly in its own voice, and pushes Anthropic hard. The
+scenario's hard rules are unchanged. Ambitious runs also use the revised agent lessons in
+`lessons/ambitious/`. `--cautious` turns this off; runs started before it keep their old play.
+
 **Private progress bar.** Each month the judge also scores the world against
 `du_progress_rubric.md`: eight weighted dimensions (verified technical alignment, real-world alignment
 in action, human alignment, self-repairing systems, capability growth without trouble, governance and

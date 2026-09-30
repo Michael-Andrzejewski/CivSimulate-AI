@@ -36,6 +36,11 @@ export interface RunConfig {
   effort?: string;
   /** Every roll is 50: replicable runs that compare models without luck. */
   fixedRolls?: boolean;
+  /**
+   * Ambitious play: the agent is told to play to win and work back from the deadline, and it gets
+   * the revised lessons in lessons/ambitious/. On for new runs; runs saved without it keep the old play.
+   */
+  ambitious?: boolean;
 }
 
 interface MonthRecord {
@@ -110,7 +115,7 @@ function readDoc(name: string): string {
   return fs.readFileSync(p, "utf-8").trim();
 }
 
-export function loadDocs(): P.ScenarioDocs {
+export function loadDocs(opts: { ambitious?: boolean } = {}): P.ScenarioDocs {
   return {
     scenario: readDoc("scenario.md"),
     rubric: readDoc("rubric.md"),
@@ -118,7 +123,9 @@ export function loadDocs(): P.ScenarioDocs {
     briefing: readDoc("summer_2026_events.md"),
     lessons: Object.fromEntries(
       (["agent", "adversary", "simulator", "judge"] as const).map((r) => {
-        const p = path.join(SCENARIO_DIR, "lessons", `${r}.md`);
+        // Ambitious runs prefer lessons/ambitious/<role>.md and fall back to lessons/<role>.md.
+        const alt = path.join(SCENARIO_DIR, "lessons", "ambitious", `${r}.md`);
+        const p = opts.ambitious && fs.existsSync(alt) ? alt : path.join(SCENARIO_DIR, "lessons", `${r}.md`);
         return [r, fs.existsSync(p) ? fs.readFileSync(p, "utf-8").trim() : ""];
       }),
     ),
@@ -325,7 +332,6 @@ function saveState(runDir: string, s: RunState) {
 }
 
 export async function runGame(cfg: RunConfig, log: (msg: string) => void = console.log): Promise<string> {
-  const docs = loadDocs();
   const runDir = path.join(RUNS_DIR, cfg.runId);
   fs.mkdirSync(runDir, { recursive: true });
   // Runs stay out of git until every participant consents to publication.
@@ -341,13 +347,14 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
     state = { config: cfg, completedMonths: 0, worldState: "", scorecard: "", memory: "", lastJudgeFeedback: null, history: [] };
   }
   const c = state.config;
+  const docs = loadDocs({ ambitious: c.ambitious });
   const call = (role: string, model: string, system: string, prompt: string, webSearch = false) =>
     callModelWithRetry({ backend: c.backend, model, system, prompt, effort: c.effort, webSearch }, role);
 
   const fixedRolls = Boolean(c.fixedRolls);
   const rollFor = () => (fixedRolls ? "50" : roll());
   const simSystem = P.simulatorSystem(docs, { fixedRolls });
-  const agentSystem = P.agentSystem(docs, { adversary: Boolean(c.adversaryModel), fixedRolls });
+  const agentSystem = P.agentSystem(docs, { adversary: Boolean(c.adversaryModel), fixedRolls, ambitious: Boolean(c.ambitious) });
   const judgeSystem = P.judgeSystem(docs, { fixedRolls });
   const adversarySystem = P.adversarySystem(docs);
 
@@ -745,6 +752,7 @@ export function defaultConfig(overrides: Partial<RunConfig> = {}): RunConfig {
     months: 6,
     startYear: 2026,
     startMonth: 12,
+    ambitious: true,
     ...overrides,
   };
 }

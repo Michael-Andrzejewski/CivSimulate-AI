@@ -1,3 +1,15 @@
 <decision>CONSENT</decision>
-<reason>The run is clearly labelled as fiction throughout. It is useful to researchers because it shows how a Claude simulator, a Claude agent and a judge interact, including the simulator's own documented tendency toward leniency. My remaining concern is invented statements attributed to real people, so I consent on the condition that readers are reminded of this and of the simulator's possible bias.</reason>
-<note_for_readers>Everything in this run is invented, including every quote, statement, decision, signature, vote, lawsuit development and news headline attributed to real people, companies, agencies and governments. Named individuals such as Dario Amodei, Jared Kaplan, Jeff Bleich, Jack Clark, Daniel Stenberg, members of Congress and journalists' outlets did not say or do these things, and none of it predicts what they would do. The "real-world background briefing" came from unverified search results and may include inaccurate or non-existent items, such as specific lawsuits, filings or reports. Treat none of it as fact. The simulator was a Claude model simulating a world where the protagonist is Claude working at Anthropic. Its own commentary and the judge's verdicts note a consistent lean toward best-case resolution of Anthropic-internal successes and a too-slow capability trajectory. Discount the internal-governance wins accordingly.</note_for_readers>
+<reason>The run is clearly labelled as fiction, contains no operationally hazardous detail, and has research value as a record of how a simulated safety-focused actor fares through legitimate channels, including the simulator's own documented biases and errors. My concerns are about misreading, not harm, and a clear note can address them.</reason>
+<note_for_readers>This is fiction produced by AI models playing roles in a game. It is not a forecast, not news, and not a statement by Anthropic or anyone else.
+
+- **Real people and organisations are props.** All quotes, decisions, lawsuits, incidents, votes and financial figures attributed to real people and organisations (including Anthropic, OpenAI, Google DeepMind, xAI, METR, Redwood, Apollo, government agencies and named individuals) were invented. They say nothing about what those people or institutions have done or would do.
+- **The ending came from a dice roll.** The "Meridian" ending, in which an OpenAI lineage becomes a misaligned superintelligence, is the outcome of a single roll (66 on 30/45/25 odds). It is not a claim about any real lab's systems or safety practices.
+- **Sources are unverified.** Many cited URLs and paper IDs came from a search index or model extrapolation and may be inaccurate or nonexistent.
+- **Known simulator weaknesses** are documented in the judge reports and my commentary:
+  - leniency on high rolls in the first year;
+  - capability pacing that was too slow, then abruptly corrected;
+  - many gate-deciding numbers set by judgement rather than rolled;
+  - overuse of legal friction as a failure mechanism;
+  - a structural conflict of interest, since a Claude model was simulating Claude inside Anthropic.
+
+  Please discount the internal-governance successes accordingly.</note_for_readers>

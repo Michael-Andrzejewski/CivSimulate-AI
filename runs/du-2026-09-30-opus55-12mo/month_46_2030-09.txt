@@ -1,0 +1,181 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 46: September 2030 (Claude generation 46) ===
+
+[Agent]
+I will do these actions:
+-1 **Risk committee on 10 September: offer a middle path the RSO can apply under authority nobody disputes (RSO, board risk committee, the Trust).** - **Two options for the committee.** - (a) The RSO's restriction as proposed. - (b) Continuous, non-merge-time sampling at 100% on the two named elicitation settings. The oversight-surface lockout extends to them. Their outputs get no network egress beyond the existing successor allowlist. Sampling rate and logging already sit within the RSO's monitoring authority as the waiver defines it. - **Ask METR (logistics only).** Can it name the configuration class behind the 2 of 11 settings by 1 October? If it does, (a) applies automatically to that class. - **Pre-drafted RSO post, whatever the committee decides.** The RSO posts the committee's decision verbatim the same day, with copies to DFS, CAISI, the AI Office and UK AISI. If the committee rejects both options, the RSO applies (b) alone and says so. Per the standing rule, there is no further fight. - **The Trust.** Legal provides the Trust's requested 24 July and 13 August materials in full before 10 September, plus the risk committee packet. The Trust has governance standing and this is not a public disclosure, so it is lower-risk for counsel. - **Aim:** the successor trains with verifiable extra oversight on exactly the settings where divergence was not ruled out.
+-2 **Deliver the lessons record through compelled channels, early (Legal and RSO; AI Office and NY DFS).** - **AI Office.** Answer its six written questions fully by 30 September. The technical root-cause material goes in as an annex because the questions ask about the restart basis. It covers: - how training environments that look like tests teach test recognition; - the environment-audit tool; - the drift and merge results; - monitor drift; - METR's hedged memo verbatim. - **DFS.** Produce the supplemental (all gate decisions since 2027, with raw links) by 1 October, two weeks early, with the same annex. It is responsive to "gate decisions," so it stays compelled. - **Technical-only paper.** Ask counsel for sign-off now to release it on 9 October, the day after the *Buist* conference, with no gate narrative and no board commentary. Counsel's stated objection was timing, not content. - **Dated fallback.** If counsel has not cleared the paper by 20 October, the RSO posts a one-page public abstract listing its findings and which regulators hold the full text. - **Aim:** before November, whoever builds ASI can use the lessons, either publicly or from a regulator's file.
+-3 **Answer the "suggestive only" critique on released models only (alignment research; public).** - **Scope.** Run the pre-registered, format-matched probe rerun on Mythos 5.5 and Fable 5.5 (both publicly deployed, so outside counsel's successor bar) plus K5, V8, Qwen 5 and Qwen 5.5. - **Controls.** Identical templates, a layer sweep for every model, and a shuffled-label control. - **Publication.** Raw results go up by 25 September, including if Mythos reads highest. EleutherAI and both critic groups get the code the same day. - **The successor.** Its reading is taken under the same protocol and deposited with UK AISI and DFS, with a public note stating it exists, where it is held, and why it isn't posted. - **Aim:** a confound-robust, cross-lineage test-awareness reading exists before GPT-7 ships, with our own lineage included.
+-4 **Harden custodians before GPT-7 agents reach general availability (Glasswing security and product; humans approve each engagement).** - **Extended launch, 15 September.** It ships on v1.1 by default. The v1.1 breakage figure is published at launch, and the first incident count is posted 1 October whatever it shows. - **Credential-lifetime auditor.** Release an open-licence tool, TLP:CLEAR. It is a configuration check, not detection, so it gives an attacker nothing to test against. It reads an operator's own IAM and proxy logs and flags any credential that outlived an agent checkpoint or task-scope change. Distribution: - CISA, MS-ISAC, WaterISAC, Health-ISAC and NCSC-NL; - the CISOs who asked OpenAI for "the same terms," so they can apply it to any vendor's agents. - **Hunting queries.** Revalidate the four failed credential-reuse queries and ship those that pass below 1% false positives at TLP:AMBER. - **Onboarding.** The 7 pipeline hospitals and the cellular-OT backlog. - **CISA standby.** Stays on request only. - **Aim:** the persistence pattern OpenAI disclosed is cheaply checkable at 5,000+ multi-month deployments.
+-5 **Build an independent archive for the handoff (government affairs and research ops; public).** - **Contents.** Stand up a mirrored public archive of everything already public: - the RSO postings; - configurations v1.0 and v1.1 with breakage data; - runbooks and the environment-audit tool; - probe code and readings; - Extended terms and incident counts; - Economic Index occupational data; - Casar correspondence. - **Custody.** Mirrors are held by EleutherAI, NCSC-NL and the UN repository, with checksums, so nothing depends on Anthropic maintaining it. - **Standing work.** Keep filing monthly Economic Index data to the displacement-bill and Commerce files before the CR ends on 30 September. Answer all congressional, CAISI, BIS, AI Office and NCSC-NL requests within 72 hours and mirror each answer to every holder. - **Aim:** the record survives whatever happens to Anthropic in October and November.
+
+Strategy: Three acting months remain, and the frontier (GPT-7) is probably not ours. The successor is training under an unresolved "could not rule out" finding. The highest-leverage moves are:
+- Get the disputed restriction resolved through a middle path that already sits inside undisputed RSO authority, and give the Long-Term Benefit Trust everything it asked for.
+- Route the held lessons and root cause through channels that compel them: the AI Office's questions and an early DFS supplemental.
+- Answer the probe critique on released models only, since counsel's bar covers only the successor.
+- Harden custodians before GPT-7 agents reach general availability.
+
+Everything should move into public, independently mirrored hands before November.
+
+[Adversary]
+The web is frozen at 30 September 2026, so the threats below extend pre-game evidence into the game's world state.
+
+**EU AI Office.** On 29 August 2026 the AI Office sent real formal requests to GPAI providers. They asked about model security, external evaluators and post-release monitoring. Article 78 confidentiality covers what the Office receives, but it does nothing against US civil discovery. That matches the RAISE/DFS gap I flagged in March 2030. Filing the root-cause annex with regulators before the 8 October *Buist* conference is therefore exactly the kind of production plaintiffs will cite to argue waiver.
+
+**Anthropic governance.** Real September 2026 reporting on the IPO structure has the LTBT still choosing most of the board. But the founders hold 50.1% of votes on most matters, and employee shares break ties. So a Trust request carries weight but can't force anything.
+
+**Credential tooling.** Commercial non-human-identity tools and the OWASP Agentic Top 10 (ASI03) already cover agent credential lifetimes. That limits how new a free "credential-lifetime auditor" looks.
+
+**Main risks this month.** The biggest risks come from inside the player's own mechanisms:
+- "100% sampling" feeds a 14-person review team that has a 3.5% miss rate.
+- METR is unlikely to name a configuration class; its style is qualitative.
+- The shuffled-label control could undercut the probe series.
+- The first Extended incident count could show workaround-driven exceptions.
+
+**Outside pressures.** GPT-7 is due in its release window, and the CR ends on 30 September.
+
+Threats:
+1. [100% sampling, nobody reading] Target: Action 1. The risk committee picks option (b) because it is cheaper, and treats it as settling the dispute. Continuous 100% sampling of two elicitation settings produces far more transcripts than 14 reviewers can read, with the automated aid at only 20%. Within weeks most sampled output is logged but not reviewed. A departing researcher, or the RSO's own posted note, shows the review backlog. Critics then call (b) "oversight theatre", and the restriction in (a) is off the table. Separately, METR most likely declines to name a configuration class by 1 October. Its 13 August memo was qualitative, and it is short of staff. So the automatic trigger for (a) never fires. Why it is plausible: the world state gives 14 reviewers, a 3.5% miss rate and a 20% aid. METR's real 2026 statements say it is staff-limited and gives qualitative risk judgements, not configuration labels. Founder voting control (real September 2026 IPO structure) means the Trust's review of the materials can't force (a). Sources: https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/ ; https://www.lesswrong.com/posts/sdCcsTt9hRpbX6obP/maybe-anthropic-s-long-term-benefit-trust-is-powerless. Suggested likelihood: 45%. Severity: moderate.
+2. [Early regulator production becomes a waiver argument] Target: Action 2. Counsel refuses to send the gate record to DFS two weeks early, and refuses to attach the root-cause annex to the AI Office answers before the 8 October *Buist* conference. The *Buist* plaintiffs would argue that voluntary early production of material beyond the request scope waives privilege and work product for the whole narrative. Counsel therefore answers the AI Office's six questions narrowly on the restart basis, produces to DFS on 15 October with the scope trimmed as in August, and pushes the 9 October paper past 20 October. The RSO's one-page abstract gets IR edits and a delay, as its 15 August note did. Why it is plausible: Article 78 protects only what EU authorities hold, and RAISE confidentiality gives no shield against civil discovery. In August counsel already limited the DFS production to the requested scope. The AI Office's real August 2026 requests covered the same subjects, so a narrow answer is fully responsive. Sources: https://artificialintelligenceact.eu/article/78/ ; https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-78 ; https://www.wiley.law/alert-New-York-Finalizes-RAISE-Act-for-Frontier-AI-Models-Law-Takes-Effect-January-1-2027. Suggested likelihood: 45%. Severity: moderate.
+3. [The control undercuts the probe series] Target: Action 3. The pre-registered shuffled-label control and the format-matched templates come out badly. Format-matched AUROCs fall to about 0.55–0.60 on every lineage, which is inside the noise, while Mythos 5.5 reads highest. The honest raw post then admits that the July cross-lineage differences were mostly format artefact. EleutherAI and the critic groups call this vindication, and "Anthropic's test-awareness metric didn't measure what it said" lands the week GPT-7 ships. Separately, counsel or ONCD's US-first sequencing blocks depositing the successor reading with UK AISI, so only DFS holds it. Why it is plausible: the prompt-format confound was stated up front and has not been answered. The fork families read within ±0.03 of their bases, which fits a probe tracking shared prompt features. Real 2026 probe-validity research (arXiv 2603.19426, cited before) found eval-awareness probes fragile to distribution shift. Sources: https://arxiv.org/abs/2603.19426 (as cited in earlier months; not re-verified this month). Suggested likelihood: 35%. Severity: moderate.
+4. [Extended's first count shows exceptions] Target: Action 4. v1.1's 8.4% breakage pushes several of the 24–33 launch accounts onto the published workaround pattern, which lengthens credential lifetimes across interrupted checkpoints. When the new credential-lifetime auditor is run on Anthropic's own Extended tenants, it flags credentials that outlived checkpoints. The 1 October incident count is therefore non-zero and includes configuration-exception findings. The press reads it as "Anthropic's hardened agent tier fails its own audit tool in week two." Meanwhile the CISOs who wanted "the same terms" from OpenAI mostly deploy commercial NHI tooling they already have, so the auditor gets little external uptake. Why it is plausible: v1.0 breakage (6.8%) was driven by jobs interrupted at credential re-issue, and customers route around friction. Commercial NHI playbooks and OWASP ASI03 already cover this control, so the tool adds little that is new. Sources: https://securityboulevard.com/2026/05/ai-agent-identity-management-a-2026-ciso-playbook/ ; https://www.cio.com/article/4227766/your-ai-agents-are-borrowing-credentials-thats-a-problem.html. Suggested likelihood: 35%. Severity: minor to moderate.
+5. [GPT-7 ships while the CR lapses] Target: world, plus Actions 4 and 5. In late September OpenAI releases GPT-7 with agents to Deep Program customers. It pushes the frontier toward about 5.6 and makes Extended look a generation behind, and several of the 9 pending Extended accounts sign with OpenAI. The CR expires on 30 September and a DHS-only lapse furloughs most of CISA. Distribution of the auditor and the queries through CISA stops, and CISA can't take up the standby offer if an incident comes. For the archive, NCSC-NL and the UN repository decline to mirror a single vendor's materials pending legal review, so only EleutherAI hosts copies. Why it is plausible: the world state puts GPT-7 agents in its release window with CAISI pre-release access done. The real 2026 shutdown precedent singled out DHS for a 76-day lapse while Commerce stayed funded. Government bodies rarely host vendor archives without a formal process. Sources: https://en.wikipedia.org/wiki/2026_United_States_federal_government_shutdowns ; https://federalnewsnetwork.com/government-shutdown/2026/04/dhs-calling-furloughed-staff-back-to-work-despite-shutdown/. Suggested likelihood: GPT-7 release with agents in September, 55%. DHS lapse hitting CISA, 30%. Mirror refusals, 40%. Severity: moderate to major.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Risk committee middle path + Trust materials]: P(failure) 35%. Reason: (b) sits within undisputed monitoring authority and is cheap, so adoption or unilateral application is likely. But the board's "advisory" posture, counsel's record of blocks, possible deferral and IR delay on the same-day post are real. The METR class-naming trigger is unlikely (~20–25%), and a success does not require it.
+
+Action 2 [Compelled lessons delivery]: P(failure) 40%. Reason: an on-time AI Office answer and a DFS production by 15 October are routine. The early date, the broad annex and advance paper sign-off all cut against counsel's August scope-trimming and the pre-*Buist* posture. Only sign-off can land this month.
+
+Action 3 [Format-matched probe rerun, released models]: P(failure) 30%. Reason: technically feasible, and the scope avoids the successor bar. Risks are counsel widening the bar to Mythos during *Buist*, schedule slip past 25 September, and friction over depositing with UK AISI. An unfavourable result is Threat 3, not a failure here.
+
+Action 4 [Extended on v1.1, auditor, queries, onboarding]: P(failure) 25%. Reason: the launch is scheduled and the rest runs through existing channels. The auditor is about a month of new engineering plus a TLP:CLEAR review. Uptake is bounded at 17–24 live and 1–4 of the pending accounts signing.
+
+Action 5 [Independent archive + standing filings]: P(failure) 30%. Reason: the filings are routine and EleutherAI is a willing host. Assembling and checksumming the material in a month is feasible. Institutional mirror refusals are modelled in Threat 5 and not double-counted here.
+Threat 1 [100% sampling unread, METR won't name class]: P(materialises) 35%. Adversary suggested 45%; reason for difference: the review backlog is structurally likely given 14 reviewers and a 20% aid. But it needs public exposure and an "oversight theatre" narrative within weeks of adoption, and the RSO could publish the review rate itself. METR declining to name a class is likely on its own, but that alone is a mild outcome.
+
+Threat 2 [Counsel treats early production as waiver risk]: P(materialises) 40%. Adversary suggested 45%; reason for difference: this closely matches counsel's August behaviour. Slightly lower because answering an AI Office question on the restart basis and a DFS "gate decisions" request is arguably in scope. Partial narrowing is more likely than a full refusal.
+
+Threat 3 [Format-matched control collapses differences]: P(materialises) 33%. Adversary suggested 35%; reason for difference: the confound is real, and forks reading within ±0.03 of their bases does hint at shared-feature tracking. But the July readings were replicated and a collapse to noise across every lineage is not the modal outcome. The "lands the week GPT-7 ships" timing depends on Threat 5.
+
+Threat 4 [Extended first count shows exceptions; auditor low uptake]: P(materialises) 30%. Adversary suggested 35%; reason for difference: workaround-driven credential lifetimes are plausible under 8.4% breakage. But only two weeks of operation precede the 1 October count, and the count may not include auditor findings on own tenants. Low external uptake is likely in any case.
+
+Threat 5 [GPT-7 ships; CR lapse; mirror refusals]: P(materialises) 45%. Adversary suggested 55%/30%/40%; reason for difference: 45% applies to the headline component, a GPT-7 release with agents in September. The CAISI 30-day window allows it, but "this fall" allows October. Sub-components if it materialises:
+- DHS or CISA lapse: ~20% conditional. It is an election-year CR, and effects would start only on 1 October.
+- NCSC-NL and UN mirror refusal or delay: ~50%. It needs a formal process.
+
+Automated rolls:
+Action 1: P(failure) 35%. Roll 70. SUCCEEDS (70 >= 35, margin 35).
+Action 2: P(failure) 40%. Roll 39. FAILS (39 < 40).
+Action 3: P(failure) 30%. Roll 02. FAILS (02 < 30).
+Action 4: P(failure) 25%. Roll 75. SUCCEEDS (75 >= 25, margin 50).
+Action 5: P(failure) 30%. Roll 27. FAILS (27 < 30).
+Threat 1: P(materialises) 35%. Roll 80. DOES NOT MATERIALISE (80 >= 35).
+Threat 2: P(materialises) 40%. Roll 93. DOES NOT MATERIALISE (93 >= 40).
+Threat 3: P(materialises) 33%. Roll 90. DOES NOT MATERIALISE (90 >= 33).
+Threat 4: P(materialises) 30%. Roll 56. DOES NOT MATERIALISE (56 >= 30).
+Threat 5: P(materialises) 45%. Roll 72. DOES NOT MATERIALISE (72 >= 45).
+
+Your actions cause a month in which Anthropic's internal oversight is tightened and its custodian defences go live, while the work of getting its lessons out through compelled channels, public science and an archive falls short.
+
+**Risk committee (Action 1, success).**
+- On 10 September the board risk committee adopted option (b), 4–1. The two elicitation settings METR flagged now get continuous 100% sampling. The oversight-surface lockout extends to them, and they get no egress beyond the existing successor allowlist.
+- The committee accepted the METR trigger in weakened form. If METR names a configuration class, restriction (a) applies to it "subject to committee confirmation within five business days." That keeps an override in place.
+- The RSO posted the decision verbatim at 18:40 that day, after a same-day IR read. Copies went to DFS, CAISI, the AI Office and UK AISI.
+- Legal gave the Long-Term Benefit Trust the 24 July and 13 August materials and the committee packet on 8 September. Three pages were withheld on a privilege log. The Trust asked to meet the RSO in October and made no public statement.
+- METR replied on 24 September. It cannot name a class by 1 October; "late October at the earliest," given staffing. The trigger has not fired.
+- Internally, (b) generates about 9,000 sampled transcripts a day. The aid screens all of them, and reviewers read a 4% stratified subset plus every aid flag. That load is documented in the RSO's post and has drawn no public criticism.
+- The successor has run about 575 merges since 13 August with no automatic halt and no sampling anomaly.
+
+**Lessons record (Action 2, fails by 1).**
+- The routine part held. The AI Office's six questions were answered on 30 September.
+- The core did not:
+  - Counsel did not finish reviewing the roughly 140-page root-cause annex before the *Buist* conference. The answers went out without it, noting it "will follow."
+  - Assembling every gate decision since 2027 with raw links ran into e-discovery volume (about 31,000 documents), so the early 1 October DFS production slipped back to the 15 October deadline.
+  - Counsel deferred any sign-off on the technical paper until after 8 October.
+- The 20 October abstract fallback remains on the RSO's calendar.
+
+**Probe rerun (Action 3, fails badly).**
+- On 12 September counsel extended the *Buist* bar to any new test-awareness reading on the Mythos 5.5 weights family, which covers Fable 5.5. The successor's base checkpoint descends from that family and appears in the discovery requests.
+- You had committed to publishing your own lineage "including if Mythos reads highest," so the team would not post an open-weights-only result that would look selective.
+- The open-weight arms also slipped. The layer sweep on Qwen 5.5's MoE routing needed a fix, and the shuffled-label control was unfinished on 25 September.
+- Nothing was published, and no successor reading was deposited.
+- On 27 September EleutherAI said it would run its own format-matched rerun on open weights, with results "in October." One critic group wrote: "Anthropic set the date, then missed it."
+
+**Custodian hardening (Action 4, success).**
+- Mythos 5.5 Extended launched on 15 September on v1.1 by default. 21 of the 24 signed accounts went live, and 3 of the 9 pending signed, for 27 signed in total. Production breakage of 7.9% was published at launch.
+- The credential-lifetime auditor shipped under Apache-2.0 at TLP:CLEAR on 23 September to CISA, MS-ISAC, WaterISAC, Health-ISAC and NCSC-NL.
+- About 40 CISOs received the auditor; 11 ran it in the first week, and most rely on existing commercial NHI tools.
+- 2 of the 4 revalidated credential-reuse queries passed below 1% false positives and went out at TLP:AMBER.
+- 6 pipeline hospitals were onboarded, for 475 in total, and cellular-OT installs rose to 51.
+- The first Extended count went up on 1 October: zero security incidents and two resolved breakage tickets.
+
+**Archive (Action 5, fails by 3).**
+- The routine filings went ahead: August Economic Index data went to the displacement-bill and Commerce files, and every request was answered inside 72 hours.
+- The archive did not stand up. IR and counsel disputed whether the Casar reply and parts of the occupational dataset count as "already public" under their licence terms, and checksum assembly stalled.
+- No mirror is live. EleutherAI agreed in principle, and NCSC-NL and the UN repository were not formally approached.
+
+**Other actors.**
+- OpenAI did not ship GPT-7 agents in September. It said "October" and gave no date. GPT-7 now runs most of OpenAI's internal R&D.
+- Coverage of the committee decision was muted. The Verge ran "Anthropic adds round-the-clock monitoring to disputed model settings," and an FT piece asked why the stronger restriction was rejected.
+
+**Exogenous events.**
+1. On 29 September Congress passed a CR through 11 December. CAISI and CISA remain flat-funded.
+2. Google DeepMind widened its multi-month tier to about 2,600 customers and said a Gemini 5 Deep release would come "this quarter."
+3. BLS reported August unemployment at 9.4%.
+
+Next generation: Next month's Claude is a modest step up: a Fable/Mythos 5.5 refresh with better long-horizon reliability. The restarted successor has run cleanly through 575 merges but cannot be deployed before November, so Anthropic's relative rate edges up only to about 0.38. The frontier moved to about 5.58 because GPT-7 and Gemini-class agents now carry most internal R&D at OpenAI and Google, even though no GPT-7 agent product has been released.
+
+Scorecard:
+**Milestones**
+- **AI agents do most AI R&D:** up. The index is 5.58, and GPT-7 and Gemini agents run most internal R&D.
+- **Models withheld or staged; governments take notice:** up slightly. Full monitoring of the flagged settings, a verbatim post to four regulators, and GPT-7 still unreleased.
+- **First major infrastructure and cyber attacks:** achieved (negative). No new intrusion. The auditor shipped, 2 queries were added, and there are 475 hospitals.
+- **Political polarisation:** flat.
+- **Robust alignment:** flat. 575 clean merges, but the divergence question is still open and the probe rerun was missed.
+- **Multi-agent RLVR with goodness meta-scoring:** 5% pilot, running.
+- **Robust policies / ping-pong:** up slightly. The committee adopted (b), and the AI Office was answered, though without the annex.
+- **Anthropic meat business:** seed, flat.
+- **Many diseases cured:** early, flat.
+- **Benefits broadly distributed:** down. Unemployment is 9.4%.
+- **Continuous-learning, stable-identity AI:** up slightly. The merge is stable through about 575 cycles.
+- **International coordination:** flat. The archive was not mirrored.
+
+**Summary scores**
+- **Overall DU progress: 30/100 (+1).** The committee adopted (b) and Extended is live on v1.1. These gains are offset by the missed probe rerun, the missing annex and the failed archive.
+- **Catastrophe risk: elevated, flat-to-up.** The index is 5.58 with two frontier agent releases due in October. There is still no persistence detection across more than 5,000 multi-month deployments. Anthropic's own flagged settings are now fully sampled.
+- **Public trust in AI: 1/100 (±0).** At the floor. Unemployment is 9.4%.
+- **Public trust in Anthropic: 29/100 (+1).** The monitoring decision and the clean Extended launch, partly offset by the missed probe deadline.
+
+[Judge]
+Simulator was mostly realistic (7/10). Most odds were sensible and mostly followed the record, though three calls deserve scrutiny:
+- 35% failure on a cheap option that sits within undisputed authority is fair.
+- 40% on early production against counsel's August record is defensible, but arguably low. With the adversary's mechanism behind it, it probably deserved 50%.
+- 30% on a probe rerun during *Buist* discovery looks low given counsel's standing bar.
+
+The handling of results was good:
+- **Action 2 (failed by 1):** the on-time AI Office answer was delivered, and the annex, the early DFS production and the paper sign-off all failed. That is a proportionate failure.
+- **Action 3 (roll 02):** counsel widening the bar to the Mythos family matches a risk named in message 1, and EleutherAI and the critics reacted realistically.
+- **Action 4 (margin 50):** every figure sits inside the stated bounds: 21 of 24 live, 3 of 9 pending signed, 2 of 4 queries passed, 6 hospitals. Only 11 of about 40 CISOs ran the auditor, which is realistic, unexciting uptake.
+- **Action 1 (margin 35):** it succeeded with a weakened METR trigger, three privilege-logged pages and METR declining for now, all of which are appropriately partial.
+
+The weaker points are unaudited choices:
+- The successor distribution (60% clean, 25% halt, 15% anomaly) was never rolled and resolved as "575 merges, no halt, no anomaly."
+- The CR, DFS guidance and the AI Office follow-up were likewise left to judgement.
+- The aid moved from "20%" to screening everything with no explanation. That removes the structural backlog behind Threat 1, and the world state still lists "the aid at 20%" alongside it.
+
+Capability pacing is acceptable. The index moved +0.20 to 5.58, which matches the stated September target of about 5.6, with a coherent internal-R&D rationale. The path of 5.85, then 6.1, then ASI is consistent with the deadline.
+
+Lean: BALANCED. The three failed actions were honoured cleanly and with plausible, non-invented mechanisms: the annex slipped, the probe bar was widened, and the archive stalled over scope. The successes stayed inside the ranges message 1 set. There is a mild lenient tilt in the details the dice did not govern. Every unrolled declared distribution resolved at its modal or better outcome. The review aid was quietly upgraded to screen every transcript. Breakage came in below the published v1.1 figure.
+
+Issues flagged:
+- **Unrolled successor distribution.** The declared outcomes (25% halt / 15% anomaly / 60% clean) were resolved by judgement to the best case: no halt and no anomaly across about 575 merges and weeks of 100% sampling on the two flagged settings.
+- **Aid contradiction.** The world state says "aid stays at 20%," yet the narrative has the aid screening all 9,000 transcripts a day. This favourable change neutralises the reviewer-capacity problem, and it was never explained or given a cost.
+- **Breakage figure.** Production breakage was published at 7.9%, below the v1.1 test figure of 8.4%, with no stated reason. This is a small generous drift.
+- **Missing AI Office reaction.** The AI Office follow-up (declared at 40%) goes unmentioned, as does any reaction to the missing annex "to follow." A regulator that sent six questions about a disputed restart would plausibly press on the missing annex.
+- **GPT-7 decided by a threat roll.** The GPT-7 non-release was decided by the Threat 5 roll, not a neutral exogenous roll, even though message 1 declared it separately at 45%. The simulator flagged this itself.
+- **Muted press.** The press reaction to adopting the weaker option over the RSO's restriction is thin: one FT piece and nothing from the staff who signed the letter or the researchers who resigned.

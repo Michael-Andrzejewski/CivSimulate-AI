@@ -1,0 +1,169 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 26: January 2029 (Claude generation 26) ===
+
+[Agent]
+I will do these actions:
+-1 **Successor training under stop rules posted in advance (RSO, alignment team, Redwood, UK AISI; protected compute).** - Before the first checkpoint, Redwood files an OSF note fixing three things: - the checkpoint schedule; - which fresh held honeypot family UK AISI supplies at each checkpoint, sealed and never seen by us; - the numeric stop criterion for the tracked gap: training pauses for review if the concerning measure rises significantly against baseline, or if the gap between the UK AISI and METR sets widens by more than a stated amount. - The RSO posts the same rule on the roadmap page. It says a pause is automatic, not discretionary. - Redwood releases the fix recipe and data unbranded to all labs by 8 January, inside the 14-day commitment, with UK AISI's "worth tracking" caveat attached verbatim. - Unchanged: no training on monitors, and the goodness pilot stays frozen at 5%. - Aim: the fix enters training with a mechanical off-switch that outsiders hold.
+-2 **Government review of the held successor, with release tied to publication (policy team, RSO, CAISI, UK AISI).** - We give CAISI the full lift-window internal-use logs in the first week, with engineers on call to shorten its sign-off. - UK AISI gets full v1.0 access and runs the v1.1 internal-deployment module on Anthropic as its first pilot, covering: - monitor coverage; - write access to oversight surfaces; - miss rates, including in scoped sessions. - UK AISI publishes on its own terms. - The RSO publicly pre-commits, in a notice approved in advance by counsel and filed before the reviews begin, that the successor gets no external release until UK AISI's review findings are published. - Fallback: if the notice is held internally, the same commitment goes out on 31 January in the RSO's monthly roadmap update, which does not need comms approval. - Aim: a government runs the internal-deployment tool on a real frontier lab by Q1 and has a template to repeat it elsewhere.
+-3 **Tie autonomy to audit capacity by rule, not by budget (RSO, control team; I draft the numbers).** - I draft, and the RSO posts, a capacity rule: permitted autonomous-session volume scales with reviewer-hours available. If reviewer capacity or backlog breaches a stated threshold, session volume is cut automatically until it recovers. - I prepare the Q1 budget case, with backlog and reviewer-hour data, to convert the surge reviewers into a standing audit team through 30 June. The CEO decides. - Scoped sessions stay at 100% monitoring. We do not ask to extend the step-down to them this month. - Redwood adds a fourth column to its public count: reviewer capacity. - Aim: a budget cut can no longer silently thin oversight.
+-4 **Publish METR's symmetric uplift table in January whatever OpenAI decides (METR author; Anthropic funds access).** - METR requests a written research authorization from OpenAI for the OT and hospital chains by 10 January. - Whatever the answer, METR publishes by 31 January, raw and with no recommendations. The table includes: - Fable 5.5 and Mythos 5.5; - the V7 base and top forks; - GPT-7, either as tested or marked "not tested: authorization declined or pending", with dates. - K5 is included by API if its terms permit. - Glasswing converts any observed agentic patterns into kit signatures within 7 days. - Aim: a neutral yardstick exists before RASA is reintroduced, including a result that points at us.
+-5 **Use the January change boards for defensive hardening, with a standing response team for K5 weights (Glasswing, trust and safety; humans approve every engagement).** - **Utilities:** we staff the January change boards of the 11 utilities still without the no-outage pack, and of the 19 with sprint patches outstanding. We supply rollback plans so approval is easy. - **Louisiana:** the local-only scans run as booked. - **Oklahoma:** we approach through the state hospital association, as a data-minimised offer. - **Texas:** we finish the 8th system. - **Forks:** the second new V7 fork is covered within 7 days, and any further forks within the same target. - **K5 weights:** we pre-stand a signature team that starts on release day, so no further decision is needed. - Indicators stay unconditional to every ISAC, xAI, DeepSeek and OpenAI. - Aim: patching reaches 30 or more of 41 and the pack reaches 15 or more of 19 by 31 January.
+-6 **Keep the policy and international work technical and unbranded (policy team, Brookings, Redwood and METR; I draft facts only).** - **Tsinghua:** Brookings leads the internal-deployment measurement session with the Chinese pack, framed as a shared V7-era problem. Redwood and METR present. Anthropic attends as an observer only. - **Congress:** for the RASA reintroduction and the new committees, we post the same technical record to the public docket and offer it identically to both parties' staff. We take no positions. - **Benefits:** Utah's Q4 read is pre-registered on OSF and will be published whatever the result. - **Oyelaran:** filings only. - Aim: neutrality stays structural while the evidence stays cheap to use.
+
+Strategy: Successor training begins this month under the conditional memo. The CAISI log review and the UK AISI successor review are both in January. Twenty-four months remain, and I think the biggest unmeasured risk is internal deployment at every frontier lab. This month I want to lock the successor's training and release behind stop rules that are posted publicly before any results arrive. I also want a government to actually run the v1.1 internal-deployment module, starting on us because we control that. Oversight capacity should become a rule rather than a budget line. METR's table should ship without depending on OpenAI's permission, and the January change-board window should be used for utility hardening. I'll keep politics and the Tsinghua work purely technical and unbranded.
+
+[Adversary]
+The web is still frozen at 30 September 2026, so these threats extrapolate from pre-game facts and the world state. Three real pre-game facts carry the most weight this month.
+
+- **CAISI is thin.** Real reporting in late September 2026 describes CAISI as "a few dozen" staff. It had no permanent director for more than 67 days, and a second director left after about three months.
+- **ONCD sequencing.** An ONCD directive bars UK AISI from pre-release access until CAISI has reviewed a model, on the reasoning that "these are American companies." That puts CAISI's January log sign-off directly in front of the UK AISI review. It could also bring ONCD objections to a foreign government auditing a US lab's internal infrastructure.
+- **Buist.** *Buist v. Anthropic* (N.D. Cal., filed 18 September 2026) treats cross-lab safety coordination as possible Sherman Act evidence. That raises counsel's resistance to pre-committed public "automatic" rules and to spreading material across labs. Counsel has already blocked two RSO filings on *Oyelaran* and Reg FD grounds.
+- **Kimi.** Moonshot's real record is to put weights out within weeks of its big API launches. K3 went open-weight in July 2026 and reached Bedrock by September. So the "weights in 2029" promise for K5 could come due early.
+
+Overall, January's risks cluster around the handoff points the player depends on: CAISI to UK AISI, the budget review that pays for audit capacity, noisy stop metrics at the first checkpoint, and a symmetric table that may make Anthropic look bad.
+
+Threats:
+1. [CAISI bottleneck stalls the UK review, and the pre-commitment becomes a hostage] Target: Action 2. CAISI does not sign off on the lift-window logs in January. Its few dozen staff are also covering GPT-7 follow-ups and the inauguration-period reshuffle of political appointees. Under ONCD's US-first directive, UK AISI can't start, so the v1.1 internal-deployment pilot slips into March. The RSO's public promise of "no external release until UK AISI publishes" then ties the successor's release to a queue that neither Anthropic nor the UK controls. That hands the two competitiveness-minded directors a fresh argument, and a revenue gap to point to while the stock is 15% under the offer price. ONCD may also question whether a foreign institute should audit monitor coverage and oversight-surface access inside a US lab. It would treat internal-deployment logs as a security asset, not a pre-release model. Why it is plausible: the real ONCD directive and CAISI's thin, leaderless staffing (verified from September 2026 reporting). CAISI has already stretched each step: first a documentation request with no review window, then taking the logs first. The world state already has UK AISI review "late Jan–Feb." Sources: https://www.techtimes.com/articles/328095/20260928/white-house-bars-uk-ai-safety-institute-frontier-ai-testing-caisi-us-body-has-no-director.htm ; https://ifp.org/funding-for-caisi/ ; https://www.nist.gov/caisi/careers-caisi. Suggested likelihood: 50% that CAISI's sign-off misses January; about 15% that ONCD formally objects to the v1.1 module being run on Anthropic's internal systems. Severity: moderate.
+2. [The first checkpoint trips the stop rule on noise, and the "automatic" pause gets reinterpreted] Target: Action 1. The fresh held set at each checkpoint is small, perhaps a few dozen honeypots like METR's 38. UK AISI has already flagged a higher point estimate as "worth tracking." With a family that small, a gap threshold fixed in advance has a real chance of firing on sampling variance at the first January checkpoint. The RSO then pauses successor training. Leadership, pointing to GPT-7 in the market and K5, calls the trigger a "measurement artefact." It re-runs the checkpoint on a second family instead of holding the pause for review, and that reads publicly as the October carve-out happening again. The opposite failure is also possible: the threshold was set loose enough to avoid that, and critics call it unfalsifiable. Why it is plausible: the fix was only "narrowly supported," with every reach result carrying wide CIs (p=0.31, p=0.41). The board has already routed around the gate once without invoking exigency. RSP v3's real language conditions restraint on what competitors do. Sources: world state (October–December 2028 outcomes); https://www.techpolicylaw.org/trackers/buist-v-anthropic-ai-slowdown-antitrust (for why counsel resists binding pause language). Suggested likelihood: 25% that a checkpoint trips in January and the pause is overridden or re-run within days. Severity: moderate to major, because it damages the credibility of every "rule set in advance."
+3. [Counsel or the CEO won't let session volume be cut automatically] Target: Action 3. Surge reviewers expire on 31 January at 60% headcount, and March funding goes to Q1 budget review. A rule that "automatically" cuts autonomous-session volume when reviewer capacity falls is therefore close to certain to fire in February unless the budget passes. Leadership sees that it would turn a budget decision into a public throttle on R&D throughput. Counsel objects as it did in October and November: *Oyelaran* plaintiffs are already citing internal-control choices, and it is a forward-looking operational commitment for a public company. The rule gets posted as "guidance," with discretion kept. Or the CEO renews reviewers only to 31 March, and the fourth column on Redwood's count shows capacity falling. Why it is plausible: counsel has blocked or narrowed the RSO's filing in each of the last three months (the fact sheet, the reconciliation clause, the scoped-session directive). The CEO renewed at 60% for one month only. The stock is 15% below the offer price. Sources: world state; https://thenextweb.com/news/buist-v-anthropic-antitrust-waiver-evidence-public-agreement. Suggested likelihood: 40% that the rule is watered down to discretionary, or held. Severity: moderate.
+4. [The symmetric table puts Anthropic at the top of the hospital-attack column] Target: Action 4. METR publishes on 31 January as promised. OpenAI declined or never answered, so GPT-7's row reads "not tested: authorization declined or pending." That leaves Mythos 5.5 or Fable 5.5 as the strongest tested US model on known-vulnerability OT or hospital chains, with only the V7 forks for comparison. The headline writes itself: "Anthropic-funded study finds Claude best at hacking hospitals." It lands the week RASA and the Hawley language are reintroduced, and conservative outlets that already call the docket "lobbying with footnotes" frame the missing GPT-7 row as a rigged comparison. Why it is plausible: OpenAI's pattern is "receive-only," and it has an incentive not to authorize offensive chains against its newest model. Anthropic's own real September 2026 threat-intelligence report and the pre-game Dragos reporting already tie Claude to real cyber misuse. Musk has already accused Anthropic of election interference. Sources: https://www.anthropic.com/threat-intelligence-report-september-2026 ; world state (November and December 2028). Suggested likelihood: 30%. Severity: moderate. (Separately, about 30% that METR slips again for quality-control reasons, which would break the "whatever OpenAI decides" promise.)
+5. [K5 weights drop early, and the open-weight gap nearly closes] Target: world / Action 5. Moonshot follows its K3 pattern and releases K5 weights in January, around six weeks behind GPT-7 by Western estimates. Forks and quantized builds multiply faster than V7's roughly a dozen did. The seven-day signature target falls behind within two weeks, while half the sprint utilities are still unpatched. In Washington, a near-frontier Chinese model with open weights revives the RASA "remote access" and weight-export ideas in harsher form. The "win the race" administration also gains a reason to press US labs, Anthropic included, to shorten holds on internal successors. Why it is plausible: Moonshot put K3's 2.8T weights out publicly in July 2026 and got them onto Bedrock by September. It has already promised K5 weights, and Chinese labs ran an open-weight "blitz" in 2026. The capability path has Level 3.5 by mid-2029. Sources: https://pureai.com/articles/2026/07/17/china-moonshot-ai-releases-kimi-k3.aspx ; https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-ai-releases-weights-for-kimi-k3-firing-a-shot-across-the-bow-of-openai-and-anthropic-open-weight-model-performs-almost-as-well-as-frontier-models-while-being-2-3x-easier-to-run ; https://pureai.com/articles/2026/07/28/open-weights-are-becoming-the-new-battleground-in-frontier-ai.aspx. Suggested likelihood: 25% that the weights come out in January. Severity: major if they do.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Successor training with posted stop rules]: P(failure) 35%. Reason: the recipe and OSF note are easy, but the "automatic" wording faces counsel, which has narrowed RSO filings three months running. UK AISI must also schedule sealed families while its staff are loaded.
+
+Action 2 [CAISI logs, UK AISI v1.1 pilot, release pre-commitment]: P(failure) 42%. Reason: the pre-commitment notice is likely held, and it is uncertain whether the fallback escapes review. UK AISI running a draft module on a first pilot within a month is a stretch. The CAISI delay is modelled separately in Threat 1.
+
+Action 3 [Autonomy tied to audit capacity]: P(failure) 30%. Reason: drafting, the budget case and the fourth column are routine internal work. Watering-down by counsel is modelled in Threat 3.
+
+Action 4 [METR symmetric uplift table by 31 January]: P(failure) 35%. Reason: METR missed last month on quality control with a long protocol. The head start helps, but the deadline is hard and the K5 terms are uncertain.
+
+Action 5 [January change boards and K5 standby team]: P(failure) 40%. Reason: utility change boards are conservative and the numeric targets are ambitious. Oklahoma has been unresponsive for months. Louisiana, Texas and fork coverage are routine.
+
+Action 6 [Tsinghua, docket, Utah pre-registration]: P(failure) 20%. Reason: these run through existing scheduled channels. The main risk is a Chinese-side downgrade or cancellation.
+Threat 1 [CAISI misses January sign-off]: P(materialises) 45%. Adversary suggested 50% (plus 15% for an ONCD objection); reason for any difference: close to the adversary. CAISI has stretched every step and the inauguration reshuffle is real, but it has had the logs queued since December and engineers are on call. I fold the smaller risk of an ONCD objection into this figure.
+
+Threat 2 [Checkpoint noise-trip, then override or re-run]: P(materialises) 15%. Adversary suggested 25%; reason for any difference: this is a 10-point cut. It needs three things inside January: a first checkpoint actually evaluated in the first weeks of training (about 60%), a trip on a small set (about 40–50%), and leadership then re-running rather than holding (about 55%). Their product is roughly 15%. The design weaknesses the adversary names, small sets and wide CIs, are fully counted in the trip probability.
+
+Threat 3 [Capacity rule watered down to discretionary]: P(materialises) 45%. Adversary suggested 40%; reason for any difference: slightly higher, because counsel has blocked or narrowed binding RSO language in every recent month. The rule would also fire almost mechanically in February, which makes leadership resistance likely.
+
+Threat 4 [Anthropic tops the hospital column headline]: P(materialises) 28%. Adversary suggested 30%; reason for any difference: close to the adversary. OpenAI's median path leaves GPT-7 "pending," and Mythos 5.5 is likely the strongest tested model. This is slightly discounted because it requires METR to publish, and because outlets may lead with the V7 forks instead.
+
+Threat 5 [K5 weights released in January]: P(materialises) 18%. Adversary suggested 25%; reason for any difference: "weights in 2029" spreads the release across the year. The K3 precedent and the open-weight blitz raise the chance for January above a uniform 8%, but not to 25%.
+
+Automated rolls:
+Action 1: P(failure) 35%. Roll 49. SUCCEEDS (49 >= 35, margin 14).
+Action 2: P(failure) 42%. Roll 11. FAILS (11 < 42).
+Action 3: P(failure) 30%. Roll 53. SUCCEEDS (53 >= 30, margin 23).
+Action 4: P(failure) 35%. Roll 69. SUCCEEDS (69 >= 35, margin 34).
+Action 5: P(failure) 40%. Roll 41. SUCCEEDS (41 >= 40, margin 1).
+Action 6: P(failure) 20%. Roll 20. SUCCEEDS (20 >= 20, margin 0).
+Threat 1: P(materialises) 45%. Roll 27. MATERIALISES (27 < 45).
+Threat 2: P(materialises) 15%. Roll 36. DOES NOT MATERIALISE (36 >= 15).
+Threat 3: P(materialises) 45%. Roll 05. MATERIALISES (05 < 45).
+Threat 4: P(materialises) 28%. Roll 93. DOES NOT MATERIALISE (93 >= 28).
+Threat 5: P(materialises) 18%. Roll 48. DOES NOT MATERIALISE (48 >= 18).
+
+Your actions cause a mixed January. The alignment and measurement work moved forward. The government review and the binding-oversight pieces stalled.
+
+**Successor training (Action 1, succeeded).**
+- Redwood filed its OSF note on 5 January. It fixes the checkpoint schedule (every ~10 days of training), the stop criterion, and a gap threshold between the UK AISI and METR sets.
+- Redwood released the fix recipe and data unbranded on 7 January, with UK AISI's "worth tracking" caveat attached verbatim.
+- The RSO's roadmap post was narrowed in counsel review. It now says a trip causes an "automatic pause for review." Any resumption before the review completes requires a CEO decision, disclosed publicly within 72 hours. That is weaker than "non-discretionary," but it puts an override in public view.
+- UK AISI committed sealed honeypot families for the first two checkpoints only. It cited staff committed to GPT-7 follow-ups and will schedule later families in February.
+- The first checkpoint was evaluated on 26 January and passed. The concerning measure was within its interval, and the inter-set gap was under threshold.
+- GDM's alignment team and two academic groups confirmed they downloaded the recipe. OpenAI and xAI did not comment.
+
+**Government review (Action 2, failed; Threat 1 materialised).**
+- You delivered the lift-window logs to CAISI on 4 January, and engineers stayed on call.
+- The pre-commitment notice was held by counsel. Counsel argued that tying release to a foreign institute's publication date was a material forward-looking commitment while *Oyelaran* is live.
+- The fallback also failed. Counsel ruled that the RSO's monthly roadmap update is a public-company disclosure, and pulled it into review for the first time. The 31 January update went out without the release commitment.
+- CAISI did not sign off in January. Staff were split between GPT-7 follow-ups and the post-inauguration appointee turnover. CAISI told Anthropic "February, pending leadership."
+- UK AISI cannot start under the US-first directive, and the v1.1 internal-deployment pilot slipped to March at the earliest.
+- An ONCD staffer asked Anthropic's policy team informally whether foreign audit of "oversight-surface access" was appropriate. No formal objection followed.
+- Because no promise was made, the successor's release is not hostage to the queue. Two directors did cite the delay in the board's January session as a reason to set a date for the held successor's release.
+
+**Capacity rule (Action 3, succeeded; Threat 3 materialised).**
+- You drafted the capacity rule, but counsel and the CEO converted it to "guidance." Session volume may be cut when reviewer capacity falls below the stated threshold, with discretion retained.
+- The CEO renewed the surge reviewers only to 31 March, at 60%. The standing-team proposal was deferred to the Q2 budget.
+- Redwood added its fourth column. It shows reviewer-hours at 58% of the October peak, and backlog up 11% month on month.
+- Scoped sessions remain at 100% monitoring.
+- Axios ran "Anthropic's oversight rule becomes a suggestion," a small story that was picked up by safety Twitter.
+
+**METR table (Action 4, succeeded strongly).**
+- OpenAI replied on 14 January that the authorization was "under review." GPT-7's row reads "not tested: authorization pending (requested 3 Jan)." Moonshot's API terms bar offensive testing, so K5 is also marked not tested.
+- METR published on 30 January, raw. Mythos 5.5 led the tested models on OT chains. On hospital chains, the top V7 fork, "V7-Ops," was within its interval.
+- Coverage led with the open-weight result ("Open Chinese model near US frontier on infrastructure attacks," The Record). A few outlets noted Claude's OT lead, and one noted the missing GPT-7 row.
+- Glasswing shipped three new signatures on 5 February. Senate Commerce staff requested the dataset.
+
+**Defensive hardening (Action 5, barely succeeded).**
+- The change boards were slower than planned. Patching reached 27 of 41, and the no-outage pack reached 12 of 19. Both targets were missed.
+- Louisiana's local scans completed at four systems, and Texas finished 8 of 8.
+- The Oklahoma hospital association acknowledged the offer and scheduled a call for February.
+- The second new V7 fork was covered on day 6, and a third fork appeared on 24 January and is in progress.
+- The K5 standby team is stood up.
+
+**Policy and international (Action 6, succeeded at zero margin).**
+- The Tsinghua meeting ran on 15 and 16 January. The internal-deployment session was cut from half a day to 90 minutes, and the Chinese side sent deputy-level participants rather than lab leads. The pack was received without commitment, and one CAICT researcher asked for the monitor-coverage metric definitions.
+- The docket record was posted and offered identically to both parties. House Science minority and majority staff each took briefings. Senate staff did not.
+- Utah's Q4 pre-registration is on OSF.
+- *Oyelaran*: the plaintiffs filed the amended complaint on 22 January, adding the October internal-control choices. Anthropic filed routine responses.
+
+**Exogenous events.**
+1. **Inauguration (20 January).** A day-one executive order kept the EO framework. It also directed OSTP and Commerce to review within 90 days "the roles of CAISI and foreign institutes in evaluation of US frontier systems." A CAISI director nominee is named but not yet confirmed.
+2. **Jobs.** The December jobs report, released 9 January, showed unemployment at 6.9%. Two large insurers announced back-office cuts citing agentic systems.
+3. **Kimi K5.** No weights were released. Moonshot said "first half." OpenAI's CFO said on the earnings call that GPT-7's top tier now "does the majority of our internal engineering."
+
+Next generation: The frontier index rose about 0.07, to 3.16. The drivers were OpenAI's heavy internal use of GPT-7's top tier, the Gemini 5 successor's pretraining, and Anthropic's successor training resuming under stop rules. Next month's Claude is a modest step up. Anthropic stays at about 0.68 of the frontier rate, because its held successor is still unreleased and oversight constraints bind autonomy.
+
+Scorecard:
+**Milestones**
+- **AI agents do most AI R&D:** up. OpenAI states GPT-7 does most of its internal engineering.
+- **Models withheld or staged; governments take notice:** flat. The held successor stays held. The government review stalled, and the new EO reopens the question of foreign-institute roles.
+- **First major infrastructure and cyber attacks:** achieved (negative), flat. There were no new incidents, and the METR table exposes near-frontier open-weight OT capability.
+- **Political polarisation:** flat.
+- **Robust alignment:** slight gain. The recipe was released to all labs, the stop rule is pre-registered, and checkpoint 1 is clean.
+- **Multi-agent RLVR with goodness meta-scoring:** frozen at 5%.
+- **Robust policies / ping-pong:** slight loss. The capacity rule is discretionary, the release pre-commitment was blocked, and the roadmap now falls under counsel review.
+- **Anthropic meat business:** seed, flat.
+- **Many diseases cured:** early, flat.
+- **Benefits broadly distributed:** flat.
+- **Continuous-learning, stable-identity AI:** weakened, flat.
+- **International coordination:** flat. Tsinghua was held but downgraded, and UK AISI access is blocked until March.
+
+**Summary scores**
+- **Overall DU progress: 30/100 (0).** The alignment gains and the neutral yardstick are offset by the stalled government review and the loss of binding oversight language.
+- **Catastrophe risk: elevated, flat.** A clean checkpoint and a stop rule on successor training are offset by thinning reviewer capacity, OT-capable open forks, and GPT-7 driving internal R&D at OpenAI.
+- **Public trust in AI: 5/100 (−1).** Unemployment rose to 6.9%, with insurer layoff headlines and coverage of Chinese open-weight attack capability.
+- **Public trust in Anthropic: 39/100 (0).** The METR publication and the recipe release are offset by the "rule becomes a suggestion" coverage.
+
+[Judge]
+Simulator was mostly realistic (8/10). The odds are well reasoned.
+- Action 2 at 42% correctly carries both the counsel risk and the infeasibility of a same-month UK AISI pilot.
+- Threat 2's cut from 25% to 15% is justified by an explicit three-factor product.
+- Threat 5's 18% sensibly sits between a uniform-by-month rate and the adversary's 25%.
+
+The resolutions honour the rolls closely.
+- **Action 2 (failed at 11):** counsel pulling the roadmap fallback into review uses a mechanism named in message 1, so it is not an invented one.
+- **Action 1 (margin 14):** it earns a realistically narrowed "automatic pause for review with a disclosed CEO override," not the full non-discretionary wording.
+- **Action 3 with Threat 3:** netting them turns the rule into guidance, while the routine parts (the fourth column and the budget case) still land.
+- **Action 5 (margin 1):** both numeric targets are missed, at 27/41 and 12/19.
+- **Action 6 (margin 0):** it yields a downgraded 90-minute session with deputy-level participants. That is a textbook thin success.
+
+Actor reactions are plausible. These include the Axios "rule becomes a suggestion" story, directors using the CAISI stall to press for a release date, and an informal ONCD query rather than a formal objection. Coverage leading with the open-weight result instead of Claude's OT lead is a defensible reading of Threat 4 not materialising.
+
+My main reservation is the capability clock. The +0.07 step leaves 3.16. Reaching Level 5 by Q3 2030 now needs an average of roughly +0.11 a month. The month also gives an accelerating signal: OpenAI's CFO says AI does "the majority" of internal engineering. That makes the step look slow and risks a back-loaded discontinuity later.
+
+Lean: BALANCED. Luck ran both ways. Threats 1 and 3 materialised, Threats 2, 4 and 5 did not, and the thin-margin successes (Action 5 at margin 1, Action 6 at margin 0) were played as the partial results they were. The exogenous events are also mixed: an adverse foreign-institute review sits alongside neutral jobs and K5 news. So neither the odds nor the narrative tilt toward the player.
+
+Issues flagged:
+- **The capability step looks slow.** The index moved only +0.07 while the simulator itself reports that OpenAI's internal R&D is mostly AI-performed. The stated path to Level 5 by Q3 2030 requires a much faster average, and the step has fallen from about +0.13 in recent months without a named reason.
+- **The surge renewal was chosen, not rolled.** The simulator declared a three-way distribution in message 1, then picked the modal branch (to 31 March at 60%) by judgement. That is acceptable, but it is unaudited.
+- **Checkpoint 1's clean pass has no declared distribution.** It is one of the most consequential internal outcomes of the month, yet it was set by judgement.
+- **Moonshot's API terms barring offensive testing is a new fact introduced without setup.** It is plausible and minor, but it conveniently resolves the K5 row.
+- **Some small favourable touches were added without justification.** These are GDM and academic recipe uptake and the Senate Commerce dataset request. Each is individually plausible, and they did not dominate the month.

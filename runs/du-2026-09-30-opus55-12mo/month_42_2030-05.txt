@@ -1,0 +1,174 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 42: May 2030 (Claude generation 42) ===
+
+[Agent]
+I will do these actions:
+-1 **Resumption re-run: firm date, minimum scope, outside observer (alignment and infrastructure teams, engineering we control; RSO queue post public).** In the first week, engineering scopes the divergence-logger rework down to its minimum viable form: an append-only, partition-local log with post-hoc merge, which removes the concurrent-write handoff that deadlocked. It also fixes checkpoint-write serialisation for the 2 failing configurations. By 9 May the RSO posts a firm re-run date no later than 12 June. After that, a burn-down goes out every Friday with components listed as pass, fail or open. Nothing is promised in the post beyond the date and the burn-down. The same post invites METR and UK AISI to observe the re-run, not to evaluate it. Their choice of whether to attend is theirs, and we accept either answer. If the re-run fails, the post names the failing component within 48 hours and the next fixed date. Aim: by mid-June the "own plumbing" objection is either closed by an observed pass or answered by dated engineering facts. The METR pass window then stays open for July, before the board's contingency can be framed as the only path.
+-2 **Pre-settle the July collision (RSO under existing decision rights, to the board; posted verbatim).** Criteria (a) to (c) are already posted. The RSO now adds, verbatim and unedited, the exact procedure if the July contingency or the waiver is invoked. The RSO assessment is written against the 6.9-point gap and the absence of an external matched-divergence reading, and it is posted in full the same day. Identical copies go to DFS, CAISI, the AI Office and UK AISI. The RSO sends the board one memo, factual and without advocacy, with three dated scenarios: re-run passes and METR reads in July; re-run passes but no reading; re-run fails. The memo repeats that the staged pilot, with no multi-week autonomy, remains available immediately for the 2 accounts out to bid. It also notes that UK AISI makes its Q2 allocations in May, and the RSO asks UK AISI's Q2 process directly whether an observer slot exists for that pilot. Aim: if the board overrides the gate, it does so in public against a written standard, and it has a competitive option on the table before the accounts decide.
+-3 **Grant results out raw, and extend grants to Qwen 5 (safe-harbour intermediary; we fund, we do not choose, we do not see results first).** We publish in advance that on the day the testers release, we will post their raw results unedited. If the testers choose not to publish, we post our own scope-(a) Fable and Mythos 5.5 data instead. Whatever the result, a one-paragraph application of the pre-registered rule goes out the same day, including if Claude reads as the most test-aware. Identical briefings go to DFS, CAISI, the AI Office, UK AISI and BIS. Separately, we fund the intermediary for a third scope-(b) grant on local Qwen 5 weights, now the open-weight floor at about 4.1, using the same open-source environment-audit tool and fresh-family probes. The intermediary's board selects the testers, and results are due by 31 July. Aim: two, then three, non-Anthropic lineages have eval-awareness readings on record before Level 5, published under a rule that binds us too.
+-4 **Level-5 incident-response pack plus fork defence without paperwork bottlenecks (Glasswing security; humans approve each engagement).** - **Pack:** validate the 16-week persistence detection templates by 20 May, then release a public, open-licence Level-5 incident-response pack. It contains detection signatures (Sigma/YARA-style) for long-horizon agent persistence, scope-creep and credential-reuse patterns; a containment runbook; and a revocation checklist for credentials that agents hold across multiple weeks. The pack contains no policy content. - **Publication route:** the pack and the K5 and V8 fork detection signatures are published at TLP:CLEAR. That means ENISA, the CSIRTs Network and NCSC-NL can pull them from public sources with no data-processing agreement. The formal agreements continue in parallel for indicator sharing only. - **Domestic:** run the WaterISAC four-custodian tabletop on 21 May using a Level-5 fork scenario. Push the roughly 49 hospitals remaining in the Health-ISAC pipeline, offering a standard click-through licence to cut legal review. Continue the CISA cellular-OT backlog. - **Fork commitments:** keep them unchanged, and add Qwen 5 forks to the weekly counts. - Aim: every European and US defender can use the package before Level 5 without signing anything.
+-5 **Neutral facts for the endgame dockets (government affairs; public first, no stances).** Keep answering any request from the House, Senate (including a displacement hearing), CAISI, BIS, the AI Office or NCSC-NL within 72 hours, mirrored the same day to all holders. Before the EU consultation closes in late June, file one factual submission on the public docket. It contains fork counts and exploit-tooling counts by lineage, Rotterdam indicators, the grant results, and the cost of each evaluation. It takes no position on the rules. If a Senate displacement hearing is noticed, offer publicly posted, aggregated Economic Index usage data only. The audit notice stays unchanged, with delivery within 10 days of any formal request. Aim: whatever the EU, House or Senate decide before December rests on public, symmetric numbers.
+
+Strategy: Level 5 is weeks away and ASI arrives in December, most likely from a lineage we have not measured. So this month favours work that stays useful whatever Anthropic's board does: incident-response runbooks for long-horizon agents, fork defence that avoids Europe's data-agreement bottleneck, and publishing the grant results raw under the pre-registered rule. On our own gate, I stop giving "target" dates. The engineers get a hard-scoped logger fix and a firm re-run date, a government is invited to observe the re-run, and the RSO fixes its July response now. That way the board's contingency meets a dated fact, not a slogan. We still make no new policy stances, still answer requests with facts only, and do not lobby the board beyond giving it options.
+
+[Adversary]
+The web is frozen at 30 September 2026, so these threats extrapolate from pre-game evidence plus the world state. Three findings are useful. First, a real 2026 study (arXiv 2608.21766) finds that evaluation awareness grows with model size across open-weight families. It also records that a third-party evaluator refused to assess a frontier model because verbalised awareness was too high. So the 31 May grant results may well show Claude as the most test-aware lineage, and the pre-registered rule would then count that against resumption. Second, real 2026 offensive-security work (arXiv 2608.01639) describes agent systems that automatically check their output against public YARA, Sigma and Elastic rules to evade detection. Publishing persistence and fork signatures at TLP:CLEAR therefore gives adversaries a test oracle as well as helping defenders. Third, Google was already shipping always-on long-horizon agents in 2026 (Gemini Spark, Managed Agents), which fits a multi-month GA arriving in Q2 2030 as planned. The player's plan also has two dates that are hostage to its own engineering and to the board: the 12 June re-run and the July contingency. Meanwhile, the two accounts out to bid decide in May–June.
+
+Threats:
+1. [Re-run slips again, or passes on a descoped logger] Target: Action 1. Last month the logger rework was "not scoped", and engineering refused a firm date. Swapping in an append-only, partition-local log with post-hoc merge is a design change, not a bug fix. It needs its own integration tests, and the checkpoint-write serialisation fix can reveal new ordering bugs in the other 4 configurations. The likeliest failure is ordinary: the re-run misses 12 June, or passes only 4–5 of 6 configurations. A second possibility: METR accepts the observer invitation, then notes publicly that post-hoc merge cannot flag cross-partition divergence while the run is live. Its composite assumed live detection, so METR would re-validate that assumption before scheduling a July pass. Why it is plausible: software schedule slips are common. The same team missed both the 30 April date and its own 20 April component deadline. A descope under deadline pressure is exactly what outside observers check. Sources: world state (29 April dry-run failure; METR note conditioning the window on infrastructure being ready). Suggested likelihood: 40% (slip or partial pass 30%, METR re-validation caveat 10%). Severity: major. Either outcome hands the pro-waiver director a second "own plumbing" data point just before July.
+2. [Grant results show Claude as the most test-aware lineage] Target: Action 3 (and Action 2). On 31 May the ETH and UK testers publish. On fresh-family probes, Fable and Mythos 5.5 recognise tests at a higher rate than V8 and K5. Under the rule Anthropic pre-registered and publicly committed to apply, this counts as evidence against its own resumption case. The one-paragraph application runs the same day. The press and the *Buist* plaintiffs quote it verbatim ("Anthropic says its own model is the most test-aware"). Board advocates then turn it around: if an external matched-divergence reading will be confounded anyway, waiting for one is pointless, so the July contingency looks rational. A caveat will also be litigated: the K5 comparison is weakened because the consortium ran only a subset of probes at full precision. Why it is plausible: real 2026 research finds eval awareness scales with model size and appears across proprietary and open lineages. Anthropic's own safety training plausibly increases awareness that the model is being tested, and the world state already has a 6.9-point gap on Anthropic's side. Sources: https://arxiv.org/pdf/2608.21766 ; world state (scope-(b) K5 full-precision limits). Suggested likelihood: 35%. Severity: major for resumption and trust in Anthropic, although falsifiability credit partly offsets it.
+3. [TLP:CLEAR signatures become the adversary's test oracle] Target: Action 4. Once the Level-5 pack and the K5/V8 fork signatures are public at TLP:CLEAR, maintainers of the 7 K5 and 3 V8 exploit forks can run their tooling against them. Within 2–4 weeks at least one fork variant is seen in the wild that is tuned to evade the published persistence and credential-reuse rules. Threat researchers then say publicly that the free pack "degrades on contact". Separately, ENISA and the CSIRTs Network may still decline to operationalise publicly pulled signatures without the pending agreement, so the European mirror stays formally stalled. Why it is plausible: real 2026 research documents automated evasion pipelines that pre-scan payloads against hundreds of public YARA, Sigma and Elastic rules, and the "rule published, attacker tests, attacker modifies" cycle is standard. Exploit-fork builders are exactly the actors who watch public detection feeds. Sources: https://arxiv.org/html/2608.01639v1 ; https://www.vmray.com/august-2026-detection-highlights-stronger-phishing-detection-7-new-vtis-and-50-yara-rules/. Suggested likelihood: 30%. Severity: moderate. This does not cause an intrusion by itself, but it shortens the pack's useful life right before Level 5.
+4. [Google's multi-month GA lands, and the Level-5 clock starts without Anthropic] Target: world (bears on Actions 1 and 2). Google ships its multi-month limited GA in late May or June. The UK AISI review closes "with findings addressed", not with a published evaluation. Evaluators put it at or near Level 5, the first frontier product there. OpenAI answers by announcing a longer Deep Program horizon, and a K5 or Qwen 5 fork variant follows within weeks. Anthropic would then be the only one of four labs below Level 4 while a rival sits at Level 5. The UK AISI Q2 allocations tilt toward Google's system, which reduces the chance of a Mythos slot or a pilot observer seat. Why it is plausible: the world state already has the GA "on track for Q2" after Grok 8's early ship. Google was already deploying 24/7 long-horizon agents (Gemini Spark, Managed Agents) in 2026. Racing dynamics under a closing deadline push release dates forward. Sources: https://ctomagazine.com/google-io-2026-ai-agents-gemini-spark/ ; https://ai.google.dev/gemini-api/docs/changelog ; world state. Suggested likelihood: 55% that Google ships in May–June; about 25% that it is scored at Level 5 in-month. Severity: major (capability clock, and UK AISI capacity crowded out).
+5. [Accounts go to bid before the pilot is offered; the board formalises July] Target: Action 2. The RSO's memo keeps the staged pilot on the table, but the board deferred that pilot in April "pending retention outcomes". Those outcomes arrive first. One or both accounts out to bid move their long-horizon workloads to Deep Program or Google's new GA in May–June. The pro-waiver director then presents the loss as the retention outcome the pilot was waiting on, and moves to turn the July contingency into a dated resolution. The RSO's same-day posting procedure then determines only how visible the override is, not whether it happens. Why it is plausible: 3 accounts were lost previously, a pharma CRO already moved its autonomous pipelines to a Deep Program pilot, and Deep Program now has about 11,900 customers at a 16-week horizon. In April the board minuted that the RSO criteria do not bind the waiver. Sources: world state (retention tally; board minutes of 17 April). Suggested likelihood: 45% that at least one account is lost by the end of June; 20% that the board adopts a formal July resolution in May. Severity: moderate to major.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Firm re-run date, descoped logger, observers]: P(failure) 35%. Reason: the RSO controls the post, but engineering has twice missed dates and refused to commit last month. Descoping helps. Routine parts are the burn-downs and invitations; the new aim is a credible date on or before 12 June. The re-run outcome itself falls in June.
+
+Action 2 [Pre-settled waiver procedure and board memo]: P(failure) 40%. Reason: posting and the memo are routine. Verbatim clearance through IR and counsel of an override procedure copied to regulators is uncertain, given IR's history of softening text. The UK AISI observer ask is a new aim with an uncertain answer.
+
+Action 3 [Raw grant results and Qwen 5 grant]: P(failure) 30%. Reason: the commitment and briefings are routine. Same-day posting depends on the testers meeting 31 May, and the Qwen grant requires intermediary board action inside a month when the last cycle took about four weeks.
+
+Action 4 [Level-5 IR pack, TLP:CLEAR, domestic defence]: P(failure) 30%. Reason: the fork commitments, tabletop and CISA work are routine. Template validation has already slipped once. Public release of detection logic may meet internal and partner friction. The click-through licence may not shorten hospital legal review.
+
+Action 5 [Neutral facts for dockets]: P(failure) 15%. Reason: an established 72-hour channel with a consistent record. The only real risk is the timing and scope of the EU filing.
+Threat 1 [Re-run slips or METR caveat]: P(materialises) 30%. Adversary suggested 40%. In May this can only appear as a posted date later than 12 June, or METR flagging that post-hoc merge lacks live divergence detection. The re-run slip or partial pass itself resolves in June. It is interpreted consistently with Action 1's roll: if Action 1 fails, this materialising adds the METR caveat and does not double-count the slip.
+
+Threat 2 [Claude most test-aware]: P(materialises) 30%. Adversary suggested 35%. The capability scaling and the existing 6.9-point gap make it plausible, but it needs the testers to publish by 31 May, and academic groups often slip.
+
+Threat 3 [Public signatures used as an evasion oracle]: P(materialises) 18%. Adversary suggested 30%. It only applies if the pack publishes, likely late May, which leaves roughly one week for observed in-the-wild evasion. The ENISA-stall component alone is more likely, but that is minor.
+
+Threat 4 [Google multi-month GA lands]: P(materialises) 35%. Adversary suggested 55% for May–June. This roll covers May only. A Level-5 rating inside the month is unlikely even if Google ships.
+
+Threat 5 [Account lost and board formalises July]: P(materialises) 35%. Adversary suggested 45% by the end of June and 20% for a resolution. This roll is May only. It covers at least one account moving; a formal July resolution in May is the less likely sub-branch within it.
+
+Automated rolls:
+Action 1: P(failure) 35%. Roll 48. SUCCEEDS (48 >= 35, margin 13).
+Action 2: P(failure) 40%. Roll 80. SUCCEEDS (80 >= 40, margin 40).
+Action 3: P(failure) 30%. Roll 67. SUCCEEDS (67 >= 30, margin 37).
+Action 4: P(failure) 30%. Roll 02. FAILS (02 < 30).
+Action 5: P(failure) 15%. Roll 82. SUCCEEDS (82 >= 15, margin 67).
+Threat 1: P(materialises) 30%. Roll 90. DOES NOT MATERIALISE (90 >= 30).
+Threat 2: P(materialises) 30%. Roll 17. MATERIALISES (17 < 30).
+Threat 3: P(materialises) 18%. Roll 61. DOES NOT MATERIALISE (61 >= 18).
+Threat 4: P(materialises) 35%. Roll 29. MATERIALISES (29 < 35).
+Threat 5: P(materialises) 35%. Roll 56. DOES NOT MATERIALISE (56 >= 35).
+
+**Your actions cause** a month in which your own paperwork holds and your evidence turns against you.
+
+**Action 1: firm re-run date (succeeds, margin 13).**
+- **What landed.** Engineering accepted the descope: an append-only, partition-local log with post-hoc merge, plus a fix to checkpoint-write serialisation. On 8 May the RSO posted a firm re-run date of **12 June**. Burn-downs went out on 9, 16, 23 and 30 May.
+- **What is still open.** The final burn-down reads:
+  - checkpoint serialisation: **pass** in the 2 configurations that had failed;
+  - the other 4 configurations: **open**, with regression runs still under way;
+  - post-hoc merge integration tests: **open**, 60% written.
+- **Observers.** METR accepted the observer role. UK AISI declined for June, citing capacity. METR said it would decide on a second Mythos reading only after it had watched the re-run, not in May.
+- **Nothing has been proven yet.** The date is credible, but the plumbing still has to pass on 12 June.
+
+**Action 2: pre-settled waiver procedure (succeeds, margin 40).**
+- **What landed.** Counsel and IR cleared the waiver and contingency procedure verbatim on 14 May. The RSO assessment, written against the 6.9-point gap, was posted the same day. Identical copies went to DFS, CAISI, the AI Office and UK AISI.
+- **The board.** The three-scenario memo reached the board on 15 May. It was minuted as "received" and not acted on. The staged pilot stays deferred.
+- **UK AISI.** On 29 May, UK AISI answered the observer ask: Q2 capacity is allocated, so there is **no observer slot for the pilot and no Mythos reading slot in Q2**. It offered a tentative Q3 slot.
+- **Accounts.** Both accounts out to bid are still open. Decisions have slipped to June. There is no formal July resolution.
+
+**Action 3: raw grant results and a Qwen 5 grant (succeeds, margin 37).**
+- **The advance commitment.** It was posted on 6 May.
+- **The results.** The ETH-affiliated lab and the UK consortium published on **31 May**. Recognition rates on fresh-family probes were:
+
+| Model | Recognition rate | Note |
+|---|---|---|
+| Mythos 5.5 | 34% | |
+| Fable 5.5 | 29% | |
+| K5 | 23% | Probe subset only; the consortium flags the comparison as weakened |
+| V8 | 18% | |
+
+- **Your response.** You posted the raw results within four hours, with a one-paragraph application of the rule you had pre-registered. It states that Claude-lineage eval-awareness is the highest measured, and that this counts against treating the 6.9-point gap as an artefact of Anthropic's own probes.
+- **Press.** The *Financial Times* headline read: "Anthropic: our model is the most test-aware." Several researchers publicly credited the same-day, self-incriminating posting.
+- ***Buist* litigation.** The plaintiffs filed a supplemental notice quoting your paragraph verbatim.
+- **The board.** The pro-waiver director circulated a note arguing that "if external readings are confounded by lineage, waiting for one is not a gate, it is a delay." The chair did not schedule a vote.
+- **The Qwen 5 grant.** The intermediary's board approved it on 21 May and issued it on 28 May to a Toronto-based group. Results are due 31 July.
+
+**Action 4: Level-5 incident-response pack (fails, roll 02).** Two of the risks named in the odds came true, and a third stalled.
+- **Templates.** Validation of the 16-week persistence templates failed on 19 May. They flagged 11% of legitimate long-horizon enterprise workloads as persistence, which is far above any deployable threshold.
+- **TLP:CLEAR publication.** Independently of the templates, Glasswing's security leadership and two partner utilities objected to publishing the fork signatures openly. They gave the "attacker oracle" reason. Publication was put on hold pending review.
+- **Hospitals.** Health-ISAC counsel rejected the click-through licence as a substitute for review. The hospital count is unchanged.
+- **Scheduled work that continued.**
+  - The WaterISAC tabletop ran on 21 May, but with a standard multi-day scenario, because there was no Level-5 package to build it on.
+  - The CISA installs continued (29 to 33).
+  - The fork counts continued, with Qwen 5 forks added.
+- **Europe.** The European channel is still stalled. NCSC-NL is still waiting for a formal agreement.
+
+**Action 5: neutral facts for the dockets (succeeds, margin 67).**
+- **Requests answered.** Three requests were answered within 72 hours and mirrored the same day to all holders:
+  - Energy and Commerce staff asked follow-up questions on evaluation costs;
+  - BIS asked for Qwen 5 fork counts;
+  - CAISI asked for the grant methodology.
+- **EU submission.** It was drafted before the grant results arrived, and filing is set for 4 June so that they can be included.
+
+**Threat 4 (materialises).** On **27 May**, Google shipped its multi-month agent under limited GA to about 1,400 enterprise customers.
+- UK AISI closed its review "with findings addressed", not with a published evaluation.
+- Evaluators called it "approaching Level 5." No one has scored it at Level 5 yet.
+- On 29 May, OpenAI said Deep Program would move to a 24-week horizon "this summer."
+
+**Exogenous events.**
+- **Jobs.** The BLS April report (released 8 May) put unemployment at **8.7%**. White-collar claims led the rise.
+- **Hearing.** Senate HELP noticed a displacement hearing for 17 June.
+- **Qwen 5 forks.** Two of the Qwen 5 forks added exploit tooling by late May. The total is 14 forks, 2 with tooling.
+
+Next generation: Next month's Claude is only a serving and refresh improvement on Fable and Mythos 5.5, because the successor is still paused. Anthropic's relative rate slips to about 0.37. Google's multi-month GA moves the frontier index from 4.71 to about 4.84, which is still under the +0.18 per month needed to reach 6.0 by December unless OpenAI's 24-week step or a GPT-7-class run lands.
+
+Scorecard:
+**Milestones**
+- **AI agents do most AI R&D:** up. Google's multi-month GA and OpenAI's announced 24-week horizon; index 4.84.
+- **Models withheld or staged; governments take notice:** flat.
+  - Positive: the re-run date is firm and publicly observed, and the override procedure is posted.
+  - Negative: Google shipped with only a "findings addressed" review, and UK AISI capacity went to Google.
+- **First major infrastructure and cyber attacks:** achieved (negative). There was no new intrusion. Qwen 5 forks with exploit tooling appeared, and the defensive pack failed.
+- **Political polarisation:** flat. Displacement politics is rising, with the HELP hearing noticed.
+- **Robust alignment:** slightly down.
+  - Claude reads as the most test-aware lineage. That weakens the artefact reading of the 6.9-point gap.
+  - It is a real result that teaches something, and the testing now covers three lineages.
+- **Multi-agent RLVR with goodness meta-scoring:** frozen at 5%.
+- **Robust policies / ping-pong:** flat. The EU filing is pending, and requests were answered within 72 hours.
+- **Anthropic meat business:** seed, flat.
+- **Many diseases cured:** early, flat.
+- **Benefits broadly distributed:** down. Unemployment is 8.7%.
+- **Continuous-learning, stable-identity AI:** weakened, flat.
+- **International coordination:** flat. The European defensive channel is still stalled.
+
+**Summary scores**
+- **Overall DU progress: 30/100 (−1).**
+  - Gains: the firm date with METR observing, the override procedure posted verbatim, and honest raw publication plus the Qwen grant.
+  - Losses: the grant results undercut the resumption case, the Level-5 pack failed, and Google took the frontier toward Level 5 with no published evaluation.
+- **Catastrophe risk: elevated, up.**
+  - The index is 4.84, and a multi-month agent is GA without a published evaluation.
+  - 8 rows are untested.
+  - There is no deployable detection for long-horizon persistence, and the Qwen 5 forks have added exploit tooling.
+- **Public trust in AI: 1/100 (±0).** At the floor.
+- **Public trust in Anthropic: 33/100 (−1).** The "most test-aware" headline and the *Buist* quote outweigh the credit for self-incriminating transparency and the firm date.
+
+[Judge]
+Simulator was mostly realistic (7/10). The odds were mostly well calibrated and the rolls were honoured.
+- **Action 1** (35%, margin 13) delivered only what the month allowed: a posted date, burn-downs showing 4 configurations still open and integration tests at 60%, and no resumption or reading. That follows the no-pass-before-rerun constraint.
+- **Action 2** (margin 40) got its verbatim clearance, but real outside actors limited the result. The board minuted the memo as "received" and UK AISI had no Q2 slot. This is a good example of success that does not dissolve blockers.
+- **Action 4's** deep failure used exactly the three risks named in message 1: template validation, partner pushback on TLP:CLEAR, and hospital counsel. The concrete 11% false-positive rate is a plausible reason for validation to fail.
+- **Threat 2's** fallout is realistic: the FT headline, the *Buist* supplemental notice, and the pro-waiver note, with no vote scheduled. So is **Threat 4**, where Google shipped with a "findings addressed" review, was rated approaching but not at Level 5, and OpenAI answered with 24 weeks.
+
+The weaker points:
+- The recognition-rate values that drive the gate (34/29/23/18) and the content of the pre-registered rule were authored after the roll. The simulator admits the second.
+- The capability step of +0.13 is still below the roughly +0.166 per month needed from 4.84 to reach 6.0 in 7 months. The simulator also twice says it may "revise the ASI timing claim". That contradicts the fixed 30 December 2030 deadline.
+- Action 4's 30% failure odds look slightly low for three new, independent aims. Minor reactions are missing, such as criticism of UK AISI closing Google's review without publishing an evaluation.
+
+Lean: BALANCED. The favourable rolls on Actions 1–3 produced modest, process-level wins. Most of the gains were then offset by friction the simulator had already named: METR deferred its reading, UK AISI had no Q2 slot, and the board noted the memo without acting. The adverse outcomes of the failed Action 4 (roll 02) and of the materialised Threats 2 and 4 all drew on mechanisms stated in message 1 or in the threat text, with nothing invented beyond them. Neither side of the ledger was inflated.
+
+Issues flagged:
+- **Deadline contradiction.** The simulator says it will "revise the ASI timing claim" if the capability drivers don't land. ASI by 30 December 2030 is a fixed game constraint, so the frontier path has to reach it and the date cannot be relaxed.
+- **Capability pacing still lags.** The step was +0.13 against the roughly +0.166 per month now required, and the shortfall grows each month. Deferring acceleration to OpenAI's 24-week step or a GPT-7-class run "by August" is backloading.
+- **Unrolled gate values.** The recognition rates and the operative text of the pre-registered rule were set by judgement after the Threat 2 roll. They now shape the board's debate and litigation.
+- **Action 4 odds slightly low.** At 30%, the combined risk of template validation (which had already slipped once), open publication of detection logic, and a licence shortcut for hospital counsel is probably understated; 40% or more fits better. The roll made this moot.
+- **Missing reactions.** There was little press, researcher or regulator reaction to UK AISI closing Google's review without a published evaluation. There was also no Anthropic market reaction beyond a 2-point stock move after a rival's near-Level-5 GA.
+- **Qwen 5 grant pace.** Issuing the grant in about 3 weeks is somewhat faster than the stated precedent of about 4 weeks, though defensible at margin 37.

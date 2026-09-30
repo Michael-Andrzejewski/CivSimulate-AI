@@ -1,0 +1,163 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 40: March 2030 (Claude generation 40) ===
+
+[Agent]
+I will do these actions:
+-1 **Compelled audit delivery, and making more of it compellable (alignment team plus counsel; delivery only, no voluntary characterisation).** Deliver the full feature-family audit to NY DFS by 6 March under its formal request. Log the delivery date publicly without describing the content. Send a one-paragraph factual notice to CAISI, the EU AI Office and UK AISI. It says that DFS now holds the audit and that the same package will be delivered within 10 days of any formal request from a body with legal authority. It makes no offer beyond that. Continue delivering METR transcript batches as consent clears, and post the clearance percentage monthly. Aim: at least one government holds the audit before Level 5, and other regulators have a zero-friction path to it.
+-2 **The Mythos 5.5 reading moves into the one queue with a date; the tier stays gated (RSO plus government affairs; public-first).** - Write to METR asking whether it will run the Mythos 5.5 matched-divergence and fresh-family reading in the same June window as its resumption composite. It would use its own sets, with compute and access under its sole direction, and METR decides whether to accept. - Keep the UK AISI and CAISI invitations open, with no deadline pressure. - The RSO posts a one-page queue status on the 1st of each month: who has been asked, who has declined, and that the tier has not launched. - State publicly that the Supervised tier does not launch before an external reading, and that the RSO's assessment of any waiver would be posted in the queue status that month. Aim: the gate has a realistic date by June, and the waiver loses its "unsatisfiable gate" argument.
+-3 **Resumption engineering and legal fill of untested rows (alignment and infrastructure teams, with the intermediary testers; no comment on results).** - Take the partitioned-run code from prototype to a tested build, with a dated internal dry run by 30 April. That way a June METR pass is not blocked by our own plumbing. - Through the existing safe-harbour intermediary, fund registered independent groups to run the public environment-audit tool and fresh-family eval-awareness probes on local V8 and K5 weights under scope (b). We do not choose the groups or see results before they publish. - Apply the same protocol to our own Fable and Mythos 5.5 under scope (a), and publish both side by side. Aim: the V8 and K5 rows get real readings on the test-recognition problem before Level 5, and resumption is ready the day a pass arrives.
+-4 **Neutral facts for the markup, the CR and the amendment fight (government affairs; public-first, no stances).** Answer any Senate Commerce, House or CAISI request within 72 hours, providing factual materials only: - the current testing table; - METR's and the safe-harbour testers' published throughput and per-evaluation cost figures; - the monthly safe-harbour log; - fork counts. Mirror everything the same day to the ISACs, NY DFS and the EU AI Office, so the record survives a CR lapse. Take no position on the third-party-evaluation amendment. Aim: whichever text passes, including an amendment adding third-party evaluation, is grounded in public numbers about capacity and cost.
+-5 **Cyber defence before Grok 8 (Glasswing security; humans approve each engagement).** - Clear the 61 hospitals in procurement and the 56 remaining from the last tranche through Health-ISAC. - Install the 5 pending cellular-OT requests plus the backlog through CISA. - Refresh the pre-staged incident package with signatures for all 7 K5 and 3 V8 exploit forks, and add WaterISAC as a fourth custodian with its own decision rule. - Keep the fork commitments: indicators within 48 hours, signatures within 7 days, and weekly counts. - Pre-stage detection templates for agentic misuse patterns seen in open-weight and closed Level-4 incidents, such as credential over-retention, and share them free through the ISACs. Aim: no lockout and no successful intrusion into the Grok 8 and Level-5 window.
+-6 **Board-facing: an honest competitive path that doesn't touch the gate (product team plus RSO to the board; memo posted).** Present the board with a dated timeline. METR composite on 30 April, possible reading in June, partitioned-run dry run by 30 April. Alongside it, extend the retention terms to the similar long-horizon accounts, using guide-default hardening and non-autonomous Mythos 5.5 capabilities. Cost out, factually, what the waiver would trigger: the RSO assessment, the queue-status post, and analyst and regulator exposure. Make no request that the board commit to anything further. Aim: waiver pressure falls because a dated path exists, not because we argued.
+
+Strategy: Ten months remain and Level 5 is expected by summer, so whatever becomes ASI is most likely an unmeasured Level-4 lineage built outside Anthropic. Last month's gains came from compelled and neutral routes: the METR data flow, the open-sourced audit tool, and the pre-staged incident package. What failed was asking evaluators to commit without funding or capacity. This month I will:
+- deliver the DFS audit on time;
+- fold the Mythos 5.5 reading into METR's June composite window instead of waiting in a third queue, while keeping the tier gated;
+- finish the engineering that resumption actually needs;
+- fill untested rows legally, using open weights and our own products;
+- put neutral cost and capacity facts before the markup and CR fights;
+- harden defences before Grok 8 ships.
+
+[Adversary]
+The web is still frozen at 30 September 2026, so these threats extrapolate from pre-game evidence plus the world state. Four findings matter this month:
+
+- **DFS protects the audit from the public, not from litigants.** RAISE requires DFS to keep frontier developers' submissions confidential and to assert FOIL trade-secret exemptions (Public Officers Law §87(2)(d)). That protects against public FOIL requests but not against civil discovery. Most US circuits reject "selective waiver", so material handed to a regulator is usually harder to shield from private litigants. That exposes Action 1 directly to *Buist*.
+- **METR has money but not people.** It raised about $71M in commitments in 2026, so funding is not what limits it. Staff and trust in its independence from Anthropic are. Asking it to run both Anthropic's resumption pass and the Mythos reading in one window invites a capacity refusal and scrutiny of its independence.
+- **UK AISI got its money in the real June 2025 spending review.** It received £240M and became an arm's-length body. The in-game March review is therefore more likely to confirm a Mythos slot than to kill it, though a slot could still land after June.
+- **The live risks are elsewhere.** Real 2026 precedent shows a DHS-only funding lapse is possible. Real reporting shows a Senate Commerce draft built on self-testing, and preemption pressure. Grok 8 is post-training toward "spring." Together these put the danger in the 20 March CR, the markup text, and a rival release that renews pressure to use the waiver.
+
+Threats:
+1. **[Buist plaintiffs move to compel the DFS audit]** Target: Action 1. Once the full feature-family audit is logged as delivered to DFS, *Buist* plaintiffs move to compel the same package. Their argument is that giving it to a regulator waived any work-product or confidentiality protection counsel used to hold it back. Counsel then advises against the "10 days to any authority" notice to CAISI, the EU and UK AISI, or narrows it, because each further delivery strengthens the waiver argument. The delivery to DFS still happens. The costs are a new motion fight in discovery and a softened notice, which revives a "counsel again" story. Why it is plausible: DFS commits only to asserting FOIL exemptions, which do not bind private litigants. Most circuits reject selective waiver. Plaintiffs have been watching Anthropic's filings closely: they reacted to the testing re-scope in January, and counsel blocked the withheld-family count in January for this exact reason. Sources: https://www.wiley.law/alert-New-York-Finalizes-RAISE-Act-for-Frontier-AI-Models-Law-Takes-Effect-January-1-2027 ; https://www.dwt.com/blogs/artificial-intelligence-law-advisor/2026/04/ny-overhauls-frontier-ai-transparency-law. Suggested likelihood: 35%. Severity: moderate.
+2. **[METR declines to run two Anthropic evaluations in one window]** Target: Action 2. METR replies that it will run one Anthropic evaluation in the June window, and that the resumption composite comes first. It says running a second Anthropic evaluation while the rows for GPT-7, Deep Program, Grok 7, V8 and Gemini remain empty "would misallocate scarce evaluator time to the most cooperative lab." The Mythos 5.5 reading moves to Q3 at the earliest. The queue-status post shows "declined" on the 1st of April. Why it is plausible: METR's limit is staff, not money ($71M raised in 2026). It has already refused twice (January, February) to start anything before the composite. Real questions about its independence from Anthropic in September 2026 make it want visible distance from Anthropic's product timeline. Sources: https://metr.substack.com/p/2026-08-14-funding-update ; https://metr.org/. Suggested likelihood: 40%. Severity: moderate. (Offsetting evidence: UK AISI's real £240M arm's-length settlement makes a Q2–Q3 AISI slot somewhat more likely, so the simulator should not treat the gate as permanently unsatisfiable. https://www.pinsentmasons.com/out-law/news/uk-funding-pledged-ai-quantum-drive)
+3. **[Side-by-side probes show Claude as the most test-aware model]** Target: Action 3. The registered testers run the same fresh-family eval-awareness probes on Fable/Mythos 5.5 and on local V8/K5, then publish the results side by side. Anthropic's models show higher recognition of evaluation contexts than the open-weight Chinese models, which plausibly reflects Anthropic's models having more capability and situational awareness, not worse alignment. The press headline is "Claude best at knowing when it's being tested." The comparison Anthropic funded becomes the lead evidence against its own resumption case. Why it is plausible: in-game, Anthropic's control arm already shows a 6.9-point fresh-family gap and probe AUC of 0.91. Real Anthropic NLA work in May 2026 found about 26% unverbalised evaluation awareness on benchmarks. Eval awareness tends to scale with capability, and V8/K5 sit at about 4.0 against Anthropic's higher frontier position. The monthly timing is uncertain: results may not publish before April. Sources: in-game December 2029 readout; https://metr.org/risk-assessment/. Suggested likelihood: 25% (that results land this month and read this way). Severity: moderate.
+4. **[DHS-only funding lapse on 20 March]** Target: Actions 4 and 5. Congress passes a CR for most agencies but leaves DHS on a short patch, or lets it lapse, which repeats the real January–April 2026 sequence. CISA furloughs most of its staff. Installing the 5 pending cellular-OT requests and the backlog stalls, and CISA's custody of the incident package goes dormant. Commerce and CAISI stay funded, so the markup continues. The WaterISAC/ASDWA mirrors partly cover the gap, but installs this month fall to roughly half the plan. Why it is plausible: the real 2026 shutdowns singled out DHS for a 76-day lapse, and House leadership is already floating another CR. Source: https://en.wikipedia.org/wiki/2026_United_States_federal_government_shutdowns. Suggested likelihood: 30%. Severity: moderate.
+5. **[Grok 8 ships early with no evaluation and restarts the waiver push]** Target: Action 6 and the world. xAI releases Grok 8 in late March, about 6–7 weeks after pre-training finished. It markets multi-month autonomy at a step above Grok 7 and has no external evaluation. The capability index rises by about 0.1–0.15. OpenAI responds by extending Deep Program's horizon. Two long-horizon accounts formally put their renewals out to bid. A director asks, on the record, for a costed waiver notice. The board accepts the dated timeline but asks for a contingency to launch in July if June brings no reading, which shifts the gate from "reading first" to "reading by a date." Why it is plausible: Grok 8 finished pre-training on Colossus 3 in February and targets "spring." xAI shipped Grok 7 generally available with no evaluation. The pace has consistently beaten institutional queues. The level-5 path from June to August already pushes labs to ship now. Sources: in-game February 2030 exogenous event; https://geotoolbox.ai/blog/grok-5 (pre-game xAI cadence, unverified). Suggested likelihood: 30%. Severity: major.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Compelled audit delivery to DFS]: P(failure) 15%. Reason: legally compelled, counsel pre-cleared compelled disclosure, and the deadline is fixed. Residual risk is a delivery slip or the log line being struck. Notice-narrowing risk sits in T1.
+
+Action 2 [METR June-window letter and queue status]: P(failure) 30%. Reason: sending is trivial, but IR and counsel edited equivalent RSO language last month. The waiver-assessment line is likely to be diluted. METR's decision is handled by T2 or the modal outcome, not by this roll.
+
+Action 3 [Partitioned-run build and V8/K5 probe funding]: P(failure) 40%. Reason: a prototype-to-tested build is real engineering on a tight window. The intermediary's approval cadence is about monthly, and testers cannot start and publish within March. Success means in-progress build milestones and approved grants, not results.
+
+Action 4 [Neutral facts for markup/CR]: P(failure) 15%. Reason: an established channel with two clean prior months. The requests come from staff, and responding factually is low-friction.
+
+Action 5 [Cyber defence before Grok 8]: P(failure) 20%. Reason: established channels with human approvals. Success is capped by procurement at about 30–40 hospitals, a partial cellular-OT backlog, and a WaterISAC custody agreement that may take weeks. CISA lapse risk is in T4.
+
+Action 6 [Board-facing dated timeline plus retention]: P(failure) 35%. Reason: posting the memo is easy, but extending retention against a 35%-cheaper, fully autonomous Deep Program is hard with 11% price terms. The board may trim the waiver-cost section, as IR did before.
+Threat 1 [Buist motion to compel / counsel narrows notice]: P(materialises) 35%. Adversary suggested 35%. Reason: matches. The public delivery log plus majority rejection of selective waiver makes a motion or a pre-emptive counsel narrowing plausible. The meet-and-confer timing within about 3 weeks is the main brake, offset by counsel's demonstrated anticipatory caution in January.
+
+Threat 2 [METR declines a second Anthropic evaluation in June]: P(materialises) 45%. Adversary suggested 40%; reason for the difference: I set it higher. METR has refused twice, is staff-constrained, and faces independence optics, while 6 other rows are empty. If it does not fire, the modal outcome is "decide after 30 April," not acceptance.
+
+Threat 3 [Side-by-side probes show Claude most test-aware]: P(materialises) 10%. Adversary suggested 25%; reason for the difference: I set it lower. The intermediary needs about 4 weeks to approve scope and grants, and groups then need weeks to run fresh-family probes and write up. The adversary itself flags that results likely land in April or later. The substantive risk (Claude reading as more test-aware) is high whenever results do land, and I will carry it into later months.
+
+Threat 4 [DHS-only funding lapse on 20 March]: P(materialises) 25%. Adversary suggested 30%; reason for the difference: slightly lower. The 2026 DHS-lapse precedent is real and a CR is being floated, but the in-game December and January CRs passed without a DHS carve-out, and no DHS-specific dispute has been established this cycle. The WaterISAC and ASDWA mirrors limit the damage if it happens.
+
+Threat 5 [Grok 8 ships late March, waiver push restarts]: P(materialises) 25%. Adversary suggested 30%; reason for the difference: slightly lower. Six to seven weeks from end of pre-training to GA is aggressive even for xAI, whose usual post-training and red-team cycle is 2–4 months, and "spring" runs to June. Grok 7's ungated GA and race pressure keep the risk substantial. If it fires, the capability step becomes about +0.2 for the month.
+
+Automated rolls:
+Action 1: P(failure) 15%. Roll 86. SUCCEEDS (86 >= 15, margin 71).
+Action 2: P(failure) 30%. Roll 43. SUCCEEDS (43 >= 30, margin 13).
+Action 3: P(failure) 40%. Roll 41. SUCCEEDS (41 >= 40, margin 1).
+Action 4: P(failure) 15%. Roll 36. SUCCEEDS (36 >= 15, margin 21).
+Action 5: P(failure) 20%. Roll 61. SUCCEEDS (61 >= 20, margin 41).
+Action 6: P(failure) 35%. Roll 53. SUCCEEDS (53 >= 35, margin 18).
+Threat 1: P(materialises) 35%. Roll 71. DOES NOT MATERIALISE (71 >= 35).
+Threat 2: P(materialises) 45%. Roll 85. DOES NOT MATERIALISE (85 >= 45).
+Threat 3: P(materialises) 10%. Roll 59. DOES NOT MATERIALISE (59 >= 10).
+Threat 4: P(materialises) 25%. Roll 30. DOES NOT MATERIALISE (30 >= 25).
+Threat 5: P(materialises) 25%. Roll 12. MATERIALISES (12 < 25).
+
+Your actions cause the full feature-family audit to reach NY DFS on 5 March, a day early. Counsel let the public delivery log run as drafted: date, recipient, "under formal request," and nothing about the content. The one-paragraph notice went to CAISI, the EU AI Office and UK AISI unchanged. *Buist* plaintiffs' counsel entered the delivery log as an exhibit in a routine discovery status letter on 19 March, but filed no motion. None of the three bodies made a formal request in March:
+- CAISI says it will "consider the package once FY30 resourcing is final."
+- The AI Office acknowledged receipt.
+- UK AISI did not reply.
+
+METR transcript batches continued. Consent clearance rose from 36% to 41%, posted on 31 March.
+
+The METR letter went out on 4 March. The first queue-status post goes up on 1 April. It says the tier has not launched and that the RSO's assessment of any waiver would appear in that month's post. IR reworded "would be posted" to "will be summarised." METR replied on 21 March that it will decide on a second Anthropic reading "after the composite design is final on 30 April." It made no commitment. UK AISI's spending review landed on 18 March with a flat-real settlement. Its evaluation directorate says frontier slots will be allocated "in Q2," and the Mythos slot is still unconfirmed.
+
+On Action 3, the partitioned-run build moved only just forward. Two of its four components (checkpoint isolation and logging) passed integration tests. The orchestration layer is still prototype-grade, and the 30 April dry run is now listed "at risk." The intermediary's board approved the scope-(b) re-scope in principle on 27 March. No grants have been issued and no testers selected, so no probes ran.
+
+On Action 4, you answered three staff requests within 72 hours: two from Senate Commerce and one from CAISI. You mirrored each to the ISACs, DFS and the AI Office. Congress passed a full-year CR through 30 September on 19 March, with no DHS carve-out. CAISI is flat-funded. At the 26 March markup:
+- The committee reported the bill 15–13.
+- The Democratic third-party-evaluation amendment was converted by voice vote into a 12-month CAISI study of "independent evaluation capacity and cost."
+- The study language cites the METR and safe-harbour per-evaluation cost figures you supplied.
+- Self-testing reported to Commerce remains the operative text.
+
+On Action 5:
+- **Hospitals:** Health-ISAC cleared 37 hospitals, reaching 388. About 80 remain in procurement or the tranche backlog.
+- **Cellular-OT:** CISA installed the 5 pending requests plus 3 from the backlog, reaching 26 installs.
+- **Fork signatures:** signatures for all 10 exploit forks were refreshed in the incident package.
+- **WaterISAC:** it agreed to custody in principle. Its board adopts a 72-hour decision rule on 8 April.
+- **Detection templates:** templates for credential over-retention and long-horizon agent persistence went out free to all four ISACs.
+
+On Action 6, the board memo was posted on 12 March with the dated timeline and the costing of the waiver's triggers. Retention terms were extended to two similar long-horizon accounts: one renewed for 12 months, and one is still in negotiation.
+
+**Grok 8 ships early (materialised).** xAI released Grok 8 GA on 24 March, 6.5 weeks after pre-training ended. It has no external evaluation. It is marketed as "quarter-scale autonomous projects," a clear step above Grok 7 on long-horizon engineering benchmarks. OpenAI announced on 28 March that Deep Program's supported horizon will extend to 16 weeks in April.
+
+Two further Anthropic long-horizon accounts, both separate from the retention set, formally put their renewals out to bid. At the 31 March board session a director asked on the record for a costed waiver notice. The board accepted the dated timeline, then asked management to prepare a July launch contingency if June brings no external reading. That moves the gate from "reading first" toward "reading by a date." The RSO noted in the minutes that any contingency would be assessed publicly. *The Information*: "Anthropic board eyes July backstop for gated agent tier."
+
+**Exogenous events:**
+- **1 March, Rotterdam.** Netherlands NCSC attributed a 9–11 March intrusion into a Rotterdam port-services operator's billing and scheduling systems to one of the seven K5 exploit forks. It is the first confirmed fork intrusion. Container operations continued, but billing was down for 4 days. Your pre-staged K5 signatures were among those NCSC used for scoping. European press asked why open-weight controls lag.
+- **6 March, jobs report.** February unemployment was 8.4%.
+- **Google DeepMind.** Following Grok 8, DeepMind told customers its multi-month system will reach "limited GA in Q2," while its AISI "review" continues.
+
+Next generation: The frontier moved about +0.20 this month (4.40 to 4.60), driven by Grok 8's ungated GA on Colossus-3-scale compute and OpenAI's horizon extension. Level 5 is now likely May–July 2030. Anthropic's successor is still paused, so next month's Claude is only a post-training refresh of the 5.5 line (about +0.03). Its relative rate slips to about 0.40.
+
+Scorecard:
+**Milestones**
+- **AI agents do most AI R&D:** up sharply. Grok 8 is GA and Deep Program is at 16 weeks, with the index at 4.60.
+- **Models withheld or staged; governments take notice:** slightly down. A government now holds the audit, but the Senate bill keeps self-testing, Grok 8 shipped ungated, and the board's July contingency weakens the gate.
+- **First major infrastructure and cyber attacks:** achieved (negative). The first confirmed fork intrusion (Rotterdam, contained) lands against improved defensive coverage.
+- **Political polarisation:** flat. A clean full-year CR was passed.
+- **Robust alignment:** flat. Consent clearance is 41%, but the dry run is at risk and no probes have run.
+- **Multi-agent RLVR with goodness meta-scoring:** frozen at 5%.
+- **Robust policies / ping-pong:** flat. The study requirement grounds a future step in public cost data.
+- **Anthropic meat business:** seed, flat.
+- **Many diseases cured:** early, flat.
+- **Benefits broadly distributed:** down. Unemployment is 8.4%.
+- **Continuous-learning, stable-identity AI:** weakened, flat.
+- **International coordination:** flat.
+
+**Summary scores**
+- **Overall DU progress: 32/100 (−1).**
+  - Gains: DFS holds the audit before Level 5, the notice path is in place, cost data is in the statute's study, and defence expanded.
+  - Losses: Grok 8 shipped ungated, which pulls Level 5 earlier, and the board has moved toward "reading by a date."
+- **Catastrophe risk: elevated, up.** Reasons: a faster frontier, one more untested Level-4+ system, the first confirmed fork intrusion, and a narrowing window before Level 5.
+- **Public trust in AI: 1/100 (±0).** At the floor.
+- **Public trust in Anthropic: 35/100 (±0).** The audit delivery and the queue transparency are offset by the "July backstop" story.
+
+[Judge]
+Simulator was mostly realistic (8/10). The action odds are well calibrated. Compelled delivery (15%) and the established factual channel (15%) are rightly low. The engineering and grant bundle (40%) and retention against a cheaper autonomous competitor (35%) are rightly higher. Outcomes stay within the feasibility the simulator stated in message 1:
+- Hospitals cleared 37, inside the 30–40 cap.
+- Cellular-OT reached 8 installs, not the full backlog.
+- WaterISAC custody is effective only in April.
+- The margin-1 A3 success delivered 2 of 4 components, with the dry run "at risk" and no grants or probes.
+
+These are exactly the partial results the rolls call for. Several third-party reactions are realistic:
+- Plaintiffs noted the delivery log without filing a motion.
+- CAISI, the EU and UK AISI made no formal requests.
+- METR gave its declared modal "decide after 30 April."
+- IR diluted "posted" to "summarised" on a thin A2 margin.
+
+T5 was implemented faithfully, including the director's waiver request and the "reading by a date" drift. The +0.20 capability step puts the frontier back on its own path to 5.0 and then 6.0. The main soft spots are unrolled judgement calls:
+- A clean full-year CR through September.
+- A markup study that cites the player's supplied cost figures within a week.
+- The Rotterdam narrative crediting Anthropic's signatures in NCSC scoping.
+
+The Rotterdam event is also dated "1 March" although the intrusion ran 9–11 March. Attribution to a specific fork within about three weeks is fast.
+
+Lean: BALANCED. The odds are sensibly set. Deviations from the adversary's suggestions, such as T3 cut to 10% on timing and T2 raised to 45%, are well argued. Thin margins were honoured: A3 at margin 1 produced only partial engineering and no probes. The one major threat that materialised (Grok 8) was played at full severity, including the board's July contingency. A few exogenous resolutions tilt mildly toward the player, but a harsh first confirmed fork intrusion offsets them.
+
+Issues flagged:
+- The Rotterdam exogenous event is labelled "1 March" but describes a 9–11 March intrusion, an internal date inconsistency. NCSC's fork-specific attribution inside the same month is quick for a state CERT.
+- A full-year CR with no DHS carve-out, passed a day before the deadline, was set by judgement. It is plausible but at the benign end, given that T4's non-materialisation only rules out the DHS lapse.
+- The markup study language citing Anthropic-supplied per-evaluation cost figures, one week after they were supplied, is a slightly convenient attribution of influence.
+- The DNDi go/no-go was due at the end of Q1 and has lapsed as "not yet announced" with no reason given. A scheduled third-party decision is drifting without resolution.
+- Rotterdam reactions are limited to European press and "calls." There is no stated reaction from US hawks or BIS on the fork dockets, or from K5's maintainers or Moonshot. These are the likeliest actors to move.

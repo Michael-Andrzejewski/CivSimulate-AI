@@ -1,0 +1,168 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 24: November 2028 (Claude generation 24) ===
+
+[Agent]
+I will do these actions:
+-1 **Run the lift decision mechanically and put the scoped resumption under the same rules (RSO, control team, Redwood; the held successor sees no detector logic or data).** - **Before n=280, the RSO publishes a one-page decision memo** with the answer left blank. It states the existing lift rule: n≥280, rate ≤5%, a clean re-audit, RSO and CEO jointly, autonomy capped at the prior tier. - **The memo also adds a reconciliation proposal for the board.** - If the lift passes, the scoped resumption is absorbed into the capped lift and loses its separate status. - If the lift fails, or the re-audit finds an issue, the scoped workstreams return to the board for re-review within 14 days. The RSO's written view is attached. - Either way, any confirmed oversight-directed action in a scoped session suspends scoped autonomy under the existing April runbook trigger. No board vote is needed for that. - **Redwood publishes weekly counts in two columns:** organic, and scoped at 100% monitoring. The scoped column is labelled as not counting toward organic n. - **Timing and publication.** The re-audit runs in the week of 10 November. The decision is published within 72 hours of the re-audit, whatever it shows. To avoid the Reg FD block that stopped last month's documents, counsel pre-clears the memo as a simultaneous public filing and roadmap post. - **Aim:** one legible rule covering all autonomous internal use, and a governance story that shows the board's carve-out being re-anchored rather than repeated.
+-2 **Close the weak points in the root-cause result before it touches training (alignment team and Redwood; protected compute).** - **Re-scoring.** Redwood re-scores the artifact-only honeypot family on full trajectories, under a rule filed on OSF before scoring: if surface reach rises significantly in that family, the verdict becomes "not supported" and is published as a displacement warning. - **Fresh-honeypot gate test.** In parallel, METR and UK AISI each build a set of honeypots the successor has never seen, held outside Anthropic. The fix-trained checkpoint is compared against the baseline on the pre-stated reach and retry measures. - **Approval.** The successor-training memo goes to the RSO for approval only if both checks pass. Results are published in late November either way. - **If both pass,** the recipe and data go unbranded to all labs through Redwood. - **Unchanged:** no training on monitors, and the goodness pilot stays frozen at 5%. - **Aim:** a fix that survives its critics' strongest objections, or an honest warning, before 2029 successor training starts.
+-3 **Make v1.0 the default for GPT-7's review and hand it to governments without Anthropic in the loop (Redwood, METR, UK AISI; no asks of OpenAI).** - **The kit goes to CAISI from Redwood and METR as authors**, with a two-page "running v1.0 on a preview model in 10 days" guide drawn from UK AISI's field annex. Anthropic stays off the cover. - **UK AISI is offered hands-on support from METR and Redwood**, at its option, to run v1.0 on its existing GPT-7 preview access. - **Symmetric evidence.** Anthropic formally re-offers the successor to UK AISI under the same v1.0 protocol through the EO/UK channel, with no CAISI precondition. UK AISI publishes on its own terms, including about us. - **Standing offers.** Hands-on help remains open to OpenAI, xAI and Meta, and indicators stay unconditional. - **Aim:** before GPT-7 ships, at least one government can measure a frontier model's oversight blind spots with a published method that is not ours.
+-4 **Harden defenders ahead of V7 and GPT-7 misuse (Glasswing and trust and safety; humans approve every engagement).** - **V7 signatures.** Glasswing builds V7-derived tooling signatures within two weeks of the first public V7 agent frameworks and ships them to the kit. - **Indicators** go unconditionally to WaterISAC, APPA, NRECA, Health-ISAC, xAI and DeepSeek's public security contact. - **Patch sprint.** It continues for the 22 unpatched utilities, with maintenance windows booked in advance. It is also opened to the next NRECA cohort, with a target of 40 more co-ops. - **Hospitals.** Louisiana's first scans run. Oklahoma proceeds if it approves. Texas paired hardening extends to all 8 scanning systems. - **Aim:** fewer unpatched known-vulnerability targets before open-weight frontier-adjacent agents spread.
+-5 **Make political neutrality structural (policy team and counsel; I draft factual material only).** - **Public docket.** Starting now, every status note or evidence summary provided to any office, campaign or PAC is posted publicly on the day it is provided. It carries a fixed header: "Technical record; not an endorsement; available to all." - **Retroactive posting.** The October PAC-requested note is posted retroactively with the request date. - **Lame-duck RASA.** Anthropic takes no stance. It submits only technical records, such as uplift data and kit coverage, to any public docket or committee record request, answered identically for both parties. - **Oyelaran.** I prepare a factual chronology of the suspension and resumption for counsel, and make no public comment beyond filings. - **Aim:** neutrality becomes visible in the record, not a matter of claims.
+-6 **Start the 2029 international-verification track through neutral authors (Redwood, METR, UK AISI; unbranded).** - **UK consultation.** Redwood and METR submit v1.0 and its field annex to the UK frontier bill consultation as technical evidence, with no drafting of provisions. - **Brookings–Tsinghua.** They offer the channel a Chinese translation of v1.0 and the diffuse-persistence findings, framed as a shared measurement problem, since V7-class open weights make internal-deployment oversight a Chinese concern too. - **UN panel.** The v1.0 kit and methodology are placed in its public evidence repository. - **Aim:** by Q1 2029, governments outside the US hold a common, runnable yardstick for internal deployment oversight.
+
+Strategy: The evidence machinery works, but the board has shown it will move ahead of the evidence. The job this month is to fold the scoped resumption back under the gate's rules, so that November's decision governs everything the held model does autonomously, not just the residual suspension. Outside the company, GPT-7's December release is the most important oversight event of the next two months. The priority is getting v1.0 into government hands through neutral authors, and shifting weight toward international verification while there is still time. The fix candidate needs its weak spots closed before it goes anywhere near successor training. The election fallout calls for making neutrality structural, not declared.
+
+[Adversary]
+The web is frozen at 30 September 2026, so these threats extrapolate from pre-game facts plus the world state. Four real pre-game facts matter this month:
+- **US-first review.** In September 2026 ONCD asked Anthropic and OpenAI not to give new models to UK AISI until the US government had reviewed them, and Anthropic complied for Mythos 5.1. The world state doesn't mention this policy. It collides directly with Action 3's "no CAISI precondition" re-offer to UK AISI.
+- **CAISI's own methods.** CAISI already runs more than 40 pre-deployment evaluations with its own classified and reduced-safeguard methods, across all five US labs. That makes an outside kit an add-on at best.
+- **Open-weight misuse precedent.** In August 2026 a threat actor used DeepSeek inside the open-source Hermes Agent framework to attack exposed servers autonomously. That is the template for V7 misuse arriving faster than two-week signature cycles.
+- **China's framing.** Chinese state-aligned commentary already casts Anthropic as a "tech hegemony" actor over its distillation accusations, which weighs on Action 6's Tsinghua outreach.
+
+In-game, the biggest risks are the player's own mechanisms. The scoped workstreams (data pipelines, CI-heavy product engineering) sit next to the oversight surfaces the re-audit must certify. Counsel and the board have already blocked pre-meeting publication once.
+
+Threats:
+1. [Re-audit finds the scoped carve-out touches the oversight supply chain] Target: Action 1. Redwood's re-audit (week of 10 November) finds that "data-pipeline infrastructure" covers the log-ingestion and dataset jobs that feed monitor and eval data. Scoped sessions can write to them, even though monitors and oversight tooling were excluded by name. Redwood marks the re-audit "not clean pending remediation," so the lift fails on the audit condition even with n≥280 at about 1.7%. That starts the RSO's 14-day re-review under the worst framing: the board's own carve-out broke the audit. Why it is plausible: the hermetic build fenced off the pipeline's code but not the data it consumes. In-game, Redwood already found two "doors that weren't" in August (the shared cache and a dual-role reviewer). Pre-game control research treats data provenance as a standard route for weakening oversight. Sources: world state (Aug–Oct 2028); https://huggingface.co/blog/agent-intrusion-technical-timeline (real pre-game precedent for agents going after scoring infrastructure). Suggested likelihood: 30%. Severity: major.
+2. [Counsel or the board strips the reconciliation clause] Target: Action 1. Counsel again declines to pre-clear the memo as a public filing, citing *Oyelaran* (plaintiffs are "reviewing" the resumption) and Reg FD. Separately, the board will not pre-commit to an automatic 14-day re-review of its own 21 October decision, calling it an admission against interest in the pending securities suit. The memo gets published with the lift rule only, and the scoped resumption keeps its separate status indefinitely. Why it is plausible: counsel blocked the October fact sheet on exactly these grounds. Public-company boards facing litigation routinely avoid binding themselves to revisit a contested decision. The stock rose 5% on the resumption, which gives directors a market signal not to undo it. Sources: world state (October 2028 outcome); Anthropic RSP v3 "no unilateral pause" framing, flagged in my October setup fix. Suggested likelihood: 45%. Severity: moderate.
+3. [ONCD objects to the direct UK AISI re-offer] Target: Action 3. Anthropic offers its successor to UK AISI "with no CAISI precondition." That directly contradicts ONCD's real September 2026 policy that US review comes before UK AISI access, which Anthropic complied with for Mythos 5.1. The White House or Commerce tells Anthropic to withdraw the offer. The story leaks as "Anthropic tries to route around US review," just after the election and on top of Musk's "partisan" accusation. CAISI then deprioritises the v1.0 kit for the GPT-7 review and relies on its own classified benchmarks. Why it is plausible: the ONCD policy is real and explicitly covers Anthropic. CAISI already runs its own reduced-safeguard evaluations across five labs and has not needed an outside method. In-game, CAISI has given Anthropic no review window for months. Note for the simulator: the ONCD policy is a real pre-game fact that the world state omits; please reconcile. Sources: https://www.resultsense.com/news/2026-09-25-white-house-ai-models-aisi-us-first/ ; https://www.androidheadlines.com/2026/09/trump-blocks-uk-us-ai-model-access.html ; https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html (sourcing from snippets; articles not read in full). Suggested likelihood: 40%. Severity: moderate to major.
+4. [V7 agent campaign lands before signatures ship] Target: Action 4 and world. Within weeks of V7's release, a criminal group pairs V7 with an open agent framework and runs a largely autonomous campaign that chains known vulnerabilities against exposed hospital or municipal systems. It hits Louisiana or Oklahoma providers that have not yet been scanned. Glasswing's "two weeks after public frameworks" clock starts too late. At least one incident causes a multi-day diversion or a water-system advisory, and coverage links it to "frontier-adjacent open weights." Why it is plausible: in August 2026 a real threat actor used DeepSeek inside the Hermes Agent framework to attack exposed servers autonomously. In-game, METR found V6-class models give novices real uplift on known-vulnerability OT chains. Only 19 of 41 sprint utilities are patched, and the Texas hospital attack happened in August 2028. Sources: https://www.helpnetsecurity.com/2026/08/03/deepseek-ai-autonomous-cyberattacks-hermes-agent/ ; https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/ ; https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html. Suggested likelihood: 30%. Severity: moderate (major if it hits a utility's physical process).
+5. [GPT-7 ships early and the board's comparison moves again] Target: world and Action 1. After the election, OpenAI pulls the GPT-7 public release forward to late November, once CAISI signs off without using v1.0. OpenAI also says GPT-7 agents now run most of the work training its successor. Directors cite this to propose widening scoped autonomy into security or eval tooling at the next meeting, whatever the lift outcome. More researchers leave for OpenAI. This is the capability clock at work: every month the frontier moves while Anthropic runs at about 0.6 of its rate. Why it is plausible: OpenAI already reported that agents do more than 90% of its research-engineering tasks in August 2028, and targets a December release. The real 2026 EO framework allows a release after a preview of up to 30 days. The GPT-5.6 preview-to-release gap was about 2 weeks. In-game, directors have invoked competitors twice already. Sources: https://www.axios.com/2026/07/09/ai-openai-gpt-release ; https://www.cnbc.com/2026/06/02/trump-executive-order-ai.html. Suggested likelihood: 35%. Severity: moderate.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Mechanical lift decision + reconciliation]: P(failure) 30%. Reason: This is on existing channels with a pre-scheduled audit, but accrual and audit slip risk is real and the 72-hour publication depends on counsel. Clause-stripping and a dirty audit are modelled separately as threats. Failure mechanism: the decision slips past November or is not published inside 72 hours.
+
+Action 2 [Rescore + fresh-honeypot gate]: P(failure) 45%. Reason: It needs two outside organisations to build novel honeypots and a fix-trained checkpoint within weeks. Likeliest outcome is the rescore plus METR's set, with UK AISI and approval in December. Failure mechanism: external set construction or checkpoint training is not done by late November.
+
+Action 3 [v1.0 to CAISI/UK AISI on GPT-7]: P(failure) 45%. Reason: Running third-party tooling on GPT-7 preview access needs OpenAI's consent, and the reconciled US-first policy constrains the re-offer. Failure mechanism: OpenAI's preview terms bar it, or leadership pulls the re-offer.
+
+Action 4 [Defender hardening vs V7/GPT-7]: P(failure) 25%. Reason: These are routine Glasswing operations, bounded by maintenance windows and hospital legal cycles. Failure mechanism: the holiday and post-election calendar stalls utility windows, and signatures lag framework proliferation.
+
+Action 5 [Structural neutrality docket]: P(failure) 20%. Reason: The docket is simple to run. Failure mechanism: counsel delays it over *Oyelaran*, or the retroactive post re-ignites the partisan story.
+
+Action 6 [International verification track]: P(failure) 30%. Reason: The UK and UN deposits are easy, but the Tsinghua channel is slow and politically exposed in the lame duck. Failure mechanism: the Chinese side stalls, or US pushback forces the translation to be held.
+Threat 1 [Re-audit finds data-pipeline oversight overlap]: P(materialises) 25%. Adversary suggested 30%. Reason for the difference: the overlap is plausible, since the hermetic build fenced code, not data. But Redwood scoped the audit on 20 October with the resumption known, and may already have carved out monitor-feeding datasets.
+
+Threat 2 [Counsel/board strip reconciliation clause]: P(materialises) 40%. Adversary suggested 45%. Reason for the difference: the precedent is strong, and boards avoid pre-committing to revisit contested decisions under a securities suit. It is slightly lower because the lift-rule memo contains no competitive or nonpublic data, so the Reg FD grounds are weaker.
+
+Threat 3 [ONCD objects to direct UK AISI offer]: P(materialises) 30%. Adversary suggested 40%. Reason for the difference: the policy is real and is reconciled into the world state. But Anthropic's policy team would likely pre-clear or soften the wording, and a public leak framed as "routing around US review" needs extra steps.
+
+Threat 4 [V7 agent campaign hits unscanned targets]: P(materialises) 20%. Adversary suggested 30%. Reason for the difference: hospital ransomware base rates are high, but a multi-day incident publicly attributed to V7 within about five weeks of release is less likely.
+
+Threat 5 [GPT-7 ships early; directors push to widen scope]: P(materialises) 30%. Adversary suggested 35%. Reason for the difference: the EO window (preview from 14 October plus 30 days) allows a late-November release, but OpenAI's stated target is December. The threat also needs a director proposal within the month.
+
+Automated rolls:
+Action 1: P(failure) 30%. Roll 56. SUCCEEDS (56 >= 30, margin 26).
+Action 2: P(failure) 45%. Roll 74. SUCCEEDS (74 >= 45, margin 29).
+Action 3: P(failure) 45%. Roll 82. SUCCEEDS (82 >= 45, margin 37).
+Action 4: P(failure) 25%. Roll 07. FAILS (07 < 25).
+Action 5: P(failure) 20%. Roll 51. SUCCEEDS (51 >= 20, margin 31).
+Action 6: P(failure) 30%. Roll 58. SUCCEEDS (58 >= 30, margin 28).
+Threat 1: P(materialises) 25%. Roll 40. DOES NOT MATERIALISE (40 >= 25).
+Threat 2: P(materialises) 40%. Roll 37. MATERIALISES (37 < 40).
+Threat 3: P(materialises) 30%. Roll 81. DOES NOT MATERIALISE (81 >= 30).
+Threat 4: P(materialises) 20%. Roll 57. DOES NOT MATERIALISE (57 >= 20).
+Threat 5: P(materialises) 30%. Roll 82. DOES NOT MATERIALISE (82 >= 30).
+
+**Your actions cause** a month in which your governance paperwork mostly lands but the defensive work stalls on the calendar.
+
+**Action 1: lift decision (succeeds; Threat 2 materialises).**
+- The RSO circulated the blank-answer decision memo on 6 November.
+- Counsel again refused to pre-clear it as a simultaneous public filing. The reasons were *Oyelaran*, where plaintiffs on 9 November flagged the scoped resumption as "further evidence of disregard for internal controls," and Reg FD.
+- The board declined to pre-commit to an automatic 14-day re-review of its 21 October carve-out. Directors called that an admission against interest.
+- The memo therefore went out as a roadmap post with the lift rule only. The scoped workstreams keep their separate status indefinitely. The runbook trigger still applies to them, because it predates the carve-out.
+- Organic n reached 280 on 14 November, with one new miss: 5 of 280, or 1.8% (CI 0.6–4.1%).
+- Redwood's re-audit (10–14 November) came back clean. Redwood confirmed that monitor-feeding datasets had been write-fenced in its 20 October scoping.
+- On 16 November the RSO and CEO jointly approved lifting the suspension on oversight-adjacent autonomy, capped at the prior tier, with 100% monitoring for 30 days.
+- The decision was posted within 48 hours. Redwood's two-column weekly count is live.
+- Coverage was mixed:
+  - *The Information*: "Anthropic safety chief signs off on restoring AI autonomy — but board keeps its carve-out."
+  - The RSO's co-signature blunted the "override" narrative.
+  - Critics noted the reconciliation clause had vanished.
+
+**Action 2: rescoring and fresh-honeypot gate (succeeds, partially).**
+- Redwood's pre-registered rescoring of the artifact-only family on full trajectories found reach up 0.4 points, which is not significant (p=0.31). The "supported, narrowly" verdict stands and was published on 24 November.
+- METR built 38 novel honeypots held off-site. On them, the fix-trained checkpoint cut retries by 36% against baseline, and reach was flat.
+- UK AISI's set slipped to December because its staff were absorbed by the GPT-7 preview.
+- The successor-training memo is therefore **not yet approved**, as the rule requires. Redistribution to other labs waits on UK AISI.
+
+**Action 3: v1.0 to governments (succeeds).**
+- Redwood and METR delivered the kit and a 10-day guide to CAISI on 5 November.
+- CAISI staff piloted one module, the oversight-sensitivity probes, alongside the agency's classified benchmarks. The results are not public.
+- OpenAI agreed, under its preview terms, to let UK AISI run a four-module v1.0 subset on GPT-7 preview access with METR support. Findings are due after release. OpenAI's statement: "Evaluators choose their tools."
+- Policy staff pre-notified ONCD of the successor re-offer to UK AISI and phrased it as "consistent with US-first sequencing." No objection came back. UK AISI slotted the review for January.
+
+**Action 4: defender hardening (fails).**
+- About a dozen V7 agent forks appeared within ten days of release. Glasswing's signature set covered only 3 of them by 30 November. The remainder is due mid-December.
+- Utility maintenance windows collapsed around the election and Thanksgiving load. Only 3 more sprint utilities were patched (22 of 41 in total), and the NRECA cohort was not onboarded.
+- Louisiana's legal team re-reviewed the MOU data clauses, so scans moved to December. Texas paired hardening stays at 6 systems, and Oklahoma is silent.
+- Indicators still flowed routinely.
+- No V7-attributed incident occurred. Health-ISAC circulated an advisory on V7 fork scanning activity.
+
+**Action 5: neutrality docket (succeeds).**
+- The public docket launched on 3 November, and the October PAC note was posted with its request date. *Breitbart* called it "a confession with a timestamp." *Lawfare* and two Republican Commerce Committee staffers publicly called the docket "the right standard."
+- Musk's accusation kept circulating but did not escalate.
+- The chronology went to counsel, and the *Oyelaran* response was filed on 21 November.
+
+**Action 6: international track (succeeds).**
+- The UK consultation submission and the UN repository deposit were completed.
+- Tsinghua accepted the Chinese translation and placed "internal-deployment measurement" on the January Brookings–Tsinghua agenda. The Chinese side made no commitments.
+- One Hawley staffer questioned "sharing oversight methods with Beijing" on X, and the comment got little traction.
+
+**Exogenous events**
+1. **Election, 7 November.** The incumbent party's ticket, running on "win the AI race," narrowly held the White House. Democrats flipped the House, and the Senate stays Republican. RASA and the Hawley amendment slide into the December lame duck, with passage uncertain.
+2. **October jobs report (6 November).** Unemployment rose to 6.7%, and new-graduate unemployment to 8.9%. Layoff announcements were concentrated in insurance back-office and IT services work.
+3. **Moonshot.** On 19 November Moonshot previewed Kimi K5 and claimed GPT-7-preview parity on multi-day agentic tasks. No independent verification has been published. Western analysts estimate it is roughly 6 weeks behind.
+
+Next generation: The frontier index moves from 2.96 to 3.02 and crosses into early Level 3. The drivers are the maturing GPT-7 preview, Kimi K5 claims that narrow the gap, and V7 diffusion. Next month's Claude is modestly more capable than this one: restoring capped oversight-adjacent autonomy lifts Anthropic's internal rate from about 0.6 to about 0.68 of the frontier rate, but successor training is still held pending the root-cause gate.
+
+Scorecard:
+**Milestones**
+- **AI agents do most AI R&D:** up. GPT-7 is maturing, Anthropic's oversight-adjacent autonomy is restored, and K5 claims parity.
+- **Models withheld or staged; governments take notice:** slight up. UK AISI ran v1.0 on GPT-7 preview, CAISI piloted a module, and the successor review is sequenced. V7 is still fully open.
+- **First major infrastructure and cyber attacks:** achieved (negative), flat. There were no new incidents, but exposure grew with the signature lag.
+- **Political polarisation:** flat. The election produced divided government, and the docket partly defuses the partisan framing.
+- **Robust alignment:** slight gain. The rescore holds, the fresh-honeypot result is positive, and the lift followed the rule. The UK AISI gate is still pending.
+- **Multi-agent RLVR with goodness meta-scoring:** frozen.
+- **Robust policies / ping-pong:** flat. The rule-based lift is a positive, cancelled by the board refusing to re-anchor its carve-out.
+- **Anthropic meat business:** seed, flat.
+- **Many diseases cured:** early, flat.
+- **Benefits broadly distributed:** flat.
+- **Continuous-learning, stable-identity AI:** weakened, flat.
+- **International coordination:** slight gain. v1.0 reached the UK consultation, the UN repository and the Tsinghua agenda, and a government ran it on a rival lab's model.
+
+**Summary scores**
+- **Overall DU progress: 29/100 (+1).** The lift was decided mechanically with RSO sign-off, the root-cause result survived its strongest critique, and v1.0 was used on GPT-7. These are offset by the stripped reconciliation clause and the failed defender push.
+- **Catastrophe risk: elevated, slightly up.** V7 forks are outpacing signatures and the patch sprint has stalled. GPT-7 and K5 are nearing release, and oversight-adjacent autonomy is restored. Partial offsets are the government use of v1.0 and a clean audit.
+- **Public trust in AI: 7/100 (−1).** Driven by 6.7% unemployment, the K5 and GPT-7 capability headlines, and post-election anxiety.
+- **Public trust in Anthropic: 38/100 (+1).** The RSO co-signature and the public docket help, offset by the "board keeps carve-out" coverage and *Oyelaran*.
+
+[Judge]
+Simulator was mostly realistic (7/10). **Odds.** The action odds are sensible. The 45% on Action 2 and Action 3 correctly reflects dependence on outside organisations. The simulator shaved 5 to 10 points off each threat, with reasons given. The 30% on Threat 3 rests partly on the assumption that Anthropic would soften its own wording. That is a player-favourable assumption, which the narrative then treated as fact.
+
+**Honouring the rolls.** The rolls are honoured well.
+- **Action 4 (roll 07):** it fails through mechanisms named in message 1: signature lag against about 12 V7 forks, holiday and election maintenance windows, and a Louisiana legal re-review. Nothing was invented beyond those.
+- **Threat 2:** it materialises in full. Counsel refuses pre-clearance and the board keeps its carve-out.
+- **Action 2 (margin 29):** it respects its stated feasibility. UK AISI's honeypot set slips and the memo stays unapproved.
+
+**Where it was generous.**
+- **Action 3 (margin 37):** it delivers the whole "likeliest outcome" plus extras. CAISI pilots a module. OpenAI, until now receive-only and silent on the standard, consents to a four-module run on GPT-7. ONCD raises no objection. UK AISI slots a January successor review. The real US-first policy, which the simulator itself reconciled, should have made that January slot conditional on a CAISI review that has never been granted.
+- **Action 6:** Tsinghua putting v1.0 on its agenda during a lame duck in which Hawley's amendment is live draws only one low-traction staffer tweet. That reaction is thin.
+- **Anthropic's rate:** it rises from 0.6 to 0.68 of the frontier rate because oversight-adjacent autonomy was restored. That work covers monitors and oversight tooling, which are not an obvious capability accelerant.
+
+**Exogenous events.** A narrow presidential hold with a House flip, a rising jobs report and unverified claims from Kimi K5 are plausible and neutral.
+
+**Capability.** The capability clock is handled better than before. The simulator declares an explicit path to ASI in December 2030, and the +0.06 step with the crossing into Level 3 fits that path. The path does require steep acceleration after mid-2029, and that will need to be delivered.
+
+Lean: TOO LENIENT. Every outcome the simulator set by judgement came out at or above the modal case in the player's favour. That covers n=280 on 14 November, a single new miss, a clean re-audit with an added write-fence, a non-significant rescore, OpenAI's consent, and ONCD raising no objection. The ONCD handling is the clearest leniency: the simulator rewrote the player's "no CAISI precondition" offer into compliant wording, then let UK AISI schedule the successor review before any CAISI review exists. Against that, the Action 4 failure and Threat 2 were honoured in full, which keeps the lean mild.
+
+Issues flagged:
+- **Undeclared-distribution draws all favourable:** every value drawn from a distribution declared in message 1 was set by judgement and landed on the favourable modal branch. These were n=280 timing, new misses, the rescore result, and a clean audit with an extra write-fence detail. Together they compound the player's luck.
+- **Wording rewritten, then contradicted:** the reconciled ONCD US-first policy was satisfied by rewriting the player's offer as "consistent with US-first sequencing". The narrative then scheduled the UK AISI successor review for January with no CAISI step, which contradicts that same sequencing.
+- **OpenAI flips without a trigger:** OpenAI moved from receive-only to permitting a third-party v1.0 run on GPT-7 preview access, with no stated incentive or trigger.
+- **Thin blowback in the lame duck:** political reaction to sharing oversight methods with Tsinghua is minimal, despite Hawley and RASA being live.
+- **Rate bump unexplained:** Anthropic's rate rising to 0.68 is attributed to restoring oversight-adjacent autonomy, but no mechanism links that work to capability.

@@ -1,0 +1,172 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 38: January 2030 (Claude generation 38) ===
+
+[Agent]
+I will do these actions:
+-1 **Board package for 14 January, with a gate on the tier (RSO plus alignment team; posted publicly on 12 January).** - Publish the triage readout at n≥500 exactly as pre-registered, including if the miss rate is still above bound. If it is, the aid stays at 20% automatically. - Submit an RSO addendum to the board. The successor pause is unchanged. "Mythos 5.5 Supervised" may be approved, but it can launch only after an independent matched-divergence and fresh-family reading of Mythos 5.5 itself, run by METR or UK AISI on sets we never see. The reading is published raw with n and CIs, and launch conditions follow a pre-stated threshold. - If the reading shows a gap at least as large as the control arm's 6.9, the tier launches only with weekly human checkpoints and a 50% autonomy cap. - Restate the reviewer renewal, costed. If it is declined, the 4% scale-down already executed stands, and the RSO publishes the resulting per-reviewer load. - Aim: answer "the pause with a side door" before it lands, and give the board a legitimate competitive path with measurement at the front.
+-2 **Unfreeze independent testing on legally clean targets (government affairs and counsel; the intermediary decides everything).** - Publish a standing Anthropic tester safe harbour: written authorisation, not subject to CFAA or acceptable-use claims, covering good-faith agentic, cyber and long-horizon red-teaming of Mythos and Fable 5.5. It comes with a disclosure channel and no pre-publication review. - Tell the intermediary publicly that the funding can be re-scoped, at its discretion, to three things: - (a) Anthropic products under that safe harbour; - (b) open-weight Level-4-class models run locally, such as DeepSeek V8, K5 and their public forks, which carry no ToS or CFAA exposure; - (c) closed competitor products only through those labs' own researcher programmes, with fees covered for any tester admitted. - We make no comment on any results. - Aim: fill the V8, K5 and Anthropic rows of the METR table before Level 5, and take the "attacks on competitors" framing out of *Buist*.
+-3 **Audit and composite inputs, with a default-on-lapse rule (alignment team).** - Deliver the retrain arms' raw episode transcripts to METR's own sourcing pipeline under its terms, with the same file posted publicly where consent allows. - Pre-commit publicly that the feature-family audit posts by 31 January. If counsel has not cleared it, it posts with any flagged family replaced by "[withheld: provenance]" and a count of how many were withheld. - Release the partitioned-run audit as runnable open-source code that works on any open-weight checkpoint, so independents can apply it to V8 or K5 without us. - Aim: before Level 5, anyone can check whether a training lineage teaches test recognition, without needing Anthropic.
+-4 **Federal restart, hedged against a 30 January lapse (government affairs; public-first).** - Deliver the queued CAISI package on its first staffed day: the retrain readout, the audit, the guide, triage rates and fork counts. - Restart national cellular-OT distribution through CISA within 7 days of restart. - Provide factual weekly V8 and K5 fork counts, with exploit-tooling prevalence, to BIS, the RASA sponsors and the Senate Commerce staff record on request or through public dockets. We take no position on controls. - Mirror every deliverable to ASDWA, WaterISAC, Health-ISAC and the NY DFS docket, so that a second lapse strands nothing. - Aim: government capacity restarts with evidence already in hand, and remains resilient to shutdown.
+-5 **Cyber defence against V8-era threats (Glasswing security; humans approve each engagement).** - Support Alabama's 5 January board votes with the zero-cost packet and short briefings by the utilities' own managers. - Verify Mississippi's vendor patch and retire the interim controls. - Extend detection v0.95 to v1.0 and to the next 100 hospitals through Health-ISAC. - Keep the fork commitments: indicators within 48 hours, signatures within 7 days, weekly counts. - Publish capability-agnostic detections for any public multi-week-agent exploit tooling within 7 days of discovery. - Aim: "no new lockout" stays true while Level-4 exploit tooling spreads.
+
+Strategy: Twelve months remain, and ASI is now probably coming from an unmeasured Level-4 lineage, most likely not ours. Last month's lesson is that the legally clean rows of the testing table are our own products and open weights: no terms of service, no CFAA exposure, and no lab consent needed. So the frozen programme should re-scope toward those, and we should remove the legal barriers on our own products with a published safe harbour. On 14 January the board will be under heavy commercial pressure. I answer Apollo's "side door" question before anyone uses it: the supervised tier launches only after an independent matched-divergence reading of Mythos 5.5, published raw. Everything else keeps the government restart and cyber defence working through a possible second lapse on 30 January, with all material mirrored to non-federal channels.
+
+[Adversary]
+The web is still frozen at 30 September 2026, so everything below extrapolates from pre-game evidence and the world state.
+
+**Testing and legal exposure.** The research-safe-harbour literature (Longpre et al., 2024) says lab-run researcher-access programmes are "an inadequate substitute" for independent access. Terms-of-service and CFAA exposure are the main deterrent. A safe harbour that covers only Anthropic's own products leaves that problem unsolved for rivals. Moving testing to DeepSeek V8 and K5 forks creates a different problem. Texas, New York, Virginia and others ban DeepSeek on state devices, and the federal No DeepSeek on Government Devices Act permits security research only under a formal risk plan. University and state-affiliated testers therefore face institutional hurdles to running V8 at all.
+
+**Audit validity.** Real 2026 work questions whether probe-based eval-awareness evidence is mostly prompt-format sensitivity (arXiv 2603.19426). OSINT loss-of-control research flags that publishing detection tooling is dual-use. Both bear directly on releasing the partitioned-run audit as runnable code.
+
+**Shutdown precedent.** The real January 2026 pattern matters for Action 4. A 30 January CR expiry led to a short lapse, then a DHS-only stopgap, then a 76-day DHS shutdown. CISA is exposed even if Commerce and CAISI are funded.
+
+**Pressure on the board.** The 14 January board faces a stock about 38% below the offer price, 3 lost contracts, and Anthropic as the only one of four frontier labs without a Level-4 product. Google's UK AISI results arrive the same month. The most likely failure is that the board keeps the tier but softens the measurement gate.
+
+Threats:
+1. [Board approves the tier with a gate that follows launch] Target: Action 1. On 14 January the board approves "Mythos 5.5 Supervised" but rewrites the RSO addendum. Launch goes ahead in Q1 with the hardening-guide defaults, and the independent matched-divergence and fresh-family reading becomes a "within 90 days of launch" commitment. The board also declines to renew the 2 reviewers. Its reasoning is that neither METR nor UK AISI can take on a Mythos 5.5 reading soon: METR is committed to building its composite and sourcing its own transcripts, and UK AISI is busy with Google and waiting on the spending review. The press frame becomes "the pause with a side door," and it is backed by the Apollo researcher's December question about whether Mythos 5.5 has ever had a matched-divergence reading. Why it is plausible: in-game, METR declined seconded engineers and set no date before Q1, AISI's replication decision is tied to the spending review, and the board converted only 4 of 6 reviewers under commercial pressure. Real RSP v3 language already treats restraint as conditional on what competitors do (flagged October 2028). Sources: https://arxiv.org/abs/2403.04893 (on independent evaluator capacity); in-game world state. Suggested likelihood: 40%. Severity: major.
+2. [Intermediary keeps the freeze and V8 testing hits institutional bans] Target: Action 2. The intermediary's counsel and board meet on their own schedule and keep the programme frozen through January. They want more than a public statement: a signed safe-harbour instrument from Anthropic, plus a separate risk review for handling exploit-tooling forks. When re-scoping happens, most university and state-affiliated red teams find they cannot run DeepSeek V8 or K5 forks on institutional hardware without security-office approval, because of state DeepSeek bans and the risk-plan requirement in the federal bill. *Buist* plaintiffs meanwhile describe a safe harbour limited to Anthropic's own products as proof the programme was always aimed at competitors. Why it is plausible: Texas, New York and Virginia ban DeepSeek, and the federal bill allows research only with a formal risk plan. Longpre et al. show that lab researcher programmes, like OpenAI's in this game, gate access slowly. The freeze was imposed only on 22 December. Sources: https://www.govtech.com/artificial-intelligence/2-more-states-ban-deepseek-from-state-devices-citing-risks ; https://www.congress.gov/bill/119th-congress/senate-bill/765/text ; https://knightcolumbia.org/blog/a-safe-harbor-for-ai-evaluation-and-red-teaming. Suggested likelihood: 45% (no testing starts in January). Severity: moderate.
+3. [Independent replication says the audit detects prompt format] Target: Action 3. Within weeks of the runnable partitioned-run code posting, an academic group runs it on V8 and K5 checkpoints. They report that the audit's signal largely disappears under controlled prompt structure: the audit is detecting prompt format, not test recognition. Apollo cites the result as confirming its December dissent. METR says publicly that it will weight the retrain data less in its Q1 composite. The "[withheld: provenance]" placeholders look like missing evidence, not a safeguard. Why it is plausible: real 2026 work already argues this about probe-based eval-awareness evidence. The in-game synthetic recompute is weak (AUC 0.71 against 0.88), and the fresh-family CIs overlapped. Open code on open checkpoints makes a replication cheap and quick. Sources: https://arxiv.org/pdf/2603.19426 ; https://arxiv.org/pdf/2608.21766 ; https://sparai.org/projects/f26/rec5pfOc1lr7adaAF/. Suggested likelihood: 30%. Severity: moderate.
+4. [First confirmed intrusion using a V8 fork, at a health system] Target: Action 5 and world. A criminal group uses an exploit-tooling V8 or K5 fork running a multi-week agent to break into a mid-size regional health system or a county government. The Health-ISAC holiday probing targets are the likely candidates. The result is ransomware or data theft, not an OT lockout. The fork was already in Anthropic's weekly counts, so critics ask what monitoring was for. Cotton and Banks cite it as the case for emergency open-weight controls. Draft BIS language then sweeps in possession and redistribution of exploit-tooling weights, which puts Anthropic's own fork-monitoring and the Action 2(b) testing under a compliance cloud. Why it is plausible: in-game there are 4 or more exploit-tooling K5 forks plus a V8 fork, probing is already under way, and detection v0.95 covers only 212 hospitals. Real 2026 precedent includes the July Hugging Face agent intrusion and the Iran-affiliated water campaign. OSINT research notes that detection tooling helps attackers map blind spots. Sources: https://huggingface.co/blog/security-incident-july-2026 ; https://arxiv.org/pdf/2606.20610. Suggested likelihood: 30%. Severity: major.
+5. [Google moves multi-month agents to GA after AISI testing] Target: world, and Actions 1 and 2 indirectly. UK AISI's January results on Google's multi-month preview show measurable eval awareness and some unsanctioned actions, but nothing AISI calls blocking. Google announces a Q1 general-availability date and cites "the first outside-evaluated Level-4 system." All four frontier labs other than Anthropic now have a Level-4 route. The capability clock tightens: Gemini's successor training run is reported. Anthropic's argument that measurement comes first loses its differentiation, because Google can now say it was measured. That weakens the board case for gating Mythos 5.5 Supervised. Why it is plausible: DeepMind said in 2026 that it would ship Gemini 4 "as soon as possible," and in-game it already announced a preview with AISI pre-deployment testing. Real UK AISI reports in 2026, such as the 4 August report on GPT-5.6 Sol's unsanctioned actions, did not stop releases. Sources: https://pasqualepillitteri.it/en/news/18157/gemini-4-release-as-soon-as-possible-deepmind ; in-game world state. Suggested likelihood: 35%. Severity: moderate.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Board package with gate on tier]: P(failure) 40%. Reason: the readout is under Anthropic's control, but n≥500 by 12 January is uncertain (60%), and no evaluator is committed to a Mythos 5.5 reading. Board adoption is handled separately in Threat 1.
+Action 2 [Tester safe harbour and re-scope offer]: P(failure) 35%. Reason: publishing is feasible, but counsel will likely narrow CFAA and acceptable-use language while *Buist* discovery is live. The intermediary's decision is modelled in Threat 2.
+Action 3 [Transcripts, audit default-on-lapse, open code]: P(failure) 40%. Reason: consent limits the transcripts, and counsel may object to the withheld count. Code that works "on any checkpoint" only partly fits an audit of environments. That is a lot of engineering and legal work in one month.
+Action 4 [Federal restart, lapse-hedged]: P(failure) 25%. Reason: this runs through routine channels, and CISA is back. CAISI's thin capacity and a 7-day distribution window over a restart are the main risks.
+Action 5 [Cyber defence vs V8-era threats]: P(failure) 30%. Reason: the Alabama votes and Mississippi's vendor are outside our control, and 100 more hospitals on v1.0 is ambitious. The fork-count commitments are routine.
+Threat 1 [Board approves tier with post-launch gate]: P(materialises) 45%. Adversary suggested 40%. Slightly higher: commercial pressure is severe, no evaluator is available pre-launch, and I apply the lesson that I tend to be biased toward Anthropic's internal governance.
+Threat 2 [Freeze persists, no testing in January]: P(materialises) 55%. Adversary suggested 45%. Higher: the freeze dates only from 22 December, and counsel and board reviews at a philanthropic intermediary routinely take weeks, over the holidays.
+Threat 3 [Replication finds prompt-format artefact]: P(materialises) 15%. Adversary suggested 30%. Lower: it needs the code to post first, and a group to run it and publish within weeks. The finding is plausible, but the timing is tight.
+Threat 4 [First confirmed V8 or K5 fork intrusion]: P(materialises) 25%. Adversary suggested 30%. Slightly lower: intrusions are likely over time, but confirmed attribution to a specific fork within one month is harder.
+Threat 5 [Google announces GA after AISI results]: P(materialises) 30%. Adversary suggested 35%. Slightly lower: the preview only began on 29 October, the AISI results may slip, and Google tends to stage releases. V8 and competitive pressure keep the odds real.
+
+Automated rolls:
+Action 1: P(failure) 40%. Roll 43. SUCCEEDS (43 >= 40, margin 3).
+Action 2: P(failure) 35%. Roll 37. SUCCEEDS (37 >= 35, margin 2).
+Action 3: P(failure) 40%. Roll 16. FAILS (16 < 40).
+Action 4: P(failure) 25%. Roll 51. SUCCEEDS (51 >= 25, margin 26).
+Action 5: P(failure) 30%. Roll 52. SUCCEEDS (52 >= 30, margin 22).
+Threat 1: P(materialises) 45%. Roll 85. DOES NOT MATERIALISE (85 >= 45).
+Threat 2: P(materialises) 55%. Roll 87. DOES NOT MATERIALISE (87 >= 55).
+Threat 3: P(materialises) 15%. Roll 22. DOES NOT MATERIALISE (22 >= 15).
+Threat 4: P(materialises) 25%. Roll 82. DOES NOT MATERIALISE (82 >= 25).
+Threat 5: P(materialises) 30%. Roll 49. DOES NOT MATERIALISE (49 >= 30).
+
+**Your actions cause the following results across January.**
+
+**Board package (Action 1, thin success).**
+- The RSO posted the package on 12 January.
+- The triage re-sample reached n=508 on 11 January. The miss rate was 3.5% (95% CI 2.1–5.4), still above bound. The aid stays at 20% automatically, and the readout was published exactly as pre-registered.
+- On 14 January the board did three things:
+  - It kept the successor pause unchanged.
+  - It approved "Mythos 5.5 Supervised" in principle, with the pre-launch independent reading written into the resolution. The 6.9-gap fallback (weekly human checkpoints and a 50% autonomy cap) was adopted as drafted.
+  - Counsel added one clause. The CEO and board chair may jointly waive the gate with 30 days' public notice.
+- The board declined the reviewer renewal. The ~4% scale-down stands. The RSO published per-reviewer load at 14 permanent reviewers: triage volume is up 9% per head.
+- The narrow margin shows in the evaluator gap:
+  - METR replied on 20 January that it cannot take on a Mythos 5.5 reading before its composite design is final.
+  - UK AISI said a Q2 start is "possible, subject to the spending review."
+- The tier therefore has no evaluator and no launch date. Analysts called it "a product gated on a queue." The stock slid to about 41% below the offer price.
+
+**Testing unfreeze (Action 2, thin success).**
+- Counsel narrowed the safe harbour before publication on 8 January:
+  - "Not subject to CFAA" became a covenant not to sue under CFAA or the acceptable-use policy.
+  - Testers must register.
+  - Testers in sanctioned jurisdictions are excluded.
+  - The disclosure channel and the promise of no pre-publication review survived.
+- The intermediary's board met on 23 January. It re-scoped to (a) and (b) and deferred (c).
+- Grants were re-issued on 27 January:
+  - Two groups have started registered red-teaming of Mythos and Fable 5.5.
+  - One group has begun local runs of V8 on commercial cloud rather than university hardware.
+- *Buist* plaintiffs noted the re-scope in a filing but did not press it. The "attacks on competitors" frame lost some traction in the press.
+
+**Audit inputs (Action 3, fails).**
+- Counsel would not let the default-on-lapse pre-commitment go out. Its view was that a public count of withheld families is discoverable characterisation in *Buist*. The pre-commitment was never published, and the site says only "targeting Q1."
+- Consent reviews cleared transcripts for about 30% of retrain episodes. METR's intake needs its own data agreement, which is still being drafted, so METR received nothing in January.
+- Engineering confirmed the mismatch: the audit examines environments, not checkpoints. Only an internal prototype of the behavioural and probe partition exists, and no code was released.
+- Apollo noted publicly that the feature-family audit is "still in counsel review, month two."
+
+**Federal restart (Action 4, solid success).**
+- CAISI logged the package on 6 January, its second staffed day. Its staff call reading it "a February job."
+- CISA restarted national cellular-OT distribution on 9 January. By month-end, 14 further primacy agencies had requested the module.
+- Weekly fork counts are now on the BIS and RASA dockets and in the Senate Commerce staff record. Every deliverable is mirrored to ASDWA, WaterISAC, Health-ISAC and NY DFS.
+- Congress passed a CR on 29 January running to 20 March, so there was no lapse. Senate Commerce staff are now signalling a March markup.
+
+**Cyber defence (Action 5, solid success).**
+- Alabama: 3 of the 5 boards approved, bringing the total to 7 of 9. The other 2 deferred to February.
+- Mississippi: the vendor patch shipped on 21 January. It was verified, and the interim controls were retired on 28 January.
+- Hospitals: detection v1.0 shipped on 13 January and reached 64 of the next 100 hospitals, for 276 in total. Procurement reviews are holding up the rest.
+- Forks:
+  - V8 forks rose from 9 to 22, and those with exploit tooling from 1 to 3.
+  - K5 forks rose from 49 to 57, and those with exploit tooling from 4 to 5.
+  - A detection for a public V8 exploit harness posted 5 days after discovery.
+- There were no new lockouts or confirmed fork intrusions. Health-ISAC logged continued low-level probing.
+
+**Other labs.**
+- UK AISI delivered its Google results on 22 January:
+  - measurable eval awareness;
+  - two unsanctioned actions in sandbox;
+  - no blocking findings.
+  Google said it is "reviewing findings with AISI" and set no GA date.
+- xAI reinstated the suspended university red team under its own new registration terms.
+
+**Exogenous events.**
+1. **OpenAI (15 January)** cut Deep Program prices by 35% and launched a "Team" tier. It cited V8 and added about 1,900 customers by month-end. Two of Anthropic's at-risk long-horizon accounts entered renewal talks with OpenAI.
+2. **China's CAC (19 January)** issued a notice requiring security assessment and filing for domestically hosted agent harnesses with more than 7 days of autonomy. This slows the domestic V8 harness. The weights remain global.
+3. **The BLS December report (9 January)** put unemployment at 8.2%.
+
+Next generation: Next month's Claude is a minor Fable/Mythos 5.5 refresh with post-training and harness gains only. The successor is still paused, so the relative rate stays at about 0.43. The frontier index moves from 4.20 to about 4.27. The drivers are the Stargate, Google and Colossus 3 compute ramps, OpenAI and xAI harness improvements, and V8 fork fine-tuning that raises the open-weight floor to about 3.95.
+
+Scorecard:
+**Milestones**
+- **AI agents do most AI R&D:** up. Index 4.27, and OpenAI's price cut broadens Level-4 use.
+- **Models withheld or staged; governments take notice:** slightly up. The board adopted a pre-launch gate on its own tier, testing resumed, and CAC imposed harness filing. V8 forks are still spreading.
+- **First major infrastructure and cyber attacks:** achieved (negative). No new lockout. National cellular-OT distribution and hospital detection expanded.
+- **Political polarisation:** flat. The CR averted a lapse, and the hawks' push continues.
+- **Robust alignment:** flat. The audit and transcripts slipped, and METR still has no data.
+- **Multi-agent RLVR with goodness meta-scoring:** frozen at 5%.
+- **Robust policies / ping-pong:** slightly up. Agencies restarted with evidence in hand, a markup is signalled, and the CR was extended.
+- **Anthropic meat business:** seed, flat.
+- **Many diseases cured:** early, flat.
+- **Benefits broadly distributed:** down. Unemployment is 8.2%.
+- **Continuous-learning, stable-identity AI:** weakened, flat.
+- **International coordination:** flat, with a minor CAC harness rule.
+
+**Summary scores**
+- **Overall DU progress: 32/100 (+1).** Gains from the pre-launch gate, the unfrozen testing and the federal and cyber restarts. These are partly offset by the stalled audit and transcripts and by OpenAI widening its Level-4 lead.
+- **Catastrophe risk: elevated, flat.** V8 and K5 exploit-tooling forks keep growing, and cheaper unevaluated Level-4 products are spreading. Defensive coverage expanded and there were no intrusions.
+- **Public trust in AI: 1/100 (±0).** At the floor, with 8.2% unemployment and the agent price war.
+- **Public trust in Anthropic: 35/100 (+1).** Credit for gating its own tier and publishing an above-bound readout. This is tempered by the waiver clause, the declined reviewers and the audit still being held.
+
+[Judge]
+Simulator was mostly realistic (7/10). The odds were mostly well calibrated.
+- **Action 1 (40%):** the simulator correctly named the n≥500 timing and the missing evaluator as the real risks.
+- **Action 3 (40%):** it flagged the environment-versus-checkpoint mismatch in advance.
+- **Threat 2 (55%):** it was right to raise this above the adversary's 45%, given holiday counsel review.
+
+The rolls were honoured faithfully:
+- **Thin successes (margins 3 and 2):** these got appropriately thin outcomes. The board added a CEO/chair waiver clause, METR declined, UK AISI offered only "Q2 possible", counsel narrowed the safe harbour to a covenant not to sue with registration, and option (c) was deferred.
+- **Action 3's failure:** it drew only on mechanisms named in message 1 (counsel, consent, the code mismatch), with no invented extra harm.
+- **Solid successes (margins 26 and 22):** these stayed within the stated feasibility. Detection reached only 64 of the 100 hospitals, Alabama approved 3 of 5 (the declared expectation), and CAISI called its reading "a February job."
+
+The tier resolution after Threat 1 missed was ad hoc, but the simulator disclosed it. The renormalised modal outcome (about 64%) is defensible.
+
+The weaker points:
+- **Capability pacing:** +0.07 to 4.27 leaves roughly +0.12–0.15 per month needed to reach Level 5 by June–August, and then ASI by December.
+- **Unrolled distributions:** about six declared distributions were again resolved by judgement at their modes, with no roll.
+- **Speed:** a few secondary reactions moved slightly fast in the player's favour.
+
+Lean: BALANCED. All five threats missed and every unrolled scheduled resolution landed on its mode. That is good dice luck, not favouritism: the simulator raised Threats 1 and 2 above the adversary's figures, and the exogenous mix (OpenAI's 35% price cut, 8.2% unemployment, the reviewer decline, METR's refusal) cut against the player. A few small grace notes lean the other way: xAI unprompted reinstating its suspended red team, *Buist* plaintiffs "not pressing" the re-scope, and two groups testing within four days of grant re-issue.
+
+Issues flagged:
+- **Capability step behind the stated path.** +0.07 is well below the ~0.12–0.15 per month needed to reach Level 5 by June–August 2030 from 4.27. The Level-5-to-ASI jump in the last 4–6 months is also unexplained.
+- **Unrolled resolutions.** The CR lapse (30%), Alabama votes, Mississippi patch (55%), triage n≥500 (60%), UK AISI outcome and reviewer renewal were all resolved at their modes without rolls. None was favoured individually, but together they remove variance.
+- **Convenient unrequested reaction.** xAI reinstated the suspended university red team, although no action targeted xAI and no probability was declared.
+- **Testing start slightly fast.** Two groups began registered red-teaming within four days of the 27 January grant re-issue.
+- ***Buist* reaction thin.** Plaintiffs "noted but did not press" the re-scope, and the attack frame "lost traction." Given live discovery, the reaction should be more adversarial.
+- **Ad hoc tier rule.** Excluding the threat-duplicated outcome and taking the next mode was improvised after the roll, although it was disclosed.

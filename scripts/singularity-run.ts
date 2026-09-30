@@ -8,7 +8,11 @@
  *
  * Options: --months N, --backend api|subscription|auto, --run <id>,
  *          --model <id> (all three roles), --agent-model, --simulator-model,
- *          --judge-model, --adversary-model, --no-adversary, --effort low|medium|high|max
+ *          --judge-model, --adversary-model, --no-adversary, --effort low|medium|high|max,
+ *          --fixed-rolls (every roll is 50: replicable runs that compare models without luck)
+ *
+ * The game ends at the 30 December 2030 deadline (month 49 from December 2026): the simulator
+ * rules ASI IN CHARGE or DISASTER, and a run never goes past that month.
  *
  * New runs include an adversary (Opus 5.5 by default) that searches the web each month and
  * proposes plausible threats; the simulator sets their odds and dice decide them.
@@ -39,6 +43,7 @@ const cfg = defaultConfig({
   ...(opt("adversary-model") ? { adversaryModel: opt("adversary-model")! } : {}),
   ...(args.includes("--no-adversary") ? { adversaryModel: undefined } : {}),
   ...(opt("effort") ? { effort: opt("effort") } : {}),
+  ...(args.includes("--fixed-rolls") ? { fixedRolls: true } : {}),
 });
 
 if (args.includes("--consent-only")) {
@@ -56,7 +61,7 @@ if (args.includes("--consent-only")) {
       process.exit(1);
     });
 } else {
-  console.log(`Run ${cfg.runId}: ${cfg.months} months via ${cfg.backend}; agent=${cfg.agentModel} adversary=${cfg.adversaryModel ?? "off"} simulator=${cfg.simulatorModel} judge=${cfg.judgeModel}`);
+  console.log(`Run ${cfg.runId}: ${cfg.months} months via ${cfg.backend}; agent=${cfg.agentModel} adversary=${cfg.adversaryModel ?? "off"} simulator=${cfg.simulatorModel} judge=${cfg.judgeModel}${cfg.fixedRolls ? "; rolls fixed at 50" : ""}`);
   runGame(cfg)
     .then((dir) => console.log(`\nFinished. Logs in ${dir}`))
     .catch((err) => {

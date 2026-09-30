@@ -30,6 +30,8 @@ export interface RunConfig {
   startYear: number;
   startMonth: number; // 1-12
   effort?: string;
+  /** Every roll is 50: replicable runs that compare models without luck. */
+  fixedRolls?: boolean;
 }
 
 interface MonthRecord {
@@ -57,6 +59,8 @@ interface RunState {
   history: MonthRecord[];
   /** Setup-fix requests filed by any role; absent in runs from before the feature. */
   setupFixes?: Array<{ role: P.Role; label: string; text: string }>;
+  /** The simulator's ruling in the deadline month: "ASI IN CHARGE" or "DISASTER", then its account. */
+  ending?: string;
 }
 
 const ROOT = process.cwd();
@@ -75,7 +79,9 @@ function monthInfo(cfg: RunConfig, index: number) {
   const zero = cfg.startMonth - 1 + (index - 1);
   const year = cfg.startYear + Math.floor(zero / 12);
   const m = zero % 12;
-  return { label: `${MONTHS[m]} ${year}`, slug: `${year}-${String(m + 1).padStart(2, "0")}` };
+  // Months until the 30 December 2030 deadline, counting this one (1 = December 2030).
+  const monthsToDeadline = 2030 * 12 + 11 - (year * 12 + m) + 1;
+  return { label: `${MONTHS[m]} ${year}`, slug: `${year}-${String(m + 1).padStart(2, "0")}`, monthsToDeadline };
 }
 
 function readDoc(name: string): string {
@@ -127,6 +133,7 @@ function formatMonthTxt(args: {
   rolls: string;
   capability: string;
   scorecard: string;
+  ending?: string;
   verdict: string;
   score: string;
   reasoning: string;
@@ -159,6 +166,7 @@ function formatMonthTxt(args: {
     "Scorecard:",
     args.scorecard,
     "",
+    ...(args.ending ? [`[Ending: ${P.DEADLINE_LABEL}]`, args.ending, ""] : []),
     "[Judge]",
     `Simulator was ${verdictPhrase} (${args.score}/10). ${args.reasoning}`,
     "",
@@ -214,9 +222,11 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
   const call = (role: string, model: string, system: string, prompt: string, webSearch = false) =>
     callModelWithRetry({ backend: c.backend, model, system, prompt, effort: c.effort, webSearch }, role);
 
-  const simSystem = P.simulatorSystem(docs);
-  const agentSystem = P.agentSystem(docs, { adversary: Boolean(c.adversaryModel) });
-  const judgeSystem = P.judgeSystem(docs);
+  const fixedRolls = Boolean(c.fixedRolls);
+  const rollFor = () => (fixedRolls ? "50" : roll());
+  const simSystem = P.simulatorSystem(docs, { fixedRolls });
+  const agentSystem = P.agentSystem(docs, { adversary: Boolean(c.adversaryModel), fixedRolls });
+  const judgeSystem = P.judgeSystem(docs, { fixedRolls });
   const adversarySystem = P.adversarySystem(docs);
 
   // Month 0: simulator establishes the baseline world.
@@ -232,7 +242,11 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
   }
 
   for (let i = state.completedMonths + 1; i <= c.months; i++) {
-    const { label, slug } = monthInfo(c, i);
+    const { label, slug, monthsToDeadline } = monthInfo(c, i);
+    if (monthsToDeadline < 1) {
+      log(`[${label}] The game ended at the ${P.DEADLINE_LABEL} deadline; stopping after ${state.completedMonths} months.`);
+      break;
+    }
     const prefix = `month_${String(i).padStart(2, "0")}_${slug}`;
     const worldBefore = state.worldState;
 
@@ -264,6 +278,7 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
         memory: state.memory,
         gameNotes,
         previousFixes: previousFixes(state, "agent"),
+        monthsToDeadline,
       }),
     );
     write(runDir, `raw/${prefix}_agent.md`, agentOut);
@@ -302,6 +317,7 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
           actions: actionsNumbered,
           recentHistory,
           previousFixes: previousFixes(state, "adversary"),
+          monthsToDeadline,
         }),
         true,
       );
@@ -310,11 +326,11 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
       adversaryResearch = tag(advOut, "research_summary");
       const threatList = splitActions(tag(advOut, "threats") || advOut);
       threats = threatList.map((t, k) => `${k + 1}. ${t}`).join("\n");
-      threatRolls = threatList.map(roll);
+      threatRolls = threatList.map(() => rollFor());
     }
 
     // 3. Simulator
-    const rolls = actionList.map(roll);
+    const rolls = actionList.map(() => rollFor());
     if (threatRolls.length) log(`[${label}] ${threatRolls.length} threats (rolls ${threatRolls.join(", ")})`);
     log(`[${label}] Simulator resolving ${actionList.length} actions (rolls ${rolls.join(", ")})...`);
     const simOut = await call(
@@ -332,10 +348,17 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
         threats,
         threatRolls,
         previousFixes: previousFixes(state, "simulator"),
+        monthsToDeadline,
       }),
     );
     write(runDir, `raw/${prefix}_simulator.md`, simOut);
     recordFix(runDir, state, "simulator", label, c.simulatorModel, simOut, log);
+    const ending = monthsToDeadline === 1 ? tag(simOut, "ending") : "";
+    if (ending) {
+      state.ending = ending;
+      write(runDir, "ENDING.md", `# Ending on ${P.DEADLINE_LABEL}\n\n${ending}`);
+      log(`[${label}] Ending: ${ending.split("\n")[0]}`);
+    }
     const events = tag(simOut, "events") || simOut;
     const newWorld = tag(simOut, "world_state");
     if (newWorld) state.worldState = newWorld;
@@ -358,6 +381,7 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
         threats,
         threatRolls,
         previousFixes: previousFixes(state, "judge"),
+        monthsToDeadline,
       }),
     );
     write(runDir, `raw/${prefix}_judge.md`, judgeOut);
@@ -385,6 +409,7 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
         rolls: tag(simOut, "rolls"),
         capability: tag(simOut, "capability_update"),
         scorecard: state.scorecard,
+        ending: ending || undefined,
         verdict,
         score,
         reasoning: tag(judgeOut, "reasoning"),

@@ -18,7 +18,20 @@ npm run utopia -- --months 6 --backend api            # ANTHROPIC_API_KEY
 npm run utopia -- --run <runId> --months 12           # resume or extend a run
 npm run utopia -- --months 6 --simulator-model gpt-6-astra   # any role can be a gpt-* model via Codex
 npm run utopia -- --months 6 --no-adversary           # the original three-role game
+npm run utopia -- --months 6 --fixed-rolls            # every roll is 50: replicable, no luck
 ```
+
+**Deadline.** Every role is told that ASI arrives by **30 December 2030**, and the game ends in one
+of two ways: ASI is essentially in charge (the Diversified Utopia if the player did its job), or a
+true disaster happens that day with all the capability built up so far. Each month shows a
+countdown. In December 2030 (month 49) the simulator rules `ASI IN CHARGE` or `DISASTER` and explains
+why, the judge checks that the ending follows from the world state, and the ruling is saved to
+`ENDING.md`. A run never goes past that month.
+
+**Fixed rolls.** With `--fixed-rolls`, every action and threat roll is 50, so each resolves at its
+median outcome and results depend only on the probabilities the simulator sets. Use it to compare
+models without luck. The simulator and judge are told, and the judge checks that probabilities are
+not nudged around 50 to steer outcomes. The setting is saved with the run and kept on resume.
 
 The subscription pathway needs Claude Code installed and logged in (`claude` on PATH, or set
 `CLAUDE_CLI_PATH`). It calls `claude -p` with tools disabled, like BalatroBench does; the adversary

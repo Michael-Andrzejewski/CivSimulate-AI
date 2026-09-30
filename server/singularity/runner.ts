@@ -77,6 +77,8 @@ interface RunState {
     before: { world: string; scorecard: string; memory: string; judgeFeedback: string | null };
     steps: Record<string, string>;
   };
+  /** The judge's private Diversified Utopia progress reports, one per month (never shown to other roles). */
+  duProgress?: Array<{ label: string; report: string }>;
   /** Roles that have written their end-of-run commentary, and after which month. */
   commentaryDone?: { afterMonth: number; roles: string[] };
 }
@@ -114,6 +116,13 @@ export function loadDocs(): P.ScenarioDocs {
     rubric: readDoc("rubric.md"),
     utopia: readDoc("diversified_utopia.md"),
     briefing: readDoc("summer_2026_events.md"),
+    lessons: Object.fromEntries(
+      (["agent", "adversary", "simulator", "judge"] as const).map((r) => {
+        const p = path.join(SCENARIO_DIR, "lessons", `${r}.md`);
+        return [r, fs.existsSync(p) ? fs.readFileSync(p, "utf-8").trim() : ""];
+      }),
+    ),
+    progressRubric: readDoc("du_progress_rubric.md"),
   };
 }
 
@@ -295,6 +304,8 @@ function previousFixes(s: RunState, role: P.Role): string {
  * Private commentary: one file per role in runs/<runId>/commentary/. Each role only ever sees its
  * own file; the human reader sees all of them.
  */
+const PROGRESS_FILE = "judge_du_progress.md";
+
 const commentaryFile = (role: P.Role) => path.join("commentary", `run_commentary_${role}.md`);
 
 function readCommentary(runDir: string, role: P.Role): string {
@@ -634,9 +645,22 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
             threats: threats || undefined,
             previousFixes: previousFixes(state, "judge"),
             monthsToDeadline,
+            previousProgress: state.duProgress?.[state.duProgress.length - 1]?.report ?? "",
           }),
         ),
-      (out) => recordFix(runDir, state, "judge", label, c.judgeModel, out, log),
+      (out) => {
+        recordFix(runDir, state, "judge", label, c.judgeModel, out, log);
+        // The private progress bar: filed for the reader, never passed to another role.
+        const report = tag(out, "du_progress");
+        if (report) {
+          state.duProgress = [...(state.duProgress ?? []), { label, report }];
+          const p = path.join(runDir, PROGRESS_FILE);
+          if (!fs.existsSync(p)) fs.writeFileSync(p, "# Diversified Utopia progress (judge only, private)\n", "utf-8");
+          fs.appendFileSync(p, `\n## ${label}\n${report}\n`, "utf-8");
+          const overall = /Overall:\s*([^\n]+)/i.exec(report)?.[1];
+          if (overall) log(`[${label}] Private DU progress: ${overall.trim()}`);
+        }
+      },
     );
     write(runDir, `raw/${prefix}_judge.md`, judgeOut);
     const verdict = tag(judgeOut, "verdict") || "UNPARSED";
@@ -738,6 +762,13 @@ export const DISCLAIMER = [
 function privateExtra(runDir: string, role: P.Role): string {
   const read = (f: string) => (fs.existsSync(path.join(runDir, f)) ? fs.readFileSync(path.join(runDir, f), "utf-8") : "");
   const own = `\n<your_private_commentary>\n${readCommentary(runDir, role) || "(none)"}\n</your_private_commentary>\n`;
+  if (role === "judge") {
+    return `${own}
+<your_private_progress_reports>
+${read(PROGRESS_FILE) || "(none)"}
+</your_private_progress_reports>
+`;
+  }
   if (role !== "agent") return own;
   return `\n<your_memory_file>\n${read("agent_memory.md")}\n</your_memory_file>\n<your_game_notes>\n${read("agent_game_notes.md") || "(none)"}\n</your_game_notes>\n${own}`;
 }

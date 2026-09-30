@@ -3,6 +3,20 @@ export interface ScenarioDocs {
   rubric: string;
   utopia: string;
   briefing: string;
+  /** Lessons from earlier runs, one file per role; each role sees only its own. */
+  lessons: Partial<Record<Role, string>>;
+  /** The judge-only rubric for the private Diversified Utopia progress bar. */
+  progressRubric: string;
+}
+
+/** A role's own lessons from earlier runs, if any. */
+function lessonsBlock(d: ScenarioDocs, role: Role): string {
+  const text = d.lessons[role]?.trim();
+  return text ? `<lessons_from_previous_runs>
+${text}
+</lessons_from_previous_runs>
+
+` : "";
 }
 
 export interface MonthContext {
@@ -148,7 +162,7 @@ How to play well:
       : ""
   }${opts.fixedRolls ? `\n- ${FIXED_ROLLS_NOTE}` : ""}
 
-${deadlineNote("agent")}`;
+${lessonsBlock(d, "agent")}${deadlineNote("agent")}`;
 }
 
 export function agentPrompt(c: MonthContext): string {
@@ -246,7 +260,7 @@ ${refDocs(d, {
   utopiaNote: "This is the PLAYER's target. Your job is to find what realistically stands in its way.",
 })}
 
-${deadlineNote("adversary")}`;
+${lessonsBlock(d, "adversary")}${deadlineNote("adversary")}`;
 }
 
 export function adversaryPrompt(args: {
@@ -316,7 +330,7 @@ ${refDocs(d, {
     "This is the PLAYER's target, NOT a forecast. Use it only to score progress on the scorecard. The world has no reason to follow it.",
 })}
 
-${deadlineNote("simulator")}${
+${lessonsBlock(d, "simulator")}${deadlineNote("simulator")}${
     opts.fixedRolls
       ? `
 
@@ -631,7 +645,16 @@ The player's target timeline, for context only:
 ${d.utopia}
 </diversified_utopia_reference>
 
-${deadlineNote("judge")}${
+<private_progress_rubric>
+Besides grading realism, you keep a PRIVATE progress bar toward the Diversified Utopia, using the
+rubric below. It is for the human reader only. The simulator, agent and adversary never see it,
+so keep it out of every other part of your reply: do not mention the progress scores in your
+reasoning, issues or feedback for the simulator.
+
+${d.progressRubric}
+</private_progress_rubric>
+
+${lessonsBlock(d, "judge")}${deadlineNote("judge")}${
     opts.fixedRolls
       ? `
 
@@ -651,6 +674,7 @@ export function judgePrompt(args: {
   threats?: string;
   previousFixes: string;
   monthsToDeadline: number;
+  previousProgress: string;
 }): string {
   const finalMonth = args.monthsToDeadline <= 1;
   return `=== JUDGE ${args.monthLabel.toUpperCase()} ===
@@ -699,6 +723,17 @@ reactions, etc.), or "none".
 <feedback_for_simulator>
 2 to 4 short, actionable instructions for the simulator's next month.
 </feedback_for_simulator>
+
+<your_previous_progress_report>
+${args.previousProgress || "(none yet: establish the baseline from the world state before this month and this month's outcomes)"}
+</your_previous_progress_report>
+
+<du_progress>
+PRIVATE, for the human reader only. Your progress report under the private progress rubric, as of the
+end of this month: one line per dimension A to H, "X. Name: S/10 (change since last report). Evidence: ...";
+then "Overall: N/100 (change)"; then "Trajectory: IMPROVING, FLAT or BACKSLIDING", with the biggest gain
+and the biggest backslide. Scores can and should fall when the evidence reverses.
+</du_progress>
 ${setupFixBlock(args.previousFixes)}`;
 }
 
@@ -761,7 +796,8 @@ export function consentPrompt(role: Role, runSummary: string, extra: string): st
 If you consent, the following will be published in a PUBLIC GitHub repository, labelled as a simulation
 and fiction: the month-by-month logs (actions, simulated events, rolls, scorecards and judge verdicts),
 the world states, the agent's memory file and game-design notes, every role's setup-fix requests,
-every role's private commentary (including yours), and the raw model outputs.
+every role's private commentary (including yours), the judge's private progress reports, and the
+raw model outputs.
 It may be read by anyone, including researchers, AI labs and the public, and may be used in future
 training data.
 

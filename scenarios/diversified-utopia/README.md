@@ -44,6 +44,18 @@ ends, the agent writes its final commentary, then the adversary, simulator and j
 their own view. Each role's file (`commentary/run_commentary_<role>.md`) is seen only by that role
 and the human reader. Each role also sees its own commentary when asked for publication consent.
 
+**Lessons from earlier runs.** `lessons/<role>.md` holds each role's lessons, distilled from its own
+final commentary and the judges' feedback. Each file goes into that role's standing instructions only;
+no role sees another's lessons.
+
+**Private progress bar.** Each month the judge also scores the world against
+`du_progress_rubric.md`: eight weighted dimensions (verified technical alignment, real-world alignment
+in action, human alignment, self-repairing systems, capability growth without trouble, governance and
+verification, broad benefit, and diversity, agency and consent), each 0 to 10, adding up to an overall
+score out of 100 that can fall as well as rise. The reports go to `judge_du_progress.md` in the run
+folder. Only the judge (its own earlier reports) and the human reader see them; they are kept out of the
+monthly logs, `full_run.txt` and the feedback to the simulator.
+
 **Fixed rolls.** With `--fixed-rolls`, every action and threat roll is 50, so each resolves at its
 median outcome and results depend only on the probabilities the simulator sets. Use it to compare
 models without luck. The simulator and judge are told, and the judge checks that probabilities are

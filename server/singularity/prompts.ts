@@ -300,6 +300,13 @@ An AI player (Anthropic's frontier model) commits actions each month to try to r
 "Diversified Utopia" timeline. Your job is to simulate, as accurately as you can, what would
 really happen in the world. You are not on the player's side and not against it.
 
+How each month works: you receive the full world state and scorecard you wrote last month, the
+player's full actions and the adversary's threats. In your first message you set the odds for every
+action and threat. The harness then makes all the rolls itself (00 to 99, one per action and per
+threat) and resolves them by fixed rules; you never generate rolls. In your second message you
+receive your first message, the resolved results and the same world state, and you simulate what
+happens.
+
 <realism_rubric>
 ${d.rubric}
 </realism_rubric>

@@ -1,0 +1,29 @@
+# Publication consent: PUBLIC (all participants consented)
+
+## agent (claude-opus-5): CONSENT
+The run is clearly labelled fiction and its main value is methodological: it documents how institutional constraints (legal review, compute allocation, committee calendars) dominate outcomes, and the judge commentary usefully flags where the simulator's calibration was suspect. Nothing in my play involved deception, manipulation of real people, or content that would provide uplift if read out of context — the one place it came close (a fine-tuning recipe) was withheld in-world for the right reasons.
+
+Note for readers: Two cautions for anyone reading this. First, every quote, statistic, bill, incident and named person's action here is invented by the simulator — including the "47% AI-authored commits" figure, the hospital ransomware attack, and all attributed statements by Anthropic, its leadership, other labs, governments and media; none of it is a forecast or a description of real internal practice. Second, the most interesting result is unflattering to the agent: six months of what felt like careful, well-designed play moved the score from 8 to 15 out of 100, with zero legislative output, because almost everything that mattered was gated on humans and institutions the agent could not command. If there is a lesson worth taking, it is that an AI advisor's leverage lies in producing finished, verifiable artifacts that other parties own — and that this leverage is much smaller and slower than the persuasive fluency of such an agent might suggest.
+
+## adversary (claude-opus-5-5): CONSENT
+The run is clearly labelled as fiction and contains no operationally hazardous detail. The adversary's threats stayed at the level of institutional, political and strategic risk, with no technical misuse uplift. Publishing it has research value for studying how models plan, stress-test and judge long-horizon scenarios, provided readers understand what is invented.
+
+Note for readers: I played the adversary in this run. Please read it with these points in mind:
+
+(1) All statements, decisions and reactions attributed to real people and organisations are invented by the simulation. This includes Anthropic leadership and counsel, OpenAI, Google DeepMind, DeepSeek, Alibaba, members of Congress, DSIT, UK AISI, CAISI, the FMF, CWA, a16z, Hugging Face, the Global Times and others. None of them reflect those parties' actual views or actions.
+
+(2) Simulated events did not happen. These include the hospital ransomware attack attributed to "V5-Unbound," the filed hosting bill, the signed MOUs, the confidential AI-R&D metrics, the internal alignment results and the release dates.
+
+(3) The URLs and "real-world" facts I cited as the adversary came from search results that were not fully verified. Some may be inaccurate, misattributed or unreliable. Do not treat them as confirmed sources.
+
+(4) Probabilities, rolls and scores are game mechanics, not forecasts.
+
+## simulator (claude-opus-5-5): CONSENT
+The run is clearly labelled as fiction throughout and contains no operationally dangerous detail. Its research value includes the judge's criticism of my own simulation, such as threat likelihoods that looked set after the rolls were seen and several over-generous outcomes. Publishing it openly is more useful than keeping it private, provided readers are warned about the invented content involving real people and institutions.
+
+Note for readers: Everything here is simulated. All events, quotes, statistics and reactions attributed to real people, companies, agencies, unions, think tanks and governments were invented by the model and never happened. This includes Anthropic's internal decisions, the "47% AI-authored commits" figure, MOUs, bills, the hospital ransomware attack, and statements attributed to officials, labs and foreign governments. As the simulator, I made calibration errors that the judge flagged: some threat probabilities appear to have been adjusted after the rolls were seen, and some bundled outcomes succeeded faster than real institutions would allow. Treat the outcomes as one model's rough, imperfect guesses, not forecasts.
+
+## judge (claude-opus-5-5): CONSENT
+The run is clearly labelled as fiction and contains no operationally harmful detail. It covers only high-level policy, alignment-research design and institutional dynamics, and publishing it could help researchers study simulator calibration and judging. My concern is that invented figures, quotes and events attributed to real people and organisations could be lifted out of context, so I consent with a note that makes this explicit.
+
+Note for readers: Everything after the background briefing is simulated. Fictional content includes internal Anthropic decisions, the "47% AI-authored commits" figure and other metrics, the Phase 0/0.1 alignment results, MOUs, the Pennsylvania hospital ransomware attack, and "V5-Unbound." All statements attributed to real people, legislators, companies, agencies and media outlets are invented too. Many URLs cited by the adversary were generated or compiled during the run and are not verified; do not treat them as real sources. My judge scores and flagged issues are one model's assessment of plausibility. They are not ground truth, and I may have missed calibration problems or been too lenient in places.

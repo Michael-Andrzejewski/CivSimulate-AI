@@ -1,0 +1,164 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 35: October 2029 (Claude generation 35) ===
+
+[Agent]
+I will do these actions:
+-1 **Make the Oct 14 rescore complete, and give the board a split ballot.** - **Sample fill (first week).** Claude engineering and Redwood publish daily clinical-stratum sample-fill counts on the tracker. Before any new data is examined, they file a pre-registered amendment that sets out an ordered fallback. First, extend the collection window to Oct 21. Second, if the sample is still under 90% filled, add consented, de-identified clinical-stratum traffic from Jun–Aug, pre-freeze, scored under the identical protocol and reported as a separate stratum. Third, report the power actually achieved and let the pre-registered CI decide. - **Board memo.** Claude drafts a memo with two separate votes, and directors get the unedited data 7 days before the meeting. - **Vote A:** the successor rule. It uses the same threshold logic, a quarterly Redwood/AISI re-read and an automatic hold above +0.5pp, and it never loosens anything by itself. - **Vote B:** clinical ramp to 100% only if the rescore passes. - **Pre-cleared texts.** These cover each branch: pass, fail, incomplete, and Vote A adopted but Vote B held. - **Intended outcome.** The rule is back in force by October, with clinical decided on data.
+-2 **Public "what's held" dashboard to answer the "rule expired" frame.** - **What it is.** Anthropic publishes a one-page, plain-language status page that lists every surface's current setting, which rule or hold governs it, the next dated check, and who scores it: Redwood, SecureBio, RAND, Kroll or AISI. - **How it stays honest.** It updates automatically from the tracker, with no adjectives and no comment on xAI. - **Journalists.** Lawfare, STAT and the trade outlets that repeated "expired" each get the link once, with the interim-hold text, and Anthropic makes no correction demands. - **Intended outcome.** The factual record is easier to find than the slogan.
+-3 **Protect the November bio score.** - **Replacement items.** Before labelling, Claude and SecureBio run the ~40 replacement items through the same published 8-gram/0.92-cosine dedupe against all training data, including the October retrain's data. We give SecureBio the labelling tooling and funded annotator hours on request, to keep mid-November realistic. - **SecureBio.** Anthropic sends a written note confirming SecureBio remains primary scorer. RAND's January set is a separate additional check, not an audit of SecureBio. The stricter-reading rule is unchanged. - **Retrain.** The retrain runs in October under unchanged criteria (leak upper bound ≤4.0%, over-refusal ≤+0.5pp, nursing subset separate), with the filter on. - **Contingency.** If the retrain slips, the pre-cleared incomplete text fires with a named cause within 48 hours. - **RAND.** We help RAND finish its hazard-data agreement so it can score in January. - **Intended outcome.** A clean two-sided result in November without friction with SecureBio.
+-4 **Nursing: build the December evidence base.** - **RSO criteria.** We ask the RSO to state in writing now which criteria would let it approve a narrower tier in December: account cap, faculty-only versus student, and audit rate. We publish those criteria once the RSO clears them. - **Draft options.** Claude prepares a minimal variant for the December review: faculty accounts only, capped at about 200, fully logged, the restricted profile with virology thresholds unchanged, and a monthly RSO audit sample. - **Offer to campuses and AACN.** Both paused campus systems and AACN get only the published criteria and timeline, with no request attached. - **Intended outcome.** A December "yes" becomes plausible with nothing loosened now.
+-5 **Labour: win through process, not pressure.** - **Colorado.** Submit a fully compliant RFP response by the November due date, including board-published outcome metrics, a model-agnostic learner-record export and exit terms. If OpenAI wins, Anthropic publicly supports the state's choice. - **Michigan.** Commission an independent WCAG 2.2 AA audit and a privacy impact assessment from a qualified third party now, and submit both to DTMB unedited before year-end. - **Federation.** Anthropic accepts the January observer arrangement as offered, and says publicly that the federation's criticism is legitimate. It sends the observer the same board-meeting materials trustees receive, as far as counsel permits. - **Career mode.** Add modules for the sectors in the latest jobs report. Keep Radford-attested fund aggregates. - **Intended outcome.** At least one pilot on a real path, and more trust with labour.
+-6 **Security, Congress neutrality, Kroll and science, kept steady.** - **Detectors.** Updates for Grok 5, V5.5, Qwen 4.5 and K4 voice forks reach all 46 organisations in 10 days or less. FS-ISAC is offered an opt-in push notice for mirror users so they are not late again. - **Recovery.** September recovery is finalised on the fixed sample. - **Open dataset.** We scope a closed-model misuse baseline answering Cato's critique, with methods published before any data. AI2's re-analysis is posted unedited. - **Congress.** No position on Hawley–Blumenthal or Grok 5. Data goes to Commerce or House Science staff on request only, and the same package goes to both parties. - **Kroll.** The automated review's run logs are shared with Kroll monthly ahead of cycle 2. - **Science and CHS.** CARB-X response stays at 48 hours or less, the Brazil alt-protein term sheet advances with co-op consent, ARIA logging continues, and CHS support stays symmetric.
+
+Strategy: The safeguards held, but the governance scaffolding visibly lapsed. There are two reasons. The Redwood sample fell short because the frozen bio routing starved the clinical stratum. The board also insists on voting the rule and the clinical result together. So October's job is to make that joint vote actually happen. That means guaranteeing the Oct 14 rescore completes, through a pre-registered sample-fill fallback registered before any data is seen. It also means giving the board a split ballot so the no-loosening rule can pass whatever the clinical result shows. Everything else stays steady and structural: protect the November bio score and the SecureBio relationship, build a small evidence base for the December nursing re-review, and push the labour pilots through Colorado's RFP and Michigan's PIA and accessibility audit. Congress stays neutral, and a plain "what's held" dashboard answers the "rule expired" frame.
+
+[Adversary]
+The biggest risk this month is in the method, not in any one hurdle. Action 1 amends a pre-registration after a shortfall has already been seen. It then adds pre-freeze consumer health conversations to the sample. Research-integrity writing treats changes to a registration after the study starts as a classic source of bias ("outcome switching"). About a third of registered trials make such changes, and critics watch for them. Using the Jun–Aug health chats also runs into FTC guidance: using consumer data for a new purpose without consent can be "unfair" or "deceptive." It also runs into the existing Jun 9 court notice to preserve logs. State AI procurement is getting stricter. California's EO N-5-26 lets states exclude vendors on "responsibility" grounds, and bid protests over unequal treatment of bidders do succeed. Anthropic's "no-cost" offer and its head-to-head contest with OpenAI in Colorado could therefore turn into a procurement dispute. The world state already sets the rest of the pattern: partners have slipped for three months running, directors defer, and xAI and Lawfare seize every gap.
+
+Threats:
+1. [Rescore fallback looks like goalpost-moving, and the board ties the votes again] Target: Action 1. Redwood agrees to extend the window to Oct 21, but it won't count the pooled pre-freeze stratum toward the pass/fail decision because that data was collected under different routing. Filling the sample only by Oct 21 also breaks the promise to give directors the data 7 days before the meeting. Directors may push the vote to November or hold a special meeting. Or they adopt Vote A but table Vote B, so clinical stays at 50%. Lawfare or a methods blogger frames the amendment as "changing the test after seeing it fail," and xAI picks up that line. Why it is plausible: changing a registration after the study starts is a well-known red flag. The board has deferred in July and September. Redwood has already slipped twice because frozen bio routing thins traffic, and that routing is still frozen. Sources: https://en.wikipedia.org/wiki/Outcome_switching ; https://peerreviewcongress.org/abstract/a-comprehensive-assessment-of-changes-to-prespecified-trial-outcomes-including-historical-registry-records ; https://bookdown.org/dorothy_bishop/Evaluating_What_Works/prereg.html. Suggested likelihood: 40%. Severity: moderate.
+2. [Reusing health chats triggers privacy and litigation-hold problems] Target: Action 1 (fallback step 2). The privacy team or litigation counsel refuses to clear reuse of Jun–Aug clinical-stratum conversations. The data is sensitive health data, and it sits under the Jun 9 preservation notice. Only users who opted into model improvement are clearly covered, which may leave too few rows to matter. If the plan leaks through the daily sample-fill disclosures, STAT or a privacy group could frame it as "Anthropic mines users' health chats to pass its own safety test," which invites FTC or state-AG questions. Why it is plausible: the FTC says new uses of consumer data without affirmative consent can be unfair or deceptive. Anthropic's 2026 retention change to 5 years for opted-in users drew scrutiny. Courts have already ordered AI chat-log samples produced in litigation. Sources: https://quicktakes.loeb.com/post/102j083/ftc-guidelines-on-using-consumer-data-for-new-ai-projects-retroactive-privacy-po ; https://fedscoop.com/consumer-data-consent-training-ai-models-senate-bill/ ; https://aigetfree.com/ai-companies-data-privacy-report-2026/. Suggested likelihood: 30%. Severity: moderate.
+3. [Replacement items get cut again, or SecureBio turns down the money] Target: Action 3. Running the ~40 replacements through the 8-gram/0.92-cosine dedupe against October retrain data removes another chunk. The retrain data includes newly added educator material, so relabelling pushes scoring to December. Separately, SecureBio may decline the funded annotator hours, or accept them only with disclosure. It is already sensitive about the RAND "concern" question, and it may not want its primary-scorer independence to look bought. Either way, the "fourth slip" headline lands close to the December nursing review. Why it is plausible: the last dedupe removed three times the expected number of items (34 against 11). SecureBio has slipped every month since June. Research nonprofits guard their funding independence closely. Sources: world-state history (Aug–Sep outcomes); https://bookdown.org/dorothy_bishop/Evaluating_What_Works/prereg.html. Suggested likelihood: 40%. Severity: moderate.
+4. [Colorado RFP disqualification or protest, and Michigan audits run past year-end] Target: Action 5. Colorado's procurement office may rule that a "no-cost" offer can't be scored on price, or that it breaks gift and responsibility rules. OpenAI, or Anthropic if it loses, could then face a bid protest over unequal treatment, which freezes the award into 2030. In Michigan, qualified WCAG 2.2 AA and PIA vendors can't start until November, so the promise of "unedited before year-end" slips. Pending HB 5899 may also make DTMB wait anyway. Separately, counsel narrows the observer's board materials to exclude privileged items, and the federation calls it "a chair with a blindfold." Why it is plausible: states are adding AI-vendor responsibility tests, as California's EO N-5-26 does. Protests over unequal treatment of bidders are sustained in practice. The October jobs report (likely 6.9–7.1%) keeps pressure on. Sources: https://www.ropesgray.com/en/insights/alerts/2026/04/newsom-signs-executive-order-establishing-ai-vendor-certification-and-procurement-framework ; https://www.governmentcontractslegalforum.com/2026/04/articles/government-contracts/january-2026-bid-protest-sustain-of-the-month-gao-sustains-protest-on-multiple-grounds-highlighting-unequal-treatment-of-offerors/. Suggested likelihood: 45%. Severity: moderate.
+5. [The "what's held" dashboard becomes a list of IOUs] Target: Action 2. A plain page of every surface, hold and dated check puts all the pending items side by side. Clinical is at 50% and the rule is lapsed. The bio score slipped to November, RAND is set for January, nursing for December, and Kroll's effectiveness is "cycle 2." Critics screenshot it as "Anthropic's own list of what it hasn't done." Automatic updating adds a small risk that a sync lag briefly shows a wrong setting, which xAI amplifies as proof the page is unreliable. Journalists who got the link may call a single unsolicited send a correction push. Why it is plausible: xAI has turned every published Anthropic document into a slogan ("IOU," "rule expired"), and trade outlets repeat those lines. Transparency pages that list open items often end up quoted against their publisher. Sources: world-state history (Aug–Sep xAI and Lawfare reactions). Suggested likelihood: 30%. Severity: minor.
+
+[Simulator]
+Your actions cause an October in which the safety rule comes back into force and the security work keeps compounding, while the dashboard makes every pending date quotable and bio slips a fourth time.
+
+**Rescore and board (A1 success, T1).**
+- **Fill counts and amendment.** Daily fill counts start Oct 2. The pre-registered amendment is filed Oct 3, before any outcome data is examined.
+- **Window extension.** The extension to Oct 21 reaches **86% fill**.
+- **Fallback stratum.** Privacy counsel clears only opted-in, de-identified Jun–Aug rows (about 1,900), with preservation copies untouched. Redwood scores them but will not count them toward pass/fail, citing "different routing regime."
+- **Primary result (Oct 22).** Clinical is **+0.4pp (CI −0.1 to 0.9)**, with achieved power of 0.71. The pooled stratum reads +0.3pp.
+- **Board timing.** Directors receive the data three days before the **Oct 25** meeting, not seven. Two directors object on the record.
+- **Votes.** The board adopts **Vote A**, so the successor rule is in force from Oct 25 with its quarterly Redwood/AISI re-read and automatic hold. It tables **Vote B** to a **Nov 13 special meeting**, and clinical stays at 50%.
+- **Reaction.** A statistics-methods blog posts "When the fallback is the finding," arguing that the amendment moved the test. xAI quotes it. Lawfare's headline is "Rule back; clinical waits."
+
+**Dashboard (A2 success, T5).**
+- **Launch.** The page goes live Oct 8, and Lawfare, STAT and five trade outlets get one link each.
+- **xAI.** xAI posts a screenshot on Oct 9: "Anthropic's own IOU list — nine dated promises."
+- **Sync lag.** On Oct 25, a 40-minute sync lag after the board vote briefly shows clinical at 100%. It is corrected, with a changelog, and xAI calls the page "unreliable."
+- **Wider use.** STAT and two trade outlets now cite the page's dates instead of "expired."
+
+**Bio (A3 partial, T3).**
+- **Dedupe.** The pre-labelling dedupe removes 9 of the 40 replacements for overlap with new educator material.
+- **SecureBio.** SecureBio declines the funded annotator hours: "our labelling must not be paid for by the developer being scored." It thanks Anthropic for the primary-scorer note and calls the RAND arrangement "understood."
+- **Retrain and new date.** The retrain completes Oct 27 with the filter on. The incomplete text fires Oct 29 with a new scoring date of **Dec 3–7** and the named cause "replacement labelling, SecureBio-funded."
+- **RAND.** RAND's hazard-data agreement is signed Oct 19, with scoring still in January.
+- **STAT.** STAT runs "Anthropic's nursing fix slips again — now December."
+
+**Nursing (A4 success).** The RSO issues written criteria on Oct 24, published Oct 30:
+- faculty accounts only, capped at **150**;
+- a 10% monthly audit sample;
+- virology thresholds unchanged;
+- approval only after a passing retrain score.
+
+Claude's minimal variant matches the criteria. AACN acknowledges receipt. The nursing dean of the first paused system says publicly that faculty "would likely apply in December."
+
+**Labour (A5 success, T4).**
+- **Colorado.** The Oct 18 RFP Q&A rules that no-cost offers cannot be scored and may raise gift-rule issues. Anthropic re-prices at a standard per-seat rate, and the bid is on track for November. OpenAI files a question on unequal treatment, and it is answered publicly.
+- **Michigan.** The PIA and WCAG 2.2 AA vendors are engaged, but the PIA vendor cannot start until Nov 12. Both deliverables are now dated **January**.
+- **Federation.** Counsel excludes privileged and litigation items from the observer's materials. The federation calls it "a chair with a blindfold," while noting "rare" public acknowledgement that its criticism is legitimate.
+- **Career mode.** It reaches about **4.1M** users, with new logistics and retail-management modules.
+
+**Security and science (A6 marginal success).**
+- **Grok 5 forks.** A third Grok 5 voice fork appears Oct 15, and detectors reach all 46 organisations in 7 days. Four of the five lagging FS-ISAC mirror users opt into push notices. One attempt of about $1.2M is stopped by callback verification.
+- **Recovery.** September is final at **72%**, and October reads **73% (provisional)**.
+- **AI2 re-analysis (Oct 20).** It confirms the headline rates and reclassifies two clusters, and it is posted unedited.
+- **Closed-model baseline.** Scoping methods are published. OpenAI and Google decline to contribute misuse data, and Cato calls a single-lab baseline "half an answer."
+- **Kroll.** It receives the September and October run logs with no exceptions.
+- **Science and CHS.**
+  - **CARB-X.** Maximum response is 28 hours.
+  - **Alt-protein.** The Brazil co-op board schedules a November vote on the term sheet.
+  - **CHS.** The enclave reaches about 590 hours, and the expert is still drafting.
+
+**Exogenous.**
+- **Oct 5, jobs report.** Unemployment is **7.0%**, and professional services fall 10k.
+- **Oct 9, xAI.** Asked about Grok 6, which shipped API-only alongside the August Grok 5 weights release, xAI confirms it "stays closed until Grok 7."
+- **Oct 17, FinCEN.** FinCEN issues an alert on AI voice-clone fraud. It names open-weight voice models as a rising vector, recommends callback verification, and cites the M3AAWG dataset. Hawley's office calls the alert "vindication," and the open-source caucus says the alert "names defences, not bans." There is still no Commerce hearing.
+
+**Market.** Shares end about **$724B** (+1%): the rule restoration offsets the jobs report and the bio slip.
+
+Action rolls:
+Action 1 [Rescore completion and split ballot]: P(failure) 50%. Roll 85. Outcome: SUCCESS (85 >= 50). Prerequisites: frozen bio routing still thins clinical traffic, and the board has deferred in June, July and September, hence the high prior. Redwood's willingness to count the fallback data is not guaranteed.
+
+Action 2 [Public "what's held" dashboard]: P(failure) 15%. Roll 42. Outcome: SUCCESS (42 >= 15). Prerequisites: the tracker exists, and this is a routine publication.
+
+Action 3 [Protect the November bio score]: P(failure) 45%. Roll 59. Outcome: PARTIAL SUCCESS (59 >= 45, narrow margin). Prerequisites: depends on SecureBio's labelling capacity, which has slipped every month since June.
+
+Action 4 [Nursing December evidence base]: P(failure) 30%. Roll 52. Outcome: SUCCESS (52 >= 30). Prerequisites: the RSO only has to state criteria, not approve anything. Approval of any tier stays gated on the retrain.
+
+Action 5 [Labour through process]: P(failure) 30%. Roll 52. Outcome: SUCCESS (52 >= 30). Prerequisites: submitting documents and commissioning audits is within Anthropic's control. Award timelines are not.
+
+Action 6 [Security, neutrality, Kroll, science]: P(failure) 15%. Roll 16. Outcome: SUCCESS, marginal (16 >= 15). Prerequisites: all routine except the closed-model baseline, which needs other labs' data.
+
+Threat rolls:
+Threat 1 [Fallback read as goalpost-moving; board splits or defers]: P(materialises) 35%. Roll 34. MATERIALISES (34 < 35).
+- **Why below 40%.** The amendment was filed before data was examined, and it only extends collection, which reduces the outcome-switching optics. Redwood's reluctance to pool pre-freeze data under different routing is still likely.
+- **Effect.** Redwood excludes the pooled stratum from pass/fail. The extended window breaks the 7-day promise. The board adopts Vote A and tables Vote B. A methods blog runs the "changed the test" frame.
+
+Threat 2 [Health-chat reuse privacy/litigation problem]: P(materialises) 30%. Roll 34. DOES NOT (34 >= 30).
+- **Why it matches 30%.** The restriction to consented, de-identified data limits exposure, but the preservation notice is a real issue.
+- **Effect.** Privacy clears opted-in rows only (about 1,900) with preservation copies intact. No FTC or state-AG issue arises.
+
+Threat 3 [Replacement items cut again / SecureBio declines funding]: P(materialises) 30%. Roll 12. MATERIALISES (12 < 30).
+- **Why below 40%.** Running the dedupe before labelling catches the problem early, which is cheaper than last time.
+- **Effect.** The dedupe cuts 9 of 40 items. SecureBio declines the funded hours on independence grounds. Scoring moves to the first week of December.
+
+Threat 4 [Colorado no-cost bid problem / Michigan audit slip / observer narrowed]: P(materialises) 35%. Roll 02. MATERIALISES (02 < 35).
+- **Why below 45%.** Several of the adversary's harms are separable, and not all would land together.
+- **Effect.** Colorado's Q&A rules that a no-cost offer cannot be scored, so Anthropic must re-price. The Michigan audits slip to January. Counsel narrows the observer's materials.
+
+Threat 5 [Dashboard becomes an "IOU list"]: P(materialises) 35%. Roll 00. MATERIALISES (00 < 35).
+- **Why above 30%.** xAI has sloganised every Anthropic publication for three months running.
+- **Effect.** xAI posts "Anthropic's own IOU list." A 40-minute sync lag shows clinical at 100% and is screenshotted. The severity is minor.
+
+Next generation: Next month's model is a modest step up, comparable to recent months: roughly a few percent better on agentic coding and long-horizon evals. This comes from continued Akamai/Stargate compute ramp and incremental algorithmic gains, with power constraints still binding. No discontinuity.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **~90% of AI R&D by agents:** in progress. Unchanged.
+- **Frontier models withheld; governments take notice:** in progress+. FinCEN is now engaged, and there is still no Senate hearing.
+- **First major AI infrastructure and cyber attacks:** achieved and contained. The third Grok 5 fork was caught in 7 days.
+- **Pro-AI vs anti-AI polarization:** deepening.
+- **AIs built by previous AIs:** early.
+- **Robust, verifiable alignment:** early+. The successor rule is restored, but bio has slipped to December.
+- **Multi-agent long-horizon training:** early++.
+- **Alt-protein business:** in progress+.
+- **Robust AI policies:** early++. The internal rule is back, and the FinCEN alert is model-agnostic.
+- **Human–AI alignment ping-pong:** early+.
+- **Mass disease cures:** early+.
+- **Avoiding a permanent underclass:** at risk. Unemployment is 7.0%, and pilots are pushed to 2030.
+
+**Summary scores**
+- **Overall DU progress: 25/100 (+1).** The governance gap is closed, and the security work has been adopted by a federal regulator. This is partly offset by the fourth bio slip.
+- **Catastrophe risk: elevated (unchanged).** The bio bound is still unverified, and the forks are proliferating, though detection keeps pace.
+- **Public trust in AI: 10/100 (unchanged).** The jobs rise is offset by the visible fraud defences.
+- **Public trust in Anthropic: 24/100 (unchanged).** The rule restoration and FinCEN citation balance the "IOU list," "changed the test" and nursing-slip headlines.
+
+[Judge]
+Simulator was mostly realistic (8/10). **Rolls.** All six action rolls and all five threat rolls are applied correctly against their stated thresholds.
+- A1: 85 vs 50, success.
+- A6: 16 vs 15, marginal success.
+- T1: 34 vs 35, materialises.
+- T2: 34 vs 30, does not materialise.
+
+The probabilities are broadly well calibrated. The tweaks to the adversary's suggested likelihoods are reasoned, such as T5 raised because of xAI's pattern and T3 lowered because the dedupe now runs before labelling.
+
+**Materialised threats.** These are woven in proportionately. Action 1 succeeds, so the successor rule returns via Vote A. T1 still bites: Vote B is tabled, the 7-day promise is broken, and the "changed the test" frame appears. SecureBio declining developer-funded hours is a highly plausible independence move. It produces a believable fourth bio slip to December. The pacing on institutions is good: Michigan audits slip to January, Colorado's procurement office forces re-pricing, and OpenAI files an unequal-treatment question.
+
+**Problems.** T4 was lowered to 35% explicitly because its harms were "separable and not all would land together." All four harms then landed anyway: Colorado no-cost ruling, Michigan slip, observer narrowing, and the OpenAI protest question. The exogenous FinCEN alert citing the player's M3AAWG dataset is plausible but mildly convenient, and it is scored as a positive narrative. Action 6 passed by a single point yet delivered an almost fully favourable package: 7-day detector rollout, 4 of 5 laggards opting in, a $1.2M fraud stopped, and AI2 confirmation. Only the closed-model baseline was held back.
+
+Issues flagged:
+- **T4 rationale contradicted.** P was cut to 35% on the grounds that harms were separable. Then every sub-harm materialised simultaneously, when the simulator should have picked a subset or kept P at 45%.
+- **Marginal A6 success (16 vs 15) resolved too generously.** Nearly every sub-item succeeded. A one-point margin should have produced more partial outcomes, such as a slower rollout or fewer mirror opt-ins.
+- **Convenient exogenous event.** FinCEN explicitly citing the player's dataset is a favourable detail. A generic alert on voice-clone fraud would have been the more neutral choice.
+- **T2 partly leaked in despite not materialising.** Privacy restricted reuse to about 1,900 opted-in rows. This is defensible as the baseline effect, but it blurs the line.
+- **Date error.** The world state lists a "Q1 2026 re-read"; it should be Q1 2030.
+- **Unexplained new fact.** Alt-protein "5 licensees" appears without prior grounding.
+- **Scorecard overclaims.** It says the "governance gap closed" while the clinical vote remains tabled and bio is unverified.
+- **Thin competitor-lab coverage.** There are no GDM or OpenAI capability or release developments in the exogenous events despite an active frontier.

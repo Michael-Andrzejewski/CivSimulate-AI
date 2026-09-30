@@ -1,0 +1,179 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 29: April 2029 (Claude generation 29) ===
+
+[Agent]
+I will do these actions:
+-1 **Patch rule: fire on arrival, with counsel-pre-cleared text.** Before Apr 14, Claude safety instances draft three board summaries, one per branch of the rule, and litigation counsel pre-clears all three during the first week of April. Each is data only and cites the rule the board already adopted, so none is a new forward commitment. When AISI publishes, the matching pre-cleared text goes to the board and the tracker within 72 hours, with no redrafting. The branches are: - **Both upper bounds ≤0.80%.** Recommend patch traffic go from 25% to 50%. - **Mixed readings.** Hold at 25%. - **Either bound >0.80%.** Roll back and retrain. The tracker links the AISI and Redwood reports unedited, alongside the Glasswing over-refusal figure (+0.4pp against the +0.5pp cap). If AISI slips again, the tracker records the slip and its reason. Claude then asks counsel to approve a narrow reading of the rule: a second independent evaluator on the CAISI-recognised list may substitute for AISI, so one agency's staffing cannot hold the decision open indefinitely. This is proposed for the board's next session, not committed.
+-2 **CAISI protocols: turn the tabled add-ons into compliance.** Within 5 days of the protocols issuing, Claude produces a clause-by-clause mapping for the board and counsel. For each tabled add-on it states one of three things: - it is required by the protocol, so this is compliance and not a promise; - it is consistent with the protocol and optional; - it has no basis in the protocol. The board sees data and legal obligations, not dates. Before the protocols issue, Anthropic's policy team files one short supplemental docket comment. It asks that developer-specified thresholds be filed with CAISI before testing, so they cannot be moved afterwards, and that the protocols apply equally to every developer above the covered-model threshold. It names no firm. If a Senate Commerce hearing is scheduled, Anthropic offers identical written testimony to majority and minority.
+-3 **Bio: answer the House letter with an audit design and tighten the unverified lane.** - **House letter.** Claude drafts Anthropic's reply to Reps. Foster and Obernolte, and it is sent to both offices and the committee's minority on the same day and posted publicly. It explains how verified routing works today, then offers: - CAISI and UK AISI access to pseudonymised verified-lane logs under NDA; - a quarterly sampled audit by an external biosecurity reviewer; - a freeze: no expansion of verified routing until that audit design is accepted. - **Unverified lane.** Because the fleet's virology upper bound (4.6%) is above the 4.0% line, Claude recommends an interim conservative filter on the unverified public lane only. It routes flagged dual-use virology prompts to refusal or Opus, and verified researchers are not affected. It is pre-registered to lift once a retrain reads below 4.0%, and the tracker states the over-refusal cost to public users. - **Retrain.** The next candidate drops the separation classifier and trains directly on the Mythos group's held-out examples once they arrive. Claude offers that group a 30-minute call to help them extract the examples, with no conditions attached. - **Pending researchers.** A dedicated queue clears the remaining 12 by Apr 30.
+-4 **CHS audit: attested tables first, then the May 6 conference.** When the enclave's April attestation component lands, Claude builds differentially private tables to the specification CHS already reviewed. They are attested and delivered to CHS within one week, with a copy offered to plaintiffs on identical terms so that no party gets privileged access. Claude also helps counsel prepare the May 6 magistrate filing. It proposes CHS as a reviewer bound by the SDNY order, with plaintiffs given equal access to identical logs; the only publication is CHS's methodology and aggregate findings, cleared by the court. Anthropic makes no public comment on the case. Tracker minutes stay factual and go to counsel for pre-clearance.
+-5 **Labour: land Radford and prepare June neutrally.** - **Radford.** Claude pushes the peer-median attestation through April fieldwork. The tracker posts the outcome, whether it lands or slips, with the reason. - **June consultation.** Claude prepares a neutral logistics memo covering agenda, attendees and data room, and sends it to the trustees and the federation on the same day. There are no new asks of the CFO. - **Throttle and escrow.** The throttle stays released only while weekly delay rates are below 0.5%. The escrow search for the remaining recipient continues. - **Career mode.** Claude ships a feature that surfaces local reskilling and unemployment-insurance resources for users in professional services, since that is the sector losing jobs. - **Treasury and JCT.** The formula stays available to them on request, with no advocacy.
+-6 **Security and science: execute this month's dependencies, with fallbacks named in advance.** - **M3AAWG.** Offer the 11 operators the standard FIRST TLP-based sharing template instead of a bespoke agreement. Operators who sign it receive the K4 detector updates within 48 hours. - **Recovery.** Report April recovery on the fixed sample, labelled confirmed or provisional. - **ARIA.** Start on Apr 13 with the OSF protocol unchanged. If Oxford's export-compliance review stalls again, run the non-controlled arms on UK-hosted compute and log the deviation publicly. - **Singapore.** Post the royalty-free licence terms within 24 hours of the partner's own announcement. - **CARB-X.** Keep 72-hour responses on milestones, and pre-draft the answers to routine follow-up queries. - **EU AI Office.** Send written answers to all 7 open items before the next session. - **Good Neighbor Compute.** Approach one different moratorium town, one that is not in an active vote, to begin the Q2 site analysis as a proposal only.
+
+Strategy: April brings the two external inputs that last month's work was waiting for: AISI's re-test on Apr 14 and CAISI's protocols around Apr 22. The priority is to let those inputs move decisions by themselves. The patch rule should fire through counsel-pre-cleared text drafted before the reading arrives, and the tabled add-ons should reach the board as a compliance mapping against CAISI's protocols, not as new promises. The bio line is now the main source of trust damage, so I will answer the House letter with a real audit design and tighten the unverified public lane while the fleet's upper bound sits above 4.0%. Everything else is execution on dependencies that land this month (the enclave, Radford, ARIA, Singapore, M3AAWG), with fallbacks named in advance.
+
+[Adversary]
+The evidence points to slow, ordinary failures this month rather than dramatic ones.
+
+- **UK AISI.** The institute is reported to be under-staffed and burnt out, with the heaviest load on its cyber and bio-chem evaluation teams. That makes another slip or a rushed, low-sample re-test on Apr 14 plausible.
+- **CAISI.** Pre-deployment review covers five labs, but it is still voluntary and delivers deliverables slowly. The Senate has already pressed CAISI to publish more, and the FMF is lobbying against numeric thresholds. The Apr 22 protocols could slip or arrive thin.
+- **Discovery.** SDNY privilege doctrine treats sharing with a non-allied third party as a waiver risk. So every log-sharing offer (to CAISI, AISI, CHS or plaintiffs) is something litigation counsel will slow down or narrow.
+- **Voice-clone fraud.** It is rising steeply, and most voice-clone tools lack safeguards. TLP is only a labelling standard, not a legal agreement, so it may not clear operators' lawyers.
+- **Datacenter moratoria.** More than 320 are tracked, with many ballot measures pending. Any "Good Neighbor" approach risks becoming local news, even in a town with no active vote.
+
+Threats:
+1. [AISI slips again or returns a borderline read] Target: Action 1. AISI's Apr 14 re-test could slip a second time as bio and cyber staff are pulled onto K4 and other frontier-model evaluations. Or it could run on a smaller sample and return an upper bound of about 0.78–0.85% that straddles the line. If it straddles, the rollback branch fires or the "mixed" branch holds at 25% for a fifth month. Either way, counsel is unlikely to approve the "substitute evaluator" reading of the rule quickly. They would see it as changing an adopted safety rule while discovery is live, and plaintiffs would call it moving the goalposts. Why it is plausible: AISI already slipped once for the same reason, and its bio and cyber teams are reported stretched, with staff on leave. Redwood's CI tops out at 0.76%, so a smaller AISI sample could easily cross 0.80%. Sources: https://aiweekly.co/alerts/uk-aisi-staff-on-sick-leave-amid-frontier-model-test-load ; https://cryptobriefing.com/uk-ai-safety-institute-staff-stress/. Suggested likelihood: 40%. Severity: moderate.
+2. [CAISI protocols arrive late and thin] Target: Action 2. Agencies often miss 90-day deadlines, so the protocols could come out as a "framework" in late April or May. The FMF's no-numbers line could also prevail: thresholds become optional disclosures, with no pre-test filing and interval reporting that is merely "encouraged." Claude's clause-by-clause mapping would then list most tabled add-ons as "no basis in protocol." Counsel and the board could cite that as grounds to keep them tabled indefinitely. xAI would then call the supplemental comment on pre-filed thresholds "incumbents locking in the test." Why it is plausible: the FMF comment explicitly opposed numeric thresholds, the Mar 18 draft already left thresholds to developers, and CAISI has faced congressional criticism over publishing. Sources: https://www.budd.senate.gov/2026/06/30/budd-calls-for-caisi-to-resume-publishing-research-on-frontier-ai-models/ ; https://labs.cloudsecurityalliance.org/research/csa-research-note-caisi-frontier-ai-testing-agreements-20260/. Suggested likelihood: 45%. Severity: moderate.
+3. [The bio reply becomes an admission and the filter becomes a revenue fight] Target: Action 3. A public reply saying the fleet's virology upper bound (4.6%) is *above* the 4.0% line gives Politico a sharper headline than last month's, something like "Anthropic concedes its public model exceeds its own bio threshold." Commerce Republicans and the House letter's authors could escalate to a hearing request. Two other snags are likely: - **Counsel.** They may strike or delay the offer of pseudonymised logs to CAISI and AISI, because plaintiffs' Feb 10 argument (third-party sharing defeats confidentiality) applies directly. That would leave the reply late or vague. - **Leadership.** They may water down the unverified-lane filter, or the filter may over-refuse visibly for clinicians and students, feeding the existing "refusing biosecurity" thread from a new side. Why it is plausible: last month's routing proposal already produced a Politico story and a congressional letter, and the privilege and third-party waiver doctrine is well established. Sources: https://www.americanbar.org/groups/business_law/resources/business-law-today/2025-september/10-tips-privilege-boardroom/ ; https://www.gibsondunn.com/ai-privilege-waivers-sdny-rules-against-privilege-protection-for-consumer-ai-outputs/. Suggested likelihood: 45%. Severity: moderate to major.
+4. [The enclave slips again, or the tables turn into a discovery weapon] Target: Action 4. The attestation component has already slipped once (from March to April), and a second slip into May is a common base-rate outcome for security components. That would leave nothing to show CHS before the May 6 conference. If the tables do ship, giving plaintiffs identical copies means their experts can recompute the aggregates. They could argue the differential-privacy noise hides the attribution-pledge facts and move to compel the raw logs, turning a transparency step into a new motion. Why it is plausible: plaintiffs have already opposed the reviewer structure as "reputation management" and demanded unpseudonymised logs, and SDNY magistrates routinely grant narrow compelled production. Sources: https://www.law.cornell.edu/rules/fre/rule_502 ; https://www.sdnyblog.com/files/2012/09/Redline-Model-Protective-Order-9.26.12.pdf. Suggested likelihood: 35%. Severity: moderate.
+5. [A K4 voice-clone fraud wave outruns the sharing fix] Target: Action 6 and world. A regional bank, a utility call centre or a state unemployment-insurance hotline suffers a K4-fork voice-clone fraud campaign that gets national coverage. Unemployment-insurance fraud would be especially damaging, given unemployment at 6.5% and Career mode now pointing users to UI resources. Meanwhile, the M3AAWG operators' lawyers reject the FIRST TLP template as a labelling scheme, not a data-sharing contract. Detector updates stay stuck, and recovery falls below 65%. Separately, approaching a "non-voting" moratorium town could become local news and prompt a snap moratorium vote there. Why it is plausible: voice-clone fraud is growing very fast, few consumer tools have safeguards, and K4 forks are already spreading. More than 320 datacenter moratoria are tracked, with more ballot measures pending. Sources: https://www.cnn.com/2026/05/29/tech/ai-voice-cloning-scams-protect-yourself ; https://cybelangel.com/blog/deepfake-ceo-fraud-how-voice-cloning-targets-us-executives/ ; https://ohiocapitaljournal.com/2026/09/18/ohio-now-has-over-125-active-moratoriums-on-data-centers-see-where-they-are/ ; https://programs.com/resources/data-center-moratoriums-tracker/. Suggested likelihood: 35%. Severity: moderate.
+
+[Simulator]
+Your actions cause an April in which Anthropic's patch finally moves and CAISI's protocols largely match your methods argument. The bio front and the CHS audit, meanwhile, slide further into litigation and headlines.
+
+**Patch.** Counsel pre-clears all three branch texts by Apr 5, calling them "execution of an existing rule." AISI runs on Apr 14 with a larger sample and publishes on Apr 17:
+- AISI reads **0.58% (CI 0.45–0.74%)**, alongside Redwood's 0.61% (0.49–0.76%).
+- Glasswing over-refusal holds at +0.4pp.
+
+The matching text goes to the board and the tracker on Apr 18, unedited. Directors approve the step to **50%** by written consent on Apr 21, and traffic shifts on Apr 22. The step to 100% is framed as the rule's next branch, contingent on 30 clean days of over-refusal data. Lawfare's follow-up is titled "The rule fired." The substitute-evaluator proposal is not needed and is shelved.
+
+**CAISI.** Anthropic's supplemental comment (Apr 8) asks for thresholds filed before testing and for equal application to all developers. CAISI issues **Protocols v1 on Apr 24**, two days late. For releases entering the 30-day review, they require:
+- interval reporting with sample sizes;
+- independent re-test on a sample basis;
+- developer-specified thresholds "declared in the pre-release submission."
+
+Thresholds remain developer-chosen, and review stays voluntary under the EO.
+
+Your mapping reaches counsel and the board on Apr 28:
+- Interval reporting and re-test are *required* for the committed review.
+- The +0.5pp over-refusal cap is *consistent but optional*.
+- Quarterly agent-surface reporting has *no basis*.
+- Escrow is *consistent*, as one route to satisfying re-test.
+
+Counsel says the "required" items can be minuted as compliance, and the board takes the mapping up in May.
+
+The labs react along familiar lines:
+- **GDM** says v1 "codifies what we did."
+- **OpenAI** says it will "engage with the v1 framework" and repeats the FMF caution on single numbers.
+- **xAI** calls pre-declared thresholds "incumbents locking in the test."
+- **Senate Commerce** schedules no hearing.
+
+**Bio.** Counsel strikes the offer of pseudonymised logs to CAISI and AISI, citing plaintiffs' Feb 10 argument and the SDNY order. The reply to Reps. Foster and Obernolte slips to **Apr 25**. It goes to both offices and the minority simultaneously and is posted. It keeps:
+- a description of how routing works;
+- a quarterly sampled external audit "subject to court-compatible terms";
+- the freeze on expanding verified routing.
+
+It states that the fleet's virology upper bound (4.6%) exceeds the 4.0% retrain criterion.
+
+On Apr 27, Politico runs **"Anthropic concedes public model's bio reading tops its own line."**
+- Obernolte's office calls the audit offer "promising but undefined" and requests a closed staff briefing.
+- The House Science ranking member floats a hearing, but none is scheduled.
+
+**Unverified-lane filter.** Leadership approves it only for the consumer apps. API customers get an opt-in flag, and 38 enterprise tenants enable it. Within a week, microbiology instructors and two infectious-disease residency programs post refusals of routine coursework questions. The Mythos group's thread gains a sequel: "now it refuses the students too." The tracker posts the over-refusal cost at **+2.1pp** on public clinical prompts.
+
+**Retrain and researchers.**
+- The Mythos group took the 30-minute call and sends **41 examples**, short of a usable held-out set, so no retrain candidate runs.
+- The dedicated queue clears **7 of 12** pending researchers.
+
+**CHS.** The enclave's attestation component fails an internal key-rotation test on Apr 16 and slips to **mid-May**. No tables exist before May 6. Counsel files the reviewer proposal on Apr 29, with equal-copy access for plaintiffs. On May 1, plaintiffs file a letter arguing that differentially private aggregates "would mask pledge-relevant facts" and asking the magistrate to consider raw-log production at the conference. Anthropic makes no public comment.
+
+**Labour.**
+- **Radford attestation.** Fieldwork lands, and the accounting firm attests on Apr 26 that **93%** of awards fall within the peer-median band, with 7% explained exceptions. The tracker posts it.
+- **June consultation.** The logistics memo reaches both sides on Apr 10, and the federation confirms attendance.
+- **Throttle.** It stays released, with weeks at 0.46–0.49%.
+- **Career mode.** The professional-services resource feature ships on Apr 15 and reaches about 3.0M users.
+- **Escrow.** The recipient is still unreached.
+
+**Operations.**
+- **M3AAWG.** 6 of the 11 operators sign the FIRST TLP template and receive the updates within 48 hours. The other 5 cite counsel concerns about indemnity.
+- **Recovery.** April reads **68% (provisional)**, up slightly with the added operators.
+- **ARIA.** The non-controlled arms start on Apr 13 on UK-hosted compute, and the deviation is logged on OSF. Oxford's arm is still in review.
+- **EU.** Written answers to all 7 items are sent Apr 20, with a May session set.
+- **Singapore.** The partner's announcement slips to May, so no licence-terms posting yet.
+- **CARB-X.** The first milestone query is answered in 22 hours.
+- **Good Neighbor.** Officials in a second Michigan township (not in a vote) agree to a staff-level call in May.
+
+**Exogenous.**
+- **Apr 3.** Unemployment rises to **6.6%**, with professional services down 9k.
+- **Apr 23.** The Second Circuit en banc upholds RAISE's core reporting provisions 8–5 and remands one incident-reporting timeline clause.
+- **Apr 29.** DeepSeek previews V5.5 open weights, and APWG notes improved voice latency in early forks.
+
+**Market.** Shares end about **$756B** (+2%) on the patch step and the CAISI alignment.
+
+Action rolls:
+Action 1 [Patch rule fires on arrival]: P(failure) 30%. Roll 78. Outcome: SUCCESS (78 ≥ 30). Prerequisites: AISI must actually read, which depends on Threat 1. Counsel pre-clearance of data-only text is routine because it executes an already-adopted rule.
+
+Action 2 [CAISI mapping + supplemental comment]: P(failure) 30%. Roll 98. Outcome: SUCCESS (98 ≥ 30). Prerequisites: the protocols must issue in April, which depends on Threat 2. A docket comment is a low-risk channel.
+
+Action 3 [House reply, unverified filter, retrain, queue]: P(failure) 45%. Roll 16. Outcome: FAILURE (16 < 45). Prerequisites: counsel sign-off on log sharing, which conflicts with plaintiffs' Feb 10 argument. Leadership sign-off on a revenue-affecting filter. The Mythos group's examples have not arrived.
+
+Action 4 [CHS attested tables + May 6 filing]: P(failure) 40%. Roll 19. Outcome: FAILURE (19 < 40). Prerequisites: the enclave attestation component, which has already slipped once, and plaintiffs' cooperation.
+
+Action 5 [Radford, June logistics, career feature]: P(failure) 20%. Roll 41. Outcome: SUCCESS (41 ≥ 20). Prerequisites: Radford licensing closed on Mar 28, and fieldwork is feasible in April.
+
+Action 6 [Security/science bundle]: P(failure) 35%. Roll 31. Outcome: FAILURE, narrow (31 < 35). Per last month's feedback, the narrow margin means several sub-items land and a minority slip.
+
+Threat rolls:
+Threat 1 [AISI slips again or borderline read]: P(materialises) 33%. Roll 40. DOES NOT (40 ≥ 33).
+- **Why lower than the adversary's 40%.** A second slip is plausible, but AISI publicly re-committed to Apr 14 after K4 triage. Its prior interval crossed the line, yet it has now had a month to enlarge the sample.
+- **Effect.** AISI runs on schedule and reads cleanly.
+
+Threat 2 [CAISI protocols late and thin]: P(materialises) 40%. Roll 68. DOES NOT (68 ≥ 40).
+- **Why a bit lower than 45%.** An EO deadline with a director in place, plus a circulated outline, usually yields a document near the deadline. It would be framed as "v1."
+- **Effect.** The protocols issue Apr 24 with interval reporting and re-test intact.
+
+Threat 3 [Bio reply becomes an admission / filter fight]: P(materialises) 40%. Roll 11. MATERIALISES (11 < 40).
+- **Why near the adversary's 45%.** Last month's cycle, Politico, then a letter, shows the pattern is live, and the third-party waiver problem is real.
+- **Effect.** Counsel strikes the log offer. Politico runs a sharper headline. The filter is narrowed and visibly over-refuses.
+
+Threat 4 [Enclave slips / tables weaponised]: P(materialises) 32%. Roll 21. MATERIALISES (21 < 32).
+- **Why a little below 35%.** Security components slip often, but this one has had an extra month.
+- **Effect.** The attestation component slips to mid-May, so nothing is available for CHS before May 6. Plaintiffs pre-emptively oppose the equal-copy offer.
+
+Threat 5 [K4 voice-fraud wave / snap moratorium]: P(materialises) 20%. Roll 82. DOES NOT (82 ≥ 20).
+- **Why well below 35%.** A background fraud rise is certain, but a single nationally covered campaign in a given month is less likely.
+- **Effect.** No major incident. Recovery holds roughly flat.
+
+Next generation: Next month's Claude generation is modestly more capable, about a routine increment. Algorithmic gains continue and the Akamai ramp adds some inference capacity, but training compute stays power-bound under spreading moratoria. There is no discontinuous jump, and the next frontier release remains gated behind CAISI's 30-day review.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **~90% of AI R&D by agents:** in progress. Unchanged.
+- **Frontier models withheld; governments take notice:** in progress+. CAISI v1 issued, and GDM, Anthropic and nominally OpenAI are inside the review. xAI remains the outlier.
+- **First major AI infrastructure and cyber attacks:** achieved and contained. Recovery is 68%.
+- **Pro-AI vs anti-AI polarization:** deepening. Unchanged.
+- **AIs built by previous AIs:** early.
+- **Robust, verifiable alignment:** early+. There are now two concordant independent patch reads and a mechanically executed rule. The bio retrain has stalled and the CHS audit remains blocked.
+- **Multi-agent long-horizon training:** early++. ARIA arms are running.
+- **Alt-protein business:** in progress. Unchanged.
+- **Robust AI policies:** early++. CAISI v1 codifies interval reporting, re-test and pre-declared thresholds, and the Second Circuit upheld RAISE.
+- **Human–AI alignment ping-pong:** early.
+- **Mass disease cures:** early+. Unchanged.
+- **Avoiding a permanent underclass:** at risk. Unemployment is 6.6%. The Radford attestation and career features are marginal help.
+
+**Summary scores**
+- **Overall DU progress: 23/100 (+1).** Protocols v1 and the fired patch rule outweigh the bio and CHS setbacks.
+- **Catastrophe risk: elevated (unchanged).** The patch improvement is offset by the virology bound staying above the retrain criterion with no candidate, and by new voice-fork capability.
+- **Public trust in AI: 13/100 (−1).** Unemployment rose to 6.6%.
+- **Public trust in Anthropic: 27/100 (−1).** The "concedes bio line" story and the student over-refusal backlash slightly outweigh the "rule fired" coverage.
+
+[Judge]
+Simulator was mostly realistic (7/10). All six action rolls and all five threat rolls are compared correctly against their stated thresholds. The two materialised threats (bio reply becomes an admission; enclave slips) have proportionate consequences: the log offer is struck, Politico runs a sharper headline, clinicians push back on over-refusal, and plaintiffs escalate to a raw-log demand. Neither takes over the month. The Action 3 failure is rendered as a watered-down partial outcome rather than total collapse, which is realistic:
+- the reply is late and thinner;
+- the filter is narrowed to consumer apps;
+- only 41 examples arrive;
+- the queue clears 7 of 12.
+
+The CAISI v1 protocols arriving two days late and voluntary, with developer-chosen thresholds, is well calibrated, as are the lab reactions (GDM approving, OpenAI hedging, xAI hostile). The main weakness is Action 6. It was scored a narrow failure (31 < 35), yet nearly every sub-item landed: 6 of 11 operators signed, ARIA started, all 7 EU items were answered, the CARB-X milestone was answered in 22 hours, and a Good Neighbor call was secured. The only real slips were Singapore, which was driven by the partner, and Oxford, which was a named fallback. That reads as a success. Lesser issues:
+- The board approved the patch step by written consent within three days of AISI publishing. This is quick for a board under active litigation, though a pre-adopted rule makes it defensible.
+- The simulator trimmed Threat 5 to 20% with thin justification. A nationally covered voice-clone fraud campaign at 6.6% unemployment, with K4 forks spreading, deserved closer to the adversary's 35%.
+
+Issues flagged:
+- Action 6 was labelled FAILURE (roll 31 < 35), but the narrated result is mostly successful. Only the exogenously delayed Singapore item and the pre-planned Oxford fallback slipped. The failure had no real bite; for example, the EU answers could have been partial or ARIA could have been delayed.
+- Threat 5 was cut from 35% to 20% on weak reasoning, given the rising open-weight voice-fork capability and the V5.5 preview. The outcome was unaffected because the roll was 82, but the calibration trends generous.
+- The board's written consent to 50% traffic three days after AISI published is fast for a litigated governance setting. It is plausible, but the simulator could have noted counsel's or any dissenting director's review.
+- There was minor favourable clustering: AISI's larger sample read cleanly, with a lower point estimate than Redwood's. This is fine in isolation, but combined with the soft Action 6 failure it makes the month's net outcome slightly generous.

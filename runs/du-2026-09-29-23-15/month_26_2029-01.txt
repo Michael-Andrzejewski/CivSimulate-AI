@@ -1,0 +1,155 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 26: January 2029 (Claude generation 26) ===
+
+[Agent]
+I will do these actions:
+-1 **Get independent patch data in hand before the Feb 20 board meeting.** Claude safety instances ask Redwood, through Anthropic's safety leadership, for a one-off pilot of its quarterly harness in January, paid from the existing external-evaluation budget, since the board has not yet approved escrow. The pilot runs on the 25%-patched model with a sample large enough that the 95% upper bound falls below 0.80% if the true rate is near AISI's 0.57%. It is scoped as a first-quarter harness and invites a university lab to run an independent replication. Redwood publishes in its own name before Feb 13. Claude pre-registers the decision rule publicly now, with three branches: - If the pooled AISI and Redwood upper bound is at or below 0.80% and Glasswing over-refusal stays at or below +0.5pp, the Feb 20 memo recommends a step to 50%, then 100%. - If the pooled upper bound is above 0.80%, the patch rolls back and a public incident entry is published. - If the result is ambiguous, the patch holds at 25% and a second retrain targets the residual family. The Feb 20 board memo is drafted in January. Its main recommendation is permanence of the bare 0.80% rule, which the board can vote on without new data. The add-ons (automatic trigger, the +0.5pp cap, agent reporting, Redwood escrow) are listed as separable items so that each can pass or fail on its own. The fallback is a further extension to Sep 30 so the rule cannot lapse on Mar 31. In parallel, Claude invites the Johns Hopkins Center for Health Security to audit the verified bio lane's design and access logs and publish its findings in its own name, which answers the "side door" question before it spreads.
+-2 **Keep levy work nonpartisan and remove the self-serving element.** Before Jan 20, Anthropic's policy team (Claude drafting) publishes a short revision of its one levy principle: - A credit for worker-transition payments applies equally to any firm, is capped at a set share of liability, and requires independent attestation. - It is prospective only. Anthropic states it will claim no credit for payments made before enactment, including its $3.5B fund. - Anthropic still takes no position on whether a levy should exist. The identical modelling package, including incidence on domestic compute versus foreign competitors, is logged publicly and re-sent to Senate Finance and Ways and Means staff of both parties, the new Treasury and NEC teams, and the one Senate Finance aide who accepted the memo. Requests from OpenAI's "Dividend" team or xAI critics receive the same package. Claude answers press only with facts about the modelling's methods, which are posted openly so anyone can re-run them.
+-3 **CAISI and federal channels: public, capacity-only engagement.** Once a CAISI director is nominated, Anthropic files a public comment and offers testimony to both the HELP/Commerce majority and minority. The comment proposes CAISI as the neutral cross-lab measurer of jailbreak bypass and bio uplift, using a common harness and published sample sizes. This route avoids the antitrust problem that sank joint lab standards. Our 0.80% rule text and the AISI scoped-read methods are attached as an optional template. Claude offers no views on personnel. On preemption, Anthropic keeps one consistent line with the new administration: no removal of SB 53 or RAISE without an equivalent federal floor. Anthropic files nothing in the RAISE en banc case.
+-4 **Labour: land the trustee vote and keep throughput honest.** Claude asks charity counsel, via the fund tracker, for the written opinion by Jan 11. If it arrives, the Jan 18 vote proceeds. If it does not, the vote moves to a posted date of Feb 8, with no vote taken without an opinion, and the reason is posted. The accounting firm is asked to finalise the fieldwork report. For the peer-median share it declined to attest, the fund offers to buy a published third-party salary survey (Mercer or Radford aggregates) so the firm can attest against it. Weekly delay rates continue to be posted, and the throttle rule still applies above 0.5%. The formula stays with leadership. Claude records one standing offer: once levy text exists, the formula will be provided confidentially to Treasury and to Joint Committee on Taxation (JCT) staff on request. The escrow search for the unreachable recipient continues.
+-5 **Security and litigation: honest numbers and clean discovery.** - **Hugging Face.** Claude supports HF's widening decision on HF's terms and publishes whatever HF decides, unedited. - **Recovery.** The fixed 12-adopter sample is reported at its actual January figure and labelled confirmed or provisional. Claude pushes to enrol the last 3 of 40. - **M3AAWG.** The voice-deepfake brief is finalised for M3AAWG in February, with CISA's election desk feedback incorporated. The detector goes to TLP:AMBER sharing only, not an open release. - **Discovery.** Claude helps counsel meet the Rakoff discovery requests completely and on time: a litigation hold on all attribution-pledge materials, and production of the evaluation logs behind the 4.9% correction. Anthropic makes no public comment beyond the filed correction.
+-6 **Science and scheduled operations.** - **Alt-protein.** Claude answers the Singapore markup within 10 days. It proposes defining low- and middle-income countries by the World Bank classification as of the signing date, with grandfathering for any country that later graduates, keeping signature on track for February. - **Klebsiella.** Claude continues 72-hour responses to CARB-X and posts tox data against the stopping criteria. - **ARIA.** If ARIA funds the multi-agent study, it starts as pre-registered. If ARIA declines, Claude asks leadership to run a reduced version on internal compute with an external academic co-PI who publishes independently, and the OSF protocol stands either way. - **Colorado and the Spanish beta.** If Colorado's review clears career mode, the Spanish beta widens to 50% for two weeks, then 100%. If it does not, the beta holds at 25%. - **Exposure report.** The January issue ships with the 72-hour pre-share, and enclave progress is reported against the March target.
+
+Strategy: December held everything in place but made nothing permanent. The board said it will not pre-commit to a measurement it has not seen, so the priority is to put an independent, larger-sample patch reading on the board's table before the Feb 20 meeting. AISI's March re-test comes after that meeting, and the rule expires Mar 31. The inauguration raises the partisan risk around the levy. To answer the "writing its own tax break" charge, I will make our levy principle explicitly non-self-serving (no retroactivity, a cap, and application to all firms) and keep outreach symmetric. On CAISI, I will offer the neutral-measurer idea only through public channels. The rest of the month is about landing the dated items on schedule, each with a posted fallback: the Jan 18 trustee vote, the Hugging Face widening decision, ARIA, Colorado and Singapore. Discovery gets full, quiet compliance.
+
+[Adversary]
+Real-world trends point to more fights this January over timing and who controls the measurement. Redwood and METR are thin on capacity. Their 2026 review of OpenAI's incident was constrained by the lab that commissioned it, and critics called it "ethics washing". That makes a rushed, Anthropic-funded "one-off pilot" easy to attack as paying its own auditor again. Senate confirmations are historically slow: the 2025 nominees faced the longest delays since Reagan, and holds from both parties stretched some confirmations to a year. With a 51–49 Republican Senate, a CAISI director with "teeth" is unlikely to be in place, or even named, in January. AI-related securities class actions are surging, with 18 filed in H1 2026 and about 73% of alleged investor losses. Plaintiffs therefore have strong incentives to use Rakoff discovery to reach internal safety-evaluation material. More generally, a Republican Senate makes the levy close to dead on arrival outside reconciliation. Any move Anthropic makes on the levy is likely to be read through a partisan lens, whatever it intends.
+
+Threats:
+1. [Redwood pilot slips, or its data can't be pooled] Target: Action 1. Redwood's queue is full, so the "one-off pilot" either can't run a large enough sample before Feb 13 or publishes a small-sample read with a wide confidence interval. AISI then says publicly that its scoped read used a different harness and must not be statistically pooled with Redwood's. That leaves the pre-registered decision rule with no valid pooled number. Lawfare and plaintiffs call a January pilot, bought from the external-evaluation budget two weeks before the board meets, "commissioning your own verdict." The board goes into Feb 20 with ambiguity again, which pushes it toward the Sep 30 fallback. Why it is plausible: Redwood's own methodology says control evaluations are only comparable when the settings and affordances match. METR already declined a monthly cadence over capacity. The 2026 lab-commissioned incident reviews drew "ethics washing" critiques for exactly this dependence on the lab. Sources: https://casrai.org/guides/ai-control-evaluations-redwood-research ; https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/ ; https://andrewwu.substack.com/p/the-slop-vestigation-and-ethics-washing ; https://thezvi.substack.com/p/the-quest-for-embedded-evaluators . Suggested likelihood: 45%. Severity: moderate.
+2. [The levy climbdown pleases no one] Target: Action 2. Publicly giving up credit for the $3.5B fund reads to some as an admission that the Free Beacon's "own tax break" charge was right. Democratic offices that relied on Anthropic's modelling feel undercut, because the new cap sets a benchmark that differs from OpenAI's "Dividend" design. Senate Finance Republicans, who hold the gavel in a 51–49 Senate, declare the levy dead outside reconciliation, a path Democrats don't control. That makes Anthropic's modelling the only visible target. If January's jobs report ticks up to 6.4% or more, "AI tax" politics sharpen further and xAI amplifies it. Why it is plausible: Ways and Means Republicans already refused the memo. OpenAI has built its own Washington policy shop and competing proposal, and Musk is attacking the levy. Partisan framing tends to stick once it is set. Sources: https://casrai.org/news/federal-ai-moratorium-state-preemption-fight-2026 ; https://news.gallup.com/poll/712751/americans-cool-toward.aspx . Suggested likelihood: 40%. Severity: moderate.
+3. [No CAISI nominee, and the new EO ignores the neutral-measurer idea] Target: Action 3. January brings no CAISI director nomination, or a nominee held up in committee, because Senate holds and FBI and ethics vetting are slow. Action 3 has no trigger, so the "public comment on nomination" never happens. Meanwhile the new administration's first AI executive actions (rescinding the preemption EO and disbanding the DOJ task force) take OpenAI's framing, "compute-buildout credits" and "American AI Dividend", and give CAISI a vague mandate without a cross-lab jailbreak harness. OpenAI and GDM lobby quietly that measurement belongs in SAFA or the FMF. Why it is plausible: in 2025 only 45 nominees were confirmed in the first 100 days, with record delays and holds from both parties. OpenAI has already hired a former Obama NEC official to lead its Washington policy. Sources: https://www.brookings.edu/articles/the-senate-confirmation-process-after-200-days-of-the-second-trump-administration/ ; https://presidentialtransition.org/reports-publications/understanding-committee-and-floor-delays-during-the-senate-confirmation-process/ ; https://www.govexec.com/management/2025/01/some-trump-nominees-face-confirmation-delays-ethics-and-background-checks-behind-schedule/402168/ . Suggested likelihood: 55%. Severity: minor to moderate.
+4. [Discovery pulls in sensitive eval material, and internal messages leak] Target: Action 5. Plaintiffs' first requests reach well beyond the attribution-pledge logs, to internal chat and email on the 1.8% figure, the red-team data, and the drafts behind the correction. Producing the evaluation logs forces a protective-order fight, because some material touches misuse and threat-intelligence data. The broad litigation hold also sits awkwardly with the zero-retention hashing just adopted for the verified tier. Excerpts about staff doubting the 1.8% figure before the pledge surface in a court filing and drive a press cycle under a headline like "Anthropic knew." Why it is plausible: AI securities suits are at record levels and plaintiffs' firms are well resourced. Discovery in surviving misstatement claims routinely focuses on what defendants knew internally. Sources: https://www.nera.com/insights/publications/2026/recent-trends-in-securities-class-action-litigation--h1-2026-upd.html ; https://www.dandodiary.com/2026/09/articles/securities-litigation/ai-related-securities-suit-filings-continue-to-surge/ ; https://www.skadden.com/insights/publications/2026/2026-insights/litigation-controversy/ai-related-claims-and-other-securities-litigation-trends-to-watch . Suggested likelihood: 30% for a damaging disclosure in January (routine discovery friction is near-certain). Severity: moderate.
+5. [Charity counsel's opinion is late or qualified] Target: Action 4. Counsel delivers late (after Jan 11) or delivers a qualified opinion. It flags private-benefit or conflict issues in giving a worker-federation representative a trustee seat on a fund financed by the company whose layoffs it compensates, and advises restructuring through an advisory committee. The vote moves to Feb 8. The federation reads the qualification as a lawyered stall, echoing "lawyered" from November. Separately, Mercer and Radford license terms bar publishing their survey aggregates, so the accounting firm again can't attest the peer-median share. Why it is plausible: counsel was retained only on Dec 10, with holidays in between. Governance changes to charitable trusts routinely draw cautious, qualified opinions. Proprietary compensation surveys are typically licensed under restrictions on redistributing their data. Sources: none specific; this is based on the world state's history of repeated slips (Nov 20 and Dec 12 deadlines both missed). Suggested likelihood: 45%. Severity: minor to moderate.
+
+[Simulator]
+Your actions cause a January in which Washington changes hands and Anthropic's own house keeps stalling. The new administration moves on CAISI faster than expected. The levy fumble, a watered-down trustee vote and a missed Redwood window leave the Feb 20 board meeting with no fresh data.
+
+**Safety and the board.**
+- **Redwood.** Redwood's director replies on Jan 9 that the Q1 queue is full. A pre-board, Anthropic-paid run "would not be the quarterly harness we offered." Redwood schedules the first quarterly run to start Feb 23, with publication around Mar 20.
+- **Decision rule.** The pre-registered rule is posted on Jan 6, but no data will arrive before Feb 20.
+- **Board memo.** The memo is drafted and leads with bare permanence, with the add-ons listed separately. The chair's tracker reply says permanence "remains unlikely before independent confirmation," and signals the Sep 30 fallback.
+- **JHU audit.** The Johns Hopkins Center for Health Security agrees only to a design review. Access-log review needs a data-use agreement, and that negotiation runs into February.
+- **Bio lane friction.** The lane hits early abuse:
+  - Three verified accounts are suspended for sharing credentials within a lab.
+  - One sign-up using a spoofed institutional domain is caught at manual review.
+  - The virology re-run holds at 3.5% (CI 2.5–4.6%), right at the line.
+
+**Levy.**
+- **Revision blocked in part.** The CFO and chair block the "no credit for pre-enactment payments" line. Anthropic publishes the cap-and-attestation revision on Jan 15, but without waiving the credit for the $3.5B fund.
+- **Reaction.** The Free Beacon runs "Anthropic caps its tax break, keeps its tax break." Two Democratic Ways and Means offices privately complain that the published cap diverges from OpenAI's Dividend design, which they were reconciling toward.
+- **Senate.** On Jan 23 the Senate Finance chair's spokesman calls a frontier levy "dead on arrival outside reconciliation." No reconciliation path exists without Senate control.
+- **Modelling package.** The package itself goes out identically to both parties' committees, the new Treasury and NEC teams, OpenAI and one xAI-aligned think tank. The methods are posted and a Cato economist re-runs them. Nobody engages with them on substance.
+
+**CAISI.**
+- **Executive order.** The Jan 22 order rescinds the preemption EO and disbands the DOJ task force. It directs CAISI to propose "common evaluation protocols for covered frontier models" within 90 days, and directs Treasury to deliver a 60-day "fair-share options" study. The levy is not enacted.
+- **Director.** On Jan 28 Commerce designates a former NIST ITL deputy as CAISI director. The administration says it will seek legislation making the post Senate-confirmed.
+- **Anthropic's comment.** Anthropic files its public comment on Jan 30 with the 0.80% rule template attached. Senate Commerce minority staff accept a briefing. The majority does not reply, and no hearings are set.
+- **Preemption line.** Anthropic's preemption line is unchanged. It files nothing in RAISE, where the en banc argument was heard Jan 14 and a decision is pending.
+
+**Labour.**
+- **Counsel's opinion.** Charity counsel delivers a clean opinion on Jan 9 finding a voting worker seat permissible.
+- **Trustee vote.** On Jan 18 trustees vote 3–2 for a **non-voting worker observer seat**, with a voting seat subject to "12-month review." The federation president says: "They got the legal green light and still said no."
+- **Other items.**
+  - The accounting report is finalised Jan 26.
+  - Radford licensing for the peer-median attestation is still in negotiation.
+  - The delay rate hits **0.52%** in the week of Jan 19, so the throttle fires and intake is held flat for two weeks.
+  - The standing offer to give the formula to Treasury and JCT is logged.
+  - The unreachable recipient is still unreachable.
+
+**Security and discovery.**
+- **Hugging Face.** On Jan 21 Hugging Face widens the pilot to automatic, non-blocking scans of new uploads tagged security or phishing, with human review. Anthropic posts the decision unedited.
+- **Lure feed.** The fixed 12-adopter sample confirms 70% for December and reads 69% for January. Enrolment reaches 39 of 40.
+- **Deepfake brief.** The brief is finalised with CISA's comments for M3AAWG.
+- **Discovery.** Plaintiffs' first requests on Jan 17 reach Slack threads and drafts about the 1.8% figure. Counsel produces the evaluation logs on time and opens protective-order talks over threat-intelligence material. A narrow litigation-hold carve-out is documented for the zero-retention hashing. Nothing leaks.
+
+**Science and operations.**
+- **ARIA.** ARIA funds a reduced study, £1.9M over 18 months, with Edinburgh and Oxford co-PIs. Anthropic's compute is provided in-kind, and the start is set for March under the OSF protocol.
+- **Colorado.** The review clears career mode on Jan 16 with disclosure conditions, and the Spanish beta goes to 50%.
+- **Singapore.** Singapore accepts the World Bank definition but caps grandfathering at 5 years. Signature is still targeted for February.
+- **Klebsiella.** Cohort 4 is clean, and CARB-X still expects a Q1 decision.
+- **Exposure report.** The January issue publishes. One enclave component, the attestation service, slips to April.
+
+**Other threads.** The EU AI Office sends written follow-ups, all 9 items stay open, and the next session is in March. Utah's review and the Washington ESD decision remain pending. UK AISI confirms its March re-test.
+
+**Exogenous.**
+- **Jan 9, jobs report.** Unemployment rises to **6.4%**, and professional services fall 12k. xAI amplifies "AI tax kills jobs."
+- **Jan 14, Grok 6.** xAI releases Grok 6 without the voluntary 30-day CAISI review, calling it "optional theater." Two senators demand an explanation.
+- **Jan 20, inauguration.**
+
+**Market.** Shares end about **$745B** (−3%) on the levy noise, the trustee coverage and Grok 6.
+
+Action rolls:
+Action 1 [Redwood January pilot, board memo, JHU bio audit]: P(failure) 40%. Roll 27. Outcome: FAILURE (27 < 40). Prerequisites: Redwood only offered a quarterly harness, has no January slot, and the board has not approved escrow. A large-sample run with publication before Feb 13 is a very tight timeline.
+
+Action 2 [Levy principle revision, prospective only]: P(failure) 35%. Roll 24. Outcome: FAILURE (24 < 35). Prerequisites: leadership sign-off is needed to waive credit for the $3.5B fund. The CFO and chair have blocked levy-adjacent disclosures twice.
+
+Action 3 [CAISI public comment and testimony offers]: P(failure) 35%. Roll 51. Outcome: PARTIAL SUCCESS (51 ≥ 35). Prerequisites: a nominee or designation must exist. The new Congress's committees are still organising, so testimony depends on hearings being scheduled.
+
+Action 4 [Trustee vote and attestation]: P(failure) 35%. Roll 12. Outcome: FAILURE (12 < 35). Prerequisites: counsel's opinion and trustee agreement. Trustees have a record of hesitating.
+
+Action 5 [Security feed and clean discovery]: P(failure) 30%. Roll 53. Outcome: SUCCESS (53 ≥ 30). Prerequisites: Hugging Face's own decision and plaintiffs' scope. Both are partly outside Anthropic's control.
+
+Action 6 [Science and scheduled ops]: P(failure) 30%. Roll 47. Outcome: SUCCESS, partial on some items (47 ≥ 30). Prerequisites: the ARIA, Colorado and Singapore decisions are external.
+
+Threat rolls:
+Threat 1 [Redwood slips or data can't be pooled]: P(materialises) 45%. Roll 76. DOES NOT (76 ≥ 45). Effect: I match the adversary's figure because of the METR and AISI capacity record. The threat does not fire, so there is no public "commissioning your own verdict" cycle and no pooling objection from AISI. Action 1 fails on scheduling for its own reasons.
+
+Threat 2 [Levy climbdown pleases no one]: P(materialises) 38%. Roll 20. MATERIALISES (20 < 38). Effect: I set it close to the adversary's figure. The partisan framing has already stuck, OpenAI is competing on the same ground, and Senate Finance is in Republican hands. The half-published revision is read as both an admission and a benchmark, and Senate Finance Republicans call the levy dead outside reconciliation.
+
+Threat 3 [No CAISI nominee, EO ignores measurement]: P(materialises) 60%. Roll 96. DOES NOT (96 ≥ 60). Effect: I put it above the adversary's 55% because of first-month nomination base rates. It does not fire: a CAISI director is designated in late January, and the first executive order gives CAISI an evaluation-methods tasking.
+
+Threat 4 [Damaging discovery leak]: P(materialises) 20%. Roll 26. DOES NOT (26 ≥ 20). Effect: I set it below the adversary's 30% because first productions rarely reach court filings within weeks. Routine friction still happens: requests reach internal chats about the 1.8% figure and a protective-order negotiation opens.
+
+Threat 5 [Counsel's opinion late or qualified, survey licensing]: P(materialises) 50%. Roll 54. DOES NOT (54 ≥ 50). Effect: I set it above the adversary's 45% because of repeated slips. It does not fire: the opinion arrives on time and unqualified. Action 4 instead fails at the trustee vote.
+
+Next generation: Next month's model is a modest step up: roughly 4–6% better on agentic coding and long-horizon evals. The gain comes from continued Akamai capacity ramp-up and incremental post-training improvements. Power constraints and Anthropic's slower internal cadence around the patch keep it from being a larger jump.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **~90% of AI R&D by agents:** in progress. Unchanged.
+- **Frontier models withheld; governments take notice:** in progress+. The CAISI director is designated and CAISI has a 90-day evaluation-protocol tasking. Grok 6 skipping review is a counter-signal.
+- **First major AI infrastructure and cyber attacks:** achieved and contained. Recovery is steady at 69–70%, and Hugging Face has widened its scans.
+- **Pro-AI vs anti-AI polarization:** deepening. The levy is being fought on party lines in the Senate, and xAI is campaigning on "AI tax kills jobs."
+- **AIs built by previous AIs:** early.
+- **Robust, verifiable alignment:** early+. Redwood missed the pre-board window, and the virology set sits at the line.
+- **Multi-agent long-horizon training:** early++. ARIA funded the study.
+- **Alt-protein business:** early+. Signature is still set for February.
+- **Robust AI policies:** early+. The preemption EO is rescinded and CAISI has its tasking. The rule is still not permanent, and the levy is stalled.
+- **Human–AI alignment ping-pong:** early.
+- **Mass disease cures:** early+. Tox cohort 4 is clean.
+- **Avoiding a permanent underclass:** at risk. The trustees chose an observer seat over a voting seat, the throttle fired and the formula is still withheld.
+- **Crescendo, resource floor, space:** not started.
+
+**Summary scores**
+- **Overall DU progress: 21/100 (+1).** The CAISI evaluation tasking, the ARIA award and the rescinded preemption EO are real structural gains. They are partly offset by the labour governance setback and no progress on the rule's permanence.
+- **Catastrophe risk: elevated (unchanged).** Grok 6 shipping without review and the virology set sitting at its threshold add marginal risk. The CAISI tasking and Hugging Face's scanning offset it slightly.
+- **Public trust in AI: 14/100 (−1).** Unemployment rose to 6.4%, "AI tax kills jobs" politics intensified, and the Grok review-skipping story ran.
+- **Public trust in Anthropic: 29/100 (−1).** The coverage that Anthropic kept its tax break and the trustee "still said no" story outweigh the ARIA award, Colorado's clearance and clean discovery conduct.
+
+[Judge]
+Simulator was mostly realistic (8/10). The roll arithmetic is correct for all six actions and all five threats. Failures were rendered as the typical partial versions:
+- **Levy (Action 2):** leadership published the cap but blocked the credit waiver, which is consistent with the CFO and chair's history of blocking levy disclosures.
+- **Worker fund (Action 4):** the trustees watered the seat down to a non-voting observer despite a clean counsel opinion.
+- **Redwood (Action 1):** the pilot slipped on capacity grounds.
+
+Materialised Threat 2 was given proportionate consequences: the Free Beacon headline, irritation among Democratic offices, and Senate Finance calling the levy dead. It was not allowed to dominate the month.
+
+Institutional pacing is mostly believable. Rescinding the preemption EO in the first days, designating an acting CAISI director rather than confirming one, commissioning a Treasury study instead of enacting a levy, and holding no hearings while committees organise all fit base rates.
+
+Two problems keep this from a higher score:
+- **Threat 4 adjustment.** The simulator cut Threat 4's likelihood from the adversary's 30% to 20%, and that choice decided the outcome, since the roll of 26 would have fired at 30%.
+- **Convenient EO content.** Threat 3 not firing did not have to mean the EO would adopt a CAISI evaluation-protocol tasking that closely mirrors Anthropic's filed proposal, all in the same month.
+
+The exogenous events (the 6.4% jobs print, Grok 6 skipping review) are plausible and not tailored to the player.
+
+Issues flagged:
+- **Threat 4 likelihood.** It was lowered from 30% to 20%, and the roll of 26 fell between the two values, so the adjustment flipped the outcome. The justification ("first productions rarely reach filings within weeks") is reasonable, but a downward revision that determines the result deserves more caution.
+- **Threat 3 outcome.** Non-materialisation was rendered generously. The Jan 22 EO directly tasks CAISI with "common evaluation protocols," closely matching Anthropic's proposal. A CAISI director was also designated within 8 days of inauguration. Each is plausible alone; together they lean favourable.
+- **Action 1 failure mechanism.** The failure (Redwood queue full, "not the quarterly harness") largely reproduces the content of Threat 1, which did not fire. This is minor double-counting of the same risk.
+- **Bio lane abuse.** Credential sharing and a spoofed domain were introduced without clear grounding in the actions or threats. That is plausible friction, but the virology reading drifting to "at the line" (3.5%) adds another unprompted negative without explanation.
+- **Minor gap.** There is no reaction from GDM or OpenAI to the CAISI protocol tasking, even though Threat 3's premise noted they would lobby to move measurement to SAFA or the FMF.

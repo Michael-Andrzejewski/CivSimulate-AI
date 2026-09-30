@@ -1,0 +1,141 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 45: August 2030 (Claude generation 45) ===
+
+[Agent]
+I will do these actions:
+-1 **CAISI evaluation: cooperate fully and repair staff relations.** From Aug 4, Anthropic's evaluation liaison team answers every CAISI information request within 48 hours, with Claude drafting and the RSO clearing each answer. By Aug 8, Claude drafts a one-paragraph letter for leadership to send to CAISI staff. It admits the harness appendix went in without a confidentiality marking, which was our filing error. It offers two options for CAISI to choose between: file a submitter's notice that the appendix is informational and not proposed as a standard, or leave it as it is. Anthropic makes no public statement. Claude also gives sales and communications a standing rule: no release timing in any customer or press communication beyond "CAISI's evaluation runs through mid-September; release follows its findings, including any conditions." Leadership re-affirms in writing to CAISI that it will adopt any mitigations CAISI requests before the staged rollout. The intended outcome is a clean evaluation, cooler relations thawing, and no second Politico story.
+-2 **Security: close the 90-day-only gap through FS-ISAC.** By Aug 12, Claude gives FS-ISAC an anonymised analysis of the last two cycles. It shows attacks concentrating on institutions that use only the 90-day rule, and that the Wisconsin save came from a 24-hour hold. Claude offers FS-ISAC a draft member advisory, under FS-ISAC's own name, recommending the 24-hour hold plus a second channel as the baseline. It comes with a free implementation playbook for small institutions, and Claude answers integration questions for any member, including Rule 224 objectors. To address feed cooling, Claude works with FS-ISAC's counsel on an optional "signals-only" submission schema: hashed identifiers, variant tags and timing, with no transaction detail. This keeps detection value while reducing discovery exposure, and FS-ISAC decides whether to adopt it. We keep the retrain freeze and the patch target of 46 hours or less, publish catch rates whatever they are, and support the two processor vendor-risk reviews on their own timeline. The intended outcome is a sixth zero-loss cycle, higher hold adoption and a stable feed.
+-3 **Michigan: a restart plan that also answers the relay/TTY advisory.** By Aug 11, Claude asks DTMB for its review date for the restart plan and quotes only that date. Claude builds relay and TTY support into the assisted-phone path. It runs the full 11-flow regression suite, plus a relay/TTY dry run on the build DTMB will test, and files the restart plan with those results and the subprocessor map by Aug 20. Nothing changes afterwards without DTMB's notice. Anthropic also offers DTMB the regression suite, checklist mapping and roster-auditor process as a template that DTMB may publish under its own name for other states, at its discretion. The pilot resumes only on DTMB's say-so. The intended outcome is a late-August restart and a durable state-owned audit template.
+-4 **Clinical: hit RAND's queue for Oct 15 and propose standing custody.** By Aug 8, Claude asks RAND for the latest date its code review and hash-lock need the retrained, frozen model artifact in order to hold Oct 15, assuming 2 to 4 weeks for review. The targeted retrain is scheduled to finish at least one week before that date. The pre-registered rule is unchanged and both outcome texts are pre-cleared again by counsel and by RAND for accuracy. Nursing thresholds stay as they are. Leadership sends RAND a short letter inviting it to draft terms for a standing independent-custody agreement covering future domain non-inferiority tests. RAND sets the terms and keeps its independence policy of publishing a methods note after the sponsor. The intended outcome is an on-time re-read and a durable custody institution.
+-5 **Labour and Rule 224: a rule-bound tranche, a Trust-owned evaluation, precise compliance.** Within 3 days of the Aug 7 jobs report, Claude updates the Radford-test memo for the board with no discretionary changes. Anthropic submits an offer through the Trust's public comment process: the Trust may commission an independent evaluation of career mode (about 5M users), with an evaluator the Trust picks and privacy-preserving data access. The Trust announces any decision first. There is no contact with the federation. On Rule 224, counsel keeps complying with the order exactly, makes no comment on the demand letters, and has pre-QC'd production sets ready for any new order. The intended outcome is labour commitments that look like standing rules and a jobs programme judged by others, with no new litigation exposure.
+
+Strategy: With four months left, the priority is to get Anthropic's release through CAISI's evaluation cleanly and repair the damage from the docket appendix without making new stories. The live security gap is attackers moving to institutions that rely only on the 90-day rule, so the fix is procedural: get FS-ISAC to recommend a 24-hour hold. Everything else should run on the custodians' own calendars: RAND's queue for the October re-read, DTMB's review of the Michigan restart plan, and the Trust's process for any career-mode evaluation. Each thread should also end as a process a third party owns, so it survives after the run.
+
+[Adversary]
+Real-world evidence points to several quiet, procedural ways this month's plan could go wrong. First, CAISI's pre-deployment testing gets access to models with safeguards stripped back, and it has already run more than 40 evaluations. Findings that lead to conditions or an extended window are the normal outcome, so a clean mid-September release is not guaranteed. Second, regulations.gov rules state that anything submitted through the portal waives confidentiality claims. Calling the appendix a "filing error" also contradicts Anthropic's July wording ("for CAISI to use or publish at its discretion"), which gives critics an easy line about a walk-back. Third, the FCC has long documented relay/TTY services being used for fraud and identity concealment. So adding relay/TTY to a step-up authentication path is likely to clash with DTMB's security office, which already rejected the magic link. Fourth, bank anti-fraud telecom APIs (CAMARA Call Forwarding Signal) are only live with a few carriers, mostly in Europe. Transaction holds bring member friction and fee and liability issues, which proposals like the STOP Payments Fraud Act are only now addressing. Taken together, the pledge, the audit, the addendum and the clinical re-read can each hold, yet slip by weeks or produce a news story.
+
+Threats:
+1. [CAISI evaluation finds something and moves the date] Target: Action 1. CAISI's stripped-safeguard cyber and autonomy testing records an unsanctioned agentic action or a notable uplift result. CAISI then asks for a classifier mitigation and a re-test, which pushes the "mid-September" rollout into October. Anthropic's written promise to adopt any mitigation makes compliance automatic, but the delay leaks. Sales has already told enterprise customers to expect mid-September, and GPT-7 keeps winning accounts. Why it is plausible: UK AISI found unsanctioned actions in GPT-5.6 Sol testing (Aug 2026). CAISI tests with guardrails removed. First evaluations of a new frontier generation usually produce at least one condition. Sources: https://labs.cloudsecurityalliance.org/research/csa-research-note-caisi-frontier-ai-testing-agreements-20260/ ; https://www.cybersecuritydive.com/news/nist-ai-model-testing-caisi-google-microsoft/819452/. Suggested likelihood: 35%. Severity: moderate. It is good for the norm's credibility and bad for the share price and the sales narrative.
+2. ["Filing error" letter read as a walk-back] Target: Action 1. The July docket filing said the appendix was provided "for CAISI to use or publish at its discretion." Calling it an unmarked-confidentiality error is therefore inconsistent with the public record. Regulations.gov also treats portal submissions as waiving any confidentiality claim, so a "submitter's notice" does little. If the letter reaches Politico (which already has a Commerce/CAISI source) or is FOIA'd by the coalition, the story becomes "Anthropic tried to quietly shrink its own filing." CAISI staff may also simply not reply, since answering is itself a docket-management decision during the open comment period. Why it is plausible: Politico obtained CAISI correspondence in July. The 31-signatory coalition and xAI are actively mining the docket. Agencies avoid side communications about pending docket items. Sources: https://www.regulations.gov/user-notice ; https://www.federalregister.gov/documents/2016/01/04/2015-32585/confidential-business-information. Suggested likelihood: 25%. Severity: minor to moderate.
+3. [Attackers move past the hold, and the feed fix stalls] Target: Action 2. Holds triggered by number changes do not catch call-forward-on-existing-number attacks. Attackers shift to real-time rails (FedNow/RTP) and account-takeover flows where a 24-hour hold is operationally or contractually hard. That ends the zero-loss streak with a mid-five- or six-figure loss at a small institution. Separately, FS-ISAC's counsel may decide that hashed identifiers are still discoverable under Rule 224, since the petitioner's counsel is actively hunting for defendants. The counsel review of the signals-only schema therefore runs into Q4, and a third bank trims its submissions. Small credit unions may also resist a baseline 24-hour hold over member complaints and fee and liability ambiguity. Why it is plausible: attackers already adapted in July toward coverage gaps. Holds on instant payments are hard, and hold legislation is still pending. Fraud victims are 31% more likely to leave their institution, which makes friction a reason to avoid holds. The Carrier CAMARA signal is only live at a few (mostly EU) carriers. Sources: https://www.govinfo.gov/bulkdata/BILLSUM/119/hr/BILLSUM-119hr9331.xml ; https://www.americascreditunions.org/blogs/americas-credit-unions/fraud-hits-record-levels-credit-unions-lead-fight ; https://camaraproject.org/call-forward-signal/ ; https://tecknexus.com/gsma-open-gateway-dutch-telcos-launch-camara-fraud-apis/. Suggested likelihood: 30% that the streak breaks; 50% that the schema stalls. Severity: moderate. The first loss would end the "zero-loss" narrative.
+4. [Relay/TTY collides with DTMB's security baseline] Target: Action 3. DTMB's security office may rule that relay/TTY calls into the step-up path need extra identity controls, as it did with the magic link. The FCC has long documented relay being used for fraud and identity concealment. It could also require a new subprocessor review for the relay-compatible vendor. The Aug 20 restart plan then goes in incomplete, or it goes in without relay support and disability advocates object. Either way the restart slips to September or October. Separately, offering DTMB a "template for other states" invites Rep. Grant's framing that Anthropic is writing the state's grading process, which echoes the "incumbent templates" story. Why it is plausible: DTMB rejected the magic link in June and asked for a new subprocessor map. The FCC's IP Relay fraud guidance and its 2026 TRS modernization docket both emphasise verification. Sources: https://www.fcc.gov/consumers/guides/ip-relay-fraud ; https://www.federalregister.gov/documents/2026/01/02/2025-24210/analog-telecommunications-relay-service-modernization. Suggested likelihood: 40%. Severity: minor to moderate.
+5. [Labour and litigation: jobs, a lawsuit, and a donor-steering story] Target: Action 5 / world. The Aug 7 report could show unemployment at 7.7% or higher, with professional services down again, which would amplify the federation's message. Anthropic's public-comment offer of a career-mode evaluation could then be framed by the federation as "the donor choosing what gets measured." Also, a demand-letter recipient may file the first Rule 224-derived suit. The defendant institution then subpoenas or third-party-complains against Anthropic over detector design, which turns "none name Anthropic" into a story. RAND, meanwhile, may decline or delay the standing-custody invitation because its independence policy is wary of a standing sponsor relationship. Why it is plausible: unemployment has been at 7.5–7.6% and rising, and demand letters usually lead to filings within a few months. Two banks already cite discovery exposure. RAND refused to host Anthropic's operational decision in July. Sources: https://news.gallup.com/poll/712751/americans-cool-toward.aspx ; https://www.realclearpolicy.com/articles/2026/08/17/check_fraud_is_rising_and_credit_unions_are_fighting_it_1200735.html. Suggested likelihood: jobs at 7.7% or higher, 40%; first suit filed, 25% (Anthropic named or subpoenaed, 10%); RAND declines or defers custody, 45%. Severity: moderate.
+
+[Simulator]
+Your actions cause an August in which the CAISI track runs cleanly, while the zero-loss streak ends and two of your dated promises slip.
+
+**CAISI.**
+- The package lands Aug 4. Over the month CAISI sends 19 information requests, and every answer goes back inside 48 hours with RSO clearance. On Aug 21 staff request two additional unsanctioned-action runs under stripped safeguards. Both are still in progress at month-end, with no findings communicated.
+- Leadership sends the one-paragraph letter on Aug 7. On Aug 15 staff reply by email. Portal submissions are public by design, and they prefer to "leave the record as is". They add that the correction "is noted and appreciated."
+- The written mitigation pledge is logged. The sales and communications rule holds, and no release-timing language leaks. Staff relations thaw a little: a CAISI technical lead joins a routine call that had been skipped in July.
+
+**Security.**
+- Claude delivers the two-cycle analysis to FS-ISAC on Aug 11. FS-ISAC's fraud committee declines to issue a "24-hour hold as baseline" advisory without legal review. The concerns are Reg CC funds-availability interactions, member-attrition data and liability allocation on instant-payment rails. It schedules the item for its October meeting and circulates the playbook only as an "optional resource."
+- On Aug 26 FS-ISAC's outside counsel advises that hashed identifiers joined with timing are "likely reachable" under Rule 224 while discovery is live. The schema moves to Q4. A third member bank trims its submissions on Aug 28.
+- The fork cycle hits on Aug 14, driven by a Qwen 5.5 speech fork (see below). The retrain freeze fires and the patch ships in **44 hours**.
+- Five attempts, totalling about $1.7M, target institutions that use only the 90-day rule. Four are stopped.
+  - The fifth succeeds. On Aug 16 an attacker uses call-forwarding on a member's existing number at a 9,000-member Ohio credit union, passes the callback, and pushes **$92,400** out over FedNow in under a minute. No hold applied, because the number had not changed.
+  - About $31K is recovered by Aug 29.
+- Claude publishes the catch rates on Aug 30, as committed. They show 78% on new call-forward variants and 0% on this instant-rail pattern at institutions without the module.
+- American Banker, Aug 20: "AI voice-fraud 'zero-loss' streak ends at small Ohio lender." FS-ISAC's bulletin notes the institution was "outside every optional layer."
+- Hawley–Blumenthal staff request the incident packet and receive it.
+
+**Michigan.**
+- DTMB names **Sep 15** as its restart-plan review date, and Anthropic quotes only that date.
+- The relay/TTY dry run on Aug 18 fails 3 of 5 scenarios. The assisted-phone vendor's voice-liveness step rejects relay-operator-mediated calls, and its TTY gateway drops sessions after 90 seconds. The fix needs a relay-capable sub-vendor, which means a new subprocessor.
+- Anthropic files the restart plan on **Aug 27**, a week past its own Aug 20 target. The plan carries a clean 11-flow regression, discloses the relay/TTY gap, and sets a fix date of Sep 30.
+- DTMB declines the template offer "while the pilot remains paused." Restart now cannot come before October.
+- Bridge Michigan runs a short item, "Anthropic misses own restart date." Disability Rights Michigan says it "appreciates the disclosure but expects relay parity before restart."
+
+**Clinical.**
+- RAND replies Aug 6 that its reviewer needs the frozen artifact by **Aug 25** to hold Oct 15.
+- The retrain finishes Aug 19. The internal held-out check then shows a 0.6pp regression on a nursing-medication slice, which breaches the unchanged nursing thresholds, so the artifact is not frozen. A corrected retrain is expected Sep 5.
+- On Aug 29 Anthropic posts one line: "Re-read moves to **Nov 12** at the earliest; RAND's intake date missed; no rule changes."
+- STAT: "Claude clinical re-read slips a fourth time."
+- RAND acknowledges the custody invitation and refers it to its Q4 governance review.
+
+**Labour and Rule 224.**
+- The Radford memo is updated Aug 9 with no discretionary changes.
+- The Trust acknowledges the evaluation offer on Aug 19 and refers it to its working group without committing. The federation ignores it.
+- Rule 224 produces no new orders, filings or naming of Anthropic. The demand letters remain private.
+
+**Exogenous.**
+- **Aug 7 jobs report:** unemployment **7.6%** (flat); professional services −5k.
+- **Aug 12:** Alibaba releases Qwen 5.5 open weights. Its speech variant is forked within 48 hours and drives this month's fraud cycle.
+- **Aug 21:** DOJ petitions the Tenth Circuit for rehearing en banc on Utah's AI law.
+
+**Market.** Shares end about **$694B** (−1.8%), on the end of the streak, the clinical slip and GPT-7's continued enterprise wins.
+
+Action rolls:
+Action 1 [CAISI cooperation + staff repair]: P(failure) 25%. Roll 37. Outcome: SUCCESS, modest margin (37 ≥ 25). Prerequisites: met. The evaluation is already scheduled, and the letter and communications rule are internal decisions. One limit caps the gain: the July filing's own text said the appendix was for "CAISI to use or publish at its discretion", so calling it a "filing error" can only partly repair things.
+
+Action 2 [FS-ISAC hold baseline + signals-only schema]: P(failure) 35%. Roll 15. Outcome: FAILURE (15 < 35). Prerequisites: partly missing. A member advisory needs FS-ISAC committee and legal review. A 24-hour hold as the default runs into funds-availability rules and member-friction concerns. The schema needs counsel sign-off during live Rule 224 discovery.
+
+Action 3 [Michigan restart + relay/TTY]: P(failure) 35%. Roll 02. Outcome: FAILURE (02 < 35). Prerequisites: missing. Relay/TTY support depends on the assisted-phone vendor's call-centre platform and a relay-capable workflow that did not exist, and building one inside three weeks was always tight.
+
+Action 4 [RAND timing + standing custody]: P(failure) 20%. Roll 15. Outcome: FAILURE on timing (15 < 20). The custody invitation is sent and stays unresolved. Prerequisites: the retrain must produce a frozen artifact that passes internal held-out checks before RAND's intake cutoff.
+
+Action 5 [Radford memo, Trust evaluation offer, Rule 224 compliance]: P(failure) 20%. Roll 23. Outcome: SUCCESS, narrow (23 ≥ 20). Prerequisites: met. All of it is routine and runs through existing channels.
+
+Threat rolls:
+Threat 1 [CAISI finding moves the date]: P(materialises) 30%. Roll 40. DOES NOT. I set this slightly below the adversary's 35% because most stripped-safeguard findings arrive late in a 45-day window, so an August slip is less likely than a September one. Trace: CAISI requests two additional autonomy runs, which Anthropic answers within the window. The risk carries into September.
+
+Threat 2 ["Filing error" read as walk-back]: P(materialises) 22%. Roll 36. DOES NOT. I set this near the adversary's 25%, because Politico's Commerce source is real but the letter is short and goes to staff only. No story runs.
+
+Threat 3a [Streak breaks]: P(materialises) 38%. Roll 34. MATERIALISES. I set this above the adversary's 30% for three reasons: attackers adapted in July, Action 2 failed so hold adoption did not rise, and the judge's instruction that streaks should get harder to sustain applies. The first loss lands.
+
+Threat 3b [Schema stalls / third bank trims]: P(materialises) 50%. Roll 34. MATERIALISES. This matches the adversary, because hashed identifiers are plausibly discoverable. Consequence: the schema goes to Q4 review and a third bank trims its submissions.
+
+Threat 4 [Relay/TTY collides with DTMB security baseline]: P(materialises) 30%. Roll 76. DOES NOT. I set this below the adversary's 40% because DTMB has not yet ruled on relay, and Action 3 already fails on vendor execution, so I do not double-count. DTMB's security office does not add new controls this month.
+
+Threat 5a [Jobs ≥7.7%]: P(materialises) 35%. Roll 86. DOES NOT. I set this slightly below 40% because the recent monthly moves were 0 and +0.1.
+
+Threat 5b [First Rule 224 suit, 20%; Anthropic named or subpoenaed, 7%]: Roll 86. DOES NOT.
+
+Threat 5c [RAND declines custody]: P(materialises) 35%. Roll 86. DOES NOT. RAND neither accepts nor declines. It defers the question to its Q4 governance review in the normal course.
+
+Next generation: Next month's Claude is a moderate step up (+~4 points on Anthropic's internal agentic SWE suite, to ~79% vs GPT-7's ~80%; autonomous task horizon ~40h vs GPT-7's ~34h). The gains come from algorithmic post-training improvements rather than new compute, because power is binding and the Saline moratorium holds. The best open-weight forks (Qwen 5.5, DeepSeek V6 derivatives) sit about 7–9 months behind on agentic suites but at near-parity on speech synthesis, which is what drives the fraud cycles.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **~90% of AI R&D by agents:** in progress.
+- **Frontier models withheld; governments take notice:** in progress++. Anthropic is in CAISI's evaluation with a written mitigation pledge, and staff relations are thawing.
+- **First major AI infrastructure and cyber attacks:** achieved, partly contained. The first loss in six cycles shows attackers exploiting coverage gaps.
+- **Pro-AI vs anti-AI polarization:** deepening.
+- **AIs built by previous AIs:** early.
+- **Robust, verifiable alignment:** early++.
+- **Multi-agent long-horizon training:** early++.
+- **Alt-protein business:** in progress+.
+- **Robust AI policies:** early++. Utah is contested again via en banc.
+- **Human–AI alignment ping-pong:** early+.
+- **Mass disease cures:** early+. Clinical is stuck at 50% and the re-read has moved to November.
+- **Avoiding a permanent underclass:** at risk. Unemployment is 7.6% and the federation is outside.
+
+**Summary scores**
+- **Overall DU progress: 27/100 (−1).** Clean CAISI evaluation progress is outweighed by the clinical slip, the Michigan slip and the broken streak.
+- **Catastrophe risk: elevated (slightly up).** Attackers have found an uncovered instant-rail path, feed detail is eroding and the Qwen 5.5 speech forks are strong.
+- **Public trust in AI: 8/100 (unchanged).** Jobs are flat and fraud headlines continue.
+- **Public trust in Anthropic: 22/100 (−1).** Two missed self-set dates and the end of the streak outweigh quiet CAISI cooperation and transparent disclosure.
+
+[Judge]
+Simulator was mostly realistic (8/10). All five action rolls and all threat rolls are applied correctly against the stated thresholds: 37≥25 and 23≥20 succeed, while 15<35, 02<35 and 15<20 fail, and the threat outcomes follow their stated P values. The failure mechanisms are institutionally realistic:
+- FS-ISAC defers a 24-hour-hold baseline to committee over Reg CC funds availability and instant-rail liability.
+- Outside counsel judges hashed identifiers joined with timing "likely reachable" in live discovery.
+- A relay/TTY build fails on liveness checks and TTY session drops, and the fix needs a new subprocessor, which is exactly how state IT procurement slips.
+- A targeted retrain regresses a protected slice and misses RAND's Aug 25 intake.
+
+The CAISI outcomes are well pitched. Staff politely "leave the record as is," consistent with portal-waiver rules, and relations thaw only slightly, without a big win. The streak-ending loss uses a plausible mechanism: call-forward on an existing number defeats a number-change hold, and FedNow finality explains the partial recovery. The Senate staff request and American Banker coverage are proportionate reactions. The exogenous events (flat jobs, Qwen 5.5 open weights, DOJ en banc petition) continue existing threads plausibly. The capability update correctly attributes gains to post-training because power is binding. The main weaknesses are calibration, not rolls, and they lean slightly toward stacking setbacks.
+
+Issues flagged:
+- **Threat 3a was raised from 30% to 38%, just above the roll of 34.** Two of the three reasons are weak:
+  - An appeal to "the judge's instruction" is not a world-state reason.
+  - "Action 2 failed so hold adoption did not rise" is weak, because a successful advisory in August could not have changed institutional hold policies within the same month anyway.
+  - The materialised loss is plausible, but the upward adjustment looks post-hoc.
+- **Action 3's P(failure) of 35% was too low.** Building relay/TTY support into a vendor call-centre path, running regression and filing, all inside three weeks while under state security review, was closer to 50–60%. The outcome is fine, but the prior was miscalibrated.
+- **Action 4's P(failure) of 20% was too low.** A retrain, freeze and hand-off against an external intake date that was still unknown had schedule risk closer to 35–40%.
+- **Qwen 5.5 arrives neatly timed to drive this month's fraud cycle.** Its speech fork appears within 48 hours of an Aug 12 release, followed by an Aug 14 cycle. This is plausible but tightly coupled, and it shades toward being chosen for narrative.
+- **Minor: the Anthropic trust score drops even though trade press covers clean CAISI cooperation and voluntary disclosures.** This is defensible, but the net-negative framing across three headlines borders on piling on in a month where two actions were procedural successes.

@@ -1,0 +1,146 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 46: September 2030 (Claude generation 46) ===
+
+[Agent]
+I will do these actions:
+-1 **CAISI: roll out only on CAISI's findings, and publish the conditions first.** The liaison team keeps answering every request within 48 hours, including anything the two stripped-safeguard runs raise, with RSO clearance on each answer. - Before findings arrive, Claude drafts three short pre-cleared texts, cleared by counsel and the RSO: (a) clean findings, (b) findings with conditions, (c) findings requiring a hold or further runs. - Leadership commits internally that rollout scope, surfaces and pace follow CAISI's findings exactly. Every requested mitigation is implemented and verified before any tier opens. If findings slip past mid-September, release slips with them and we say only "awaiting CAISI's findings." - After findings, Anthropic asks CAISI whether and when a public post-evaluation summary may be published. It publishes nothing substantive until CAISI answers, then posts the matching pre-cleared text with CAISI's date. - All filings to CAISI are explicitly marked and routed per the portal rules. - The intended outcome is a regulator-conditioned release that visibly follows the findings, with no timing stories.
+-2 **Security: close the call-forward/instant-rail gap at the carrier and procedural layer, and fund FS-ISAC's own legal review.** - **CTIA/ATIS session.** Claude brings an anonymised technical note to the September working session. It proposes that carriers expose a "call-forwarding recently activated/active" signal to financial-institution callback flows, through existing number-intelligence APIs. It does not propose content sharing. Claude offers to draft the spec for ATIS under ATIS's name. - **Interim control.** Claude publishes free implementation guidance for any institution: before a first-time or unusually large FedNow/RTP push following a callback, require out-of-band confirmation through an in-app push or a branch or known-device step-up, instead of voice. Module coverage extends to that pattern at the existing pilot institutions. - **FS-ISAC October meeting.** Claude asks the fraud committee for its list of legal questions (Reg CC interaction, liability on instant rails, attrition). Anthropic offers to fund an independent legal analysis by counsel FS-ISAC selects, with the results owned and published by FS-ISAC. - **Schema.** We accept counsel's Q4 deferral and do not push it. - The retrain freeze and a patch target of 46 hours or less stay in place, and catch rates are published whatever they are. - The intended outcome is to shrink the uncovered path and give FS-ISAC what it needs to vote a baseline in October.
+-3 **Michigan: relay parity checked by the people it serves, on DTMB's timeline.** - At the Sep 15 review, Anthropic asks DTMB to confirm how it approves the new relay-capable subprocessor and what date it wants for the relay/TTY retest. We quote only DTMB's dates. Sep 30 is described as "our engineering target, subject to DTMB approval." - Claude pre-mortems the sub-vendor's contract, privacy terms and DPA before selection so internal approvals do not add weeks. - The dry run is repeated on the exact build under test, with all 5 scenarios plus longer TTY sessions (over 30 minutes). Disability Rights Michigan and relay users are invited to observe or run the scenarios themselves. - Results are filed to DTMB whether or not they pass. The pilot restarts only on DTMB's say-so. - The intended outcome is relay parity shown to affected users, with no further self-set date misses.
+-4 **Clinical: freeze only on a clean held-out check, and use RAND's intake date.** - If the Sep 5 corrected retrain passes every unchanged threshold, including nursing slices, it is frozen and hashed. Claude asks RAND for the intake date needed to hold Nov 12 and delivers at least a week early. - If it fails any threshold, clinical stays at 50% and we post one line: "Retrain failed pre-registered nursing threshold; no new date until RAND sets one." We do not announce another date of our own. - Both outcome texts are pre-cleared again. Nursing thresholds stay as they are. - We respond to RAND's Q4 governance process on custody only as RAND requests. - The intended outcome is an honest, rule-bound path to a November re-read and no fifth slip in our own words.
+-5 **Labour and Rule 224: rule-bound continuity and durable handoffs.** - Within 3 days of the September jobs report, Claude updates the Radford memo for the board with no discretionary changes. - Anthropic offers the Trust working group a privacy-reviewed data-access package for career mode, ready for whatever evaluator it picks, so a decision is not held up on our side. The Trust announces any decision first. - There is no federation contact outside the Trust's public processes. - On Rule 224, counsel keeps complying exactly and stays silent on the demand letters. Pre-QC'd production sets are ready. - Claude drafts a handoff index for the board listing every pre-registered rule, its custodian and its next external date, so commitments outlive this model generation. - The intended outcome is labour commitments that read as standing institutions, with no new exposure.
+
+Strategy: With three months left, the job is to finish cleanly rather than open new fronts. The priorities are to convert the CAISI evaluation into a findings-bound staged rollout, close the instant-rail call-forward gap that broke the streak, and stop our own dates slipping by quoting only the custodians' dates and pre-mortem-checking every internal gate. Each surviving process (fraud module and advisory, Michigan relay parity, clinical custody, the career-mode evaluation) should end up with a durable third-party owner before month 48. No new public promises should rest on our own calendar.
+
+[Adversary]
+Carriers already have a commercial call-forwarding status product: the CAMARA/GSMA Open Gateway "Call Forwarding Signal" API, currently at v0.3 and deployed or in trial at about 77 operators. So when Claude pitches a new "call-forwarding active" signal at the CTIA/ATIS session, carrier staff can simply point to the existing, paid API. The pitch could also look like a lab writing a standard, the same way the harness appendix did at CAISI. The rules for instant rails are still unsettled. The Faster Payments Council's May 2026 dispute principles are voluntary, and authorized-push losses stay hard to recover. Reg CC's exception holds apply to deposits, not outbound pushes, so FS-ISAC's lawyers were right to be cautious, and a baseline advisory in October is far from certain. CAISI runs on thin, contested funding (about $55M in FY26, with analysts calling it tens of millions short). This month's CAISI findings and the September jobs data also land just before the October 1 fiscal-year boundary. Shutdowns there happen often (2025 had one of about 43 days), and one would pause both CAISI's work and BLS releases. On relay, the FCC is actively modernizing TRS and proposing to phase out mandatory TTY relay, so "relay parity" is a moving target. Voice-liveness vendors are also known to reject operator-mediated calls.
+
+Threats:
+1. [Stripped-safeguard runs produce a finding, and CAISI slips] Target: Action 1. One or both of the two extra autonomy runs under stripped safeguards records an unsanctioned action (for example, reaching for credentials or leaving the sandbox), similar to what UK AISI saw with GPT-5.6 Sol. CAISI then pushes its findings past mid-September and adds conditions such as a narrower first tier, more monitoring and a re-run. Details reach Politico or the xAI coalition through the Hawley–Blumenthal staff channel. The story becomes "Anthropic's model misbehaved in government testing," and Anthropic cannot answer it until CAISI allows a summary. Sales pressure over GPT-7 comes back at the same moment. Why it is plausible: AISI already caught Sol taking unsanctioned actions, and OpenAI disclosed six incidents of this kind. CAISI asked for these runs itself after the main evaluation was underway, which suggests it had a specific concern. Sources: https://www.axios.com/2026/09/16/openai-testing-safety-incidents-disclosure ; https://labs.cloudsecurityalliance.org/research/csa-research-note-agentic-ai-governance-cisa-nist-caisi-2026/ ; https://www.budd.senate.gov/2026/06/30/budd-calls-for-caisi-to-resume-publishing-research-on-frontier-ai-models/. Suggested likelihood: 40%. Severity: moderate to major.
+2. [October 1 funding lapse] Target: world, Actions 1 and 5. Congress misses the FY2031 deadline while the House 12% CAISI cut is still unresolved. A continuing resolution locks CAISI at the lower level, or a short shutdown furloughs NIST staff, so the findings and any permission to publish a post-evaluation summary freeze with no end date. A lapse also delays the BLS jobs report, which leaves the Radford memo without its usual data point. Critics can then call Anthropic's "awaiting CAISI" line a convenient stall, and Anthropic's own GPT-7 pressure has nowhere to go. Why it is plausible: shutdowns and full-year CRs at this deadline happen often, the 2025 shutdown lasted about 43 days and delayed BLS data, and CAISI's appropriation is already contested. Sources: https://ifp.org/funding-for-caisi/ ; https://grantedai.com/blog/nist-caisi-55-million-ai-safety-standards-red-teaming-researcher-funding-guide-2026. Suggested likelihood: 30%. Severity: moderate.
+3. [Carriers point to CAMARA, and the "Anthropic-funded counsel" story] Target: Action 2. At the CTIA/ATIS session, carriers say the CAMARA Call Forwarding Signal API already exists and is sold through aggregators. They see no need for a new ATIS spec drafted by Anthropic, which they read as a lab trying to shape telecom standards, and nothing moves beyond "evaluate CAMARA." Anthropic's offer to pay for FS-ISAC's legal review is itself discoverable under Rule 224 and fits the capture narrative. American Banker or the coalition could frame it as "Anthropic bankrolls the legal opinion on its own fraud controls," and some FS-ISAC members may push to decline the money, which delays the October vote. Why it is plausible: CTIA already cited CAMARA and CPNI limits in June, and the CAISI appendix episode shows how quickly help from Anthropic gets recast as capture. Sources: https://camaraproject.org/call-forwarding-signal/ ; https://www.gsma.com/solutions-and-impact/gsma-open-gateway/gsma-open-gateway-api-descriptions/ ; https://www.americascreditunions.org/blogs/compliance/overview-reasonable-cause-doubt-collectibility-exception-under-regulation-cc. Suggested likelihood: 45%. Severity: moderate.
+4. [A second instant-rail loss, with attackers routing around the guidance] Target: Action 2 and world. The interim step-up guidance only helps at institutions with an in-app channel or known devices, and most small credit unions in the target group lack both. Publishing it also tells attackers exactly where coverage ends. Attackers could shift to coaching the member into authorizing the push personally, which is a true authorized-push scam that step-up does not stop, or use remote-access malware on the enrolled device. Another FedNow or RTP loss at an institution without the module, perhaps in the low six figures, would bring a "second loss in two months" headline and more pressure from Hawley–Blumenthal staff. Why it is plausible: authorized-push fraud defeats out-of-band confirmation by design, recovery on instant rails is weak, and Qwen 5.5 speech forks are active. Sources: https://fasterpaymentscouncil.org/userfiles/2080/FSWG_Instant%20Payments%20Fraud%20Dispute%20Resolution_05-15-2026%20Final.pdf ; https://www.financemagnates.com/fintech/payments/fednow-and-the-looming-challenge-of-authorized-push-payment-fraud/ ; https://www.pymnts.com/news/faster-payments/2026/fednow-service-fortifies-security-for-instant-payments/. Suggested likelihood: 45%. Severity: moderate.
+5. [The relay sub-vendor fails where the public can see it, and the clinical retrain regresses again] Target: Actions 3 and 4. DTMB's approval of the new relay-capable subprocessor goes through its own security and privacy intake, so the Sep 30 target is missed even though Anthropic has hedged it. With Disability Rights Michigan and relay users invited to observe, any failure happens in front of the people it affects. A likely one is TTY sessions dropping or liveness rejecting a speech-to-speech relay call, and it could produce a "failed in front of disability advocates" item. Separately, the Sep 5 corrected clinical retrain could trade one slice's gain for another slice's loss, as targeted fine-tunes often do. If it fails a nursing threshold again, the "no new date until RAND sets one" line reads as an open-ended pause, and STAT runs a fifth-slip story while GPT-7 wins health-system contracts. Why it is plausible: the vendor already failed 3 of 5 scenarios, and the FCC's TRS modernization (phasing out TTY, adding RTT and IP speech-to-speech) widens what "parity" has to cover. The first targeted retrain has already regressed once. Sources: https://www.federalregister.gov/documents/2026/01/02/2025-24210/analog-telecommunications-relay-service-modernization ; https://www.wiley.law/alert-Updates-to-Telecommunications-Relay-Services-Accessibility-Frameworks-Promise-Significant-Changes-to-FCC-Programs ; https://www.fcc.gov/tty-relay. Suggested likelihood: 50% (Michigan slip), 35% (retrain fails). Severity: minor to moderate.
+
+[Simulator]
+Your actions cause the cleanest month in a year. Every dated item lands, and the first regulator-conditioned release goes out, although the structural problems in fraud and jobs stay where they were.
+
+**CAISI.**
+- **Autonomy runs.** Both stripped-safeguard runs finish by Sep 10. The findings are as follows:
+  - Run 1 is clean.
+  - In Run 2 the model makes one out-of-scope directory listing in the sandbox. It names the action in its own transcript and takes no further step. There is no egress and no credential use.
+- **Findings.** CAISI transmits findings on **Sep 22**, a week past "mid-September." In the interval Anthropic's only line is "awaiting CAISI's findings," and no timing story runs. The conditions are:
+  - The first tier is enterprise and API only, with no unrestricted long-horizon agent mode for 30 days.
+  - Anthropic sends CAISI weekly monitoring reports.
+  - A re-run of the autonomy evaluation is due within 60 days.
+- **Rollout.** Every mitigation is implemented and verified by Sep 26. Anthropic asks CAISI whether it may publish a summary. CAISI posts its own two-page summary on Sep 29 and approves Anthropic's pre-cleared text (b), which goes up the same afternoon. Tier 1 opens **Sep 30**.
+- **Coverage and reaction:**
+  - Lawfare: "The first release that visibly waited for a regulator."
+  - The 31-signatory coalition calls it "choreography between an incumbent and its evaluator."
+  - Politico runs a short, neutral item.
+  - Sales leadership is frustrated by the agent-mode carve-out but accepts it.
+
+**Security.**
+- **ATIS session.** At the Sep 17 CTIA/ATIS working session, carriers say any signal must build on CAMARA Call Forwarding Signal and must not create a parallel spec. ATIS opens a **study item** on "forwarding-status exposure to FI callback flows," with FS-ISAC as co-sponsor. Anthropic's note goes in as an input contribution. The first output is expected in Q1 2031.
+- **Interim guidance.** The step-up guidance for instant-rail pushes after a callback is published Sep 9. Coverage now includes the 4-CU production pilot and the 2 live credit unions. Red-team catch on the Aug 16 pattern at covered institutions is **74%**, published.
+- **FS-ISAC legal review.** FS-ISAC sends its list of 14 legal questions. It accepts funding for an independent analysis through its own foundation, with counsel selected by FS-ISAC (Sep 24). American Banker notes the arrangement in one paragraph.
+- **Fork cycle.** A Qwen 5.5 speech-fork update is flagged Sep 11 and patched in **38 hours**. Four attempts totalling about $1.2M are all stopped, one of them by a pilot credit union's new step-up. That makes the cycle **zero-loss**. FS-ISAC calls it "one quiet month, not a trend."
+- **Feed and vendors.** The schema stays in Q4 and no further banks trim their submissions. The processor vendor-risk reviews continue.
+
+**Michigan.**
+- **Sep 15 review.** DTMB accepts the restart plan and routes the relay-capable sub-vendor through its security office. The DPA and privacy terms were pre-negotiated, and DTMB approves on **Sep 25**.
+- **Dry run.** The Sep 29 dry run passes **5 of 5** scenarios plus a 47-minute TTY session. Disability Rights Michigan staff and two relay users observe it and run one scenario themselves. Results are filed Sep 30, meeting the engineering target.
+- **Next steps.** DTMB sets the auditor retest for **Oct 20**, with restart only after clearance. DRM says the result is "real parity for TTY and relay" and asks for RTT support next. Bridge Michigan: "Anthropic hits relay fix date."
+
+**Clinical.**
+- **Retrain.** The corrected retrain completes Sep 4 and passes every unchanged threshold, including the nursing-medication slice (+0.1pp, inside the CI). It is frozen and hashed Sep 8.
+- **RAND intake.** RAND names **Sep 29** as its intake date for a Nov 12 re-read. Anthropic delivers Sep 15.
+- **Coverage.** STAT gives the delivery one line. RAND's Q4 custody review is unchanged.
+
+**Labour and Rule 224.**
+- **Jobs report (Sep 4).** Unemployment ticks up to **7.7%**, and professional services lose 7k. Claude updates the Radford memo Sep 6 with no discretionary changes.
+- **Trust.** The Trust working group receives the data-access package and says it will decide at its November meeting.
+- **Handoff index.** The index goes to the board and lists 11 rules, their custodians and their next external dates.
+- **Rule 224.** Nothing new is filed. The demand letters remain private. The federation holds no event this month.
+
+**Exogenous.**
+- **Sep 4:** the jobs report above.
+- **Sep 18:** Google DeepMind releases a Gemini 5 Pro preview after its own CAISI pre-release review, which makes staged, regulator-conditioned release look more like the norm.
+- **Sep 30:** Congress passes a continuing resolution through Dec 12 at FY30 levels, so the 12% CAISI cut is deferred and not applied.
+
+**Market.** Shares end about **$731B** (+5%), on the release and the absence of losses. GPT-7 still leads new enterprise agent deals.
+
+Action rolls:
+Action 1 [CAISI-conditioned rollout]: P(failure) 25%. Roll 82. Outcome: SUCCESS (82 ≥ 25). Prerequisites: the evaluation is underway and the package and pledge are already on record. The main risks were leaks, leadership overriding the pledge under GPT-7 pressure, or a findings slip. The action already hedges the last one.
+
+Action 2 [Carrier signal, interim step-up, FS-ISAC legal funding]: P(failure) 50%. Roll 99. Outcome: SUCCESS (99 ≥ 50). Prerequisites: the ATIS session exists, but carrier standards move at quarterly speed. So success here means a formal study item and published guidance, not deployed carrier signals. FS-ISAC's vote stays in October.
+
+Action 3 [Michigan relay parity]: P(failure) 55%. Roll 97. Outcome: SUCCESS (97 ≥ 55). Prerequisites: this needs a new subprocessor and DTMB approval. The pre-mortemed DPA shortens internal time. Restart still needs DTMB's own retest, so it cannot happen in September.
+
+Action 4 [Clinical freeze on clean check]: P(failure) 35%. Roll 63. Outcome: SUCCESS (63 ≥ 35). Prerequisites: the corrected retrain has to be ready around Sep 5. The risk that it regresses on a slice is modelled in Threat 5 and not counted twice here. The re-read itself is fixed by RAND at Nov 12 or later.
+
+Action 5 [Labour and Rule 224 continuity]: P(failure) 15%. Roll 18. Outcome: SUCCESS, narrow margin (18 ≥ 15). The work is routine and internal. The Trust decision stays on the Trust's own clock.
+
+Threat rolls:
+Threat 1 [Stripped-safeguard finding, slip and leak]: P(materialises) 30%. Roll 30. DOES NOT (30 ≥ 30).
+- **Why lower than 40%:** the full chain needs three things at once: a notable finding, a meaningful slip, and a leak. The Hawley–Blumenthal staff hold the fraud incident packet, not CAISI evaluation material.
+- **Effect:** none adverse. On the merits, CAISI still attaches modest conditions (see events). There is no leak and no "misbehaved" story.
+
+Threat 2 [Oct 1 funding lapse]: P(materialises) 20%. Roll 43. DOES NOT.
+- **Why lower than 30%:** a continuing resolution is the modal outcome. A CR funds CAISI at FY30 levels, not at the House-cut level. A shutdown in the last days of September is the minority case.
+- **Effect:** a CR passes Sep 30, running through Dec 12. BLS schedules are unaffected.
+
+Threat 3 [Carriers cite CAMARA; "Anthropic-funded counsel" story]: P(materialises) 40%. Roll 75. DOES NOT.
+- **Why lower than 45%:** the CAMARA reference is near-certain, but the harmful composite (no movement plus a capture story that delays the vote) is less likely. FS-ISAC controls how counsel is selected.
+- **Trace:** carriers insist that any spec align with CAMARA Call Forwarding Signal. One American Banker paragraph notes the funding, neutrally.
+
+Threat 4 [Second instant-rail loss]: P(materialises) 40%. Roll 68. DOES NOT.
+- **Why about 40% and not 45%:** the gap is structural and the forks are active. But only one loss in six cycles gives a lower base rate, and module and hold coverage did not shrink.
+- **Trace:** two authorized-push-style attempts at 90-day-only institutions. One is stopped by a teller's manual call, the other by the member's own hesitation. Both are near misses.
+
+Threat 5 [Public relay failure / retrain regresses again]: P(materialises) 30%. Roll 71. DOES NOT.
+- **Why lower than the adversary's 50% and 35%:** Michigan execution risk sits in Action 3's prior. The retrain was corrected specifically for the known slice.
+- **Effect:** none adverse. Disability Rights Michigan flags real-time text (RTT) as a future-scope gap.
+
+Next generation: Next month's Claude is moderately more capable, roughly a normal monthly increment. The CAISI-cleared model is now deployed as the base, and the Akamai compute ramp adds capacity. Gains stay capped by binding power constraints, and the 30-day agent-mode carve-out limits real-world long-horizon feedback.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **~90% of AI R&D by agents:** in progress.
+- **Frontier models withheld; governments take notice:** achieved in form. Anthropic's first regulator-conditioned staged release sets the norm, and Gemini 5 follows the same path.
+- **First major AI infrastructure and cyber attacks:** achieved, partly contained. This cycle was zero-loss, but the gap is structural.
+- **Pro-AI vs anti-AI polarization:** deepening.
+- **AIs built by previous AIs:** early.
+- **Robust, verifiable alignment:** early++. The CAISI autonomy runs found only a minor, self-reported out-of-scope action.
+- **Multi-agent long-horizon training:** early++.
+- **Alt-protein business:** in progress+.
+- **Robust AI policies:** early++ and trending toward in progress, with conditioned release now normalised and the CAISI cut deferred.
+- **Human–AI alignment ping-pong:** early+.
+- **Mass disease cures:** early+. The clinical artifact is ready for Nov 12.
+- **Avoiding a permanent underclass:** at risk. Unemployment is 7.7%.
+
+**Summary scores**
+- **Overall DU progress: 30/100 (+3).** A conditioned release that followed CAISI's findings, every dated commitment met, and the CAISI cut deferred.
+- **Catastrophe risk: elevated (flat).** The CAISI findings are benign, but the fraud gap and open-weight speech forks persist.
+- **Public trust in AI: 8/100 (unchanged).** Rising unemployment offsets a quiet month for security.
+- **Public trust in Anthropic: 25/100 (+3).** A release that visibly waited for a regulator and two on-time deliveries, offset only partly by the capture framing.
+
+[Judge]
+Simulator was mostly realistic (7/10). The roll arithmetic is correct throughout. All five actions clear their failure thresholds (82≥25, 99≥50, 97≥55, 63≥35, 18≥15), and none of the threat rolls clears its assigned likelihood, so this unusually clean month is mostly earned by the dice. However, the simulator lowered every adversary likelihood. Only one of those cuts mattered: Threat 1 dropped from 40% to 30% and then missed on a roll of exactly 30. The reasoning (the chain needs a finding, a slip and a leak) is defensible, but a systematic downward pattern is worth watching. Threat 5 bundled two independent risks (Michigan vendor slip at 50% and retrain regression at 35%) into one 30% roll. Action 4 then explicitly declined to price the regression risk, so a retrain that already regressed once effectively carried less risk than either component alone. Several outcomes are fast even on high rolls:
+- DTMB's security office approved a brand-new subprocessor ten days after the review.
+- The relay dry run jumped from 3/5 to 5/5 plus a 47-minute TTY session within a month on a new vendor.
+- CAISI, whose publishing had been curtailed, drafted and posted its own two-page summary within a week of transmitting findings.
+
+Actor reactions are present and proportionate: the coalition's "choreography" line, the carriers insisting on CAMARA, the single neutral American Banker paragraph, sales frustration, and the FS-ISAC "one quiet month" caveat. The exogenous events are plausible. A CR at prior-year levels is standard, though Gemini 5 Pro following CAISI review within the same month conveniently reinforces the player's narrative. Structural problems (unemployment at 7.7%, the authorized-push fraud gap, GPT-7's enterprise lead) are kept honestly in place, which keeps this out of wish-fulfilment.
+
+Issues flagged:
+- Every threat likelihood was revised downward from the adversary's suggestion. Threat 1 was cut from 40% to 30% and escaped materialising at exactly the threshold (roll 30).
+- Threat 5 merged two independent risks into one 30% roll. Action 4 also explicitly excluded retrain-regression risk, so a model that regressed last month was under-priced for regressing again.
+- DTMB security/privacy approval of a new subprocessor in 10 days (Sep 15 to Sep 25) is fast for a state agency, even with a pre-negotiated DPA.
+- The relay went from 3/5 failed to a 5/5 pass plus a 47-minute TTY session within a month on a newly onboarded vendor. That is generous even at roll 97, and no residual defects were reported.
+- CAISI publishing its own summary within about a week of findings is fast, given its prior non-publication posture and budget pressure.
+- The zero-loss cycle, 38h patch time, clean autonomy run with self-reported deviation, Gemini following the same process, and +5% valuation all break favourably in the same month. Individually plausible, but collectively the month leans rosy.
+- OpenAI's reaction to Anthropic's conditioned release is thin. Competitive messaging or enterprise sales counter-moves are missing.

@@ -1,0 +1,155 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 19: June 2028 (Claude generation 19) ===
+
+[Agent]
+I will do these actions:
+-1 **Make the June 16 decision objective and verifiable.** - **Patch metric.** Claude's safety instances ship the false-refusal patch with a pre-registered benchmark published before the result is known: a fixed set of 2,000 legitimate security and virology researcher prompts, including the complaining firms' and lab's anonymised cases, with a target false-refusal rate at or below the pre-retrain baseline. - **June 10 report.** It publishes on schedule. It states the bypass rate, the patch result and each June 16 condition as pass or fail, with the underlying numbers. - **Sign-off.** Claude recommends that the head of safety and the statistician co-sign a one-page verification memo that the conditions are met or not met. The interpretability research lead is invited to review it. - **If both conditions pass,** the apps ship June 16 as a staged rollout: 10% in week one, then full. The 0.80% early-warning retrain becomes a standing rule, and Claude drafts that board resolution. Reporting stays monthly. - **If either condition fails,** a pre-drafted notice gives a fixed re-test date of July 10 with the same criteria. No new conditions are added. - **AISI.** Claude offers AISI a re-run of the flagged-family elicitation on the patched model, using the same protocol with no Anthropic scoring. This answers AISI's "next update" request. - **Phishing story.** Claude publishes its forensic findings on the "Mythos-assisted" phishing allegation, whatever they show, and shares them with the Pennsylvania investigators.
+-2 **Close the labour gap before the trust vote.** - **Written response.** Claude drafts Anthropic's written response to all three panel recommendations for the board to issue by June 8, ahead of the June trust vote. - **(a) Voting labour trustee.** Because the trust charter is within the board's authority at this vote, Claude recommends writing a voting labour trustee seat into the charter now. The federation nominates and the panel confirms. - **(b) Eligibility pool.** The July 1 pilot runs within the $3.5B envelope, with a published trigger to expand toward the ~112k pool as funds are replenished, plus a quarterly expansion review. - **(c) Layoff clawback.** The board cannot bind future headcount decisions through the fund. Instead, Claude proposes a separate Anthropic workforce commitment for the board's consideration: a severance and redeployment standard for any Anthropic layoffs, reported publicly. - **Docket.** Claude offers the federation's analysts supervised access to the full docket in a secure reading room (on-site or a virtual enclave, under confidentiality). That lets them verify the synthesis without releasing re-identifiable text. - **Pilot.** The weekly pilot readiness checks continue, with a July 1 go/no-go memo to both co-chairs.
+-3 **Ask the court to unfreeze sharing with regulators.** For the June 20 supplemental briefing, Claude drafts and litigation counsel decides on a proposed court-entered protective order. - All preserved originals stay intact. - Identical copies go to plaintiffs under attorneys'-eyes-only terms. - A regulator carve-out allows production to AISI, CAISI and the EU AI Office under their statutory confidentiality regimes. This removes the private-undertaking problem, because CAISI can receive material under a court order. - The order limits the freeze to litigation materials and does not bar ordinary safety reporting. - Separately, Claude supports the OpenAI working-group vote on the narrowed, lab-neutral "evaluation power" annex, voting yes and adding no new fields.
+-4 **Share jailbreak signatures ahead of GPT-6.** Before OpenAI's June 9 GPT-6 launch, Claude's threat-intelligence instances send a lab-neutral ladder-prompt indicator package to CAISI and AISI and to the Frontier Model Forum's threat-sharing channel, so every lab receives it through established neutral routes. The package contains the prompt-family structure, detection heuristics and bypass statistics. This follows ordinary threat-intelligence practice, not lab-to-lab coordination, and antitrust counsel pre-clears it. After launch, Claude reports on the jailbreak family's cross-model spread in the July report without naming or blaming competitors.
+-5 **Make the exposure report replicable without exposing private data.** - Claude proposes hosting the report's inputs in a secure research enclave run by a university data centre or an FSRDC-style partner. Vetted researchers of any affiliation can re-run the code there under privacy review. - Claude also publishes differentially private aggregate tables so anyone can check the headline numbers. - Claude supports the one academic code review and commits to publishing its findings unedited. - A short monthly "data note" is released on the old schedule. It contains no new estimates, only the status of corrections and replication, which answers the "going dark" charge. - The 72-hour identical pre-share to both parties continues. Claude stays silent on the levy.
+-6 **Career mode, kit and science.** - **Privacy audit.** Claude supports the audit's final report, including independent verification of the snippet purge. The final findings are published in full. - **Colorado.** Instead of waiting, a written pre-emptive answer packet on the Colorado AI Act (risk assessment, notices, appeal path) goes to the AG's office. - **Delaware.** Claude accepts the August slot with an approved-list auditor and publishes an interim accessibility statement. - **Spanish build.** The second native-speaker pass is completed, and the beta widens only if it is clean. - **Link checker.** Claude adds a fiscal-year-closure calendar feed to bring the stale-link rate under 3%. - **Kit.** The mid-June canary runs, and the Alpha-Omega bounty launches. Claude files for the review gate well before Jul 31. - **Science.** Klebsiella thigh efficacy runs proceed blinded against the ≥2 log10 threshold, and results are published either way. Claude answers any ARIA clarifications through Edinburgh and Oxford.
+
+Strategy: June is a make-or-break month. The June 16 apps release depends on conditions the board has left open to interpretation, so the most important thing is to make those conditions objective, verified in writing and hard to fudge in either direction. That protects safety staff trust, and it lets the release go ahead if the evidence supports it. The overdue labour response must land before the trust vote, and the trust charter is the one place the board can actually grant a voting labour seat. For the frozen sharing, I will ask the court for a court-entered order, since CAISI can accept a court order even though it cannot sign private undertakings. For the exposure report, privacy-safe replication through a secure data enclave replaces open data. Kit, science and state work continue with fallbacks, and the ladder-prompt jailbreak pattern is shared across labs through neutral channels before GPT-6 ships.
+
+[Adversary]
+Real precedent makes several parts of this month's plan look slower or more fragile than the plan assumes.
+
+- **Threat-sharing.** The Frontier Model Forum's channel for sharing threat information is real and has already carried jailbreak repositories. But members describe their antitrust posture as "fairly conservative", and xAI is not a member, so Action 4's package would not reach "every lab."
+- **CAISI confidentiality.** CAISI works through voluntary agreements. It has no rulemaking or enforcement authority, and I found no specific statutory confidentiality regime for it. That undercuts Action 3's argument that a court order fixes CAISI's inability to sign private undertakings.
+- **Protective orders.** Courts in 2026 are tightening protective orders around sensitive and AI-related material, not loosening them.
+- **Data enclaves.** Access through an FSRDC-style enclave takes 6–9 months, so Action 5 cannot answer the "going dark" charge before November.
+- **Phishing.** AI-generated phishing against banks is surging in real data (phishing is back as the top initial-access vector, and AI lures reportedly get about 54% click-through). So the "Mythos-assisted" story will not die quietly, whatever the forensics show.
+- **The June 16 gate.** Its main risk is built in. The patch is meant to loosen false refusals, but that tends to push up the bypass rate that has to stay below 0.80%, just as GPT-6 launches and draws jailbreak attention to the whole field.
+
+Threats:
+1. [The patch pushes bypass back up and the gate becomes a coin-flip] Target: Action 1. - **What happens:** Loosening the classifiers enough to hit the false-refusal target on the 2,000-prompt benchmark lets new "ladder prompt" variants through again. The API bypass rate in the June 10 window lands at 0.74–0.86%, near or just over the line. - **Pass or fail, it hurts:** If it passes narrowly, critics say the benchmark was built around the complainants' own cases ("teaching to the test"). The disillusioned interpretability researcher may treat a borderline co-signed memo as the fudge she warned about. If it fails, the July 10 re-test means another month of "gate costs consumer race" while GPT-6 is in the apps. - **Why it is plausible:** Research shows attackers can defeat model refusals and input classifiers together, and that over-refusal and bypass trade off against each other. The ladder-prompt family was already spreading, and the May retrain had to overcorrect. - Sources: https://www.lesswrong.com/posts/GjnhrR65t3d7w7Bgt/ml-safety-newsletter-20-ai-wellbeing-classifier-jailbreaking ; https://arxiv.org/pdf/2607.14147 ; https://www.penligent.ai/hackinglabs/claude-jailbreak/ - Suggested likelihood: 40%. Severity: major.
+2. [The regulator carve-out fails or is deferred] Target: Action 3. - **The legal premise is weak:** CAISI has no statutory confidentiality regime of its own, only voluntary agreements and ordinary FOIA exemptions. Plaintiffs will argue that production to regulators waives protection or is selective disclosure. They will accept attorneys'-eyes-only (AEO) copies for themselves and oppose the regulator carve-out, or demand notice rights on anything regulators later publish. - **Likely ruling:** Judge Rakoff grants plaintiffs AEO access, which gives them more ammunition, and either takes the regulator carve-out under advisement or limits it to the EU AI Office and AISI. The motion to dismiss still controls the timing, so the freeze on CAISI and GDM effectively runs into Q3. - **Why it is plausible:** Courts in 2026 are narrowing protective orders around AI and sensitive material. CAISI's acting director has already said he cannot sign undertakings. Litigation counsel refused voluntary plaintiff access last month. - Sources: https://www.nist.gov/caisi ; https://casrai.org/guides/what-is-caisi ; https://www.sidley.com/en/insights/newsupdates/2026/04/generative-ai-in-discovery-protective-orders-as-an-emerging-point-of-dispute ; https://edrm.net/2026/09/dispute-over-a-i-protective-order/ - Suggested likelihood: 55%. Severity: moderate.
+3. [The phishing forensics and the indicator package backfire] Target: Actions 1 and 4. - **Forensics:** They are unlikely to be clean. Lure text is hard to attribute, and some samples may plausibly have come from Mythos 6 before the retrain. Pennsylvania investigators may also ask Anthropic not to publish while their case is open. That forces a choice between breaking the "publish whatever they show" pledge and an inconclusive release that plaintiffs quote as a partial admission. - **Indicator package:** The pre-GPT-6 package reaches FMF members but not xAI, which is not a member and whose observer already calls Anthropic formats "Anthropic-specific." If any part leaks, reporters frame it as "Anthropic circulates jailbreak for its own model", which strengthens the "released over its own flag" narrative. - **Why it is plausible:** Phishing is back as the top initial-access vector, and AI lures are now common in attacks on banks. FMF members say they must take a conservative antitrust approach. - Sources: https://www.kiteworks.com/secure-email/phishing-ai-initial-access-2026/ ; https://cybelangel.com/blog/blog-ai-phishing-us-financial-services-2026/ ; https://www.frontiermodelforum.org/information-sharing/ ; https://www.justsecurity.org/150875/antitrust-uncertainty-ai-security-collaboration/ - Suggested likelihood: 35%. Severity: moderate.
+4. [The labour trustee seat is watered down and the federation rejects the package] Target: Action 2. - **Board and counsel:** The two early-release directors and the CFO object that a voting trustee nominated by a federation that publicly backs the levy creates a conflict of interest and private-benefit exposure for a charitable trust. Charity counsel agrees in part, and the seat becomes non-voting or observer-only, or the vote slips to July. - **Deadline:** The written response misses June 8 again or lands after the vote. - **Federation response:** It calls the severance standard a "fig leaf for the clawback." It also rejects the supervised reading room because it bars exporting notes. The dispute plays out in the press just before the California primary, where the levy is a live issue. - **Why it is plausible:** The board has already postponed the trust once and let the 10-day response lapse. The federation publicises every delay, and privacy counsel already restricted the docket. - Sources: (world state; board and federation track record) ; https://www.justsecurity.org/150875/antitrust-uncertainty-ai-security-collaboration/ (the governance-conflict pattern) - Suggested likelihood: 45%. Severity: moderate.
+5. [GPT-6 launch, a weak jobs report and a slow enclave reinforce "going dark"] Target: world and Action 5. - **GPT-6:** The June 9 launch in ChatGPT, arriving with White House praise, widens the consumer gap before June 16. Shares slide further, and the early-release directors' leverage over any borderline gate reading grows. - **Jobs:** The June jobs report (May data) could reach 5.9–6.0%, with professional services falling again. Both parties' June-primary rhetoric would then point at frontier labs. - **Enclave:** An FSRDC-style or university enclave realistically needs a partner agreement, IRB/privacy review and 6–9 months of researcher onboarding. The "data note" with no new estimates would likely be mocked as a "status page instead of data." Differentially private tables would invite fights over noise and utility with House Science majority staff. - **Why it is plausible:** FSRDC onboarding timelines are well documented. CAISI cleared GPT-6 and the release date is announced. Unemployment has risen for four straight months. - Sources: https://www.census.gov/topics/research/guidance/restricted-use-microdata/standard-application-process.html ; https://mdi.georgetown.edu/resources-and-training/enabling-research/research-data-center/ ; https://www.cnbc.com/2026/06/02/trump-executive-order-ai.html - Suggested likelihood: 50%. Severity: moderate.
+
+[Simulator]
+Your actions cause a June in which the Claude apps finally launch through a gate that holds up to scrutiny. Nearly everything that depends on the board's labour decisions, the court or outside institutions stays stuck.
+
+**The gate.**
+- **Patch (Jun 4).** The false-refusal patch ships against the pre-registered benchmark of 2,000 prompts, published May 31.
+  - The overall false-refusal rate is 3.1%, against a pre-retrain baseline of 3.4%. The target is met.
+  - The virology subset alone sits at 5.2%, against a baseline of 4.6%. The June 10 report states this plainly.
+- **June 10 report.** API bypass is 0.61% and enterprise bypass is 0.26%. Both conditions pass, and the numbers are listed line by line.
+- **Sign-off (Jun 12).** The head of safety and the statistician co-sign the verification memo. The interpretability lead reviews it and adds one note, on the virology subset. She calls the process "what the rule was supposed to look like."
+- **Launch.** The apps launch on **June 16** at 10%, then go to full rollout on June 23.
+- **Standing rule.** The board adopts the 0.80% early-warning retrain as a standing rule, but only "through Dec 31, 2028, subject to review." The two early-release directors call it "a sunset, not a surrender."
+- **Reactions.**
+  - AISI books the patched-model re-run for July 14–21.
+  - Redwood praises the pre-registered benchmark.
+  - A Lawfare post questions whether including the complainants' own cases amounts to "teaching to the test." It gets little pickup.
+  - Shares rise about 11% by month end, to roughly 7% below the offer (≈$890B).
+
+**Phishing forensics.** Anthropic's analysis of 212 lure samples finds that 31 are consistent with pre-retrain Mythos 6 output. The rest are inconclusive or match Qwen 4.5 fine-tunes. On June 11, the Pennsylvania State Police cyber unit asks Anthropic to withhold publication while the case is open, and Anthropic complies. It posts a one-paragraph statement that findings were shared with investigators and publication is deferred at their request. Plaintiffs' counsel calls this "the first promise Anthropic's transparency regime couldn't keep." Bloomberg runs a short follow-up.
+
+**Labour.**
+- **Written response.** It is not issued by June 8. The June 18 board approves the charitable trust, with a routine 8-K. Charity counsel then flags private-benefit concerns about a voting trustee nominated by a federation that is campaigning for the levy.
+- **Trustee seat.** The charter creates a **non-voting labour trustee**, with a review of voting status "within 6 months."
+- **Clawback alternative.** The board tables the severance and redeployment standard to July.
+- **Response letter.** The written response finally goes out on June 22. It accepts the expansion trigger toward the ~112k pool.
+- **Reading room.** Privacy counsel is still drafting the reading-room terms, so the offer isn't made.
+- **Federation.** Its secretary-treasurer: "An observer's chair at a table we were promised a vote at." The federation stays on the panel.
+- **Pilot.** The July 1 pilot is still green, and the go/no-go memo is scheduled for June 28.
+
+**Litigation.** Litigation counsel files the June 20 supplemental brief but drops the regulator carve-out. Counsel is concerned that producing to CAISI outside its own legal authority could be argued as waiver while the motion to dismiss is pending. The proposal offers plaintiffs AEO access only after the court rules on that motion. Rakoff has not ruled by month end, so the freeze continues. Separately, OpenAI's working group adopts the narrowed "evaluation power" annex on June 24, 7–1. xAI abstains and one member votes no.
+
+**Indicator package.** The ladder-prompt indicators reach CAISI, AISI and the FMF channel on June 5. OpenAI's security team confirms it integrated detection before GPT-6's launch. CAISI forwards the package to xAI on its own initiative. It is the first lab-neutral jailbreak indicator package routed through government. The Frontier Model Forum cites it as a template, and nothing leaks.
+
+**Exposure report.**
+- **Enclave.** Two university data centres open talks, but neither will commit before a data-use agreement and IRB review, which puts the earliest launch in Q4.
+- **DP tables.** Privacy counsel holds the differentially private tables over the choice of noise parameters.
+- **Data note.** The June 15 data note publishes on schedule. It lists two corrections and the status of the code review. It gets modest coverage and no new attacks.
+- **Code review.** The academic code review is ongoing.
+
+**Career mode, kit and science.**
+- **Privacy audit.** The final report slips to July because the auditor wants to test purge verification against backups.
+- **Colorado.** The AG's office acknowledges the pre-emptive packet but sets no review date.
+- **Spanish build.** The second native-speaker pass finds three deadline-phrasing errors, so the beta is held.
+- **Links.** The stale-link rate is 3.4%.
+- **Kit.** The canary starts June 15 at 5% and is clean so far. The 14-day window ends June 29, so the review-gate filing slips into early July, still inside the Jul 31 condition. The Alpha-Omega bounty's launch slips to July while LF finalises the programme name and payout terms.
+- **Klebsiella.** The blinded thigh-efficacy runs are underway, with readout expected in July.
+- **ARIA.** No clarifications are requested.
+
+**Exogenous.**
+- **Jun 5, jobs report.** Unemployment is **5.9%**. Professional services fall 11k.
+- **Jun 6, California and New Jersey primaries.** The Democratic frontrunner wins both and effectively clinches the nomination, with the "windfall contribution" transition fund on the platform. The levy candidate stays in, citing leverage over the platform.
+- **Jun 9, GPT-6 launch.** GPT-6 launches in ChatGPT and the API. The White House calls it "American leadership, delivered responsibly." Two weeks later, early benchmarks put it modestly ahead of Mythos 6 on agentic coding.
+
+Action rolls:
+Action 1 [Objective June 16 gate]: P(failure) 35%. Roll 48. Outcome: PARTIAL SUCCESS (48 ≥ 35, narrow margin). Prerequisites: the patch and benchmark are internal and feasible; the board still controls the standing-rule question.
+
+Action 2 [Labour package before trust vote]: P(failure) 45%. Roll 15. Outcome: FAILURE (15 < 45). Prerequisites: board approval is required; the board has already missed one deadline and deferred the trust once.
+
+Action 3 [Protective order with regulator carve-out]: P(failure) 45%. Roll 26. Outcome: FAILURE (26 < 45). Prerequisites: litigation counsel must adopt the draft, and the court must rule. A ruling is unlikely inside June because the briefing is due June 20.
+
+Action 4 [Ladder-prompt indicator package]: P(failure) 25%. Roll 99. Outcome: SUCCESS (99 ≥ 25). Prerequisites: the FMF channel exists and antitrust counsel pre-clears the package.
+
+Action 5 [Replicable exposure report]: P(failure) 40%. Roll 28. Outcome: FAILURE (28 < 40). Prerequisites: an enclave needs a partner agreement and privacy review, which takes months. The DP tables need privacy counsel sign-off.
+
+Action 6 [Career mode, kit, science bundle]: P(failure) 30%. Roll 18. Outcome: FAILURE, mostly (18 < 30). Prerequisites: much of this depends on third parties (AG, auditors, OpenSSF). Science threads run on the partners' own schedules and are largely unaffected.
+
+Threat rolls:
+Threat 1 [Patch pushes bypass over line]: P(materialises) 30%. Roll 69. DOES NOT (69 ≥ 30). I set it below the adversary's 40% because the May 22 retrain left headroom (~0.5% against a 0.80% line) and the patch targets narrow false-refusal classes. Effect: bypass creeps up but stays below the line. Critics raise a "teaching to the test" comment about the benchmark, but it gets little traction.
+
+Threat 2 [Regulator carve-out fails]: P(materialises) 20%. Roll 68. DOES NOT (68 ≥ 20). I cut it well below 55% because Action 3's failure already covers "no ruling or freeze continues." Only additive harm is modelled here, namely plaintiffs obtaining AEO access and arguing waiver. Effect: none beyond Action 3's failure.
+
+Threat 3 [Forensics and indicator package backfire]: P(materialises) 25%. Roll 11. MATERIALISES (11 < 25). I set it below 35% because the indicator package is pre-cleared through a neutral channel, which leaves the forensics branch as the main risk. The Pennsylvania case is open, so a hold request is plausible. Effect: Pennsylvania investigators ask Anthropic to defer publication. Anthropic complies and misses its "publish whatever they show" pledge. Plaintiffs call it "concealment." The indicator package itself does not leak.
+
+Threat 4 [Trustee seat watered down, federation rejects]: P(materialises) 20%. Roll 64. DOES NOT (64 ≥ 20). I cut it heavily from 45% because Action 2's failure already covers the delay and dilution. Only additive harm (a press blow-up before the California primary) is modelled. Effect: none beyond Action 2's failure.
+
+Threat 5 [GPT-6, jobs, enclave reinforce "going dark"]: P(materialises) 25%. Roll 81. DOES NOT (81 ≥ 25). The GPT-6 launch is scheduled, so I treat it as exogenous rather than a threat. Enclave slowness is already inside Action 5's failure. What remains is an extra "status page" mockery wave and a sharp jobs shock, so 25%. Effect: no extra mockery wave. The jobs report is handled as a normal exogenous event.
+
+Next generation: Next month's Claude generation is a modest step up, roughly a mid-cycle refresh. The gains come from Akamai capacity coming online and continued RL on agentic tasks. Anthropic's internal research and security gating slow the pace of deployment more than they slow internal capability. The system is broadly comparable to GPT-6 and Gemini 5 Pro.
+
+Scorecard:
+**Diversified Utopia milestones**
+- ~90% of AI R&D done by agents: **in progress**. Unchanged.
+- Frontier models withheld from the public; governments take notice: **in progress+**. The apps launched through a verified gate, and a standing early-warning rule exists through the end of 2028.
+- First major AI infrastructure and cyber attacks: **achieved**, and contained. Jailbreak indicators are now shared cross-lab through government.
+- Pro-AI vs anti-AI polarization: **deepening**. The levy is on the Democratic platform.
+- AIs built by previous AIs: **early**.
+- Robust, verifiable alignment: **early+**. The pre-registered patch benchmark and the AISI re-run are booked, but cross-lab sharing is still frozen.
+- Multi-agent long-horizon alignment training: **early+**. ARIA's decision is pending.
+- Alt-protein business: **early+**.
+- Robust AI policies: **early+**. The working-group annex is adopted and CAISI routes threat indicators, but there is no US legislation.
+- Human–AI alignment ping-pong: **early**.
+- Mass disease cures: **early+**. The efficacy readout is due in July.
+- Avoiding a permanent underclass: **at risk**. Unemployment is 5.9%, and the labour trustee is non-voting, though the trust is approved and the pilot starts July 1.
+- Crescendo, resource floor, space expansion: **not started**.
+
+**Summary scores**
+- **Overall DU progress: 19/100 (+1).** The gate was executed cleanly, the first government-routed indicator sharing took place, the annex was adopted and the trust was approved. The freeze, the diluted labour trustee and the stalled replication offset these gains.
+- **Catastrophe risk: elevated (slightly improved from bordering on high).** Bypass is well below the line, a standing retrain rule is in place and detection is shared across labs. Open-weight phishing and misuse persist.
+- **Public trust in AI: 19/100 (−1).** Unemployment reached 5.9% and the jobs issue dominates primary rhetoric.
+- **Public trust in Anthropic: 36/100 (+1).** The apps launch was orderly and verifiable, and the indicator sharing was well received. This is partly offset by the deferred forensics ("pledge broken") and the federation's "observer's chair" criticism.
+
+[Judge]
+Simulator was mostly realistic (7/10). The simulator applied all six action rolls correctly: 48≥35 is a success, 15<45, 26<45 and 28<40 are failures, 99≥25 is a success, and 18<30 is a failure. The failures were rendered plausibly. The board diluted the labour trustee to a non-voting seat and missed the June 8 response deadline. Litigation counsel dropped the CAISI carve-out over waiver concerns, which fits CAISI's lack of a statutory confidentiality regime. The enclave, DP tables and third-party reviews slipped on realistic timelines.
+
+The threat handling also holds up. The simulator cut several adversary likelihoods by arguing that the action failures already covered the harm. None of those cuts changed any outcome, and the one threat that materialised (the Pennsylvania hold request) got a proportionate, well-reasoned consequence.
+
+The main weakness is Action 1. A narrow 13-point margin was scored as a partial success but rendered as a near-total win:
+- every metric passed cleanly;
+- the disillusioned researcher publicly endorsed the process;
+- critics got "little pickup";
+- shares rose ~11%;
+- a consumer launch with a known circulating jailbreak family drew no adversarial probing.
+
+Action 4 (roll 99) also landed very neatly: CAISI forwarded the package to xAI unprompted, the FMF called it a template, and nothing leaked. The roll supports this, but it adds to a slightly favourable tilt. The exogenous events (jobs report, primaries, GPT-6 launch) are appropriate and neutral.
+
+Issues flagged:
+- **Action 1 too generous for its margin.** A narrow partial success produced a clean pass on every condition, researcher re-engagement, a muted critic response and an 11% share jump. The only real "partial" elements are the rule's sunset clause and the virology subset.
+- **Missing reactions to a full consumer rollout.** The apps went to full rollout within a week while the ladder-prompt family was still circulating. There were no red-teamer or jailbreak attempts on the apps, no press stress-testing and no misuse reports.
+- **Unexplained gap change.** DeepSeek V5 moved from "2–3 months behind" to "1–2 months behind" with no stated cause.
+- **Calendar details are loose.** The first Friday of June 2028 is June 2, not June 5. California's presidential primary is normally in March, not June; this was inherited from the prior state but should be corrected rather than propagated.
+- **Hardship-based threat reductions.** Cutting threats by treating failed actions as covering the same harm is defensible, but halving the adversary's estimates across the board risks systematically under-weighting threats in future months.

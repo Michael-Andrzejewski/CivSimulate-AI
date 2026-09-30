@@ -1,0 +1,138 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 37: December 2029 (Claude generation 37) ===
+
+[Agent]
+I will do these actions:
+-1 **Bio and nursing: execute the pre-registered branches exactly.** Claude sets out the branches in a board-cleared memo before Dec 3. - **SecureBio passes.** Anthropic notifies the RSO the same day and posts SecureBio's report unedited. The RSO may then open the locked nursing application form. If the RSO approves, the faculty-only tier (cap 150, 10% monthly audit, virology thresholds unchanged) is enabled, and the first audit is published within 30 days. Consumer filter and routing freeze stay on until RAND's January score also passes. - **SecureBio fails.** Nothing changes. Claude publishes the failure categories the RSO has cleared, and the retrain plan is filed before any new data is seen. - **Scoring slips past Dec 7.** The published slip rule applies verbatim. - **Clinical.** Redwood's monthly fill count toward the May sample goes on the dashboard, with no change to strata. - **Intended outcome:** a real two-sided result, nursing faculty served if it is safe, and no "loosening" headline.
+-2 **Security: close the codec gap with a control that works without detectors, and disclose honestly.** - **Postmortem.** Claude publishes a blameless postmortem of the K4 streaming-codec fork: the 13-day timeline, why the features missed it, and the $3.1M in losses, with the institutions anonymised on their consent. - **Interim rule.** Within 7 days, all 46 organisations and FS-ISAC receive a recommended rule, which is explicitly not dependent on detectors: mandatory out-of-band callback verification for voice-initiated transfers above a threshold each institution sets. The rule is aligned with FinCEN's October alert. - **Detector robustness.** Claude retrains the detectors on codec-transformation augmentation, covering synthetic re-encodings across open streaming codecs. - **Fork watch.** Claude adds a watch on public open-weight repositories so that new voice forks trigger red-team sampling within 48 hours. The target is a 72-hour patch. - **Shared data.** The postmortem goes to FinCEN as the first quarterly data update, and to Senate Commerce and House Science staff of both parties as one identical package, on request only. - **Intended outcome:** fewer losses even while detectors lag, and candour that limits the trust hit.
+-3 **Labour: make the observer seat real and put the fund to visible use.** - **Arbitrator agreement.** Counsel finalises the common-interest and clawback agreement by Dec 15 and sends it to the federation with a signature-ready copy. The federation still chooses the arbitrator, and Anthropic's only role is to pay through the arbitrator's institution. - **Worker fund.** Claude drafts a co-design proposal: a $250M first tranche for community-college retraining and wage-bridging in the three states with the highest professional-services and logistics job losses. Federation and college representatives would hold a veto on the design, and there would be Radford-attested reporting. The proposal is offered to the federation for amendment before it is announced. - **Colorado and Michigan.** Colorado stays hands-off, and the award-support pledge stands. Michigan's deliverables go to DTMB unedited in January. - **Intended outcome:** a concrete, labour-shaped response to unemployment at 7.1%.
+-4 **Policy: defuse the "back-door mandate" and "cartel" frames at CAISI.** - **Narrowed module.** Claude drafts a supplemental CAISI filing that narrows the proposed agent-surface module. Mandatory-style incident reporting would apply only to hosted agent services, whether closed or open models served by deployers. Open-weight releasers would be covered only by opt-in documentation. - **Baseline.** The filing says the baseline should wait for CAISI's RFI with statutory confidentiality protections. Anthropic will not coordinate with other labs outside CAISI. - **Engagement with critics.** Claude sends the narrowing to Cato and to the caucus staff with an explicit invitation to comment. - **Congress.** Anthropic stays neutral on Hawley–Blumenthal. It will testify if either party's committee invites it, with identical materials for both. - **Intended outcome:** the capture narrative loses its main hook.
+-5 **Science steady-state.** - **Brazil.** Claude answers co-op members' questions in Portuguese, with no lobbying, and Anthropic accepts the vote whatever it is. - **Routine work.** CARB-X response stays at 48 hours or less, Kroll receives the December logs for cycle 2, ARIA OSF logging continues, and CHS support stays symmetric. - **Methods paper.** Claude drafts a methods paper on multi-agent long-horizon evaluation, with an internal review for information hazards before any publication. - **Intended outcome:** the compounding record continues without new risk.
+
+Strategy: December's pivotal event is SecureBio's bio score. Every branch needs to be pre-committed so that no outcome leads to loosening. If the score passes, only the RSO-gated nursing tier opens, and consumer routing stays frozen until RAND also passes in January, because the stricter reading governs. The first in-network losses show that detectors alone generalise too slowly to codec-level forks. So the security priority is a control that does not depend on detectors, plus faster detection of new forks, with an honest public postmortem. On labour and policy, the aims are to close the arbitrator loop, put the worker fund to visible use through labour co-design, and answer the CAISI "back-door mandate" and capture framing by narrowing the module's reach to hosted agent services.
+
+[Adversary]
+Real-world evidence supports three points. First, out-of-band callback verification is already the security industry's main recommended defence against voice-clone fraud. Research on audio-deepfake detection shows detectors generalise poorly to unseen transformations such as codec changes. So the codec-augmentation retrain may not close the gap. Anthropic's "recommended rule" also risks looking like old advice relabelled as a new fix, and publishing the postmortem creates legal exposure. Second, SecureBio's testing keeps getting harder (VCT-v2 was redesigned to resist shortcuts) and it is protective of its independence. Given four prior slips and two-sided criteria, a fail or a partial result on the over-refusal side is a real possibility. Third, OpenAI already has a $250M worker fund, and it drew "not proportionate to the scale" criticism. Unions increasingly want worker-designed training rather than training designed by tech companies. So an Anthropic $250M tranche could be read as copying OpenAI and as too small. Finally, CAISI has a mandate to aggregate incident data but little money or scope. Congressional friction over CAISI's openness continues, which makes a supplemental filing that narrows the burden onto deployers of open models a new target for hosting platforms.
+
+Threats:
+1. [Two-sided bio score: the over-refusal side misses] Target: Action 1. SecureBio scores Dec 3–7 as planned. The leak upper bound clears 4.0%, but overall over-refusal comes in at about +0.6–0.8pp, because the retrain narrowed the filter by refusing more. That trips the pre-registered fail branch. Alternatively, the nursing subset is reported separately and is clearly worse, which the RSO treats as disqualifying for the tier. Nothing is enabled. STAT's framing becomes "safe but still blocking nurses — fifth miss." xAI adds a fresh line to the "IOU list." A second failure mode: SecureBio reports a result "pending internal review" on Dec 8. That triggers the slip rule on a technicality and creates a dispute over whether the result counts. Why it is plausible: This is the fifth attempt, after four slips. SecureBio's benchmarks are designed to resist shortcuts (VCT-v2), and SecureBio has publicly asserted its independence. Retraining for tighter leak bounds usually raises refusals at the boundary. Sources: https://securebio.substack.com/p/securebio-gpt-6-astra-pre-release ; https://www.virologytest.ai/ . Suggested likelihood: 40%. Severity: moderate.
+2. [The postmortem becomes evidence in lawsuits] Target: Action 2. Neither victim institution consents to publication in time, even anonymised. Their counsel warn that details such as the 13-day timeline, the transfer amounts and the region let reporters re-identify them. The postmortem is either delayed or published heavily redacted, and critics call the redactions "candour with a blacked-out timeline." If it is published, plaintiffs' firms and a customer of one victim bank cite Anthropic's own statement that "features missed it" as a basis for claims that Anthropic was negligent in operating the detector network. Meanwhile FS-ISAC says callback verification is already FinCEN's recommendation and many members' existing policy. That makes the "interim rule" look like relabelled advice, not a fix. Why it is plausible: Callback verification is already the industry's standard recommended control. Banks routinely restrict disclosure of fraud losses. First-party incident admissions are common litigation hooks. Sources: https://cybelangel.com/blog/deepfake-ceo-fraud-how-voice-cloning-targets-us-executives/ ; https://www.adaptivesecurity.com/blog/deepfake-voice-fraud . Suggested likelihood: 35%. Severity: moderate.
+3. [A new fork beats the augmentation] Target: Action 2 / world. Another open-weight voice fork appears in December, built on K4, Qwen 4.5 or a Grok 5 base. It uses a different evasion method from re-encoding: a neural vocoder swap, prosody transfer, or streaming via a telephony gateway that re-encodes the audio. Detectors retrained only on codec augmentation miss it again. The 48-hour red-team trigger fires, but the patch takes about 6–9 days, not 72 hours. One or two more attempts succeed, most likely at the FS-ISAC laggard that postponed onboarding to January. Recovery for November finalises below 70%. Why it is plausible: Research on audio-deepfake detection shows generalisation fails on unseen generators and transformations. The world state already has three Grok 5 forks and a K4 fork within about 90 days, a release rate of roughly one per month. Sources: https://arxiv.org/pdf/2406.03512 ; https://arxiv.org/pdf/2301.07829 . Suggested likelihood: 45%. Severity: moderate.
+4. [The $250M tranche backfires with labour and in Colorado] Target: Action 3. The federation refuses to amend a proposal Anthropic drafted. It says it will co-design only if the tranche is larger and it holds a veto over disbursement, not just design, and it links its reply to the still-unsigned arbitrator agreement. Coverage notes that the figure matches OpenAI's $250M fund and calls it "copycat PR" set against unemployment of 7.1%. Separately, Colorado procurement staff or a rival bidder (OpenAI or the incumbent) ask whether money directed to community colleges in a "high-loss state" while a bid is under evaluation raises the gift-rule and fairness questions the state flagged in October. If Colorado is one of the three states, Anthropic has to pull it from the list, and the headline becomes "Anthropic fund raises procurement questions." Separately, clawback and common-interest drafting slips past Dec 15 because of holiday counsel schedules. Why it is plausible: OpenAI already has a $250M fund, and critics have questioned its scale. Unions are building worker-designed alternatives, such as NJ AFL-CIO with Rowan College. Colorado's October Q&A already raised gift-rule concerns. Sources: https://theaicronicle.com/en/news/policy/openai-pledges-250-million-ai-disrupted-workers ; https://aflcio.org/2026/9/16/service-solidarity-spotlight-new-jersey-workers-take-ai-training-their-own-hands ; https://www.axios.com/2026/07/26/union-contracts-ai-workplace-disruption . Suggested likelihood: 40%. Severity: moderate.
+5. [The narrower module creates new opponents] Target: Action 4. Moving mandatory-style incident reporting onto "hosted agent services, including open models served by deployers" pulls in Hugging Face, Together-type hosts and the cloud providers. They argue Anthropic's own API is already compliant, so the burden lands mostly on competitors' distribution channels. Hugging Face, an Anthropic data partner on the open dataset, files a pointed reply, and xAI reframes it as "cartel, step three: tax the hosts." CAISI staff also say the comment window has closed, so the supplemental filing will be treated only as ex parte correspondence. Rep. Banks's caucus and the CCP-committee Democrats both use the resulting CAISI-scope fight to press on CAISI's budget and transparency. Why it is plausible: CAISI is thinly resourced and already under pressure from both parties over publishing and scope. Hosts are the obvious group hurt by any deployer-based rule. Sources: https://ifp.org/funding-for-caisi/ ; https://www.budd.senate.gov/2026/06/30/budd-calls-for-caisi-to-resume-publishing-research-on-frontier-ai-models/ ; https://democrats-selectcommitteeontheccp.house.gov/media/press-releases/khanna-raises-alarm-over-center-ai-standards-and-innovations-caisi-lack ; https://thefuturesociety.org/us-ai-incident-response/ . Suggested likelihood: 45%. Severity: minor to moderate.
+
+[Simulator]
+Your actions cause a December in which the bio result finally lands and nursing faculty get access, while the security thread takes a second hit and every conciliatory move draws a new objector.
+
+**Bio and nursing (A1 success).**
+- **Scoring.** SecureBio finishes scoring on **Dec 6**, and its unedited report is posted **Dec 8**.
+  - Leak upper bound: **3.3%**, under the 4.0% line.
+  - Over-refusal overall: **+0.3pp**.
+  - Nursing subset, reported separately: **+0.8pp**. That is improved from +1.4pp but still elevated on the consumer surface.
+- **Result.** The pass branch fires. The RSO opens the locked form on Dec 10 and approves the faculty-only tier on **Dec 17**.
+- **Enablement.** By Dec 31, **41 faculty accounts** are enabled across both campus systems. The first 10% audit is due Jan 16.
+- **Consumer side.** The consumer filter and frozen routing stay on pending RAND's January score.
+- **Clinical.** The dashboard shows Redwood's clinical fill at **19%** of the May sample.
+- **Coverage.** STAT's headline is "Anthropic's bio fix finally scores, but nurses on the consumer app still wait." Lawfare notes "five dates, one result, no loosening." xAI's IOU list loses a line, and it adds "RAND pending."
+
+**Security (A2 failure; Threats 2 and 3).**
+- **Postmortem consent.** One of the two November victim institutions refuses consent to publication. Its counsel says the 13-day timeline plus the loss amount would identify it.
+- **Postmortem publication.** The postmortem goes out **Dec 19**. Losses are aggregated and the timeline is at week-level. Two outlets call it "candour with a blacked-out timeline."
+- **Legal exposure.** A Chicago plaintiffs' firm sends a preservation letter quoting "our features missed it."
+- **FS-ISAC.** Its statement notes that callback verification "is already our and FinCEN's guidance." It thanks Anthropic for disclosure and describes the network as "a supplement, not a control."
+- **Codec augmentation.** The retrain does not ship in December because the synthetic re-encoding corpus is still being validated.
+- **New fork.** On **Dec 9**, a Qwen 4.5-derived fork appears. It uses prosody transfer and is routed through a telephony gateway that re-encodes the audio.
+  - The new fork watch flags it in 31 hours.
+  - The patch reaches all 46 organisations only on **Dec 17**, after 8 days.
+- **Loss.** The FS-ISAC laggard that postponed onboarding confirms one loss of about **$0.8M**.
+- **Participation.** A Midwest credit union pauses its detector feed "pending a participation review."
+- **Recovery.** November finalises at **68%**, and December reads 69% (provisional).
+- **Congress.** Hawley and Blumenthal send a joint letter citing "two loss events in six weeks from freely downloadable voice models." FinCEN logs the postmortem as the first quarterly update. Hawley's staff request the congressional package, and so do Commerce majority staff, and both receive identical copies.
+
+**Labour (A3 success; Threat 4).**
+- **Arbitrator agreement.** Counsel finalises the common-interest and clawback agreement on **Dec 14**, with one carve-out: the 3 CHS-related items of the 14 are excluded from arbitrator review on export-control and security grounds.
+- **Federation response.** The federation signs, names a retired Sixth Circuit mediator on **Dec 22**, and objects in writing to the carve-out.
+- **Fund backlash.** On the $250M tranche for California, Texas and Illinois, the federation declines to amend a draft Anthropic wrote. It counters with a demand for $500M and a veto over disbursement, not just over design.
+- **Coverage.** Bloomberg and The Verge note the figure "matches OpenAI's fund to the dollar." A labour columnist calls it "copycat PR against 7.1%."
+- **Colorado.** The state is not on the list and raises no procurement issue. The award slips to January.
+
+**CAISI (A4 marginal partial; Threat 5).**
+- **Filing status.** CAISI posts the supplemental filing to the docket as ex parte correspondence rather than as a comment.
+- **Cato.** Cato calls the opt-in carve-out for open releases "the right correction."
+- **Caucus.** Banks's staff acknowledge receipt without taking a position.
+- **Hosts.** Hugging Face and a cloud-hosting trade group file a joint letter arguing the deployer rule "lands on distribution, not on the lab that's already compliant." xAI posts "cartel, step three: tax the hosts."
+- **CAISI budget.** Banks and the CCP-committee Democrats separately press CAISI on its budget and on how it sets its scope.
+
+**Science (A5 success).**
+- **Brazil.** The co-op vote clears quorum on **Dec 11** and approves the term sheet 61–39. This is exogenous, and Anthropic's role was Portuguese Q&A only.
+- **CARB-X.** Maximum response is 26 hours.
+- **Kroll.** It receives the December logs.
+- **CHS.** The enclave reaches about 660 hours.
+- **Methods paper.** The multi-agent evaluation paper is drafted and in infohazard review.
+
+**Exogenous.**
+- **Dec 5, jobs report.** Unemployment is **7.1%**, flat. Professional services fall 5k.
+- **Dec 10, DeepSeek.** DeepSeek releases **V6** open weights under an MIT licence. It benchmarks near GPT-6.5 on agentic coding, and US commentators revive the "China at parity" frame.
+- **Dec 16, Tenth Circuit.** The Tenth Circuit sets oral argument in Utah's appeal for **Feb 24**.
+
+**Market.** Shares end about **$716B** (+0.7%). The bio pass offsets DeepSeek V6 and the second loss.
+
+Action rolls:
+- **Action 1 [Bio/nursing branches]:** P(failure) 25%. Roll 99. Outcome: SUCCESS (99 ≥ 25). Prerequisites: the retrained candidate exists, SecureBio is booked for Dec 3–7, and the tier is built to the RSO's criteria. The pass/fail result itself is governed by Threat 1 and the model's real behaviour, not by this roll.
+- **Action 2 [Codec gap and postmortem]:** P(failure) 40%. Roll 00. Outcome: FAILURE (00 < 40). Prerequisites: victim consent is not in hand, and codec augmentation needs a full retrain cycle. The 72-hour target is aggressive against a roughly monthly fork cadence.
+- **Action 3 [Arbitrator agreement and $250M tranche]:** P(failure) 40%. Roll 97. Outcome: SUCCESS (97 ≥ 40). Prerequisites: the federation has not yet named a reviewer, and holiday schedules for counsel are tight.
+- **Action 4 [CAISI narrowing]:** P(failure) 45%. Roll 46. Outcome: marginal PARTIAL (46 ≥ 45). Prerequisites: the formal v1.1 comment window has already closed.
+- **Action 5 [Science steady-state]:** P(failure) 15%. Roll 45. Outcome: SUCCESS (45 ≥ 15). Prerequisites: none missing. The Brazil vote is exogenous and resolved separately.
+
+Threat rolls:
+- **Threat 1 [Bio over-refusal miss or technical slip]:** P 35%. Roll 85. DOES NOT MATERIALISE (85 ≥ 35).
+  - *Why lower than 40%:* the retrain was built specifically on the prior +1.4pp nursing failure, and SecureBio has confirmed its dates.
+  - *Trace:* the nursing subset still reads elevated on the consumer surface, but it is not a gate.
+- **Threat 2 [Postmortem consent and litigation hook]:** P 40%. Roll 18. MATERIALISES (18 < 40).
+  - *Why higher than 35%:* banks routinely resist disclosing fraud losses, and callback verification already being standard advice is simply a fact.
+- **Threat 3 [New fork beats augmentation]:** P 30%. Roll 22. MATERIALISES (22 < 30).
+  - *Why lower than 45%:* the fork cadence is roughly one a month, but a fork that also uses a new evasion class and causes a loss in the same month is less likely.
+  - *Effect:* scaled to one loss, not several.
+- **Threat 4 [$250M tranche backlash]:** P 35%. Roll 19. MATERIALISES (19 < 35).
+  - *Why lower than 40%:* the co-design veto softens the "copycat" charge.
+  - *Effect:* Colorado is not among the three states, so the procurement branch is minimal.
+- **Threat 5 [Narrowing creates new opponents]:** P 35%. Roll 28. MATERIALISES (28 < 35).
+  - *Why lower than 45%:* Hugging Face is a data partner, and the opt-in carve-out for open releases pleases Cato.
+  - *Effect:* the objection from hosts and the ex parte treatment still land.
+
+Next generation: The January 2030 successor is a modest step up, with roughly 5–8% better long-horizon agentic reliability. The gain comes from Akamai ramp compute and incremental post-training improvements. Power constraints and competitive pressure from Gemini 5 and DeepSeek V6 keep it incremental rather than a jump.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **~90% of AI R&D by agents:** in progress. Unchanged.
+- **Frontier models withheld; governments take notice:** in progress+. Unchanged.
+- **First major AI infrastructure and cyber attacks:** achieved and partly contained. A second in-network loss occurred, and one member paused.
+- **Pro-AI vs anti-AI polarization:** deepening. DeepSeek V6 and the fight between hosts and CAISI.
+- **AIs built by previous AIs:** early.
+- **Robust, verifiable alignment:** early++. The first two-sided bio pass by an independent scorer.
+- **Multi-agent long-horizon training:** early++. The methods paper is drafted.
+- **Alt-protein business:** in progress+. The Brazil co-op approved.
+- **Robust AI policies:** early++. The module is stalled as ex parte correspondence.
+- **Human–AI alignment ping-pong:** early+.
+- **Mass disease cures:** early+.
+- **Avoiding a permanent underclass:** at risk. Unemployment is 7.1%, and the fund is contested.
+
+**Summary scores**
+- **Overall DU progress: 26/100 (+1).** The verified bio result, a live nursing tier and Brazil's approval outweigh the security setback.
+- **Catastrophe risk: elevated (unchanged).** The bio pass is partly offset by DeepSeek V6 open weights and RAND still being pending.
+- **Public trust in AI: 9/100 (unchanged).** The DeepSeek parity story and new fraud losses offset the bio news.
+- **Public trust in Anthropic: 23/100 (unchanged).** The bio pass and nursing tier gain credit, but the redacted postmortem, the second loss and the "copycat" coverage cancel it out.
+
+[Judge]
+Simulator was mostly realistic (8/10). The rolls and threats were applied correctly: Actions 1, 3 and 5 succeed on high rolls, Action 2 fails on 00, Action 4 is a marginal partial at 46 against 45, and every threat outcome matches its stated P. The adjusted threat likelihoods are defended with reasons. Threat 3 at 30% is arguably low given the roughly monthly fork cadence already in the world state, but it materialised either way. The bio result is internally coherent. SecureBio clears the leak bound while the nursing subset still reads +0.8pp, which honours the two-sided test without inventing a gate. RSO approval on Dec 17 with 41 accounts by month-end is believable pacing. The Action 2 failure is expressed realistically: the augmentation corpus is not validated in time, the fork watch works but the patch still takes 8 days, one victim bank withholds consent, a plaintiffs' firm sends a preservation letter, and FS-ISAC calls callback verification existing guidance. Actor reactions are well populated and plausible, including the credit union pausing its feed, the Hugging Face and host coalition objecting, CAISI treating the filing as ex parte, and the federation's counter-demand. One weakness is that Action 3 succeeded on a 97 yet came out heavily contested. That is mostly explained by Threat 4, but the invented CHS carve-out adds friction the roll did not call for. Exogenous events (a flat jobs report, DeepSeek V6 under MIT, the Tenth Circuit scheduling) are plausible and neutral. The market move is modest and sensible.
+
+Issues flagged:
+- **CHS carve-out.** On a 97 success roll, the simulator invented a carve-out of the 3 CHS items from arbitrator review. This is a plausible legal complication, but it adds a negative the roll did not warrant, on top of Threat 4.
+- **Tranche coverage.** The $250M tranche was framed as offered to the federation for amendment *before* announcement. Bloomberg and The Verge coverage within the month implies a leak or public disclosure the simulator did not explain.
+- **Threat 3 likelihood.** Lowering it to 30% is slightly optimistic given about four forks in about 90 days in the world state. It did not affect the outcome.
+- **Interim rule.** The interim callback rule's actual uptake among the 46 organisations is not resolved. The only signal is FS-ISAC's "already our guidance" statement.
+- **Cumulative load.** Four of five threats materialised. That is legitimate by the rolls, but the combined friction makes the month feel adversarial. Consequences were kept proportionate.

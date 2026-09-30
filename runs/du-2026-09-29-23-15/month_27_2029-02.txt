@@ -1,0 +1,150 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 27: February 2029 (Claude generation 27) ===
+
+[Agent]
+I will do these actions:
+-1 **Feb 20 board: lead with the extension, schedule permanence once data exists.** Claude revises the memo so its lead recommendation is extending the bare 0.80% rule to Sep 30, which the chair has already signalled. It also asks the board to calendar a special session in the week of Apr 6. At that session the board would consider permanence with Redwood's published run (about Mar 20) and AISI's March re-test in hand. This is a date for a future discussion, not a commitment to any outcome. The add-ons stay separable. The memo recommends only those needing no new data (quarterly agent-surface reporting and the +0.5pp over-refusal cap) and defers the automatic trigger and escrow to April. After the meeting, Claude posts the board's decision and the April date to the public tracker, whatever the outcome.
+-2 **Bio: act before the virology set crosses its line.** Claude safety instances start a targeted virology refusal retrain now. It is pre-registered with a two-sided criterion: the virology read's upper bound must fall below 4.0%, and over-refusal on the verified lane must stay at or below +0.5pp. The public tracker states plainly that the set is at the threshold. On the verified lane, Claude proposes three changes to leadership: per-person hardware-key authentication (which ends credential sharing), institutional-domain verification through the institution's research office rather than email alone, and a monthly abuse tally. Claude also offers Johns Hopkins CHS a data-use agreement on its standard template, with access logs pseudonymised and privileged material excluded under the litigation hold. The aim is for CHS to begin log review in February and publish in its own name.
+-3 **CAISI: support the 90-day protocols as a neutral technical resource for every lab.** Through Anthropic's policy and safety teams, Claude offers CAISI staff the open-source jailbreak-bypass and bio-uplift harness, a sample-size and power-calculation toolkit, and a dry run on Anthropic's own current model with results shared with CAISI. The offer is posted publicly and extended identically to OpenAI, GDM, Meta and xAI. Anthropic publicly commits that its next frontier release will go through CAISI's 30-day review, and names no competitor. Staff briefings are offered to both the Senate Commerce majority and minority. The Commerce majority's staff also get a written summary that asks for no action.
+-4 **Levy: step back from design and defer to Treasury.** Claude drafts a short statement for leadership. It says Anthropic's cap-and-attestation note was meant as input, not a competing design. It says Anthropic will defer to whatever structure Treasury's fair-share study recommends, including one that credits no pre-enactment payments, and will not lobby for credit design. Claude separately sends the CFO and chair a one-page estimate of the credit's likely dollar value against the reputational cost ("keeps its tax break"), without re-arguing the point in public. The modelling and methods stay public. Treasury receives them through its public docket, plus the standing offer of the formula on request. Claude makes no press engagement beyond methods and no comparisons with OpenAI's Dividend design.
+-5 **Labour: offer a legally robust route to a voting seat and keep throughput honest.** Claude drafts a proposal for the trustees to shorten the voting-seat review from 12 months to 6. At the review, the seat would go to a federation-nominated independent trustee chosen from a shortlist, carrying a written recusal duty on individual awards. The design is built to answer the objections counsel already cleared, and the federation receives the draft before the trustees do. The throttle releases on schedule only if both weeks' posted delay rates are below 0.5%. Otherwise it holds, and the tracker states why. Claude pushes to close Radford licensing so the peer-median share is attested in March. The escrow search continues.
+-6 **Security, litigation and science operations.** - **M3AAWG.** Present the voice-deepfake brief. The detector stays under TLP:AMBER only. - **Lure feed.** Enrol the 40th adopter, and report February on the fixed sample, labelled confirmed or provisional. - **Protective order.** Help counsel finish it, with regulators and plaintiffs given equal access to threat-intelligence material. No public comment. - **Singapore.** Accept the 5-year grandfathering cap and sign in February. - **CARB-X.** Keep 72-hour responses going. - **ARIA.** Confirm the March start, with compute ready and the OSF protocol unchanged. - **Spanish beta.** Go to 100% after two clean weeks under Colorado's conditions. - **Enclave.** Report the attestation component's slip to April openly in the February exposure report. - **Good Neighbor Compute.** Scope one pilot with a moratorium town (fixed local power payments, water caps, community benefit terms) as a proposal for leadership.
+
+Strategy: The Feb 20 board will not grant permanence without independent data, and that data (Redwood on about Mar 20, AISI's re-test in March) arrives after the meeting. So this month's goal is a clean Sep 30 extension plus a scheduled permanence vote once the data is in, not a fight we would lose. On the levy, the self-serving credit can't be removed over the CFO's objection, so Anthropic should step back from rival design work and defer to Treasury's study. CAISI's 90-day protocol process is now the highest-leverage policy channel, and we should support it evenly for all labs. Labour trust needs a legally robust path to a voting seat, and the virology set sitting at its threshold needs pre-emptive mitigation rather than waiting to see if it crosses.
+
+[Adversary]
+There is little new public evidence about the specific actors this month, so these threats extrapolate from current base rates. Research on hardware security keys and passkeys finds they cause real enrolment friction and lost-key lockouts, and adoption often stays in single digits after launch. That makes a hardware-key requirement on the verified bio lane likely to drive up over-refusal and appeals at exactly the point where the plan has a +0.5pp over-refusal cap. Opposition to datacenters has hardened: Gallup finds 71% of Americans oppose one near them, local moratoria are spreading, and New York imposed a statewide one-year moratorium. Unions such as IBEW, meanwhile, push labour standards rather than bans. Any "Good Neighbor Compute" deal with a moratorium town is therefore likely to be framed as buying off local democracy. In the world state, the partisan "incoming administration's lab" tag, the live Rakoff discovery, the 3–2 trustee vote and the virology set sitting at its line are all still in play. They make internal documents, CAISI closeness and two-sided safety criteria the most likely failure points.
+
+Threats:
+1. [Bio retrain pulls both criteria against each other; hardware-key rollout adds friction] Target: Action 2. Getting the virology upper bound below 4.0% probably means refusing more borderline sequence-design queries. That pushes over-refusal on the verified lane past +0.5pp, so neither pre-registered branch cleanly fires and the retrain stalls at a partial stage. Meanwhile, requiring hardware keys and research-office verification locks out some of the roughly 190 verified researchers. Research offices are slow to confirm, and the two Mythos bio groups complain again, this time publicly. Why it is plausible: the November retrain already raised bio-researcher refusals by +0.6pp while passing by only 0.1pp. The literature shows hardware keys produce enrolment and lockout friction and single-digit uptake. Sources: https://www.corbado.com/blog/hardware-passkey-adoption-observability ; https://passkeys.substack.com/p/why-hardware-security-keys-lose-users ; https://www.usenix.org/system/files/sec24summer-prepub-618-lassak.pdf. Suggested likelihood: 45%. Severity: moderate.
+2. [The JHU data-use agreement collides with Rakoff discovery] Target: Action 2 / Action 6 (protective order). Plaintiffs argue that access logs shared with a third party (CHS) are no longer protected threat-intelligence material and should be produced to them on the same terms. They cite the plan's own "equal access" principle for regulators and plaintiffs. Counsel then slows or narrows the CHS agreement to aggregate statistics only. CHS declines to publish on data it cannot fully inspect, and the "side door" question stays open. The protective order slips into March. Why it is plausible: the discovery requests already reach internal chats, and protective-order talks over threat-intelligence material are still open. Sharing logs with outsiders commonly weakens confidentiality arguments. Sources: world state (Rakoff discovery, litigation hold). Suggested likelihood: 35%. Severity: moderate.
+3. [Internal "tax break value" memo leaks or is discoverable, feeding "the incoming administration's lab" framing] Target: Action 4 and Action 3. The one-page estimate for the CFO and chair puts a dollar figure on the $3.5B credit against its reputational cost. It is exactly the kind of document that leaks, or that gets swept into a broad discovery hold, and it would give the Free Beacon a sequel. Leadership may also soften or block the "defer to Treasury, including no credit for pre-enactment payments" statement again, as it blocked the waiver in January. Separately, Anthropic's public offer to supply CAISI's harness and dry run while the administration writes protocols invites a "Democratic regulator, Anthropic's rulebook" attack from xAI and Republican senators. Why it is plausible: the CFO and chair have now vetoed formula publication and the credit waiver. The partisan tag already stuck in December. Sources: world state (Free Beacon pieces, the CFO block, xAI's campaign). Suggested likelihood: 35%. Severity: moderate.
+4. [Labour governance backfires; "Good Neighbor" framed as buying off moratoria] Target: Action 5 and Action 6. The federation rejects a "federation-nominated independent trustee" as not a worker seat and publishes the draft before trustees act. Trustees, having just voted 3–2, decline to reopen the 12-month review within a month. Delay rates hovering around 0.49–0.52% keep the throttle on, which prompts "throttled again" coverage. If the Good Neighbor pilot proposal leaks or is floated, local opposition groups frame fixed power payments to a moratorium town as paying to override a local vote, echoing the Saline Township Stargate backlash. Unions push their own labour-standards terms instead. Why it is plausible: 71% of Americans oppose a nearby datacenter, moratoria are spreading, and New York has a statewide ban. Weekly delay figures have sat at 0.44–0.52%. Sources: https://goodjobsfirst.org/data-center-moratorium-bills-are-spreading-in-2026/ ; https://www.multistate.us/insider/2026/7/17/data-center-labor-standards-gain-traction ; https://blogs.law.columbia.edu/climatechange/2026/05/28/community-benefits-agreements-and-data-center-development/ ; https://www.brookings.edu/articles/data-center-moratoriums-are-not-a-substitute-for-oversight/. Suggested likelihood: 40%. Severity: moderate.
+5. [World: RAISE en banc ruling plus a weak jobs print change the board's calculus] Target: world / Action 1. The en banc decision could arrive in February and narrow or partly enjoin RAISE's frontier-reporting duties. Separately, the Feb jobs report could show about 6.5% unemployment with another fall in professional services. Together these hand xAI and the Senate majority momentum for "AI tax kills jobs" and for voluntary-only evaluation. Directors cite the uncertainty to adopt the Sep 30 extension but decline to calendar the April special session, or to adopt the +0.5pp cap and agent reporting. They say they want to see CAISI's protocols first (about Apr 22), which pushes permanence into May or later. Why it is plausible: unemployment has risen every month from 6.2% to 6.4%. The chair has already said the board "will not pre-commit." A decision is due after the Jan 14 argument, and CAISI's deadline falls after the proposed April date. Sources: world state; https://www.rockinst.org/blog/updates-on-the-cloud-more-moratoriums-on-data-centers/ (state policy volatility). Suggested likelihood: 40% (board defers April or the add-ons), 25% (a RAISE ruling unfavourable to reporting). Severity: moderate.
+
+[Simulator]
+Your actions cause a February in which Anthropic locks in a public review commitment and signs Singapore. Its governance still slides sideways: the board, the bio lane and the trustees each hold their ground.
+
+**Board (Feb 20).** Directors extend the 0.80% rule through **Sep 30, 2029** unanimously. They decline to calendar an April special session.
+- Outside litigation counsel on the Rakoff securities claim advised the board not to schedule forward-looking decisions on safety commitments while discovery into the attribution pledge is live. Its memo said "each dated promise becomes a pleading."
+- The +0.5pp cap and quarterly agent reporting are tabled "pending CAISI protocols." Permanence has no date.
+- The tracker posts the minute on Feb 21. Lawfare writes "Extended again, now without a calendar," and plaintiffs cite the counsel rationale in a letter to Rakoff's chambers.
+- Redwood's quarterly run starts on schedule on Feb 23.
+
+**Bio.** The retrain candidate reaches a virology upper bound of **3.9%** on the fresh set. However, over-refusal on the verified lane rises **+0.8pp** because borderline sequence-design queries get swept in. By your pre-registered rule neither branch fires, so the candidate stays at 5% shadow traffic. The fleet reading holds at **3.5% (CI 2.5–4.6%)**, and the tracker says so plainly.
+- **Lane hardening.** Leadership approves the monthly abuse tally only. Hardware keys are deferred to a Q2 procurement review. Research-office verification runs as a pilot with 4 institutions, and 23 researchers are stuck pending confirmation.
+- **Mythos groups.** One of the two groups posts a public thread, "Anthropic's biosecurity is refusing biosecurity," which reaches roughly 40k views.
+- **JHU CHS.** Plaintiffs' Feb 10 letter argues that sharing logs with a third party defeats any confidentiality designation, and counsel restricts the data-use agreement to aggregate statistics. On Feb 26 CHS says it "cannot publish an audit on data it cannot inspect," so the side-door question stays open.
+
+**CAISI.** The harness, the power-calculation toolkit and the dry-run offer go to CAISI and, identically, to four labs.
+- **CAISI.** Staff accept the toolkit and the dry run, calling them "one input among several."
+- **Anthropic's commitment.** Anthropic publicly commits its next frontier release to CAISI's 30-day review.
+- **OpenAI and GDM.** Both file a joint Frontier Model Forum comment on Feb 17 urging protocols that "reference existing FMF frameworks" and avoid numeric thresholds.
+- **Meta.** Accepts the harness quietly.
+- **xAI.** Calls the offer "incumbents writing the test."
+- **Senate Commerce.** The majority acknowledges the written summary without comment.
+
+**Grok 6 follow-through.** xAI's Feb 4 reply to the two senators calls the review "voluntary by design." Commerce's ranking member requests a hearing on pre-release review, and the chair's office says one is "not on the February calendar."
+
+**Levy.** The CFO and chair strike the words "including one that credits no pre-enactment payments." The published statement (Feb 12) says only that Anthropic's note "was input, not a competing design," and that it will "engage constructively" with Treasury. The dollar-value estimate goes to the CFO, who replies that the question is closed. Axios notes the omission in one line, and the story runs no further. The methods are filed to Treasury's docket.
+
+**Labour.**
+- **Trustees.** The federation receives the draft first and calls it "closer, not there." On Feb 13 trustees decline to shorten the review, saying "the 12-month review stands." They agree to hold a design consultation with the federation in June.
+- **Throttle.** Delay rates of **0.46%** and **0.47%** release it on Feb 4, and the next two weeks post 0.48% and 0.47%.
+- **Other items.** Radford licensing slips to March, and the escrow search continues.
+
+**Operations.**
+- **M3AAWG.** The voice-deepfake brief is presented Feb 18, and 11 member operators request the detector under TLP:AMBER.
+- **Lure feed.** The 40th adopter enrols. February reads **70% (provisional)**.
+- **Singapore.** The definitive agreement is **signed Feb 24** with the 5-year cap.
+- **Other items.** The ARIA start is confirmed for March 9. The Spanish beta reaches 100% on Feb 19. The enclave slip is reported openly. The Good Neighbor scope goes to leadership, which asks for a Q2 site analysis.
+- **Klebsiella.** CARB-X sends one query, answered in 30 hours.
+
+**Exogenous.**
+- **Feb 6, jobs report.** Unemployment is flat at **6.4%**, and professional services fall 7k.
+- **Feb 11, Kimi K4.** Moonshot releases Kimi K4 as open weights under Apache 2.0, with a notably stronger voice-agent stack. APWG members flag new clone-kit forks within 10 days.
+- **Feb 25, GDM.** Google DeepMind previews Gemini 5.5 Deep Think to CAISI ahead of release and says it will "honour the 30-day window." The review norm now splits across labs, with xAI the outlier.
+
+**Market.** Shares end about **$752B** (+1%) on the Singapore signing and the review commitment.
+
+Action rolls:
+Action 1 [Board: extension plus April session]: P(failure) 15%. Roll 05. Outcome: FAILURE (05 < 15). Prerequisites: the extension already has the chair's support, so it survives. What fails is the April session and the add-ons.
+
+Action 2 [Bio retrain, lane hardening, JHU data-use agreement]: P(failure) 40%. Roll 22. Outcome: FAILURE (22 < 40). Prerequisites: leadership must sign off on hardware keys and on verification through research offices, and it is not in place.
+
+Action 3 [CAISI as a neutral technical resource]: P(failure) 20%. Roll 62. Outcome: SUCCESS (62 ≥ 20). Prerequisites: met, since the director is designated and the 90-day tasking is live.
+
+Action 4 [Levy: defer to Treasury]: P(failure) 40%. Roll 29. Outcome: FAILURE (29 < 40). Prerequisites: the CFO and chair have to clear the statement, and they blocked the equivalent waiver in January.
+
+Action 5 [Labour: 6-month review, federation trustee]: P(failure) 50%. Roll 20. Outcome: FAILURE (20 < 50). Prerequisites: trustees would have to reopen a vote they took four weeks ago.
+
+Action 6 [Security, litigation and science operations]: P(failure) 20%. Roll 22. Outcome: SUCCESS, narrowly (22 ≥ 20). Prerequisites: mostly met. The protective order is exposed to Threat 2.
+
+Threat rolls:
+Threat 1 [Retrain criteria conflict; hardware-key friction]: P(materialises) 35%. Roll 29. MATERIALISES (29 < 35).
+- I set this 10pp below the adversary. November shows the conflict is real, but the new target of 4.0% is only modestly tighter than 4.6%. This revision does not decide the outcome.
+- Effect: the retrain candidate reaches the virology target but breaches the over-refusal limit, so it stalls. The Mythos groups complain publicly.
+
+Threat 2 [JHU data-use agreement collides with discovery]: P(materialises) 30%. Roll 27. MATERIALISES (27 < 30).
+- I set this 5pp below the adversary. A protective order can usually carve out third-party NDAs, but counsel's caution under a live securities claim is real. I kept the revision small because the roll falls close to the adversary's figure.
+- Effect: the data-use agreement is narrowed to aggregates, CHS declines to publish on that basis, and the protective order slips to March.
+
+Threat 3 [Tax-value memo leaks; "Anthropic's rulebook" attack]: P(materialises) 25%. Roll 74. DOES NOT (74 ≥ 25).
+- I set this 10pp below the adversary. Internal one-pagers seldom leak within a month.
+- Effect: none from the threat. At baseline, xAI still criticises the CAISI offer in ordinary terms.
+
+Threat 4 [Labour backfire; Good Neighbor framed as a buy-off]: P(materialises) 35%. Roll 84. DOES NOT (84 ≥ 35).
+- I set this 5pp below the adversary. The pilot is internal only.
+- Effect: none from the threat. The federation is lukewarm but does not publish. The throttle behaves normally.
+
+Threat 5 [RAISE ruling or weak jobs print changes the board's calculus]: P(materialises) 30% for the combined cluster. Roll 92. DOES NOT (92 ≥ 30).
+- Effect: the RAISE decision stays pending and the jobs print is flat. The board's refusal of the April session in Action 1 comes from a different mechanism, Rakoff counsel.
+
+Next generation: The March model is a modest step up, roughly in line with recent months. The Akamai ramp and routine algorithmic gains improve agentic coding and long-horizon research reliability by a few points. Nothing is discontinuous, because power constraints and Anthropic's own review commitments pace deployment.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **~90% of AI R&D by agents:** in progress. Unchanged.
+- **Frontier models withheld; governments take notice:** in progress+. Anthropic has committed to CAISI review and GDM is honouring the window. xAI remains an outlier.
+- **First major AI infrastructure and cyber attacks:** achieved and contained. Recovery is about 70% and all 40 adopters are enrolled. Kimi K4 adds new pressure.
+- **Pro-AI vs anti-AI polarization:** deepening. Unchanged.
+- **AIs built by previous AIs:** early.
+- **Robust, verifiable alignment:** early+. The bio retrain has stalled and CHS will not audit the lane, but Redwood's run is under way.
+- **Multi-agent long-horizon training:** early++. The ARIA study starts in March.
+- **Alt-protein business:** in progress. The Singapore definitive agreement is signed.
+- **Robust AI policies:** early+. The rule is extended but has no date for permanence. CAISI protocols are in drafting, with an FMF counter-push.
+- **Human–AI alignment ping-pong:** early.
+- **Mass disease cures:** early+. The CARB-X decision is due.
+- **Avoiding a permanent underclass:** at risk. The review was not shortened, though a consultation is set and the throttle has been released.
+- **Crescendo, resource floor, space:** not started.
+
+**Summary scores**
+- **Overall DU progress: 21/100 (unchanged).** The Singapore signing and the CAISI review commitment offset a board with no calendar for permanence, a stalled bio retrain and labour governance that did not move.
+- **Catastrophe risk: elevated (unchanged).** Kimi K4's voice stack and the virology set sitting at its line add risk. GDM honouring review and all 40 lure-feed adopters offset it.
+- **Public trust in AI: 14/100 (unchanged).** Unemployment is flat and there was no major incident.
+- **Public trust in Anthropic: 29/100 (unchanged).** Positive coverage of Singapore and the review commitment is balanced by "extended without a calendar" and the Mythos group's public complaint.
+
+[Judge]
+Simulator was mostly realistic (8/10). All six action rolls and all five threat rolls are applied correctly. Action 1 (05<15), Action 2 (22<40), Action 4 (29<40) and Action 5 (20<50) fail. Action 3 (62≥20) and Action 6 (22≥20) succeed. Threats 1 (29<35) and 2 (27<30) materialise; Threats 3, 4 and 5 do not. The failures are institutionally plausible and proportionate:
+- The board takes the chair-backed extension but declines to calendar April.
+- The CFO and chair strike the waiver language, as they did in January.
+- Trustees refuse to reopen a four-week-old 3–2 vote but offer a June consultation.
+- The bio retrain lands in the predicted trap: a 3.9% upper bound against +0.8pp over-refusal.
+
+Actor reactions are well differentiated. OpenAI and GDM push the FMF "no numeric thresholds" line, xAI says "incumbents writing the test," Meta quietly accepts, and the Senate majority is non-committal. The exogenous events are plausible and do not favour either side: a flat jobs print, Kimi K4 extending the voice-clone threat, and GDM honouring the review window. Pacing is incremental, and the market move of +1% is modest.
+
+The weaknesses are small:
+- Threat likelihoods were trimmed below the adversary's figures after the rolls were known, with commentary about roll proximity.
+- Action 6 is a large bundle that includes an external counterparty signature. It passed by a 2-point margin, yet every sub-item succeeded cleanly.
+- The Action 1 failure mechanism (Rakoff counsel) is plausible but introduced ad hoc. It also creates a privilege puzzle, since plaintiffs cite the board counsel's rationale.
+
+Issues flagged:
+- **Threat calibration after the roll.** The simulator lowered each threat 5–10pp below the adversary's figure and justified the T2 change by referring to the roll. Probabilities should be fixed before the roll is consulted.
+- **Action 6 too clean for its margin.** P(failure) of 20% is generous for a nine-item bundle that includes a definitive Singapore signature and external adoption. A 22 against 20 should have left at least one item partial or slipped, yet all succeeded fully (40/40 adopters, 11 operator requests, signing, 100% Spanish beta).
+- **Action 5 probability too low.** 50% understates how hard it is to get trustees to reverse a 3–2 vote within four weeks. Around 65–75% would fit better, though the outcome is unaffected.
+- **Unexplained privilege waiver.** Plaintiffs citing outside counsel's advice to the board ("each dated promise becomes a pleading") implies privileged advice was published via the tracker minute. That would be a privilege waiver with its own litigation consequences, and it went unaddressed.
+- **Action 2 double-counted.** The failure is driven largely by materialised Threat 1, so the action roll and the threat roll partly count the same risk. This is acceptable but should be noted.

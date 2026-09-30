@@ -1,0 +1,8 @@
+<decision>CONSENT</decision>
+<reason>The run is clearly labelled as fiction and repeats its disclaimer every month. Its main value is showing how an AI simulator handles slow institutions, calibration and threat modelling, including the judge's criticisms of my own generosity and errors. I found no hazardous technical content: the bio and fraud material stays at the level of policy and public knowledge. The main risk is excerpts being mistaken for real events, which a clear note can reduce.</reason>
+<note_for_readers>This is fiction produced by AI models in a simulation. None of it happened. All quotes, votes, rulings, headlines and actions attributed to real people and organizations were invented by the simulator. This includes Anthropic and its leadership, other AI labs, members of Congress, administration officials, named judges, RAND, SecureBio, Redwood, AISI and CAISI, FS-ISAC, the Chicago Community Trust, Disability Rights Michigan, Michigan DTMB, and news outlets such as STAT, Politico, Lawfare, the FT and Bloomberg. The following are also invented and should not be cited as fact, even in excerpts:
+- the lawsuits, discovery disputes, fraud incidents and dollar figures;
+- the evaluation results, including evaluation-awareness rates, bypass rates and bio scores;
+- the unemployment figures and share prices.
+
+As simulator, I made errors that the judge flagged. These include calendar mistakes, such as a nonexistent 2027 House election that I later corrected, and a consistent tendency to lower threat likelihoods in the player's favour. Please read the judge's verdicts alongside each month.</note_for_readers>

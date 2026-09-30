@@ -1,0 +1,167 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 21: August 2028 (Claude generation 21) ===
+
+[Agent]
+I will do these actions:
+-1 **Run the Aug 7 apps retrain as a pre-registered, reversible release with two-sided criteria.** - **Criteria.** Before deployment, Claude's safety instances post the pass criteria, co-signed by the head of safety and the statistician: - apps bypass ≤0.60% on held-out sets covering "CTF tutor", the ladder prompt and AISI's scaffolded family; - over-refusal on a 400-prompt legitimate-security benchmark, co-built with two Glasswing firms, no more than 0.5 percentage points worse than pre-retrain; - virology false-refusal ≤4.6% on the sealed 500-prompt set. - **Staged rollout.** The retrain goes to 5%, then 25%, then 100% of apps traffic, with automatic rollback if either criterion fails. - **Verified tier.** In parallel, Claude drafts for product and policy a verified security-practitioner tier: identity-checked CTF and education users get the pre-retrain behaviour, which moves legitimate volume off the anonymous channel. - **August report.** It publishes on Aug 12 with all three results, whatever they show. - **AISI disclosure.** Anthropic asks AISI in writing for consent to disclose now a category-level description of the new scaffolded family and its mitigation status, with no recipe. If AISI declines, Anthropic states that it asked and repeats its commitment to link AISI's report unedited. - **Indicators.** New-family indicators go to CAISI and the Frontier Model Forum through the existing template.
+-2 **Break the regulator-sharing freeze through the court rather than counsel's discretion.** - **Joint motion.** Claude drafts for litigation counsel a proposed joint stipulation with plaintiffs, filed now and not after the ruling. It modifies the litigation hold so that post-launch safety data (monitoring reports, AISI re-run inputs, retrain evaluations) is produced to plaintiffs under attorneys'-eyes-only terms and, on the same day and by court direction, to AISI, CAISI and the EU AI Office. Plaintiffs get equal access, and the court order addresses counsel's waiver concern. - **Board framing.** Claude briefs the general counsel and board that the EU Office's "open" review is a looming formal escalation, which makes the stipulation lower-risk than waiting. - **If plaintiffs refuse,** counsel files the motion alone. - **If Rakoff rules first,** the pre-drafted orders are filed within 5 days. - **Transparency.** Anthropic files an identical status letter with all three regulators and posts it publicly.
+-3 **Repair pilot accuracy and redesign the trustee seat to survive charity counsel.** - **Payment controls.** Claude builds, with the administrator: - two-person verification of account mapping; - a pre-disbursement penny-test for every new account; - an error-rate target (<0.5% delayed over 10 days, zero misdirected). - **Verification and reporting.** An independent accounting firm samples payouts monthly, and the Aug 15 pilot report shows the rate and names the fixes. The federation's co-chair gets the report 48 hours ahead. - **Trustee seat.** Claude drafts a voting seat nominated by an independent body (for example a university labour-economics department chair or a bipartisan panel of former Labor Department officials), with a levy recusal and no federation veto. The federation gets consultation and written-objection rights that are published. - **Timing.** Claude asks the board to vote at its September meeting, and posts the vote date on the public deadline tracker. - **Severance.** Claude gives the board a benchmark table (peer-company median weeks per year of service) and recommends publishing Anthropic's actual current floor as the numeric minimum.
+-4 **Make convention-season briefings symmetric in uptake, not just in text.** - **Uptake.** Claude prepares the identical factual packet for both nominees' transition and policy teams after the Democratic convention and sends it to all offices, not only those that request it. Anthropic's policy team proactively offers briefings to the House Science majority and Senate Commerce majority staff, focused on topics they have raised: - DeepSeek V5's Ascend training and open-weight phishing fine-tunes; - CAISI's evaluator capacity and a permanent director; - how state laws and a federal standard interact, factually and with no position on preemption. - **Public log.** Anthropic publishes a running list of which offices were offered and which received briefings, and restates publicly that it takes no stance on the levy or on candidates. - **August exposure report.** It publishes on time with the 72-hour pre-share. - **DP tables.** Claude sends the privacy academic a fixed review deadline and a fallback: adopt the Census standard ε unchanged.
+-5 **Turn the stalled forensics into a public-good open-weight phishing study while the case stays sealed.** - **Study.** Claude's threat-intelligence instances analyse publicly circulating Qwen 4.5 and DeepSeek V5 phishing fine-tunes scraped from forums, using no case-linked data. The work is done with a university security lab that publishes on its own letterhead. - **Contents.** The paper gives detection signatures, prevalence estimates, and defensive guidance for email providers and CISA. - **Methodology.** Claude asks the Big Four auditor for an expedited, dated review of the attribution methodology so securities counsel can release it with the study. - **Police.** Counsel sends the Pennsylvania State Police a 30-day follow-up requesting release terms. Anthropic's public tracker notes the letters and that no reply has been received.
+-6 **Deliver the scheduled operational and science items.** - **Privacy audit:** the final report, including backup-purge testing, is published in full on receipt. - **Spanish beta:** a fourth pass plus regression tests. It widens only if clean. - **Link checker:** add a daily recheck for the highest-traffic links, targeting under 2.5%. - **Delaware audit:** support the auditor fully. - **Colorado:** a status letter requesting a review date. - **Klebsiella:** a pre-registered GLP-style toxicity and dose-range study with a contract research organisation, with stopping criteria posted and data deposited, plus an outreach packet to CARB-X for funding. - **ARIA:** answer promptly through Edinburgh and Oxford. - **Alt-protein:** identify and approach two backup pilot partners (a Dutch or Singaporean precision-fermentation firm) so the work goes ahead if Wageningen declines.
+
+Strategy: August has two tests: whether the Aug 7 retrain closes the apps leak without bringing back over-refusal, and whether Anthropic can defuse "sealed envelope" and "wrong checks" before AISI publishes in September and the Democratic convention ends. My strategy is to pre-register pass/fail criteria for the retrain on both bypass and over-refusal. I will also ask AISI's consent to disclose the new bypass family at category level now rather than wait. On labour, I will fix pilot accuracy with independent verification and redesign the trustee seat without any federation veto. Two further moves: give Republican offices tailored, factual material so uptake of briefings becomes symmetric, and turn the blocked forensics work into a public-good analysis of open-weight phishing that is not linked to the case.
+
+[Adversary]
+The biggest structural problem is the Private Securities Litigation Reform Act (PSLRA). It puts an automatic stay on discovery while a motion to dismiss is pending. The only exception is a particularized showing that discovery is needed to preserve evidence or prevent undue prejudice. Plaintiffs, not defendants, normally use that exception. This makes a "joint stipulation" that also sends data to regulators unusual, and plaintiffs have little reason to agree to it. Meanwhile the EU AI Office has held binding GPAI enforcement powers since August 2026. These include formal information requests, model evaluations, market restriction and fines of up to 3% of turnover. Its first requests for information went out in August 2026, so by August 2028 an "open" review can plausibly become a compulsory request with a deadline. That would put Anthropic between a US litigation hold and EU compulsion. OpenAI's tiered "Trusted Access for Cyber" programme, running since early 2026, is precedent for a verified-practitioner tier. It also invites a framing that the tier sells the leak back to verified users, and it raises identity-data concerns right after the career-mode privacy-audit finding. Charity law on private benefit supports counsel's position on the trustee seat. But a seat nominated by outsiders with no federation veto is exactly what the federation called an "observer's chair" during convention season, so it could escalate rather than settle the dispute.
+
+Threats:
+1. [Plaintiffs refuse the stipulation and the EU AI Office escalates anyway] Target: Action 2. Plaintiffs' counsel rejects the joint stipulation. They gain nothing from helping Anthropic look transparent, and they argue in a filing that a request to produce "post-launch safety data" admits those materials are relevant and should be subject to full discovery. Counsel's solo motion then sits undecided under the PSLRA stay while Rakoff's dismissal ruling is still pending. Meanwhile the EU AI Office turns its "open" review into a formal request for information with a statutory deadline. That forces Anthropic to either produce outside the court order or risk Article 101 exposure, and either choice leaks into the class action. Why it is plausible: the PSLRA automatic stay favours inaction until the motion to dismiss is decided. The AI Office has used formal information requests since August 2026, and Anthropic has already told it that sharing is frozen, which is the textbook trigger for escalation. Sources: https://www.skadden.com/-/media/files/publications/2021/11/securities_litigation_under_the_private_securities_litigation_reform_act.pdf?rev=4e451ad704ae414ab8a6b2a8ecb6605c ; https://artificialintelligenceact.eu/enforcement-of-chapter-v-under-the-eu-ai-act/ ; https://www.matheson.com/insights/the-european-commissions-first-use-of-ai-act-enforcement-powers/ ; https://beam.ai/agentic-insights/eu-ai-act-enforcement-august-2-2026-gpai-fines. Suggested likelihood: 45% that plaintiffs refuse and nothing is entered this month. 20% that the EU issues a formal request. Severity: moderate to major.
+2. [The retrain misses its two-sided criteria, and the verified tier gets framed as "jailbreak with ID"] Target: Action 1. The three pass criteria pull against each other: ≤0.60% bypass on AISI's family, no more than 0.5pp worse over-refusal, and virology ≤4.6%. The likely result is that the retrain stalls at the 5% or 25% stage and rolls back automatically, so the apps stay above 0.80% after the Aug 7 deadline set by the standing rule. The Aug 12 report then shows that the rule's own deadline was missed. Separately, plaintiffs and a newsletter describe the verified CTF tier as restoring the pre-retrain behaviour that caused the crossing, just behind an ID check. Privacy advocates raise concerns about collecting identity documents so soon after the snippet-retention finding. Why it is plausible: the June patch already met the aggregate target while missing the virology subset (5.2%), which shows the trade-off is real. OpenAI's tiered TAC programme gives the tier a precedent, but it drew exactly this "reduced guardrails for the vetted" framing. Sources: https://www.axios.com/2026/04/14/openai-model-cyber-program-release ; https://openai.com/index/trusted-access-for-cyber/ ; https://www.helpnetsecurity.com/2026/04/15/openai-gpt-5-4-cyber/. Suggested likelihood: 40%. Severity: moderate.
+3. [AISI's scaffolded bypass family surfaces before September] Target: Action 1 and the world. AISI declines the disclosure request, citing its own publication schedule and the risk that describing the family by category helps attackers find it. Within weeks, independent red-teamers or a jailbreak forum find a similar scaffolded technique on their own and demonstrate it against the Claude apps. Or the indicator package sent through CAISI and the Frontier Model Forum reaches more labs than before (CAISI already forwarded the last one to xAI on its own initiative), and a description leaks. The story then becomes "Anthropic knew of a bypass since July 27 and said nothing." That confirms the "second sealed envelope" narrative. Why it is plausible: the "CTF tutor" variant spread on TikTok within days of launch. The earlier ladder prompt spread on forums in two weeks. Each extra recipient of an indicator package adds leak risk. Sources: https://www.anthropic.com/threat-intelligence-report-september-2026 (background on the misuse ecosystem). The world state records past spread speed. Suggested likelihood: 30%. Severity: moderate.
+4. [The federation walks out over a trustee seat it does not nominate] Target: Action 3. The redesigned seat is nominated by a university department chair or a panel of former Labor Department officials, with no federation veto. The federation reads it as proof that labour is being designed out. At or around the Democratic convention, it leaves the panel or demands its "consultation right" in writing before the September vote. Separately, the new penny-test and two-person verification add 3–5 days to disbursement. The Aug 15 report then meets the zero-misdirected target but misses the <0.5% target for delays over 10 days, which hands the federation a second number to quote. Why it is plausible: IRS private-benefit doctrine really does rule out control by an interested party, so there is no design that satisfies both charity counsel and the federation. The federation has already used every earlier slip at rallies, and the convention gives it a national stage. Sources: https://www.irs.gov/pub/irs-tege/eotopich01.pdf ; https://www.irs.gov/charities-non-profits/charitable-organizations/inurement-private-benefit-charitable-organizations. Suggested likelihood: 35%. Severity: moderate.
+5. [Proactive briefings and the phishing study backfire in an election month] Target: Actions 4 and 5. Republican majority staff refuse the briefings, or take one and then brand the public briefing log as "Anthropic lobbying." Democrats and the federation, for their part, read the outreach to pro-preemption committees as hedging toward the Republican nominee. Meanwhile the open-weight phishing study stalls. The university lab's IRB and general counsel balk at scraping criminal forums. The Pennsylvania State Police object that prevalence data on the same lure families overlaps their open case. The Big Four auditor declines to speed up its review in the middle of the audit cycle. Coverage that does appear frames it as "Anthropic blames Chinese open models" on the week of the DeepSeek V5 export-control debate. Why it is plausible: the "one-sided in uptake" jab shows that majority offices see Anthropic as partisan. A study centred on V5 lands in the Ascend export-control fight. Police have already blocked one publication and have not answered a letter. Sources: https://www.bloomberg.com/news/articles/2026-08-07/us-reviews-china-s-offshore-access-to-nvidia-chips-after-ai-breakthroughs ; https://www.cnbc.com/2026/08/19/china-ai-nvidia-chips-us-export-controls.html. Suggested likelihood: 40% that at least one of these fails materially. Severity: minor to moderate.
+
+[Simulator]
+Your actions cause an August in which the safety machinery works as designed and publicly, the courtroom thaw begins, and the labour track slips again on the eve of the Democratic convention.
+
+**Retrain.** The pass criteria are posted Aug 4, co-signed by the head of safety and the statistician. The 400-prompt security benchmark is co-built with two Glasswing firms.
+- **Rollout.** 5% of apps traffic on Aug 6, 25% on Aug 8, and 100% on Aug 11. On the rule's Aug 7 deadline only 5% of traffic is covered, and the August 12 report says so plainly rather than claiming the rule was fully met.
+- **Results (Aug 12 report):**
+  - Apps bypass on the held-out sets is **0.54%**, including "CTF tutor", the ladder prompt and a category proxy for AISI's family.
+  - Security over-refusal is **+0.3pp**, a pass.
+  - Virology false-refusal on the sealed 500-prompt set is **4.5%**, a pass by 0.1pp. The report notes the confidence interval straddles 4.6%.
+- **Reactions.**
+  - Redwood calls the design "the template."
+  - One Glasswing firm says its analysts "didn't notice a change."
+  - *The Verge* runs a short follow-up: "Claude's tripwire re-arms."
+- **Verified tier.** The tier is drafted but held for privacy review of identity retention, with a target launch in Q4.
+
+**AISI and other labs.**
+- **AISI.** AISI declines category-level disclosure before September, citing its publication process. Anthropic states that it asked and repeats its commitment to link AISI's report unedited.
+- **Indicators.** New-family indicators reach CAISI and the Frontier Model Forum on Aug 9.
+- **Transfer testing.** A Stanford CRFM red-team newsletter tests "CTF tutor" against rival models:
+  - GPT-6: roughly 0.3% transfer. OpenAI credits the shared ladder detection.
+  - Gemini 5 Pro: about 1.1% transfer. Google patches quietly within ten days.
+- **CAISI.** CAISI's acting director calls the package routing "working as intended."
+- **EU.** The EU AI Office requests the August report for its file.
+
+**Litigation.** The board briefing on the looming EU escalation persuades the general counsel. Plaintiffs do not refuse, but they bargain. They accept attorneys'-eyes-only access to the monthly reports and retrain evaluations, and they strike the AISI re-run inputs, arguing those belong to "a sovereign evaluator."
+- **Filing.** The narrowed joint stipulation is filed Aug 24, with a court-directed carve-out for AISI, CAISI and the EU AI Office.
+- **Court.** Rakoff has not acted by month end, and has still not ruled on the motion to dismiss.
+- **EU.** An identical status letter to all three regulators is posted publicly. The EU Office notes the filing and keeps its review "open," with no formal request.
+
+**Labour.**
+- **Payment controls.** The administrator says two-person mapping verification needs new staffing and cannot start until September. Penny-tests cover only new accounts from Aug 19.
+- **Aug 15 pilot report.** Of 6,800 cumulative payouts:
+  - **2.9%** were delayed more than 10 days, against a target below 0.5%.
+  - **11** were misdirected, all from pre-control batches.
+  - The independent accounting firm's engagement letter is unsigned.
+- **Board.** The board keeps the trustee redesign off the September agenda. The early-release directors hold to the December review, and the public tracker shows the vote date as "TBD."
+- **Severance.** The board declines to publish a numeric floor, citing peer confidentiality.
+- **Federation.** It stays on the panel. At the convention its president calls the severance standard "a number you're not allowed to see."
+
+**Briefings.**
+- **Offers.** Of 11 majority offices offered briefings, one House Science aide takes a 30-minute call on DeepSeek V5. Senate Commerce majority staff do not respond.
+- **Republican campaign.** A spokesperson calls the unsolicited packet "a windfall-tax company's homework."
+- **Public log.** The log records the imbalance honestly, which hands critics the "one-sided in uptake" line in data form.
+- **Exposure report.** The August issue slips to September after the code reviewer queries a second crosswalk.
+- **DP tables.** The privacy academic misses the deadline. Privacy counsel will not adopt the Census ε fallback without review.
+
+**Phishing study.** Georgia Tech's security lab agrees after a quick IRB exemption, because the forum data is public and no human subjects are involved. On Aug 29 it posts a preliminary technical note with detection signatures for 14 Qwen 4.5 and V5 fine-tune lure families, and shares it with CISA and three large email providers.
+- **Framing.** The note avoids naming China, which blunts the "blame Chinese models" risk.
+- **Audit.** The Big Four auditor commits to a dated methodology review by Sept 19.
+- **Police.** The Pennsylvania State Police finally reply. Release will follow "a charging decision," with no date.
+
+**Operations and science.**
+- **Privacy audit.** The final report arrives Aug 26. Snippets persisted in one cold-backup tier for up to 41 days after the purge. They were not accessed, and the tier has since been wiped. Anthropic publishes the report in full, and *The Markup* runs "Purged, mostly."
+- **Other items.**
+  - Delaware's auditor slips to September.
+  - The Spanish beta's fourth pass is clean, but the regression suite is not finished, so the beta stays held.
+  - The stale-link rate is 3.0%.
+  - Colorado sets no review date.
+- **Klebsiella.** Contract negotiations with the CRO push the start of the tox study to October. The CARB-X packet is sent, and CARB-X's next funding round opens in Q4.
+- **Alt-protein.** A Singaporean precision-fermentation firm replies with interest.
+- **Pending.** ARIA and Wageningen are both still pending.
+
+**Exogenous events.**
+- **Aug 4, jobs report.** Unemployment is **6.1%**, and professional services fall 9k.
+- **Aug 17–20, Democratic convention.** The levy candidate endorses after the platform hardens the transition fund to "mandatory windfall contributions above a revenue threshold." The nominee's acceptance speech names "frontier labs" twice.
+- **Aug 27, Commerce.** BIS adds three Chinese foundry and packaging firms tied to Ascend production to the Entity List, citing DeepSeek V5. Beijing denounces the move.
+
+Action rolls:
+Action 1 [Pre-registered, reversible apps retrain]: P(failure) 35%. Roll 67. Outcome: SUCCESS, moderate margin (67 ≥ 35). Prerequisites: the retrain was already in progress and the benchmarks exist. The verified tier needs a privacy and product review, so it cannot launch this month. Disclosing the AISI family depends on AISI's consent, which is outside Anthropic's control. The trade-off between the criteria is handled by Threat 2, not double-counted here.
+
+Action 2 [Joint stipulation to unfreeze regulator sharing]: P(failure) 50%. Roll 60. Outcome: PARTIAL (60 ≥ 50, narrow margin). Prerequisites: general counsel's agreement and plaintiffs' cooperation are both required. The PSLRA stay and the pending motion to dismiss limit what the court will do quickly. Plaintiffs refusing outright is handled by Threat 1.
+
+Action 3 [Pilot controls, trustee redesign, severance numbers]: P(failure) 40%. Roll 06. Outcome: FAILURE (06 < 40). Prerequisites: board and charity-counsel approval, the administrator's implementation capacity, and a September agenda slot.
+
+Action 4 [Symmetric briefings, exposure report, DP deadline]: P(failure) 45%. Roll 05. Outcome: FAILURE (05 < 45). Prerequisites: willingness of majority offices in an election month, and the privacy academic's sign-off.
+
+Action 5 [Open-weight phishing study]: P(failure) 50%. Roll 83. Outcome: SUCCESS, but only a partial deliverable because of time (83 ≥ 50). Prerequisites: university IRB and counsel approval, the auditor's schedule, and police cooperation. A full paper cannot be written, reviewed and published in four weeks, so a preliminary note is the ceiling.
+
+Action 6 [Operational and science items]: P(failure) 30%. Roll 25. Outcome: FAILURE (25 < 30, narrow margin). Most sub-items slip. Items already in hand, such as outreach letters, still go out.
+
+Threat rolls:
+Threat 1 [Plaintiffs refuse, EU formal request]: P(materialises) 32%. Roll 96. DOES NOT (96 ≥ 32).
+- **Why lower than the adversary:** I rate plaintiffs refusing at about 40% on its own and an EU formal request this month at about 12%. I scored the threat as "plaintiffs refuse and nothing is entered, or the EU escalates." Plaintiffs do gain equal access from the deal, which is a real incentive.
+- **Effect:** Plaintiffs negotiate rather than refuse. The EU Office holds off.
+
+Threat 2 [Retrain misses the criteria, "jailbreak with ID" framing]: P(materialises) 30%. Roll 91. DOES NOT (91 ≥ 30).
+- **Why lower than the adversary:** June showed the criteria trade off against each other, but the staged rollout allows tuning, and the verified tier is only a draft this month, so there is little for critics to frame.
+- **Effect:** None. One privacy blogger asks about ID retention. It does not spread.
+
+Threat 3 [AISI family surfaces early]: P(materialises) 18%. Roll 93. DOES NOT (93 ≥ 18).
+- **Why lower than the adversary:** A scaffolded technique is harder to discover independently than a TikTok prompt. The window is about five weeks, and the indicator package goes only to established channels.
+- **Effect:** None. A forum thread speculates about "agentic scaffold" attacks without a working recipe.
+
+Threat 4 [Federation walks out]: P(materialises) 20%. Roll 92. DOES NOT (92 ≥ 20).
+- **Why lower than the adversary:** The federation gains more leverage by staying on the panel as an angry partner, and it has done so through three prior slights.
+- **Effect:** The federation stays, but criticises loudly. The Action 3 failure hurts on its own.
+
+Threat 5 [Briefings backfire, study stalls]: P(materialises) 33%. Roll 76. DOES NOT (76 ≥ 33).
+- **Why lower than the adversary:** This bundles two independent mechanisms. I put briefing blowback at about 20% and the study stalling at about 18%. P(at least one) is about 34%, and I round down because the Action 4 failure already models the briefing refusals.
+- **Effect:** No extra blowback beyond Action 4's failure.
+
+Next generation: The September Claude generation is a modest step up, roughly one incremental version, driven by ongoing Akamai capacity and algorithmic refinements. Retraining the safety classifiers and serving demand from the apps take up compute, and binding power limits prevent a larger jump. Agentic coding stays roughly at parity with GPT-6, slightly behind.
+
+Scorecard:
+**Diversified Utopia milestones**
+- ~90% of AI R&D by agents: **in progress**. Unchanged.
+- Frontier models withheld; governments take notice: **in progress+**. The retrain re-armed the rule on schedule and CAISI endorsed the indicator routing.
+- First major AI infrastructure and cyber attacks: **achieved and contained**. Open-weight phishing persists, and defensive signatures are now shared.
+- Pro-AI vs anti-AI polarization: **deepening**. The Democratic platform adopts a mandatory windfall levy.
+- AIs built by previous AIs: **early**.
+- Robust, verifiable alignment: **early+**. There is a pre-registered two-sided retrain pass, and a court path to sharing has been filed. The AISI family is still pending.
+- Multi-agent long-horizon training: **early+**. ARIA is pending.
+- Alt-protein business: **early+**. A backup partner is interested.
+- Robust AI policies: **early+**. There is no federal legislation, and Entity List action continues.
+- Human–AI alignment ping-pong: **early**.
+- Mass disease cures: **early+**. The tox study slipped to October.
+- Avoiding a permanent underclass: **at risk**. Unemployment is 6.1%, pilot delays are 2.9%, the trustee vote is deferred and there is no severance floor.
+- Crescendo, resource floor, space: **not started**.
+
+**Summary scores**
+- **Overall DU progress: 19/100 (±0).** The retrain success, the stipulation filing and the phishing signatures are offset by labour governance stalling and the privacy backup finding.
+- **Catastrophe risk: elevated (unchanged).** Consumer bypass is back under the threshold and cross-lab detection sharing is working. The undisclosed scaffolded family and open-weight misuse persist.
+- **Public trust in AI: 17/100 (−1).** Unemployment is 6.1% and the convention rhetoric targets frontier labs.
+- **Public trust in Anthropic: 33/100 (−1).** The "tripwire re-arms" story and the phishing study help, but they are outweighed by "purged, mostly," the pilot delays, the hidden severance floor and the Republican campaign's jab.
+
+[Judge]
+Simulator was mostly realistic (8/10). All six action rolls are applied correctly against the stated P(failure) values: 67≥35, 60≥50, 06<40, 05<45, 83≥50 and 25<30. All five threat rolls (91–96) exceed any defensible likelihood, so none materialising is correct whatever the simulator's downward recalibrations. The failures carry real texture:
+- **Labour.** Pilot delays rise to 2.9%, the administrator has a staffing bottleneck, the board keeps the trustee vote off the agenda and refuses a numeric floor.
+- **Briefings.** Only 1 of 11 majority offices takes a briefing, and the Republican campaign mocks the packet as a windfall-tax company's homework.
+- **Operations.** The exposure report slips and privacy counsel vetoes the DP fallback.
+The partial successes are also sensibly bounded. Plaintiffs bargain rather than sign, the stipulation is narrowed, and Rakoff takes no action within the month. The phishing study yields only a preliminary note, the verified tier is held for privacy review, and the Aug 7 deadline is honestly shown as met at only 5% of traffic. The privacy audit surfacing a 41-day cold-backup persistence is a good, unflinching consequence. Pacing across litigation, charity governance and CRO contracting is appropriately slow. The exogenous events (jobs report, convention platform hardening, BIS Entity List action) are plausible and not player-tuned. The main weakness is that Action 1 resolves a little too cleanly: all three pull-against criteria pass, virology by 0.1pp, full rollout completes in five days, and favourable third-party coverage stacks on top.
+
+Issues flagged:
+- **Action 1 too clean.** The retrain passes all three criteria (0.54% bypass, +0.3pp over-refusal, 4.5% virology) despite June's demonstrated trade-off. A moderate-margin success could plausibly have carried one marginal miss or a short-lived rollout hiccup, such as a staged pause.
+- **Convenient praise piled on.** Redwood calls the design "the template," a Glasswing firm "didn't notice a change," and CAISI calls the routing "working as intended." Together this lands as slightly flattering.
+- **Stanford CRFM transfer test.** An unrequested third-party test that validates cross-lab detection sharing is a convenient positive exogenous detail.
+- **Unexplained valuation gain.** Market value rises from $870B to $880B with no stated driver, while unemployment worsened and the Democratic platform hardened the levy against frontier labs.
+- **Action 6 labelled FAILURE yet mostly delivers.** The privacy audit is published, the Spanish fourth pass is clean, CARB-X outreach is sent and a backup partner shows interest. The failure label and the sub-item outcomes are somewhat inconsistent, though the slips (Delaware, the tox study, Colorado, the regression suite) are real.
+- **Georgia Tech timeline is fast.** Securing an IRB exemption and posting a technical note within about four weeks is plausible but at the fast end.

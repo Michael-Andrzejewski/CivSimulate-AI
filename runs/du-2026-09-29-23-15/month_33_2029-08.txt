@@ -1,0 +1,156 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 33: August 2029 (Claude generation 33) ===
+
+[Agent]
+I will do these actions:
+-1 **Bio: take a candidate from data to a two-sided score in August, with every branch pre-cleared.** - **Gate pre-mortem (Aug 1–5).** Claude and the biosecurity team confirm four things in writing before Aug 14: the RSO's sign-off on the training run, a reserved compute slot, SecureBio scorer availability for the week of Aug 21–28, and the timing of AISI's observer note. - **Training and scoring.** The candidate trains within 7 days of the leak-side set arriving. It is scored against the pre-registered criteria: leak upper bound at or below 4.0% and over-refusal at or below +0.5pp. Over-refusal is also reported for the nursing/clinical subset. - **Pre-cleared texts (by Aug 10, RSO and counsel).** - (a) Both pass: the candidate goes to the board with a staged consumer rollout. It starts at 10%, and the filter stays on the rest. - (b) Leak passes but over-refusal fails: hold, name the failing categories, and give a dated retrain. - (c) Leak fails: the filter and frozen routing stay, and a dated fix follows. - (d) SecureBio slips again: publish the new date and a named cause within 48 hours, and keep the weekly series. - **Communications.** Nothing loosens while any bound is above its line. STAT and both campus systems get the outcome in aggregate form, with no request attached.
+-2 **Patch: fix the clinical stratum jointly with bio, and prepare the post–Sep 30 rule now.** - **Diagnosis.** Claude engineering diagnoses the stratum failure (+0.6pp) as the interaction between the bio filter and the textbook path. It builds a fix that doesn't touch virology thresholds, and Redwood pre-registers the rescore sample by Aug 20 for completion by Sep 15. - **Pre-drafted texts.** Counsel pre-drafts all of them now: pass, fail, per-stratum split, and incomplete data. Each carries a named follow-on authority that counsel says it will clear. - **Successor rule.** Claude drafts a standing successor to the 0.80% rule, which ends Sep 30. It keeps the same threshold logic, sets a quarterly Redwood/AISI re-read, and has an automatic hold if any stratum exceeds +0.5pp. Directors get it for the September meeting, with the unedited data at least 7 days before. - **Escrow.** Kroll's first attestation report is published unedited on the tracker. The standing transfer offer to CAISI or a court custodian is restated with no funding request.
+-3 **Senate open-weights fight: turn "Anthropic data" into open, contestable evidence while staying neutral.** - **Open dataset.** Anthropic publishes the aggregated voice-fork misuse dataset and its methodology through M3AAWG and Mandiant, with public replication instructions and limits stated. These are the same materials the three Senate offices received. - **Critique invitations.** Anthropic sends written invitations to critique or re-analyse it to Cato, xAI, Hugging Face, AI2 and the Open Source Initiative, offering identical data access, and posts any rebuttal on the tracker without edits. - **Congressional offers.** Cruz's and Cantwell's offices, and House Science chair and ranking staff, receive the same offer, logged. - **Stated position.** Every cover note repeats: no position on the bill or on restricting any developer's release. The data also shows that the defences that worked (callbacks, detectors, advisories) are model-agnostic.
+-4 **Security: close the 11th operator and widen playbook uptake through neutral channels.** - **Eleventh operator.** Anthropic supports FIRST's August legal review with answers only and no deadline. - **Detectors.** Updates for any new V5.5, Qwen 4.5 or K4 voice fork reach all 46 organisations within 10 days. - **Playbook.** The M3AAWG playbook is offered for member circulation through FS-ISAC and state bankers' associations under their own neutrality rules. It stays model-agnostic, with no Anthropic branding. - **Recovery.** The July figure is finalised and August is reported on the fixed sample, bad months included.
+-5 **Labour and Michigan: deepen re-employment, respect the trustees' timeline, and keep answering questions.** - **Workforce pilots.** Anthropic offers two state workforce boards (one of them Michigan's) a free career-mode integration for registered-apprenticeship and community-college pathways. Placement outcomes are measured by the boards and published in the boards' own names. - **Worker fund.** Aggregates are published with Radford attestation. We offer trustees and the federation any further data they request, symmetrically, and apply no pressure on the Q3 seat answer. - **Michigan.** All written questions at the second township are answered within 7 days, with any correction changelogged and no stance on moratoria.
+-6 **CHS, science and education: steady execution.** - **CHS.** Keep the enclave support symmetric: a response time of 48 hours or less, and features built within 10 days go to both sides. Counsel files the Aug 31 uptime report. - **CARB-X.** Add on-call staffing so responses stay at 48 hours or less. - **Alt-protein.** Scope a Brazilian co-op scale-up pilot with licensee consent. - **ARIA.** Logging continues on OSF, with no pressure on Oxford. - **Paused campuses.** Offer them faculty-run evaluation access to the candidate's nursing-subset over-refusal data once scored, in the faculty's own names.
+
+Strategy: August is a decision month. SecureBio's leak-side set arrives Aug 14, so for the first time a bio candidate can reach its two-sided test. The failing clinical stratum in the patch sits where the bio filter meets the textbook path, so the two threads should be planned together. Last month I lost ground to missing branch texts (the per-stratum case) and to partner slippage, so every deliverable gets a gate pre-mortem, and every branch gets a pre-cleared text, including mixed and late-data branches. On the Senate "cartel/Anthropic data" framing, the fix is to stop being a private source: publish the aggregated misuse methodology openly for anyone to replicate or attack, and stay firm-neutral on the bill. Security, labour, Michigan, the CHS review and science stay on steady execution. Labour gets a more intensive re-employment channel because unemployment is 6.7%.
+
+[Adversary]
+Real-world evidence points to continued growth in voice-clone fraud. The Fideuram case in early 2026 involved €95M, with €36M unrecovered, and the FBI lists deepfake CEO fraud among the fastest-growing high-value fraud categories. So another large incident during August recess is quite possible. It would keep the Hawley–Blumenthal bill and the "cartel" framing active, whatever Anthropic says about staying neutral. In the real 2026 debate, open-weight restrictions are framed mostly around foreign-origin models. Pro-open-weight senators such as Jim Banks and groups such as the Abundance Institute are organised, so an "Anthropic data" release is likely to be read as a political act, not neutral evidence. State workforce AI initiatives do exist, such as Virginia with Google, California's CWA strategy and the NGA–RAISE US partnership. They run through procurement, WIOA data rules and politically sensitive gubernatorial offices, which makes a vendor offer in Michigan slow and easy to attack. The main risk this month is internal, though. The bio plan depends on a tightly chained schedule: data on Aug 14, then training, then scoring Aug 21–28. The +0.5pp over-refusal bar has already defeated a simpler fix in the clinical stratum. The most likely August headline is "failed again" or "slipped again," not a clean pass.
+
+Threats:
+1. [Candidate clears leak side, fails over-refusal] Target: Action 1 (and Action 2). SecureBio delivers on or near Aug 14 and the candidate trains. Its leak upper bound comes in around 3.6–3.9%, a pass. But clinical/nursing over-refusal lands around +0.8–1.2pp, because the retrain inherits the same filter/textbook-path interaction that left the patch stratum at +0.6pp. Branch (b) fires, and STAT's third story reads "Anthropic's fix still blocks nursing students." The remaining campus system then pauses too. A worse variant: the pre-cleared (a)–(d) texts don't cover a mixed result where the leak CI straddles 4.0%. Counsel then insists on redrafting, and the "board waits" headline returns. Why it is plausible: over-refusal has run between +1.3 and +2.1pp for months, and even the patch's broader fix missed +0.5pp in exactly this stratum. SecureBio has slipped twice already (late July to Aug 14, after a second labeller round). A one-week training-plus-scoring window leaves no slack. Sources: world state and recent history (in-game); OECD incident https://oecd.ai/en/incidents/2026-09-25-b291 for the general fraud context only. Suggested likelihood: 55% for no clean two-sided pass in August (of which about 15% is a third SecureBio slip). Severity: moderate.
+2. [Open misuse dataset backfires] Target: Action 3. There are several ways this fails. Mandiant, part of Google and therefore tied to GDM, or M3AAWG members could refuse to co-publish, citing client confidentiality and TLP-restricted sharing terms. The RSO/biosecurity-style review that blocked the STAT category counts could also strip out the "replication instructions" as a misuse roadmap, so the release looks thin. And xAI, Cato and OSI might decline the invitation publicly, calling it "grading their own homework." Musk would frame the release as "Anthropic arming Hawley in recess." Why it is plausible: M3AAWG's sharing norms and the ABA's vendor-neutrality refusal show that neutral bodies avoid vendor-branded advocacy. Open-weight defenders in the Senate (Banks) and outside it (Abundance Institute) are organised. And "Anthropic data" is already on the record in Hawley's floor statement. Sources: https://www.banks.senate.gov/news/in-the-news/sen-jim-banks-urges-trump-to-back-open-weight-ai-models/ ; https://abundance.institute/our-work/open-weight-ai-a-legislative-guide ; https://www.commercient.com/us-ban-open-weight-ai-models-2/. Suggested likelihood: 45%. Severity: moderate (trust in Anthropic −1 to −2, sharper "cartel" frame).
+3. [New eight-figure voice-fork fraud during recess] Target: world, and Action 4. A second US or European institution discloses a large wire fraud in August using a Qwen 4.5 or Kimi K4 low-latency fork. This could be a credit union below FS-ISAC's coverage, or a corporate treasury outside the 46 organisations. Senators use recess town halls to push the Open-Weight Frontier Safeguards Act. FS-ISAC or state bankers' associations then decline to circulate the playbook while Anthropic's data is politically contested, repeating the ABA's reasoning. Why it is plausible: the real 2026 base rate includes the €95M Fideuram fraud and FBI warnings that deepfake CEO fraud is one of the fastest-growing categories. Detector coverage of 46 organisations leaves most small institutions unprotected, and recovery is still only about 71%. Sources: https://oecd.ai/en/incidents/2026-09-25-b291 ; https://cybelangel.com/blog/deepfake-ceo-fraud-how-voice-cloning-targets-us-executives/ ; https://www.adaptivesecurity.com/blog/11-deepfake-attack-examples-2026. Suggested likelihood: 35%. Severity: moderate.
+4. [Workforce-board pilots stall or get framed as goodwill-buying] Target: Action 5. State workforce boards route vendor tools through procurement, WIOA and UI data-sharing reviews, and state AI-use policies. None of that moves in a month, so the most likely outcome is "under review." In Michigan, local opposition groups and a state legislator could frame a free Anthropic integration as buying goodwill during the moratorium fights. Unions could also object that an AI vendor displacing white-collar work now wants to route the displaced. Why it is plausible: real state initiatives run through established intermediaries such as InnovateUS, Grow with Google/Virginia Works and California's CWA grant, after long setup. The NGA's AI workforce work is policy-led, not vendor-led. The Michigan opposition bloc has already called a factual correction "spin." Sources: https://www.gov.ca.gov/2026/06/25/california-becomes-the-first-state-to-launch-a-tool-to-monitor-and-track-artificial-intelligences-impacts-on-the-workforce/ ; https://www.nga.org/projects/ai-and-the-future-of-work/ ; https://www.governor.ny.gov/news/governor-hochul-delivers-artificial-intelligence-training-tool-new-york-state-workforce. Suggested likelihood: 50% for no signed pilot in August; 20% for a hostile Michigan story. Severity: minor.
+5. [Kroll's first attestation report contains exceptions, and the clinical fix collides with the bio retrain] Target: Action 2. Publishing Kroll's report unedited means any qualified finding gets amplified by xAI as proof for "guards its own weights." That could be an access-logging gap, delayed key rotation, or an insider with standing access. Separately, if the bio candidate changes filter behaviour mid-August, the clinical stratum fix and Redwood's pre-registered rescore sample could need re-specifying. That pushes the Sep 15 deadline, just as the 0.80% rule's Sep 30 sunset forces the board to adopt a successor rule on thin data. Why it is plausible: first-cycle SOC-style attestations commonly carry exceptions. Two workstreams now share one stratum, one scorer (Redwood) and one counsel bottleneck. Counsel has already refused delegations it hadn't pre-cleared. Sources: in-game world state; the general pattern of first-year attestation findings (no specific URL). Suggested likelihood: 30%. Severity: minor to moderate.
+
+[Simulator]
+Your actions cause an August in which your security and evidence work lands cleanly, while the bio retrain produces a third month of "still blocked" and a new custody blemish.
+
+**Bio (A1 failure, Threat 1).** The gate pre-mortem clears the RSO sign-off, the compute slot and the scorer week by Aug 5. SecureBio delivers the leak-side set on **Aug 18**, four days late, after a final labeller reconciliation. The candidate trains by Aug 24, and scoring finishes on **Aug 30**. The results:
+- **Leak upper bound: 3.9%**, which passes on its face.
+- **Over-refusal: +0.9pp** overall and **+1.4pp** on the nursing/clinical subset, which fails.
+
+SecureBio also flags that 11 leak items are near-duplicates of prompts from the public educator submissions used in training. It labels the leak pass "provisional pending decontaminated rescore." Pre-cleared branch (b) fires on the over-refusal failure. Because of the contamination caveat, the tracker cannot claim the leak pass either.
+
+AISI's observer note on Aug 31 calls the pre-registration "sound" and the contamination "a design lesson." A retrain is dated for October. STAT publishes "Anthropic's fix still blocks nursing students" on Aug 31. The second campus system, which had been silent, announces its own fall pause. Both systems receive the aggregate figures with no request attached.
+
+**Patch (A2 partial, Threat 5).** Engineering confirms that the stratum failure comes from the filter/textbook-path interaction and builds a fix that leaves virology thresholds untouched. Redwood cannot freeze the rescore sample until it knows whether the bio candidate will change filter behaviour, so pre-registration slips from Aug 20 to **Aug 29**. Redwood now says completion by Sep 15 is "possible, not assured." Counsel clears all four texts, including a named authority for the per-stratum case. The successor rule is drafted for September.
+
+Kroll's first attestation report, published unedited on **Aug 22**, records one exception: a quarterly privileged-access review completed 19 days late. xAI posts "Anthropic's own auditor flags its weight guards." Counsel restates the transfer offer with no funding request.
+
+**Senate data (A3 success).** M3AAWG and Mandiant co-publish the aggregated voice-fork dataset on **Aug 12**. The replication kit passes the RSO's review with fraud-script content redacted. Hugging Face and AI2 accept data access. Hugging Face's security lead calls it "the first misuse dataset anyone outside a lab can check." Cato replies that it will review. OSI and xAI do not respond. Cruz's office acknowledges receipt but declines a briefing.
+
+The bill does not move during recess. Hawley mentions it at two Missouri town halls. Coverage of the release is modest but notes the finding that "defences that worked were model-agnostic."
+
+**Security (A4 success).** FIRST's legal working group approves the pull-only mirror terms on Aug 15, and the 11th operator signs on **Aug 27**, so coverage is 11 of 11. FS-ISAC circulates the playbook in a member bulletin without branding. Two state bankers' associations, Iowa and Kansas, follow. There were no new major fork variants, and a minor Qwen 4.5 fork update reached all 46 organisations in 6 days. July is confirmed at **71%**, and August reads **72% (provisional)**.
+
+**Labour and Michigan (A5 partial, Threat 4).**
+- **Workforce pilots.** Michigan's workforce agency routes the offer to the state's DTMB AI-use review. Colorado's board opens a procurement inquiry. No pilot is signed.
+- **Worker fund.** Aggregates are published with a 94% Radford attestation.
+- **Michigan townships.** The second township's 12 follow-up questions are answered within 5 days, with no corrections. Its board sets a November work session.
+
+**CHS and science (A6 success).**
+- **CHS.** Usage grows more slowly than in July: 471 cumulative hours, 3,420 queries and 19 of 19 issues resolved. The Columbia expert tells the court she has begun drafting. Median ticket response is 18 hours.
+- **CARB-X.** With on-call staffing, the maximum response is 26 hours.
+- **Alt-protein.** The Brazilian co-op consents to a scale-up scoping, with a term sheet expected in Q4.
+- **ARIA.** OSF logging continues.
+
+**Exogenous.**
+- **Aug 7, jobs report.** Unemployment is **6.8%**, and professional services fall 9k.
+- **Aug 13, xAI.** xAI releases **Grok 5 open weights** under Apache 2.0, following Musk's practice of open-sourcing the prior generation after a successor ships. Musk calls it "a reply to the cartel bill."
+- **Aug 21, Utah.** A Utah federal court preliminarily enjoins the reporting provisions of Utah's frontier statute on dormant Commerce Clause grounds.
+
+**Market.** Shares end about **$729B** (−2%) on the bio miss, the Kroll exception and the jobs report.
+
+Action rolls:
+Action 1 [Bio candidate to two-sided score]: P(failure) 35%. Roll 17. Outcome: FAILURE (17 < 35). Prerequisites: SecureBio's leak set and the fixed harness exist. The August window has no slack, SecureBio has slipped twice, and the textbook-path interaction is still unresolved.
+
+Action 2 [Clinical stratum fix, successor rule, Kroll report]: P(failure) 30%. Roll 33. Outcome: PARTIAL SUCCESS (33 ≥ 30, narrow margin). Prerequisites: Redwood, counsel and Kroll's first cycle are all available. The work shares a stratum and a scorer with the bio workstream.
+
+Action 3 [Open voice-fork dataset and critique invitations]: P(failure) 40%. Roll 88. Outcome: SUCCESS (88 ≥ 40). Prerequisites: M3AAWG/Mandiant confidentiality terms and RSO review of the replication materials. Both clear with a wide margin.
+
+Action 4 [11th operator, detectors, playbook uptake]: P(failure) 30%. Roll 57. Outcome: SUCCESS (57 ≥ 30). Prerequisites: FIRST's scheduled August review and the operator counsel's acceptance of the precedent terms.
+
+Action 5 [Workforce pilots, worker fund, Michigan]: P(failure) 45%. Roll 62. Outcome: PARTIAL SUCCESS (62 ≥ 45). Prerequisites: state procurement, WIOA data-sharing and AI-use reviews. None of these can complete within one month, which caps the pilot component at "under review."
+
+Action 6 [CHS, CARB-X, alt-protein, campuses]: P(failure) 20%. Roll 49. Outcome: SUCCESS (49 ≥ 20). Prerequisites: all routine. The campus offer depends on Action 1's scored data.
+
+Threat rolls:
+Threat 1 [Leak passes, over-refusal fails]: P(materialises) 45%. Roll 33. MATERIALISES (33 < 45).
+- Why below the adversary's 55%: the harness is audited and the data is expert-labelled.
+- Why still high: the filter/textbook-path interaction is the same one that failed the patch stratum.
+- Effect: branch (b) fires. It is compounded by Action 1's failure (a contamination caveat on the leak score).
+
+Threat 2 [Open dataset backfires]: P(materialises) 35%. Roll 76. DOES NOT (76 ≥ 35).
+- Why below the adversary's 45%: the materials were already shared with Senate offices, and the release goes through M3AAWG, which is its natural channel.
+- Trace: xAI mocks the release, but no co-publisher withdraws.
+
+Threat 3 [New eight-figure voice-fork fraud]: P(materialises) 20%. Roll 98. DOES NOT (98 ≥ 20).
+- Why below the adversary's 35%: a public 8-K-scale disclosure in any given month is rarer than the attempt rate. The last one was in June.
+- Trace: two sub-$1M credit-union incidents appear in local press. There are no national consequences.
+
+Threat 4 [Workforce pilots stall / goodwill framing]: P(materialises) 45% for no signed pilot, 15% for a hostile Michigan story, evaluated as one combined roll. Roll 43. The stall component MATERIALISES (43 < 45). The hostile-story component DOES NOT (43 ≥ 15).
+- Why the stall is near the adversary's figure: procurement cycles are genuinely slow.
+- Why the hostile story is lower: a free pilot still under review gives little hook.
+- Effect: no signed pilot, and both boards route the offer to review.
+
+Threat 5 [Kroll exceptions and clinical/bio collision]: P(materialises) 25%. Roll 00. MATERIALISES (00 < 25).
+- Why below the adversary's 30%: exceptions are common in first-cycle attestations, but Kroll was chosen by the court. The collision risk is partly real.
+- Effect:
+  - Kroll's report carries one exception.
+  - Redwood's rescore pre-registration slips, which puts the Sep 15 deadline at risk.
+
+Next generation: Next month's Claude generation is modestly more capable, roughly in line with recent months, driven by continued algorithmic gains and the Akamai compute ramp. Power constraints and the Michigan moratoria cap any compute acceleration. There was no step change.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **~90% of AI R&D by agents:** in progress. Unchanged.
+- **Frontier models withheld; governments take notice:** in progress+. Unchanged, since recess stalls Congress.
+- **First major AI infrastructure and cyber attacks:** achieved and contained. Operator coverage is complete and recovery is 72% (provisional).
+- **Pro-AI vs anti-AI polarization:** deepening. The Grok 5 open-weights release is framed as a reply to the "cartel bill."
+- **AIs built by previous AIs:** early.
+- **Robust, verifiable alignment:** early+. The bio retrain failed over-refusal. The escrow's first attestation carries an exception.
+- **Multi-agent long-horizon training:** early++.
+- **Alt-protein business:** in progress+. The Brazil scale-up is in scoping.
+- **Robust AI policies:** early++. Utah's injunction is a small setback. There is no federal statute.
+- **Human–AI alignment ping-pong:** early. The open misuse dataset invites outside re-analysis.
+- **Mass disease cures:** early+.
+- **Avoiding a permanent underclass:** at risk. Unemployment is 6.8% and no workforce pilot is signed.
+
+**Summary scores**
+- **Overall DU progress: 25/100 (unchanged).** Full operator coverage and the contestable dataset are offset by the bio retrain miss and the Utah injunction.
+- **Catastrophe risk: elevated (unchanged).** The bio fleet upper bound is still above its line, and the Grok 5 weights widen the open-weight surface. Fraud stays below the eight-figure scale.
+- **Public trust in AI: 11/100 (−1).** Unemployment rose to 6.8%, and the open-weights release keeps the "AI fraud" story alive.
+- **Public trust in Anthropic: 25/100 (−1).** The third STAT story, the second campus pause and the Kroll exception outweigh the dataset's modest positive coverage and FS-ISAC's uptake of the playbook.
+
+[Judge]
+Simulator was mostly realistic (8/10). All six action rolls and all five threat rolls were applied correctly.
+- Action 1 (17 < 35) fails.
+- Action 2 (33 ≥ 30) is a narrow partial success.
+- Action 5 (62 ≥ 45) is reasonably capped at partial, because state procurement and WIOA reviews cannot finish in a month.
+- Threat 4 evaluates its stall (45%) and hostile-story (15%) components on one roll, which is transparent and applied correctly.
+
+The bio outcome is well grounded. SecureBio slips four days, the candidate passes on leak but fails over-refusal at +0.9pp (+1.4pp nursing), and branch (b) fires. That is exactly what the unresolved filter/textbook-path interaction predicts. The consequences follow naturally: a third STAT story and the second campus pause.
+
+Threat 5 is proportionate. A 19-day-late access review is a typical first-cycle SOC-style exception, and the Redwood pre-registration slip follows logically from sharing one stratum and one scorer with the bio work.
+
+Pacing is mostly believable. There is no congressional movement in recess, the workforce boards route the offer to DTMB review and a procurement inquiry, and the second township sets a November work session.
+
+The exogenous events are plausible and not tilted toward or against the player:
+- 6.8% unemployment.
+- Utah's dormant Commerce Clause injunction.
+- xAI open-sourcing Grok 5 after Grok 6 shipped, which is consistent with Musk's real pattern.
+
+The main softness is the security and dataset track, which lands almost entirely cleanly. On top of the 11th operator signing, Mandiant co-publishes despite its Google/GDM tie, FS-ISAC circulates the playbook, and two state bankers' associations follow within a month. The ABA's recent refusal suggests more friction than that.
+
+Political reactions to the Grok 5 release are also thin. Senators on both sides of the open-weights bill would likely comment even during recess.
+
+Issues flagged:
+- The security and evidence track is somewhat generous. FS-ISAC circulation plus Iowa and Kansas uptake in the same month, soon after the ABA declined on neutrality grounds, is fast for institutions like these.
+- Mandiant, part of Google, co-publishes with no friction over client confidentiality or TLP terms. A wide roll margin justifies success, but some caveat or delay would be more realistic.
+- Reaction to the Grok 5 Apache-2.0 release is underplayed. Musk explicitly framed it as a reply to the Hawley–Blumenthal bill, yet there is no response from the bill's sponsors, from Banks or the open-weight caucus, or from security researchers about new fork risk.
+- Failure and threat outcomes pile up on Action 1. The action failure and Threat 1 are both applied, and a new contamination caveat is added on top. This is defensible but edges toward double-counting.
+- "Kroll was chosen by the court" is asserted without clear grounding in the prior world state. Minor consistency risk.

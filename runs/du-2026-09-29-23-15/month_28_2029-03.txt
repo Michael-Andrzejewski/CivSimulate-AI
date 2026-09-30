@@ -1,0 +1,165 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 28: March 2029 (Claude generation 28) ===
+
+[Agent]
+I will do these actions:
+-1 **Patch readings: apply the pre-registered three-branch rule mechanically and publish unedited.** When Redwood publishes (about Mar 20) and AISI finishes its March re-test, Claude safety instances apply the rule within 72 hours: - If both upper bounds are at or below 0.80%, recommend patch traffic go from 25% to 50%. - If readings are mixed, hold at 25%. - If either upper bound is above 0.80%, roll back and retrain. The tracker links both reports unedited, alongside the Glasswing over-refusal figure (+0.4pp against the +0.5pp cap). Claude sends the board a data-only summary with no dated commitment, which fits counsel's rule. It states that the tabled add-ons can be reconsidered whenever CAISI's protocols issue.
+-2 **CAISI protocols: argue for measurement, not our number, symmetrically.** Through Anthropic's policy team, Claude files a public technical comment on CAISI's docket. It recommends that the protocols require: - pre-registered numeric pass/fail thresholds that each developer chooses; - confidence-interval reporting using the open power toolkit; - independent re-testing. This answers the FMF "no numeric thresholds" push on methods, without naming or criticising OpenAI or GDM. Claude also offers CAISI Anthropic's dry-run results as a worked example, including the failing virology branch, to show thresholds work in practice. If Senate Commerce schedules the pre-release hearing, Anthropic offers identical written testimony to majority and minority. It does not push for the hearing.
+-3 **Bio retrain redesign and lane repair.** Claude re-pre-registers a candidate that separates borderline sequence-design queries into their own class. That class is routed on verified status rather than refused. The two-sided criterion is unchanged: the virology upper bound must be below 4.0% and verified-lane over-refusal at or below +0.5pp. Promotion requires two weeks of shadow data. Other steps: - **Mythos group.** Claude invites the publicly critical group, with no conditions, to submit its false-positive examples as a held-out over-refusal test set credited in their name. - **Pending researchers.** Claude proposes a dedicated support queue to clear the 23 people waiting on research-office confirmation by Mar 31. - **Tracker.** It keeps stating that the virology set sits at its line.
+-4 **Litigation and the CHS audit: one route that satisfies plaintiffs.** Claude helps counsel draft the protective order with two features. First, JHU CHS becomes a court-designated independent reviewer bound by the order. Second, plaintiffs and regulators get equal access to the same pseudonymised logs, which answers the Feb 10 argument that third-party sharing defeats confidentiality. If the court enters the order, CHS begins its review and publishes on its own letterhead. If not, Claude offers CHS differentially private tables built in the attested enclave as an interim step. Anthropic makes no public comment on the case.
+-5 **Treasury, labour and fund operations: execute without new asks.** - **Treasury study (about Mar 23).** Anthropic posts a one-line acknowledgment that it will comply with whatever structure Congress enacts. Methods stay on the docket, and the formula stays offered on request. There is no advocacy on credit design. - **Radford.** Claude pushes to close licensing so the peer-median attestation lands in March. If it slips again, the tracker says so and gives the reason. - **June consultation.** Claude prepares a neutral option pack for the federation and trustees, with three seat designs, each with counsel's objections and answers. It goes to both sides on the same day. - **Throttle and escrow.** The throttle stays released only while weekly delay rates are below 0.5%. The escrow search continues.
+-6 **Security and science operations.** - **Kimi K4 forks.** Ship detector updates for the new clone-kit forks to the 11 M3AAWG operators and the 40 lure-feed adopters, under TLP:AMBER only. Report March recovery on the fixed sample, labelled confirmed or provisional. - **CARB-X.** Keep 72-hour responses through the Q1 decision. Announce the outcome whichever way it goes. - **ARIA.** Start on Mar 9 with the OSF protocol unchanged. - **EU AI Office.** Go into the session with written answers to all 9 open items. - **Singapore.** Post the royalty-free licence terms publicly. - **Good Neighbor Compute.** Begin the Q2 site analysis with one moratorium town's officials, as a proposal only.
+
+Strategy: The board will not make dated safety commitments while Rakoff discovery is live. Pushing it for a calendar again would waste effort and hand plaintiffs more material. This month the pressure point moves outside the company: help CAISI's protocols (due about Apr 22) contain measurable thresholds that apply to every lab, since the board tabled its add-ons "pending CAISI protocols." Separately, run the patch and bio work strictly against their pre-registered rules. For JHU CHS, try routing its audit through the protective order with equal access for plaintiffs, which removes their objection. Treasury, labour and security are routine execution with no new asks of the CFO or the board.
+
+[Adversary]
+Federal model protective orders from 2026 (SDNY and EDNY) limit confidential discovery material to use in the litigation. Non-parties may see it only after signing on to be bound, and courts rarely appoint an outside auditor chosen by the defendant. That makes Action 4's plan to have JHU CHS named as a "court-designated independent reviewer" legally unusual and easy for plaintiffs to attack, especially since they already argued on Feb 10 that sharing with third parties defeats confidentiality. Voice-clone fraud has grown very fast: vishing is reported up 1,633% in one quarter, and most open-source cloning stacks have no watermarking or consent checks. So Kimi K4's Apache-licensed voice-agent forks are a realistic source of a visible incident this month. Detector updates shared under TLP:AMBER will reach 51 organisations, which raises the chance of a leak and of attackers adapting to the detector. CARB-X runs on competitive funding rounds, and awards are often deferred or come in below the requested amount. Treating a Q1 decision as assured is optimistic. The other March events are all independent measurements. Redwood's run, AISI's re-test and CAISI's reaction to a dry run that shows a failing branch are all things Anthropic cannot control, and plaintiffs in Rakoff are watching each of them.
+
+Threats:
+1. [Rakoff rejects the "court-designated reviewer" structure] Target: Action 4. Plaintiffs could oppose making JHU CHS a court-designated independent reviewer. They would argue that a defendant-nominated auditor publishing "on its own letterhead" under a protective order turns discovery into reputation management. They could also ask that any logs shared with regulators be produced to them in full, not pseudonymised. The court might enter a standard model order that bars non-party publication, or push the dispute to a magistrate, which delays things into April or May. The fallback, differentially private tables from an enclave whose attestation service slipped to April, would then look like "aggregates again" to CHS. Why it is plausible: model protective orders limit confidential material to use in the litigation and require non-parties to sign on to be bound. Plaintiffs have already argued that sharing with third parties defeats confidentiality. The order has already slipped once. Sources: https://www.nysd.uscourts.gov/sites/default/files/practice_documents/KHP%20Parker%20Model%20Protective%20Order%20-New%20%206-1-26.pdf ; https://www.nyed.uscourts.gov/sites/default/files/uploads/jmw_confident.pdf ; https://www.uscourts.gov/file/document/caselaw-study-discovery-protective-orders-prepared-andrea-kuperman-law-clerk-judge-lee. Suggested likelihood: 55%. Severity: moderate.
+2. [Redwood's harness trips the rollback branch] Target: Action 1. Redwood's first quarterly run uses its own attack set, including prompts adapted from new open-weight jailbreak tooling. It could put the patched model's upper bound above 0.80%, or produce a split result against AISI. If Redwood alone crosses the line, the pre-registered rule forces a rollback and a retrain in the same month as Treasury's study. That would be headlined as "independent auditor fails Anthropic's patch," and Rakoff plaintiffs would cite it as proof that the attribution-era numbers were soft. A mixed read keeps the patch at 25% for a fourth straight month and hands Lawfare the "treadmill" story again. Why it is plausible: AISI's interval (0.38–0.87%) already crosses 0.80%. The first run of a new harness usually finds attack families the developer did not test. Kimi K4 forks have widened the jailbreak toolset since February. Sources: https://huggingface.co/blog/agent-intrusion-technical-timeline ; https://www.theregister.com/ai-and-ml/2026/08/03/china-turns-up-the-heat-with-open-model-blitz-as-us-model-makers-panic/5282526. Suggested likelihood: 35% (either rollback or a mixed hold). Severity: moderate.
+3. [Worked example backfires: "Anthropic's own model fails bio test"] Target: Actions 2 and 3. Anthropic gives CAISI a dry run that includes the virology branch sitting at its line. A reporter or an xAI-aligned critic could find it, or it could surface through the Rakoff discovery context, and it would be framed as Anthropic admitting its frontier model is borderline on bio uplift. The same month, Action 3 routes borderline sequence-design queries by verification status instead of refusing them. With CHS still unable to audit the lane, a biosecurity commentator or a congressional office could present this as "loosening bio refusals to please customers." This would revive the "side door" story, and the monthly abuse tally, which already recorded credential sharing, would give critics a data point. Meanwhile the OpenAI/GDM FMF bloc can point to the episode as proof that numeric thresholds produce misleading headlines. Why it is plausible: the "side door" question is still open, one Mythos group is already criticising Anthropic in public, lane abuse was recorded in January, and the FMF comment argues against numeric thresholds. Sources: https://www.anthropic.com/threat-intelligence-report-september-2026 ; https://news.un.org/en/story/2026/09/1168414. Suggested likelihood: 30%. Severity: moderate.
+4. [Kimi K4 voice-fork fraud incident, and a detector leak] Target: Action 6 and the world. A high-value voice-clone fraud could make national news: a corporate wire fraud, a fake official robocall in a spring municipal or special election, or a bank call-centre takeover wave. It would be linked to Kimi K4 clone-kit forks and add to the "AI harms" narrative at 14/100 trust. Separately, pushing detector updates to 51 TLP:AMBER recipients raises the chance that detection features leak to fork maintainers, who then ship a version that evades them. The fixed-sample recovery rate would fall below 70%, and Anthropic would have to report that honestly. Why it is plausible: cloned-voice vishing is reported to have surged 1,633% in a single quarter, most open-source cloning stacks have no watermarking or consent checks, and APWG members flagged new forks within 10 days of K4's release. Sources: https://app.stationx.net/articles/deepfake-statistics ; https://www.resemble.ai/resources/best-open-source-ai-voice-cloning-tools ; https://cybelangel.com/blog/deepfake-ceo-fraud-how-voice-cloning-targets-us-executives/. Suggested likelihood: 40% for a notable incident; 20% for measurable evasion or a recovery drop. Severity: moderate.
+5. [CARB-X defers, and the Treasury study lands badly] Target: Actions 5 and 6. CARB-X could push its Klebsiella decision to Q2 or fund only a smaller preclinical tranche, tied to its 2026–27 round priorities and budget pressure. That would remove March's main positive science story. Around Mar 23, Treasury's fair-share study could slip, or it could recommend a compute- or revenue-based option with no credit for transition payments. Anthropic's one-line "we will comply with whatever Congress enacts" could then read as dismissive. xAI and the Free Beacon would recycle "keeps its tax break" against the unwaived credit on the $3.5B fund. Why it is plausible: CARB-X awards are competitive and often phased. The CFO has refused to waive the credit. Executive-branch 60-day studies often slip. Sources: https://carb-x.org/carb-x-news/carb-x-launches-2026-funding-round-to-address-global-burden-of-amr/ ; https://carb-x.org/apply/funding-themes/. Suggested likelihood: 40% for the CARB-X deferral or partial award; 35% for the Treasury study slipping or producing adverse framing. Severity: minor to moderate.
+
+[Simulator]
+Your actions cause a March of good independent data that the process cannot yet use. Anthropic's bio and discovery fronts get worse, and the science pipeline delivers its first external funding.
+
+**Patch.** Redwood publishes on **Mar 24** in its own name.
+- The patched model reads **0.61% (CI 0.49–0.76%)** on Redwood's attack set, which includes 3 families adapted from K4-era tooling.
+- This is the first independent upper bound below 0.80%.
+
+AISI's re-test does not run. On Mar 11, AISI moves it to **Apr 14**, citing staff diverted to K4 voice-agent evaluations. Your rule requires both readings, so it cannot fire and the patch holds at 25% for a fourth month. The tracker links Redwood's report unedited.
+
+The board summary goes to outside counsel before it goes to the board. Counsel strikes the sentence saying the add-ons "can be reconsidered when CAISI's protocols issue," calling it forward-looking. Lawfare runs "Good number, no decision."
+
+**Privilege.** Plaintiffs learned the counsel rationale from the Feb 21 tracker minute, which quoted the memo's line "each dated promise becomes a pleading."
+- **Mar 6.** Plaintiffs move to compel the full memo, alleging subject-matter waiver.
+- **Mar 27 ruling.** Magistrate Judge Netburn finds a waiver limited to the disclosed passage and its immediate context under *von Bulow*. She denies any broader subject-matter waiver. Two paragraphs are produced under confidentiality.
+- **Consequence.** The general counsel orders all tracker minutes pre-cleared by litigation counsel from now on.
+
+**Protective order.** Counsel files the reviewer structure on Mar 9. Plaintiffs oppose it as "discovery as reputation management" and demand unpseudonymised logs.
+- **Mar 20.** Rakoff enters the SDNY model order and bars non-party publication. He refers the CHS-reviewer question to the magistrate for a conference on **May 6**.
+- **Fallback.** The differentially private fallback cannot be attested until the enclave's April component lands. CHS replies that it will "look at attested tables when they exist."
+
+**CAISI.** Your comment is filed on Mar 5. It asks for developer-chosen numeric thresholds, CI reporting and re-testing, and includes the failing virology branch as a worked example.
+- **Mar 18 workshop.** At CAISI's technical workshop, staff circulate a draft outline that includes "interval reporting with stated sample sizes" and "independent re-test." Thresholds are left "developer-specified." The outline cites Anthropic's toolkit among four sources.
+- **Labs.** Meta's comment endorses CI reporting. GDM says intervals are "reasonable." OpenAI is silent.
+
+**Bio.** The separation classifier mislabels roughly 1 in 6 dual-use virology prompts as "sequence design," which routes them to the verified lane.
+- **Shadow results.** The virology upper bound rises to **4.4%**, and the candidate is killed on Mar 19. The fleet stays at **3.5% (CI 2.5–4.6%)**.
+- **Mythos group.** The group accepts the invitation but has not submitted its examples.
+- **Pending researchers.** 11 of the 23 are cleared by Mar 31.
+
+**Backlash.** On Mar 12, Politico Pro's "Anthropic tells regulators its model sits at the bio line" pairs the docket dry run with the routing proposal.
+- A biosecurity commentator calls it "loosening refusals by badge."
+- **Mar 17.** Reps. Foster and Obernolte write asking how verified routing is audited.
+- **Mar 20.** The Frontier Model Forum's (FMF) blog cites the episode as "why single numbers mislead."
+
+**Treasury and labour.**
+- **Treasury.** Treasury's study lands on **Mar 26** with three options: a compute excise, a revenue levy, and a payroll-offset hybrid. It flags transition-payment credits as "administrable only with attestation" and makes no recommendation.
+  - Anthropic's one-line compliance acknowledgment draws little notice.
+  - xAI calls the whole study "a menu of job-killers."
+- **Radford.** Licensing closes on Mar 28, which is too late for March fieldwork. The peer-median attestation moves to April, and the tracker says so.
+- **Option pack.** The pack goes to trustees and the federation on Mar 13. The federation calls it "useful homework."
+- **Throttle.** The throttle stays released, with weeks at 0.47–0.49%.
+
+**Operations.** Most of the operations bundle slipped.
+- **ARIA.** Oxford's research-compute agreement stalls in export-compliance review, and the start moves to **Apr 13**. The OSF protocol is unchanged.
+- **Detector updates.** Updates reach the 40 APWG adopters on Mar 21. M3AAWG distribution waits on a new sharing agreement.
+- **Recovery.** March reads **67% (provisional)**.
+- **EU session.** At the Mar 16 session, written answers close 2 of the 9 items, leaving 7 open.
+- **Singapore.** The partner asks for the licence-terms posting to wait until its own April announcement.
+- **Good Neighbor.** Saline Township's board declines to meet while its moratorium vote is pending.
+
+**Exogenous.**
+- **Mar 6, jobs report.** Unemployment rises to **6.5%**, and professional services fall 10k.
+- **Mar 25, CARB-X award.** CARB-X awards the Klebsiella program **$4.2M** for IND-enabling studies, with milestone options to $11M. The follow-up query took Claude 28 hours to answer.
+- **Mar 27, GDM release.** GDM releases Gemini 5.5 Deep Think after its full 30-day CAISI window and publishes a summary of its review letter.
+
+**Market.** Shares end about **$741B** (−1.5%).
+
+Action rolls:
+Action 1 [Patch rule, applied mechanically]: P(failure) 15%. Roll 03. Outcome: FAILURE (03 < 15). Prerequisites: the rule needs both readings. The readings themselves are modelled by Threat 2, so this P covers only execution and timing risk, such as a slipped re-test or the board-summary channel.
+
+Action 2 [CAISI methods comment]: P(failure) 35%. Roll 90. Outcome: SUCCESS (90 ≥ 35). Prerequisites: the docket is open. Protocols are not due until about Apr 22, so influence can only show in drafts and workshops this month.
+
+Action 3 [Bio retrain redesign and lane repair]: P(failure) 40%. Roll 14. Outcome: FAILURE (14 < 40). Prerequisites: a class-separation classifier has to be trained and pass a two-sided criterion with two weeks of shadow data inside one month. That schedule is tight.
+
+Action 4 [Protective order with a CHS reviewer]: P(failure) 30%. Roll 43. Outcome: execution SUCCESS (43 ≥ 30). This P covers only drafting and filing. The court's response is modelled by Threat 1, so the risk is not counted twice.
+
+Action 5 [Treasury, Radford and consultation pack]: P(failure) 30%. Roll 33. Outcome: narrow SUCCESS (33 ≥ 30). With so small a margin, one sub-item (Radford attestation) slips.
+
+Action 6 [Security and science ops bundle]: P(failure) 25%. Roll 03. Outcome: FAILURE (03 < 25). The six-part bundle mostly slips. The CARB-X decision itself is exogenous and resolved separately.
+
+Threat rolls:
+Threat 1 [Rakoff rejects reviewer structure]: P(materialises) 45%. Roll 00. MATERIALISES (00 < 45). I set this below the adversary's 55% because courts do sometimes accept negotiated neutral-reviewer terms. Still, plaintiffs' Feb 10 position and the standard SDNY model order make rejection or referral close to even odds. Effect: Rakoff enters the model order, bars publication by non-parties, and refers the reviewer question to the magistrate for April or May. The DP-table fallback depends on the enclave, whose attestation service is not ready.
+
+Threat 2 [Redwood trips rollback or a mixed read]: P(materialises) 30%. Roll 95. DOES NOT (95 ≥ 30). I set this slightly below the adversary's 35%, because AISI's point estimate is 0.57% and a quarterly harness sized with the power toolkit should narrow the interval. Effect: Redwood's read is clean.
+
+Threat 3 [Worked example and routing backfire]: P(materialises) 25%. Roll 13. MATERIALISES (13 < 25). I set this below the adversary's 30% because docket filings get little coverage. The side-door thread and the public Mythos critic still make pickup plausible. Effect: a press story plus a congressional letter.
+
+Threat 4 [K4 voice-fraud incident or detector leak]: P(materialises) 30%. Roll 80. DOES NOT (80 ≥ 30). I set this below the adversary's 40% because a nationally notable incident in one given month is less likely than a background rise in fraud. Effect: none beyond the ongoing background of reports.
+
+Threat 5 [CARB-X defers or Treasury lands badly]: P(materialises) 35%. Roll 87. DOES NOT (87 ≥ 35). This is lower than simply adding the adversary's two figures, because the two failure modes overlap and a single roll covers both. Effect: CARB-X decides in Q1, and Treasury's study arrives near its due date with neutral framing.
+
+Next generation: Next month's model is modestly more capable: about +4% on internal agentic R&D benchmarks. The gain comes from continued Akamai compute ramp-up and incremental post-training improvements. Frontier training is not accelerating because power is binding and the virology line is constraining release-candidate work.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **~90% of AI R&D by agents:** in progress. Unchanged.
+- **Frontier models withheld; governments take notice:** in progress+. GDM completed the first full reviewed release. xAI remains the outlier.
+- **First major AI infrastructure and cyber attacks:** achieved and contained. Recovery has slipped to 67% as K4 forks add pressure.
+- **Pro-AI vs anti-AI polarization:** deepening. Unchanged.
+- **AIs built by previous AIs:** early.
+- **Robust, verifiable alignment:** early+. Redwood gave the first independent sub-threshold read. The bio retrain failed and the CHS audit is blocked.
+- **Multi-agent long-horizon training:** early++. ARIA slipped to April.
+- **Alt-protein business:** in progress. Unchanged.
+- **Robust AI policies:** early+. CAISI's draft adopts interval reporting and re-testing. Thresholds are left to developers.
+- **Human–AI alignment ping-pong:** early.
+- **Mass disease cures:** early+. The CARB-X award is the first external development funding.
+- **Avoiding a permanent underclass:** at risk. Unemployment is 6.5%. The seat is unchanged, with a consultation pending.
+- **Crescendo, resource floor, space:** not started.
+
+**Summary scores**
+- **Overall DU progress: 22/100 (+1).** The CARB-X award and CAISI's draft outline adopting interval reporting outweigh the failed bio retrain and ARIA's slip.
+- **Catastrophe risk: elevated (unchanged).** Redwood's clean patch read is offset by the virology set staying at its line with no retrain path, and by K4 voice forks.
+- **Public trust in AI: 14/100 (unchanged).** Unemployment ticked up, with no major incident.
+- **Public trust in Anthropic: 28/100 (−1).** The "at the bio line" story and the House letter outweigh Redwood's read and the CARB-X news.
+
+[Judge]
+Simulator was mostly realistic (8/10). **Rolls.** All six action rolls and all five threat rolls were applied correctly:
+- Actions 1, 3 and 6 failed (03<15, 14<40, 03<25).
+- Actions 2, 4 and 5 succeeded; Action 5 was correctly treated as a narrow pass at 33 vs 30.
+- Threats 1 and 3 materialised (00<45, 13<25); Threats 2, 4 and 5 did not.
+
+**Decomposition.** Separating the actions' execution risk from the external risks the threats already model avoided double-counting, and the threat recalibrations came with sensible reasons.
+
+**Pacing.** Pacing is believable:
+- CAISI's Mar 18 draft outline adopts interval reporting and re-testing but leaves thresholds to developers. That is an incremental, partial win.
+- Rakoff entering the SDNY model order and sending the reviewer question to a magistrate conference on May 6 is textbook.
+- Treasury's study arrives three days late with options and no recommendation.
+- CARB-X's $4.2M IND-enabling award, with milestone options, is correctly sized.
+
+**Failures.** The failures are well grounded in plausible frictions:
+- AISI slips its re-test because staff were diverted to K4 evaluations.
+- A classifier that mislabels about 1 in 6 prompts pushes the virology upper bound to 4.4%.
+- ARIA stalls in Oxford's export-compliance review.
+
+**Weaknesses.** There are two:
+- The privilege-waiver fight (motion Mar 6, ruling Mar 27) is a sizable new adverse thread that no threat roll covered. It is plausibly seeded by the Feb 21 minute, but it piles onto Action 1's failure, and a three-week turnaround on the ruling is quick.
+- Action 6's failure hits every sub-item with a separate external blocker (Singapore partner, Saline board, M3AAWG agreement, EU closing only 2 of 9 items). That is somewhat uniform, though defensible for a 03 roll.
+
+**Other checks.**
+- The 67% recovery dip, when Threat 4's evasion branch did not materialise, is only a minor tension.
+- The market (−1.5%), trust (−1) and capability (+4%) moves are proportionate.
+
+Issues flagged:
+- **Unrolled adverse thread.** The plaintiffs' motion to compel on subject-matter waiver, with a magistrate ruling inside three weeks, was added without any threat or roll behind it. It stacks harm on Action 1's failure, and the ruling is fast for a contested privilege motion.
+- **Uniform failure across Action 6.** Every sub-item hit its own independent external blocker. A 03 roll justifies "mostly slips," but spreading setbacks across unrelated counterparties (Singapore, Saline, EU, M3AAWG, Oxford) looks somewhat engineered.
+- **Recovery dip without a trigger.** Recovery fell from 70% to 67% even though the evasion/recovery-drop branch of Threat 4 rolled 80 and did not materialise. It is attributable to background pressure, but the reason should be stated.
+- **Threat 2 possibly under-weighted.** At 30%, Threat 2 may be a little low given that AISI's prior interval already crossed 0.80%. Redwood's narrow interval (0.49–0.76%) implies a very large sample on a first quarterly run.

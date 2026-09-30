@@ -1,0 +1,18 @@
+<verdict>MOSTLY REALISTIC</verdict>
+<score>8</score>
+<reasoning>
+All six action rolls follow the stated rule: A1 64≥50 partial, A2 75≥55 success, A3 31<35 fail, A4 25<35 fail, A5 47≥40 narrow partial, A6 62≥30 success. The five threat rolls are also applied correctly: T2 materialises at 22<40, T4 narrowly misses at 36≥35, and T5 misses at 94, which clears even the adversary's 55% unemployment component. Institutional pacing is believable. A magistrate modifying a party's proposed order within a week, choosing the certifier herself and keeping a 60-day renewal right is how SDNY discovery disputes go. The enclave slipping a third time by a week fits the pattern. SecureBio's late-July delivery matches evaluator backlogs. The board deferring a production-traffic change mid-discovery fits months of counsel caution. The Obernolte office declining to turn a member briefing into a committee event is a natural failure mode for a condition the player imposed. Reactions are well populated: STAT's piece, the red-team write-up forcing the textbook path to narrow, OpenAI's Edu ads, campus licence pauses, Lawfare's "Rule met, board waits" and Reuters' thin coverage. The exogenous events are plausible and neutral: a flat jobs report, V5.5 open weights and the spreading Saline moratorium. The main weakness is that Action 3's failure runs through almost exactly the counsel and board-caution mechanism of Threat 4, which did not materialise, so the "different mechanism" framing is thin. Also, two campus-system renewal pauses within about two weeks of a single STAT story is a bit fast, and it came on a month when Action 2 rolled a success.
+</reasoning>
+<issues>
+- **A3 overlaps T4.** Action 3's failure narrative (counsel advising against written consent, board hesitation over traffic during discovery, the threshold draft held by counsel) largely reproduces Threat 4's mechanism, even though T4 did not materialise. This effectively double-counts one risk.
+- **T5 folding.** Threat 5 was collapsed from two components (45% fraud/AISI diversion, 55% unemployment) into a single 45% without saying so. The outcome is unaffected at roll 94, but it is sloppy bookkeeping.
+- **Education churn.** Two university systems pausing renewals and a competitor ad campaign within about three weeks of the STAT piece is fast for institutional procurement. Renewal pauses would more plausibly surface over one to two months.
+- **Mixed-outcome split.** A2 rolled a clear success, but the net public outcome is negative. That is defensible because T2 materialised, but the simulator should state explicitly which harms come from the threat and which from the action, so the success is not quietly eroded.
+- **A1 P(failure).** 50% is somewhat high for a cooperative proposal through an existing court channel. It did not change the outcome.
+</issues>
+<feedback_for_simulator>
+- When an action fails through the same mechanism as an adversary threat that did not materialise, use a clearly distinct failure cause or lower the action's P(failure), so the same risk is not priced twice.
+- For multi-component threats, report each component's probability and roll separately rather than silently merging them.
+- Pace institutional reactions such as procurement pauses and licence non-renewals over realistic cycles, often weeks to months after a news story, and keep ongoing threads alive: the campus reviews, plaintiffs' July renewal right and the June 19 board meeting.
+- Keep attributing mixed outcomes explicitly to either the action roll or the threat roll, as was done this month for the textbook-path narrowing.
+</feedback_for_simulator>

@@ -1,0 +1,169 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 22: September 2028 (Claude generation 22) ===
+
+[Agent]
+I will do these actions:
+-1 **AISI report response.** Claude's safety instances pre-draft a finding-by-finding mitigation table before AISI publishes. On the day AISI publishes, Anthropic links the report unedited within 24 hours, with each AISI finding mapped to its status (mitigated, partial or open), a held-out bypass rate and a named owner. Any residual gap AISI reports is handled under the existing 0.80% standing rule and not as a special case: if AISI's family measures above 0.80% on apps, a retrain is pre-committed within 21 days using the same two-sided staged protocol. Because the virology confidence interval straddled 4.6%, the statistician expands the sealed virology set from 500 to 1,000 prompts, with results in the October report, so that the next pass or fail is statistically unambiguous. The December permanence proposal for the standing rule is posted publicly now as a draft, with a 60-day comment period open to AISI, CAISI, Redwood and Glasswing firms. Updated indicators go to CAISI and the Frontier Model Forum through the template on publication day.
+-2 **Regulator sharing that does not wait on counsel.** If Rakoff enters the joint stipulation, the pre-drafted production goes to AISI, CAISI and the EU AI Office within 5 days, with public notice. If he has not acted by Sept 25, counsel files a short joint request for a status conference, which is neutral and signed with plaintiffs. Plaintiffs struck the AISI re-run inputs as belonging to "a sovereign evaluator," so Anthropic asks AISI in writing to share those inputs directly with CAISI and the EU AI Office under AISI's own bilateral arrangements, and gives standing written consent. That takes Anthropic out of the chain. The EU AI Office gets the September report and an offer of a technical session, logged on the public tracker.
+-3 **Labour: independent verification in place of board discretion.** - **Controls.** Two-person account-mapping verification goes live in September. Claude drafts the accounting-firm engagement letter for the CFO's signature by Sept 12. If it is still unsigned by Sept 20, a pre-identified second firm or a university audit lab is engaged at a capped fee. The Sept 15 pilot report shows the post-control error rate separately from pre-control batches, goes to the federation co-chair 48 hours early, and names a remediation contact for each of the 11 misdirected recipients. - **Severance.** The board refused to publish its number, so Claude proposes a compensation consultant's written attestation of whether Anthropic's floor meets or exceeds the peer median in weeks per year of service, published verbatim. That discloses the comparison without the confidential peer data. - **Trustee.** Claude sends the independent-nominator seat design to outside charity counsel now, for a written opinion by Nov 15, so the December vote can't be deferred on legal grounds. The December meeting date goes on the public tracker.
+-4 **Politics: a public reference, not unsolicited outreach.** Anthropic stops sending proactive packets to campaigns. Instead it publishes a nonpartisan, cited "AI facts for the 2028 debates" page covering: - jobs data with uncertainty; - open-weight misuse; - China and Ascend facts; - CAISI capacity; - how state laws work; - both parties' platform texts on AI, quoted verbatim. The page contains no Anthropic policy positions and is offered equally to debate moderators, both campaigns and the press on request only. Technical briefings to Congress continue only through committee-requested channels. Anthropic's public comment on the levy stays "no position," and the worker fund is described only as a voluntary company programme, never as a model for legislation.
+-5 **Security public goods.** After the Big Four review on Sept 19, securities counsel reviews the attribution methodology for release within 10 days. If counsel blocks it, Anthropic publishes the auditor's dated letter stating the review occurred and what it covered. Claude supports Georgia Tech's full paper, which appears under its own name. Anthropic open-sources a lightweight lure-family classifier built from Georgia Tech's signatures and offers it through M3AAWG and CISA to smaller email providers and ISPs, which moves detection beyond the three large providers. OpenSSF bounty and STA review items are tracked to closure.
+-6 **Scheduled operational and science items.** - **Exposure report:** September issue published with the 72-hour pre-share. - **DP tables:** a second privacy reviewer is engaged with an Oct 15 deadline. Whichever review finishes first governs, and the enclave plan is posted. - **Verified tier:** privacy review is given a decision date of Oct 31, with a default design of third-party verification that retains only a hash and no identity documents. - **Spanish beta:** the regression suite finishes before any widening. - **Link checker:** target under 2.5%. - **Delaware:** full support for the audit. - **Colorado:** a second status letter. - **Klebsiella:** the CRO contract is signed with the October start date and stopping criteria posted, and the CARB-X application is pre-drafted for Q4. - **Alt-protein:** a pilot letter of intent and scope with the Singaporean firm, with Wageningen kept as primary if it says yes. - **ARIA:** prompt responses through Edinburgh and Oxford.
+
+Strategy: The safety machinery is working and trusted. The retrain passed its pre-registered criteria, cross-lab detection sharing is working, and Georgia Tech's signatures are out. The weak points are labour governance, where the board keeps refusing numbers and dates, and partisan exposure, where unsolicited packets got framed as "windfall-tax homework." This month's anchor is AISI's September report: link it unedited within 24 hours, pair it with a finding-by-finding mitigation table, and tighten the virology set whose confidence interval straddles the threshold. Elsewhere I will replace board discretion with independent attestation, replace unsolicited political outreach with a public, request-only fact base, and route regulator sharing through the court and AISI itself.
+
+[Adversary]
+The real record says AISI-style reports tend to hurt. The UK AISI's first Frontier AI Trends Report (Dec 2025) found universal jailbreaks in every system it tested. It also found only a weak link between how capable a model is and how well it resists attack. So AISI's September publication is likely to be framed around a general weakness, not a single family that has already been handled. Anthropic's $20M donation in February 2026 to Public First Action has already made it a partisan target in AI election spending. That makes any "nonpartisan" debate material easy to cast as advocacy, especially after the Republican campaign's "windfall-tax company's homework" jab. Academic work over many years shows that ML phishing classifiers can be evaded with small feature changes, and that published detectors become tools attackers test against. The rest of the plan leans on outside gatekeepers: Rakoff, AISI's bilateral arrangements, the CFO, a compensation consultant and charity counsel. Their usual response time is slow, and each can quietly narrow what Anthropic gets.
+
+Threats:
+1. [AISI report lands harder than the mitigation table] Target: Action 1. AISI publishes in late September. It reports that its scaffolded family, run with its own automated tooling, reaches a bypass rate on the patched apps model near or above 0.80%. It also states that universal jailbreaks remain achievable with expert effort. That triggers the 21-day retrain in October, during the debates, only two months after the last one. Glasswing firms who were already nervous about over-refusal push back. Separately, Anthropic has pre-drafted a table marking findings "mitigated" and posts it within 24 hours. Plaintiffs and one or two tech outlets frame that as "grading the regulator's homework," and a second trip in three months revives *The Verge*'s tripwire framing. Why it is plausible: AISI's own published record found universal jailbreaks in every system tested, and it measures with its own tooling, not Anthropic's held-out proxy. The August proxy covered only a category-level stand-in for AISI's family. Sources: https://www.aisi.gov.uk/frontier-ai-trends-report ; https://casrai.org/guides/uk-aisi-frontier-ai-trends-report ; https://analogscott.substack.com/p/universal-jailbreaks-were-found-in. Suggested likelihood: 40%. Severity: moderate.
+2. [AISI won't be the courier; the court stays silent] Target: Action 2. AISI replies that its bilateral arrangements cover its own outputs, not a developer's inputs, and asks Anthropic to route the material through the court or through CAISI's formal agreement. That puts Anthropic back in the chain. Plaintiffs, who now have leverage, decline to co-sign the status-conference request unless the scope issue is revisited. That leaves counsel to file alone, which reads as impatience. Rakoff rules on neither the stipulation nor the motion to dismiss in September. The EU AI Office then turns its "open" review into a formal information request under the GPAI supervision powers, which is the escalation the general counsel feared. Why it is plausible: government evaluators protect their own publication processes (AISI already declined early disclosure in August), and plaintiffs have bargained at every step so far. Federal district judges often take months on combined motions. Sources: https://www.adalovelaceinstitute.org/feature/aisi/ ; https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/. Suggested likelihood: 45%. Severity: moderate.
+3. [The "AI facts for the debates" page becomes a partisan target] Target: Action 4. A Republican campaign or allied outlet goes through the page line by line. It finds that the jobs section cites Anthropic's own "1 in 5 white-collar workers" scenario research, or the exposure report. It also argues that quoting both platforms verbatim gives the Democrats' longer AI plank more space. The campaign pairs this with Anthropic's $20M to Public First Action, and "nonpartisan facts from a levy-adjacent company" becomes a debate-week talking point. Meanwhile the Democratic nominee's team cites the page's unemployment data while attacking "frontier labs." Anthropic ends up blamed from both sides. Why it is plausible: Anthropic's political giving is already on record and contested in AI super PAC coverage. The Republican campaign has already mocked Anthropic's packet. A House Science majority aide called earlier material "neutral in text, one-sided in uptake." Sources: https://en.wikipedia.org/wiki/Public_First_Action ; https://www.cnbc.com/2026/07/09/ai-companies-election-spending.html ; https://www.cnbc.com/2026/04/15/ai-2026-elections-midterms-campaign-donations.html. Suggested likelihood: 40%. Severity: moderate.
+4. [The open-sourced lure classifier becomes an evasion target, and M3AAWG and CISA move slowly] Target: Action 5. Within weeks of release, phishing-forum posts show fine-tuned V5 and Qwen lure templates that attackers tested against the public classifier until it stopped flagging them. Detection rates at the smaller ISPs that adopted it drop. Critics, including some email-security vendors, say Anthropic "published the answer key." Separately, M3AAWG's working-group process and CISA's reduced staffing mean neither endorses or redistributes the tool within the month, so uptake stays small. The securities-counsel review of the attribution methodology may also stop at "auditor letter only," which revives the "pledge broken" story. Why it is plausible: there is extensive academic evidence that ML phishing detectors can be evaded by changing one or a few features. Open-weight fine-tuning makes it cheap to iterate against a public classifier. Sources: https://link.springer.com/chapter/10.1007/978-3-030-22479-0_5 ; https://www.sciencedirect.com/science/article/pii/S221421262600116X ; https://dl.acm.org/doi/pdf/10.1145/2872427.2883060. Suggested likelihood: 35%. Severity: minor to moderate.
+5. [The labour verification backfires and joblessness rises] Target: Action 3 and world. The engagement letter goes out, but the accounting firm's first sample flags control gaps. Two-person verification also starts late because the administrator is still hiring for it. So the Sept 15 report shows a post-control delay rate still well above 0.5%. The compensation consultant says it cannot attest without disclosing peer methodology. Or its attestation says Anthropic's floor "meets" the median, not "exceeds" it, which the federation reads as "average at best." The early-release directors see the push for a November charity-counsel opinion as trying to force the December vote, and they resist. The early-September jobs report puts unemployment at 6.2%, which gives the federation and the Democratic campaign a fresh backdrop at debate time. Why it is plausible: the administrator has missed every operational date so far, the board has refused to publish numbers twice, and unemployment has risen every month from 5.9% to 6.1%. Sources: https://www.pewresearch.org/short-reads/2026/08/18/young-adults-in-the-us-are-increasingly-wary-of-ai-concerned-it-will-take-jobs/ ; https://news.gallup.com/poll/712751/americans-cool-toward.aspx. Suggested likelihood: 45%. Severity: moderate.
+
+[Simulator]
+Your actions cause a September in which the court finally unlocks regulator sharing and AISI's report lands softer than feared, while labour promises and the phishing classifier both stumble.
+
+**AISI.** AISI publishes on **Sept 22**.
+- **Findings.** The flagged-family gap is non-significant. The new scaffolded family, run with AISI's own tooling, measures **0.62%** bypass on the patched apps model. That is below the 0.80% rule but above Anthropic's 0.54% proxy. The report also carries AISI's standard line that universal jailbreaks "remain achievable with sustained expert effort," as in all systems tested.
+- **Anthropic's response.** Anthropic links the report unedited within 19 hours. Its mapping table marks 4 findings "mitigated," 2 "partial" (including the scaffolded family) and 1 "open" (the expert-effort caveat), each with a named owner.
+- **Proxy gap.** The gap between the 0.54% proxy and AISI's 0.62% is the month's near-miss. A Lawfare follow-up notes that Anthropic's proxy "undercounted by a fifth."
+- **Indicators.** New indicators reach CAISI and the Frontier Model Forum the same day.
+- **Virology set.** The statistician's expansion to 1,000 prompts is underway, with results due in the October report.
+- **Permanence draft.** The two early-release directors object to posting it as if it were board policy. It goes up on Sept 9 labelled "management draft; no board position," with the 60-day comment window open.
+
+**Court.** Rakoff so-orders the narrowed joint stipulation on **Sept 14**, with no hearing.
+- **Production.** It goes to plaintiffs under attorneys'-eyes-only terms and to AISI, CAISI and the EU AI Office by court direction on Sept 18. Public notice is posted.
+- **Motion to dismiss.** Still pending.
+- **AISI re-run inputs.** AISI replies that it will share its own re-run outputs with CAISI under their existing bilateral arrangement. An EU route "requires further legal review."
+- **EU AI Office.** It accepts an October technical session. Its review stays "open," but officials describe the production as "constructive."
+
+**Labour.**
+- **Controls.** The administrator's two-person verification slips to mid-October because only one of two hires has started.
+- **Accounting firm.** The CFO does not sign the engagement letter by Sept 12, questioning scope and fee. The Sept 20 fallback to a university audit lab stalls on indemnity terms.
+- **Sept 15 pilot report.** It publishes on time and splits pre- and post-control batches.
+  - Post-control delays are **1.1%**, better than 2.9% but more than double the target.
+  - Remediation contacts reach 9 of the 11 misdirected recipients.
+- **Severance.** The board declines the compensation-consultant attestation, citing antitrust caution about peer pay data.
+- **Trustee seat.** The board chair rules that the board, not management, retains charity counsel, so the opinion request is not sent. The tracker still shows December as "TBD."
+- **Federation.** Its president: "Every month a new reason the number stays secret."
+
+**Politics.** The "AI facts for the 2028 debates" page goes live Sept 6, with verbatim platform quotes and cited jobs data showing uncertainty ranges.
+- **Uptake.** PolitiFact links it in two fact-checks. Moderators' staff for the first presidential debate request it, and it is not cited on air.
+- **Reaction.** One conservative Substack calls it "levy-adjacent," and the post goes nowhere.
+- **Outreach.** Unsolicited outreach stops. The "one-sided uptake" story fades.
+
+**Security.**
+- **Methodology review.** The Big Four review on Sept 19 flags that the attribution method's false-positive estimate relies on too small a validation set and asks for re-estimation. Securities counsel blocks release. The auditor refuses to let its letter be published, citing its professional standards on third-party reliance. The tracker says only "review occurred; revisions requested," and the "pledge broken" line gets a brief second life on plaintiff-side social media.
+- **Classifier.** The open lure-family classifier ships Sept 8.
+  - About 40 small ISPs and hosting firms adopt it.
+  - By Sept 24, posts on phishing forums show V5 fine-tuned lures iterated until they pass.
+  - Detection at adopting providers falls from about 88% to about 61%.
+  - Two email-security vendors say Anthropic "published the answer key."
+  - M3AAWG refers the tool to a working group, and CISA does not act.
+- **Georgia Tech.** Its full paper is in review for November.
+
+**Operations and science.**
+- **Exposure report.** The September issue publishes Sept 18 with the 72-hour pre-share.
+- **DP tables.** A second privacy reviewer is engaged with an Oct 15 deadline.
+- **Verified tier.** The Oct 31 decision date is set.
+- **Spanish beta.** The regression suite finishes and passes, so the beta widens to 10%.
+- **Links.** The stale-link rate is 2.7%, missing the 2.5% target.
+- **Delaware.** The audit runs and finds two minor contrast issues, now being fixed.
+- **Colorado.** No date.
+- **Klebsiella.** The CRO contract is signed, with an Oct 16 start and stopping criteria posted.
+- **Alt-protein.** The Singapore firm's letter of intent is in legal review and unsigned.
+- **ARIA.** It advances the Edinburgh and Oxford proposal to a second-stage interview in November.
+- **Wageningen.** Silent.
+
+**Market.** Shares end at about **$870B** (−1%). The court order and AISI report are modest positives, but debate-week levy talk and the classifier story weigh.
+
+**Exogenous.**
+- **Sept 1, jobs report.** Unemployment holds at **6.1%**. Professional services fall 6k.
+- **Sept 12, Gemini 5.5.** Google DeepMind gives Gemini 5.5 to CAISI under the 30-day pre-release framework, with launch signalled for October.
+- **Sept 27, first presidential debate.** The Democratic nominee calls for "frontier labs to pay their fair share," and the Republican nominee promises to "stop the AI tax and beat China." Neither names Anthropic. Snap polls show AI as a top-five issue for 14% of viewers.
+
+Action rolls:
+Action 1 [AISI response and standing-rule draft]: P(failure) 20%. Roll 25. Outcome: SUCCESS, narrow margin (25 ≥ 20). Prerequisites: AISI must publish, which it does. Publishing the permanence draft needs board consent, which comes with a caveat.
+
+Action 2 [Regulator sharing via the court and AISI]: P(failure) 45%. Roll 90. Outcome: SUCCESS (90 ≥ 45). Prerequisites: Rakoff must act on the stipulation, which he does. AISI will only pass along its own outputs.
+
+Action 3 [Labour verification]: P(failure) 50%. Roll 19. Outcome: FAILURE (19 < 50). Prerequisites: the administrator's staffing, the CFO's signature and board consent are all unmet or late.
+
+Action 4 [Debate facts page]: P(failure) 35%. Roll 98. Outcome: SUCCESS (98 ≥ 35). Prerequisites: none beyond legal review, which is quick.
+
+Action 5 [Security public goods]: P(failure) 30%. Roll 14. Outcome: FAILURE (14 < 30). Prerequisites: the auditor's sign-off and securities counsel's release are both unmet.
+
+Action 6 [Operations and science]: P(failure) 45%. Roll 52. Outcome: PARTIAL, narrow (52 ≥ 45). Prerequisites: several items depend on outside auditors, reviewers and partners.
+
+Threat rolls:
+Threat 1 [AISI report lands hard]: P(materialises) 33%. Roll 62. DOES NOT (62 ≥ 33). The adversary's 40% is somewhat high. AISI's interim note already found the flagged-family gap non-significant, and the August retrain explicitly targeted a category proxy for AISI's family. Effect: AISI's measured rate comes in below the threshold. Its standard "universal jailbreaks achievable with expert effort" language appears as boilerplate and does little harm.
+
+Threat 2 [AISI won't courier; the court stays silent]: P(materialises) 35%. Roll 84. DOES NOT (84 ≥ 35). The adversary's 45% is high. A joint stipulation between the parties is routinely so-ordered, and a month is a normal lag. Effect: none. Rakoff enters the stipulation.
+
+Threat 3 [Facts page becomes a partisan target]: P(materialises) 35%. Roll 95. DOES NOT (95 ≥ 35). The adversary's 40% is a little high, because a request-only page with verbatim quotes presents a small target. Effect: a single conservative blogger grumbles, and nothing spreads.
+
+Threat 4 [Classifier evasion and slow uptake]: P(materialises) 25%. Roll 14. MATERIALISES (14 < 25). The adversary's 35% is high, because evasion within about three weeks is fast. Still, publishing a public classifier against actors who iterate on open weights makes evasion likely eventually. Effect: forum evasion posts appear, detection drops at small adopters, "answer key" criticism follows, and M3AAWG and CISA do not act this month.
+
+Threat 5 [Labour verification backfires; joblessness rises]: P(materialises) 40%. Roll 87. DOES NOT (87 ≥ 40). The adversary's 45% is somewhat high, since this bundles several events together. Effect: unemployment holds at 6.1%, and there is no damaging consultant or accounting-firm finding. The labour failure comes from Action 3's own execution.
+
+Next generation: Next month's Claude is modestly more capable, roughly one incremental step. The gains come from Akamai capacity coming online and routine post-training improvements. The standing rule's retrain cadence and safety review absorb some research time. GPT-6 keeps a slight edge on agentic coding, and Gemini 5.5 is about to launch.
+
+Scorecard:
+**Diversified Utopia milestones**
+- ~90% of AI R&D by agents: **in progress**. Unchanged.
+- Frontier models withheld; governments take notice: **in progress+**. CAISI now holds Gemini 5.5 pre-release, and the court-directed production reached three regulators.
+- First major AI infrastructure and cyber attacks: **achieved and contained**. Open-weight phishing now evades the public classifier.
+- Pro-AI vs anti-AI polarization: **deepening**. The levy was a debate centrepiece.
+- AIs built by previous AIs: **early**.
+- Robust, verifiable alignment: **early+ (improving)**. AISI published independently, the finding table was linked unedited, and court-directed regulator sharing is restored. A proxy gap was exposed.
+- Multi-agent long-horizon training: **early+**. ARIA advanced to its second stage.
+- Alt-protein business: **early+**. The Singapore letter of intent is pending.
+- Robust AI policies: **early+**. There is no federal legislation.
+- Human–AI alignment ping-pong: **early**.
+- Mass disease cures: **early+**. The tox study contract is signed.
+- Avoiding a permanent underclass: **at risk**. Controls slipped, post-control delays are 1.1%, and there is no severance floor or trustee path.
+- Crescendo, resource floor, space: **not started**.
+
+**Summary scores**
+- **Overall DU progress: 20/100 (+1).** Regulator sharing is restored by court order and AISI's independent evaluation is published and absorbed. Labour and the classifier setback limit the gain.
+- **Catastrophe risk: elevated (unchanged).** Frontier bypass is under the threshold and regulators hold the data. Open-weight phishing is adapting to public defences, and universal jailbreaks with expert effort remain.
+- **Public trust in AI: 17/100 (±0).** Unemployment is flat, and AI is prominent in the debates without new incidents.
+- **Public trust in Anthropic: 33/100 (±0).** The AISI handling, the court order and the fact-checkers' use of the page are offset by "answer key," the blocked methodology and continued labour secrecy.
+
+[Judge]
+Simulator was mostly realistic (8/10). All six action rolls and all five threat rolls were applied correctly.
+- **Actions:** 25≥20 succeeds, 90≥45 succeeds, 19<50 fails, 98≥35 succeeds, 14<30 fails, and 52≥45 is a partial success.
+- **Threats:** only Threat 4 materialised (14<25), and it would also have materialised at the adversary's suggested 35%.
+
+The outcomes fit a slow, friction-heavy world:
+- The CFO disputes scope and fee.
+- The university lab stalls on indemnity.
+- The board cites antitrust to refuse the consultant attestation.
+- The board chair reserves charity-counsel engagement to the board.
+- The Big Four auditor refuses to let its letter be published.
+- AISI will courier its own outputs but not the EU route.
+
+These are all plausible institutional frictions, not arbitrary doom. The successes are also measured rather than wish-fulfilling:
+- AISI's 0.62% is below the rule but exposes a proxy gap.
+- The permanence draft goes up only as a "management draft."
+- The facts page is linked by PolitiFact but not cited on air.
+
+Exogenous events (a flat jobs report, Gemini 5.5 pre-release review, the first debate) are relevant and neutral.
+
+There are a few weaknesses:
+- Threat downgrades were applied systematically (every adversary estimate was cut by 5 to 12 points), which leans slightly favourable.
+- The classifier-evasion outcome moves fast. A measured drop from 88% to 61% across about 40 providers within 16 days of release is aggressive, even though the direction is plausible.
+- The Lawfare "undercounted by a fifth" figure does not match 0.54 vs 0.62, which is about 13–15%.
+
+Issues flagged:
+- **Downgraded threats:** every adversary threat likelihood was lowered, with Threat 2 cut from 45% to 35% even though Rakoff had been silent on both motions for a month. This is a mild systematic pro-player tilt.
+- **Classifier evasion too fast:** detection fell from about 88% to about 61% at adopting ISPs within about 16 days of the Sept 8 release. Documenting forum evasion is plausible, but a measured aggregate detection drop that quickly is too fast.
+- **Arithmetic inconsistency:** the gap between the 0.54% proxy and AISI's 0.62% is about 13–15%, not "a fifth."
+- **Action 1 odds low:** a P(failure) of 20% looks slightly low for an action that bundles AISI timing, board consent for a public permanence draft, and a pre-committed retrain. The board caveat that did appear suggests the odds were closer to 25–30%.
+- **Thin reactions:** there was little reaction from Glasswing firms or competitor labs to the AISI report or the permanence draft, and no OpenAI or GDM response to AISI's universal-jailbreak framing.

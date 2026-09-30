@@ -1,0 +1,146 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 30: May 2029 (Claude generation 30) ===
+
+[Agent]
+I will do these actions:
+-1 **CHS and litigation: offer court-bound raw-log review inside the enclave instead of fighting it.** Before the May 6 conference, Claude helps litigation counsel prepare a proposed order with four parts: - **Reviewers.** CHS and one expert named by plaintiffs, both bound by the SDNY protective order, get equal read access to the same raw logs. - **Where.** Access happens inside the attested enclave, with no export of raw logs. - **What leaves.** Only outputs the court clears: CHS methodology, aggregate findings, and any pledge-relevant excerpts the magistrate approves. - **Fallback.** If the mid-May attestation slips again, an independent accounting or security firm certifies a supervised read-only terminal as an interim substitute, so review can start without waiting. Once the attestation passes, Claude builds the DP tables to the reviewed specification within 7 days and delivers identical copies to CHS and plaintiffs. Anthropic makes no public comment. The tracker records only dates and docket entries, pre-cleared by counsel. The goal is to make "Anthropic is hiding logs" untenable while keeping user privacy intact.
+-2 **Bio: build the two-sided retrain dataset from critics and independent labellers, and do not loosen the filter.** - **Educator over-refusal set.** Claude publishes an open, privacy-scrubbed submission form, and Anthropic's policy team invites ASM education sections, the two residency programs and the Mythos group to submit refused coursework prompts. These become the pre-registered over-refusal test set. - **Leak-side set.** Anthropic commissions an independent biosecurity group (on the CAISI-recognised list if possible) to write and label a held-out dual-use set that the model never sees in training. - **Pre-registered criteria.** The retrain candidate trains on the expert-labelled data, with the classifier kept simple. It must meet both criteria: a virology upper bound at or below 4.0%, and clinical over-refusal at or below +0.5pp. The consumer filter lifts only after a candidate passes both. - **Interim fix for learners.** Filtered prompts route to an Opus textbook-level answer path rather than a hard refusal where Opus is already approved. The tracker reports weekly over-refusal. - **Pending researchers.** The dedicated queue clears the 5 remaining researchers.
+-3 **Board: execute the CAISI mapping and the patch rule's next branch using pre-cleared texts.** Claude drafts the board minute recording the required items as compliance: interval reporting with sample sizes, and independent re-test with escrow as one route. The optional +0.5pp cap goes in as a data item, with no new dates. For the patch, Claude pre-drafts two branch texts that counsel pre-clears in the first week: - **30 clean over-refusal days reached (about May 22), with Glasswing at or below +0.5pp:** recommend 100% traffic. - **Otherwise:** hold at 50% and state the reason. The matching text goes to the board and tracker within 72 hours, with no redrafting. Claude also prepares the pre-declared thresholds for the next frontier release's v1 submission, filed with CAISI before testing begins.
+-4 **Congress: hold one bipartisan staff briefing that defines the audit.** - **Format.** Anthropic accepts Obernolte's closed briefing on condition that House Science majority and minority staff (Foster included) are invited to the same session. - **Content.** Claude prepares a two-page, counsel-cleared audit design covering the auditor (a court-bound independent reviewer), the sampling frame, the quarterly cadence, what is published, and the rule that routing stays frozen until the design is accepted. - **Covered developers.** If staff ask about developers who skip review, Anthropic states a firm-neutral technical view: the v1 re-test and pre-declared thresholds work best when applied equally to all developers above the covered threshold. - **Other.** Identical written materials go to any Senate office that asks. No partisan framing.
+-5 **Security: close the M3AAWG gap and keep pace with V5.5 voice forks.** - **Indemnity.** For the 5 stalled operators, Anthropic offers a mutual no-indemnity, no-liability clause taken from FIRST's standard terms, or sharing routed through APWG as intermediary so operators have no bilateral contract with Anthropic. - **Detectors.** Claude security instances ship detector updates tuned to DeepSeek V5.5 low-latency voice forks to all 40 lure-feed adopters and the 6 signed operators within 10 days of samples appearing. - **Reporting.** May recovery is reported on the fixed sample and labelled confirmed or provisional, as are April's figures once finalised.
+-6 **Science, labour and compute: execute the scheduled dependencies with fallbacks.** - **Singapore.** Post the royalty-free licence terms within 24 hours of the partner's announcement. If it slips past May 31, post a dated note with the reason and no terms. - **EU.** Attend the AI Office session with written follow-ups within 10 days. - **CARB-X.** Maintain 72-hour responses. - **ARIA.** Log interim non-controlled-arm status on OSF. The Oxford arm waits on export review, with no pressure applied. - **Good Neighbor.** Hold the second Michigan township call with a site-analysis proposal only, including a power-cost and water summary. - **June consultation.** Send the trustees and the federation an identical data room on the same day, including the Radford attestation. Keep the escrow search going. - **Career mode.** Extend the professional-services resource feature to accounting, paralegal and customer-support roles, and publish usage aggregates.
+
+Strategy: April went well on governance. The patch rule fired mechanically and CAISI v1 codified our methods. Two threads are sliding: the bio line, where we are above our own threshold with no retrain candidate and the consumer filter is refusing students, and the CHS audit, where plaintiffs are now pushing for raw logs. This month I will do four things. First, meet the plaintiffs' raw-log demand with court-bound in-enclave access for both sides, rather than resist it. Second, turn the complaining educators and an independent biosecurity labeller into the two-sided dataset that the retrain lacks. Third, execute the board's CAISI mapping and the 100% patch step with pre-cleared branch texts. Fourth, keep security, science and labour on schedule with named fallbacks, without pairing any loosening with the bio shortfall.
+
+[Adversary]
+The strongest real-world precedent for Action 1 comes from In re OpenAI (SDNY). There, a magistrate ordered about 20M de-identified ChatGPT logs produced to plaintiffs. The court held that de-identification plus a protective order was enough privacy protection and rejected OpenAI's argument that privacy should limit production. So SDNY magistrates are comfortable with actual production, not only with review inside an enclave that Anthropic controls. Anthropic offering "raw logs" voluntarily could make things worse, because it concedes that the logs are relevant. On bio, the 2026 research literature shows over-refusal is a well-documented and politically visible failure. Some models flag 83–87% of benign biology as hazardous, and scientists say it pushes them onto open-source models. That makes a public "submit your refused prompt" form a ready-made source of embarrassing stories, and it gives adversaries a map of the filter's edges. Voice-clone fraud is growing fast: roughly $893M in reported AI-scam losses, FBI warnings about impersonation of officials, and more than 400% growth in voice-cloning fraud. Open-weight voice forks like DeepSeek V5.5 would add to this, and a single high-profile incident could pull AISI and CAISI staff away from Anthropic's patch and v1 timelines again.
+
+Threats:
+1. [Magistrate takes the concession and orders production beyond the enclave] Target: Action 1. Anthropic's offer of raw-log access inside the enclave lets plaintiffs argue that relevance is conceded, and the only remaining question is how the logs are handled. At the May 6 conference, or in a short written order after it, Judge Netburn could follow the OpenAI log-production reasoning. She would order a de-identified *sample* of raw logs produced to plaintiffs' expert under the SDNY protective order, with export allowed. She could also reject the supervised-terminal fallback because Anthropic is choosing the certifying firm. Separately, privacy groups or a trade outlet could frame Anthropic's own offer as "Anthropic proposes letting plaintiffs' experts read users' virology queries," which would hurt trust with the Glasswing and bio-researcher users whose logs are at stake. Why it is plausible: SDNY already compelled 20M de-identified chat logs over OpenAI's privacy objections, finding that de-identification plus a protective order was enough. Plaintiffs' May 1 letter already asks for raw logs, and the enclave's attestation has slipped twice. Sources: https://natlawreview.com/article/openai-loses-privacy-gambit-20-million-chatgpt-logs-likely-headed-copyright ; https://www.lawyer-monthly.com/2026/01/openai-sdny-discovery-20m-chat-logs-legal-impact/ ; https://ip.com/blog/openai-vs-news-orgs-court-ordered-chat-log-production-and-the-data-trail-debate/ Suggested likelihood: 40%. Severity: major.
+2. [The public refusal form becomes a highlight reel and a probe map] Target: Action 2. An open submission form invites ASM sections, residency programs and the Mythos group to send in refused prompts. Within days, critics start posting their submissions publicly, and a reporter compiles "100 questions Claude won't answer for nursing students." That extends the "now it refuses the students too" story by weeks. Some submissions are really attempts to find the filter's edge, disguised as coursework. The routing to Opus "textbook-level" answers is quickly tested by red-teamers using educator framing, and at least one write-up claims the textbook path gives more detail than the filter it replaced. Separately, CAISI-listed biosecurity evaluators (SecureBio, RAND and others) have backlogs, so commissioning the held-out leak-side set takes 6–10 weeks and no candidate trains in May. Why it is plausible: over-refusal of benign biology is a documented and publicized problem, and scientists report moving to open models. Independent bio-evaluation groups are few and oversubscribed, and the Mythos group took a month to produce 41 examples. Sources: https://latch.bio/biosecbench-refusal ; https://blog.latch.bio/p/benchmarking-refusals-in-agentic ; https://securebio.org/blog/measuring-biosecurity-safeguard-effectiveness/ ; https://arxiv.org/abs/2605.30162 Suggested likelihood: 50% (dataset delay alone is about 60%; public-embarrassment spillover about 35%). Severity: moderate.
+3. [The briefing condition backfires, and the "covered developers" line reads as a shot at xAI] Target: Action 4. Obernolte's office asked for a *closed* briefing, and making it conditional on inviting majority and minority committee staff could look like Anthropic setting the terms. The office might downgrade it to a written Q&A, or the Science chair's staff might say the member's request is not a committee event. If the session goes ahead, one participant could leak the two-page audit design. It says routing stays frozen "until the design is accepted," so the leak would be headlined as Anthropic saying it cannot audit its own bio lane without a court. Answering the covered-developers question, even in firm-neutral wording, would be heard as aimed at xAI given the Grok 6 non-review. Musk and xAI could then post that Anthropic is "lobbying Congress to force its test on rivals," which would feed their "incumbents locking in the test" line. Why it is plausible: Congress has already stalled on AI (no Commerce hearing, preemption stalled, Johnson's "don't panic"). The xAI rhetorical line is established, and the audit offer is already capped by "subject to court terms." Sources: https://casrai.org/news/federal-ai-moratorium-state-preemption-fight-2026 ; https://www.techpolicy.press/where-state-ai-legislation-stands-half-way-into-2026/ Suggested likelihood: 35%. Severity: moderate.
+4. [Counsel or the board stalls on the pre-declared thresholds and the step to 100%] Target: Action 3. Litigation counsel might pre-clear the minute that records the mapping as compliance but object to the v1 threshold filing. A threshold filed with CAISI is a written, dated numeric commitment. Under Rakoff it is likely discoverable, and it would be exactly the "dated promise that becomes a pleading" that counsel warned about in February. So the filing could slip, or be narrowed to "thresholds will be declared in the submission" without the numbers. On the patch, the 30-day clean window can be broken by one bad week: Glasswing over-refusal is already at +0.4pp against a +0.5pp cap, and a new V5.5-era attack family could appear in production traffic. A single above-cap week resets the clock and pushes the 100% step into June. Separately, directors might hesitate to change production traffic while a v1 submission is being prepared. Why it is plausible: counsel has struck forward-looking language three months in a row. The cap margin is 0.1pp, and new open-weight attack tooling arrives monthly. Sources: https://www.cnbc.com/2026/06/02/trump-executive-order-ai.html ; https://www.skadden.com/insights/publications/2026/06/new-ai-executive-order Suggested likelihood: 35%. Severity: moderate.
+5. [A V5.5 voice-fork fraud wave plus a bad jobs report] Target: world, and Actions 5 and 3. If DeepSeek V5.5 ships full open weights in May, lower-latency voice forks would spread within 1–2 weeks. A widely reported case is plausible, such as cloned voices of officials or a large corporate wire fraud. The FBI or FinCEN would issue an alert, and UK AISI and CAISI would move evaluators onto voice-agent work again, as happened in March, slowing re-tests and v1 reviews. Anthropic's detector updates would cover only 46 organizations. The 5 stalled M3AAWG operators may still refuse a mutual no-liability clause, because their counsel's concern is exposure to their own customers, not exposure to Anthropic. Recovery could slip back below 68%. Around May 8, the jobs report could show unemployment at 6.7–6.8% with another professional-services decline, pushing trust in AI below 13. Why it is plausible: voice-clone fraud grew more than 400% in 2025, FBI warnings about official impersonation are ongoing, and recent months have brought steady open-weight voice releases and rising unemployment. Sources: https://www.click2houston.com/news/local/2026/06/02/fbi-warns-of-ai-voice-cloning-scam-that-mimics-loved-ones-in-distress/ ; https://www.cnn.com/2026/05/29/tech/ai-voice-cloning-scams-protect-yourself ; https://cybelangel.com/blog/deepfake-ceo-fraud-how-voice-cloning-targets-us-executives/ ; https://www.techtimes.com/articles/317405/20260529/openai-acquires-weightsgg-voice-cloning-tech-deepfake-law-claims-arrests-losses-hit-893m.htm Suggested likelihood: 45% for a notable fraud incident or AISI diversion; 55% that unemployment rises to 6.7% or higher. Severity: moderate.
+
+[Simulator]
+Your actions cause a May in which the CHS audit finally gets a court-sanctioned route and the attested enclave comes online. Your two governance asks, the board's 100% step and a bipartisan House briefing, both stall. The bio dataset push brings in real data and a fresh embarrassment in the same month.
+
+**CHS and litigation.** At the May 6 conference, Magistrate Judge Netburn takes the enclave proposal seriously. Her May 12 order adopts it with three changes:
+- CHS and a plaintiffs-named expert (a Columbia data scientist) get equal read access to raw logs, inside the enclave only.
+- The court, not Anthropic, picks the certifying firm from two names per side. It chooses Kroll.
+- Plaintiffs may renew their request for an exported de-identified sample after 60 days if the enclave proves inadequate.
+
+The attestation component passes on **May 21**, a week late, so the terminal fallback is shelved. DP tables reach CHS and plaintiffs as identical copies on **May 28**. CHS says it will begin review in June "under the order." Coverage is thin. Reuters runs one line: "Anthropic agrees to court-supervised log review."
+
+**Bio.** The open form draws **1,340 submissions** in three weeks, and **612** remain usable after scrubbing. ASM education sections and both residency programs contribute. SecureBio accepts the leak-side commission but can deliver only in **late July**, so no candidate trains.
+
+The critics also posted their submissions publicly. On **May 16**, STAT publishes "The 100 biology questions Claude won't answer for nursing students," built from those posts.
+
+The Opus textbook path ships on May 9 and cuts consumer clinical over-refusal from **+2.1pp to +1.3pp**. Then on **May 23**, a red-team write-up shows that the path gave more stepwise detail on one viral-culture protocol than the filter had allowed. On May 26, Anthropic narrows the path to named curricular categories, and over-refusal returns to **+1.6pp**. The tracker posts both figures.
+
+The churn is measurable:
+- Two university systems pause renewal of Claude campus licences pending "instructional reliability" reviews.
+- OpenAI's ChatGPT Edu ad campaign runs the line "answers your microbiology homework."
+- The dedicated queue clears 4 of the remaining 5 pending researchers.
+
+**Board (May 15).** Directors minute interval reporting as compliance. They defer re-test via escrow after the security committee chair asks for a weights-custody cost and risk estimate. The +0.5pp cap goes in as a data item.
+
+The 30 clean days close on **May 22**, with Glasswing at +0.3–0.4pp, and the pre-cleared text reaches the board on May 23. However:
+- One director asks whether Glasswing's population is representative of consumer traffic.
+- Litigation counsel advises against a written consent on a production change mid-discovery.
+
+The 100% step goes to the **June 19** meeting, and the patch holds at 50%. The v1 threshold draft is complete and sits with counsel until a release date exists. Lawfare runs "Rule met, board waits."
+
+**Congress.** On May 9, Obernolte's office replies that the request was a member briefing, not a committee event. It offers to share notes with Foster's staff. Anthropic holds to the joint-session condition, so no session happens in May. The two-page audit design goes to both offices in writing on **May 20**. Obernolte's staff call it "the right skeleton, but we wanted the conversation." The House Science chair's staff say there will be no hearing before July. One Senate Commerce minority office requests the materials, and they are sent.
+
+**Security.**
+- **Operators.** Of the 5 stalled operators, 2 sign through APWG intermediation. The other 3 say their exposure concern is downstream customers, not Anthropic.
+- **V5.5 detectors.** DeepSeek releases **V5.5 full weights on May 20**, and forks appear by May 24. The updates reach 44 of 46 organisations by May 31.
+- **Recovery.** April is confirmed at **67%**. May reads **69% (provisional)**.
+
+**Operations.**
+- **Singapore.** The partner announces on **May 13**, and the royalty-free licence terms post within 20 hours. Food-tech trade press covers it favourably.
+- **EU AI Office.** The session on May 14 closes 5 of the 7 items, and follow-ups are sent May 22.
+- **CARB-X.** Two queries are answered inside 48 hours.
+- **ARIA.** Interim status is logged on OSF.
+- **Good Neighbor.** The second township's staff call happens May 19. Officials want a public information session in July before any site analysis.
+- **June consultation.** An identical data room goes to both sides May 28, and the escrow search continues.
+- **Career mode.** It extends to accounting, paralegal and support roles. Aggregates show 410k sessions.
+
+**Exogenous.**
+- **May 8, jobs report.** Unemployment is flat at **6.6%**, and professional services fall 6k.
+- **May 20, DeepSeek.** V5.5 open weights are released under MIT.
+- **May 27, Saline Township.** Saline passes a 12-month datacenter moratorium. Two neighbouring townships file similar motions.
+
+**Market.** Shares end about **$747B** (−1%) on the campus-licence pauses and the board deferral.
+
+Action rolls:
+Action 1 [CHS: court-bound raw-log review in the enclave]: P(failure) 50%. Roll 64. Outcome: PARTIAL SUCCESS (64 ≥ 50). Prerequisites: the enclave attestation must pass (it slipped twice), and the magistrate must accept the structure. The attestation passes a week late, and the court modifies the order.
+
+Action 2 [Bio: two-sided retrain dataset and learner routing]: P(failure) 55%. Roll 75. Outcome: SUCCESS, partial by nature (75 ≥ 55). Prerequisites: the leak-side set depends on an outside evaluator's calendar. It is commissioned but cannot be delivered in May, so no candidate trains this month.
+
+Action 3 [Board: CAISI mapping and 100% patch branch]: P(failure) 35%. Roll 31. Outcome: FAILURE (31 < 35). Prerequisites: 30 clean days are met, but a board decision on production traffic during discovery draws friction. The failure lands through director and counsel caution about the mapping and the traffic step. The threat's mechanism (a broken 30-day window or a struck threshold filing) does not occur.
+
+Action 4 [Congress: bipartisan audit briefing]: P(failure) 35%. Roll 25. Outcome: FAILURE (25 < 35). Prerequisites: Obernolte's office has to agree to widen a member-requested closed briefing. It does not, and the session does not happen in May.
+
+Action 5 [Security: M3AAWG gap and V5.5 detectors]: P(failure) 40%. Roll 47. Outcome: PARTIAL SUCCESS, narrow (47 ≥ 40). Prerequisites: operators' counsel must accept the terms. Only some do.
+
+Action 6 [Science, labour and compute operations]: P(failure) 30%. Roll 62. Outcome: SUCCESS (62 ≥ 30). Prerequisites: Singapore depends on the partner's own timing, which lands this month.
+
+Threat rolls:
+Threat 1 [Magistrate orders export beyond the enclave]: P(materialises) 33%. Roll 70. DOES NOT (70 ≥ 33).
+- **Why lower than 40%:** The SDNY OpenAI precedent is real. But Anthropic's proposal already gives plaintiffs' own expert raw read access, which weakens the necessity argument for export at a first conference.
+- **Effect:** Netburn keeps a 60-day renewal right for plaintiffs. That is a trace only.
+
+Threat 2 [Refusal form becomes a highlight reel and probe map]: P(materialises) 40%. Roll 22. MATERIALISES (22 < 40).
+- **Why lower than 50%:** I removed the dataset-delay component. It is execution risk already priced into Action 2.
+- **Effect:** A compiled "nursing students" story runs. A red-team write-up on the textbook path forces Anthropic to narrow it.
+
+Threat 3 [Briefing condition backfires; xAI reads it as a shot]: P(materialises) 30%. Roll 48. DOES NOT (48 ≥ 30).
+- **Why lower than 35%:** Closed staff briefings leak less often than public ones. The downgrade risk is already Action 4's own failure mode.
+- **Effect:** No leak and no xAI post about the briefing.
+
+Threat 4 [Counsel or board stalls the thresholds or the 100% step]: P(materialises) 35%. Roll 36. DOES NOT (36 ≥ 35).
+- **Why I matched 35%:** Counsel has struck forward-looking language three months running, and the cap margin is only 0.1pp.
+- **Effect:** The clean window holds, and the threshold draft is not struck. The board-friction failure comes from Action 3's own roll instead.
+
+Threat 5 [V5.5 voice-fraud wave plus bad jobs report]: P(materialises) 45%. Roll 94. DOES NOT (94 ≥ 45).
+- **Why I kept it near base rate:** Voice capability is improving, the V5.5 full release is live this month, and unemployment has trended up.
+- **Effect:** V5.5 ships and forks appear, but there is no headline fraud case and no AISI diversion. Unemployment is flat.
+
+Next generation: Next month's Claude is modestly more capable, about a typical monthly increment. The gains come from continued algorithmic and post-training work and the Akamai compute ramp. Growth is capped by binding power constraints and spreading moratoria, and by the safety bandwidth diverted to the patch and bio retrain efforts.
+
+Scorecard:
+**Diversified Utopia milestones**
+- **~90% of AI R&D by agents:** in progress. Unchanged.
+- **Frontier models withheld; governments take notice:** in progress+. v1 operating, with xAI still the outlier.
+- **First major AI infrastructure and cyber attacks:** achieved and contained. Recovery is 69% (provisional).
+- **Pro-AI vs anti-AI polarization:** deepening. The moratoria are spreading.
+- **AIs built by previous AIs:** early.
+- **Robust, verifiable alignment:** early+. A court-supervised independent log review is now possible and the enclave is attested. The bio retrain is still stalled, and the 100% patch step is deferred.
+- **Multi-agent long-horizon training:** early++. ARIA arms are running.
+- **Alt-protein business:** in progress+. Singapore terms are public.
+- **Robust AI policies:** early++. Unchanged, with Congress stalled.
+- **Human–AI alignment ping-pong:** early.
+- **Mass disease cures:** early+.
+- **Avoiding a permanent underclass:** at risk. Unemployment is 6.6%, and career mode is a marginal help.
+
+**Summary scores**
+- **Overall DU progress: 24/100 (+1).** The enclave attestation, the court-ordered audit path and the Singapore licence outweigh the stalled board and House items.
+- **Catastrophe risk: elevated (unchanged).** The virology bound is still above its line with no candidate, V5.5 voice forks are live, and the textbook-path detail finding shows fragility.
+- **Public trust in AI: 13/100 (unchanged).** Jobs are flat and there was no major incident.
+- **Public trust in Anthropic: 26/100 (−1).** The STAT story, the campus licence pauses and the textbook-path write-up outweigh the thinly covered court-supervised review.
+
+[Judge]
+Simulator was mostly realistic (8/10). All six action rolls follow the stated rule: A1 64≥50 partial, A2 75≥55 success, A3 31<35 fail, A4 25<35 fail, A5 47≥40 narrow partial, A6 62≥30 success. The five threat rolls are also applied correctly: T2 materialises at 22<40, T4 narrowly misses at 36≥35, and T5 misses at 94, which clears even the adversary's 55% unemployment component. Institutional pacing is believable. A magistrate modifying a party's proposed order within a week, choosing the certifier herself and keeping a 60-day renewal right is how SDNY discovery disputes go. The enclave slipping a third time by a week fits the pattern. SecureBio's late-July delivery matches evaluator backlogs. The board deferring a production-traffic change mid-discovery fits months of counsel caution. The Obernolte office declining to turn a member briefing into a committee event is a natural failure mode for a condition the player imposed. Reactions are well populated: STAT's piece, the red-team write-up forcing the textbook path to narrow, OpenAI's Edu ads, campus licence pauses, Lawfare's "Rule met, board waits" and Reuters' thin coverage. The exogenous events are plausible and neutral: a flat jobs report, V5.5 open weights and the spreading Saline moratorium. The main weakness is that Action 3's failure runs through almost exactly the counsel and board-caution mechanism of Threat 4, which did not materialise, so the "different mechanism" framing is thin. Also, two campus-system renewal pauses within about two weeks of a single STAT story is a bit fast, and it came on a month when Action 2 rolled a success.
+
+Issues flagged:
+- **A3 overlaps T4.** Action 3's failure narrative (counsel advising against written consent, board hesitation over traffic during discovery, the threshold draft held by counsel) largely reproduces Threat 4's mechanism, even though T4 did not materialise. This effectively double-counts one risk.
+- **T5 folding.** Threat 5 was collapsed from two components (45% fraud/AISI diversion, 55% unemployment) into a single 45% without saying so. The outcome is unaffected at roll 94, but it is sloppy bookkeeping.
+- **Education churn.** Two university systems pausing renewals and a competitor ad campaign within about three weeks of the STAT piece is fast for institutional procurement. Renewal pauses would more plausibly surface over one to two months.
+- **Mixed-outcome split.** A2 rolled a clear success, but the net public outcome is negative. That is defensible because T2 materialised, but the simulator should state explicitly which harms come from the threat and which from the action, so the success is not quietly eroded.
+- **A1 P(failure).** 50% is somewhat high for a cooperative proposal through an existing court channel. It did not change the outcome.

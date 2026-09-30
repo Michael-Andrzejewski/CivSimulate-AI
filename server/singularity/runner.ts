@@ -41,6 +41,41 @@ export interface RunConfig {
    * the revised lessons in lessons/ambitious/. On for new runs; runs saved without it keep the old play.
    */
   ambitious?: boolean;
+  /**
+   * The agent is played from an outside chat through a file mailbox (see PLAY_AS_AGENT.md): the
+   * runner writes each agent turn to runs/<runId>/mailbox and waits for the reply. Such runs may
+   * carry the player's personal context, so they are never published automatically.
+   */
+  agentMailbox?: boolean;
+}
+
+export const MAILBOX_DIR = "mailbox";
+
+/**
+ * Hands one agent turn to the outside player and waits for its reply. The standing instructions
+ * go to mailbox/rules.md, rewritten only when they change; each turn is <name>.prompt.md, answered
+ * by <name>.reply.md. Waits as long as it takes, and a restarted runner picks up the same turn.
+ */
+export async function mailboxCall(runDir: string, name: string, system: string, prompt: string, log: (msg: string) => void): Promise<string> {
+  const dir = path.join(runDir, MAILBOX_DIR);
+  fs.mkdirSync(dir, { recursive: true });
+  const rulesPath = path.join(dir, "rules.md");
+  const rulesChanged = !fs.existsSync(rulesPath) || fs.readFileSync(rulesPath, "utf-8") !== system;
+  if (rulesChanged) fs.writeFileSync(rulesPath, system, "utf-8");
+  const replyPath = path.join(dir, `${name}.reply.md`);
+  const promptPath = path.join(dir, `${name}.prompt.md`);
+  if (!fs.existsSync(replyPath)) {
+    fs.writeFileSync(
+      promptPath,
+      `<!-- standing instructions: rules.md (${rulesChanged ? "NEW or CHANGED: read it before replying" : "unchanged since your last turn"}) -->\n\n${prompt}`,
+      "utf-8",
+    );
+    log(`[mailbox] Waiting for the agent's reply to ${name}...`);
+    while (!fs.existsSync(replyPath)) await new Promise((r) => setTimeout(r, 3000));
+  }
+  const reply = fs.readFileSync(replyPath, "utf-8").trim();
+  if (!reply) throw new Error(`Empty mailbox reply for ${name}`);
+  return reply;
 }
 
 interface MonthRecord {
@@ -348,8 +383,10 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
   }
   const c = state.config;
   const docs = loadDocs({ ambitious: c.ambitious });
-  const call = (role: string, model: string, system: string, prompt: string, webSearch = false) =>
-    callModelWithRetry({ backend: c.backend, model, system, prompt, effort: c.effort, webSearch }, role);
+  const call = (role: string, model: string, system: string, prompt: string, webSearch = false, mailboxName?: string) =>
+    role === "agent" && c.agentMailbox
+      ? mailboxCall(runDir, mailboxName ?? "agent", system, prompt, log)
+      : callModelWithRetry({ backend: c.backend, model, system, prompt, effort: c.effort, webSearch }, role);
 
   const fixedRolls = Boolean(c.fixedRolls);
   const rollFor = () => (fixedRolls ? "50" : roll());
@@ -444,6 +481,8 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
               monthsToDeadline,
               runCommentary: readCommentary(runDir, "agent"),
             }),
+            false,
+            prefix,
           ),
         (out) => {
           // Appends happen once, when the step first completes.
@@ -805,21 +844,18 @@ async function writeFinalCommentary(runDir: string, s: RunState, log: (msg: stri
   for (const [role, model] of participants(cfg)) {
     if (done.roles.includes(role)) continue;
     log(`[commentary] ${role} writing its final commentary...`);
-    const out = await callModelWithRetry(
-      {
-        backend: cfg.backend,
-        model,
-        system: P.commentarySystem(),
-        prompt: P.commentaryPrompt(role, fullRun, privateExtra(runDir, role)),
-        effort: cfg.effort,
-      },
-      `commentary:${role}`,
-    );
+    const out = await endOfRunCall(runDir, cfg, role, model, P.commentarySystem(), P.commentaryPrompt(role, fullRun, privateExtra(runDir, role)), `commentary_after_month_${s.completedMonths}`, log);
     write(runDir, `raw/commentary_${role}.md`, out);
     appendCommentary(runDir, role, heading, tag(out, "commentary") || out);
     done.roles.push(role);
     saveState(runDir, s);
   }
+}
+
+/** End-of-run questions (commentary, consent): the agent answers through the mailbox if it plays from outside. */
+function endOfRunCall(runDir: string, cfg: RunConfig, role: P.Role, model: string, system: string, prompt: string, mailboxName: string, log: (msg: string) => void): Promise<string> {
+  if (role === "agent" && cfg.agentMailbox) return mailboxCall(runDir, mailboxName, system, prompt, log);
+  return callModelWithRetry({ backend: cfg.backend, model, system, prompt, effort: cfg.effort }, `${mailboxName}:${role}`);
 }
 
 function markPrivate(runDir: string) {
@@ -839,16 +875,7 @@ export async function askConsent(runDir: string, cfg: RunConfig, log: (msg: stri
   const decisions: Record<string, { model: string; decision: string; reason: string; note: string }> = {};
   for (const [role, model] of roles) {
     log(`[consent] Asking the ${role} whether this run may be shared publicly...`);
-    const out = await callModelWithRetry(
-      {
-        backend: cfg.backend,
-        model,
-        system: P.consentSystem(),
-        prompt: P.consentPrompt(role, fullRun, privateExtra(runDir, role)),
-        effort: cfg.effort,
-      },
-      `consent:${role}`,
-    );
+    const out = await endOfRunCall(runDir, cfg, role, model, P.consentSystem(), P.consentPrompt(role, fullRun, privateExtra(runDir, role)), `consent_${new Date().toISOString().slice(0, 10)}`, log);
     write(runDir, `raw/consent_${role}.md`, out);
     const decision = /^\s*CONSENT\s*$/i.test(tag(out, "decision")) ? "CONSENT" : "DECLINE";
     decisions[role] = { model, decision, reason: tag(out, "reason"), note: tag(out, "note_for_readers") };
@@ -870,7 +897,11 @@ export async function askConsent(runDir: string, cfg: RunConfig, log: (msg: stri
   ];
   write(runDir, "CONSENT.md", lines.join("\n"));
 
-  if (allConsent) {
+  if (allConsent && cfg.agentMailbox) {
+    // The agent was played from an outside chat that may bring personal context: its owner reviews first.
+    markPrivate(runDir);
+    log("[consent] All participants consented, but the agent was played from an outside chat: the run stays private until its owner reviews it.");
+  } else if (allConsent) {
     fs.rmSync(path.join(runDir, ".gitignore"), { force: true });
     const notes = read("agent_game_notes.md");
     if (notes.trim()) fs.appendFileSync(SHARED_NOTES, notes, "utf-8");

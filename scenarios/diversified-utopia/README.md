@@ -48,6 +48,11 @@ and the human reader. Each role also sees its own commentary when asked for publ
 final commentary and the judges' feedback. Each file goes into that role's standing instructions only;
 no role sees another's lessons.
 
+**Playing the agent from your own chat.** `--agent-mailbox` hands every agent turn to an outside chat
+through `runs/<runId>/mailbox`, so a chat with its own context can play. The chat uses
+`npm run utopia-agent -- wait|reply|status --run <runId>`; the full guide is `PLAY_AS_AGENT.md`. Such
+runs stay private even if every role consents, until their owner reviews them.
+
 **Playing to win.** New runs tell the agent that playing safe and losing is still losing: the game
 is decided by the leading AI system on 30 December 2030, whoever builds it. Each month it works back
 from the deadline, looks for moves that shift the odds by tens of points, uses its scale (tools for

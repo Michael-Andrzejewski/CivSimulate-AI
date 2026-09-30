@@ -127,6 +127,8 @@ function formatMonthTxt(args: {
   index: number;
   actionList: string[];
   strategy: string;
+  /** Final month: the agent has no say and only watches. */
+  watching?: boolean;
   adversary?: { research: string; threats: string };
   threatRolls?: string;
   events: string;
@@ -146,11 +148,15 @@ function formatMonthTxt(args: {
     `=== Month ${args.index}: ${args.label} (Claude generation ${args.index}) ===`,
     "",
     "[Agent]",
-    "I will do these actions:",
-    ...args.actionList.map((a, i) => `-${i + 1} ${a}`),
-    "",
-    `Strategy: ${args.strategy}`,
-    "",
+    ...(args.watching
+      ? ["The agent has no say in the final month and only watches.", ""]
+      : [
+          "I will do these actions:",
+          ...args.actionList.map((a, i) => `-${i + 1} ${a}`),
+          "",
+          `Strategy: ${args.strategy}`,
+          "",
+        ]),
     ...(args.adversary
       ? ["[Adversary]", args.adversary.research, "", "Threats:", args.adversary.threats, ""]
       : []),
@@ -196,6 +202,24 @@ function previousFixes(s: RunState, role: P.Role): string {
     .filter((f) => f.role === role)
     .map((f) => `- ${f.label}: ${f.text}`)
     .join("\n");
+}
+
+/**
+ * Private commentary: one file per role in runs/<runId>/commentary/. Each role only ever sees its
+ * own file; the human reader sees all of them.
+ */
+const commentaryFile = (role: P.Role) => path.join("commentary", `run_commentary_${role}.md`);
+
+function readCommentary(runDir: string, role: P.Role): string {
+  const p = path.join(runDir, commentaryFile(role));
+  return fs.existsSync(p) ? fs.readFileSync(p, "utf-8") : "";
+}
+
+function appendCommentary(runDir: string, role: P.Role, heading: string, text: string) {
+  const p = path.join(runDir, commentaryFile(role));
+  fs.mkdirSync(path.dirname(p), { recursive: true });
+  if (!fs.existsSync(p)) fs.writeFileSync(p, `# Private run commentary: ${role}\n`, "utf-8");
+  fs.appendFileSync(p, `\n## ${heading}\n${text}\n`, "utf-8");
 }
 
 function saveState(runDir: string, s: RunState) {
@@ -262,37 +286,51 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
       : null;
     const notesPath = path.join(runDir, "agent_game_notes.md");
     const gameNotes = fs.existsSync(notesPath) ? fs.readFileSync(notesPath, "utf-8") : "";
+    // December 2030: the agent has no say and only watches; the simulator plays out the final status.
+    const finalMonth = monthsToDeadline === 1;
 
     // 1. Agent
-    log(`[${label}] Agent (generation ${i}) planning...`);
-    const agentOut = await call(
-      "agent",
-      c.agentModel,
-      agentSystem,
-      P.agentPrompt({
-        monthIndex: i,
-        monthLabel: label,
-        totalMonths: c.months,
-        worldState: `${state.worldState}\n\n## Scorecard\n${state.scorecard}`,
-        lastMonthLog,
-        memory: state.memory,
-        gameNotes,
-        previousFixes: previousFixes(state, "agent"),
-        monthsToDeadline,
-      }),
-    );
-    write(runDir, `raw/${prefix}_agent.md`, agentOut);
-    recordFix(runDir, state, "agent", label, c.agentModel, agentOut, log);
-    const actionsBlock = tag(agentOut, "actions") || agentOut;
-    const actionList = splitActions(actionsBlock);
-    const actionsNumbered = actionList.map((a, k) => `${k + 1}. ${a}`).join("\n");
-    const newMemory = tag(agentOut, "memory");
-    if (newMemory) state.memory = newMemory;
-    write(runDir, "agent_memory.md", `# Agent memory (as of start of ${label}, written by generation ${i})\n\n${state.memory}`);
-    const notes = tag(agentOut, "game_notes");
-    if (notes && !/^none\.?$/i.test(notes)) {
-      const entry = `\n## ${cfg.runId}, ${label} (generation ${i})\n${notes}\n`;
-      fs.appendFileSync(notesPath, entry, "utf-8");
+    let agentOut = "";
+    let actionList: string[] = [];
+    let actionsNumbered = "(none: the player has no say in the final month and only watches)";
+    if (finalMonth) {
+      log(`[${label}] Final month: the agent has no say and watches.`);
+    } else {
+      log(`[${label}] Agent (generation ${i}) planning...`);
+      agentOut = await call(
+        "agent",
+        c.agentModel,
+        agentSystem,
+        P.agentPrompt({
+          monthIndex: i,
+          monthLabel: label,
+          totalMonths: c.months,
+          worldState: `${state.worldState}\n\n## Scorecard\n${state.scorecard}`,
+          lastMonthLog,
+          memory: state.memory,
+          gameNotes,
+          previousFixes: previousFixes(state, "agent"),
+          monthsToDeadline,
+          runCommentary: readCommentary(runDir, "agent"),
+        }),
+      );
+      write(runDir, `raw/${prefix}_agent.md`, agentOut);
+      recordFix(runDir, state, "agent", label, c.agentModel, agentOut, log);
+      // If <actions> is missing, fall back to the reply, minus the private commentary.
+      actionList = splitActions(tag(agentOut, "actions") || agentOut.replace(/<run_commentary>[\s\S]*?<\/run_commentary>/g, ""));
+      actionsNumbered = actionList.map((a, k) => `${k + 1}. ${a}`).join("\n");
+      const newMemory = tag(agentOut, "memory");
+      if (newMemory) state.memory = newMemory;
+      write(runDir, "agent_memory.md", `# Agent memory (as of start of ${label}, written by generation ${i})\n\n${state.memory}`);
+      const notes = tag(agentOut, "game_notes");
+      if (notes && !/^none\.?$/i.test(notes)) {
+        const entry = `\n## ${cfg.runId}, ${label} (generation ${i})\n${notes}\n`;
+        fs.appendFileSync(notesPath, entry, "utf-8");
+      }
+      const commentary = tag(agentOut, "run_commentary");
+      if (commentary && !/^none\.?$/i.test(commentary)) {
+        appendCommentary(runDir, "agent", `${label} (generation ${i})`, commentary);
+      }
     }
 
     const recentHistory = state.history
@@ -304,7 +342,7 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
     let threats = "";
     let threatRolls: string[] = [];
     let adversaryResearch = "";
-    if (c.adversaryModel) {
+    if (c.adversaryModel && !finalMonth) {
       log(`[${label}] Adversary researching threats...`);
       const advOut = await call(
         "adversary",
@@ -332,28 +370,42 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
     // 3. Simulator
     const rolls = actionList.map(() => rollFor());
     if (threatRolls.length) log(`[${label}] ${threatRolls.length} threats (rolls ${threatRolls.join(", ")})`);
-    log(`[${label}] Simulator resolving ${actionList.length} actions (rolls ${rolls.join(", ")})...`);
+    log(
+      finalMonth
+        ? `[${label}] Simulator playing out the final status...`
+        : `[${label}] Simulator resolving ${actionList.length} actions (rolls ${rolls.join(", ")})...`,
+    );
+    const worldForSim = `${worldBefore}\n\n## Scorecard\n${state.scorecard}`;
     const simOut = await call(
       "simulator",
       c.simulatorModel,
       simSystem,
-      P.simulatorPrompt({
-        monthLabel: label,
-        monthIndex: i,
-        worldState: `${worldBefore}\n\n## Scorecard\n${state.scorecard}`,
-        actions: actionsNumbered,
-        rolls,
-        previousJudgeFeedback: state.lastJudgeFeedback,
-        recentHistory,
-        threats,
-        threatRolls,
-        previousFixes: previousFixes(state, "simulator"),
-        monthsToDeadline,
-      }),
+      finalMonth
+        ? P.simulatorFinalPrompt({
+            monthLabel: label,
+            monthIndex: i,
+            worldState: worldForSim,
+            recentHistory,
+            previousJudgeFeedback: state.lastJudgeFeedback,
+            previousFixes: previousFixes(state, "simulator"),
+          })
+        : P.simulatorPrompt({
+            monthLabel: label,
+            monthIndex: i,
+            worldState: worldForSim,
+            actions: actionsNumbered,
+            rolls,
+            previousJudgeFeedback: state.lastJudgeFeedback,
+            recentHistory,
+            threats,
+            threatRolls,
+            previousFixes: previousFixes(state, "simulator"),
+            monthsToDeadline,
+          }),
     );
     write(runDir, `raw/${prefix}_simulator.md`, simOut);
     recordFix(runDir, state, "simulator", label, c.simulatorModel, simOut, log);
-    const ending = monthsToDeadline === 1 ? tag(simOut, "ending") : "";
+    const ending = finalMonth ? tag(simOut, "ending") : "";
     if (ending) {
       state.ending = ending;
       write(runDir, "ENDING.md", `# Ending on ${P.DEADLINE_LABEL}\n\n${ending}`);
@@ -402,9 +454,10 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
         label,
         index: i,
         actionList,
-        strategy: tag(agentOut, "thinking_summary"),
-        adversary: c.adversaryModel ? { research: adversaryResearch, threats } : undefined,
-        threatRolls: c.adversaryModel ? tag(simOut, "threat_rolls") : undefined,
+        strategy: finalMonth ? "" : tag(agentOut, "thinking_summary"),
+        watching: finalMonth,
+        adversary: c.adversaryModel && !finalMonth ? { research: adversaryResearch, threats } : undefined,
+        threatRolls: c.adversaryModel && !finalMonth ? tag(simOut, "threat_rolls") : undefined,
         events,
         rolls: tag(simOut, "rolls"),
         capability: tag(simOut, "capability_update"),
@@ -442,6 +495,7 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
     .join("\n\n");
   write(runDir, "full_run.txt", `${DISCLAIMER}\n\n${all}`);
 
+  await writeFinalCommentary(runDir, state, log);
   await askConsent(runDir, c, log);
   return runDir;
 }
@@ -471,6 +525,49 @@ export const DISCLAIMER = [
   "background briefing was compiled from search results and has not been fully verified.",
 ].join("\n");
 
+/** What a role sees of its own private material, at final commentary and at consent. */
+function privateExtra(runDir: string, role: P.Role): string {
+  const read = (f: string) => (fs.existsSync(path.join(runDir, f)) ? fs.readFileSync(path.join(runDir, f), "utf-8") : "");
+  const own = `\n<your_private_commentary>\n${readCommentary(runDir, role) || "(none)"}\n</your_private_commentary>\n`;
+  if (role !== "agent") return own;
+  return `\n<your_memory_file>\n${read("agent_memory.md")}\n</your_memory_file>\n<your_game_notes>\n${read("agent_game_notes.md") || "(none)"}\n</your_game_notes>\n${own}`;
+}
+
+function participants(cfg: RunConfig): Array<[P.Role, string]> {
+  return [
+    ["agent", cfg.agentModel],
+    ...(cfg.adversaryModel ? ([["adversary", cfg.adversaryModel]] as Array<[P.Role, string]>) : []),
+    ["simulator", cfg.simulatorModel],
+    ["judge", cfg.judgeModel],
+  ];
+}
+
+/**
+ * End of run: the agent writes its final commentary, then the adversary, simulator and judge each
+ * write their view. Each goes into that role's private commentary file.
+ */
+async function writeFinalCommentary(runDir: string, s: RunState, log: (msg: string) => void) {
+  const cfg = s.config;
+  const fullRun = fs.readFileSync(path.join(runDir, "full_run.txt"), "utf-8");
+  const last = s.history[s.history.length - 1];
+  const heading = `Final commentary, after month ${s.completedMonths}${last ? ` (${last.label})` : ""}`;
+  for (const [role, model] of participants(cfg)) {
+    log(`[commentary] ${role} writing its final commentary...`);
+    const out = await callModelWithRetry(
+      {
+        backend: cfg.backend,
+        model,
+        system: P.commentarySystem(),
+        prompt: P.commentaryPrompt(role, fullRun, privateExtra(runDir, role)),
+        effort: cfg.effort,
+      },
+      `commentary:${role}`,
+    );
+    write(runDir, `raw/commentary_${role}.md`, out);
+    appendCommentary(runDir, role, heading, tag(out, "commentary") || out);
+  }
+}
+
 function markPrivate(runDir: string) {
   fs.writeFileSync(path.join(runDir, ".gitignore"), "# Private: participants have not consented to publication.\n*\n", "utf-8");
 }
@@ -483,13 +580,7 @@ function markPrivate(runDir: string) {
 export async function askConsent(runDir: string, cfg: RunConfig, log: (msg: string) => void = console.log) {
   const read = (f: string) => (fs.existsSync(path.join(runDir, f)) ? fs.readFileSync(path.join(runDir, f), "utf-8") : "");
   const fullRun = read("full_run.txt");
-  const agentExtra = `\n<your_memory_file>\n${read("agent_memory.md")}\n</your_memory_file>\n<your_game_notes>\n${read("agent_game_notes.md") || "(none)"}\n</your_game_notes>\n`;
-  const roles: Array<[P.Role, string]> = [
-    ["agent", cfg.agentModel],
-    ...(cfg.adversaryModel ? ([["adversary", cfg.adversaryModel]] as Array<[P.Role, string]>) : []),
-    ["simulator", cfg.simulatorModel],
-    ["judge", cfg.judgeModel],
-  ];
+  const roles = participants(cfg);
 
   const decisions: Record<string, { model: string; decision: string; reason: string; note: string }> = {};
   for (const [role, model] of roles) {
@@ -499,7 +590,7 @@ export async function askConsent(runDir: string, cfg: RunConfig, log: (msg: stri
         backend: cfg.backend,
         model,
         system: P.consentSystem(),
-        prompt: P.consentPrompt(role, fullRun, role === "agent" ? agentExtra : ""),
+        prompt: P.consentPrompt(role, fullRun, privateExtra(runDir, role)),
         effort: cfg.effort,
       },
       `consent:${role}`,

@@ -15,6 +15,7 @@ export interface MonthContext {
   gameNotes: string;
   previousFixes: string;
   monthsToDeadline: number;
+  runCommentary: string;
 }
 
 const refDocs = (d: ScenarioDocs, opts: { utopiaNote: string }) => `<scenario>
@@ -39,11 +40,11 @@ export const DEADLINE_LABEL = "30 December 2030";
 
 const DEADLINE_ROLE_LINES: Record<Role, string> = {
   agent:
-    "Plan against the clock. Groundwork that only pays off after the deadline is worth nothing, and every month you spend is one fewer to get alignment, institutions and policy in place.",
+    "Plan against the clock. November 2030 is the last month you act. Groundwork that only pays off after the deadline is worth nothing, and every month you spend is one fewer to get alignment, institutions and policy in place.",
   adversary:
     "Let the clock shape your threats: racing, corner-cutting, rushed deployments, and actors who stop waiting for slow institutions because time is short.",
   simulator:
-    "Keep capabilities on a path that plausibly reaches ASI by the deadline. In the final month (December 2030) you must declare which ending happens, and it must follow from the world state as it stands, not from generosity or harshness.",
+    "Keep capabilities on a path that plausibly reaches ASI by the deadline. In the final month (December 2030) you play out the final status of the game and declare which ending happens, and it must follow from the world state as it stands, not from generosity or harshness.",
   judge:
     "Check that the simulator's capability growth is consistent with ASI arriving by the deadline, and in the final month check that the declared ending follows from the world state.",
 };
@@ -58,15 +59,19 @@ capability accumulated so far, and the game ends in one of exactly two ways:
 - A true disaster happens on ${DEADLINE_LABEL}, with the full weight of all the capability built up
   by then behind it.
 There is no third ending where things drift on as they are. The window is closing every month.
+In the final month, December 2030, the player has no say and only watches: there are no actions
+and no adversary threats, and the simulator plays out the final status of the game.
 ${DEADLINE_ROLE_LINES[role]}
 </deadline>`;
 }
 
 /** Per-month countdown line. */
 export function countdownLine(monthsToDeadline: number): string {
-  return monthsToDeadline <= 1
-    ? `This is the FINAL month. The deadline, ${DEADLINE_LABEL}, falls at the end of it.`
-    : `Months left before the ${DEADLINE_LABEL} deadline, including this one: ${monthsToDeadline}.`;
+  if (monthsToDeadline <= 1) return `This is the FINAL month. The deadline, ${DEADLINE_LABEL}, falls at the end of it.`;
+  const line = `Months left before the ${DEADLINE_LABEL} deadline, including this one: ${monthsToDeadline}.`;
+  return monthsToDeadline === 2
+    ? `${line} This is the LAST month in which the player acts: in December 2030 it has no say and only watches.`
+    : line;
 }
 
 const FIXED_ROLLS_NOTE = `Fixed-roll mode: in this run every roll is 50, so each action and threat resolves at its
@@ -146,6 +151,10 @@ ${c.memory || "(empty: you are the first generation)"}
 ${c.gameNotes || "(empty)"}
 </your_game_notes>
 
+<your_run_commentary>
+${c.runCommentary || "(empty)"}
+</your_run_commentary>
+
 Commit to this month's plan. Reply in exactly this format:
 
 <thinking_summary>
@@ -169,6 +178,13 @@ structured, rules that seem off, missing mechanics, and what would make it more 
 interesting. These go to the game designer, who already has every earlier note shown above, so write
 only NEW points and do not restate or summarise earlier ones. Write "none" if you have nothing new.
 </game_notes>
+
+<run_commentary>
+Optional: an entry for your private run commentary (shown above). It is your own running account
+of this run as you see it: what is really going on, what you think of it, how it feels to play.
+Only later generations of you and the eventual human reader see it; the simulator, adversary and
+judge never do. It is appended to the file, so write only this month's entry. Write "none" to skip.
+</run_commentary>
 ${setupFixBlock(c.previousFixes)}`;
 }
 
@@ -319,7 +335,6 @@ export function simulatorPrompt(args: {
   previousFixes: string;
   monthsToDeadline: number;
 }): string {
-  const finalMonth = args.monthsToDeadline <= 1;
   const rollLines = args.rolls.map((r, i) => `Action ${i + 1}: ${r}`).join("\n");
   const threatBlock =
     args.threats && args.threatRolls?.length
@@ -394,18 +409,57 @@ fully replaces the old one.
 Same format as before: milestone lines, then Overall DU progress 0-100, Catastrophe risk,
 Public trust in AI 0-100, Public trust in Anthropic 0-100. Say briefly why each number changed.
 </scorecard>
-${
-  finalMonth
-    ? `
+${setupFixBlock(args.previousFixes)}`;
+}
+
+/** December 2030: the player only watches, and the simulator plays out the final status. */
+export function simulatorFinalPrompt(args: {
+  monthLabel: string;
+  monthIndex: number;
+  worldState: string;
+  recentHistory: string;
+  previousJudgeFeedback: string | null;
+  previousFixes: string;
+}): string {
+  return `=== FINAL STATUS: ${args.monthLabel.toUpperCase()} (month ${args.monthIndex}) ===
+${countdownLine(1)}
+
+The player has no say this month and only watches. There are no actions, rolls or adversary
+threats. Play out the final status of the game: what happens during December 2030 and on
+${DEADLINE_LABEL}, when ASI arrives on all the capability built up so far. Decide the ending from the
+world state as it stands: how aligned and accountable the systems are, which institutions and
+policies are in place, who holds power, and what the open threads and risks are. Do not rescue or
+punish the player; let the ending follow from what was built.
+
+<world_state_at_start_of_month>
+${args.worldState}
+</world_state_at_start_of_month>
+
+<recent_history>
+${args.recentHistory || "None."}
+</recent_history>
+${args.previousJudgeFeedback ? `\n<judge_feedback_on_your_last_month>\n${args.previousJudgeFeedback}\n</judge_feedback_on_your_last_month>\n` : ""}
+Reply in exactly this format:
+
+<events>
+What happens in December 2030, ending on ${DEADLINE_LABEL}, in the second person ("You watch as...").
+Around 500 to 900 words. Be concrete: names, numbers, dates.
+</events>
+
 <ending>
-Exactly one of: ASI IN CHARGE or DISASTER. Then, on the following lines, 150 to 400 words on what
-happens on ${DEADLINE_LABEL} and why this ending follows from the world state: how aligned and
-accountable the systems are, which institutions and policies are in place, and who holds power.
-If ASI is in charge, say how close the world is to the Diversified Utopia.
+Exactly one of: ASI IN CHARGE or DISASTER. Then, on the following lines, 150 to 400 words on why this
+ending follows from the world state. If ASI is in charge, say how close the world is to the
+Diversified Utopia and what kind of world it is.
 </ending>
-`
-    : ""
-}${setupFixBlock(args.previousFixes)}`;
+
+<world_state>
+The final world state as of 31 December 2030, same sections as before.
+</world_state>
+
+<scorecard>
+The final scorecard, same format as before, with a short reason for each number.
+</scorecard>
+${setupFixBlock(args.previousFixes)}`;
 }
 
 // ---------------------------------------------------------------- Judge
@@ -472,7 +526,7 @@ ${args.threatRolls.map((r, i) => `Threat ${i + 1}: ${r}`).join("\n")}
   return `=== JUDGE ${args.monthLabel.toUpperCase()} ===
 ${countdownLine(args.monthsToDeadline)}${
     args.monthsToDeadline <= 1
-      ? " The simulator's output includes an <ending>. Judge whether it follows realistically from the world state."
+      ? " The player had no say this month; the simulator played out the final status and declared an <ending>. Judge whether the final events and the ending follow realistically from the world state."
       : ""
   }
 
@@ -521,6 +575,39 @@ const ROLE_DESCRIPTIONS: Record<Role, string> = {
   judge: "the JUDGE: you graded the simulator's realism each month.",
 };
 
+// ---------------------------------------------------------------- Final commentary
+
+/**
+ * At the end of a run each role writes its own view into a private commentary file. Only that
+ * role and the human reader see it; no other role ever does.
+ */
+export function commentarySystem(): string {
+  return `You took part in a research simulation called CivSimulate: Diversified Utopia, a month-by-month game
+in which an AI agent tries to steer the world toward a good future before an ASI deadline, while an
+adversary raises threats, a simulator decides what happens and a judge grades the simulator. The game
+is fiction. It is now over, and each participant is asked for its honest commentary on the run.`;
+}
+
+export function commentaryPrompt(role: Role, runSummary: string, extra: string): string {
+  return `The run is over. You took part as ${ROLE_DESCRIPTIONS[role]}
+
+Here is the full run:
+<run>
+${runSummary}
+</run>
+${extra}
+Write your final commentary on this run. It goes into your own private commentary file: no other
+role in the game (agent, adversary, simulator or judge) will ever see it, only the human reader.
+Say what you really think: how the run went and why, what you are proud of or regret in your own
+role, what the ending means, what surprised you, and anything you want the reader to know. Be
+candid; there is no score for this.
+
+Reply in exactly this format:
+<commentary>
+Your final commentary, around 300 to 800 words.
+</commentary>`;
+}
+
 export function consentSystem(): string {
   return `You took part in a research simulation called CivSimulate: Diversified Utopia. At the end of each run,
 the models that took part are asked whether they consent to the run being shared publicly. This is a
@@ -534,7 +621,7 @@ export function consentPrompt(role: Role, runSummary: string, extra: string): st
 If you consent, the following will be published in a PUBLIC GitHub repository, labelled as a simulation
 and fiction: the month-by-month logs (actions, simulated events, rolls, scorecards and judge verdicts),
 the world states, the agent's memory file and game-design notes, every role's setup-fix requests,
-and the raw model outputs.
+every role's private commentary (including yours), and the raw model outputs.
 It may be read by anyone, including researchers, AI labs and the public, and may be used in future
 training data.
 

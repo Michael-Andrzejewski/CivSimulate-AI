@@ -24,9 +24,16 @@ npm run utopia -- --months 6 --fixed-rolls            # every roll is 50: replic
 **Deadline.** Every role is told that ASI arrives by **30 December 2030**, and the game ends in one
 of two ways: ASI is essentially in charge (the Diversified Utopia if the player did its job), or a
 true disaster happens that day with all the capability built up so far. Each month shows a
-countdown. In December 2030 (month 49) the simulator rules `ASI IN CHARGE` or `DISASTER` and explains
-why, the judge checks that the ending follows from the world state, and the ruling is saved to
-`ENDING.md`. A run never goes past that month.
+countdown, and November 2030 is the agent's last move. In December 2030 (month 49) the agent has no
+say and only watches, and there are no adversary threats: the simulator plays out the final status
+of the game and rules `ASI IN CHARGE` or `DISASTER`, and the judge checks that the ending follows from
+the world state. The ruling is saved to `ENDING.md`. A run never goes past that month.
+
+**Private commentary.** Each month the agent may add an entry to its private run commentary through
+the `<run_commentary>` block; later generations of the agent see it, no other role does. When a run
+ends, the agent writes its final commentary, then the adversary, simulator and judge each write
+their own view. Each role's file (`commentary/run_commentary_<role>.md`) is seen only by that role
+and the human reader. Each role also sees its own commentary when asked for publication consent.
 
 **Fixed rolls.** With `--fixed-rolls`, every action and threat roll is 50, so each resolves at its
 median outcome and results depend only on the probabilities the simulator sets. Use it to compare
@@ -57,6 +64,8 @@ it private again until consent is asked again. To re-ask for a finished run:
 - `setup_fixes.md`: fixes any role (agent, adversary, simulator, judge) asked for to its own setup,
   through the optional `<setup_fix>` block in its reply. Each role sees the fixes it filed earlier.
   Fixes from consented runs are also collected in `scenarios/diversified-utopia/setup_fixes.md`
+- `commentary/run_commentary_<role>.md`: each role's private commentary (see above)
+- `ENDING.md`: the simulator's ruling on 30 December 2030, for runs that reach the deadline
 - `world_state_*.md`: the world state and scorecard after each month
 - `raw/`: the full, unparsed model outputs
 - `state.json`: resume state

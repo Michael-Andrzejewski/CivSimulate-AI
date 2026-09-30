@@ -41,6 +41,9 @@ it private again until consent is asked again. To re-ask for a finished run:
 - `agent_memory.md`: the agent's memory file, rewritten by each generation for its successor
 - `agent_game_notes.md`: the agent's notes on how the game should be structured (notes from
   consented runs are also collected in `scenarios/diversified-utopia/agent_game_notes.md`)
+- `setup_fixes.md`: fixes any role (agent, adversary, simulator, judge) asked for to its own setup,
+  through the optional `<setup_fix>` block in its reply. Each role sees the fixes it filed earlier.
+  Fixes from consented runs are also collected in `scenarios/diversified-utopia/setup_fixes.md`
 - `world_state_*.md`: the world state and scorecard after each month
 - `raw/`: the full, unparsed model outputs
 - `state.json`: resume state

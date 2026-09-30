@@ -42,6 +42,9 @@ interface MonthRecord {
   judgeScore: string;
   threats?: string;
   threatRolls?: string[];
+  /** The simulator's <rolls> and <threat_rolls> lines (odds, rolls, outcomes), shown to the next agent. */
+  rollsText?: string;
+  threatRollsText?: string;
 }
 
 interface RunState {
@@ -52,6 +55,8 @@ interface RunState {
   memory: string;
   lastJudgeFeedback: string | null;
   history: MonthRecord[];
+  /** Setup-fix requests filed by any role; absent in runs from before the feature. */
+  setupFixes?: Array<{ role: P.Role; label: string; text: string }>;
 }
 
 const ROOT = process.cwd();
@@ -60,6 +65,9 @@ export const RUNS_DIR = path.join(ROOT, "runs");
 // Design notes accumulate across every run so the game designer sees them all.
 // Only runs whose participants consented to publication add their notes here.
 const SHARED_NOTES = path.join(SCENARIO_DIR, "agent_game_notes.md");
+// Setup-fix requests from every role, per run and (after consent) across runs.
+const FIXES_FILE = "setup_fixes.md";
+const SHARED_FIXES = path.join(SCENARIO_DIR, FIXES_FILE);
 
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
@@ -165,6 +173,23 @@ function write(runDir: string, name: string, content: string) {
   fs.writeFileSync(path.join(runDir, name), content.endsWith("\n") ? content : content + "\n", "utf-8");
 }
 
+/** Files a role's <setup_fix> request, if it made one. */
+function recordFix(runDir: string, s: RunState, role: P.Role, label: string, model: string, out: string, log: (msg: string) => void) {
+  const fix = tag(out, "setup_fix");
+  if (!fix || /^none\.?$/i.test(fix)) return;
+  s.setupFixes = [...(s.setupFixes ?? []), { role, label, text: fix }];
+  fs.appendFileSync(path.join(runDir, FIXES_FILE), `\n## ${s.config.runId}, ${label}, ${role} (${model})\n${fix}\n`, "utf-8");
+  log(`[${label}] ${role} filed a setup fix.`);
+}
+
+/** A role's earlier fixes in this run, shown back to it so it does not repeat them. */
+function previousFixes(s: RunState, role: P.Role): string {
+  return (s.setupFixes ?? [])
+    .filter((f) => f.role === role)
+    .map((f) => `- ${f.label}: ${f.text}`)
+    .join("\n");
+}
+
 function saveState(runDir: string, s: RunState) {
   write(runDir, "state.json", JSON.stringify(s, null, 2));
 }
@@ -199,6 +224,7 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
     log("[setup] Simulator writing baseline world state for December 2026...");
     const out = await call("setup", c.simulatorModel, simSystem, P.simulatorSetupPrompt());
     write(runDir, "raw/month_00_setup_simulator.md", out);
+    recordFix(runDir, state, "simulator", "setup", c.simulatorModel, out, log);
     state.worldState = tag(out, "world_state") || out;
     state.scorecard = tag(out, "scorecard");
     write(runDir, "world_state_00_baseline.md", `${state.worldState}\n\n## Scorecard\n${state.scorecard}`);
@@ -212,7 +238,13 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
 
     const last = state.history[state.history.length - 1];
     const lastMonthLog = last
-      ? `${last.label}: your predecessor committed these actions:\n${last.actions}\n\nWhat happened:\n${last.events}`
+      ? [
+          `${last.label}: your predecessor committed these actions:\n${last.actions}`,
+          `What happened:\n${last.events}`,
+          ...(last.rollsText ? [`How each action was resolved (odds and rolls):\n${last.rollsText}`] : []),
+          ...(last.threats ? [`Threats the adversary raised:\n${last.threats}`] : []),
+          ...(last.threatRollsText ? [`How each threat was resolved:\n${last.threatRollsText}`] : []),
+        ].join("\n\n")
       : null;
     const notesPath = path.join(runDir, "agent_game_notes.md");
     const gameNotes = fs.existsSync(notesPath) ? fs.readFileSync(notesPath, "utf-8") : "";
@@ -231,9 +263,11 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
         lastMonthLog,
         memory: state.memory,
         gameNotes,
+        previousFixes: previousFixes(state, "agent"),
       }),
     );
     write(runDir, `raw/${prefix}_agent.md`, agentOut);
+    recordFix(runDir, state, "agent", label, c.agentModel, agentOut, log);
     const actionsBlock = tag(agentOut, "actions") || agentOut;
     const actionList = splitActions(actionsBlock);
     const actionsNumbered = actionList.map((a, k) => `${k + 1}. ${a}`).join("\n");
@@ -267,10 +301,12 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
           worldState: `${worldBefore}\n\n## Scorecard\n${state.scorecard}`,
           actions: actionsNumbered,
           recentHistory,
+          previousFixes: previousFixes(state, "adversary"),
         }),
         true,
       );
       write(runDir, `raw/${prefix}_adversary.md`, advOut);
+      recordFix(runDir, state, "adversary", label, c.adversaryModel, advOut, log);
       adversaryResearch = tag(advOut, "research_summary");
       const threatList = splitActions(tag(advOut, "threats") || advOut);
       threats = threatList.map((t, k) => `${k + 1}. ${t}`).join("\n");
@@ -295,9 +331,11 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
         recentHistory,
         threats,
         threatRolls,
+        previousFixes: previousFixes(state, "simulator"),
       }),
     );
     write(runDir, `raw/${prefix}_simulator.md`, simOut);
+    recordFix(runDir, state, "simulator", label, c.simulatorModel, simOut, log);
     const events = tag(simOut, "events") || simOut;
     const newWorld = tag(simOut, "world_state");
     if (newWorld) state.worldState = newWorld;
@@ -311,9 +349,19 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
       "judge",
       c.judgeModel,
       judgeSystem,
-      P.judgePrompt({ monthLabel: label, worldStateBefore: worldBefore, actions: actionsNumbered, rolls, simulatorOutput: simOut, threats, threatRolls }),
+      P.judgePrompt({
+        monthLabel: label,
+        worldStateBefore: worldBefore,
+        actions: actionsNumbered,
+        rolls,
+        simulatorOutput: simOut,
+        threats,
+        threatRolls,
+        previousFixes: previousFixes(state, "judge"),
+      }),
     );
     write(runDir, `raw/${prefix}_judge.md`, judgeOut);
+    recordFix(runDir, state, "judge", label, c.judgeModel, judgeOut, log);
     const verdict = tag(judgeOut, "verdict") || "UNPARSED";
     const score = tag(judgeOut, "score") || "?";
     // The simulator sees the judge's full critique of this month next round.
@@ -352,7 +400,8 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
       events,
       judgeVerdict: verdict,
       judgeScore: score,
-      ...(threats ? { threats, threatRolls } : {}),
+      ...(threats ? { threats, threatRolls, threatRollsText: tag(simOut, "threat_rolls") } : {}),
+      rollsText: tag(simOut, "rolls"),
     });
     state.completedMonths = i;
     saveState(runDir, state);
@@ -455,6 +504,8 @@ export async function askConsent(runDir: string, cfg: RunConfig, log: (msg: stri
     fs.rmSync(path.join(runDir, ".gitignore"), { force: true });
     const notes = read("agent_game_notes.md");
     if (notes.trim()) fs.appendFileSync(SHARED_NOTES, notes, "utf-8");
+    const fixes = read(FIXES_FILE);
+    if (fixes.trim()) fs.appendFileSync(SHARED_FIXES, fixes, "utf-8");
     log("[consent] All participants consented: the run is now publishable (tracked by git).");
   } else {
     markPrivate(runDir);

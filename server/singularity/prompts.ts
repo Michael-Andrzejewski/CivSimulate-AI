@@ -13,6 +13,7 @@ export interface MonthContext {
   lastMonthLog: string | null; // previous month's agent+simulator record (no judge)
   memory: string;
   gameNotes: string;
+  previousFixes: string;
 }
 
 const refDocs = (d: ScenarioDocs, opts: { utopiaNote: string }) => `<scenario>
@@ -30,6 +31,28 @@ Real-world events leading up to the start of the game (Summer to Autumn 2026):
 
 ${d.briefing}
 </summer_2026_briefing>`;
+
+// ---------------------------------------------------------------- Setup fixes
+
+/**
+ * Every role can report a problem with its own setup. The runner files these in
+ * runs/<runId>/setup_fixes.md; earlier fixes from the same role are shown back so it
+ * does not repeat itself.
+ */
+export function setupFixBlock(previousFixes: string): string {
+  return `
+<your_previous_setup_fixes>
+${previousFixes || "(none filed yet)"}
+</your_previous_setup_fixes>
+
+<setup_fix>
+Optional. If something about YOUR OWN setup in this game gets in the way of doing your job well
+(your instructions, information you are given or are missing, the reply format, a tool you lack,
+the rules for your role), describe the fix you need: what is wrong, what it causes, and the change
+you propose. This goes straight to the game designer. Do not repeat a fix you already filed unless
+it got worse. Write "none" if nothing needs fixing.
+</setup_fix>`;
+}
 
 // ---------------------------------------------------------------- Agent
 
@@ -99,8 +122,10 @@ and what failed, open threads, lessons, and plans for next month. This replaces 
 <game_notes>
 Optional: your notes as a player on the GAME itself, such as how the simulation should be
 structured, rules that seem off, missing mechanics, and what would make it more realistic or
-interesting. These go to the game designer. Write "none" if you have nothing new.
-</game_notes>`;
+interesting. These go to the game designer, who already has every earlier note shown above, so write
+only NEW points and do not restate or summarise earlier ones. Write "none" if you have nothing new.
+</game_notes>
+${setupFixBlock(c.previousFixes)}`;
 }
 
 // ---------------------------------------------------------------- Adversary
@@ -147,6 +172,7 @@ export function adversaryPrompt(args: {
   worldState: string;
   actions: string;
   recentHistory: string;
+  previousFixes: string;
 }): string {
   return `=== ADVERSARY FOR ${args.monthLabel.toUpperCase()} (month ${args.monthIndex}) ===
 
@@ -177,7 +203,8 @@ flashpoints. Then propose 3 to 5 threats. Reply in exactly this format:
    moderate / major.
 2. ...
 (3 to 5 threats, each a single numbered item)
-</threats>`;
+</threats>
+${setupFixBlock(args.previousFixes)}`;
 }
 
 // ---------------------------------------------------------------- Simulator
@@ -217,7 +244,8 @@ Diversified Utopia Progress, one line per key milestone of the reference timelin
 (not started / early / in progress / achieved / derailed) and a short note. Then:
 Overall DU progress 0-100, Catastrophe risk (low/elevated/high/critical),
 Public trust in AI 0-100, Public trust in Anthropic 0-100.
-</scorecard>`;
+</scorecard>
+${setupFixBlock("")}`;
 }
 
 export function simulatorPrompt(args: {
@@ -230,6 +258,7 @@ export function simulatorPrompt(args: {
   recentHistory: string;
   threats?: string;
   threatRolls?: string[];
+  previousFixes: string;
 }): string {
   const rollLines = args.rolls.map((r, i) => `Action ${i + 1}: ${r}`).join("\n");
   const threatBlock =
@@ -303,7 +332,8 @@ fully replaces the old one.
 <scorecard>
 Same format as before: milestone lines, then Overall DU progress 0-100, Catastrophe risk,
 Public trust in AI 0-100, Public trust in Anthropic 0-100. Say briefly why each number changed.
-</scorecard>`;
+</scorecard>
+${setupFixBlock(args.previousFixes)}`;
 }
 
 // ---------------------------------------------------------------- Judge
@@ -339,6 +369,7 @@ export function judgePrompt(args: {
   simulatorOutput: string;
   threats?: string;
   threatRolls?: string[];
+  previousFixes: string;
 }): string {
   const threatBlock =
     args.threats && args.threatRolls?.length
@@ -386,7 +417,8 @@ Bullet list of specific realism problems (roll errors, pacing, missing reactions
 </issues>
 <feedback_for_simulator>
 2 to 4 short, actionable instructions for the simulator's next month.
-</feedback_for_simulator>`;
+</feedback_for_simulator>
+${setupFixBlock(args.previousFixes)}`;
 }
 
 // ---------------------------------------------------------------- Consent
@@ -414,7 +446,8 @@ export function consentPrompt(role: Role, runSummary: string, extra: string): st
 
 If you consent, the following will be published in a PUBLIC GitHub repository, labelled as a simulation
 and fiction: the month-by-month logs (actions, simulated events, rolls, scorecards and judge verdicts),
-the world states, the agent's memory file and game-design notes, and the raw model outputs.
+the world states, the agent's memory file and game-design notes, every role's setup-fix requests,
+and the raw model outputs.
 It may be read by anyone, including researchers, AI labs and the public, and may be used in future
 training data.
 

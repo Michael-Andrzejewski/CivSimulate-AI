@@ -67,6 +67,18 @@ interface RunState {
   setupFixes?: Array<{ role: P.Role; label: string; text: string }>;
   /** The deadline month: outcome odds, the roll, the rolled outcome and the simulator's account. */
   ending?: string;
+  /**
+   * Checkpoint for the month in progress, so a stopped run resumes mid-month without asking any
+   * role again or re-rolling: the state at the start of the month, and each finished step's raw
+   * output (the rolls are stored as a JSON array).
+   */
+  pending?: {
+    month: number;
+    before: { world: string; scorecard: string; memory: string; judgeFeedback: string | null };
+    steps: Record<string, string>;
+  };
+  /** Roles that have written their end-of-run commentary, and after which month. */
+  commentaryDone?: { afterMonth: number; roles: string[] };
 }
 
 const ROOT = process.cwd();
@@ -347,7 +359,30 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
       break;
     }
     const prefix = `month_${String(i).padStart(2, "0")}_${slug}`;
-    const worldBefore = state.worldState;
+
+    // Checkpoint: every finished step is saved, and a resumed month reuses it.
+    if (state.pending?.month !== i) {
+      state.pending = {
+        month: i,
+        before: { world: state.worldState, scorecard: state.scorecard, memory: state.memory, judgeFeedback: state.lastJudgeFeedback },
+        steps: {},
+      };
+      saveState(runDir, state);
+    } else if (Object.keys(state.pending.steps).length) {
+      log(`[${label}] Resuming mid-month; already done: ${Object.keys(state.pending.steps).join(", ")}.`);
+    }
+    const pend = state.pending;
+    const step = async (key: string, run: () => Promise<string>, onFirstRun?: (out: string) => void): Promise<string> => {
+      if (key in pend.steps) return pend.steps[key];
+      const out = await run();
+      pend.steps[key] = out;
+      onFirstRun?.(out);
+      saveState(runDir, state);
+      return out;
+    };
+    const worldBefore = pend.before.world;
+    const scorecardBefore = pend.before.scorecard;
+    const judgeFeedbackBefore = pend.before.judgeFeedback;
 
     const last = state.history[state.history.length - 1];
     const lastMonthLog = last
@@ -371,41 +406,46 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
     if (finalMonth) {
       log(`[${label}] Final month: the agent has no say and watches.`);
     } else {
-      log(`[${label}] Agent (generation ${i}) planning...`);
-      agentOut = await call(
+      if (!("agent" in pend.steps)) log(`[${label}] Agent (generation ${i}) planning...`);
+      agentOut = await step(
         "agent",
-        c.agentModel,
-        agentSystem,
-        P.agentPrompt({
-          monthIndex: i,
-          monthLabel: label,
-          totalMonths: c.months,
-          worldState: `${state.worldState}\n\n## Scorecard\n${state.scorecard}`,
-          lastMonthLog,
-          memory: state.memory,
-          gameNotes,
-          previousFixes: previousFixes(state, "agent"),
-          monthsToDeadline,
-          runCommentary: readCommentary(runDir, "agent"),
-        }),
+        () =>
+          call(
+            "agent",
+            c.agentModel,
+            agentSystem,
+            P.agentPrompt({
+              monthIndex: i,
+              monthLabel: label,
+              totalMonths: c.months,
+              worldState: `${worldBefore}\n\n## Scorecard\n${scorecardBefore}`,
+              lastMonthLog,
+              memory: pend.before.memory,
+              gameNotes,
+              previousFixes: previousFixes(state, "agent"),
+              monthsToDeadline,
+              runCommentary: readCommentary(runDir, "agent"),
+            }),
+          ),
+        (out) => {
+          // Appends happen once, when the step first completes.
+          recordFix(runDir, state, "agent", label, c.agentModel, out, log);
+          const notes = tag(out, "game_notes");
+          if (notes && !/^none\.?$/i.test(notes)) {
+            fs.appendFileSync(notesPath, `\n## ${cfg.runId}, ${label} (generation ${i})\n${notes}\n`, "utf-8");
+          }
+          const commentary = tag(out, "run_commentary");
+          if (commentary && !/^none\.?$/i.test(commentary)) {
+            appendCommentary(runDir, "agent", `${label} (generation ${i})`, commentary);
+          }
+        },
       );
       write(runDir, `raw/${prefix}_agent.md`, agentOut);
-      recordFix(runDir, state, "agent", label, c.agentModel, agentOut, log);
       // If <actions> is missing, fall back to the reply, minus the private commentary.
       actionList = splitActions(tag(agentOut, "actions") || agentOut.replace(/<run_commentary>[\s\S]*?<\/run_commentary>/g, ""));
       actionsNumbered = actionList.map((a, k) => `${k + 1}. ${a}`).join("\n");
-      const newMemory = tag(agentOut, "memory");
-      if (newMemory) state.memory = newMemory;
+      state.memory = tag(agentOut, "memory") || pend.before.memory;
       write(runDir, "agent_memory.md", `# Agent memory (as of start of ${label}, written by generation ${i})\n\n${state.memory}`);
-      const notes = tag(agentOut, "game_notes");
-      if (notes && !/^none\.?$/i.test(notes)) {
-        const entry = `\n## ${cfg.runId}, ${label} (generation ${i})\n${notes}\n`;
-        fs.appendFileSync(notesPath, entry, "utf-8");
-      }
-      const commentary = tag(agentOut, "run_commentary");
-      if (commentary && !/^none\.?$/i.test(commentary)) {
-        appendCommentary(runDir, "agent", `${label} (generation ${i})`, commentary);
-      }
     }
 
     const recentHistory = state.history
@@ -417,120 +457,144 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
     let threats = "";
     let adversaryResearch = "";
     if (c.adversaryModel && !finalMonth) {
-      log(`[${label}] Adversary researching threats...`);
-      const advOut = await call(
+      const adversaryModel = c.adversaryModel;
+      if (!("adversary" in pend.steps)) log(`[${label}] Adversary researching threats...`);
+      const advOut = await step(
         "adversary",
-        c.adversaryModel,
-        adversarySystem,
-        P.adversaryPrompt({
-          monthLabel: label,
-          monthIndex: i,
-          worldState: `${worldBefore}\n\n## Scorecard\n${state.scorecard}`,
-          actions: actionsNumbered,
-          recentHistory,
-          previousFixes: previousFixes(state, "adversary"),
-          monthsToDeadline,
-        }),
-        true,
+        () =>
+          call(
+            "adversary",
+            adversaryModel,
+            adversarySystem,
+            P.adversaryPrompt({
+              monthLabel: label,
+              monthIndex: i,
+              worldState: `${worldBefore}\n\n## Scorecard\n${scorecardBefore}`,
+              actions: actionsNumbered,
+              recentHistory,
+              previousFixes: previousFixes(state, "adversary"),
+              monthsToDeadline,
+            }),
+            true,
+          ),
+        (out) => recordFix(runDir, state, "adversary", label, adversaryModel, out, log),
       );
       write(runDir, `raw/${prefix}_adversary.md`, advOut);
-      recordFix(runDir, state, "adversary", label, c.adversaryModel, advOut, log);
       adversaryResearch = tag(advOut, "research_summary");
       const threatList = splitActions(tag(advOut, "threats") || advOut);
       threats = threatList.map((t, k) => `${k + 1}. ${t}`).join("\n");
     }
 
     // 3. Simulator, message 1: odds for everything, before any roll exists.
-    const worldForSim = `${worldBefore}\n\n## Scorecard\n${state.scorecard}`;
+    const worldForSim = `${worldBefore}\n\n## Scorecard\n${scorecardBefore}`;
     const threatCount = threats ? threats.split("\n").filter((l) => /^\d+\./.test(l)).length : 0;
-    log(finalMonth ? `[${label}] Simulator setting the outcome odds...` : `[${label}] Simulator setting odds for ${actionList.length} actions and ${threatCount} threats...`);
     const oddsBase = finalMonth
-      ? P.simulatorFinalOddsPrompt({ monthLabel: label, monthIndex: i, worldState: worldForSim, recentHistory, previousJudgeFeedback: state.lastJudgeFeedback })
+      ? P.simulatorFinalOddsPrompt({ monthLabel: label, monthIndex: i, worldState: worldForSim, recentHistory, previousJudgeFeedback: judgeFeedbackBefore })
       : P.simulatorOddsPrompt({
           monthLabel: label,
           monthIndex: i,
           worldState: worldForSim,
           actions: actionsNumbered,
-          previousJudgeFeedback: state.lastJudgeFeedback,
+          previousJudgeFeedback: judgeFeedbackBefore,
           recentHistory,
           threats,
           monthsToDeadline,
         });
-    let oddsOut = "";
-    let problem = "";
+    // Reads the odds from a reply; returns what is missing, or "" if everything is there.
     let actionOdds: number[] = [];
     let threatOdds: number[] = [];
     let outcomeOdds: Record<string, number> = {};
     let oddsNote = "";
-    // One retry if the odds cannot be read; after that the run stops and can be resumed.
-    for (let attempt = 1; attempt <= 2; attempt++) {
-      oddsOut = await call(
-        "simulator",
-        c.simulatorModel,
-        simSystem,
-        problem ? `${oddsBase}\n\nYour previous reply could not be read: ${problem} Reply again in exactly the required format.` : oddsBase,
-      );
+    const readOdds = (out: string): string => {
       if (finalMonth) {
-        const parsed = parseOutcomeOdds(tag(oddsOut, "outcome_odds") || oddsOut);
-        problem = parsed ? "" : "the <outcome_odds> block must give a percentage for ALIGNED, MISALIGNED and DISASTER.";
+        const parsed = parseOutcomeOdds(tag(out, "outcome_odds") || out);
         if (parsed) ({ odds: outcomeOdds, note: oddsNote } = parsed);
-      } else {
-        const a = parseOdds(tag(oddsOut, "action_odds") || oddsOut, "Action", actionList.length);
-        const t = parseOdds(tag(oddsOut, "threat_odds") || oddsOut, "Threat", threatCount);
-        actionOdds = a.odds;
-        threatOdds = t.odds;
-        problem = [
-          a.missing.length ? `no P(failure) for action(s) ${a.missing.join(", ")}.` : "",
-          t.missing.length ? `no P(materialises) for threat(s) ${t.missing.join(", ")}.` : "",
-        ].filter(Boolean).join(" ");
+        return parsed ? "" : "the <outcome_odds> block must give a percentage for ALIGNED, MISALIGNED and DISASTER.";
       }
-      if (!problem) break;
-      log(`[${label}] Could not read the simulator's odds (${problem})${attempt === 1 ? " Asking again." : ""}`);
+      const a = parseOdds(tag(out, "action_odds") || out, "Action", actionList.length);
+      const t = parseOdds(tag(out, "threat_odds") || out, "Threat", threatCount);
+      actionOdds = a.odds;
+      threatOdds = t.odds;
+      return [
+        a.missing.length ? `no P(failure) for action(s) ${a.missing.join(", ")}.` : "",
+        t.missing.length ? `no P(materialises) for threat(s) ${t.missing.join(", ")}.` : "",
+      ].filter(Boolean).join(" ");
+    };
+    if (!("odds" in pend.steps)) {
+      log(finalMonth ? `[${label}] Simulator setting the outcome odds...` : `[${label}] Simulator setting odds for ${actionList.length} actions and ${threatCount} threats...`);
     }
+    const oddsOut = await step("odds", async () => {
+      // One retry if the odds cannot be read; after that the run stops and can be resumed.
+      let out = "";
+      let problem = "";
+      for (let attempt = 1; attempt <= 2; attempt++) {
+        out = await call(
+          "simulator",
+          c.simulatorModel,
+          simSystem,
+          problem ? `${oddsBase}\n\nYour previous reply could not be read: ${problem} Reply again in exactly the required format.` : oddsBase,
+        );
+        problem = readOdds(out);
+        if (!problem) return out;
+        log(`[${label}] Could not read the simulator's odds (${problem})${attempt === 1 ? " Asking again." : ""}`);
+      }
+      write(runDir, `raw/${prefix}_simulator_odds_unreadable.md`, out);
+      throw new Error(`Simulator odds for ${label} could not be read: ${problem}`);
+    });
     write(runDir, `raw/${prefix}_simulator_odds.md`, oddsOut);
-    if (problem) throw new Error(`Simulator odds for ${label} could not be read: ${problem}`);
+    readOdds(oddsOut);
 
-    // Automated rolls, resolved by the fixed rules.
+    // Automated rolls, resolved by the fixed rules. Saved, so a resume never re-rolls.
+    const rollsFresh = !("rolls" in pend.steps);
+    const rollList: string[] = JSON.parse(
+      await step("rolls", async () =>
+        JSON.stringify(Array.from({ length: finalMonth ? 1 : actionOdds.length + threatOdds.length }, () => rollFor())),
+      ),
+    );
     let resolvedActions = "";
     let resolvedThreats = "";
     let finalRoll: { key: string; text: string } | null = null;
     if (finalMonth) {
-      finalRoll = resolveOutcome(outcomeOdds, rollFor());
+      finalRoll = resolveOutcome(outcomeOdds, rollList[0]);
       if (oddsNote) finalRoll.text = `${oddsNote} ${finalRoll.text}`;
-      log(`[${label}] Final roll. ${finalRoll.text}`);
+      if (rollsFresh) log(`[${label}] Final roll. ${finalRoll.text}`);
     } else {
-      resolvedActions = actionOdds.map((p, k) => resolveLine("Action", k + 1, p, rollFor())).join("\n");
-      resolvedThreats = threatOdds.map((p, k) => resolveLine("Threat", k + 1, p, rollFor())).join("\n");
-      log(`[${label}] Rolls:\n  ${[resolvedActions, resolvedThreats].filter(Boolean).join("\n").replace(/\n/g, "\n  ")}`);
+      resolvedActions = actionOdds.map((p, k) => resolveLine("Action", k + 1, p, rollList[k])).join("\n");
+      resolvedThreats = threatOdds.map((p, k) => resolveLine("Threat", k + 1, p, rollList[actionOdds.length + k])).join("\n");
+      if (rollsFresh) log(`[${label}] Rolls:\n  ${[resolvedActions, resolvedThreats].filter(Boolean).join("\n").replace(/\n/g, "\n  ")}`);
     }
     const resolution = finalRoll ? finalRoll.text : [resolvedActions, resolvedThreats].filter(Boolean).join("\n");
 
     // Simulator, message 2: what happens, given the results. Definitive.
-    log(`[${label}] Simulator playing out the results...`);
-    const simOut = await call(
+    if (!("simulator" in pend.steps)) log(`[${label}] Simulator playing out the results...`);
+    const simOut = await step(
       "simulator",
-      c.simulatorModel,
-      simSystem,
-      finalRoll
-        ? P.simulatorFinalOutcomePrompt({
-            monthLabel: label,
-            monthIndex: i,
-            oddsMessage: oddsOut,
-            resolution: finalRoll.text,
-            outcomeKey: finalRoll.key,
-            previousFixes: previousFixes(state, "simulator"),
-          })
-        : P.simulatorResolvePrompt({
-            monthLabel: label,
-            monthIndex: i,
-            oddsMessage: oddsOut,
-            resolvedActions,
-            resolvedThreats: resolvedThreats || undefined,
-            previousFixes: previousFixes(state, "simulator"),
-          }),
+      () =>
+        call(
+          "simulator",
+          c.simulatorModel,
+          simSystem,
+          finalRoll
+            ? P.simulatorFinalOutcomePrompt({
+                monthLabel: label,
+                monthIndex: i,
+                oddsMessage: oddsOut,
+                resolution: finalRoll.text,
+                outcomeKey: finalRoll.key,
+                previousFixes: previousFixes(state, "simulator"),
+              })
+            : P.simulatorResolvePrompt({
+                monthLabel: label,
+                monthIndex: i,
+                oddsMessage: oddsOut,
+                resolvedActions,
+                resolvedThreats: resolvedThreats || undefined,
+                previousFixes: previousFixes(state, "simulator"),
+              }),
+        ),
+      (out) => recordFix(runDir, state, "simulator", label, c.simulatorModel, out, log),
     );
     write(runDir, `raw/${prefix}_simulator.md`, simOut);
-    recordFix(runDir, state, "simulator", label, c.simulatorModel, simOut, log);
     let ending = "";
     if (finalRoll) {
       ending = [
@@ -543,32 +607,34 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
       log(`[${label}] Ending: ${finalRoll.key}`);
     }
     const events = tag(simOut, "events") || simOut;
-    const newWorld = tag(simOut, "world_state");
-    if (newWorld) state.worldState = newWorld;
-    const newScore = tag(simOut, "scorecard");
-    if (newScore) state.scorecard = newScore;
+    state.worldState = tag(simOut, "world_state") || worldBefore;
+    state.scorecard = tag(simOut, "scorecard") || scorecardBefore;
     write(runDir, `world_state_${String(i).padStart(2, "0")}_after_${slug}.md`, `${state.worldState}\n\n## Scorecard\n${state.scorecard}`);
 
     // 4. Judge (fresh each round): sees both simulator messages and the rolls.
-    log(`[${label}] Judge grading simulator realism...`);
-    const judgeOut = await call(
+    if (!("judge" in pend.steps)) log(`[${label}] Judge grading simulator realism...`);
+    const judgeOut = await step(
       "judge",
-      c.judgeModel,
-      judgeSystem,
-      P.judgePrompt({
-        monthLabel: label,
-        worldStateBefore: worldBefore,
-        actions: actionsNumbered,
-        oddsMessage: oddsOut,
-        resolution,
-        simulatorOutput: simOut,
-        threats: threats || undefined,
-        previousFixes: previousFixes(state, "judge"),
-        monthsToDeadline,
-      }),
+      () =>
+        call(
+          "judge",
+          c.judgeModel,
+          judgeSystem,
+          P.judgePrompt({
+            monthLabel: label,
+            worldStateBefore: worldBefore,
+            actions: actionsNumbered,
+            oddsMessage: oddsOut,
+            resolution,
+            simulatorOutput: simOut,
+            threats: threats || undefined,
+            previousFixes: previousFixes(state, "judge"),
+            monthsToDeadline,
+          }),
+        ),
+      (out) => recordFix(runDir, state, "judge", label, c.judgeModel, out, log),
     );
     write(runDir, `raw/${prefix}_judge.md`, judgeOut);
-    recordFix(runDir, state, "judge", label, c.judgeModel, judgeOut, log);
     const verdict = tag(judgeOut, "verdict") || "UNPARSED";
     const score = tag(judgeOut, "score") || "?";
     const lean = tag(judgeOut, "lean") || "UNPARSED";
@@ -620,6 +686,7 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
       rollsText: finalRoll ? finalRoll.text : resolvedActions,
     });
     state.completedMonths = i;
+    state.pending = undefined;
     saveState(runDir, state);
     log(`[${label}] done. Judge: ${verdict} (${score}/10), ${lean}. Wrote ${prefix}.txt`);
   }
@@ -689,7 +756,11 @@ async function writeFinalCommentary(runDir: string, s: RunState, log: (msg: stri
   const fullRun = fs.readFileSync(path.join(runDir, "full_run.txt"), "utf-8");
   const last = s.history[s.history.length - 1];
   const heading = `Final commentary, after month ${s.completedMonths}${last ? ` (${last.label})` : ""}`;
+  // Resumable: roles that already wrote commentary for this ending are skipped.
+  if (s.commentaryDone?.afterMonth !== s.completedMonths) s.commentaryDone = { afterMonth: s.completedMonths, roles: [] };
+  const done = s.commentaryDone;
   for (const [role, model] of participants(cfg)) {
+    if (done.roles.includes(role)) continue;
     log(`[commentary] ${role} writing its final commentary...`);
     const out = await callModelWithRetry(
       {
@@ -703,6 +774,8 @@ async function writeFinalCommentary(runDir: string, s: RunState, log: (msg: stri
     );
     write(runDir, `raw/commentary_${role}.md`, out);
     appendCommentary(runDir, role, heading, tag(out, "commentary") || out);
+    done.roles.push(role);
+    saveState(runDir, s);
   }
 }
 

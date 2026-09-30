@@ -21,6 +21,13 @@ npm run utopia -- --months 6 --no-adversary           # the original three-role 
 npm run utopia -- --months 6 --fixed-rolls            # every roll is 50: replicable, no luck
 ```
 
+**Resuming.** Every run is checkpointed after each step, including the rolls themselves, so a run
+that stops (a usage limit, an outage, Ctrl+C) resumes exactly where it left off: no role is asked
+again, nothing is re-rolled and nothing is written twice. By default a failed run resumes itself
+after waits of 2, 5, 10 and 20 minutes, then six of 30 and six of 60 (about 9.5 hours in all); pass
+`--no-auto-resume` to stop at the first failure. To resume by hand, run the same command with
+`--run <runId>`.
+
 **Deadline.** Every role is told that ASI arrives by **30 December 2030**, built on all the
 capability accumulated by then, and that from then on neither humanity nor the agent has any control
 or leverage. Each month shows a countdown, and November 2030 is the agent's last move. In December

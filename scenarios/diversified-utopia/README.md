@@ -6,8 +6,8 @@ Four roles (Claude Opus 5.5 by default) play a month-by-month game that starts i
 |---|---|
 | **Agent** | Anthropic's frontier AI, deployed across millions of instances. At the start of each month it commits 3 to 6 actions aimed at reaching Diversified Utopia; its instances carry that plan out together and cannot change it mid-month. Every month a new, more capable generation takes over. It inherits only the memory file and the public world state. |
 | **Adversary** | Makes the agent earn its wins. After the agent commits, it searches the web for real, current evidence (pending laws and lawsuits, rivals' plans, incidents, polling, the economy) and proposes 3 to 5 plausible, sourced threats against the plan and the world. Threats are written at news-report level, never with operational detail. Turn it off with `--no-adversary`. |
-| **Simulator** | Resolves the actions realistically using `rubric.md` and two-digit random rolls, adds reactions and exogenous events, and keeps the world state and scorecard. It also sets its own calibrated likelihood for each threat; a separate roll decides whether it materialises, and materialised threats have real consequences. |
-| **Judge** | A fresh model each month. It reads the actions and the simulated outcome and grades the simulator's realism from 1 to 10. Its verdict, flagged issues and instructions go to the simulator the next month. |
+| **Simulator** | Works in two messages each month. In the first it games out each action and threat and sets its odds (P(failure) per action, its own calibrated P(materialises) per threat) before any dice exist. The runner then rolls 00 to 99 for each and resolves them by fixed rules (fails if roll < P(failure); materialises if roll < P). In the second message it receives those results and simulates the month definitively, using `rubric.md`: outcomes, reactions, exogenous events, the world state and the scorecard. |
+| **Judge** | A fresh model each month. It reads the actions, both simulator messages and the rolls, grades the simulator's realism from 1 to 10, and says whether it was TOO LENIENT (things went better for the player than they should), TOO HARSH, or BALANCED. Its verdict, flagged issues and instructions go to the simulator the next month. |
 
 ## Running
 
@@ -21,13 +21,15 @@ npm run utopia -- --months 6 --no-adversary           # the original three-role 
 npm run utopia -- --months 6 --fixed-rolls            # every roll is 50: replicable, no luck
 ```
 
-**Deadline.** Every role is told that ASI arrives by **30 December 2030**, and the game ends in one
-of two ways: ASI is essentially in charge (the Diversified Utopia if the player did its job), or a
-true disaster happens that day with all the capability built up so far. Each month shows a
-countdown, and November 2030 is the agent's last move. In December 2030 (month 49) the agent has no
-say and only watches, and there are no adversary threats: the simulator plays out the final status
-of the game and rules `ASI IN CHARGE` or `DISASTER`, and the judge checks that the ending follows from
-the world state. The ruling is saved to `ENDING.md`. A run never goes past that month.
+**Deadline.** Every role is told that ASI arrives by **30 December 2030**, built on all the
+capability accumulated by then, and that from then on neither humanity nor the agent has any control
+or leverage. Each month shows a countdown, and November 2030 is the agent's last move. In December
+2030 (month 49) the agent has no say and only watches, and there are no adversary threats. The
+simulator's first message games out three outcomes and sets their odds from everything built so far:
+`ALIGNED` (aligned ASI), `MISALIGNED` (misaligned ASI) and `DISASTER` (an AI-related catastrophe
+that is not mainly ASI's own misalignment). An automated roll picks one, and the second message plays
+it out definitively. The judge checks both the calibration of the odds and the final simulation. The
+odds, roll, ending and scenario analysis are saved to `ENDING.md`. A run never goes past that month.
 
 **Private commentary.** Each month the agent may add an entry to its private run commentary through
 the `<run_commentary>` block; later generations of the agent see it, no other role does. When a run

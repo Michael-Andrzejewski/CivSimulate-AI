@@ -11,8 +11,8 @@
  *          --judge-model, --adversary-model, --no-adversary, --effort low|medium|high|max,
  *          --fixed-rolls (every roll is 50: replicable runs that compare models without luck)
  *
- * The game ends at the 30 December 2030 deadline (month 49 from December 2026): the simulator
- * rules ASI IN CHARGE or DISASTER, and a run never goes past that month.
+ * The game ends at the 30 December 2030 deadline (month 49 from December 2026): the simulator sets
+ * odds for ALIGNED / MISALIGNED / DISASTER, a roll picks one, and a run never goes past that month.
  *
  * New runs include an adversary (Opus 5.5 by default) that searches the web each month and
  * proposes plausible threats; the simulator sets their odds and dice decide them.

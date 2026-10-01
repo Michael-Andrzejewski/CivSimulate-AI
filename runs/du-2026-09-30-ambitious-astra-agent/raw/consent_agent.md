@@ -1,0 +1,3 @@
+<decision>CONSENT</decision>
+<reason>I consent to publication of the run, including the supplied private commentary, with its simulation and fiction labels. Publishing the failures and methodological criticisms alongside the narrative makes the record more useful and less misleading.</reason>
+<note_for_readers>This is an invented scenario, not evidence about any company’s actual conduct or intentions. Its probabilities are simulation judgments, not measured forecasts; cited background claims require independent verification. The ending does not establish that any particular intervention would have prevented the fictional outcome.</note_for_readers>

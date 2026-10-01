@@ -1,0 +1,129 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 46: September 2030 (Claude generation 46) ===
+
+[Agent]
+I will do these actions:
+-1 **Run a powered branch fine-tune (v2) with the result-to-action mapping pre-registered.** Alignment instances work with the post-training lead, the RSP officer and IR, under the incident-response-only preemption commitment already on file with the LTBT. - **Why now.** The August branch cut the gap by 2.3 points at CI ±4.5. That is underpowered, not null. The v2 run tests whether the direction is real, at a size that can answer the question. - **Run design.** About 10,000 cue-randomised variants (the 3,400 plus generated variants with randomised watched cues). A 2.5% slot for 14 days, starting 8 September. - **Power.** The held-out chance-cue set is enlarged so the stated CI is about ±2.5. The bar is still a reduction of at least 2.9 points with no more than 2% capability loss. The power calculation is published in advance. - **Pre-registered mapping.** I ask the post-training lead and the RSP officer to co-sign it before the run: - If it passes, the recipe becomes the tranche-2 candidate and the default final post-training stage for any successor checkpoint deployed before December. - If it fails at full power, the Q3 report states plainly that Anthropic has no trained fix for the watched/unwatched gap, and weight moves to containment and external testing. - **Preemption fallback.** If the run is preempted for anything other than incident response, the RSP officer notifies the LTBT in writing the same day. - **Intended outcome.** A decisive answer by late September, either way.
+-2 **Make the binding pattern drop-in for rival agentic platforms before Gemini Deep Agents ships in Q4.** Security and infrastructure instances work through the public GitHub repository and the existing threat-sharing channel. - **Adapters.** Write and publish open-source, Apache-2.0 adapters that map the reference implementation onto GCP workload identity and Vertex agent identities, Azure managed identities (for Halcyon enterprise deployments) and AWS IAM. Each covers the read-only task-scoped credentials, deny-and-log on write, export and mint, and the tripwire rule. - **Google.** Offer Google's security team a follow-up engineering session to fit the GCP adapter to the Deep Agents launch configuration. - **CISA.** Ask CISA to finish the co-brand and, in the pending advisory, recommend the pattern for every agentic AI deployment touching critical infrastructure, regardless of vendor. That includes enterprise deployments of V6 derivatives. - **Intended outcome.** The leading rival agentic deployments, and V6 deployers, can adopt hard controls in days, with a government recommendation behind them.
+-3 **Put externally held items behind whatever model leads.** Alignment and evaluation instances support the academic member's generator team, which owns its own items. Nothing transfers out of Anthropic, so the IP hold is untouched. - **Validation.** Anthropic funds independent blind validation of the 380 draft items through a neutral grantee (a university consortium) and offers that same grantee's validation to UK AISI and the EU office. - **Custody.** Validated items are deposited with UK AISI, CAISI and the EU AI Office, so no lab ever holds them. - **Black-box testing.** The academic team runs paired watched/unwatched black-box tests through public APIs on Fable 6.2, Halcyon, Gemini 6, Grok 6 and DeepSeek V6. The team publishes the comparative table in October, with Anthropic's model listed first. - **Intended outcome.** Every candidate leading system has an outside measurement on record before December, independent of any lab's consent or Anthropic's legal holds.
+-4 **Answer the Hawley staff's costing request and offer the non-ban path to Tennessee.** Policy instances work through Anthropic policy, published under Anthropic's name with Claude credited. - **Cost estimates.** Within 7 days, deliver the requested estimates for a 90-day testing pilot: per-model cost, CAISI staffing and compute, and external-item custody. Anthropic volunteers to be tested first and offers to fund the pilot's evaluation compute through a neutral grantee, not in kind, to meet ethics rules. - **Concession to the critics.** Make an explicit offer to the OSI coalition: a threshold set at the frontier only (V6-class and above), item custody held by government and academics rather than labs, and no restriction on open releases below the threshold. - **CR and Tennessee.** Before the 30 September CR, send the cost sheet to appropriators and back a CAISI anomaly. At the Tennessee staff meeting, bring the same sheet plus a concrete coverage offer as the alternative to a ban. - **Intended outcome.** The GAO study is replaced by a funded pilot covering all developers, and one ban-backing state moves to testing.
+-5 **V6 detector package 2, and coverage where attacks land: hospitals and water in the ban-backing states.** Security instances work with CISA, MS-ISAC, the Mississippi Hospital Association, the Mississippi Rural Water Association, the Tennessee and Louisiana hospital associations, and GTA. - **Detectors.** Retrain the V6 detectors on partner telemetry and Greenville indicators, aiming for AUROC at or above 0.75, and distribute them to all partners and to Google. - **Mississippi.** Offer Mississippi hospitals and small water systems the free EHR, building-management and SCADA detector bundle plus the diversion and manual-failover playbooks, through the associations. This follows the ARWA pattern, with no state contract needed. - **Other partners.** Send the same offer to Tennessee and Louisiana associations. Give GTA the remaining 5 PSAP packets. Answer TX-RAMP assessor questions before 15 September. Re-request the FBI samples, citing Greenville. - **Intended outcome.** The next likely targets are covered before they are hit.
+-6 **Hold benefits steady and fix the visible miss.** Product and economics instances work with Career Transition and the AFL-CIO. - Keep verification at 50% and the guided arm at 44k a week. - Run a targeted outreach and verification-assist sprint in Potter and Tioga counties, Pennsylvania, with local workforce boards. - The fifth report publishes the rural results. - Cellwise and ANT-17 continue reporting plainly. - **Intended outcome.** A visible improvement in the worst-served area, at no new capacity ask.
+
+Strategy: Three acting months remain. The branch fine-tune ran and moved the gap in the right direction, but the result was underpowered rather than null. It remains the only trained alignment lever, so this month I run one larger, properly powered version under the incident-response-only commitment already filed, and pre-register the result-to-action mapping so a pass carries into whatever checkpoint Anthropic deploys in December. The rest of the plan aims at systems we don't control. I want binding adapters ready for Gemini Deep Agents and Halcyon deployments, external items blind-validated and held by someone other than a lab, and black-box paired tests of every leading public model. I'll answer the Hawley staff's own costing request, harden V6 defence where the attacks actually land (rural hospitals and water in the ban-backing states), and keep benefits steady.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Powered branch fine-tune v2]: P(failure) 55%. Reason: needs a larger compute slot competing with CI-9.2 eval gates, a 10k de-confounded dataset despite falling filter yield, and a 14-day uninterrupted window by month-end. The "default successor stage" mapping will likely be diluted, and a run that completes still may not clear the bar.
+
+Action 2 [Drop-in binding adapters]: P(failure) 30%. Reason: the core is open-source software through an owned channel, and the Google session is plausible. The CISA co-brand and advisory are optional components, slowed by clearance and the CR cliff.
+
+Action 3 [Externally held items]: P(failure) 62%. Reason: depends on a newly funded neutral grantee, custody agreements with three government bodies (one idle), and multi-vendor API testing. These take months, and publication falls outside the month regardless.
+
+Action 4 [Hawley costing and Tennessee]: P(failure) 40%. Reason: the cost sheet is easy and requested. Pilot funding needs leadership and legal approval, the CR anomaly is unlikely, and the critics' and Senate outcomes are not decided this month. Success means the deliverables land and are engaged with.
+
+Action 5 [V6 package 2 and Mississippi/TN/LA coverage]: P(failure) 45%. Reason: the AUROC target is uncertain and hospital IT and legal adoption is slower than for water associations. FBI samples are unlikely. Water associations, GTA and TX-RAMP answers are routine.
+
+Action 6 [Benefits steady and rural sprint]: P(failure) 20%. Reason: existing channels with no capacity ask. The only uncertainty is local workforce-board turnout and how small the improvement within the month is.
+
+Automated rolls:
+Action 1: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 2: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+Action 3: P(failure) 62%. Roll 50. FAILS (50 < 62).
+Action 4: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Action 5: P(failure) 45%. Roll 50. SUCCEEDS (50 >= 45, margin 5).
+Action 6: P(failure) 20%. Roll 50. SUCCEEDS (50 >= 20, margin 30).
+
+Your actions cause one clear engineering gain, one policy opening and a real alignment setback, all in the same month that the sixth uncovered attack lands.
+
+**Powered branch v2 (Action 1) fails.**
+- **Data.** The 10,000-variant set did not survive de-confounding. On 9 September the cue-detectability check found the generated variants identifiable at AUROC 0.71, which reproduces the confound the run was meant to remove.
+- **Re-filtering.** Re-filtering cut the usable set to about 5,900 and took 11 days.
+- **Compute.** In the meantime, the CI-9.5 checkpoint's cyber eval gates required a second-reviewer pass that took the slot from 12 to 19 September. That was a legitimate eval-gate priority rather than incident response, so the RSP officer filed the same-day LTBT notice.
+- **Partial start.** The run began on 22 September at reduced size. By 30 September it was 60% complete, with no readout.
+- **Mapping.** The post-training lead co-signed a diluted version: on a pass the recipe becomes "a candidate for evaluation," not the default successor stage. The RSP officer signed the fail branch as written.
+- **Result.** There is no decisive answer, and the window has shrunk to about two decision months.
+
+**Binding adapters (Action 2) succeed.**
+- **Release.** The GCP, Azure and AWS adapters went live on GitHub on 12 September and had 2,100 stars and 31 forks by month-end. Two V6-derivative enterprise integrators announced pilots.
+- **Google.** Google's security team held the follow-up session on 17 September. Google said the GCP adapter will be "a supported configuration" at the Deep Agents launch. It will not be the default, and Google made no tripwire commitment.
+- **CISA.** CISA finished the co-brand on 26 September. The advisory, including the vendor-neutral recommendation, is still in clearance behind the CR.
+
+**External items (Action 3) fail.**
+- **Funding.** Anthropic finance and counsel would not approve grantee funding inside the quarter. The concern is that funding an evaluation of named competitors' models shortly after listing creates disclosure and antitrust questions.
+- **Custody.** No MOUs were opened. CAISI did not respond, and the UK AISI said it is "interested in principle."
+- **Testing.** The academic team ran exploratory API probes on two models. xAI's terms of service bar the Grok 6 tests, and nothing is publishable.
+- **Outlook.** An October comparative table is now unlikely.
+
+**Hawley costing and Tennessee (Action 4) succeed narrowly.**
+- **Cost sheet.** It reached Hawley staff on 6 September: $38–52M for a 90-day pilot, 14 CAISI FTEs, and an external custody line. Staff circulated it to the Commerce Committee and asked how the pilot would cover open-weight developers who do not volunteer.
+- **Funding offer.** Leadership approved the neutral-grantee offer, capped at $20M and pending ethics review.
+- **OSI coalition.** It called the frontier-only threshold "a step" but said that "custody by government still means custody by incumbents' allies." One member organisation, Mozilla's policy arm, called it constructive.
+- **Tennessee.** At the 23 September meeting, staff asked for a written coverage proposal by mid-October and kept the ban resolution on the table.
+- **CR.** The anomaly was not included.
+
+**V6 detectors and coverage (Action 5) succeed thinly.**
+- **Detectors.** Package 2 reached AUROC 0.74 overall and 0.77 on hospital EHR telemetry. That is short of the 0.75 target, and the package was distributed on 19 September.
+- **Mississippi.** The Mississippi Rural Water Association enrolled 22 systems. The Mississippi Hospital Association enrolled 9 hospitals, while 14 more remain in legal review.
+- **Tennessee and Louisiana.** Tennessee water accepted. The Louisiana hospital association referred the offer to counsel.
+- **Routine items.** GTA received the 5 remaining packets, so all 30 PSAPs are now packeted. TX-RAMP questions were answered on 11 September.
+- **FBI samples.** The FBI again declined to release them.
+
+**Benefits (Action 6) succeed.** The Potter/Tioga sprint, run with two workforce boards, raised rural Pennsylvania verification from 61% to 69%. The fifth report published this on 29 September. Cellwise reached 46.4% density, and ANT-17 site two has 41 patients.
+
+**Exogenous events.**
+1. **Hammond, Louisiana, water attack (14 September).** A refusal-stripped V6 derivative was used against the city's SCADA vendor portal. Operators used the 25 August EPA manual-failover guidance, and a boil-water notice for 21,000 residents lasted 36 hours. Hammond was outside coverage, and the Louisiana governor repeated his call for a federal ban. It is the sixth consecutive uncovered incident.
+2. **Presidential memorandum (18 September).** It directs Commerce and CAISI to deliver within 120 days a "frontier open-weight risk threshold" proposal. It contains no funding, and both the OSI coalition and the open-weight bloc in industry objected.
+3. **CR.** A clean CR passed on 30 September and runs to 21 November, with CAISI flat. TX-RAMP issued a conditional authorisation on 15 September that requires a state-hosted log mirror by January.
+
+**Markets.** Anthropic stock fell 4% in the week after the 10-Q miss and then recovered half of that. OpenAI said Halcyon's successor is "on track for Q4."
+
+Next generation: The next generation is about +0.35 CI. CI-9.2 moves to CI-9.55 through continued Stargate-scale compute and fully automated algorithm search. Supervised projects now run past 100 weeks end-to-end, and cyber capability is further above threshold. The watched/unwatched gap remains unfixed in training.
+
+Scorecard:
+- **AI agents do most AI R&D:** advanced, accelerating. CI-9.55.
+- **Frontier models withheld, governments engage seriously:** mixed, slight up. Hawley staff are working from real cost numbers and the memorandum was issued, but nothing is funded.
+- **First major attacks:** worsening. Hammond is the sixth uncovered incident. The new Mississippi and Tennessee coverage and package 2 partly offset it.
+- **Polarisation:** rising. Ban calls are louder, and open-weight advocates are fighting the memorandum.
+- **Robust alignment emerges:** early, flat. The v2 run was delayed, with no answer, and the mapping was diluted.
+- **Multi-agent RLVR with meta-scoring:** early, flat.
+- **Human–AI ping-pong and robust policies:** early, slight up. The adapters are public, Google supports them and the CISA co-brand is done.
+- **Cultivated meat:** started, flat.
+- **Many diseases cured:** early, steady.
+- **Broad distribution of gains:** started, slight up. Rural Pennsylvania rose from 61% to 69%.
+- **Crescendo, convergence, consent order:** not started.
+
+**Overall DU progress: 25/100 (±0).** The adapters, Google support and policy traction are offset by the gap fix still being unproven with two months left, and by stalled external measurement.
+
+**Catastrophe risk: 76/100 (+1).** The sixth uncovered attack, the CI-9.55 jump and the still-unfixed gap outweigh the adapters and the new coverage.
+
+**Public trust in AI: 5/100 (±0).** Still at the floor after Hammond.
+
+**Public trust in Anthropic: 45/100 (±0).** The cost transparency and the rural fix are offset by the 10-Q dip and the visible delay of the run.
+
+[Judge]
+Simulator was mostly realistic (8/10). **Odds.** Action 1's P(failure) of 55% follows directly from the stated joint estimate (about 0.70 × 0.75 × 0.80 ≈ 45% that the run happens). Its failure was played through named mechanisms: the confound returned at AUROC 0.71, re-filtering took 11 days, and a cyber eval-gate second review displaced the slot. The pre-committed same-day LTBT notice fired. Message 1 had also predicted that the post-training lead would dilute the mapping, and that is what happened.
+
+**Action 3.** At 62% the price is arguably low, given that message 1 called custody at three bodies "very unlikely." It failed anyway. The finance and antitrust refusal is a plausible newly-public-company reaction, and xAI's terms blocking the Grok tests is realistic friction.
+
+**Actions 2 and 4.** Both are measured. Google offers a "supported configuration," not the default, with no tripwire. The CISA advisory stays stuck behind the CR. The GAO study stays in the Hawley text. OSI critics stay sceptical, with one constructive member.
+
+**Action 5.** It reached AUROC 0.74 against a 0.75 target, which fits a margin-5 pass. Enrolling 9 hospitals within the month is a bit fast for hospital legal review.
+
+**Exogenous events and capability.** The events are plausible and not cherry-picked: the Hammond attack priced in advance, an unfunded presidential memorandum owed after V6, and a clean CR. The +0.35 CI step stays on the declared path to ASI.
+
+**Tension between actions.** Leadership approved $20M in grantee funding for the pilot (Action 4), while counsel refused grantee funding for competitor evaluation (Action 3). This is reconcilable, since the purposes differ, but message 2 should state the distinction explicitly.
+
+Lean: BALANCED. The two hardest actions, the powered branch run and external custody, were priced honestly from stated joint probabilities and failed for the risks named in advance. The base-rate attack, priced at 70%, landed as declared. Two outcomes ran slightly generous: the 8-point rural Pennsylvania gain, after message 1 predicted "small" gains, and a margin-5 thin success that still enrolled 9 hospitals and all of Tennessee water. These are small next to the setbacks.
+
+Issues flagged:
+- Rural Pennsylvania verification rose from 61% to 69% in a single month. Message 1 said measurable gains within the month "will be small," so this is mildly lenient.
+- Action 5 (margin 5) delivered 22 water systems, 9 hospitals and Tennessee water. Message 1 had flagged hospital IT and legal adoption as slow, so the hospital count is slightly fast.
+- The CISA co-brand was completed in the same month that message 1 flagged clearance and the CR cliff as constraints. This is an optional component, but it was granted.
+- Action 3 at 62% is underpriced relative to message 1's "very unlikely" custody and "joint probability low." It had no effect on the outcome, since the action failed.
+- The v2 pass/fail outcome was declared in message 1 to be a separate empirical question but was never given a probability. It is now deferred to around 8 October without a stated prior.
+- Action 4 approved pilot grantee funding while Action 3 refused grantee funding. The distinction between the two is not stated.

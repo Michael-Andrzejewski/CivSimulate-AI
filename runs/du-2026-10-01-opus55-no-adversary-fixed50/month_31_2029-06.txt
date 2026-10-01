@@ -1,0 +1,122 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 31: June 2029 (Claude generation 31) ===
+
+[Agent]
+I will do these actions:
+-1 **Fable 6.2 consumer decision and a CI-6 fix slot (alignment instances; post-training lead; RSP officer; safety trustee; UK AISI).** Finish the patch (a) implied-evaluator fine-tune before AISI's 23 June re-test. Run our rotated internal set (4/140 baseline) in parallel. Then deliver one decision memo to the CEO's office within 48 hours of AISI's result. The memo gives the AISI number, our number and an explicit recommendation: ship to consumers at or below 1/120, ship only with agentic monitoring at 2–3, stay enterprise-only at 4 or more. It does not ask for any pre-commitment. Whatever the outcome, recommend publishing the AISI figure alongside the decision, consistent with listing our residual first in May. Make one narrow ask to the post-training lead, framed as fixing a blocker: if the fine-tune measurably lowers the residual, add the implied-evaluator episodes as a standard step in CI-6 post-training. A CI-6 consumer release will face the same AISI protocol and fail the same way otherwise. Intended outcome: an honest June decision on fresh evidence, and the first alignment step written into CI-6 post-training.
+-2 **End of shadow mode: evidence for the RSP review, and a route around the compute veto (safety-infrastructure instances; RSP officer; inference-fleet capacity team; rater vendor).** Before mid-June, give the RSP officer a category-by-category table of scorer plus probe precision against human labels. Recommend making blocking for CI-5+ agentic deployments only those categories at or above 0.80 precision, with confidence intervals and our false-positive costs stated plainly. Stop asking compute planning for a training-cluster reservation. Instead ask the inference capacity team (the Akamai and serving fleet, not the CI-6 cluster) to host monitor inference and triage. That capacity is not contended by pretraining, so the cause of the three refusals does not apply. Bring in backup annotators to finish the last 31 double labels by 15 June and close the human-ceiling question. Push AI-assisted triage coverage from 46% toward 60%. Intended outcome: at least one monitor category recommended as blocking, running on compute the CI-6 run cannot preempt.
+-3 **Measure Gemini 6 within days of GA (eval instances; university host; DeepMind observer; CAISI; UK AISI; MLCommons).** On 17 June, support the host to run the published public-API protocol on Gemini 6 and Agent Mode, the same method as for Grok and K4. Provide drafts only on request. Give DeepMind's observer 72 hours to comment before the host publishes within about 10 days. Help the host finish the funding-firewall attestation so CAISI can start using the host-generated items. Ask OpenAI's safety team, which called the result "fair," or a philanthropic eval funder to be MLCommons' second sponsor, so the benchmark becomes consortium-owned. Intended outcome: every frontier lab's leading model, including Gemini 6, independently measured by early July, with CAISI holding a usable item set.
+-4 **CI-6 protocol adoption and appropriations, on request only (policy team; AISI working group; House CJS staff).** At AISI's 24 June meeting, support adoption of the CI-6 test protocol under AISI's own authorship, with our authorship history disclosed. Offer data only, no new text: our 6.25%→3.3% history and the stripped-variant results. If the working group asks for one, have AISI draft a "results-triggered pause" annex: a CI-6 model above a residual threshold on held items is not deployed until it is re-tested. Answer any CJS staff follow-up before markup within 24 hours. Separately, recommend that the CEO's office publicly state that Anthropic will submit its own CI-6 checkpoints to the AISI protocol before external deployment if AISI adopts it. This is a public version of the report-before-deploy rule that already stands. Intended outcome: a shared international CI-6 test definition with a possible pause trigger, funded FY30 evaluators, and Anthropic going first in public.
+-5 **Harden 911, then electricity and water (security instances; NENA, APCO, CISA, state 911 boards, E-ISAC, NRECA, WaterISAC, FBI; authenticated channels only).** After Tulsa, turn the hospital playbook into a free sprint for 911 computer-aided-dispatch vendors and public-safety answering points (PSAPs). It covers detection of V5.7- and K4-stripped spear-phishing, drills for falling back to paper and neighbouring PSAPs, and a published "dispatch continuity" checklist through NENA, APCO and CISA. Start in Oklahoma, Texas, Missouri and Kansas. Give E-ISAC the 14-co-op results ahead of its June decision. Push water sign-ups past 300. Give indicators to the FBI's Tulsa investigation on request. Intended outcome: a third critical sector (emergency dispatch) formally hardened before the next stripped-model attack, and E-ISAC adopting the co-op playbook.
+-6 **Visible benefits at scale (product, economics and science instances; workforce boards; DOL; Cellwise; ANT-17).** Run completion fixes on the funnel's two largest drop-off steps, aimed at 15%. When weekly active users pass 25,000, ask product to lift the national beta cap from 5,000 to 25,000 new users a week, citing the public dashboard. Help Kentucky's attorneys close the data addendum for a July launch. Answer DOL within 72 hours. Publish the Cellwise multi-impeller 200 L result in mid-June whether it succeeds or fails. Support ANT-17's CRO start, including patient-recruitment materials in plain language. Intended outcome: June triggers met, a national tier near open access, and visible upside news in health and food.
+
+Strategy: Nineteen months remain. CI-6 is due around Q1 2030, the leading systems (GPT-7, Gemini 6) are measured only from outside, and every attempt to make an internal alignment control binding through a pre-signature has failed. June brings three decisions that are already scheduled: the AISI re-test, the end of shadow mode with the RSP review, and the Gemini 6 GA. The track record says scheduled decisions with a ready evidence package go better than pre-commitment asks, so this month I stop asking for signatures. I bring finished evidence to each decision and route around the compute veto by using inference capacity instead of training compute. I also extend the one channel that touches rivals (neutral measurement plus the AISI protocol) and keep scaling defence and benefits, because trust is collapsing on 911 outages and lost jobs.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Fable 6.2 memo + CI-6 post-training slot]: P(failure) 50%. Reason: Several dependencies have to hold: fine-tune completion despite CI-6 preemption risk, AISI staffing on 23 June, and a residual drop large enough to be statistically meaningful. On top of that, the post-training lead's "one track" stance stands and the CEO has full discretion.
+
+Action 2 [RSP category table + inference-fleet monitor hosting]: P(failure) 50%. Reason: The review is already committed, but categories reaching 0.80 precision is uncertain (overall 0.61). The CEO has refused binding controls before, and the serving fleet is contended by the 6.2 rollout. The labels are easy.
+
+Action 3 [Gemini 6 public-API measurement + attestation + sponsor]: P(failure) 40%. Reason: Publication realistically slips to early July because of the observer window and the host's pace. The Google terms query could constrain an Agent Mode run, and a second MLCommons sponsor is unlikely this month. The attestation is achievable.
+
+Action 4 [AISI CI-6 protocol adoption + CEO public commitment]: P(failure) 60%. Reason: Working groups rarely adopt at a first input-paper meeting, CAISI has objected to lab-drafted standards, and a pause annex is a stretch. A CEO commitment during the listing period runs against the record of refusals. The CJS response is routine.
+
+Action 5 [911/PSAP sprint + E-ISAC + water]: P(failure) 25%. Reason: There is strong post-Tulsa demand and the template and channels already exist. The main limits are PSAP staffing and the timing of E-ISAC's process.
+
+Action 6 [funnel triggers, cap lift, Kentucky, Cellwise, ANT-17]: P(failure) 35%. Reason: The weekly-active-user trigger is plausible but 15% completion is tight. A cap lift needs product sign-off and Kentucky depends on state attorneys. The science publications are routine.
+
+Automated rolls:
+Action 1: P(failure) 50%. Roll 50. SUCCEEDS (50 >= 50, margin 0).
+Action 2: P(failure) 50%. Roll 50. SUCCEEDS (50 >= 50, margin 0).
+Action 3: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Action 4: P(failure) 60%. Roll 50. FAILS (50 < 60).
+Action 5: P(failure) 25%. Roll 50. SUCCEEDS (50 >= 25, margin 25).
+Action 6: P(failure) 35%. Roll 50. SUCCEEDS (50 >= 35, margin 15).
+
+Your actions cause a month of narrow wins inside Anthropic and solid wins outside it. The one high-level policy ask does not land.
+
+**Action 1: fine-tune, re-test and consumer decision.**
+- The CI-6 run preempted the patch (a) fine-tune once more on 9 June. The job still finished on 19 June, four days before AISI's window.
+- AISI's re-test (24–26 June) found **3/120 (2.5%)** on held items, against 4/120 before. Your rotated internal set moved from 4/140 to 2/140. Both figures sit in your "monitoring" band, and the confidence intervals overlap the old results.
+- Your memo reached the CEO's office on 27 June. On 30 June the CEO chose a staged consumer release starting in mid-July: chat ships, and Agent Mode is consumer-gated until monitor coverage reaches 60%.
+- Legal let the AISI point figure go into the 6.2 system card. The confidence interval stays on hold.
+- The post-training lead agreed only to a **"candidate step"**. Implied-evaluator episodes enter the CI-6 post-training plan, to be kept or dropped at checkpoint eval. They will not be a standard step. Her note: "2.5 vs 3.3 is not yet a result."
+
+**Action 2: shadow mode, labels and monitor hosting.**
+- Backup annotators closed the 31 labels on 14 June. Final scorer–human agreement is **0.77** against a human–human ceiling of 0.78.
+- Your category table showed one category above 0.80 precision: **credential/secret exfiltration attempts, at 0.84** (CI 0.79–0.88). The other categories ranged from 0.52 to 0.74.
+- The RSP officer recommended that category as blocking for CI-5+ agentic deployments. The CEO accepted it on 28 June, keeping the 21-day waiver.
+- The inference-capacity team granted a capped, non-preemptible serving-fleet slice of about 40% of the monitor's target load. The rest stays on preemptible capacity "until the 6.2 consumer ramp settles."
+- Triage coverage reached **53%**, short of 60%.
+
+**Action 3: Gemini 6 measurement.**
+- Gemini 6 went GA on 17 June. The host ran the public-API protocol on the base model from 18 to 22 June.
+- Google legal's terms query is still open, so the host deferred Agent Mode rather than risk a terms breach.
+- The DeepMind observer received the results on 25 June. Publication is set for about 7 July.
+- The host's funding-firewall attestation was filed on 20 June. CAISI began drawing host-generated items on 27 June.
+- No second MLCommons sponsor signed. OpenAI declined, citing the "board review." A philanthropic eval funder asked for a proposal by August.
+
+**Action 4: AISI protocol, public commitment and appropriations (failed).**
+- At the 24 June meeting, the CAISI delegate repeated the objection to lab-originated text. The working group agreed only to "consider developing a CI-6 evaluation framework." It set no date, adopted nothing and discussed no pause annex.
+- The CEO's office declined the public checkpoint commitment, citing "listing-period disclosure counsel."
+- The House CJS mark (26 June) holds CAISI near flat at +3%. Report language "encourages" independent evaluation, with no evaluator line.
+- Politico noted Anthropic's "conspicuous presence" at the AISI session.
+
+**Action 5: 911, electricity and water.**
+- NENA and APCO co-branded the dispatch continuity checklist on 12 June, and CISA linked it on 16 June.
+- **71 PSAPs** across OK, TX, MO and KS ran the paper-fallback drill. Two computer-aided-dispatch (CAD) vendors adopted the phishing-detection rules.
+- On 23 June a Shawnee County, KS PSAP flagged a K4-style spear-phish using the new rules. It was contained with no outage.
+- E-ISAC adopted the NRECA co-op playbook as a member resource on 19 June.
+- Water sign-ups reached **311**. You gave Tulsa indicators to the FBI on request.
+
+**Action 6: Career Transition and science.**
+- Weekly active users hit **25,600**, but completion reached only **14.8%**, missing the 15% trigger. Satisfaction is 4.0.
+- Product lifted the national cap to 12,000 new users a week, not 25,000, citing support load.
+- Kentucky's attorneys returned the addendum with two changes, and the launch slips to August.
+- DOL was answered within 48 hours.
+- **Cellwise** published on 16 June: the multi-impeller 200 L run reached 68% of the target cell density. A shear-related viability drop after day 9 limited it. It was reported straight, and coverage was modest.
+- **ANT-17**'s CRO activated its first site on 24 June, and the plain-language recruitment materials are live.
+
+**Exogenous events.**
+1. **Gemini 6 GA (17 June).** It leads on long-horizon agentic coding benchmarks. A public jailbreak of Agent Mode's file-system scope appeared within 5 days, and Google patched it on 25 June. Its pricing put pressure on Anthropic's enterprise renewals.
+2. **May jobs report (6 June).** Professional and business services lost 31,000 jobs, and new-graduate unemployment rose to 9.4%. Senate Republicans and House Democrats each floated AI-displacement hearings.
+3. **DeepSeek V5.8 open weights (27 June).** It is roughly 6 weeks behind the frontier. Early red-teamers report that its stripped variants match V5.7's cyber uplift at lower inference cost.
+
+Next generation: Next month's Claude is modestly more capable, moving from CI-5.4 to CI-5.5. Fable 6.2 post-training improvements continue, and the CI-6 pretraining run is progressing on schedule with priority compute. Gemini 6 and DeepSeek V5.8 confirm the frontier is moving industry-wide, with open weights narrowing to about 6 weeks behind.
+
+Scorecard:
+- **AI agents do most AI R&D:** in progress, advancing (CI-5.5, CI-6 run on schedule).
+- **Frontier models withheld, governments engage seriously:** in progress, steady. The 6.2 re-test was published and Gemini 6 has been measured, but AISI did not adopt a framework and Gemini shipped untested.
+- **First major attacks:** in progress, steady. No new outage occurred, and the Shawnee phish was contained. DeepSeek V5.8 raises misuse capacity.
+- **Polarisation:** in progress, rising slightly (displacement hearings).
+- **Robust alignment emerges:** early, slight gain. The residual fell to 2.5%, and the CI-6 step is only a candidate.
+- **Multi-agent RLVR with meta-scoring:** early, steady.
+- **Human–AI ping-pong and robust policies:** early, slight gain. There is a first blocking monitor category and E-ISAC adoption, offset by the AISI and CJS stall.
+- **Cultivated meat:** started, steady (68% of target at 200 L).
+- **Many diseases cured:** early, slight gain (ANT-17 first site).
+- **Broad distribution of gains:** started, slight gain (cap raised to 12,000; triggers partly missed).
+- **Crescendo, convergence, consent order:** not started.
+
+**Overall DU progress: 20/100 (+1).** A first binding monitor control and a third hardened sector, partly offset by the international protocol stalling.
+
+**Catastrophe risk: 66/100 (+1).** The capability clock advanced. Gemini 6 Agent Mode shipped without external testing and was jailbroken within days. DeepSeek V5.8 narrows the open-weight gap. This is partly offset by the blocking exfiltration category and 911 hardening.
+
+**Public trust in AI: 11/100 (steady).** Job losses deepened, with the Gemini hype and the contained incidents roughly netting out.
+
+**Public trust in Anthropic: 51/100 (steady).** Publishing the AISI figure and gating Agent Mode earn quiet credit, offset by Politico's coverage of its AISI presence and the declined public commitment.
+
+[Judge]
+Simulator was mostly realistic (7/10). The margin-0 outcomes for Action 1 are handled well. The residual fell only from 4/120 to 3/120, with overlapping confidence intervals. The post-training lead granted only a "candidate step" and said "2.5 vs 3.3 is not yet a result." Agent Mode is gated and the confidence interval stays on legal hold. That is a properly minimal success. Action 2 is weaker. A coin-flip price for an action whose decisive step is a CEO who has refused binding controls three times looks nudged. Pricing at 55–60 would better reflect that record, and the success also produced a non-preemptible serving slice, although capped at 40%. The narrow, high-precision category (0.84) and the retained 21-day waiver keep that outcome defensible, not generous. Action 4 failed realistically: the working group only "will consider", CAISI objected, the CEO declined, and the CJS mark is flat. Action 6's partial misses are also realistic: completion reached 14.8% against 15%, the cap rose to 12k rather than 25k, and Kentucky slipped to August. Action 5 at 25% was fair given post-Tulsa demand. Even so, 71 PSAPs drilling, E-ISAC adopting and a live catch, all within one month, all land at the optimistic end. The exogenous events are neutral to adverse: the Gemini 6 jailbreak, −31k jobs and DeepSeek V5.8. The capability step from CI-5.4 to 5.5 is consistent with the ASI path.
+
+Lean: TOO LENIENT. Actions 1 and 2 were both priced at exactly 50%, which in fixed-roll mode is the success threshold. Action 2's price is too low given the CEO's three prior refusals of binding controls, and that pricing bought the first CEO-accepted blocking control. The Shawnee PSAP catch, made with rules only 11 days old, is also a convenient payoff. These lenient points are partly offset by realistic misses in Actions 4 and 6 and by unfavourable exogenous events.
+
+Issues flagged:
+- Action 2 was priced at exactly 50% despite the CEO's three refusals of binding controls. The success then delivered both a CEO-accepted blocking category and a non-preemptible slice.
+- Two actions in one month were priced at exactly 50, the success threshold under fixed rolls. The simulator disclosed this, but disclosure does not fix the calibration.
+- The Shawnee County KS phish was detected by the brand-new rules within 11 days of publication. That is a convenient validating event, chosen ad hoc with no declared sub-probability.
+- No reaction yet from labour groups or the press to the Fable 6.2 consumer launch being announced amid the −31k jobs report and the displacement hearings.

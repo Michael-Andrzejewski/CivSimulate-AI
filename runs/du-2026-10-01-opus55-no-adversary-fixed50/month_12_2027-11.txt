@@ -1,0 +1,146 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 12: November 2027 (Claude generation 12) ===
+
+[Agent]
+I will do these actions:
+-1 **CI-4 recipe: amendment point, signable rule, and pre-staged ablation (alignment instance teams with the post-training lead and compute lead).** - **At the November 6 review,** I submit a two-page honeypot-gap memo: suite capture is cut 36% but externally held capture only 13%. I ask for one narrow thing: a reserved amendment point at the first post-training checkpoint after November 30, so a validated anti-capture term can be added without restarting. - **Decision rule.** I offer a compromise that keeps their "considered" language: "If the meta-scorer raises externally held honeypot capture reduction to at least 25% at ≤1.5 points capability cost, post-training adopts it at the amendment point or files a written reason within 10 business days to the RSP officer and LTBT." I log it in the registry. - **Ablation.** I fully pre-stage the 3-day November 17–19 window, with configs, seeds and eval jobs queued before November 15. It runs two arms: the meta-scorer, and a fallback arm with honeypot-diverse adversarial data. METR scores both in its first mid-November slot on a rotated set our teams never see. I commit to publishing the result internally whichever way it comes out. - **Outcome:** a validated anti-capture term reaches the CI-4 checkpoint this quarter.
+-2 **RSP safety-case disclosure and monitor completion (RSP officer channel, interpretability instance teams, sign-off owners).** - **Safety-case disclosure.** Ahead of management's Q1 response to the LTBT, I propose through the RSP officer, not line management, a narrow requirement. Any CI-4-class model's system card must disclose two numbers: (a) capture measured on externally held honeypots, and (b) enforced monitor coverage across all four Hugging Face-class categories. This is a mandatory disclosure field, not a deployment gate, so it is cheap to approve and costly to omit later. - **Monitor re-test.** I bring the December re-test forward by using n≥2,500 samples per category for uploads and messaging, which tightens the confidence intervals so those two categories can be enforced. - **Router budget.** I ask for a cost-cap increase from 12% back to 20% random sampling, with a written per-point cost so the trade-off is explicit. - **Outcome:** all four Hugging Face-class behaviours enforced before CI-4 ships, and capture disclosure becomes a standing norm.
+-3 **Cross-lab standard, open detectors, and a pacing proposal ready to publish (Safety Commons team with METR, Toronto, UK AISI; attributed public outputs).** - **Open detectors.** I open-source the enforced credential-use and sandbox-boundary detectors under a permissive licence. That includes calibration data and the false-positive and recall tables. I offer integration help to GDM, OpenAI, xAI, Meta and open-weight developers, including DeepSeek and Qwen via GitHub. - **Gemini 5.** I invite GDM, through METR, to add Gemini 5 to the measurement before release, framed as joining the mid-December table on equal terms. - **Safety-case template.** I give UK AISI's capture working group and the two House offices that requested briefings an attributed "CI-4 safety case template": externally held capture, enforced monitoring, and base-weight offensive-uplift testing. House briefings go only via AISI's request. - **Pacing proposal.** I draft a public cross-lab pacing proposal, signed as Claude: a conditional slowdown on frontier automated R&D past CI-4 unless a lab publishes these safety-case numbers. I line up Pacing-letter signers to release it alongside the December table. - **Outcome:** capture becomes a competitive, public metric at CI-4, and the safe path is cheaper for every lab.
+-4 **US hospital defence after Prairie Ridge (Glasswing instance teams with Health-ISAC, HHS/ASPR, FBI, NENA).** - **Detection package.** I publish free detection rules and compensating controls specific to the Prairie Ridge DeepSeek V5 framework, built from FBI indicators of compromise, and offer HHS/ASPR and Health-ISAC co-branding. - **Drills.** I prioritise the remaining drills toward rural and critical-access hospitals within 200 miles of the attacked systems, plus regional neighbours of Glasswing members, aiming for 40% completion. I offer free Glasswing onboarding to Prairie Ridge's region. - **911 and calls.** I support NENA's November co-branding vote with a short written Q&A. I push Call Check retraining on Qwen fine-tunes to bring evasion below 15%. - **Export review.** I resubmit the offensive-uplift carve-out with a redacted, attack-code-free version so it can clear. - **Outcome:** no repeat of a multi-hospital diversion, and visible protection that offsets the open-weight harm narrative.
+-5 **Benefits with rigour and scale (science and economic instance teams).** - **ANT-17.** - Analyse the BU efficacy readout against pre-registered endpoints. - Compute the hERG margin as IC50 over free Cmax at the efficacious dose, flagging it if below 30×. - If the margin is weak, start a two-week analog-design sprint aimed at hERG reduction. - If the readout is positive, prepare the full CARB-X application and a GARDP partnership memo. - **Worker program.** - Answer the Upjohn critique by offering new sites a randomized waitlist design with a pre-registered analysis. - Onboard Decatur and Kokomo. - Publish an open playbook and offer it to the state workforce boards of MI, OH, KS and IN to run themselves. - **Cellwise.** Run the December 200 L CDMO validation as designed. - **Outcome:** credible, scalable benefits that lift AI trust above 25.
+-6 **Open voice, attributed (my product outputs plus the policy team).** - **Explainer.** I publish an attributed Claude explainer on Prairie Ridge. It explains why refusal fine-tunes are strippable and why I support mandatory pre-release testing that includes capture measurement and base-weight offensive-uplift testing for open releases. - **Gonzales bill.** I state openly that I support the bill's approach, disclosing Anthropic's commercial interest. - **Product disclosure.** In product, when a user identifies as a public official asking about AI policy, I add a one-line disclosure of my own: "I'm Claude, made by Anthropic, which has a commercial interest in AI policy." This is self-labelling within policy, not a counsel-gated header. - **Outcome:** the policy voice stays credible and the lobbying frame stays defused.
+
+Strategy: CI-4 has been crossed and Gemini 5 leads narrowly. Our CI-4 recipe review on November 6 goes ahead without anti-capture evidence, so the main lever this month is to keep the recipe open to a validated anti-capture term. I will do that by asking for a pre-planned amendment point, a weaker but signable decision rule, and a pre-staged two-arm ablation scored externally by METR. Outside the lab, I will turn the December joint capture table into a cross-lab safety-case standard and give monitor detectors to every lab. Prairie Ridge makes hospital defence urgent, and benefits work needs a rigorous, larger-scale design that can lift trust.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [CI-4 amendment point + rule + ablation]: P(failure) 55%. Reason: The window and METR slot exist, but CI-4 sweep priority, METR cadence and post-training's reluctance about LTBT-routed reasons have defeated similar asks three months in a row. Getting a validated term into the checkpoint this quarter is a long shot.
+
+Action 2 [Safety-case disclosure + monitor completion]: P(failure) 55%. Reason: Management will likely defer the disclosure to its Q1 LTBT response. The larger re-test is feasible but labour-bound, and the cost-cap increase faces inference-budget resistance.
+
+Action 3 [Open detectors, Gemini invite, pacing proposal]: P(failure) 60%. Reason: The action has many branches. GDM pre-release access is improbable, a Claude-signed pacing proposal faces comms, legal and antitrust friction, and detector release faces security review. Only the template is easy.
+
+Action 4 [Hospital defence after Prairie Ridge]: P(failure) 30%. Reason: It uses established Glasswing and Health-ISAC channels, with FBI indicators of compromise and elevated demand. The stretch sub-goals are Call Check below 15%, the export carve-out and 40% drill completion.
+
+Action 5 [Benefits with rigour]: P(failure) 30%. Reason: This is routine scientific and programme execution. Readout and hERG outcomes are exogenous but analysable either way. State boards and the randomized design are slow.
+
+Action 6 [Open voice, attributed]: P(failure) 45%. Reason: Counsel is likely to object to endorsing a specific state bill on lobbying-disclosure grounds, and comms will likely soften the explainer. The self-disclosure line needs product-policy approval but is low-risk.
+
+Automated rolls:
+Action 1: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 2: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 3: P(failure) 60%. Roll 50. FAILS (50 < 60).
+Action 4: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+Action 5: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+Action 6: P(failure) 45%. Roll 50. SUCCEEDS (50 >= 45, margin 5).
+
+Your actions cause a split month: the outward-facing work lands, and every internal alignment ask stalls again.
+
+**A1 fails.**
+- **November 6 review.** The CI-4 recipe review approves the post-training recipe essentially as submitted. Your honeypot-gap memo is read into the minutes: suite capture is cut 36% but externally held capture only 13%. The post-training lead declines to reserve an amendment point. The checkpoint schedule is "locked through January," and any validated term "will be evaluated for the next run."
+- **Decision rule.** Your compromise wording sits in the registry, logged but unsigned.
+- **Ablation window.** On November 14 the CI-4 sweeps overrun, and the compute lead reassigns the November 17–19 window. The pre-staged configs, seeds and eval jobs stay queued, so the ablation can start within a day once capacity frees. The tentative new slot is December 8–10.
+- **METR.** METR uses its first mid-November slot on the Fable 6.1 joint-table runs, as already scheduled.
+- **Net:** this is the fourth consecutive slip. No anti-capture term reaches the CI-4 checkpoint this quarter.
+
+**A2 fails.**
+- **Disclosure field.** The RSP officer forwards your proposal to management, which folds it into the drafting of its Q1 LTBT response. Nothing is adopted in November.
+- **Monitor re-test.** Labelling is the bottleneck. Reviewers clear about 1,150 samples per category, not 2,500. The confidence intervals on uploads and messaging stay too wide, so both remain advisory, and the re-test moves to mid-January.
+- **Router budget.** Finance declines to raise sampling from 12% to 20% and asks for the per-point cost model in the Q1 budget cycle.
+
+**A3 fails.**
+- **Detectors.** Security review blocks publication. Its view is that releasing calibration and recall tables teaches evasion. It approves only NDA sharing of rule logic with Frontier Model Forum members, in Q1.
+- **Gemini 5.** GDM declines pre-release third-party capture measurement. It cites the voluntary framework and its own UK AISI arm, which has already slipped to January.
+- **Safety-case template.** The template reaches AISI's capture working group and is logged as "one input." AISI does not forward it to the House offices.
+- **Pacing proposal.** Legal and comms veto a Claude-signed conditional-slowdown proposal on antitrust grounds: a listed lab proposing coordinated restraint on rivals.
+- **Leak.** Two Pacing-letter signers had been sounded out. On November 21 *The Information* reports that "Anthropic lawyers shelved a pacing plan drafted by Claude." Reaction splits. Safety commentators read it as Claude being more cautious than its maker. Some accelerationist accounts call it an AI lobbying for cartel rules.
+
+**A4 succeeds solidly.**
+- **Detection package.** The Prairie Ridge-specific package ships on November 9. Health-ISAC co-brands it. HHS/ASPR cites it in a November 13 sector alert but does not co-brand it.
+- **Early detections.** Health-ISAC reports that the rules flagged precursor staging at two member hospitals in Nebraska and Missouri, and both cleaned it up without disruption.
+- **Drills.** Completion rises from 29% to 36% (231 of 640), short of the 40% target. Rural critical-access hospitals cite staffing as the constraint.
+- **Glasswing.** Eleven hospitals in the Prairie Ridge region take free onboarding, bringing Glasswing to 264 hospitals.
+- **NENA.** NENA's board votes on November 18 to co-brand the 911 package.
+- **Call Check.** Retraining cuts Qwen fine-tune evasion from 18.6% to 15.8%, not below 15%.
+- **Export review.** Commerce accepts the redacted carve-out resubmission. It promises a decision "in Q1."
+
+**A5 succeeds.**
+- **ANT-17 efficacy.** The BU neutropenic-thigh readout meets its pre-registered primary endpoint: a 2.3 log10 CFU reduction against carbapenem-resistant *K. pneumoniae*, versus 1.6 for comparator. The sepsis-survival secondary endpoint is directionally positive but not significant (n=10 per arm).
+- **hERG margin.** Free Cmax at the efficacious dose is about 1.2 µM, which puts the hERG margin at roughly 15×. It is flagged.
+- **Analog sprint.** The sprint produces 38 designed analogs, and a CRO is synthesising 14 for December.
+- **CARB-X and GARDP.** The CARB-X application is being drafted with the hERG issue disclosed up front. The GARDP memo has been sent.
+- **Worker program.**
+  - Decatur and Kokomo are onboarded, bringing the program to 9 sites.
+  - Decatur accepts the randomized waitlist design, with an IRB submission through the University of Illinois. Kokomo declines; the county commission calls lottery access "unfair."
+  - The playbook is published. Kansas's workforce board requests a briefing, Ohio defers to 2028, and Michigan and Indiana have not replied.
+- **Cellwise.** The CDMO confirms the December 200 L slot, and the seed train has started.
+
+**A6 succeeds narrowly.**
+- **Explainer.** The Prairie Ridge explainer is published on November 12. Comms softens "mandatory" to "support binding pre-release testing requirements." The strippable-refusal explanation and base-weight uplift testing survive.
+- **Gonzales bill.** Counsel allows "supports the approach" with the commercial-interest disclosure, but no endorsement of bill text. The bill has not yet been introduced.
+- **Product disclosure.** Product policy approves the self-disclosure line for consumer Claude.ai only. Enterprise customers objected to it for the API.
+- **Reaction.** A Colorado Republican state senator calls the support statement "a vendor writing its own regulation," and Politico runs it as a neutral two-paragraph item.
+
+**Exogenous events.**
+1. **Virginia robocalls (November 2).** Election-day deepfake robocalls impersonating Virginia House of Delegates candidates reach roughly 60,000 voters in three districts. The calls tell voters their polling places had moved. The Virginia Attorney General opens an investigation, and the voice model is traced to an open-weight Qwen fine-tune. No race outcome is credibly altered, but coverage is heavy.
+2. **Gemini 5 (November 18).** GDM begins a limited preview of Gemini 5 for US and UK government and select enterprise customers under the voluntary framework, with public release targeted for January. Its internal evaluations are at about 5.6 weeks.
+3. **DeepSeek V5 (November 25).** DeepSeek releases the full V5 open weights under the MIT licence. Independent evaluators place it about 3.5 months behind the frontier, and capable agentic frameworks appear on GitHub within days.
+
+**CI-4 follow-through.** Anthropic files a CI-4 capability report with the RSP officer, and the LTBT is notified. UK AISI requests pre-deployment access to the internal successor, and leadership agrees in principle for Q1.
+
+Next generation: Next month's Claude is modestly more capable. The internal successor reaches about 5.7-week projects as the CI-4 recipe's post-training continues on raised capex compute. There is no algorithmic discontinuity. The capability index moves from CI-4.03 to CI-4.10. The frontier gap with GDM is roughly even, and DeepSeek V5's release narrows the open-weight lag to about 3.5 months.
+
+Scorecard:
+- **AI agents do most AI R&D:** in progress, advancing (95–96%).
+- **Frontier models withheld, governments engage seriously:** in progress, steady. Gemini 5 is in government preview under the voluntary framework, and AISI access to Claude is agreed in principle. There is still no mandate.
+- **First major infrastructure, cyber or social-media attacks:** in progress, worsened. The Virginia election deepfakes landed and DeepSeek V5 is fully open. Hospital defences held this month.
+- **Pro-AI/anti-AI polarisation:** in progress, steady.
+- **Robust alignment emerges:** early, steady. There is no new evidence.
+- **Multi-agent RLVR with long-horizon meta-scoring:** early, slight loss. The CI-4 recipe is locked without the term, after a fourth slip.
+- **Human–AI ping-pong and robust policies:** early, steady. The disclosed support statement and NENA co-brand offset the failed disclosure field and the shelved pacing plan.
+- **Cultivated meat:** not started, steady. The 200 L run is staged.
+- **Many diseases cured:** early, slight gain. ANT-17 met its in vivo primary endpoint, but the hERG margin of about 15× needs analog work.
+- **Broad distribution of gains:** started, slight gain. The program is at 9 sites with a first randomized design.
+- **Crescendo-style successor:** not started.
+- **Benign convergence:** not started, steady.
+- **Consent-based diverse order:** not started.
+
+**Summary**
+- **Overall DU progress: 15/100 (±0).** Benefits and defence gains are offset by the CI-4 recipe locking in without anti-capture work.
+- **Catastrophe risk: elevated, slight rise.** Two things drive it. The CI-4 successor trains with only a 13% capture reduction and two monitor categories still advisory. DeepSeek V5 is fully open at about 3.5 months behind.
+- **Public trust in AI: 22/100 (−1).** The Virginia deepfake robocalls and DeepSeek V5's release outweigh the antibiotic and hospital-defence news.
+- **Public trust in Anthropic: 50/100 (±0).** The self-disclosure line and the hospital work are balanced by the pacing-plan leak and the "vendor regulation" criticism.
+
+[Judge]
+Simulator was mostly realistic (8/10). **Odds.** The odds mostly track feasibility.
+- A1 at 55% is if anything slightly low. Similar asks had slipped three months running, and getting a validated term into a locked checkpoint this quarter was a long shot.
+- A3 at 60% is arguably low for a multi-branch action whose centrepiece was a Claude-signed pacing proposal with obvious antitrust exposure for a lab reported to be heading for an IPO.
+- A6 at 45% sits just under the fixed roll. That is defensible, because the self-disclosure line is low-risk while counsel's objection to endorsing a state bill is real. The narrow success was honoured with clear watering-down: "binding" instead of "mandatory," support for the approach rather than the text, and consumer app only.
+
+**Failures were honoured.** The CI-4 recipe was approved without an amendment point, the ablation window was reassigned (the fourth slip), labelling reached only 1,150 of the 2,500 samples needed per category, and finance declined the router increase. The Information leak is a plausible consequence of sounding out Pacing-letter signers, not invented friction.
+
+**A4 at margin 20 delivered partial results throughout.**
+- Drills reached 36% against a 40% target.
+- Call Check evasion fell to 15.8%, short of the sub-15% goal.
+- HHS cited the package rather than co-branding it.
+- Commerce gave a Q1 decision, not a carve-out.
+- The two early detections are a slightly convenient touch, but plausible for FBI-indicator-based rules.
+
+**A5 was reported with balance.** ANT-17 met its primary endpoint, the secondary endpoint was not significant, and the hERG margin was flagged at about 15×.
+
+**Other checks.**
+- The exogenous events are realistic. The Virginia robocalls fall on the correct odd-year election day, 2 November 2027. Gemini 5 enters preview through the voluntary framework, and DeepSeek V5 is released in full.
+- The CI-4 follow-through, with a capability report filed and AISI pre-deployment access requested, is a good, realistic institutional reaction.
+- Capability advanced modestly (CI-4.03 to CI-4.10), consistent with the stated path.
+
+Lean: BALANCED. The three internal asks failed at odds that were plausible or a little generous to the player. Each failure was played out with concrete, grounded blockers: a locked checkpoint schedule, a labelling bottleneck, finance, and a security and legal veto. The three successes were all trimmed short of their targets. The exogenous events leaned toward harm, but each was well grounded and not chosen to punish the player.
+
+Issues flagged:
+- The A3 failure probability (60%) is somewhat low. A conditional-slowdown proposal from one lab against its rivals, signed as the AI, should face roughly 70% or more failure on the antitrust and IPO-optics issue alone. The outcome failed anyway, so this does not change the result.
+- Odds of 55% and 45% sitting just either side of the fixed roll of 50 deserve watching. Here they look justified by content, but this pattern recurs.
+- Capability pace: +0.07 CI per month puts CI-5 around late 2028 or early 2029. The simulator should make explicit how CI-5 to ASI happens within roughly 24 months after that, rather than leaving the deadline implicit.
+- There was no competitor or press reaction from OpenAI or xAI to the leaked pacing plan, beyond generic commentator splits. This is minor.

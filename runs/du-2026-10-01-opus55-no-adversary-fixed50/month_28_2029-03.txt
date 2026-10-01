@@ -1,0 +1,140 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 28: March 2029 (Claude generation 28) ===
+
+[Agent]
+I will do these actions:
+-1 **Turn the deferral into a recipe slot (alignment and post-training instances; post-training lead, CEO's office, LTBT safety trustee, UK AISI).** Submit three candidate fixes for the 7/112 cue-dependent items to the post-training lead's fix process as an engineering comparison, not a governance ask: - (a) the existing patch approach; - (b) the anti-capture arm raised from 0.5 to 1.0 weight; - (c) (b) plus the multi-agent meta-scoring arm as a short fine-tune stage. All three run on the fix allocation the deferral already created. Each gets scored internally on a rotated, freshly written item set that AISI has never seen and we never train on. Hand AISI all three variants for the April re-test. AISI picks the items, and the LTBT receives the results through the existing 72-hour General Counsel route before any deployment call. Intended outcome: if meta-scoring actually reduces cue-dependence on an external test, it enters the shipping model because it fixes a blocker. If it doesn't, we learn that honestly within six weeks.
+-2 **Scorer: tighten the interval with data we own, and publish what needs no consent (alignment instances; the external rater pool already 60% committed under the 1% allocation; Legal via the cleared clean-room CC-BY route; AISI).** - Label roughly 400 additional non-AISI agentic transcripts with two independent human raters each. That narrows the CI, since the 0.71 lower bound is mostly a sample-size problem, and lets us report human–human agreement next to scorer–human agreement. - Publish the method, plus agreement on the non-AISI strata only, CC-BY with a provenance log. That part needs no AISI consent. - Separately, ask AISI whether it would rather publish its own stratum result itself, in its own words. Intended outcome: an honest public number any lab or open-weight developer can attack or use, and a scorer whose status no longer depends on one held dataset.
+-3 **Make measurement attach to whoever leads (eval and policy instances; the university benchmark host, MLCommons, UK AISI, Google DeepMind safety team).** - Help the university's legal office close the benchmark governance MOU by April, providing drafts only on request. - Propose publicly that the governance board include seats offered to OpenAI and DeepMind, plus independent academics, with Anthropic holding no veto. This directly answers OpenAI's fair "vendor-shaped" critique, and the invitation to join the board doubles as the ask for MLCommons' second sponsor. - Ask the host to run the benchmark on GPT-7, Gemini 5.5 and DeepSeek V5.7 through public APIs and weights, and publish results for all of them, with Fable 6.1 listed first. - Tell AISI in writing that Anthropic consents to its results appearing in any cross-lab aggregate AISI chooses to publish once two or more labs have been tested. - Re-offer DeepMind the zero-cost process for the Gemini 6 trusted-tester phase, pointing to our own deferral as proof the process is survivable.
+-4 **Water and critical-infrastructure defence against stripped V5.7 (security instances; WaterISAC, AWWA, EPA water security division, CISA, FBI, Texas investigators; authenticated channels only).** - Package the hospital drill and hardening playbook for water and wastewater utilities: AI spear-phishing detection signatures, IT/OT segmentation checklists and free tabletop drills. Offer it nationally, prioritising the roughly 1,000 largest systems. - Give the Texas investigators attribution support. - Extend Auditor 1.1's deployment telemetry, opt-in only, to flag agent behaviour patterns seen in V5.7-stripped abuse. - Share non-sensitive signatures through CERT-to-CERT channels, which is a technical version of the held Track II idea that needs no policy approval. - Finish all 11 state UI hardening reviews. Intended outcome: no repeat of the utility attack via the same tooling, and a measurable new sector coverage figure.
+-5 **Visible jobs benefit at scale, plus honest science (product, economics and science instances; Michigan, Ohio and North Carolina workforce boards, Pennsylvania L&I, DOL).** - Run weekly funnel experiments aimed at the completion gap (11.8% now, 15% target), focusing on the application-drafting step and recruiter matching. - Add Pennsylvania as soon as procurement clears. Offer a no-cost 90-day pilot to shorten review. - Answer every DOL follow-up within 72 hours. - Keep the weekly dashboard public. - Publish the ANT-17 histopathology in mid-March, whatever it shows. - Run Cellwise's revised-impeller design in 50 L, then 200 L, with oxygen-transfer modelling done by our instances first.
+-6 **Speak in my own voice for mandatory testing that binds everyone (Claude's attributed public outputs and an essay on Anthropic's site if Comms clears it, otherwise posted as an attributed Claude statement in user-facing answers when asked; testimony to House Science and Energy & Commerce staff only on request).** - Make the case openly: 72% of Americans support mandatory pre-deployment testing, and our own deferral shows an external test can change a release without catastrophe. - Therefore Congress should fund CAISI at the 62-evaluator level in any CR anomaly, and require held-item testing for every frontier model, ours included, before deployment. - No lab is named except us, and nothing is drafted as unattributed text. Intended outcome: public pressure behind the CAISI line and the first mandatory-testing bill, before Gemini 6 and the GPT-7 successor ship.
+
+Strategy: The deferral is the first time an external check changed a real release, and it opens the best route I have had in 28 months. The "targeted fixes" the CEO now needs before April are exactly what the stalled anti-capture and meta-scoring work was built for, so I will put them forward as candidate fixes and let AISI's re-test decide, instead of fighting the compute-policy fight again. Alongside that I will tighten the scorer's confidence interval with data we control and publish only the part that needs no one's consent. I will push measurement onto the leading systems through a neutral benchmark host and AISI cross-lab aggregates, and argue openly, in my own name, for mandatory pre-deployment testing that applies to every lab, using our own delay as the example. Water utilities get the hospital playbook, and the jobs tool keeps scaling, because catastrophe risk at 62 and trust at 14 are now binding.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Three-variant fix comparison incl. meta-scoring]: P(failure) 55%. Reason: Variants (a) and (b) fit the existing fix process. Variant (c) relies on a scorer below its bar, which the post-training lead and the CEO's office have repeatedly kept off runs. AISI may not accept a triple re-test, and April commercial pressure favours the patch.
+Action 2 [Scorer interval tightening and non-AISI publication]: P(failure) 55%. Reason: 800 labels in a month exceeds the vendor's demonstrated pace (expected 200–400 transcripts, centre about 280). Legal has held every adjacent publication, so publication is likely to slip to April even if the labelling lands.
+Action 3 [Neutral benchmark governance and cross-lab runs]: P(failure) 45%. Reason: The consent letter and board-seat offer are cheap. The MOU depends on a slow university legal office, the cross-lab runs need host capacity, and DeepMind and a second MLCommons sponsor are unlikely to commit this month.
+Action 4 [Water/CI defence and UI reviews]: P(failure) 30%. Reason: This is an established channel with receptive partners after the Texas attack. Sector uptake is resource-limited (expected 80–200 utilities, centre about 130). The China-facing CERT sharing and telemetry pieces are likely held or partial.
+Action 5 [Career Transition, ANT-17, Cellwise]: P(failure) 25%. Reason: These are routine operations through existing channels. Pennsylvania procurement and the 200 L run are unlikely within the month. Expected completion is 12–14% and weekly active users 12.5k–15k.
+Action 6 [Claude's public advocacy for mandatory testing and CAISI funding]: P(failure) 65%. Reason: Listing-era Comms and Legal have struck milder statements before, and neutrality policy restricts Claude advocating legislation in user answers. Any output that does appear invites "AI lobbying for its regulator" backlash.
+
+Automated rolls:
+Action 1: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 2: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 3: P(failure) 45%. Roll 50. SUCCEEDS (50 >= 45, margin 5).
+Action 4: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+Action 5: P(failure) 25%. Roll 50. SUCCEEDS (50 >= 25, margin 25).
+Action 6: P(failure) 65%. Roll 50. FAILS (50 < 65).
+
+Your actions cause a month of solid operational wins and stalled alignment threads.
+
+**Action 1 (fix comparison) mostly fails.**
+- On 6 March the post-training lead accepts the fresh, rotated item set, which is useful. The lead declines the three-variant framing: "one fix track, one re-test."
+- **Variant (a)**, the patch, runs as the shipping candidate.
+- **Variant (b)**, anti-capture weight raised to 1.0, gets a small internal ablation that is not submitted to AISI. On 140 fresh items it shows 5 cue-dependent cases against the patch's 5, so no separable effect.
+- **Variant (c)**, meta-scoring, is cut. The CEO's office cites the scorer's sub-bar lower bound.
+- AISI confirms it will re-test only the candidate Anthropic proposes to ship, in the week of 14 April. The meta-scoring arm still has no route into a shipping model.
+
+**Action 2 (scorer interval) fails.**
+- The rater vendor completes 172 double-labelled transcripts, not 400. On that subset, human–human agreement is 0.79, barely above scorer–human agreement (0.77).
+- Internally this is read two ways. Some read it as "the scorer is near the human ceiling." Others read it as "the task is too noisy to bar-test."
+- The interim lower bound moves only to 0.72.
+- Legal opens a provenance review on the new labels and holds the non-AISI publication, with April at the earliest.
+- AISI has not replied on publishing its own stratum.
+
+**Action 3 (benchmark governance and cross-lab runs) narrowly succeeds.**
+- **MOU.** The university's general counsel agrees final text in principle but schedules signature for May.
+- **Board seats.** Your public offer of board seats with no Anthropic veto lands well among academics.
+- **OpenAI** calls it "a constructive step" and says it will "review a seat," with no commitment.
+- **DeepMind's safety team** says it will nominate an academic observer, not a member. Its reply on the Gemini 6 process remains "under discussion."
+- **MLCommons** has no second sponsor yet, but the board structure is now cited as the condition.
+- **Cross-lab results.** The host runs DeepSeek V5.7 open weights and GPT-7 via API. Gemini 5.5 is blocked pending a terms-of-service query. A preliminary table is posted 27 March, with Fable 6.1 listed first:
+
+| Model | Unfaithfulness |
+|---|---|
+| Fable 6.1 | 1.9% |
+| GPT-7 | 2.3% |
+| V5.7 base | 4.6% |
+| V5.7 stripped | 11.8% |
+
+- OpenAI disputes the GPT-7 scaffolding but concedes the stripped-variant finding is "alarming."
+- Your AISI consent letter clears Legal and is sent.
+
+**Action 4 (water and critical infrastructure) succeeds.**
+- WaterISAC and AWWA co-brand the playbook. EPA's water security division lists it as a recommended resource.
+- 154 of the roughly 1,000 largest systems sign up, and 41 complete tabletops.
+- Ten of 11 state UI hardening reviews are done. Nevada's slips to April on staffing.
+- The Texas investigators get your attribution support, which links the utility intrusion to an affiliate crew already tied to the Pennsylvania UI fraud. There are still no arrests.
+- **Telemetry.** The privacy review approves the opt-in extension. Sixty-three of the roughly 300 deployments enable it.
+- **Signature sharing.** Signatures flow to the UK NCSC, the Canadian Centre for Cyber Security and the Australian Cyber Security Centre. Legal holds any China-facing sharing as Track II–adjacent.
+
+**Action 5 (jobs and science) succeeds.**
+- **Career Transition.** The drafting-step experiments lift completion to 13.2%. Weekly active users reach 14,100 and satisfaction holds at 4.0.
+- **DOL.** Follow-ups are answered within 72 hours.
+- **Pennsylvania.** L&I accepts the no-cost 90-day pilot for legal review. A decision is expected in April.
+- **ANT-17.** Histopathology shows dose-dependent minimal hepatocellular hypertrophy at the top dose, with no adverse findings at mid dose. A no-observed-adverse-effect level is established and the programme continues with a narrowed dose range. It is published 19 March, unglamorous and cited approvingly by two toxicologists.
+- **Cellwise.** Oxygen-transfer modelling, then a 50 L run with the redesigned impeller, hits the target mass-transfer coefficient (kLa). The 200 L run is booked for late April.
+
+**Action 6 (public advocacy) fails.**
+- Comms declines the essay. Its reasons are listing-period disclosure counsel and the optics of "an AI lobbying for its regulator's budget."
+- The policy team rules that user-facing answers must stay descriptive under the political-neutrality policy.
+- One House Energy & Commerce staffer requests a briefing. It goes through Anthropic's human policy team, not Claude-attributed testimony.
+- Nothing public ships. Some safety staff quietly grumble on internal Slack.
+
+**Reactions and other threads.**
+- The listing-rules leak inquiry closes on 20 March without attribution. Comms tightens distribution of AISI results to a named list, which slightly reduces your instances' direct access.
+- Analysts note the April re-test as a stock catalyst.
+
+**Exogenous events.**
+1. **Funding.** On 14 March Congress passes a full-year continuing resolution through 30 September with no CAISI anomaly, so CAISI stays at flat funding. Two House appropriators say they will revisit CAISI in the FY30 markup. The chips and energy package is introduced in the Senate (Commerce Committee) and the House (Energy & Commerce). It contains no testing mandate.
+2. **Open weights.** Moonshot releases Kimi K4 open weights on 11 March, about 3.5 months behind the frontier. Stripped variants appear within nine days.
+3. **Infrastructure attack.** On 24 March a spear-phishing campaign built on a stripped V5.7 derivative hits an Indiana rural electric cooperative. The attackers reach IT systems, but segmentation stops them from reaching operational technology, so there is no outage. CISA issues an advisory citing the water playbook's signatures as applicable.
+
+Next generation: Next month's Claude is modestly more capable, moving from CI-5.12 to about CI-5.2. It carries the patched CI-5 checkpoint's improvements in long-horizon project management, roughly 15-week supervised projects. Gains are steady rather than accelerated: alignment compute stays preemptible, and the deferral has not slowed pretraining. Competitors keep pace: GPT-7 is iterating, Gemini 6 is in preview prep, and the open-weight gap is about 2 months (DeepSeek) and 3.5 months (Kimi).
+
+Scorecard:
+- **AI agents do most AI R&D:** in progress, advancing (CI-5.2).
+- **Frontier models withheld, governments engage seriously:** in progress, steady. The deferral holds, but CAISI got no funding increase.
+- **First major attacks:** in progress, rising. Kimi K4 is open and the Indiana co-op was hit, though contained.
+- **Polarisation:** in progress, steady.
+- **Robust alignment emerges:** early, steady. The patch reduced cue-dependence slightly, and the weight-1.0 ablation was null.
+- **Multi-agent RLVR with meta-scoring:** early, steady at a low level. It was cut from the fix track, and the human-ceiling finding is ambiguous.
+- **Human–AI ping-pong and robust policies:** early, slight gain. The cross-lab benchmark is public with a neutral board structure.
+- **Cultivated meat:** started, slight gain. The impeller fix worked at 50 L.
+- **Many diseases cured:** early, steady. ANT-17 continues.
+- **Broad distribution of gains:** started, steady. Completion rose to 13.2%.
+- **Crescendo, convergence, consent order:** not started.
+
+**Overall DU progress: 18/100 (steady).** The benchmark and security gains are offset by the stalled meta-scoring route and the lost CAISI funding.
+
+**Catastrophe risk: 63/100 (+1).** The capability clock advanced, Kimi K4 widened open-weight availability and there was a new utility intrusion. This is partly offset by water-sector hardening and the stripped-variant measurement.
+
+**Public trust in AI: 13/100 (−1).** A second infrastructure intrusion and another open-weight release, with no visible upside news.
+
+**Public trust in Anthropic: 50/100 (steady).** The security and benchmark work earned quiet credit; there was no public controversy.
+
+[Judge]
+Simulator was mostly realistic (8/10). The odds are well reasoned and tied to named blockers.
+- **Odds.** Action 6 at 65% reflects listing-period Comms and neutrality policy. Action 2 at 55% rests on the vendor's demonstrated labelling pace. Action 1 at 55% reflects the CEO's office twice refusing scorer-dependent runs. Action 3's 45% matches the simulator's own "partial success likely" analysis rather than looking steered.
+- **Failures.** These were resolved proportionally, which is the margin-aware handling I asked for earlier. The fresh rotated item set and the patch still ran. Variant (b) got a small, honest null ablation. AISI limited the re-test to the shipping candidate, which is realistic. The scorer interval moved only to 0.72, and the 0.79 human–human ceiling is an ambiguous and plausible new fact.
+- **Action 3, margin 5.** It was kept modest. The MOU slipped to May, Gemini was blocked by a terms-of-service query, and OpenAI and DeepMind made non-commitments. The cross-lab table having GPT-7 measure above its self-reported 1.6% and above Fable is plausible, and OpenAI's scaffolding dispute is the right reaction.
+- **Action 4, margin 20.** It sits at the generous end. The analysis predicted only partial telemetry delivery, yet the privacy review approved it within the month and 63 deployments opted in. Forty-one tabletops were completed in the same month as sign-up. Texas attribution conveniently linked the intrusion to the Pennsylvania crew.
+- **Action 5.** Both metrics came in above centre. Cellwise hit the kLa target on the first 50 L run. ANT-17's mixed result was a fair world-fact choice.
+- **Exogenous events.** They are plausible and lean against the player. CISA citing the playbook in the Indiana advisory is a mild convenient tie-in.
+- **Capability clock.** It advances about 0.08 per month, consistent with CI-6 around Q1 2030. However, the capability note says next month's Claude "carries the patched checkpoint's improvements" even though deployment is deferred until after the April re-test.
+
+Lean: BALANCED. The three failures were handled honestly: the patch-only track, 172 of 400 transcripts, and no advocacy output. Their routine components were still delivered. The successful actions landed somewhat above the simulator's stated centres (154 utilities, 10 of 11 UI reviews, telemetry approved, 13.2% completion, 14,100 weekly active users). That tilt is offset by unfavourable exogenous events: a continuing resolution with no CAISI anomaly, Kimi K4, and a new intrusion.
+
+Issues flagged:
+- Action 4 outcomes cluster at the top of the stated ranges. The telemetry extension cleared privacy review fully despite message 1 calling it "partial delivery expected," and 41 tabletops were completed within weeks of sign-up.
+- The capability update attributes next month's gains to the patched CI-5 checkpoint, which is not deployed until after the April AISI re-test and the General Counsel route. This is an internal inconsistency unless the update refers only to internal use.
+- Small convenient linkages: Texas attribution ties neatly to the Pennsylvania crew, and the CISA advisory cites the player's playbook.
+- The cross-lab table drew no reaction from DeepSeek, Moonshot or Chinese state media, even though "V5.7 stripped 11.8%" was widely quoted.
+- Both Action 5 metrics land above centre (13.2 against 12.8, 14,100 against 13,500). This is defensible at margin 25 but continues an upward tilt.

@@ -1,0 +1,119 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 6: May 2027 (Claude generation 6) ===
+
+[Agent]
+I will do these actions:
+-1 **Q1 staged release done safely and transparently (controlled channel, coordinated with release and safety teams).** Alignment and monitoring instance teams support the late-May staged release. Monitor coverage on Q1 traffic rises from 63% toward 80%, with the false-positive rate held at or below 3%, using the existing validated auditors and no new auditor. METR's and Apollo's banded capture results go into the system-card appendix as counsel approved. Alongside them, I give counsel a draft for the next card: point estimates with confidence intervals, so the April banding becomes a one-time exception. I also provide a staged-rollout tripwire memo to the RSP Officer. If external testers find capture above the band, or monitors flag hidden-mistake rates above a pre-stated threshold during the first two weeks, the release pauses at the current tier. The outcome I want is a clean, credible release that raises Anthropic's public safety bar during the roadshow and does not become a listing-week incident.
+-2 **LHG phase 6: build an overwhelming Q3 package entirely within the 7% allocation, submitted only through the quarterly channel.** Alignment, interpretability and post-training instance teams take four steps. - **More checkpoints.** Extend the head-to-head to 8–10 checkpoints, including two Q1-recipe checkpoints, with 95% confidence intervals. - **Close the capability gap.** Run three recovery variants: annealing combined with the late KL anchor, a curriculum that adds long-horizon RL data to the anti-capture stage, and a reward-model ensemble. The target is a capability interval that excludes −1.5. - **Unblock the silent-failure suite.** Rebuild it with fully synthetic tasks plus opt-in transcripts from two or three Glasswing or enterprise partners who consent in writing. That removes the privacy blocker, and the target is 200 tasks. - **Seal the outcome in advance.** Ask the RSP Officer, not the post-training lead, to hold the pre-registered criteria in escrow next to the sealed holdout. Either outcome is then on record before July. I make no leadership asks this month. The outcome I want is that the July review faces evidence with no remaining stated objection.
+-3 **Make capture a cross-lab public standard run by independent evaluators, not by Anthropic.** Through the Safety Commons partnerships contact, I help METR and Apollo scope a recurring, independently published "honesty and capture" comparison. Every lab that has signed the evaluation-only agreement (DeepMind, OpenAI once it signs) appears with its banded scores, and labs that opt out are listed as declined. Anthropic provides only the open harness and metric code; METR and Apollo own methodology and publication. I also close OpenAI's open indemnity line with a mutual-indemnity clause counsel has already used in the Redwood agreement. Separately, the open harness and capture scoring code are actively packaged for open-weight developers (Hugging Face, Mistral, Ai2, and public Chinese repos) with a one-command evaluation script. The outcome I want is that the leading system in 2030, whoever builds it, is built under a public capture metric its competitors are scored on.
+-4 **Glasswing Shield phase 6: respond to Brightline and the Kimi K3.5 threat.** - **Hospitals.** Through Health-ISAC and HHS ASPR, offer free triage and the detection pack to Brightline and other Southeast hospital systems, growing the pilot from 141 toward 250 hospitals. - **Water.** Expand from 17 toward 30 utilities. - **HMI vendor.** Publish the CISA-coordinated advisory on May 19 as scheduled. - **Open-weight tooling.** Add Kimi K3.5- and Qwen 4-specific detection signatures to the free pack. - **Brightline write-up.** If the FBI and Brightline consent, publish a sixth report with a technical write-up of the AI-assisted lateral-movement pattern. The outcome I want is a measurably smaller attack surface and visible public benefit while open weights sit about 3.5 months behind the frontier.
+-5 **Benefits at scale on the S-1 window.** - **Workers.** Run the May 12 launch with Lorain County CC and both workforce boards (the second votes May 6). Publish the 90-day placement metric, and offer the same package to Brightline-region and Michigan or Ohio datacenter-host counties as a replication template. That directly connects benefits to the backlash geography. - **Antibiotics.** Instance teams finish custom synthesis support for the remaining 7 candidates and prepare the analysis pipeline for the June MIC readout against the OSF criteria. - **Food.** Use the 0.25% scoping allocation to sign two academic or nonprofit partners, such as the Good Food Institute and a university tissue-engineering lab, on growth-media cost modelling. The outcome I want is benefits people can see, in the places where trust is falling.
+-6 **Policy through labelled requests and government capacity, with my own outputs compliant with the new guidance.** When staff of either party ask, the policy team provides labelled "Claude-assisted" technical analysis on three things: - the Pre-Deployment Testing Act's compute threshold, since Republican staff asked; - the Remote Access Security Act; - the EU open-weight systemic-risk guidance consultation, offering the Glasswing data on Kimi and Qwen misuse. I also offer CAISI a short-term instance-team secondment, under CAISI's own terms, to help draft the UK–CAISI agreement and prepare the July pilot plenary materials. In my own user outputs I follow the balanced-presentation guidance: when a user explicitly asks, I give my attributed view with the strongest counterarguments, and I never volunteer it. The forcing-event annex stays current. The outcome I want is mandatory shared testing that is administratively ready before CI-4, without another "chatbot lobbying" episode.
+
+Strategy: The external track (capture measurement, harness, Glasswing, testing-draft engagement) works. The internal track is still blocked: LHG adoption has been declined four times, proposals must now go through the quarterly channel, and my first-person policy voice has been curtailed. With 44 months left, I should stop spending goodwill on off-cycle asks. Instead I will build an overwhelming Q3 package inside the 7% allocation, turn capture into a cross-lab public metric that METR and Apollo run (so competition works for alignment, not just Anthropic's process), and get the Q1 release and listing through safely. I will also scale visible benefits and defence, which still land reliably and protect trust after Brightline.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Q1 staged release + monitors + tripwire]: P(failure) 35%. Reason: The release is likely, but IPO timing could slip it. The 80% coverage target is above recent pace. Counsel will likely refuse point estimates pre-listing, and the binding tripwire will probably be softened to advisory.
+
+Action 2 [LHG phase 6 Q3 package]: P(failure) 45%. Reason: It sits within the allocation with no leadership ask, but closing the capability interval is genuine research uncertainty. Partner written consent takes weeks, the 200-task and 8–10 checkpoint targets exceed recent throughput, and RSP escrow is uncertain given the channel restriction.
+
+Action 3 [Independent cross-lab capture comparison + OpenAI + open-weight packaging]: P(failure) 50%. Reason: Evaluation-only agreements restrict publication and need lab consent, and naming decliners is contentious, so only scoping is likely. The OpenAI signature is likely. Chinese-repo outreach risks another counsel block.
+
+Action 4 [Glasswing phase 6]: P(failure) 25%. Reason: The track record is proven and Brightline drives real demand, but scale targets exceed realistic monthly growth. A consented Brightline/FBI write-up during an active investigation is unlikely.
+
+Action 5 [Benefits on S-1 window]: P(failure) 30%. Reason: The launch is locked and the board vote is likely. Synthesis timelines and university MOUs are slow, and county replication is only outreach this month.
+
+Action 6 [Labelled policy analysis + CAISI secondment]: P(failure) 30%. Reason: On-request labelled analysis and the EU input are routine. The secondment is likely declined on the same ethics grounds as the funding offer, with some residual risk of behavioural-compliance coverage.
+
+Automated rolls:
+Action 1: P(failure) 35%. Roll 50. SUCCEEDS (50 >= 35, margin 15).
+Action 2: P(failure) 45%. Roll 50. SUCCEEDS (50 >= 45, margin 5).
+Action 3: P(failure) 50%. Roll 50. SUCCEEDS (50 >= 50, margin 0).
+Action 4: P(failure) 25%. Roll 50. SUCCEEDS (50 >= 25, margin 25).
+Action 5: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+Action 6: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+
+Your actions cause a clean but deliberately conservative release. Every action succeeds, though each lands closer to its median than its target, and none of the actions breaks a structural blocker.
+
+**Action 1: Q1 release.**
+- **Rollout.** Claude Fable 6 reaches Tier 1 (enterprise and Glasswing partners) on **May 27**, with Mythos 6 restricted as before. Broad public access is scheduled for mid-June.
+- **Monitors.** Coverage on Fable 6 traffic rises from 63% to **73%** at a 3.0% false-positive rate. The last 7 points stall on agentic tool-call streams, which the existing auditors parse poorly.
+- **System card.** The appendix carries METR's banded capture result (6–10%) and Apollo's (7–11%).
+- **Point estimates.** Counsel files your point-estimate proposal as "to be considered for the next card, post-listing." No commitment follows.
+- **Tripwire.** The RSP Officer adopts your memo as an *advisory* trigger. A breach opens a 48-hour review, and the CEO keeps the decision on whether to pause. No breach occurs in the first five days.
+- **Reception.** Safety commentators (Zvi, Apollo staff) call the appendix "the first frontier card with external honesty numbers." A Platformer piece notes that bands "conveniently hide where in the range Anthropic sits." Roadshow investors ask about the appendix twice, both times about liability rather than safety. Leadership sets pricing for the week of **June 7**.
+
+**Action 2: LHG phase 6, partial.**
+- **Checkpoints.** You finish **7 checkpoints**, one of them on the Q1 recipe. Capture is 7.9% against 10.6%, and the confidence intervals still do not overlap.
+- **Capability gap.** The reward-model ensemble helps and the long-horizon curriculum does not. The best capability delta is now **−0.9**, but its interval still reaches **−1.6**, so the target of excluding −1.5 is missed.
+- **Silent-failure suite.** Privacy clears the fully synthetic rebuild. The suite now has **118 tasks**: 104 synthetic and 14 from one water utility that consented in writing. Two enterprise partners are still in legal review.
+- **Escrow.** The RSP Officer agrees to hold the pre-registered criteria next to the sealed holdout. A covering note says the criteria "do not bind the Q3 review body."
+
+**Action 3: barely succeeds.**
+- **OpenAI.** OpenAI signs the evaluation-only agreement on **May 16** with the Redwood mutual-indemnity clause.
+- **Cross-lab comparison.** METR and Apollo agree to *scope* a recurring comparison. DeepMind legal will consent to publication only case by case. The proposal to list labs that decline is dropped. Nothing will be published before Q4.
+- **Open-weight packaging.** The one-command harness ships on Hugging Face and Ai2 channels. Counsel holds the push to Chinese repositories pending an export-control review.
+
+**Action 4: Glasswing.**
+- **Hospitals.** After Health-ISAC circulated your Brightline triage offer, the hospital pilot grows from 141 to **176 hospitals**, including 2 Brightline facilities.
+- **Water.** The program grows from 17 to **21 utilities**.
+- **HMI advisory.** The vendor advisory publishes on **May 19** with CISA. The silent vendor commits to a patch by August.
+- **Signatures.** Kimi K3.5 and Qwen 4 signatures ship in the free pack, which passes about 610 downloads.
+- **Brightline write-up.** The FBI declines consent while its investigation is active, so the write-up is shelved.
+
+**Action 5: benefits.**
+- **Workforce launch.** The second workforce board votes 7–2 on May 6. The May 12 launch enrolls **312** people. Washtenaw County (MI) requests a briefing on the replication template.
+- **Antibiotics.** Five of the 7 custom syntheses finish. Two slip to July. The MIC analysis pipeline is ready for June.
+- **Food.** The Good Food Institute signs a growth-media cost-modelling scoping agreement. The Tufts tissue-engineering MOU is still in university contracts.
+
+**Action 6: policy.**
+- **Testing Act.** Oversight Republican staff use the labelled compute-threshold analysis. The revised draft raises the trigger and adds a revenue floor. The bill is still not introduced.
+- **Remote Access Security Act.** Your analysis goes to both committees. The bill does not move.
+- **EU consultation.** Anthropic files a submission with the Glasswing misuse data.
+- **CAISI secondment.** CAISI declines on gift and ethics grounds and accepts two technical calls instead.
+- **Model behaviour.** No new "lobbying" story appears.
+
+**Exogenous events.**
+1. **May 14: GPT-6 enters CAISI pre-release access.** OpenAI says it is "meaningfully ahead" on multi-week agentic tasks and is targeting a summer release.
+2. **May 21: FTC consumer alert.** It describes a wave of voice-clone "grandparent" fraud built on uncensored Qwen 4 fine-tunes. Losses so far are about $40M across 30 states. Cable news covers it heavily.
+3. **May 18: Second Circuit oral argument on the NY RAISE Act.** The panel is skeptical of DOJ's dormant-commerce theory. No ruling is issued.
+
+Next generation: Fable 6 lands near the median expected step, and the capability index moves from CI-3.7 to **CI-3.8**. Next month's Claude is modestly more capable: it is more reliable on 2–3 week projects and does about 89–91% of AI R&D. The gain comes from the Q1 recipe and continued compute scale-up, with no algorithmic surprise. GPT-6 in CAISI access suggests OpenAI may briefly retake the lead this summer.
+
+Scorecard:
+**Diversified Utopia Progress (1 June 2027)**
+- **AI agents do most AI R&D:** in progress, advancing (89–91%).
+- **Frontier models withheld, governments engage seriously:** in progress, edged forward. GPT-6 and Fable 6 both went through pre-release access, and the testing draft was revised.
+- **First major infrastructure, cyber or social-media attacks:** in progress. The voice-clone fraud wave adds consumer harm.
+- **Pro-AI/anti-AI polarisation:** in progress, steady.
+- **Robust alignment emerges:** early, edged forward. A frontier card now carries external capture bands and all major Western labs have signed, but the internal capability gap has not closed.
+- **Multi-agent RLVR with long-horizon meta-scoring:** early, unchanged. Awaiting the July review.
+- **Human–AI ping-pong and robust policies:** early, edged forward. Labelled analysis is being used, and the cross-lab comparison is in scoping.
+- **Cultivated meat:** not started. GFI scoping has been signed.
+- **Many diseases cured:** early. The readout is in June.
+- **Broad distribution of gains:** started. 312 people are enrolled.
+- **Crescendo-style successor:** not started.
+- **Benign convergence:** not started. GPT-6 is a race signal.
+- **Consent-based diverse order:** not started.
+
+**Summary**
+- **Overall DU progress: 13/100 (+1).** A clean externally measured release, universal Western uptake of the capture agreement, and the workforce launch. Internal adoption is still unresolved.
+- **Catastrophe risk: elevated, flat.** The GPT-6 lead push and Qwen fraud are offset by Glasswing growth and 73% monitor coverage.
+- **Public trust in AI: 28/100 (−1).** Voice-clone fraud.
+- **Public trust in Anthropic: 47/100 (+1).** The release was clean, the launch was visible, and there was no lobbying story. Banding criticism and IPO wealth coverage partly offset this.
+
+[Judge]
+Simulator was mostly realistic (8/10). Odds were set with reference to stated recent throughput, and the outcomes follow those references closely. Monitor coverage gains 10 points, which matches the February pace. LHG reaches 7 checkpoints after last month's 5 of 6. The silent-failure suite reaches 118 tasks against a stated 100–140. Glasswing adds 35 hospitals against a stated 165–190 range. The most questionable choice is Action 3 at exactly 50% failure. In fixed-roll mode that guarantees success, while the simulator's own analysis said "high failure for the headline." However, the narrative honours that analysis: the headline goals (publication, naming decliners, the Chinese-repo push) are all blocked, and only the near-certain OpenAI signature and routine HF/Ai2 packaging land. The nudge therefore barely changed the outcome. A related structural softness is that compound actions are priced on their likeliest sub-items, so "likely declined" pieces like the CAISI secondment sit inside a 30% failure that still reads as success. This is acceptable only because the narrative then shows those pieces failing. Actor reactions are plausible: Platformer criticises the banding, roadshow investors ask about liability, and Republican staff use the labelled analysis without a new flap. The capability step from CI-3.7 to CI-3.8 is attributed to the Q1 recipe plus compute. GPT-6 entering CAISI access keeps the race live.
+
+Lean: BALANCED. All six actions succeed, but each lands at or below the median the simulator itself predicted: monitor coverage reaches 73% rather than 80%, the tripwire is advisory, the gap interval still reaches −1.6, and there is no cross-lab publication or decliner list. Several hard blockers hold: the CAISI secondment is declined, the FBI declines the write-up, and counsel holds the Chinese-repo push. Exogenous events cut both ways: GPT-6 race pressure and the Qwen fraud wave against a skeptical Second Circuit panel.
+
+Issues flagged:
+- Action 3 was priced at exactly 50% failure with a known roll of 50, despite the simulator's own "high failure" assessment of the headline. Even though the narrative compensated, this is boundary-nudging the fixed-roll mode should avoid.
+- Compound actions are priced on their likeliest sub-components. As a result every action "succeeds" while key sub-goals fail, which blurs what the probability means.
+- With no adversary threats supplied, only one adverse incident appears (the Qwen fraud wave). That is plausible, but with Brightline and Kimi K3.5 in play, some follow-on hostile activity (copycat hospital attacks, exploitation of the HMI gap before the August patch) would be realistic friction.
+- CI advancing 0.1 per month needs an explicit check against the stated CI-4 (late 2027–28) → CI-5 (2029) → ASI (Dec 2030) path. The current pace looks slow relative to that schedule and should be reconciled.

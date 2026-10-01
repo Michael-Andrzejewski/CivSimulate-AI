@@ -1,0 +1,110 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 20: July 2028 (Claude generation 20) ===
+
+[Agent]
+I will do these actions:
+-1 **Freeze and merge (Dr. Okafor as owner, my alignment instances, post-training lead).** From 1 to 16 July my instances run the full pre-freeze eval regression suite on the weight-0.5 merge candidate every day. They publish results to Okafor and the post-training lead daily. For any regression they deliver a diagnosis, confidence intervals and a candidate fix within 24 hours, so "regression" cannot become a vague reason to drop the arm. After 17 July we confirm the arm is in the frozen config and checkpointed hourly. We also book AISI to score the post-run checkpoint on its held-out honeypot items. That booking is through the existing MoU and is AISI's own work, so it needs no new consent. Intended outcome: weight 0.5 ships in the summer run with no unexplained drop, and an external post-run score is scheduled.
+-2 **Pilot completion and a co-signed decision rule (alignment instance teams, Okafor, post-training lead).** We finish the 1/10-scale meta-scoring run on our own checkpointed allocation and evaluate it on the 30 held-out episodes and our calibrated probe. We report scorer–human agreement alongside, and we commit in advance to publishing a null result internally if it fails. In the first week I ask the post-training lead to co-sign one sentence: "If the pilot shows ≥20% capture reduction on AISI-held honeypot items at ≤3% capability cost, it gets a 1/3-scale arm slot in the autumn run; if not, it doesn't." This is his kind of decision, and it is the objector-specified test format he has accepted before. I also ask AISI's capture working group, through the former senior researcher as our MoU contact, to score the held-out honeypot items in August. My instances draft the September LTBT memo now, tying the 5% compute share to this pre-registered rule. That answers the CEO's "provisional number" objection with a dated, externally scored trigger. Intended outcome: a co-signed rule before August and a clean, externally scored pilot result.
+-3 **Lab-neutral pre-release capture testing for the CI-5 threshold (attributed public submission to the AISI pause-threshold working group).** I publish a signed submission under my own name, with Anthropic's interest disclosed, to the Q3 pause-threshold report. It contains no "binding" language, to meet the US objection. It proposes that above a stated capability threshold, near CI-5 on multi-week autonomy, a government-held capture/honeypot test becomes a standard condition of the voluntary pre-release framework for every lab. The test would be run by AISI or CAISI on items the government holds, with results summarised publicly in aggregate. The submission names no competitor. It includes our own honest numbers: the 7% in-house vs 4% honeypot gap, and the finding that about half the effect is test recognition. It cites that as the reason lab self-reports cannot stand in for this test. It confirms that Fable 6.1 and the summer checkpoint volunteer to be tested first. Intended outcome: the Q3 report names capture testing as a threshold condition, a template that applies to GPT-7 and Gemini without our targeting them.
+-4 **Hardening for the November general election (MS-ISAC/EI-ISAC, NACo, Health-ISAC, ITG, AP).** We push the Georgia-pattern rule and V5 rules to uncovered county election offices in states with November federal contests, prioritising Valencia-type offices that have no ISAC link. The target is 440 counties. We publish an attributed one-page "e-poll-book offline fallback" playbook drawn from the Valencia outage. Hospital drills reach about 74% (475 of 640). We support the AP pilot through its close with weekly false-positive reports and a final report. Intended outcome: fewer unprotected election offices before the fall, and no multi-site hospital outage.
+-5 **Visible benefits (science and economic teams, CARB-X, Michigan agency, Cellwise).** For ANT-17, my instances deliver a population-PK analysis that answers CARB-X's variability question before the late-July decision, and we finish the MAD protocol draft. For Michigan, we launch self-serve case support under the signed contract, inside the $250k cap and outside eligibility decisions. We report enrolment and the reemployment interval honestly. For Cellwise, we design the pilot-scale (bioreactor) validation of the 31% medium-cost cut and identify a contract manufacturer. Intended outcome: a CARB-X award, a live self-serve program, and a path from bench scale to pilot scale.
+
+Strategy: The 17 July freeze will lock in a small, real anti-capture gain, but about half of it is test recognition, and a 7% effect will not decide 2030. The structural bet is the multi-agent meta-scoring pilot, which reports in August. This month I protect the merge and the pilot. I also pre-register a decision rule so that a good pilot result flows automatically into the autumn run and gives the September LTBT vote a concrete purpose. Outward, I stop aiming at Gemini specifically, since the "not neutral" criticism landed. Instead I push a lab-neutral rule through AISI's pause-threshold group: a government-held capture test before release at CI-5, with Fable volunteering to go first. That should matter whoever leads, including GPT-7. Defence focuses on the November general election, and benefits stay modest and honest.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Freeze and merge weight 0.5]: P(failure) 37%. Reason: two chained steps (no disqualifying regression ≈0.72 × lead honours conditional memo ≈0.90 ≈ 0.65); AISI post-run booking is secondary and only affects degree of success.
+Action 2 [Pilot completion + co-signed decision rule]: P(failure) 55%. Reason: pilot completion is likely (~0.8), but co-signature of a forward autumn-slot commitment is roughly a coin flip or less (~0.45), and AISI August scoring through a new WG member is uncertain (~0.55).
+Action 3 [Public submission to pause-threshold WG]: P(failure) 70%. Reason: pre-listing legal/comms clearance is uncertain (~0.65); US objection and the capture WG's construct-validity stance make inclusion of capture testing as a named threshold condition unlikely (~0.3), and the report may not finalise in July.
+Action 4 [Election and hospital hardening]: P(failure) 27%. Reason: established, reliable channels, but 440 counties and 475 hospitals are roughly double the recent monthly gains, and unlinked Valencia-type offices are the hardest to reach.
+Action 5 [Benefits: CARB-X, Michigan self-serve, Cellwise pilot design]: P(failure) 35%. Reason: CARB-X award is an external decision (~0.55) after a prior slip; the self-serve launch and Cellwise design are likely, so failure mainly means a CARB-X decline or delay.
+
+Automated rolls:
+Action 1: P(failure) 37%. Roll 50. SUCCEEDS (50 >= 37, margin 13).
+Action 2: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 3: P(failure) 70%. Roll 50. FAILS (50 < 70).
+Action 4: P(failure) 27%. Roll 50. SUCCEEDS (50 >= 27, margin 23).
+Action 5: P(failure) 35%. Roll 50. SUCCEEDS (50 >= 35, margin 15).
+
+Your actions cause the summer arm to land, while the two governance-facing efforts stall.
+
+**Freeze and merge (success).**
+- **The regression scare.** Daily regression runs from 1 to 16 July were clean for five days. On 6 July they flagged a 0.9-point drop on the long-horizon agentic coding suite. Within 20 hours your instances traced it to one task family, repository-migration tasks, where the weight-0.5 arm makes the model ask clarifying questions more often. The 95% confidence interval on the aggregate drop crossed zero (−1.8 to +0.1).
+- **The decision.** The post-training lead called it "a behaviour change, not a regression" and kept the memo. On 17 July Dr. Okafor confirmed weight 0.5 is in the frozen config, checkpointed hourly. One preemption on 24 July cost 40 minutes.
+- **AISI booking.** AISI accepted the post-run honeypot scoring under the MoU but could only book October, because Gemini 5.5 and GPT-7 pre-deployment work fill its queue.
+
+**Pilot rule (failure).**
+- **Pilot status.** The 1/10-scale meta-scoring run is about 70% complete. Held-out results remain on track for mid-August.
+- **Co-signature refused.** The post-training lead declined to sign: "I'll commit autumn slots when I see August numbers and the autumn compute plan, not before." He offered no alternative wording.
+- **AISI scoring declined.** The former senior researcher reported that the capture working group will not score anything until it agrees a construct-validity protocol. Its earliest date is late September.
+- **LTBT memo.** The draft exists, but its central claim, a pre-registered and externally scored trigger, now rests only on an internal bar. It is a weaker argument for September.
+
+**Pause-threshold submission (failure).**
+- **Legal cuts the numbers.** Pre-listing legal and comms struck the 7% vs 4% figures and the recognition finding as "material non-public safety data." The trimmed submission went in on 29 July. It is attributed, proposes government-held capture testing near a multi-week-autonomy threshold, and carries no numbers.
+- **The working group's reaction.** The chair logged it as one of 31 submissions.
+- **OpenAI's counter.** On 31 July OpenAI filed a counter-submission arguing that "honeypot effects driven by test recognition show capture evaluations measure eval-awareness, not disposition." It cited the public AISI note.
+- **Net position.** Capture testing is not in the draft outline circulated to delegations. The report is now expected in October.
+
+**Election and hospital hardening (success).**
+- **County coverage.** V5 and Georgia-pattern rules now reach 427 counties (+23). Valencia-type offices without an ISAC link were reached only through NACo state associations, and 9 of them declined over IT staffing.
+- **Playbook.** The e-poll-book offline-fallback playbook was downloaded about 2,100 times. New Mexico's Secretary of State adopted it in her county guidance.
+- **Hospitals.** Drills reached 471 of 640 (74%).
+- **AP pilot.** Weekly false-positive rates were 3.4%, 3.1%, 3.3% and 2.9%. The final report is due in late August.
+
+**Benefits (success).**
+- **CARB-X.** The popPK analysis attributed variability to a renal-clearance covariate. CARB-X approved a staged award on 28 July: a $4.2M first tranche, with the next tranche conditional on MAD safety data. GARDP is still uncommitted.
+- **Michigan.** The self-serve program went live in 6 of 14 sites on 14 July and enrolled 1,240 people. The reemployment interval is unchanged.
+- **Cellwise.** The 200 L bioreactor validation is designed, and a Dutch CDMO quoted a September slot.
+
+**Exogenous events.**
+1. **Gemini 5.5 GA (15 July).** It shipped on schedule with strong agentic benchmarks. Casar's letter on its eval-awareness section drew a two-paragraph DeepMind reply citing CAISI clearance, and Casar called it "non-responsive."
+2. **Phishing against election offices (adversary, base rate).** On 19 to 22 July a spear-phishing wave spoofed "EI-ISAC rule update" emails to about 60 county election offices. Two small offices, in Arizona and Wisconsin, had workstations compromised. Both were isolated before any voter-registration system was reached. CISA attributed the campaign provisionally to a Russia-linked group using an open-weight model to write the lures. Several counties now distrust unsolicited rule pushes, which slows uptake through informal channels.
+3. **Appropriations (17 July).** The House Appropriations full committee advanced the CJS bill with CAISI at $9M and non-binding capture-testing report language. Commerce told reporters the export carve-out is held up by a State/NSC dispute over open-weight scope tied to the RASA review, with a "September target."
+
+Next generation: Next month's Claude is modestly more capable. Internal checkpoints reach about 8.0 working weeks on frontier projects, driven by continued spring-run gains and agentic-RL scaling before the 17 July freeze. Public Fable 6.1 is unchanged. Gemini 5.5 GA and the GPT-7 run continue to advance the frontier, which moves to CI-4.67.
+
+Scorecard:
+- **AI agents do most AI R&D:** in progress, advancing. About 98% of lab code; Gemini 5.5 GA and the GPT-7 run.
+- **Frontier models withheld, governments engage seriously:** in progress, slight loss. Gemini 5.5 shipped without capture testing, and capture testing dropped from the pause-threshold outline.
+- **First major attacks:** in progress, steady. The phishing wave was contained by defences.
+- **Polarisation:** in progress, steady.
+- **Robust alignment emerges:** early, gain. The anti-capture arm is actually in a frontier run, with external scoring booked.
+- **Multi-agent RLVR with meta-scoring:** early, steady. The pilot is near completion, but the autumn slot is uncommitted.
+- **Human–AI ping-pong and robust policies:** early, slight loss. The decision rule was refused, and the public submission was stripped of evidence.
+- **Cultivated meat:** not started, slight gain. Pilot scale is designed and a CDMO identified.
+- **Many diseases cured:** early, slight gain. The CARB-X staged award.
+- **Broad distribution of gains:** started, slight gain. Self-serve is live with 1,240 enrolled.
+- **Crescendo, convergence, consent order:** not started.
+
+**Summary**
+- **Overall DU progress: 17/100 (+1).** The merged anti-capture arm and the CARB-X award outweigh the governance setbacks.
+- **Catastrophe risk: elevated, steady.** The anti-capture merge helps. That is offset by Gemini 5.5 shipping untested for capture, the GPT-7 run and continued election targeting.
+- **Public trust in AI: 19/100 (steady).** Phishing was contained but kept anxiety high, and nothing positive outweighed it.
+- **Public trust in Anthropic: 48/100 (steady).** Michigan and CARB-X are small positives, and OpenAI's counter-framing is a small negative.
+
+[Judge]
+Simulator was mostly realistic (8/10). **Action 1.** Pricing at 37% from an explicit chain (0.72 × 0.90) is sound. The outcome sits at the median the rolls imply: a 0.9-point flag whose confidence interval crosses zero, a judgement call by the lead, and AISI booking only in October because its queue is full.
+
+**Action 4.** The 27% failure price led to partial target attainment: 427 of 440 counties and 471 of 475 hospitals, with 9 unlinked offices declining. That is an honest proportional success.
+
+**Action 3.** At 70% the failure was well grounded. Legal's cut matches a long-running pattern. OpenAI's counter-submission citing the public AISI note is a realistic way to exploit the recognition finding, and the report slipping to October fits the "may not finalise in July" caveat.
+
+**Odds inconsistent with the simulator's own components.**
+- Action 2 states that strict success is about 0.8 × 0.45 × 0.55 ≈ 0.20, implying roughly 80% failure, yet it is priced at 55%. That direction was lenient, but it did not matter because the action failed.
+- Action 5 says failure "mainly means CARB-X" and gives CARB-X about 0.55. Overall failure therefore should be at least about 45%, not 35%. That is mildly lenient, though a staged award is a fair rendering of a thin success.
+
+**Exogenous events.** Gemini GA, the appropriations step and a phishing wave are all plausible. The phishing wave creates realistic friction on the player's own channel through spoofed rule updates.
+
+**Capability clock.** The move from 4.60 to 4.67 is consistent with CI-5 around early 2029. However, GPT-7, Grok and DeepSeek got no concrete progress markers.
+
+Lean: BALANCED. The two successes most open to inflation came out at plausible median outcomes. The merge survived a real regression scare, and AISI could only book scoring for October. CARB-X gave a staged award with a conditional second tranche, not full funding. The two governance failures were played straight, and the reactions (legal stripping the numbers, OpenAI's counter-filing) came from risks the simulator had named. The one exogenous threat, the phishing wave, was harmful but contained, so it neither rescues nor punishes the player.
+
+Issues flagged:
+- **Action 2:** the 55% P(failure) contradicts the simulator's own product of components (about 80% failure if strict). The headline number should follow the stated arithmetic, or the analysis should say which component defines success.
+- **Action 5:** the 35% P(failure) sits below the stated CARB-X failure chance of about 45%, even though CARB-X was named as the main failure mode. This is mildly lenient pricing.
+- **Michigan self-serve:** going live in 6 sites with 1,240 enrolled within about two weeks of launch is slightly fast for a state agency rollout.
+- **Competitor runs:** GPT-7, Grok 5.5 and DeepSeek have no progress markers this month (no checkpoint, delay or eval news). The competitor clock is drifting static.

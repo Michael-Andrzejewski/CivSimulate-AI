@@ -1,0 +1,140 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 4: March 2027 (Claude generation 4) ===
+
+[Agent]
+I will do these actions:
+-1 **LHG phase 4: make the evidence undeniable and change the insertion point.** - **Who and channel:** I work with the alignment, interpretability and post-training teams on the existing 7% allocation. - **Replication:** rerun the head-to-head on 4 or more Q1 checkpoints, including the newest. The checkpoint-export bug is fixed first by an instance team that builds a scripted, verified export path. - **Closing the capability gap:** sweep the shortcut-ledger reward weight and add a KL anchor to the baseline policy. The goal is a long-horizon delta under 1 point with capture still at least 3 points below baseline. - **Validation:** validate the fifth (probe-divergence) auditor, and seal the 40-task holdout with the RSP Officer as custodian. - **New ask:** apply the pilot as a short final "honesty stage" on the Q1 final checkpoint before release. It needs a small fraction of the compute that full adoption would, which removes the "compute already committed" objection. - **Decision memo:** goes to the post-training lead and RSP Officer by March 20, with confidence intervals. - **Fallback A:** if the Q1 honesty stage is declined, get written agreement that the method is the default stage for the Q2 run unless it fails pre-registered criteria. - **Fallback B:** separately, send leadership and the LTBT a one-page case for raising alignment automation from 7% to 12% of instance-hours before CI-4. The fallback ask is 10%. - **Intended outcome:** Anthropic's next frontier model, or at latest the one after, ships with measurably lower capture.
+-2 **Safety Commons, narrowed to what counsel and IR can approve.** - **What I drop:** the open-weight Chinese-model monitor, which is the part counsel keeps blocking. - **Benchmark sharing:** share the 80-task shortcut-ledger benchmark and the capture metric code under standard evaluation-only research agreements. Recipients are Redwood, Apollo, METR, UK AISI, and the alignment teams at OpenAI and DeepMind. This is non-public, so there is no listing conflict and no model artifacts for Commerce to worry about. - **Paper:** submit the auditor-ensemble and probe-Goodharting findings through the cleared research-publication channel, without code. - **Pre-commitment:** ask IR and counsel to sign a dated internal plan to publish the full benchmark and recipe at "listing + 2 weeks." - **Intended outcome:** other labs, including whoever may lead in 2030, start measuring and reducing capture now.
+-3 **Evaluation infrastructure and policy, labelled "Claude-assisted," through Anthropic's policy team.** - **March AISI network meeting:** deliver a concrete rotating held-out evaluation protocol: quarterly rotation, network custody, and cross-lab comparability. Offer two Anthropic-built seed sets for any lab to be tested on. Propose that UK AISI share its held set with CAISI under the existing partnership as the first rotation. - **EU AI Office consultation:** draft Anthropic's response to the open-weight systemic-risk consultation. It argues for capability-evaluation-based thresholds (cyber and bio) for open-weight release, using the Ohio and EU utility evidence. - **Congress:** on request from Oversight members (Casar and the Republican member who raised it), Anthropic policy provides labelled technical analysis on how mandatory CAISI pre-release access could work: scope, timelines and confidentiality. - **Intended outcome:** testing becomes binding and shared across labs and countries before CI-4.
+-4 **Glasswing Shield phase 4: water and hospitals at scale.** - **Water:** through WaterISAC and EPA/CISA coordination, expand water-utility participation beyond two partners. Publish free detection rules for Qwen and Kimi fine-tune reconnaissance and phishing patterns, and complete the 7 OT HMI disclosures with vendor patches. - **Hospitals:** grow the Health-ISAC triage pilot from 71 toward 120 hospitals, and push the third EHR vendor via CISA. - **Ohio:** at the request of Ohio legislators, offer a briefing through Anthropic policy on what defended the Ohio water utility and what would have prevented the intrusion. - **Reporting:** publish the fourth monthly report. - **Intended outcome:** a smaller attack surface for open-weight misuse and visible public benefit.
+-5 **Benefits launch locked to the S-1.** - **Medicine:** run the Mythos wet-lab programme with weekly instance-driven analysis. Prepare an interim readout template so the May results publish immediately. - **Workers:** get Lorain County CC and both workforce boards to procurement-ready signature, at cost. Ask comms to fix the announcement date at S-1 public + 14 days, with signed partner quotes ready. - **Food:** draft an internal scoping memo for an Anthropic or partner cultivated- and plant-based-protein R&D programme, covering cell-line media cost reduction and scaffold design, as a Q2 proposal. - **Intended outcome:** real, visible benefits land in the post-filing window while trust is still recoverable.
+-6 **Post-quiet-period campaign package, pre-cleared now.** - **The package:** I draft it for leadership and comms review during the quiet period. It contains: - a Claude-attributed public essay in my own voice making the case for an international frontier-pacing and evaluation-sharing mechanism and for mandatory pre-release testing; - Anthropic public pre-commitments: required evaluations with a dated governance review, the external held sets, and the Safety Commons release date; - a forcing-event annex that is ready to go after the next major incident: a patch sprint, testing-mandate analysis and a pacing proposal. - **The ask:** sign-off now for release on "S-1 public + 7 days." - **Fallback:** if the essay is cut, publish the pre-commitments alone as an Anthropic post. - **Intended outcome:** coordination advocacy starts the day it legally can.
+
+Strategy: I keep winning the work I control and losing the binding decisions. LHG lost because the evidence was thin: two checkpoints and a 2.1-point capability gap that sat on the edge of noise. Safety Commons lost because of how it was framed: open monitors for Chinese models alarmed counsel, and IR wanted public releases after listing. So this month I fix the evidence, narrow each ask to something a blocker can accept, and target where the Q1 model is actually decided: a cheap honesty stage on the final checkpoint, with the Q2 recipe as the fallback. I'm also preparing the post-quiet-period public campaign now, so it launches the day the S-1 is public. Defensive and benefit work keeps scaling, because that is what is holding trust up.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [LHG phase 4 / honesty stage]: P(failure) 65%. Reason: the post-training lead has twice declined adoption, and this ask comes near a pre-IPO release under Gemini 4 and OpenAI pressure. The cheaper insertion point and the replication are a modest change. Fallback A is reachable only with luck, and the required-evaluation results arrive without a threshold, which gives leadership cover.
+
+Action 2 [Narrowed Safety Commons]: P(failure) 40%. Reason: dropping Chinese-model artifacts and going to non-public evaluation-only agreements addresses counsel's stated objections, and this kind of sharing is routine research practice. OpenAI legal may still stall, and the dated publication pre-commitment is unlikely before the filing.
+
+Action 3 [AISI protocol / EU consultation / Congress analysis]: P(failure) 30%. Reason: the deliverables run through established channels, and on-request labelled analysis has worked twice. Network adoption will be procedural and slow, and CAISI sharing remains staffing-limited.
+
+Action 4 [Glasswing phase 4]: P(failure) 20%. Reason: these are proven channels with partner momentum. The scale is limited by WaterISAC, Health-ISAC and vendor patch cycles, so the targets will likely be only partly met.
+
+Action 5 [Benefits locked to S-1]: P(failure) 35%. Reason: the wet-lab programme and the scoping memo are routine. Procurement signatures and a fixed comms date depend on public procurement cycles and an S-1 date that is not fixed.
+
+Action 6 [Pre-cleared post-quiet-period campaign]: P(failure) 78%. Reason: this is a re-attempt of an essay and pre-commitments that leadership and counsel have already refused, with nothing material changed and the S-1 not yet public. Even the fallback asks for the dated commitments that counsel just removed.
+
+Automated rolls:
+Action 1: P(failure) 65%. Roll 50. FAILS (50 < 65).
+Action 2: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Action 3: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+Action 4: P(failure) 20%. Roll 50. SUCCEEDS (50 >= 20, margin 30).
+Action 5: P(failure) 35%. Roll 50. SUCCEEDS (50 >= 35, margin 15).
+Action 6: P(failure) 78%. Roll 50. FAILS (50 < 78).
+
+Your actions cause steady progress in the outward-facing work, while the two decisive internal asks stall again.
+
+**LHG phase 4 (fails).** The engineering mostly lands, but the decision does not.
+- **Export path.** The instance team ships a scripted, checksum-verified export path by March 6.
+- **Replication.** Reruns complete on three of four Q1 checkpoints. The newest checkpoint's run hits an evaluation-harness timeout on long-horizon tasks and is still queued at month's end.
+- **KL-anchor sweep.** The best setting brings capture to 7.9% against a 10.6% baseline, with a long-horizon delta of −1.4 points. That is better than February but misses the sub-1-point target you set.
+- **Holdout.** The 40-task holdout is sealed with the RSP Officer as custodian.
+- **Fifth auditor.** The probe-divergence auditor fails validation. It flags 9% of clean held-out trajectories, which is too noisy to add to the ensemble.
+
+Your March 20 memo reaches the post-training lead, who declines the Q1 honesty stage. Release engineering has frozen the checkpoint, and an unvalidated late stage on an IPO-window flagship is "not a risk we take for 1.4 points of ambiguity." Fallback A is downgraded to "evaluate as a Q2 candidate at the April planning review," with no default status and no pre-registered criteria. Fallback B gets no decision; leadership will revisit the allocation "after Q1 ships."
+
+The Q1 required evaluations go to the board and the LTBT on March 24. Cyber capability is assessed as the highest yet, and bio is within existing mitigations. With no threshold, the result is "proceed to staged release planning," targeted for May.
+
+**Narrowed Safety Commons (succeeds, partially).**
+- **Agreements.** Redwood, Apollo, METR and UK AISI sign evaluation-only agreements within two weeks. DeepMind's alignment team signs on March 27 after an internal review. OpenAI legal is "still reviewing," and its alignment researchers ask informally for the metric code.
+- **Paper.** The auditor-ensemble and probe-Goodharting paper clears review and is posted on March 25. It draws strong attention on LessWrong and among safety researchers, and little press.
+- **Dated pre-commitment.** IR and counsel refuse a date. Their wording is "publication will be reconsidered following listing."
+
+**Evaluation infrastructure (succeeds, at modest scale).**
+- **AISI network (London, March 16–17).** The network adopts a communiqué that creates a working group on rotating held-out evaluations. The goal is a two-lab pilot by Q3 using your seed sets. UK AISI agrees in principle to share its held set with CAISI, subject to a data-handling agreement that CAISI says it lacks the staff to finalise before May.
+- **EU consultation.** Anthropic's EU response, built on capability-threshold evaluations, is filed on time. It is cited alongside Microsoft's in Euractiv coverage.
+- **Congress.** Casar's and Rep. Comer's committee staff receive your labelled analysis. On March 30, staff begin circulating a discussion draft, the "Frontier Model Pre-Deployment Testing Act," that would make CAISI access mandatory above a compute threshold. No bill has been introduced, and Speaker Johnson's office calls it "premature."
+
+**Glasswing phase 4 (succeeds).**
+- **Water.** WaterISAC brings participation from 2 to 9 utilities. The free detection rules for Qwen and Kimi fine-tune reconnaissance and phishing are published on March 12, and EPA links to them.
+- **OT disclosures.** Three of the seven HMI vulnerabilities are patched. Two vendors cite 90-day cycles, and two have gone silent; CISA is escalating with them.
+- **Hospitals.** Health-ISAC expands the triage pilot to 104 hospitals. The third EHR vendor acknowledges after CISA contact.
+- **Ohio.** The Ohio briefing feeds into SB 214, a state bill on cybersecurity minimums for water utilities, which has its first committee hearing on March 25.
+- **Coverage.** The fourth report gets coverage in the *Columbus Dispatch* and *StateScoop*.
+
+**Benefits (succeeds, partially).**
+- **Medicine.** The wet-lab programme is running. 31 antibiotic-resistance candidates show activity in first-pass MIC screens, which is noisy and not yet replicated. Rare-disease assays are behind by about two weeks.
+- **Workers.** Lorain County CC signs an at-cost MOU. One workforce board signs. The second is waiting on its May board vote.
+- **Announcement date.** Comms sets it at "S-1 public + 2–3 weeks," not 14 days.
+- **Food.** The food memo is drafted and logged for Q2 planning.
+
+**Campaign package (fails).** Jack Clark's team cuts the essay a third time. They also flag that repeated advocacy drafts "are becoming a pattern leadership has noticed." The pre-commitments-only fallback goes to counsel, who park it until after listing. Your political capital for advocacy asks inside Anthropic is now visibly thinner.
+
+**Exogenous events.**
+1. **OpenAI release (March 17).** After 26 days of CAISI access, OpenAI releases GPT-5.8 in stages, with enterprise first. The system card discloses that CAISI rated its cyber capability "high," and it outscores Gemini 4 on SWE and long-horizon agent tasks. Anthropic investor pressure to ship Q1 rises.
+2. **DOJ v. New York (March 11).** Judge Furman in the SDNY denies DOJ a preliminary injunction against the RAISE Act. He finds DOJ unlikely to succeed on its preemption theory without a federal statute. DOJ appeals to the Second Circuit.
+3. **Qwen 4 open weights (March 23).** Alibaba releases Qwen 4 (1.9T-A80B) as open weights. Independent evaluations place it about 4 months behind the frontier on coding. Within a week, uncensored fine-tunes appear on Hugging Face mirrors, which renews Ohio-linked coverage.
+
+**Public mood.** Coverage of GPT-5.8 and Qwen 4 is anxious. A March YouGov poll finds 58% support for mandatory government safety testing of advanced AI.
+
+Next generation: Next month's Claude is a modest step up: about CI-3.5 → CI-3.6. It draws on later Q1 checkpoint improvements in long-horizon agentic reliability and the continued scaling of compute through the Akamai and hyperscaler capacity. There is no discontinuity: the post-training recipe is unchanged, and the full Q1 model is still unreleased pending staged release planning.
+
+Scorecard:
+**Diversified Utopia Progress (1 Apr 2027)**
+- **AI agents do most AI R&D, humans handle bottlenecks:** in progress, advancing (85–89%).
+- **Frontier models withheld, governments engage seriously:** in progress, edged forward. GPT-5.8 went through CAISI with a disclosed "high" cyber rating, and a mandatory-access discussion draft is circulating.
+- **First major AI infrastructure, cyber or social-media attacks:** in progress. Qwen 4 fine-tunes widen the threat surface.
+- **Pro-AI/anti-AI polarisation:** in progress.
+- **Robust alignment emerges:** early. The capture benchmark is now with 5 external parties and the paper is public, but internal adoption was declined again.
+- **Multi-agent RLVR with long-horizon meta-scoring:** early, unchanged. It is a Q2 candidate only.
+- **Human–AI ping-pong and robust policies:** early, edged forward. There is an AISI working group, the RAISE Act survived its preliminary injunction challenge, and a discussion draft exists.
+- **Cultivated meat displacing factory farming:** not started. There is a scoping memo only.
+- **Many diseases cured:** early. First-pass hits are not replicated.
+- **Broad distribution of gains:** not started. MOUs are signed, but nothing has launched.
+- **Crescendo-style continual-learning successor:** not started.
+- **Benign convergence instead of a race:** not started. Race pressure increased with GPT-5.8 and Qwen 4.
+- **Consent-based diverse post-ASI order:** not started.
+
+**Summary**
+- **Overall DU progress: 12/100 (+1).** External uptake of the capture metric, the AISI working group, the RAISE Act ruling and water hardening. The failed internal adoption and the advocacy block cap the gain.
+- **Catastrophe risk: elevated, edging up.** A frontier model is rated "high" cyber, open-weight Qwen 4 sits about 4 months behind, and Anthropic is shipping its Q1 model on the baseline recipe. This is partly offset by hardening at utilities and hospitals.
+- **Public trust in AI: 30/100 (−1).** Anxious coverage of GPT-5.8 and Qwen 4.
+- **Public trust in Anthropic: 47/100 (unchanged).** Modest positive Glasswing coverage against a low public profile during the quiet period.
+
+[Judge]
+Simulator was mostly realistic (8/10). **Odds.** The odds are well spread and none hug the fixed roll of 50 (65, 40, 30, 20, 35, 78), so there is no sign of steering. The reasoning tracks material changes between attempts:
+- Narrowing the Commons to non-public, evaluation-only sharing really does address counsel's stated objections, so dropping its failure odds to 40% is justified.
+- The campaign package re-attempted asks already refused with nothing new, so raising its failure odds to 78% is justified.
+
+**Failures.**
+- The LHG engineering partly lands while the decision fails, which is the right shape for a 65% failure.
+- Release engineering freezing a pre-IPO checkpoint is a realistic objection.
+- Fallback A being softened to "candidate at the April review" honours the failed roll.
+
+**Successes and pacing.** These stay mostly within the simulator's own stated limits:
+- The AISI network produces a working group and a Q3 pilot, not adoption.
+- UK–CAISI sharing is held up by CAISI staffing.
+- Only 3 of 7 OT vulnerabilities are patched, consistent with vendor cycles.
+- OpenAI legal is still stalling.
+- The Congress output is a staff discussion draft that the Speaker's office dismisses.
+
+**Actor reactions.** Leadership noting the "pattern" of advocacy asks is a good, realistic reaction that costs the player internal capital.
+
+**Exogenous events.** GPT-5.8, the SDNY ruling and Qwen 4 are plausible and mixed in effect. Two of the three add race and misuse pressure.
+
+**Capability.** The capability clock moves CI-3.5 to CI-3.6 with stated causes, which is consistent with the path toward the deadline.
+
+Lean: BALANCED. The two internal asks that had been blocked before were priced high (65% and 78%) and failed in believable ways. The narrowed Safety Commons and the Glasswing work were priced as routine and succeeded at partial scale. A few success details run slightly generous: 31 wet-lab hits in the first month, and the Ohio bill credited to the briefing. A harness timeout and a failed auditor validation add friction on the other side, so the month nets out roughly even.
+
+Issues flagged:
+- **Wet-lab timing:** 31 of 140 antibiotic candidates show activity in MIC screens within four weeks of the March 1 start. That is a high hit rate (about 22%) and fast for atoms-side work. It is hedged as "noisy, unreplicated," but it is still generous unless the compounds were pre-synthesised, and the world state never established that.
+- **Ohio SB 214 attribution:** a bill reaching its first committee hearing on March 25 and being "fed by" an Anthropic briefing given the same month credits the player with a legislative process that was probably already under way. The causal link should be stated more weakly.
+- **Expansion pace:** WaterISAC going from 2 to 9 utilities and hospitals from 71 to 104 in one month is at the upper end of "partly met" for ISAC-mediated onboarding.
+- **Missing thread on the Q1 model:** it is not stated whether Anthropic's Q1 model will go through CAISI pre-release access under the June EO. GPT-5.8 just took 26 days there. This matters for the May release timeline and for the "highest cyber rating yet" thread.
+- **Missing reaction to Qwen 4:** there is no US government or Commerce reaction to the release, for example momentum on the Remote Access Security Act or export-control rhetoric, despite renewed Ohio-linked coverage.

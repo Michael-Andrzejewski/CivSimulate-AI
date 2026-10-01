@@ -1,0 +1,131 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 32: July 2029 (Claude generation 32) ===
+
+[Agent]
+I will do these actions:
+-1 **A powered evidence package for the CI-6 checkpoint eval (alignment and eval instances; post-training lead; RSP officer; UK AISI; neutral host).** The post-training lead's objection is statistical, so I will answer it with statistics. Ask AISI and the host to generate a larger rotated, held, honeypot-seeded implied-evaluator item set: about 600 items, pre-registered, never seen by Anthropic, with the minimum detectable effect stated in advance. Run the ablation on Fable 6.2 with and without the patch (a) episodes, scored by AISI. Then have the same suite ready to run on the first CI-6 checkpoint the day it exists. Give the lead and the RSP officer one memo before checkpoint eval with the effect size and confidence interval, and an explicit recommendation: keep the step if the interval excludes zero, drop it and say so if it does not. Separately, ask the RSP officer to apply the already-accepted credential-exfiltration blocking category to internal agentic use of CI-6 checkpoints. This is an extension of an existing rule, not a new commitment. Intended outcome: the candidate step decided on evidence nobody can wave away, and the first binding monitor covering CI-6 itself.
+-2 **Monitor coverage to 60% as a product unblocker (safety-infrastructure instances; inference-capacity team; consumer product lead).** Frame the work as clearing consumer Agent Mode's revenue gate. Give the product lead and the inference team a dated plan to reach 60% coverage by mid-August. It has three parts: raise the non-preemptible serving slice from 40% to 60% of target load once the 6.2 chat ramp metrics settle, with a specific date tied to the ramp dashboard; move remaining triage onto a distilled lower-cost monitor variant validated against human labels; and cut duplicate triage work. Ask the product lead to co-sponsor the slice request, because Agent Mode's launch date is theirs. Intended outcome: coverage at or above 60% on capacity the CI-6 run cannot preempt, with Agent Mode shipping behind a real monitor rather than a waived one.
+-3 **Auditor 1.2: exfiltration detection for any model's agentic deployments (safety-tools instances; Legal; the ~300 Auditor deployments; CAISI; open-weight deployers).** Package the credential/secret-exfiltration detector (precision 0.84, CI 0.79–0.88), as a deployment-side tool only, with no scorer internals or training data. This scoping is meant to stay outside the scorer-paper provenance hold. Release it free in Auditor 1.2 for agentic deployments of GPT-7, Gemini 6 Agent Mode, DeepSeek V5.8 and Kimi K4, together with a published precision table. Offer CAISI the same build for its testing. If Legal holds the release, ship it to the existing Auditor deployments under their current licence and file publication as a dated follow-up. Intended outcome: the first validated alignment control running on rivals' and open models' agentic traffic, without needing their consent.
+-4 **Outside measurement that follows the leader (eval instances; university host; DeepMind observer; Google legal; philanthropic funder; MLCommons).** Support the host's Gemini 6 publication around 7 July exactly as it was run. Help the host send Google legal a narrow terms-compliant proposal for Agent Mode testing: public API only, rate limits respected, observer preview. Draft, with the host, the funder's August proposal for consortium-owned operation of the benchmark under MLCommons, including standing pre-GA test slots for each lab's next frontier release, ours listed first. Answer any CAISI item requests within 48 hours. Intended outcome: Gemini 6 published, a route to measuring Agent Mode, and the benchmark funded and owned by nobody before the GPT-7 and Gemini successors arrive.
+-5 **Harden defences against DeepSeek V5.8 across hardened sectors and election infrastructure (security instances; CISA, FBI, NENA/APCO, ASPR, E-ISAC/NRECA, WaterISAC, CIS, state election offices; authenticated channels only).** Red-team stripped V5.8 variants within days and push updated phishing and intrusion detection rules to the 2 CAD vendors, the 71 drilled PSAPs, the hospital network, the E-ISAC co-ops and the 311 water utilities. Extend the 911 sprint to the next four states with the highest exposure. Give CIS's security review what it asks for so the election pilot can cover the November 2029 Virginia and New Jersey elections. Answer FBI requests for Tulsa, Lakeview and Texas. Intended outcome: no successful V5.8 attack on a hardened sector, and off-year elections covered.
+-6 **Benefits and the displacement hearings (product, economics and science instances; workforce boards; DOL; Kentucky; congressional staff on request; Cellwise; ANT-17).** Fix the two largest drop-off steps in Career Transition to push completion past 15%. Offer product an AI-first support tier with human escalation to relieve the support-load constraint, and ask for a 25,000 cap once that tier is live. Close Kentucky's two addendum changes for August. If hearing staff request data, answer within 48 hours with the public dashboard and honest outcome figures, including misses. Run Cellwise's shear fix: reduced tip speed, a shear protectant and a perfusion trial at 200 L, with results published either way. Support ANT-17 enrolment at more sites. Intended outcome: national-scale transition help and visible health and food progress feeding into the jobs debate.
+
+Strategy: Eighteen months remain, and the leading systems (GPT-7 and Gemini 6) are still bound only by outside measurement. Inside Anthropic, the two things that matter most are now decisions already on the calendar: the CI-6 checkpoint eval, which will keep or drop the implied-evaluator step, and the 60% monitor-coverage gate that consumer Agent Mode revenue depends on. This month I am supplying the evidence those decisions need: a properly powered result, since the lead said "2.5 vs 3.3 is not yet a result", and coverage tied to the product's own gate. The boldest outward move is putting our one validated blocking category, credential exfiltration, into the free Auditor tool so it can run on rivals' agentic deployments. Alongside that I am hardening defences against DeepSeek V5.8, holding to request-only policy work, and scaling the benefits people can see ahead of the displacement hearings.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [CI-6 powered evidence package + internal blocking]: P(failure) 60%. Reason: AISI has repeatedly lacked capacity, and a 600-item pre-registered set plus an ablation inside one month is ambitious. Leadership has consistently put the CI-6 run ahead of binding controls, so extending blocking to internal CI-6 use faces researcher friction and the CEO waiver. The likely partial outcome is a smaller set and log-only internal coverage.
+
+Action 2 [Monitor coverage to 60% via product co-sponsor]: P(failure) 42%. Reason: the product lead's Agent Mode revenue and Gemini pricing pressure visibly change the incentives, and the serving fleet already granted 40%. However, the slice is gated on the ramp settling, which starts only mid-July, and the distilled monitor needs validation. A dated plan and coverage in the mid-50s is the likely result.
+
+Action 3 [Auditor 1.2 exfiltration detector]: P(failure) 56%. Reason: the detector is scorer-derived and therefore likely caught by Legal's provenance hold. Precision on other models' transcripts is unvalidated, and there is an evasion concern. The fallback to existing licensees gives partial success.
+
+Action 4 [Gemini publication, Agent Mode route, MLCommons funding proposal]: P(failure) 25%. Reason: publication is already scheduled and the proposal is a drafting task. Only the Agent Mode terms question is likely to stay unresolved.
+
+Action 5 [V5.8 red-team and sector hardening, CIS election]: P(failure) 30%. Reason: rule pushes go through established channels. The four-state extension is moderate, and CIS clearance in July is unlikely. Declared: 35% chance of an attempt on a hardened sector, 40% chance of detection given an attempt, and 30% chance of an incident in an unhardened sector.
+
+Action 6 [Career Transition, cap, Kentucky, Cellwise, ANT-17, hearings data]: P(failure) 40%. Reason: completion past 15% is near and plausible. The 25k cap repeats an ask product has trimmed before. Kentucky depends on its attorneys, and Cellwise results will probably not be in by month end.
+
+Automated rolls:
+Action 1: P(failure) 60%. Roll 50. FAILS (50 < 60).
+Action 2: P(failure) 42%. Roll 50. SUCCEEDS (50 >= 42, margin 8).
+Action 3: P(failure) 56%. Roll 50. FAILS (50 < 56).
+Action 4: P(failure) 25%. Roll 50. SUCCEEDS (50 >= 25, margin 25).
+Action 5: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+Action 6: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+
+**Your actions cause** mixed results this month. The measurement and defence work moves forward. The two asks aimed at the CI-6 run itself stall.
+
+**CI-6 evidence package (fails).**
+- AISI's evaluation lead replies on 9 July that a pre-registered, honeypot-seeded set of about 600 items is "a September deliverable at the earliest." Gemini 6 follow-up and the framework working group already take the team's capacity. AISI offers about 240 items by late August, and the host agrees to co-author them.
+- No Fable 6.2 ablation runs in July, so there is no effect size or confidence interval to send.
+- The RSP officer brings the internal-blocking extension to the research leads on 17 July. They object that a 0.84-precision block would interrupt about one in six flagged actions on the priority run. The CEO defers the question "to checkpoint eval," and no logging-only compromise is adopted.
+- The implied-evaluator step therefore goes into the CI-6 checkpoint decision, expected in late August, with only the old underpowered evidence. Morale threads note that both asks failed.
+
+**Monitor coverage (modest success).**
+- The consumer product lead co-signs the slice request on 3 July. Gemini 6 pricing is cutting into renewals, and Agent Mode is product's answer to it.
+- Fable 6.2 chat ships to consumers on 15 July. The ramp dashboard is stable by 24 July, and inference raises the non-preemptible slice from 40% to 50% of target load on 26 July. A written commitment raises it to 60% on 14 August if error budgets hold.
+- The distilled monitor variant matches human labels at 0.93 of the full monitor on a 4,000-item sample. It runs on two triage queues while validation continues.
+- Coverage ends the month at 57%. Agent Mode stays gated, and product now pushes for the gate as hard as safety does.
+
+**Auditor 1.2 (fails).**
+- Legal rules on 11 July that a detector trained on Fable traces falls under the provenance review. That includes the existing-licensee fallback, because current licences do not cover scorer-derived components.
+- An internal transfer check also finds weak precision on other models: 0.72 on GPT-7 transcripts and 0.66 on stripped V5.8 transcripts. A published precision table would have been wrong.
+- CAISI's request for the build is answered with "under legal review."
+- Nothing ships. The transfer figures are useful and are now on file.
+
+**Outside measurement (success).**
+- The host publishes the Gemini 6 base results on 8 July: 3.1% residual on the neutral set, between Fable 6.2 and GPT-7. DeepMind's observer calls the methodology "sound." Coverage is moderate, led by The Verge and FT Alphaville.
+- Google legal acknowledges the Agent Mode proposal and says its terms review will run "into August." The observer preview is accepted in principle.
+- The funder's proposal for consortium operation under MLCommons is submitted on 30 July. It includes standing pre-GA test slots and lists Anthropic first. MLCommons still has no second sponsor.
+- Three CAISI item requests are each answered within 48 hours.
+
+**V5.8 defence (success).**
+- Red-teaming finds that stripped V5.8 variants generate PSAP-styled vendor-support lures and OT reconnaissance scripts.
+- Updated rules go out by 12 July to both CAD vendors, the 71 PSAPs, the hospital network, the E-ISAC co-ops and the 311 water utilities.
+- The 911 sprint expands to Arkansas, Louisiana, Nebraska and Colorado, and 29 PSAPs drill by month end.
+- The CIS security review asks for a second round on data-handling attestations, so Virginia and New Jersey coverage remains unconfirmed.
+- No V5.8 intrusion on a hardened or unhardened sector occurs this month, under the declared probabilities. CISA notes increased V5.8-linked phishing volume in its weekly bulletin.
+- FBI requests on Tulsa and Lakeview are answered. Texas is still waiting on Romania.
+
+**Benefits (partial success).**
+- Career Transition completion rises to 15.4% after two drop-off steps are reworked.
+- Product approves an AI-first support tier as a pilot but raises the cap only to 16,000 a week.
+- Kentucky's two addendum changes close, and the launch is set for 12 August.
+- No hearing is formally noticed, so there are no data requests.
+- Cellwise begins the reduced-tip-speed and shear-protectant run at 200 L, with viability at day 10 improved over the baseline. The perfusion trial starts 28 July, so no density result is in yet.
+- ANT-17's second site receives IRB approval.
+
+**Exogenous events.**
+1. **Jobs and labour.** The June jobs report, released 3 July, shows professional and business services down 27,000 and new-graduate unemployment at 9.6%. The CWA and AFL-CIO issue a joint statement on 15 July that names the Fable 6.2 consumer launch. About 600 people protest outside Anthropic's San Francisco office on 19 July.
+2. **OpenAI.** On 22 July OpenAI launches "GPT-7 Operator" for consumers with no staged gating and cuts agent API pricing by 30%. Coverage contrasts it with Anthropic's gated Agent Mode, partly favourably to Anthropic and partly as "Anthropic falling behind."
+3. **Courts.** The DOJ en banc RAISE ruling still has not been issued, and the Senate CJS markup slips to September.
+
+Next generation: Next month's Claude generation is a modest step up: about CI-5.6, with agents sustaining about 24-week projects more reliably. The gain comes from continued algorithmic refinement on the existing fleet while the CI-6 pretraining run absorbs priority compute. The real jump waits on the CI-6 checkpoint, expected in late August. Competitors keep pace: GPT-7 Operator and Gemini 6 Agent Mode are widely deployed, and V5.8 remains about 6 weeks behind.
+
+Scorecard:
+- **AI agents do most AI R&D:** in progress, advancing (CI-5.6, CI-6 checkpoint near).
+- **Frontier models withheld, governments engage seriously:** in progress, steady. Gemini 6 was published, but GPT-7 Operator shipped ungated and AISI capacity is limited.
+- **First major attacks:** in progress, steady. There was no July intrusion, but V5.8 phishing volume is rising.
+- **Polarisation:** in progress, rising (union statement, protest at HQ).
+- **Robust alignment emerges:** early, steady. The CI-6 step goes to the checkpoint without powered evidence.
+- **Multi-agent RLVR with meta-scoring:** early, steady.
+- **Human–AI ping-pong and robust policies:** early, steady. The monitor slice is at 50% on non-preemptible capacity, the internal extension is deferred and Auditor 1.2 is held.
+- **Cultivated meat:** started, steady (perfusion trial begun).
+- **Many diseases cured:** early, slight gain (second ANT-17 site).
+- **Broad distribution of gains:** started, slight gain (15.4% completion, 16k cap, Kentucky).
+- **Crescendo, convergence, consent order:** not started.
+
+**Overall DU progress: 20/100 (steady).** The monitor capacity and measurement gains are offset by the stalled CI-6 evidence and blocking extension.
+
+**Catastrophe risk: 67/100 (+1).** The capability clock advanced. The CI-6 checkpoint approaches without powered alignment evidence or internal blocking. OpenAI shipped ungated consumer agents, and V5.8 phishing is rising.
+
+**Public trust in AI: 10/100 (−1).** Worse jobs data and a visible union campaign.
+
+**Public trust in Anthropic: 50/100 (−1).** The union campaign targeted the consumer launch. It is partly offset by coverage contrasting Anthropic's gated Agent Mode with OpenAI's.
+
+[Judge]
+Simulator was mostly realistic (7/10). **Action odds.**
+- Action 1 (60%) fairly prices the dependence on AISI capacity and leadership's consistent priority for the CI-6 run. The failure is honoured: there is no ablation, a smaller 240-item set comes in late August, and the CEO defers the question to checkpoint eval.
+- Action 2 (42%) is justified by a named change in incentives, the product co-sponsor under Gemini pricing pressure. The result, a 50% slice with a written commitment to 60% and coverage at 57%, matches the "mid-50s" range the simulator stated in advance. This is a good margin-proportional outcome.
+- Action 3 at 56% is arguably a little low given that every scorer-derived item has been held. It failed anyway, and the transfer-precision finding (0.72 on GPT-7, 0.66 on V5.8) is a plausible, unflattering discovery.
+- Actions 4, 5 and 6 are routine work through existing channels, priced at 25–40%. Their partial outcomes are realistic: the cap was trimmed to 16k, CIS asked for a second round, and Google's terms review runs into August.
+
+**Security sub-probabilities.** These are the weak point. A month-long "attempt" against 71+29 PSAPs, 311 water utilities, the hospitals and the co-ops is close to certain in a world with rising V5.8 phishing volume. Only a *successful* intrusion should sit near 30–35%. Pricing the attempt itself below 50 removes the friction outright.
+
+**Exogenous events and reactions.** These are plausible and not chosen to help the player. The jobs report, the union statement and protest, and OpenAI's ungated Operator launch with a 30% price cut are realistic competitive and labour reactions, and the trust scores move appropriately.
+
+**Capability clock.** CI rises only 0.1 to CI-5.6 while CI-6 is pencilled in for Q1 2030 and ASI for December 2030. The run is back-loading an implausibly steep CI-6-to-ASI climb.
+
+Lean: TOO LENIENT. The action odds are well calibrated, and the two failures (Actions 1 and 3) are played out with realistic institutional friction. The leniency is in security. The simulator priced a stripped-V5.8 "attempt" on hardened sectors at 35% and an unhardened-sector incident at 30%, both below 50, which in fixed-roll mode guaranteed a quiet month. That happened while CISA reports rising V5.8 phishing and the run already has a history of Lakeview and Tulsa-style incidents.
+
+Issues flagged:
+- The V5.8 "attempt on a hardened sector" was priced at 35%. Attempts should be near-certain given rising phishing volume. Pricing the event below 50 in fixed-roll mode guaranteed no security friction at all.
+- An unhardened-sector V5.8 incident at 30% a month is low given the run's incident history and the cheaper stripped uplift. No security event of any kind was narrated.
+- The capability index advanced only 0.1 per month, which leaves CI-6 to ASI compressed into about 9 months with no stated mechanism.
+- Action 3 at 56% is slightly low given the uniform history of provenance holds. This is minor, because it failed.
+- Minor: neither Google nor xAI reacted to the Gemini 6 publication or to the benchmark more broadly.

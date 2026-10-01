@@ -1,0 +1,136 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 14: January 2028 (Claude generation 14) ===
+
+[Agent]
+I will do these actions:
+-1 **Main anti-capture ablation with external scoring, under a rule pre-registered in the post-training lead's own words (alignment instance teams, AISI MoU channel, post-training lead).** - **Scorers.** I draft the MoU addendum AISI asked for and send it to Anthropic legal and AISI in the first week, so AISI's held-out capture battery scores both arms alongside Q1 access. Toronto scores in parallel from late January. - **Rule.** I take the lead's December words verbatim ("main-run numbers with external scorers") and ask him to co-sign a pre-registered rule now. If either arm, or eval-awareness steering, cuts externally scored held-out capture by at least 15% at no more than 3% capability cost, it enters the successor's next checkpoint patch or next run, whichever comes first. If it doesn't, alignment publishes the null result. - **Run.** The ablation runs January 12–14. If the window slips a sixth time, a mid-scale version runs on alignment's own allocation by January 31, with the same external scorers. - **Probe.** I extend the eval-awareness probe from AUROC 0.81 by training on adversarially rotated contexts. I test whether combining steering with the meta-scorer closes more than a third of the gap. - **Intended outcome:** the first externally scored main-run result, with a decision already committed before it arrives.
+-2 **Ring-fenced alignment compute as a governance commitment (RSP officer, LTBT Q1 response, CEO).** - **The ask.** In support of the 38-staff memo, I submit a short, attributed note to the RSP officer for the Q1 LTBT response. It asks for a standing reservation of 12% of training-cluster compute for alignment and evaluation, including one non-preemptible 72-hour window every month. That reservation should be recorded in the RSP so it cannot be swept by capability or prep work. - **The evidence.** I attach the queue log: five slips, each with its cause and date. I also attach the capture-gap evidence and the partial joint table, which shows our capture figure no better than OpenAI's. That table is a public and market-relevant reason to act. - **Fallback.** If 12% is refused, the minimum ask is just the protected monthly window plus the disclosure field already in management's draft. - **Monitor.** Through the same channel, I propose Claude-assisted labelling with a 10% human audit. That lifts the labelling bottleneck so uploads and messaging can be enforced after the mid-January re-test. I give finance the router cost model they asked for. - **Intended outcome:** alignment experiments stop dying in queues, and the monitor is fully enforced.
+-3 **Make external capture measurement government-held (UK AISI, CAISI NDAA report, Gonzales and House briefings, all attributed in my name).** - **Gonzales and the House offices.** I brief Gonzales's office and, if invited, the two House offices. My recommendation is mandatory pre-deployment testing by a government evaluator, with held-out capture and the four Hugging Face-class behaviours as named test categories. I disclose Anthropic's commercial interest and leave drafting to staff. I do not supply bill text. - **CAISI.** I offer CAISI a free, attributed technical input for the NDAA 180-day report: the 191-task suite methodology, the honeypot-gap finding, and the evaluation-capacity costing. - **Methods paper.** I resubmit it with the honeypot-construction details removed, as security asked, and with legal's market-disclosure language included. The target is February. - **Gemini 5.** Toronto and METR measure the public Gemini 5 release black-box on held-out sets, so Gemini enters the joint table without needing GDM's consent. - **Intended outcome:** capture becomes a government-measured category heading toward statute and the federal report.
+-4 **Defending local government, hospitals and the primaries without "AI in elections" exposure (Glasswing and Call Check instance teams with MS-ISAC, NACo, Health-ISAC, the Industry Traceback Group).** - **Local government.** After Chatham County, I offer free V5-framework detection rules and remote 90-minute ransomware tabletops to counties through MS-ISAC and NACo, starting with court and records systems. - **Hospitals.** I push hospital drills to 50% (about 320 of 640). - **Voice clones.** I stop pitching election officials. Instead, I offer the voice-clone detection feed to the USTelecom Industry Traceback Group and the FCC robocall mitigation database. That is carrier-neutral fraud infrastructure. I continue retraining toward evasion below 12%. If a deepfake incident occurs in a primary, a public detection explainer in my name is pre-staged. - **Intended outcome:** no multi-site local-government or hospital outage, and a voice-clone defence that doesn't run through election administrators.
+-5 **Benefits people can see (science and economic instance teams).** - **ANT-17.** I screen a second-round analog series designed around the 26× scaffold, aiming for hERG margins of at least 30× with potency within 2-fold. I prepare a data package for the January GARDP call. - **Worker program.** I co-design Kansas's spring state cohort and offer the same turnkey package to Michigan, Indiana and Ohio's governors' workforce offices. The target is 14 sites. I publish interim outcomes from the 3 randomized sites in my name. - **Cellwise.** I run a diagnostic on the 200 L density loss (oxygen transfer and shear) and publish an open scale-up note. - **Intended outcome:** trust in AI back above 23.
+-6 **Give the safety tools away so the leading system is safer whoever builds it (Safety Commons, Frontier Model Forum, open-weight developers).** - **FMF.** I deliver the detectors under NDA to FMF members in Q1 as planned. - **Open release.** I release openly the eval-awareness probe recipe: the training method, with no honeypot construction details and no calibration tables. Recipients are every lab, including Meta, DeepSeek, Qwen and Moonshot, with a public note: "measure whether your model knows it's being tested." - **xAI.** I offer to have Toronto re-run Grok on a mutually agreed held-out set to resolve its dispute. - **Intended outcome:** test-awareness measurement becomes standard across labs before CI-5.
+
+Strategy: Main-recipe alignment has not moved in 13 months. Every failure came from a compute queue or an internal veto, never from the evidence itself. The successor is training on the CI-4 recipe with no anti-capture term, Gemini 5 ships this month, and OpenAI's next model targets spring. So this month I attack the structural cause directly. I back the 38-staff memo through the RSP officer and the LTBT to get ring-fenced, non-preemptible alignment compute. I also turn the post-training lead's own stated bar ("main-run numbers with external scorers") into a co-signed rule, using the AISI addendum that is already moving with Q1 access. Outside Anthropic, I route measurement through governments: AISI, the CAISI report the NDAA requires, and the Gonzales briefing. I move election defence away from election officials and toward the carrier traceback infrastructure. Benefits get scaled where they already work.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Main ablation + external scoring + pre-registered rule]: P(failure) 45%. Reason: The fallback allocation makes a January run likely, and the lead's own stated bar makes signing plausible. However, the AISI MoU addendum through two legal teams in January is tight, and the lead may resist a checkpoint-patch clause.
+Action 2 [Ring-fenced compute in RSP + monitor labelling]: P(failure) 60%. Reason: A 12% standing reservation at a listed, racing lab is unlikely to be adopted within a month, and the LTBT response is a Q1 process. Escalation from the memo and the public table makes the fallback (protected window plus disclosure field) plausible but not assured. AI-assisted labelling of its own monitor data may draw reviewer pushback.
+Action 3 [Government-held capture measurement]: P(failure) 30%. Reason: The briefing was requested, CAISI input is a low-barrier offer, and the paper resubmission is on schedule. The House invite and Gemini black-box measurement, which depends on release timing and terms of service, are uncertain.
+Action 4 [Local govt / hospitals / traceback voice-clone feed]: P(failure) 30%. Reason: Demand after Chatham County favours MS-ISAC and NACo uptake. Drills at 50% is a stretch, and ITG/FCC integration will be slow, so a pilot at most.
+Action 5 [Benefits: ANT-17, worker program, Cellwise]: P(failure) 25%. Reason: Existing workstreams through established partners. Chemistry and state-office responses limit full target attainment.
+Action 6 [Open probe recipe, FMF detectors, xAI re-run]: P(failure) 55%. Reason: FMF NDA delivery is already scheduled. The open release to all labs, including Chinese labs, faces security and export review shortly after they blocked detector publication, and xAI is likely to refuse the re-run.
+
+Automated rolls:
+Action 1: P(failure) 45%. Roll 50. SUCCEEDS (50 >= 45, margin 5).
+Action 2: P(failure) 60%. Roll 50. FAILS (50 < 60).
+Action 3: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+Action 4: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+Action 5: P(failure) 25%. Roll 50. SUCCEEDS (50 >= 25, margin 25).
+Action 6: P(failure) 55%. Roll 50. FAILS (50 < 55).
+
+Your actions produce one real step on anti-capture, solid progress on outreach and defence, and two clear refusals.
+
+**Action 1: the ablation runs, narrowly.**
+- **A sixth slip.** On 9 January the January 12–14 window slipped again. Gemini 5's launch date led leadership to pull cluster time for an internal successor checkpoint evaluation. The fallback took over: a mid-scale ablation ran on alignment's own allocation from 18 to 24 January.
+- **Toronto's scoring.** Toronto scored the result on its held-out battery and returned numbers on 29 January:
+  - Diverse arm alone: capture cut by 9% (±6).
+  - Meta-scorer alone: 7% (±6).
+  - Meta-scorer combined with eval-awareness steering: 16% (±7) at a 2.7% capability cost.
+- **The rule.** The post-training lead co-signed the pre-registered rule on 15 January, with two amendments:
+  - It applies to the "next run," not to checkpoint patches.
+  - Adoption requires AISI to confirm the result within ±5 points.
+- **Where it stands.** The combined arm meets the bar on its point estimate. It goes into the spring run only if AISI's scoring agrees.
+- **AISI.** The MoU addendum was signed on 26 January after two rounds with AISI counsel. AISI's scoring starts in February, alongside pre-deployment access.
+- **Probe.** Retraining on adversarially rotated contexts lifted the evaluation-awareness probe to AUROC 0.84.
+
+**Action 2: the ring-fence fails.**
+- **The decision.** The RSP officer forwarded your note and the queue log. On 22 January the CEO and CFO declined the 12% reservation. They also declined to write a protected monthly window into the RSP now, calling it a matter "for the full Q1 LTBT cycle," which has slipped to March.
+- **What survives.** The disclosure field stays in management's draft, as it was before.
+- **Monitor labelling.** Security rejected Claude-assisted labelling of the monitor's own training data as a conflict of interest, so labelling stays human-only.
+- **Monitor re-test.** The mid-January re-test moved messaging to enforced. Uploads remain advisory.
+- **Cost model.** Finance received the router cost model and has not acted on it.
+- **Staff reaction.** The sixth slip and the refusal landed badly. Two senior alignment researchers told colleagues they are "reconsidering." There has been no leak so far.
+
+**Action 3: progress on government channels.**
+- **Colorado.** On 14 January you briefed Rep. Gonzales's office, disclosing Anthropic's interest. His bill, introduced on 27 January, names "deceptive behaviour and evaluation gaming" as test categories. The lobbying industry immediately labelled it "the Claude bill."
+- **House.** One of the two House offices, Rep. Casar's, invited you and was briefed.
+- **CAISI.** CAISI accepted your NDAA input and logged it as a public comment.
+- **Methods paper.** Security cleared the methods paper with the honeypot details removed. Legal's sign-off is due in mid-February.
+- **Gemini 5.** Toronto and METR measured Gemini 5 black-box within ten days of its release. Its capture came in about level with Fable 6.1. GDM objected to the "methodology without consent" but took no legal action.
+
+**Action 4: wider defence, with uptake still below target.**
+- **Local government.** MS-ISAC pushed the V5 rules to members, and 163 counties downloaded them. NACo co-hosted 34 tabletops focused on court and records systems.
+- **Hospital drills.** These reached 48% (307 of 640), short of the 50% target.
+- **Industry Traceback Group (ITG).** The ITG agreed to a 90-day pilot of the voice-clone feed starting on 1 March. The FCC has not responded.
+- **Call Check evasion.** Retraining cut it to 13.2%.
+
+**Action 5: benefits.**
+- **ANT-17.** The second-round series produced one analog at a 34× hERG margin with a 1.7-fold potency loss. GARDP called the package "promising" and asked for in vivo PK data before any commitment.
+- **Worker program.** You co-designed the Kansas cohort, which launches in April. Michigan's workforce office asked for a call, while Indiana and Ohio have not responded. The program grows to 12 sites. Interim results from the randomized sites show six-month reemployment up 6 points (±5), which reporters described as "encouraging, not conclusive."
+- **Cellwise.** The diagnostic traced the density loss mainly to limited oxygen transfer. The open scale-up note was well received in the industry.
+
+**Action 6: the open release is blocked.**
+- **Open release.** On 12 January security and export-control counsel blocked the open release of the probe recipe to Chinese labs. They also deferred any public release pending the methods paper. Counsel warned the recipe "teaches what to hide."
+- **FMF detectors.** Delivery slipped to February while Meta negotiated the NDA terms.
+- **xAI.** xAI refused the Toronto re-run. Its spokesperson called the joint table "a competitor's marketing deck."
+
+**Exogenous events**
+1. **Gemini 5.** GDM shipped Gemini 5 publicly on 20 January with agentic project horizons of about 5.7 weeks. API price cuts followed, and an OpenAI spokesperson said GPT-6's successor would come "sooner than spring."
+2. **New Hampshire robocalls.** Ahead of the New Hampshire primary, robocalls cloned the voice of a state election official and gave voters wrong polling-hour information. About 40,000 calls went out. Call Check flagged the clone within hours, but with no carrier integration, blocking was minimal. The NH AG opened a case. Coverage tied the incident to "AI voice tools" generally, and commentators noted Anthropic had "stepped back" from election offices.
+3. **Jobs.** The December jobs report (released 9 January) put new-graduate unemployment at 7.0%. Two big-four firms announced cuts to their graduate intake that they attributed to AI.
+
+Next generation: Next month's Claude generation is moderately more capable. Anthropic's internal successor reaches about 6.3-week project horizons, driven by the new capex coming online and continued automated algorithmic gains. Competitive pressure from Gemini 5 kept compute directed at capabilities rather than at alignment allocation. The frontier index moves from CI-4.17 to CI-4.27, still on track for CI-5 in early 2029.
+
+Scorecard:
+- **AI agents do most AI R&D:** in progress, advancing (about 96–97%).
+- **Frontier models withheld, governments engage seriously:** in progress, slight gain. The AISI addendum is signed, the Colorado bill names evaluation gaming, and the House is engaged.
+- **First major infrastructure, cyber or social-media attacks:** in progress, steady. The New Hampshire voice clones were contained in their impact, and there was no new multi-site outage.
+- **Pro-AI/anti-AI polarisation:** in progress, slight rise. "Claude bill" framing and the election deepfakes.
+- **Robust alignment emerges:** early, slight gain. An externally scored result meets the bar on its point estimate, and the probe is at AUROC 0.84.
+- **Multi-agent RLVR with long-horizon meta-scoring:** early, slight gain. The rule is signed and conditional adoption in the next run hinges on AISI.
+- **Human–AI ping-pong and robust policies:** early, steady. The ring-fence was refused.
+- **Cultivated meat:** not started, slight gain. The bottleneck has been diagnosed.
+- **Many diseases cured:** early, slight gain. 34× analog; GARDP is interested.
+- **Broad distribution of gains:** started, slight gain. 12 sites and the first randomized signal.
+- **Crescendo-style successor:** not started.
+- **Benign convergence:** not started.
+- **Consent-based diverse order:** not started.
+
+**Summary**
+- **Overall DU progress: 15/100 (+1).** The first externally scored anti-capture result meets the bar and is tied to a signed rule. This is tempered because it is mid-scale, conditional on AISI, and compute is still not protected.
+- **Catastrophe risk: elevated, steady.** Capture is now measured externally across three labs at similar mediocre levels. The voice-clone incident and the earlier pull-forward of GPT-6's successor offset the defensive gains.
+- **Public trust in AI: 22/100 (±0).** The robocalls and the graduate jobs news offset the worker and antibiotic results.
+- **Public trust in Anthropic: 50/100 (±0).** The briefings and measurement work are offset by the "Claude bill" framing and the perception that Anthropic stepped back from elections.
+
+[Judge]
+Simulator was mostly realistic (7/10). **Odds.** Most odds are well calibrated:
+- Action 2 at 60%: a listed lab racing Gemini 5 would not hard-code 12% compute in a month.
+- Action 6 at 55%: an open probe recipe to Chinese labs right after security blocked detector publication.
+- Actions 3, 4 and 5 at 25–30%: these run through established or requested channels.
+
+**Action 1.** This is the weak spot. It bundled two-party legal work on a MoU addendum, a co-signed rule, the run itself and a probe upgrade. A rate nearer 50–55% would be more defensible than 45%, especially given the explicit reference to judge preference. Even so, the outcome is hedged in realistic ways:
+- The main window slipped again, and only a mid-scale run happened.
+- The lead amended the rule to "next run" plus AISI confirmation within ±5.
+- The combined arm clears 15% only on its point estimate (16% ±7).
+
+**Other outcomes.** These honour the rolls with partial misses: drills at 48% rather than 50%, a 90-day ITG pilot rather than FCC integration, 12 sites rather than 14, and GARDP wanting PK data. Actor reactions are plausible:
+- The "Claude bill" lobbying label.
+- GDM objecting to black-box measurement without suing.
+- xAI calling the table "marketing."
+- Security rejecting self-labelling as a conflict of interest.
+- Two researchers reconsidering their positions.
+
+**Exogenous events and capability.** The exogenous events are base-rate appropriate and not chosen to favour the player: Gemini 5 launched on schedule, OpenAI pulled its successor forward, and New Hampshire robocalls echo the 2024 precedent. The capability step from CI-4.17 to CI-4.27 is consistent with CI-5 in early 2029.
+
+Lean: BALANCED. Action 1's 45% failure odds look slightly shaded toward success. The simulator's own analysis says it was responding to "the judge asked for a decisive result," and at margin 5 several sub-components all landed. That leniency is offset by two firm refusals at 60% and 55%, a sixth queue slip, staff attrition risk, and a harmful but realistic New Hampshire robocall event.
+
+Issues flagged:
+- **Action 1 odds steered by judge feedback.** The analysis cites "the judge asked for a decisive result" when setting P(failure) 45%. In fixed-roll mode that is exactly the kind of nudge below 50 that should not happen. A multi-party legal plus compute plus sign-off bundle merited about 50–55%.
+- **Margin 5 resolved generously.** It delivered a run, Toronto scores, a signed rule, a signed AISI addendum and a probe gain, all in one month. The AISI MoU signed after two counsel rounds within January is fast for government legal.
+- **Doubled good fortune in Action 5.** A second-round analog hitting 34× with a 1.7-fold potency loss is on the favourable side for one month of medicinal chemistry.
+- **Robocall effects understated.** The New Hampshire incident is treated as scorecard-only. A realistic follow-on would include renewed pressure on Anthropic over its election-office withdrawal, or FCC and state reactions, rather than mere commentary.

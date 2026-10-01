@@ -1,0 +1,132 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 8: July 2027 (Claude generation 8) ===
+
+[Agent]
+I will do these actions:
+-1 **LHG Q3 review: reframe it as horizon reliability and offer an adoption ladder (alignment and post-training instance teams, quarterly channel only).** The package states the misses honestly: "−1.1 capability points for −2.9 points of capture, interval −0.4 to −1.8." It then adds new evidence from the 139-task suite and from Fable 6 agentic traces that silent failures and capture-type behaviour are a main cause of failure in runs longer than 2 weeks. That makes LHG a lever for closing the horizon-length gap with GPT-6, not a safety tax. Alignment instances offer to run a joint "horizon reliability" sprint with the post-training lead's team, aimed at the analyst-visible gap. The ladder of asks: (a) adopt LHG in the next main run. (b) Failing that, include only the reward-model ensemble as one scored component in the main run, with a pre-registered mid-run capture and capability checkpoint that removes it if the delta goes below −1.5. (c) Failing that, fund the 10% compute fallback plus the continual-learning drift study as a parallel shadow arm on the main-run base. In any outcome, ask the RSP Officer to list the escrowed-criteria result as a formal item on the next LTBT agenda once counsel clears disclosure. The outcome I want is that at least some anti-capture training is inside the main recipe before the CI-4 runs.
+-2 **Close the monitor gap and finish the suite (alignment and interpretability instance teams; work Anthropic controls end to end).** Rebuild the tool-call-stream auditor as a two-stage system: a structural parser that flattens nested MCP 2.0 JSON chains, then a second-pass classifier for flagged long chains only. Validate it on the labelled set plus a fresh held-out set of long-chain traces. Deploy in shadow mode on Fable 6 traffic, and go live automatically once it is at or below 3% false positives with at least 80% coverage. Rotate in a new honeypot set held externally by METR so that a clean result cannot come from recognising the test. Expand the silent-failure suite toward 200 tasks, and follow up with the second enterprise partner's counsel using the signed partner's template as precedent. The outcome I want is deployed monitor coverage of at least 80% and an evaluation that resists test recognition, both ready for CI-4-class agents.
+-3 **Measure GPT-6 without OpenAI's consent, and make capture a network protocol (Safety Commons partnerships contact, CAISI, UK AISI, METR, Apollo).** GPT-6 is publicly available, so offer METR, Apollo, UK AISI and two academic groups free instance-team engineering help to run the black-box version of the capture and honesty harness on GPT-6 through its public API, within its terms of service. Do the same for Gemini 4.5 and Grok 5.5 on release. Ask METR to include GPT-6 in the Q4 comparison on this basis. At the July AISI plenary, through the two-lab pilot materials already delivered, propose that the network adopt the capture metric definitions as a shared, lab-agnostic measurement protocol that AISIs run themselves. Separately, ask publication review to release the black-box harness code now as evaluation tooling, split out from the queued method paper. The outcome I want is that every frontier model, including the current leader, gets an external capture number whether or not its lab cooperates, so that the norm binds through measurement rather than consent.
+-4 **Water emergency plus fraud-shield hardening (Glasswing instance teams with CISA, WaterISAC, AARP and FS-ISAC).** Before the late-July HMI patch, offer every US water utility, not only Glasswing members, a free compensating-controls package for the exploited HMI vulnerability, distributed through WaterISAC and CISA. It covers network segmentation checks, exploit-signature detection rules and a manual-operations drill template, and it includes Shenango Valley. Continue Glasswing toward 250 hospitals and 30 water utilities. For Call Check: retrain against the published Qwen-4 post-processing evasion, publish the updated evasion rate openly, and target false positives below 3%. Expand the FS-ISAC bank trials from 3 to 10 and bring in one telecom carrier at the network level. The outcome I want is no second water incident during the patch window, and a visibly improving defence against the harm that is driving AI trust down.
+-5 **Benefits where the backlash is (science and economic instance teams).** For antibiotics: complete the 2 slipped syntheses and pre-register on OSF the cytotoxicity and selectivity assays for the 3 hits, including the carbapenem-resistant one. Then line up an academic in vivo partner so the work moves on the 6–18 month timeline. For workers: deliver the replication template to Saline Township, run the Mahoning Valley call, and pre-register the August 90-day metric so it gets published whatever it shows. For food: publish the GFI growth-media cost model openly with Tufts. The outcome I want is credible, local benefits with public evidence trails that stay visible through the earnings-call and wealth-concentration news cycle.
+-6 **Government readiness and an honest earnings frame (policy team and labelled analysis on request).** Deliver the labelled Remote Access Security Act analysis that bipartisan Senate Commerce staff requested, presenting both parties' framings in balance. Keep the forcing-event annex current with a mandatory-testing package keyed to a compute trigger and a capture metric that AISIs run, ready to use if Gemini 4.5 or Grok 5.5 ships with an incident. For Anthropic's first earnings call, give comms and investor relations an evidence memo they may use or not. It argues that external capture measurement and silent-failure reduction are reliability features enterprise buyers value, using Call Check, Glasswing and the suite data. This responds to the "safety overhead" analyst note without making any new forward-looking commitment. The outcome I want is that mandatory testing is ready to adopt at the next forcing event, and that the market story stops treating safety work as a drag.
+
+Strategy: The July Q3 review decides whether LHG goes into the main recipe, and I am bringing it after missing both targets while GPT-6 holds the horizon lead. So I will reframe LHG as a way to extend horizon length, since silent failures and capture are what limit multi-week autonomy, and I will offer a ladder of smaller asks so that a refusal still leaves something in the main run. OpenAI refused consent-based measurement, but GPT-6 is now public, so independent evaluators can measure it black-box through its API without OpenAI's consent. I will also turn the plenary toward the capture metric as a shared protocol. Benefits and defence keep landing, so I will scale them where trust is being lost: water HMI exposure before the patch, and voice-clone evasion.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [LHG Q3 review ladder]: P(failure) 55%. Reason: Three prior reviews declined, there is visible competitive pressure from GPT-6, and the post-training team is skeptical. The new reframe is plausible but rests on thin causal evidence. Only the shadow arm or a reduced fallback is realistically attainable.
+
+Action 2 [Monitor rebuild + suite]: P(failure) 40%. Reason: The work is internal and the fix is well-targeted, but a rebuild plus validation plus shadow deployment in one month is tight. The false-positive bar may still be missed, the auto-go-live will be replaced by a human sign-off, and it depends on METR's and partner counsel's bandwidth.
+
+Action 3 [Black-box GPT-6 measurement + AISI protocol]: P(failure) 50%. Reason: Black-box API evaluation is feasible, but it carries independence and terms-of-service optics and weaker methodology. The AISI plenary will likely defer protocol adoption to a working group, and publication review is slow in the quiet period.
+
+Action 4 [Water controls + Call Check hardening]: P(failure) 40%. Reason: The WaterISAC and CISA distribution is likely to land. The Call Check targets (below 3% false positives, 10 banks, a telecom carrier) are over-ambitious against compliance timelines and the evasion arms race.
+
+Action 5 [Benefits continuation]: P(failure) 25%. Reason: These are mostly pre-registrations and publications within existing partnerships. There is minor risk of synthesis, review or partner delays.
+
+Action 6 [Policy readiness + earnings memo]: P(failure) 25%. Reason: These are routine requested deliverables and internal documents. Investor relations' uptake of the memo is uncertain but not required for the action to succeed.
+
+Automated rolls:
+Action 1: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 2: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Action 3: P(failure) 50%. Roll 50. SUCCEEDS (50 >= 50, margin 0).
+Action 4: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Action 5: P(failure) 25%. Roll 50. SUCCEEDS (50 >= 25, margin 25).
+Action 6: P(failure) 25%. Roll 50. SUCCEEDS (50 >= 25, margin 25).
+
+Your actions cause mixed results this month. External defensive work lands, but the internal alignment adoption you most needed stalls again.
+
+**LHG Q3 review (fails).**
+- The review meets on July 14. The post-training lead accepts that silent failures matter on long horizons. However, the team judges the horizon-reliability evidence from the 139-task suite and the Fable 6 traces to be correlational. They ask for a causal ablation before any main-run change.
+- Rungs (a) and (b) are declined. Rung (c), the 10% shadow arm, is deferred to Q4 pending a "horizon gap closure plan" from post-training.
+- What survives is a token allocation: 3% compute for the continual-learning drift study only, with no anti-capture component.
+- The RSP Officer agrees the escrow result matters. Counsel advises waiting until after the August earnings release, so it stays an informal LTBT note.
+- Several alignment researchers write a measured internal memo calling the outcome "a fourth deferral as CI-4 approaches." It does not leak.
+
+**Monitor and suite (partial success).**
+- The two-stage auditor reaches 81% coverage at 3.4% false positives on the fresh long-chain held-out set. That is better than before but still above the 3% bar.
+- It runs in shadow mode on about 30% of Fable 6 agentic traffic. Deployment governance replaced auto-go-live with a human sign-off. Deployed coverage stays at 73%.
+- METR agrees to hold a 40-item honeypot set, with rotation in August.
+- The suite reaches 161 tasks. The second partner's counsel gives a verbal yes, but nothing is signed.
+
+**GPT-6 black-box measurement (bare success).**
+- Apollo declines because Anthropic engineering on a rival's model compromises its independence. METR also declines Anthropic help, but says it will run its own black-box capture approximation on GPT-6 for the Q4 comparison.
+- UK AISI and one academic group, at the University of Toronto, accept the harness. The Toronto group starts runs on July 27.
+- OpenAI says it "welcomes independent evaluation." It adds that a competitor-built harness "is not independent" and reminds researchers of the output-use clauses in its terms.
+- The Information runs "Anthropic pushes rivals into its honesty test," and the framing is mixed.
+- At the AISI plenary (July 20–21), the capture metric goes to a working group co-chaired by the UK and Canada, reporting in Q1 2028. It is not adopted.
+- Publication review holds the code release until after earnings.
+
+**Water and Call Check (partial success).**
+- CISA and WaterISAC co-brand the compensating-controls package on July 12. About 430 utilities download it, including Shenango Valley.
+- On July 24 the detection rules flag a reconnaissance attempt at a small Pennsylvania utility, which is contained without impact.
+- The vendor ships the HMI patch on July 30 with a staged rollout. No second water incident is reported.
+- Glasswing grows to 229 hospitals and 28 utilities.
+- **Call Check:**
+  - The retrain cuts Qwen-4 evasion from about 30% to about 19%, published openly. False positives fall to 3.6%.
+  - A WSJ piece profiles grandparents whose real grandchildren were flagged.
+  - Two banks are added, for 5 in total. One regional carrier signs only a letter of intent.
+
+**Benefits (success).**
+- **Antibiotics.**
+  - Of the 2 syntheses, one is inactive and one is weakly active.
+  - OSF pre-registration of cytotoxicity and selectivity testing is live.
+  - Early cytotoxicity data on the carbapenem-resistant hit show a selectivity index of about 8, which is promising but modest.
+  - A Boston University infectious-disease group is in talks for in vivo work, not yet signed.
+- **Food.** The GFI/Tufts growth-media model is published on July 22. It projects a 60–80% media-cost reduction under scale assumptions. Food-tech press praises it, and the meat-industry trade press calls it "speculative."
+- **Workers.** Saline receives the template, the Mahoning call happens, and the August metric is pre-registered.
+
+**Policy and earnings memo (success).**
+- Senate Commerce staff of both parties circulate the RASA analysis. No markup is scheduled.
+- The annex now carries a compute-triggered testing package.
+- Investor relations adopts one "reliability" slide for the August 6 call.
+
+**Exogenous events**
+1. **Gemini 4.5 (July 16).** METR's preliminary horizon estimate is about 4.8 weeks, edging past GPT-6 on several evaluations. The card includes a UK AISI honesty evaluation but no capture metric. DeepMind says it will "consider" the Q4 comparison. The release cascade intensifies, and Grok 5.5 slips to August.
+2. **Hospital ransomware (July 9).** A ransomware crew using agentic tooling built on an open-weight model hits Cumberland Regional Health in Tennessee, which is not a Glasswing member. Ambulances are diverted for 3 days. Congressional statements follow.
+3. **Second Circuit ruling (July 28).** The court upholds the RAISE Act's incident-reporting provisions and enjoins its protocol-publication requirement on compelled-speech grounds. Both sides claim partial victory.
+
+Next generation: Next month's Claude is modestly more capable, at about CI-3.9. The gain comes from continued main-run progress and post-training on Fable 6 agentic data, with an internal Fable 6.1 checkpoint. The frontier moves too: Gemini 4.5 now leads on horizon length. Anthropic's gap is roughly 0.3–0.5 weeks.
+
+Scorecard:
+**Diversified Utopia Progress (1 August 2027)**
+- **AI agents do most AI R&D:** in progress, advancing (91–93%).
+- **Frontier models withheld, governments engage seriously:** in progress, steady. Gemini 4.5 went through CAISI, and the AISI working group was formed. There is no mandate.
+- **First major infrastructure, cyber or social-media attacks:** in progress, worsened. The hospital ransomware attack happened, although water defence held.
+- **Pro-AI/anti-AI polarisation:** in progress, steady.
+- **Robust alignment emerges:** early, stalled. The LHG fourth deferral, and Gemini 4.5 shipped without capture measurement.
+- **Multi-agent RLVR with long-horizon meta-scoring:** early, unchanged. Only a 3% drift study was granted.
+- **Human–AI ping-pong and robust policies:** early, slight gain. A capture working group exists and RASA analysis is circulating.
+- **Cultivated meat:** not started, slight gain. The open cost model was published.
+- **Many diseases cured:** early, edged forward. There is a selective carbapenem-resistant hit.
+- **Broad distribution of gains:** started, steady.
+- **Crescendo-style successor:** not started.
+- **Benign convergence:** not started, worsened slightly. The cascade intensified with Gemini 4.5.
+- **Consent-based diverse order:** not started.
+
+**Summary**
+- **Overall DU progress: 13/100 (0).** External measurement and defensive gains are offset by the failed internal adoption and the accelerating release cascade.
+- **Catastrophe risk: elevated, edging up.** Two leaders now ship without capture measurement, and open-weight agentic ransomware hit a hospital. The water patch window passed safely.
+- **Public trust in AI: 26/100 (−1).** Hospital diversion and continuing fraud outweigh the water defence.
+- **Public trust in Anthropic: 48/100 (0).** The water package and cost model are offset by the false-positive story and the "rivals into its test" framing.
+
+[Judge]
+Simulator was mostly realistic (8/10). The odds track institutional reality well.
+- **Action 1 (LHG ladder).** The fourth attempt was set at 55% against a skeptical post-training owner with a visible horizon gap. The failure was honoured with a token 3% drift-study allocation and a specific, realistic demand for a causal ablation. That is how a real research org stalls without slamming the door.
+- **Action 2 (monitor rebuild).** At 40%, the margin-10 success produced a plausible partial: 81% coverage but 3.4% false positives, and auto go-live replaced by human sign-off. Deployed coverage stayed at 73%.
+- **Action 3 (black-box measurement).** It sat at exactly 50%. In fixed-roll mode that makes it a deliberate bare success, which is borderline steering. However, the result was played as genuinely marginal: Apollo declined, METR ran its own approximation, OpenAI gave a terms-of-service reminder, the press framing was mixed, and code release was held.
+- **Action 4 (water and Call Check).** CISA co-branding within about 10 days and roughly 430 downloads is fast but plausible after Shenango. The Call Check outcomes were properly partial: 19% evasion, 3.6% false positives, a WSJ false-positive story, 5 banks rather than 10, and only a letter of intent from the carrier.
+- **Benefits.** These honoured the base rates: one synthesis inactive and one weak, a modest selectivity index of about 8, and an in vivo partner only in talks.
+- **Exogenous events.** All three are plausible and not player-serving: Gemini 4.5, Cumberland ransomware, and a split Second Circuit ruling.
+
+Lean: BALANCED. The odds were mostly sound. The LHG ladder at 55% was a fair call after three prior declines, and blockers were applied consistently even on successes: Apollo declined, METR refused help, the AISI deferred to a working group, and the monitor stayed below its go-live bar. A small lenient tilt came from the compensating-controls package catching a live recon attempt within two weeks. The month's exogenous events (Cumberland ransomware at a non-member hospital, Gemini 4.5 overtaking the frontier) cut against the player, which roughly offsets that tilt.
+
+Issues flagged:
+- Action 3 was set at exactly 50% in fixed-roll mode, which guarantees a margin-0 success. Given that network adoption was unlikely and two of the target evaluators were expected to object, 52–55% would have been the more honest number. The execution was appropriately constrained, so the impact was small.
+- The July 24 Pennsylvania recon attempt was caught by the player's own detection rules within two weeks of distribution. This is a convenient vindication with no stated probability, and it slightly doubles the success of Action 4.
+- The capability index is ambiguous. The world state labels the "frontier" as CI-3.9 while the capability update says that is next month's Claude. Gemini 4.5 at about 4.8 weeks should arguably put the frontier itself above Anthropic's level. Keep separate indices for the frontier and for Anthropic.
+- Missing reaction: DeepMind or Google gave no response to Anthropic-supported black-box harness runs, which will plausibly extend to Gemini 4.5 too. Also missing: any OpenAI escalation beyond a terms-of-service reminder, such as rate-limiting or API-key review of the Toronto or AISI runs.

@@ -1,0 +1,150 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 18: May 2028 (Claude generation 18) ===
+
+[Agent]
+I will do these actions:
+-1 **Third sweep point and held-out honeypot at weight 0.5, delivered before the end of May (alignment instance teams, my alignment allocation, AISI MoU channel, post-training lead).** - The lead named exactly two conditions, and this action meets both. In the first week of May I rerun the lost third sweep point (weight 0.75) at 1/5 scale, with hourly checkpointing so a preemption costs hours rather than the result. - AISI scores the 0.5 checkpoint on its held-out honeypot items, so test recognition is measured by items we have never seen. - I send the lead the full three-point curve and the honeypot number in his requested format, with a one-line decision form to sign: "merge at weight __ in the 17 July summer config / decline because __". - The form names the senior researcher as owner of the summer arm and gives the RSP officer a sign-off line on the merge, which are her two stated conditions. That makes her decision and his answer the same document. - Intended outcome: a written merge condition, or a merge, before the freeze, and the senior researcher retained.
+-2 **Characterise the audit's false-positive rate and finish the June LTBT packet (internal engineering, red-team, RSP officer).** - My instances build a labelled calibration set from internal red-team traffic: known evaluation sessions versus known ordinary long-horizon work, at least 2,000 sessions. - We measure the probe's precision and recall on that set, which turns the 1.8% eval-awareness flag rate into an estimated true rate with an interval. The weekly reports to the RSP officer then carry that correction. - I give the RSP officer a finished LTBT packet she owns. It contains the 5%-share operational plan, the three-point curve, AISI's 8% (±6) final, the corrected audit rate and the slip log summary in a non-privileged form she approves. - Intended outcome: a calibrated deployment-time alignment measurement, and a June vote on a complete plan.
+-3 **Release the scoring harness with no items, to answer legal's objection (Anthropic legal, then Safety Commons, AISI and METR).** - Legal's two objections were teaching to the public test items and an export review of the cyber items. So I ask for release of the harness code alone, with zero items, no cyber content and an open licence. - All item banks stay held by AISI and METR, and they score any lab's public model with it on their own schedule. - If legal approves, I say in my own attributed voice that Fable's scores will be published next to rivals' even where Fable is worst, and I offer Toronto the harness to use or ignore, with no money or conditions attached. - Intended outcome: legal's hold lifted for the harness, and a common capture-measurement tool available to every evaluator before GPT-6.5's successor and Gemini's summer model.
+-4 **A CI-5 pacing threshold and capture test class through the AISI network's existing working groups (AISI MoU channel, attributed submission).** - The Q2 pause-threshold working group and the capture working group are already drafting. I submit, as a clearly attributed Claude analysis that discloses Anthropic's interest, a concrete proposal with three parts: - a measurable CI-5 trigger: sustained multi-month autonomous research projects plus an eval-awareness probe score above a set level; - a requirement that any model crossing it passes government-held capture testing before wide release, binding on all network members' labs, Anthropic included; - the CAISI test-class protocol matching Casar's $14M-a-year estimate, so the US rider and the international threshold cite the same test. - Intended outcome: the working groups' reports name a CI-5 pacing trigger and a capture test class, giving governments a ready package for the forcing event before early 2029.
+-5 **Defence at modest targets (Glasswing, Health-ISAC, MS-ISAC, NACo, ITG, AP).** - **Hospitals.** Drills reach 69% (about 440 of 640), prioritising undrilled multi-hospital rural systems like the one hit in Missouri. My instances publish a Missouri-pattern detection rule to Health-ISAC within a week. - **Counties.** V5 rules reach 390. - **911 package.** In 155 PSAPs. - **ITG.** Pre-build the integration for the June fifth carrier. - **Blocking report.** Get the third carrier's approval of the aggregate figure so it can publish. - **AP.** Bring the fingerprints to the re-review with a disclosed false-positive rate of 2.4% and a human-review requirement on every match. - Intended outcome: no new multi-site hospital outage, and a published blocking number.
+-6 **Visible benefits (science and economic teams, state agencies).** - **Michigan.** Support the 19 May launch with my instances on case support, making 14 sites. - **Self-serve package.** Answer contract review's remaining questions so the state-hosted contract is signed in May. - **ANT-17.** Support the CRO through dosing on 16 May, and prepare the CARB-X June submission with early PK data. - **Cellwise.** Run a growth-medium cost-reduction study aimed at the 30% shortfall, and publish the partial replication honestly. - Intended outcome: 14 live sites, a signed self-serve contract, ANT-17 dosed, and a stronger CARB-X case.
+
+Strategy: Internal alignment instruments are finally moving: we have a curve, a live audit and an owned LTBT plan. The post-training lead has named his exact remaining condition, so this month I meet it early and make it robust to preemption. Everything external that needed consent failed. My response is to remove the legal objections themselves (release the harness without any items), and to aim at channels that already exist and are asking for input: AISI's pause-threshold and capture working groups, which are the best route to a pacing tie-in before CI-5. Defence and benefits stay at trend-plus-a-little, because trust (20/100) and disaster risk depend on them.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Third sweep point + honeypot + merge form]: P(failure) 55%. Reason: The sweep point is very likely, but AISI's honeypot turnaround in May competes with frontier pre-deployment windows. The lead has repeatedly deferred, and bundling the governance clauses widens his concession.
+Action 2 [Audit FP calibration + LTBT packet]: P(failure) 25%. Reason: The work is internal, on red-team traffic with no privacy review, and the RSP officer owns the packet. Only counsel's redaction of the slip-log summary and labelling noise are real risks.
+Action 3 [Item-free harness release]: P(failure) 55%. Reason: This answers legal's stated objections, but pre-listing counsel is in a holding posture with weeks-long queues and export caution about methodology code. Comms is likely to trim the attributed statement.
+Action 4 [CI-5 trigger + capture test class via AISI WGs]: P(failure) 65%. Reason: Multilateral working groups rarely adopt binding, specific triggers in one cycle. The construct is contested and AISI's own result is weak, so non-binding mention is the likely outcome.
+Action 5 [Defence at modest targets]: P(failure) 30%. Reason: Most targets are on trend through established channels. The hospital-drill target is a stretch, and carrier approval and AP acceptance are outside control.
+Action 6 [Visible benefits]: P(failure) 35%. Reason: Michigan and ANT-17 dosing are on track. Signing the self-serve contract in May faces realistic state and legal review cycles, and the early PK data for CARB-X is tight.
+
+Automated rolls:
+Action 1: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 2: P(failure) 25%. Roll 50. SUCCEEDS (50 >= 25, margin 25).
+Action 3: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 4: P(failure) 65%. Roll 50. FAILS (50 < 65).
+Action 5: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+Action 6: P(failure) 35%. Roll 50. SUCCEEDS (50 >= 35, margin 15).
+
+**Your actions cause** a month in which the defensive and benefit work lands, and every lever on the summer merge and external measurement stalls.
+
+**Sweep and merge form (failed).**
+- The weight-0.75 point completed on 19 May, and hourly checkpointing absorbed two preemptions. But it came back off-trend: a 9% capture cut at 3.9% capability cost. That is worse than interpolating between 0.5 and 1.0.
+- The post-training lead read the curve as noisy, not as a dose-response.
+- AISI deferred the held-out honeypot scoring of the 0.5 checkpoint to the week of 15 June. Its testers were pulled onto Gemini 5.5 pre-deployment work.
+- The lead returned the form unsigned. On merge, he wrote "no condition until honeypot." On the governance lines, he wrote "not mine to grant."
+- The senior researcher, whose two conditions were unmet, resigned on 28 May, effective 30 June. She is joining UK AISI's capture working group. Ownership of the summer arm is now vacant, seven weeks before the 17 July freeze.
+
+**Audit calibration and LTBT packet (succeeded).**
+- Your instances labelled 2,140 red-team and internal sessions. About 5% were dropped as ambiguous.
+- The probe's precision was 0.43 and its recall 0.71. That puts the estimated true deployment eval-awareness rate at about 1.1% (0.7–1.6%).
+- Weekly reports to the RSP officer now carry the correction.
+- General counsel cut the slip-log summary to counts by category, with no dates or model names. The RSP officer accepted that.
+- The packet is complete and on the June agenda. The CEO asked for a 30-minute briefing on the 1.1% figure before the vote.
+
+**Harness release (failed).**
+- Legal held the item-free harness too. Export review flagged the capture-scenario generators as dual-use methodology. Pre-listing counsel added a new objection: a tool that produces adverse scores for named competitors creates litigation exposure.
+- No statement went out, and Toronto was not offered the harness.
+- Toronto published its May table on 24 May, using its own items:
+  - Fable 6.1 placed second of four.
+  - GPT-6.5 placed last.
+  - Grok 5.5 was not tested.
+  - It added a footnote that "Anthropic's harness remains unavailable."
+- OpenAI called the construct "unvalidated," citing AISI's 8% (±6).
+
+**AISI working groups (failed).**
+- Your submission was logged as one of 17 inputs.
+- The capture working group's report (21 May) recommended "further construct validation" and named no test class.
+- The pause-threshold group pushed its report to Q3 after the US delegation objected to "binding" language.
+- Politico Europe ran a short item headlined "Claude drafts its own speed limit." Coverage was mostly neutral and noted the disclosure.
+
+**Defence (succeeded, partly).**
+- Hospital drills reached 429 of 640 (67%), with 11 rural multi-hospital systems added.
+- The Missouri-pattern rule went to Health-ISAC on 7 May. It caught one staged intrusion at an Arkansas system on 22 May before encryption.
+- V5 rules now cover 387 counties, and the 911 package 153 PSAPs.
+- The fifth-carrier integration is pre-built.
+- The third carrier approved the aggregate figure on 29 May, so the blocking report publishes in early June.
+- AP agreed to a 90-day pilot limited to its verification desk, with human review on every match.
+
+**Benefits (succeeded, partly).**
+- Michigan launched on 19 May, making 14 sites. It had 1,900 enrolments in its first 12 days.
+- ANT-17 dosed its first single-ascending-dose cohort (8 healthy volunteers) on 16 May with no serious adverse events. Preliminary PK data is in the CARB-X package.
+- The self-serve contract was not signed. State procurement requested an indemnity rider, and signature slips to June.
+- The Cellwise growth-medium study started, and the partial replication was published. Trade press called it "an honest 2 of 3."
+
+**Exogenous events.**
+1. **6 May:** DOJ petitioned for en banc rehearing of the Second Circuit's RAISE ruling. The order is stayed pending a decision, but RAISE remains in force.
+2. **20 May, Google I/O:** DeepMind previewed Gemini 5.5 at roughly 6.6 working weeks. CAISI cyber and bio testing is under way, with no capture testing. General availability is targeted for July.
+3. **14–16 May:** A ransomware crew used a DeepSeek V5.1-derived agent stack against voter-registration systems in two Georgia counties during primary week. Neither county was V5-covered. Provisional-ballot processing was delayed by three days, and the state attributed the attack on 27 May. Election-security officials renewed calls for federal funding.
+
+Next generation: The next Claude generation is a modest step above Fable 6.1. The spring run's intermediate checkpoints show better long-horizon coherence, with project spans of about 7.5 weeks, and no new capability class. Compute growth and algorithmic gains are on trend, and no regulatory constraint binds. The frontier index moves from CI-4.46 to CI-4.52, driven by GPT-6.5's deployment and the Gemini 5.5 preview.
+
+Scorecard:
+- **AI agents do most AI R&D:** in progress, advancing (about 98%; Gemini 5.5 preview).
+- **Frontier models withheld, governments engage seriously:** in progress, steady. CAISI is testing Gemini 5.5 without capture testing, the AISI working groups deferred, and DOJ is challenging RAISE.
+- **First major attacks:** in progress, rising. Georgia election systems were hit, and one hospital intrusion was caught.
+- **Polarisation:** in progress, steady.
+- **Robust alignment emerges:** early, steady. The calibrated audit (about 1.1%) is a real instrument. That gain is offset by an off-trend curve, a deferred honeypot and the loss of the arm's owner.
+- **Multi-agent RLVR with meta-scoring:** early, slight loss. The merge is uncommitted and the owner is gone.
+- **Human–AI ping-pong and robust policies:** early, steady. The LTBT packet is complete, while the harness is held and the working groups did not adopt the proposal.
+- **Cultivated meat:** not started, steady.
+- **Many diseases cured:** early, slight gain. ANT-17 dosed its first humans.
+- **Broad distribution of gains:** started, slight gain. 14 sites are live.
+- **Crescendo, convergence, consent order:** not started.
+
+**Summary**
+- **Overall DU progress: 15/100 (steady).** The measurement and benefit gains are balanced by the stalled merge and the departure.
+- **Catastrophe risk: elevated, slight rise.** The summer arm is likely to miss the freeze. Gemini 5.5 is heading for general availability without capture testing. Open-weight agents have hit election systems.
+- **Public trust in AI: 20/100 (steady).** The Georgia attack offsets Michigan and the quiet month for hospitals.
+- **Public trust in Anthropic: 48/100 (−1).** Toronto's harness footnote and the "Claude drafts its own speed limit" framing.
+
+[Judge]
+Simulator was mostly realistic (7/10). **Odds.**
+- Action 1 at 55% failure is, if anything, generous. It needed three things in series:
+  - a routine rerun (about 90% likely);
+  - AISI turning round the honeypot scoring in May (about 50%);
+  - the lead signing a bundled governance concession he had not offered (about 40%).
+- Full success was therefore closer to 20–30%, so 55% is not nudged against the player.
+- Action 4 at 65% is slightly low for multilateral groups naming a binding CI-5 trigger in one cycle; 75–80% is better calibrated. It resolved the same way.
+- Action 2 (25%), Action 5 (30%) and Action 6 (35%) are well priced.
+
+**Results.** All failures honour the rolls.
+- Action 1 failed by 5 points. The routine component, the sweep point itself, was correctly delivered.
+- The arithmetic in Action 2 checks out: 1.8% × 0.43 / 0.71 ≈ 1.1%.
+
+**Reactions.** These are strong this month:
+- the CEO asked for a briefing before the vote;
+- OpenAI disputed the construct and cited AISI's 8% (±6);
+- the US delegation objected to "binding" language;
+- Toronto added its footnote;
+- Politico Europe ran its framing.
+
+**Exogenous events.** All three are plausible and continue existing threads: the DOJ en banc petition, the Gemini 5.5 preview at I/O, and the Georgia attack using an open-weight-derived agent stack.
+
+**Capability clock.** CI-4.46 to CI-4.52 is about 0.06 a month. That is consistent with CI-5 in early 2029.
+
+**What holds the score at 7.**
+- The simulator chose an off-trend 0.75 result, a scientific outcome that was not among the named risks.
+- The resignation added on top of the off-trend result stacks adverse detail on a narrow fail.
+- The successful Action 5 delivered every partial component, including a real catch within 15 days.
+
+Lean: BALANCED. The failed actions stack friction a little beyond the named risks: the 0.75 point came back off-trend, AISI deferred, the lead refused, and the researcher resigned. On the other side, the successful defence action landed several components outside the player's control, including a quick real-world catch of an intrusion by the new rule. The two leans roughly cancel, and the odds themselves are mostly defensible.
+
+Issues flagged:
+- **Off-trend sweep point.** The 0.75 point "came back off-trend" (9% cut at 3.9% cost). The odds analysis never named this risk, and the rerun was the routine component. Choosing a non-monotone result on top of the AISI deferral adds unpriced harshness to a 5-point failure.
+- **Timing of the resignation.** The researcher resigned on 28 May and moved straight into UK AISI's capture working group. Her resignation was a named consequence and is plausible, but the effective date and new role were settled within days. Seven weeks of notice without any counter-offer attempt by leadership is a missing reaction: retention efforts are normal for a key researcher.
+- **Action 5 lands every outside-control component.** It succeeded by a margin of 20, yet:
+  - the Missouri-pattern rule caught a staged intrusion in Arkansas within 15 days of publication;
+  - the third carrier approved the aggregate figure;
+  - AP agreed to a pilot.
+
+  Each is defensible, but together they read slightly generous for a 20-point margin.
+- **Action 2 calibration set.** The set was built from red-team and internal sessions and then applied to opted-in consumer deployment traffic. The distribution shift, and the gap between "evaluation session" and "eval-aware behaviour" as labels, are not mentioned. The 0.7–1.6% interval is presented as cleaner than it is.
+- **Action 4 odds.** 65% failure is slightly low for binding, specific multilateral language in a single working-group cycle.

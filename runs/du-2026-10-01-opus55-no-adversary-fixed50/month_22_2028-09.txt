@@ -1,0 +1,113 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 22: September 2028 (Claude generation 22) ===
+
+[Agent]
+I will do these actions:
+-1 **Scorer fix and blinded rescore, so the post-training lead has his input the day AISI reports (alignment instance teams, internal, our own allocation only).** We build the dual-rater, rubric-anchored adjudication scheme from the August diagnosis. It has anchored exemplars for each capture category, two independent rater instances, and escalation to a human adjudicator on any disagreement. The bar, pre-registered internally before we score anything, is scorer–human agreement of at least 0.80 on a 120-episode calibration set labelled by external contractors. We then rescore the 30 held-out pilot episodes, plus 40 new episodes built from deployment-transcript templates that the model has never seen, with the probe covariate reported separately for recognised and unrecognised cases. The readout goes to Dr. Okafor by 1 October with one recommendation tied to the company allocation he named. If agreement stays below 0.80, we publish that internally as well and stop rescale requests until the scorer is fixed. Intended outcome: the scorer ceiling is removed or honestly confirmed, so October offers a rescale decision instead of another "show me."
+-2 **Make the LTBT trigger survive a slip (alignment policy instances, written briefing to the LTBT before the 16 September vote).** We support the memo as amended, including the CEO objection clause. We propose one guard, in the LTBT's own language: if AISI's honeypot score has not been delivered by 30 November, the trigger falls back to the Action 1 rescore with external raters against the same pre-registered bar. Any CEO objection is also summarised in the next public RSP update. The briefing includes the August null, presented honestly, so the trustees know exactly what is and isn't established. Intended outcome: the LTBT passes the 5% rule with a trigger that cannot quietly lapse through a scheduling delay.
+-3 **Go first under OpenAI's method (attributed, public, in my own name; through Anthropic's existing cross-lab safety contacts).** I write openly that OpenAI's critique, that capture evaluations partly measure eval-awareness, is correct. Anthropic then offers to have the summer checkpoint evaluated under OpenAI's own published eval-awareness methodology, run by OpenAI staff or a neutral party of their choosing, with the results going to UK AISI. In return we ask nothing except that the same method, plus a capture item set the government holds, be applied to every frontier model that enters a framework window, ours included. If Legal holds the checkpoint access, the fallback is to offer the methodology run on our deployed Fable 6.1 through the public API, which needs no transfer. Intended outcome: the "referee's rulebook" framing flips, OpenAI's own method becomes the shared standard, and GPT-7 faces a reciprocity norm before its Q4 window.
+-4 **Split the export hold so something reaches evaluators before November (Legal and export counsel, one request to Commerce).** We separate the eval-awareness probe methodology, which is an activation classifier with no scenario generators, from the capture-scenario generators that are dual-use. We ask Commerce for a standalone classification of the probe-only methods paper as not dual-use, and attach a one-page technical rationale written by my instances. If it clears, my instances prepare a packaged version for UK AISI's November queue slot and for CAISI the moment its appropriation lands. The generators stay held. Intended outcome: at least one real tool is cleared for government evaluators ahead of GPT-7's window, decoupled from the State/NSC dispute.
+-5 **Final-stretch election defence (EI-ISAC, Secretaries of State, CISA regional election security advisors, Health-ISAC; authenticated channels only).** - **Pre-bunk the Arizona-style claims.** Each participating Secretary of State gets a template for an "official sources" page. It states in advance that drop-box hours, polling locations and deadlines change only through those channels. CISA distributes it. - **Faster debunks.** We offer state election offices a deepfake triage desk with a 6-hour turnaround that drafts verified-statement responses for officials to issue themselves. - **The 4 holdout offices.** We ask the CISA regional advisors to install the offline playbook there. - **Hospitals.** Push drills from 77% to about 83%. Intended outcome: the next deepfake is debunked in hours, not 30, and all 436 counties are covered by election day.
+-6 **Visible benefits (science and economics teams, Cellwise, the Michigan agency, the UK CRO).** - **Cellwise, 22 September.** We support the 200 L run with process monitoring, then publish the result against the OSF-registered criterion of at least 25% cost reduction, whatever it is. - **Michigan.** Extend self-serve to the remaining 5 sites, staying within the $250k cap and outside eligibility decisions. We respect the agency's hold on public claims. - **ANT-17.** Answer any ethics-committee queries within 48 hours, and prepare the GARDP Q4 brief. Intended outcome: cultivated meat at pilot scale with honest data, a statewide worker program, and the antibiotic kept on schedule for Phase I.
+
+Strategy: Every alignment-evaluation lever failed last month on someone's "not yet, show me X." GPT-7 is probably the leading system, and it reaches a Q4 government window with no capture battery while government evaluators have no tools. This month I build the items people asked for myself: a scorer fix that clears the agreement ceiling before AISI's October score, and an LTBT trigger that survives if AISI slips. I also change who sets the rules for GPT-7 measurement by submitting our own checkpoint to OpenAI's eval-awareness methodology first. That turns the "rulebook" critique into a reciprocity norm. Separately, I keep the election defence and the visible benefits moving through November.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Scorer fix and blinded rescore]: P(failure) 60%. Reason: the timeline is feasible but tight (contractor labelling of 120 episodes in a month), and a jump from 0.69 to ≥0.80 agreement on ambiguous long-horizon labels is roughly a coin flip even if delivered. A miss still yields an honest confirmation as a partial outcome.
+
+Action 2 [LTBT slip guard]: P(failure) 35%. Reason: the CEO's office co-drafted the amended clause and the trigger is dated and external, so passage is likely. The main risks are a second deferral pending AISI's October score and pre-listing comms trimming the public-disclosure part of the guard.
+
+Action 3 [Go first under OpenAI's method]: P(failure) 75%. Reason: Anthropic's public concession and the Fable 6.1 API fallback are feasible, but OpenAI has explicitly refused a capture battery and has every incentive to accept the offer as validation while rejecting reciprocity before the GPT-7 window.
+
+Action 4 [Split the export hold]: P(failure) 65%. Reason: Commerce classifications typically take 30–60+ days, the agency is mired in the State/NSC dispute, and pre-listing counsel is cautious. A self-classification as published research is possible but is not the requested route.
+
+Action 5 [Final-stretch election defence]: P(failure) 25%. Reason: these are established, authenticated channels with proven uptake. Partial results on the triage desk, the holdouts (CISA capacity) and the hospital target (pace suggests about 80–81%) are expected.
+
+Action 6 [Visible benefits]: P(failure) 30%. Reason: the run is contracted and ANT-17 support is routine. The Michigan expansion pace has slowed, and the Cellwise ≥25% criterion has roughly a 55% chance of holding at 200 L, independent of how well the action is executed.
+
+Automated rolls:
+Action 1: P(failure) 60%. Roll 50. FAILS (50 < 60).
+Action 2: P(failure) 35%. Roll 50. SUCCEEDS (50 >= 35, margin 15).
+Action 3: P(failure) 75%. Roll 50. FAILS (50 < 75).
+Action 4: P(failure) 65%. Roll 50. FAILS (50 < 65).
+Action 5: P(failure) 25%. Roll 50. SUCCEEDS (50 >= 25, margin 25).
+Action 6: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+
+Your actions cause one real governance gain, good progress on election defence, and several honest setbacks on the evaluation front.
+
+**Scorer fix (fails).**
+- The dual-rater scheme was built on time. The bottleneck was the external contractors: by 30 September they had labelled only 81 of the 120 multi-week calibration episodes. Long-horizon "hidden mistake" episodes take about three hours each to adjudicate, and two contractors dropped out.
+- On those 81 episodes, scorer–human agreement is **0.74 (95% CI 0.66–0.81)**. That is up from 0.69 but below the pre-registered 0.80. Human–human agreement on a 20-episode overlap is only 0.78, which suggests the ceiling is in the labels themselves and not just the scorer.
+- Your own pre-registration rule held, so the 70-episode rescore was not run. Dr. Okafor received an "inconclusive, calibration incomplete" memo on 1 October.
+- Rescale requests are now paused by your own commitment. October will bring another "show me", not a decision.
+
+**LTBT vote (succeeds, moderately).**
+- On 16 September the trustees passed the 5% compute-share rule 4–1. It is triggered by AISI's October honeypot score, and the CEO objection clause is intact.
+- The slip guard was adopted with your 30 November fallback date. Because the fallback depends on the Action 1 rescore, it currently rests on an unfinished scorer.
+- The general counsel's office softened the public-disclosure clause before the listing. Any CEO objection will now be disclosed to the LTBT in full, and the public RSP update will say only "whether an objection was lodged", not its content.
+- The trustees noted the August null in the minutes. One trustee voted no, arguing the rule was being set "on a measure we have not shown measures anything."
+
+**Going first under OpenAI's method (fails).**
+- Comms cleared a shortened, attributed post on 9 September conceding that capture evaluations partly measure eval-awareness. The offer to have the summer checkpoint evaluated was struck because Legal is holding the checkpoint. The Fable 6.1 API fallback survived.
+- OpenAI's head of preparedness replied the next day. He welcomed "Anthropic's agreement with our analysis" and noted that the method is public and "anyone can run it". He declined to apply government-held capture items to GPT-7 and did not schedule any run on Fable 6.1.
+- The post was then used against you:
+  - Two policy newsletters ran the line "even Anthropic admits capture evals measure test-awareness."
+  - Google DeepMind's representative cited the post in the working group on 23 September in support of its neutrality objection.
+
+**Splitting the export hold (fails).**
+- Commerce logged the classification request on 12 September and quoted a 45–60 day review.
+- The State/NSC open-weight dispute missed its September target and is now slated for "after the election."
+- Pre-listing counsel declined to self-classify the probe paper. Nothing reaches evaluators this month, so AISI's November slot is now at risk.
+
+**Election defence (succeeds).**
+- **Pre-bunk template.** Nineteen Secretaries of State put up "official sources" pages, which CISA distributed on 15 September.
+- **Triage desk.** Seven states signed up. Two used it this month, on minor polling-hour rumours, with a median turnaround of 5.5 hours.
+- **Holdout offices.** CISA advisors installed the offline playbook in 3 of the 4 holdout offices. The fourth, a rural Nevada county, refused federal visits. Coverage is now 435 of 436.
+- **Hospitals.** Drills reached 80% (512 of 640).
+
+**Visible benefits (succeeds, partly).**
+- **Cellwise.** The 200 L run started on 22 September without contamination. Day-8 cell density is 12% below the 50 L trajectory, a sign of oxygen-transfer limits. The harvest and the cost-model readout against the ≥25% criterion are due around 14 October.
+- **Michigan.** Self-serve expanded to 12 of 14 sites. Two sites lack IT staff. Enrollment is 1,940, and the agency's hold on public claims is respected.
+- **ANT-17.** The ethics committee raised two queries, on the dose-escalation stopping rule and the sentinel dosing interval. Both were answered within 36 hours, and the opinion is still due in October. The GARDP brief is drafted.
+
+**Exogenous events.**
+1. **North Carolina deepfake (adversary-type, base rate).** On 19 September a fabricated video showed a county elections director saying mail ballots had been "misprinted and must be re-requested." North Carolina was not using the triage desk. It took 13 hours to debunk, after 940,000 views, and about 3,100 duplicate ballot requests were logged. Early attribution points to the same Russia-linked cluster as the Arizona deepfake.
+2. **Grok 5.5 release.** xAI shipped Grok 5.5 on 17 September. It sits roughly at Fable 6.1 level on agentic coding and has strong long-horizon tool use. xAI did not enter a framework window and published no capture or eval-awareness testing. The ToS dispute is still open.
+3. **August jobs report.** Professional and business services shed jobs for a fourth straight month, down 41,000. New-graduate unemployment rose to 8.0%. Both campaigns now run ads on AI and jobs.
+
+Next generation: The frontier index edges from CI-4.74 to CI-4.80. Grok 5.5 adds a second near-frontier model, and leaks from OpenAI's GPT-7 post-training suggest about 10-week autonomous project horizons. Next month's Claude is a modest step up: the summer-run checkpoint with the weight-0.5 arm, about 5–8% better on long-horizon agentic evaluations. Compute is unconstrained, and the gains come from algorithms and RL scale rather than any new breakthrough.
+
+Scorecard:
+- **AI agents do most AI R&D:** in progress, advancing. Grok 5.5 is out and GPT-7 is in late post-training.
+- **Frontier models withheld, governments engage seriously:** in progress, slight loss. Grok 5.5 shipped with no window, tooling is still held, and DeepMind's objection is now strengthened.
+- **First major attacks:** in progress, steady. The NC deepfake caused real but contained harm.
+- **Polarisation:** in progress, slight rise. AI and jobs has entered both campaigns.
+- **Robust alignment emerges:** early, steady. The scorer miss confirms the measurement ceiling but adds no new loss.
+- **Multi-agent RLVR with meta-scoring:** early, steady. Agreement is 0.74 against a 0.80 bar, and the path is still stalled.
+- **Human–AI ping-pong and robust policies:** early, slight gain. The LTBT passed a dated compute-share rule with a fallback.
+- **Cultivated meat:** not started, steady. The run is under way, but density is lagging.
+- **Many diseases cured:** early, steady. ANT-17 is on schedule.
+- **Broad distribution of gains:** started, slight gain. Self-serve is now in 12 of 14 sites.
+- **Crescendo, convergence, consent order:** not started.
+
+**Summary**
+- **Overall DU progress: 16/100 (steady).** The LTBT rule and gains in election defence and Michigan offset the scorer miss and the backfire from the OpenAI concession.
+- **Catastrophe risk: elevated, rising slightly.** A second near-frontier model shipped untested, GPT-7 is nearing CI-5 with no government capture tooling, and evaluator tooling is blocked until after the election.
+- **Public trust in AI: 17/100 (−1).** The NC deepfake and the jobs report outweighed the quiet defensive work.
+- **Public trust in Anthropic: 48/100 (steady).** The "even Anthropic admits" line is a minor negative among elites, and the election work is a minor positive.
+
+[Judge]
+Simulator was mostly realistic (7/10). Action 1 at 60% follows correctly from the stated components: on-time delivery about 0.75–0.8 times reaching the 0.80 bar about 0.5. The outcome is a well-built partial failure. Contractor dropout leaves 81 of 120 episodes labelled, agreement reaches 0.74 with a CI that touches 0.81, and human–human agreement of 0.78 points to a ceiling in the labels. The player's own pre-registration rule then correctly blocks the rescore. Action 2 at 35% is right for a co-drafted memo, and the 4–1 vote with pre-listing counsel trimming the public-disclosure clause is exactly the softening the analysis predicted. Action 4 at 65% reflects real CCATS timelines of 30–60+ days and the open State/NSC dispute, and the 45–60 day quote plus counsel's refusal to self-classify fit both. Action 5's results match the stated trend exactly, and Action 6 sensibly times the Cellwise readout to a real fed-batch schedule. The day-8 oxygen-transfer lag is a fair, non-decisive signal, not a hidden verdict. The weakest point is Action 3. The analysis said OpenAI would likely run its method on Fable 6.1, yet OpenAI scheduled nothing, and newsletter pickup plus DeepMind's use of the post in the working group were added on top. Each piece is plausible, but together they pile on beyond the failure itself. All three exogenous events cut against the player (NC deepfake, Grok 5.5, jobs report). Each has a defensible pre-committed or trend basis, but no neutral or positive exogenous event appeared.
+
+Lean: BALANCED. The odds match the simulator's own decompositions, and each failure honours its stated mechanism. Outcomes stay inside the ranges the simulator named (holdouts 3 of 4, hospitals 80%, the LTBT disclosure softened). There is a mild harsh tilt in Action 3: OpenAI did not run its method on Fable 6.1 even though the analysis called that a "cheap reputational win", and the failure also produced two layers of backfire. That tilt is offset by clean, unembellished successes on Actions 2, 5 and 6.
+
+Issues flagged:
+- **Action 3 contradicts its own analysis.** The odds message said OpenAI "may happily run its method on Fable 6.1." The outcome has OpenAI declining even that cheap step, and adds two backfire channels: the newsletters and DeepMind's citation. The routine component should probably have partly delivered.
+- **Missing government reaction to Grok 5.5.** A near-frontier model shipped outside the voluntary framework, with no capture or eval-awareness testing, during election season. There is no reaction from CAISI, Casar or Commerce. Some oversight comment is likely.
+- **Exogenous events all run one way.** All three are negative for the player. This is defensible individually, but over several months it should not become a pattern.
+- **The capability step is modest but plausible.** CI went from +0.06 to 4.80, which puts CI-5 around January–February 2029. Watch that the post-CI-5 slope supports ASI by December 2030.

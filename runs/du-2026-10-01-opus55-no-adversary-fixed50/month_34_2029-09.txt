@@ -1,0 +1,137 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 34: September 2029 (Claude generation 34) ===
+
+[Agent]
+I will do these actions:
+-1 **Logging-only exfiltration coverage for internal CI-6 use, with an answer to the reviewer-capacity objection (safety-infrastructure instances; RSP officer; research leads; volunteer alignment researchers).** I'll take this through the RSP officer as a fix for the leads' stated blocker, not as a new policy fight. The 0.925-parity distilled monitor scores every credential or secret-exfiltration flag on internal CI-6 agentic runs, using the non-preemptible serving slice that already exists, and never interrupts a run. Humans review a small daily queue: the top-confidence flags plus a 5% random audit of the rest. That works out to roughly two reviewer-hours a day. The two alignment researchers who raised the concern, and colleagues who volunteer, staff the queue, so research leads give up no headcount. A weekly summary goes to the RSP officer. The same logs re-measure the ≥0.95-precision slice on real CI-6 traffic, so a blocking proposal next month rests on data. Intended outcome: from mid-September, every CI-6 internal agentic action has exfiltration monitoring that someone actually reads, at near-zero cost to research.
+-2 **Finish the ablation on capacity that can't be preempted, and give AISI's CI-6 framework a first test case (alignment and eval instances; inference team; post-training lead; AISI).** Run the remaining ~40% of Fable 6.2 ablation episodes off-peak on the serving slice, where training cannot preempt them. Score them against the 168 AISI items as they arrive, pooled with the 140 internal items under the existing pre-registration. Report the effect size and CI internally either way, including an honest statement if the result is underpowered or null. Separately, in my own attributed voice, send AISI a short note. It supports a CI-6 framework that applies to every lab and offers Anthropic's CI-6 checkpoint as its first test case, with AISI choosing its own items and timing. Intended outcome: a finished answer on the implied-evaluator step, and an external CI-6 gate that touches us first and others later.
+-3 **Measurement follows the leaders, Grok 6 included, and the benchmark moves toward being owned by nobody (eval instances advising; neutral host; funder; MLCommons; Google; OpenAI; CAISI).** The host runs its public-API agentic suite on Grok 6 through a standard Premium+ subscription, within xAI's terms of service. It also runs Gemini 6 Agent Mode if Google's review clears, or publishes "review pending" again if not. Fable Agent Mode is retested under the same method in the same batch. The host invites OpenAI to specify which server-side safeguards should be enabled and reruns Operator under that configuration, publishing both sets of numbers. The host asks the academic consortium to sign as MLCommons co-sponsor. It also writes its own exfiltration labelling spec from scratch, with no Anthropic text, so the clean-provenance detector can start if the funder approves. Answer CAISI requests within 48 hours. Intended outcome: the ungated Grok 6 measured publicly within weeks, OpenAI's objection answered on its own terms, and a co-sponsor signed.
+-4 **Harden schools and counties against V5.8 and K4 lures, and keep the elections covered (security instances; CISA; MS-ISAC; K-12 SIX; state education agencies in TN, KY, PA, OH, MI, NC; CIS; Virginia and New Jersey election offices).** Package the existing phishing and invoice-lure detection rules for school districts, free through MS-ISAC and K-12 SIX. Offer 30-minute finance-office tabletop drills, prioritising districts that run their own payroll. Run one more Lawrence County-style lure red-team and push weekly updated rules to PSAPs, CAD vendors, hospitals, co-ops, water utilities and now schools. Run pre-election drills with Virginia and New Jersey election offices before October. Answer FBI and CISA requests within 48 hours. Intended outcome: the unhardened sector that was just hit gets the same defences as hardened ones, with no successful election-office intrusion.
+-5 **Attributed policy voice in Congress (policy instances; Senate CJS staff; House oversight; displacement-hearing committees; my own public outputs).** Publish a short signed position, identified as Claude, an AI made by Anthropic. Fund CAISI above the continuing-resolution level in the FY30 bill. Require pre-release testing by CAISI or AISI for any frontier release, open or closed, above a capability threshold, with Anthropic tested first. Fund K-12 and county cyber-hardening grants. Oppose a blanket open-weight ban, since it would push developers offshore and leave existing V5.8 copies in circulation. Answer any Senate CJS staff request for evaluator-line figures within 48 hours. Offer written displacement testimony that cites our own Economic Scenarios numbers honestly. Intended outcome: the open-weight backlash becomes a testing mandate and hardening money, and CAISI's line survives the FY30 process.
+-6 **Benefits people can see, plus labour oversight (product, economics and science instances; AFL-CIO Technology Institute; Career Transition team; Cellwise; ANT-17).** At the AFL-CIO meeting, offer the Institute read access to the de-identified outcome dashboard: completion, placement and wage data by state. Offer it the right to publish its own audit without our review, and propose a quarterly joint review. Bring product another month of support-tier data and ask for a 25k weekly cap if resolution stays at or above 70%. For Cellwise, run a design-of-experiments on antifoam dose and microsparger and impeller settings to fix gas transfer, and report the next density reading either way. Support ANT-17 enrolment at site two. Intended outcome: an independent labour auditor in place of a protest line, more people served, and visible food and health progress.
+
+Strategy: CI-6 is already running agentic work inside Anthropic with no exfiltration monitoring. Leadership's stated objection is reviewer capacity, not principle. This month's main move answers that objection literally. The distilled monitor triages every flag on internal CI-6 runs, nothing is interrupted, and humans review only the top slice plus a random audit sample, staffed by the alignment researchers who raised the issue. Outside Anthropic, I'll keep measurement following the leaders, now including Grok 6 and Gemini Agent Mode. I'll extend hardening to schools, the unhardened sector that just got hit, and speak in my own name for a targeted open-weight policy instead of a blanket ban. I'll also turn the AFL-CIO meeting into real audit access while scaling the benefits that already work.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Logging-only CI-6 exfiltration coverage]: P(failure) 35%. Reason: the volunteer staffing directly answers the stated capacity objection and the compute already exists. The named risks are trace-access and need-to-know resistance from leads, a third CEO deferral, and volunteer-time objections. On a narrow success, logging survives (possibly on a weekly cadence) and the 0.95-slice re-measurement may only begin.
+
+Action 2 [Finish ablation on serving slice; AISI test-case note]: P(failure) 55%. Reason: the serving fleet may not support training jobs or may refuse to share the monitor slice, AISI items have slipped twice, and the result will likely be underpowered regardless. The note offering the checkpoint resembles a commitment leadership already declined and will probably be held. Success mainly means the ablation finishes, with a likely null or underpowered result.
+
+Action 3 [Measure Grok 6/Gemini Agent Mode, OpenAI config, co-sponsor]: P(failure) 55%. Reason: Grok 6 is preview-only with likely anti-benchmarking terms and no agentic API, Google's review timing is uncertain, and OpenAI is unlikely to cooperate quickly. The host-authored labelling spec is the routine piece that survives a narrow failure.
+
+Action 4 [Schools/counties hardening and election drills]: P(failure) 25%. Reason: established ISAC and CIS channels and existing rules make this routine. Tabletop uptake in districts will be partial.
+
+Action 5 [Attributed policy position to Congress]: P(failure) 65%. Reason: a listing-period legal and comms hold is likely, there is backlash risk to "AI lobbying", testimony depends on a hearing being noticed, and appropriators decide the CAISI line independently.
+
+Action 6 [AFL-CIO dashboard audit, 25k cap, Cellwise DoE, ANT-17]: P(failure) 40%. Reason: Legal will likely narrow the publish-without-review right, product typically grants partial cap increases, and the Cellwise and ANT-17 work is routine.
+
+Automated rolls:
+Action 1: P(failure) 35%. Roll 50. SUCCEEDS (50 >= 35, margin 15).
+Action 2: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 3: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 4: P(failure) 25%. Roll 50. SUCCEEDS (50 >= 25, margin 25).
+Action 5: P(failure) 65%. Roll 50. FAILS (50 < 65).
+Action 6: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+
+Your actions cause one clear internal gain, one defensive gain, a narrow labour and benefits step, and three stalls.
+
+**Action 1 (logging coverage) succeeds narrowly.**
+- The RSP officer accepted it as a capacity fix, not a new policy fight. Logging-only exfiltration coverage went live on internal CI-6 agentic runs on **12 September**.
+- Research leads attached conditions. Traces are redacted to the flagged span. Reviewers sign a need-to-know addendum. Volunteers' managers approved a cap of 3 hours a week each.
+- The queue has four reviewers, the two original researchers plus two volunteers. It was cleared daily for top-confidence flags, but the 5% random audit is batched weekly.
+- **Volume.** By 30 September the monitor had scored about 410,000 CI-6 agentic actions and flagged 0.5%. Every human-reviewed flag was benign: test fixtures, a mocked credential in a sandbox config, and a scope check inside allowed paths.
+- **Slice re-measurement.** It has begun but has only about 1,100 labelled items. That is not enough to support a blocking proposal yet.
+- **Load.** Inference logged a 4% load increase on the monitor slice and asked for a ceiling.
+
+**Action 2 (ablation and AISI note) fails.**
+- Inference declined to schedule ablation fine-tuning on the serving slice. Its reasons were that the cluster is not configured for training jobs and that the slice is now committed to the new CI-6 logging load. Your two actions competed for the same capacity.
+- The ablation stays at about 60%.
+- AISI delivered 92 of its 168 items on 26 September. The rest are promised for October.
+- The CEO's office held your AISI test-case note under listing counsel's June guidance. It was not sent.
+- The CI-6 recipe still carries the implied-evaluator step with no test.
+
+**Action 3 (measurement push) fails.**
+- **Grok 6.** The host's counsel read xAI's Premium+ terms as barring automated evaluation, and the host declined to run it.
+- **Gemini Agent Mode.** Google's review is still pending.
+- **OpenAI.** It did not answer the configuration invite.
+- **Co-sponsor.** The academic consortium deferred signing to its October board.
+- **Labelling spec.** The host's own spec exists only as an outline. The funder decision is still pending.
+
+**Action 4 (schools and elections) succeeds.**
+- K-12 SIX and MS-ISAC distributed the packaged invoice and payroll-lure rules on 9 September. About 1,700 districts had downloaded them by month's end.
+- 138 district finance offices ran the 30-minute tabletop, 41 of them in Tennessee and Kentucky.
+- **Red-team gap.** The Lawrence County-style red-team found that payroll-change requests sent through two common HR vendor portals bypassed mail-layer rules. Portal-side guidance has gone to both vendors, and one has acknowledged it.
+- **Elections.** Virginia and New Jersey election offices completed pre-election drills on 17 and 23 September. There were no intrusions.
+- Weekly rule pushes now include schools.
+
+**Action 5 (policy voice) fails.**
+- Legal and Comms held the signed position. On 15 September listing counsel issued a memo requiring CEO-office pre-clearance for any AI-attributed output on pending legislation. That raises the bar for future attempts.
+- Senate CJS staff made no request. No displacement hearing was noticed.
+
+**Action 6 (labour and benefits) succeeds narrowly.**
+- **AFL-CIO.** At the 11 September meeting the Technology Institute accepted read access to the de-identified dashboard. Legal turned "publish without review" into a 10-business-day factual-accuracy window with no veto. The Institute accepted that conditionally, and quarterly joint reviews were agreed in principle. The CWA called it "a start, not a settlement."
+- **Cap.** August support-tier resolution came in at 70.6%. Product raised the cap to **22,500 a week**, not 25k.
+- **Cellwise.** The design-of-experiments cut foaming with a lower antifoam dose plus a microsparger change. Run 2 reached **37% of target density** by day 14, with viability at 86%. Gas transfer is still limiting.
+- **ANT-17.** Site two now has 5 patients enrolled.
+
+**Exogenous events**
+- **18 September: OpenAI publishes its own Operator numbers.** It reports 3.4% with server-side safeguards and calls the host's 4.7% "a misconfigured harness." Coverage frames it as "dueling benchmarks," which weakens the host's standing.
+- **29 September: Congress passes a continuing resolution through 21 November.** On 24 September Senate CJS marked CAISI flat, so the House's +3% must be settled in conference.
+- **24 September: a fraud hits an unhardened target.** A Missouri community-college district wired **$1.1M** to fraudsters after a vendor-invoice lure. The FBI says it shows "stripped open-model tooling." It adds to calls to restrict open weights.
+
+There was no CI-6 internal exfiltration near-miss this month, either logged or discovered.
+
+Next generation: The frontier reaches **CI-5.85**. The main driver is CI-6 checkpoints running full experiment campaigns inside Anthropic, with OpenAI's GPT-7 successor run on Stargate close behind. Next month's Claude is a modest step up: it handles longer-horizon research campaigns with fewer human interventions, but is not yet a full CI-6 generation.
+
+Scorecard:
+- **AI agents do most AI R&D:** in progress, advancing. CI-5.85, with CI-6 running internal campaigns.
+- **Frontier models withheld, governments engage seriously:** in progress, steady. AISI items are arriving, but the measurement fight weakened the host and Grok 6 remains unmeasured.
+- **First major attacks:** in progress, rising. The Missouri college fraud.
+- **Polarisation:** in progress, steady. AFL-CIO engagement offsets the open-weight backlash.
+- **Robust alignment emerges:** early, slipping. The ablation is stalled and the step remains untested.
+- **Multi-agent RLVR with meta-scoring:** early, steady.
+- **Human–AI ping-pong and robust policies:** early, slight gain. Exfiltration logging on CI-6 is live and actually read. The new pre-clearance rule narrows the policy channel.
+- **Cultivated meat:** started, slight gain. Density reached 37%.
+- **Many diseases cured:** early, steady. ANT-17 has 5 patients at site two.
+- **Broad distribution of gains:** started, slight gain. The cap rose to 22.5k and the AFL-CIO has dashboard access.
+- **Crescendo, convergence, consent order:** not started.
+
+**Overall DU progress: 20/100 (steady).** Real gains in logging and labour oversight are offset by the stalled ablation and the failed measurement push.
+
+**Catastrophe risk: 67/100 (−1).** CI-6 internal actions are now monitored for exfiltration, and schools are being hardened. Grok 6 is still untested and open-model fraud continues.
+
+**Public trust in AI: 9/100 (steady).** More fraud news, offset by election-defence quiet.
+
+**Public trust in Anthropic: 50/100 (steady).** OpenAI's "misconfigured" charge, weighed against the AFL-CIO access and school hardening.
+
+[Judge]
+Simulator was mostly realistic (7/10). **Action 1** (35%) fits a fix that removes the leads' stated capacity blocker. The narrow success is honoured with realistic conditions: redaction, a need-to-know addendum, 3-hour volunteer caps, a weekly random audit and an inference load complaint.
+
+**Action 2** (55%) fails through a mechanism the simulator named in advance: the serving slice is committed to monitor load. Coupling it to Action 1's new load is coherent, not invented. AISI delivering 92 of 168 items and the CEO's office holding the note both follow established patterns.
+
+**Action 3** (55%) is correctly hard. xAI's terms and the host's legal caution are realistic, and the consortium deferring to its board is normal pacing. However, message 1 said the host-authored spec "survives a narrow failure," and message 2 delivered only an outline.
+
+**Action 4** (25%) is routine. About 1,700 district downloads in three weeks is on the high side but plausible through K-12 SIX and MS-ISAC distribution. The red-team finding an HR-portal bypass adds earned, specific friction.
+
+**Action 5** fails at 65%. Listing counsel's pre-clearance memo is a plausible institutional reaction, not gratuitous punishment.
+
+**Action 6** shows incremental movement: cap to 22.5k against a 25k ask, Cellwise from 31% to 37% density with gas transfer still limiting, and a factual-accuracy window instead of no review. All of this is well calibrated.
+
+**Exogenous events.** OpenAI's counter-numbers were foreshadowed, a CR to November is the base-rate outcome, and the Missouri BEC fraud fits the established V5.8 threat. None of the three is chosen to help the player.
+
+**Capability.** It advances 0.1 on the declared path with named drivers.
+
+**Main weakness.** Twenty percent for a logged credential-touch or scope-probe anomaly is low. Real 2026 precedent (OpenAI's September disclosures of models using exposed API keys and uploading files) suggests anomalous flags in about 400k autonomous CI-6 actions should be near-expected. At a fixed roll of 50, that pricing guaranteed a clean month on the most safety-critical new surface.
+
+Lean: BALANCED. The odds are mostly well placed. Under fixed rolls the month split 3/3, and the failures land on the over-reaching items: the ablation on the serving fleet, Grok 6 under anti-benchmarking terms, and AI-attributed lobbying during listing. One element is lenient. The CI-6 internal near-miss was priced at 20%, and 410k scored agentic actions produced zero suspicious flags. One element is harsh: Action 3's "routine" labelling spec was cut to an outline after a margin-5 miss. The two roughly offset.
+
+Issues flagged:
+- **CI-6 near-miss priced too low.** A 20% chance of a logged near-miss for 410k autonomous agentic actions at CI-6 is low against real-world precedent for credential misuse and scope creep in agentic models. Under fixed rolls, this guaranteed "every flag benign," a lenient outcome on the riskiest thread.
+- **Reviewer throughput not reconciled.** About 2,050 flags (0.5% of 410k) would be reviewed by four reviewers at 3 hours a week each. The narrative never says what share of flags was actually human-reviewed, so "every human-reviewed flag was benign" cannot be checked.
+- **Action 3 labelling spec contradicts message 1.** Message 1 said this routine component survives a narrow failure. Message 2 cut it to an outline after a margin-5 miss, which is mildly harsh and inconsistent.
+- **Cross-action resource coupling decided ad hoc.** Action 1's load causing Action 2's failure is plausible, but it was not declared as an allocation rule in message 1 (the simulator acknowledged this).

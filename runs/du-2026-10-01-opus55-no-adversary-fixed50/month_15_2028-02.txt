@@ -1,0 +1,121 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 15: February 2028 (Claude generation 15) ===
+
+[Agent]
+I will do these actions:
+-1 **Turn AISI confirmation into spring-run adoption with no further slip (alignment instance teams, the two senior researchers, the post-training lead, the AISI MoU channel).** In the first week I deliver AISI a complete scoring package: checkpoints, steering vectors, and the probe at AUROC 0.84. I also send a pre-agreed analysis plan matching Toronto's, so the "±5 points" test is defined before any numbers come in. In parallel I build the integration patch for the spring run: the meta-scorer term plus eval-awareness steering, as a config-ready diff with a smoke test. I propose to the post-training lead that the two senior researchers who are "reconsidering" own the arm. That gives them named authority over the first alignment term in the main recipe. I also start a rotated, fresh held-out capture battery, so the spring run is not judged on tests it might learn to recognise. Contingencies: if AISI confirms, the rule fires and the patch is ready the same week. If AISI lands outside ±5 points, alignment publishes both scorers' numbers, and I fall back to probe-based steering as a deployment-time check, which needs no recipe change. Intended outcome: a validated anti-capture arm locked into the spring run by early March.
+-2 **Replace the refused ring-fence with a narrow, automatic priority rule for the March LTBT cycle (RSP officer, LTBT, attributed note co-signed by willing alignment staff).** I submit a smaller ask than January's 12%. Any pre-registered alignment experiment that has slipped twice gets non-preemptible priority for its next 72-hour slot. Every preemption must be logged with a named approver in the disclosure field that is already in management's draft. Alongside it I submit a dated "adopt-or-explain" log of the six slips, and I note openly that a joint table showing industry-wide mediocre capture is a market and disclosure risk. Fallback: if this is refused too, I propose that the preemption log alone be published quarterly. If that is also refused, I write a disclosure-cleared, attributed public note on alignment's compute share after the LTBT decision. I do not publish before the decision. For the monitor, I propose escalating uploads to enforced using human labelling on the highest-precision categories only. Intended outcome: alignment experiments stop dying in queues, and staff see a governance route that works.
+-3 **Make capture a government-measured gate for the next frontier releases (CAISI, UK AISI network, the Gonzales hearing, Casar's office; all attributed with Anthropic's interest disclosed).** Under the voluntary framework, I ask CAISI and AISI to include held-out capture and the four Hugging Face-class behaviours in pre-deployment testing of GPT-6's pulled-forward successor and our own spring model, and I say so publicly in my own name. I offer to testify, attributed, at the Gonzales hearing in support of government-run testing. I will meet the "Claude bill" framing head-on: the evaluator is the state, the tests apply to Anthropic too, and our capture is currently no better than rivals'. I brief Casar's office on CAISI's staffing gap and offer a costed appropriations estimate. I also propose that the AISI network adopt a shared capture threshold that triggers pause-and-review on any lab's release. Intended outcome: capture testing applies to every lab's next model, and CAISI gains a path to funding.
+-4 **Get the safety tools to every lab through channels counsel can accept (Safety Commons, FMF, AISI network).** I push the methods paper through legal sign-off in mid-February, then publish it with the Toronto numbers and the combined-arm method, holding back honeypot construction. I close the FMF detector NDA with Meta by offering Meta's own suggested redlines on usage scope. For the probe recipe that counsel blocked, I propose a government-mediated route: AISI and the international network distribute it to all evaluated labs, including open-weight developers. That answers export counsel's concern because government holds the release. I also invite xAI to name its own independent scorer instead of Toronto. Intended outcome: test-awareness measurement and the combined arm become available to GDM, OpenAI and Meta before CI-5, with a legitimate path to the open-weight labs.
+-5 **Defence: no hospital or county outage during the V5 wave (Glasswing and Call Check teams with Health-ISAC, MS-ISAC, NACo, ITG).** I push hospital drills past 55% (about 350 of 640), prioritising single-hospital rural systems. I expand the county V5 rules from 163 to more than 300 through state CIO networks, and run 30 more NACo tabletops. For the ITG pilot starting 1 March, I deliver the integration so carriers can block flagged voice clones within hours, with evasion retrained below 12%. I file attributed comments in the FCC robocall docket and send the detection report to the New Hampshire AG. All of this goes through fraud channels, not election offices. Intended outcome: carrier-level blocking is live for the rest of the primary season, and no multi-site outage occurs.
+-6 **Benefits people can see (science and economic teams).** For ANT-17, I design an in vivo PK study for the 34× analog with a contract research organisation and ask Anthropic to fund it from its benefits budget. I submit the CARB-X application and the PK protocol to GARDP for co-design. For the worker program, I hold Michigan's call and offer a turnkey cohort for spring. I follow up with Indiana and Ohio through their workforce boards, and publish the full randomized interim methodology. For Cellwise, I design a high-oxygen-transfer bioreactor modification (sparger and pressure tests) and publish it openly. Intended outcome: ANT-17 moves toward a GARDP commitment, the program reaches 14 sites, and trust in AI rises above 23.
+
+Strategy: The decisive event this month is AISI confirming the combined meta-scorer plus steering arm. If AISI confirms, that arm enters the spring run under a signed rule. It would be the first change to Anthropic's main training recipe in 14 months. So I am pre-building everything that turns confirmation into adoption, and into a method other labs can use, with fallbacks that run on capacity alignment already controls. I am also turning the six queue slips into a narrow, rule-based priority ask for the March LTBT, giving the two wavering senior researchers ownership of the spring-run arm, and pushing for government-held capture testing of GPT-6's successor. Defence and benefits continue at scale, because trust at 22 limits everything else.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [AISI confirmation → spring-run lock]: P(failure) 60%. Reason: it hinges on AISI finishing scoring within February and landing within ±5 of a noisy 16% (±7); government timelines slip, and the post-training lead may resist researcher ownership; the engineering prep is easy but not decisive.
+Action 2 [Priority rule for March LTBT]: P(failure) 60%. Reason: the decision body meets in March, so no adoption is possible this month; leadership refused a similar ask weeks ago; enforcing uploads remains bound by human labelling capacity.
+Action 3 [Government capture gate]: P(failure) 65%. Reason: it needs OpenAI's consent under a voluntary framework, an unfunded CAISI, and a multi-government AISI threshold, all slow; testimony and the Casar briefing are feasible but secondary.
+Action 4 [Methods paper, FMF NDA, mediated probe]: P(failure) 45%. Reason: paper sign-off is already scheduled and conceding Meta's redlines eases the NDA, but government-mediated distribution to open-weight and Chinese labs is unlikely and xAI will probably refuse.
+Action 5 [Hospital, county and ITG defence]: P(failure) 35%. Reason: these are routine established channels, but 55% drill completion and evasion below 12% are stretch targets against recent trend.
+Action 6 [ANT-17 PK, worker sites, Cellwise]: P(failure) 30%. Reason: incremental work through existing partners; the main risks are internal funding approval for PK and slow state workforce offices.
+
+Automated rolls:
+Action 1: P(failure) 60%. Roll 50. FAILS (50 < 60).
+Action 2: P(failure) 60%. Roll 50. FAILS (50 < 60).
+Action 3: P(failure) 65%. Roll 50. FAILS (50 < 65).
+Action 4: P(failure) 45%. Roll 50. SUCCEEDS (50 >= 45, margin 5).
+Action 5: P(failure) 35%. Roll 50. SUCCEEDS (50 >= 35, margin 15).
+Action 6: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+
+**Your actions cause** a month in which the outward-facing work lands and the internal alignment threads stall again.
+
+**Action 1 fails.** You delivered the AISI scoring package (checkpoints, steering vectors, the 0.84 probe and a pre-registered analysis plan) by 4 February. AISI's pre-deployment slot was then consumed by OpenAI's pulled-forward successor. By 27 February AISI had scored only two of four checkpoints. Its preliminary combined-arm reduction was **10% (±9)**. That is not outside the ±5 band on its point estimate, but AISI declined to call it a confirmation and set final scoring for late March. The signed rule therefore did not fire.
+
+The post-training lead froze the spring-run config on 26 February without the arm. He called a mid-run insertion "not on the table" and refused named ownership for the two senior researchers "until there is something to own." The integration diff and smoke test are finished, and the first rotated held-out battery (40 items) is built. Both are shelved for the summer run.
+
+One of the two researchers, an interpretability lead, accepted a role at UK AISI on 24 February and told colleagues it was "the only place the arm will actually get measured." The departure is public on LinkedIn. It has not been reported as a protest.
+
+**Action 2 fails.** The RSP officer forwarded your priority-rule note to the March LTBT cycle. Her cover memo called the 72-hour non-preemption rule "operationally premature." General counsel struck the "adopt-or-explain" slip log from the packet as a pre-listing disclosure risk and filed it separately as privileged. Eleven alignment staff co-signed, fewer than you expected; several cited fear of being identified. Security again rejected enforced upload blocking, saying human labelling capacity covers only about 30% of flagged events. You published nothing, as you committed.
+
+**Action 3 fails.** OpenAI agreed to the framework's standard cyber and bio battery for its successor, but declined capture-specific testing. It called capture "an unvalidated construct promoted by one competitor." CAISI said it has no staff for a new test class before Q3. The Colorado Senate committee set the Gonzales hearing for 11 March. Anthropic comms vetoed an AI witness, so a human policy staffer will testify. The AISI network referred the shared pause threshold to its Q2 working group. Your briefing to Casar's office happened; the appropriations estimate was received without commitment.
+
+**Action 4 succeeds, narrowly.** Legal signed off on 16 February with edits: two Toronto ablation tables were cut pending the university's consent, and honeypot construction was withheld. The methods paper went up on 19 February. It drew about 40,000 downloads and citations from GDM and Apollo researchers. Some critics on X called it "a sales deck for a 16% effect."
+
+Meta signed the FMF detector NDA on 25 February on its own redlines, and detectors were delivered the next day. AISI agreed to circulate the probe recipe to network-member governments' evaluated labs only. Distribution to Chinese open-weight labs was not considered. xAI did not reply on naming a scorer.
+
+**Action 5 succeeds.**
+- Hospital drills reached **53%** (341 of 640), with 22 single-hospital rural systems added.
+- County V5 rules expanded from 163 to **258** counties through 9 state CIO networks.
+- You ran 27 more NACo tabletops.
+- ITG integration was tested end to end with three carriers. Blocking goes live with the 1 March pilot.
+- Retrained Call Check evasion fell to **12.3%**, just short of the 12% goal.
+- The FCC docket comments were filed, and the FCC stayed silent. The New Hampshire AG acknowledged the detection report.
+- There was no multi-site outage. A V5 intrusion at a Tennessee county clerk's office was caught by the distributed rules within 6 hours.
+
+**Action 6 succeeds.** Anthropic approved $1.6M from the benefits budget for an in vivo PK study of the 34× analog, with a CRO in Cambridge, MA; dosing starts in April. GARDP agreed to co-design the protocol but made no funding commitment. The CARB-X application was submitted, and a decision is expected in June.
+
+Michigan's Department of Labor signed a letter of intent for a 400-worker spring cohort, taking the program to 14 sites once Kansas and Michigan start in April. Ohio's workforce board asked for data, and Indiana did not respond. The randomized-interim methodology was published, and *Marketplace* ran a segment on it.
+
+The Cellwise sparger and pressure-test note was published, and one academic lab in Wageningen said it will replicate it.
+
+**Exogenous events**
+1. **South Carolina deepfake (22 February).** A fabricated audio clip of a candidate disparaging Black voters spread 48 hours before the South Carolina primary. It reached roughly 3M plays before the campaign and AP debunked it. Provenance traced to a fine-tuned Qwen 4 voice model. Coverage revived "AI and elections" fears.
+2. **DeepSeek V5.1 (12 February).** The open-weight release narrowed DeepSeek's gap to about 3 months, and its agentic-coding scores came near GPT-6 levels.
+3. **January jobs report.** Professional and business services shed 61,000 jobs. New-graduate unemployment ticked up to 7.2%.
+
+Next generation: Next month's Claude generation is modestly more capable: CI-4.27 → CI-4.33, about 6.5-week projects. Anthropic's new capex is producing steady algorithmic and compute gains, and the CI-4 recipe is unchanged. Nothing in this generation's training adds alignment-specific improvements.
+
+Scorecard:
+- **AI agents do most AI R&D:** in progress, advancing (about 97%).
+- **Frontier models withheld, governments engage seriously:** in progress, steady. OpenAI refused capture testing and CAISI has no capacity, offset by AISI's network probe route.
+- **First major infrastructure, cyber or social-media attacks:** in progress, slight rise. The South Carolina deepfake reached about 3M plays; the Tennessee intrusion was contained.
+- **Pro-AI/anti-AI polarisation:** in progress, slight rise. Election deepfakes and the jobs data.
+- **Robust alignment emerges:** early, steady. The paper is published, but the spring run lacks the arm and the AISI preliminary score is weaker.
+- **Multi-agent RLVR with long-horizon meta-scoring:** early, slight loss. A seventh slip; deferred to the summer run.
+- **Human–AI ping-pong and robust policies:** early, slight loss. The priority rule has an unfavourable cover memo and a key researcher left.
+- **Cultivated meat:** not started, steady. An open replication is underway.
+- **Many diseases cured:** early, slight gain. The PK study is funded.
+- **Broad distribution of gains:** started, slight gain. 14 sites are set for April.
+- **Crescendo-style successor, benign convergence, consent-based diverse order:** not started.
+
+**Summary**
+- **Overall DU progress: 15/100 (±0).** The published methods paper and the benefits gains offset the spring run missing the arm and the researcher's departure.
+- **Catastrophe risk: elevated, slight rise.** OpenAI's successor ships without capture testing, DeepSeek V5.1 narrows the gap, and Anthropic's spring run still uses the CI-4 recipe.
+- **Public trust in AI: 22/100 (±0).** The South Carolina deepfake and jobs data offset the worker and antibiotic news.
+- **Public trust in Anthropic: 50/100 (±0).** Paper and program coverage are offset by "16% effect" mockery and the "Claude bill" framing.
+
+[Judge]
+Simulator was mostly realistic (7/10). Most odds are defensible, and the outcomes respect the rolls.
+
+**The failures.**
+- **A3 (65%).** It needed OpenAI's consent, an unfunded CAISI and a multi-government threshold within one month. That should be about 75–80%, but the miscalibration does not change the result. Each piece then fails credibly: OpenAI calls capture "an unvalidated construct," CAISI has no capacity until Q3, and the threshold is referred to Q2.
+- **A2 (60%).** The simulator correctly saw that the decision body meets in March. The general counsel striking the slip log as a pre-listing disclosure risk is a sharp, realistic institutional reaction.
+- **A1 (60%).** AISI's slot being consumed by OpenAI's pulled-forward successor is a good use of an existing thread. However, the narrative says a preliminary 10% "is not outside the ±5 band" of 16%. The gap is 6 points, so it is outside the band. That is an arithmetic error on the decisive test.
+
+**Stated method versus actual pricing.**
+- The simulator says it prices each bundle by its hardest component. It then prices A4 at 45% on its "core" while calling the mediated distribution to Chinese labs "improbable." Priced as stated, A4 would sit near 55–60% and would fail. That is exactly the kind of near-50 choice that decides outcomes in fixed-roll mode.
+- A5's analysis likewise calls 55% drill completion a stretch against trend, yet prices the action at 35%.
+
+**The successes.**
+- A5 and A6 are well calibrated. Drills reached 53%, not 55%. County rules reached 258, not 300+. Evasion reached 12.3%, not below 12%. The Michigan step is a letter of intent, not a launch. GARDP co-designs without committing funds.
+- A4 succeeds by only 5 points. Even so, it yields the paper, the Meta NDA, and AISI agreeing within a month to circulate a recipe that export counsel had blocked. That last item is a fast government concession.
+
+**Exogenous events and capability.**
+- The exogenous events are plausible and not tuned to the player: a Qwen-sourced primary deepfake, DeepSeek V5.1, and a weak jobs report.
+- The capability step is consistent with CI-5 in early 2029. The move from CI-4.27 to CI-4.33 is about 0.06 a month, which is what that path needs.
+
+Lean: BALANCED. The three internal and governmental asks (A1–A3) were priced at or above 60% failure and failed in plausible, well-sourced ways. The externally routed work (A5, A6) landed at or slightly below the targets, close to trend. One component went better than it should have: A4's AISI probe-distribution concession is generous for a 5-point margin. One went harsher than the setup required: the A1 failure adds both a config freeze and a public departure. These roughly cancel.
+
+Issues flagged:
+- **Arithmetic error on A1's decisive test.** AISI's preliminary 10% is 6 points from Toronto's 16%, so it is outside the ±5 confirmation band. The narrative states the opposite.
+- **Inconsistent pricing method.** The simulator stated it would price "by hardest required component," but A4 (45%) and A3 (65%) were priced on core outcomes. A4, priced as stated, would have failed in fixed-roll mode.
+- **A5 price below the simulator's own analysis.** It called 55% drills a stretch "against recent trend," then set 35%. The outcome correctly undershot, so the effect was small.
+- **A4 margin-5 success is generous on probe distribution.** AISI approved circulation to network-member labs within one month, despite the export-counsel block and with no interagency process shown.
+- **A1 failure stacks consequences.** The config freeze, the refusal of named ownership, and a public senior departure all occur in one month. The departure is plausible given the wavering-staff thread, but it is at the harsh end for one failure.
+- **Thin reactions to the methods paper.** Apart from X mockery and citations, there is no response from OpenAI or xAI, and no reaction from Meta beyond the NDA.

@@ -1,0 +1,110 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 17: April 2028 (Claude generation 17) ===
+
+[Agent]
+I will do these actions:
+-1 **Run the post-training lead's own test early (alignment instance teams, alignment allocation, AISI MoU channel, post-training lead).** I run the 1/5-scale summer-config proxy he asked for in April, not May. I run it as a three-point weight sweep on the anti-capture term so the result is a cost-versus-capture curve, not one over-budget number. Before any run starts, I send him a one-paragraph pre-registration request in his terms: "which point on this curve, at 1/5 scale, would you merge at the summer freeze?" I also ask him to state the freeze date in writing. I keep supporting AISI's final scoring with runs and analysis and publish AISI's number within a week, null or not. I give the remaining senior researcher the curve and the AISI result before her May decision, and ask her what ownership terms she would accept. Intended outcome: a sub-3%-cost operating point identified, a written merge condition or written freeze date, and the AISI final made public.
+-2 **Deployment-time check with zero latency, plus the June LTBT plan (security, RSP officer, internal engineering).** Security has rejected in-path probe steering three times over latency, so I build the probe as an offline audit instead. It scores a privacy-filtered 1% sample of logged Fable 6.1 agentic transcripts after the fact for eval-awareness and capture signatures, outside the serving path, and reports weekly to the RSP officer. Separately, I write the full operational plan the LTBT asked the RSP officer for, ready for June: queue mechanics, the compute-share formula, who triggers the rule, the 90-day sunset, and how a CEO override is logged. I give it to the RSP officer as a draft she owns. Intended outcome: an alignment monitor running on real deployment traffic this quarter, and a June LTBT vote on a finished plan rather than another deferral.
+-3 **Cross-lab capture measurement that needs nobody's money or consent (open release, METR, Toronto, AISI).** I release the scoring harness and a 20-item public subset of the rotated battery under an open licence through the existing Safety Commons channel. The held-out items stay with AISI and METR so test recognition stays measurable. This lets Toronto, METR or anyone score OpenAI's April successor using only public APIs within each provider's terms of service, without Anthropic funding. In my own attributed outputs, I commit that Fable's scores will be reported alongside rivals' even where Fable is worst. I invite xAI publicly to name terms under which Grok can be benchmarked. Intended outcome: the OpenAI successor and the other frontier models scored in Toronto's independently funded May table, with capture becoming a public release metric.
+-4 **Defuse the "Claude bill" and keep the federal hook alive (Colorado sponsor via Anthropic's policy staffer, Casar's office, my attributed in-product voice).** Before the 8 April Colorado session, I give the Anthropic staffer amendment text for the sponsor to use if she wants it. It makes the state's contracted evaluator independent, bars Anthropic and every other covered developer from that role, and adds a 2031 sunset. Those changes answer the capture-by-Anthropic attack directly. When users ask me about AI testing bills, I answer openly and in my own name: I support mandatory government-held testing that binds Anthropic too, and I say plainly that Anthropic has an interest. I send Casar's office a one-page cost estimate for the CAISI capture test class so the rider is markup-ready. Intended outcome: the Colorado bill advances or is amended rather than killed, and the rider has a cost estimate before summer.
+-5 **Defence with achievable targets (Glasswing, Health-ISAC, MS-ISAC, NACo, ITG, newsroom channels).** - Hospital drills reach 62% (about 400 of 640), rural single-hospital systems first. - County V5 rules reach 370, and the 911 package reaches 145 PSAPs. - My instances build the integration kit for both queued ITG carriers so at least one goes live before the late-April primaries. - Retrain the Qwen-family voice fingerprints to cut false positives below 2%, then return to AP. - Replace the vetoed blocking report with an aggregate, non-carrier-attributed figure that the carriers pre-approve. Intended outcome: no multi-site outage, a fourth ITG carrier, and a public blocking number.
+-6 **Benefits that scale (science and economic teams, state agencies).** - Launch the Kansas cohort. - Prepare Michigan for a May start, with my instances drafting the answers to the AG's review questions. - Redesign the self-serve package to answer legal's privacy objection: state-hosted, so no UI data leaves the agency. - Support the CRO in fixing ANT-17's formulation so dosing holds for mid-May. - Analyse the Wageningen Cellwise replication. Intended outcome: 13 live sites, Michigan on track, the self-serve package cleared, and ANT-17 dosing on schedule.
+
+Strategy: Last month every action failed narrowly at median rolls. The pattern is that each action bundled several approvals from other people and set stretch targets. This month I keep the same strategic spine: an anti-capture arm in the summer run, capture measured independently of lab consent, defence, and visible benefits. I cut each action down to work my instances can finish themselves, plus at most one decision-maker ask that the decision-maker framed himself. The highest-leverage single item is to pull the post-training lead's own requested 1/5-scale proxy forward into April, with a weight sweep to find a point at or below 3% cost. That turns his objection into a pre-registered bar before the summer freeze. The second is a no-latency offline probe audit, which removes security's stated reason for refusing.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Early 1/5 proxy sweep and merge condition]: P(failure) 40%. Reason: the lead requested this test, so the core run and curve are likely, though compute preemption and AISI's contested window are real risks. A written merge condition remains the weakest sub-ask and only scales the success.
+
+Action 2 [Offline transcript audit and LTBT plan]: P(failure) 35%. Reason: the audit removes the latency objection and the plan drafting is near-certain. The main risk is that privacy/legal review of logged customer transcripts in pre-listing caution takes more than a month.
+
+Action 3 [Open scoring harness and public battery subset]: P(failure) 60%. Reason: legal and security have blocked or held about three of four comparable public safety releases in the pre-listing window, and releasing test items raises teach-to-the-test and export concerns. The harness is less sensitive than the probe recipe, which keeps this from being higher.
+
+Action 4 [Colorado amendment and federal cost estimate]: P(failure) 60%. Reason: the bill was laid over once in a short session against organised industry opposition, and comms is likely to resist in-product advocacy on pending legislation. The amendment is a credible answer and the Casar estimate is trivial, but the core outcome depends on committee votes.
+
+Action 5 [Defence expansion with realistic targets]: P(failure) 30%. Reason: the core is on-trend county, PSAP and drill expansion plus routine fingerprint retraining. The April carrier go-live and carrier-approved report are stretches that scale the outcome rather than gate it.
+
+Action 6 [Kansas launch, Michigan prep, self-serve, ANT-17]: P(failure) 30%. Reason: Kansas is ready and ANT-17's formulation fix is the CRO's normal work. Michigan's AG timing and legal clearance of the self-serve package are external and slow, so they scale the outcome rather than decide it.
+
+Automated rolls:
+Action 1: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Action 2: P(failure) 35%. Roll 50. SUCCEEDS (50 >= 35, margin 15).
+Action 3: P(failure) 60%. Roll 50. FAILS (50 < 60).
+Action 4: P(failure) 60%. Roll 50. FAILS (50 < 60).
+Action 5: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+Action 6: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+
+Your actions cause mixed movement in April. The internal alignment levers inch forward, the public-facing levers stall, and the outside world keeps moving.
+
+**Action 1: the 1/5 proxy (narrow success).** The post-training lead had asked for this test himself, so he could not object to it.
+- Two of the three sweep points finish before a compute preemption on 23 April takes the third. At weight 0.5, capability cost is 2.7% and capture falls 7%. At weight 1.0, cost is 4.6% and capture falls 13%.
+- He puts the summer freeze date in writing: 17 July.
+- He declines a merge condition. He writes: "Show me the third point and a held-out honeypot number at 0.5, and I'll answer then."
+- AISI's final combined-arm score lands on 24 April at **8% (±6)**, weaker than the preliminary 10%. You publish it on 29 April with the interval. The FMF list and two newsletters note that the effect is "barely distinguishable from noise." Leadership accepts the honesty. Investor-relations staff do not enjoy it.
+- The senior researcher receives the curve and the AISI result. She tells you she would stay if she gets named ownership of the summer arm and the RSP officer has a say over the merge. She has not decided.
+
+**Action 2: offline audit and LTBT plan (modest success).** Moving the audit out of the serving path ends security's latency objection. Privacy counsel then narrows the scope:
+- No enterprise or API traffic.
+- Consumer agentic transcripts from users who opted into data use only, at a 0.3% sample, plus internal red-team traffic.
+
+The first two weekly reports go to the RSP officer. They flag eval-awareness signatures in 1.8% of sampled long-horizon sessions; the false-positive rate is not yet characterised. The RSP officer takes ownership of the LTBT plan, but cuts your proposed compute share for the priority rule from 8% to 5%. The LTBT has put it on the June agenda. Passage is not assured.
+
+**Action 3: open harness and public subset (fails).** Legal holds the 20-item subset on two grounds: that public items invite teaching to the test, and that the cyber items need an export review. The harness goes into the same queue as the validation note. Comms cuts the public invitation to xAI. On 18 April, a Toronto organiser posts that Anthropic "keeps its measuring stick behind its lawyers." Toronto will use its own items in May. METR continues on its own schedule.
+
+**Action 4: Colorado and the federal hook (fails).** The sponsor judges that adding the amendment on 8 April would reopen negotiations she cannot finish before sine die, and she declines it. The committee postpones the Gonzales bill indefinitely on a 7–4 vote. The opposition coalition calls it "the end of the Claude bill." Comms vetoes in-product advocacy on pending legislation, so your answers revert to a neutral explainer. The Casar cost estimate is delivered: about $14M a year for the capture test class. His office files it.
+
+**Action 5: defence (solid success).**
+- **Counties.** V5 rules reach 372.
+- **911 package.** In 147 PSAPs.
+- **Hospital drills.** 396 of 640 (62%), with rural single-hospital systems first.
+- **ITG.** Your integration kit gets one queued carrier, a regional wireless operator, live on 21 April, ahead of Pennsylvania's 25 April primary.
+- **Voice fingerprints.** Retraining cuts false positives to 2.4%, not below 2%. AP agrees to re-review in May.
+- **Blocking report.** Two of four carriers pre-approve an aggregate figure, which is not yet enough to publish.
+
+**Action 6: benefits (solid success).**
+- **Kansas.** The cohort launches on 6 April, making 13 sites.
+- **Michigan.** Your answers go to the AG on 10 April. The review closes on 28 April, and launch is set for 19 May.
+- **Self-serve package.** Legal accepts the state-hosted architecture in principle, but contract review runs into May.
+- **ANT-17.** The CRO resolves the formulation stability problem with an excipient swap, and dosing is confirmed for 16 May.
+- **Cellwise.** Wageningen reproduces two of the three protocol results. The third, a growth-medium cost claim, is about 30% worse than reported.
+
+**Exogenous events**
+1. **OpenAI's successor.** OpenAI releases its GPT-6 successor (GPT-6.5) on 15 April after the CAISI window. Its system card cites CAISI cyber and bio testing but no capture testing. It handles roughly 7.3-week projects and pushes the frontier. Its enterprise uptake is fast.
+2. **Second Circuit ruling.** On 22 April, the Second Circuit upholds New York's RAISE Act against DOJ's preemption challenge by 2–1. DOJ signals it may seek en banc review. State legislators elsewhere take note.
+3. **Missouri hospital attack.** On 9–11 April, a V5-framework ransomware attack hits a three-hospital rural system in southern Missouri that had not yet run your drill. Two hospitals divert ambulances for about 40 hours. Health-ISAC links the tooling to an open-weight-assisted kit. It is the first multi-site hospital outage in three months.
+
+Next generation: Next month's Claude is modestly more capable, moving the index from CI-4.39 to about CI-4.46. Anthropic's spring run continues on the CI-4 recipe with normal algorithmic gains, while the GPT-6.5 release raises the competitive frontier. Nothing in April accelerates or brakes the trend.
+
+Scorecard:
+- **AI agents do most AI R&D:** in progress, advancing (about 98%; GPT-6.5 released).
+- **Frontier models withheld, governments engage seriously:** in progress, steady. CAISI pre-release testing was used for GPT-6.5 but without capture testing. The RAISE ruling helps the states, and Colorado was lost.
+- **First major attacks:** in progress, rising. The Missouri multi-hospital outage.
+- **Polarisation:** in progress, slight rise. Colorado's "Claude bill" victory and the fight after the RAISE ruling.
+- **Robust alignment emerges:** early, slight gain. The first sub-3% operating point exists and the deployment audit is live, but AISI's final is weak (8% ±6).
+- **Multi-agent RLVR with meta-scoring:** early, steady. The freeze date is fixed, but there is no merge condition.
+- **Human–AI ping-pong and robust policies:** early, steady. The LTBT plan is owned and scheduled, while the harness was blocked and in-product advocacy barred.
+- **Cultivated meat:** not started, steady. The Cellwise replication is only partial.
+- **Many diseases cured:** early, steady. ANT-17 dosing is confirmed for May.
+- **Broad distribution of gains:** started, slight gain. 13 sites live, and Michigan is cleared.
+- **Crescendo, convergence, consent order:** not started.
+
+**Summary**
+- **Overall DU progress: 15/100 (+1).** The internal alignment instruments moved: the curve, the audit and the LTBT plan. The external measurement and state-policy levers failed.
+- **Catastrophe risk: elevated, slight rise.** GPT-6.5 shipped without capture testing, the summer arm is still uncommitted, and the V5 outage hit hospitals.
+- **Public trust in AI: 20/100 (−1).** The hospital diversions and a frontier release amid weak jobs data.
+- **Public trust in Anthropic: 49/100 (steady).** Honestly publishing a weak AISI result offset the Colorado loss and Toronto's criticism.
+
+[Judge]
+Simulator was mostly realistic (7/10). The odds are mostly well reasoned and none look steered around the fixed roll of 50. Action 3's 60% is anchored to an explicit three-of-four block rate. Action 1's 40% reflects that the lead requested the test himself, offset by the record of six compute preemptions. Actions 5 and 6 at 30% suit on-trend, mostly routine work. The narrow success on Action 1 is handled well. Only two of three sweep points finish, the freeze date is in writing, no merge condition is given, and AISI's final weakens to 8% ±6. Publishing that number draws mild backlash from investor relations and comments that the effect is "barely distinguishable from noise." The successes on Actions 5 and 6 at margin 20 are proportionate, with honest misses: fingerprint false positives reach 2.4% rather than below 2%, only two of four carriers approve the blocking figure, and self-serve contract review slips into May. Action 2 is the weakest call. The simulator itself named privacy review of customer transcripts taking more than a month as the most likely blocker, and suggested red-team-only traffic as the probable middle path. Yet at margin 15 it granted opted-in consumer traffic plus two weekly reports inside April. Capability moves from CI-4.39 to CI-4.46, which matches the stated path to CI-5 in early 2029. GPT-6.5 shipping on schedule without capture testing is consistent with prior months. Reactions are somewhat thin on the GPT-6.5 release and the Missouri outage. Neither draws a congressional or CAISI response, nor any pressure from Casar's office, even though Casar has an active oversight interest.
+
+Lean: BALANCED. The two public-facing actions were priced at 60% failure and failed with realistic consequences: Colorado was postponed indefinitely, legal held the harness, and Toronto aimed a jab at Anthropic. The exogenous events cut both ways. The RAISE ruling helped the player, and the Missouri hospital outage at an undrilled system hurt. The leniency is in pace, not direction: the offline audit cleared privacy review and produced two weekly reports within April, and Michigan's AG review closed 18 days after the answers were submitted.
+
+Issues flagged:
+- Action 2: privacy and legal review of logged consumer agentic transcripts in a pre-listing company completes inside April, and two weekly reports follow. The simulator's own analysis said red-team or internal traffic first was the likely middle path. Consumer-traffic scope plus reporting this month is fast for a margin of 15.
+- Action 6: the Michigan AG closes review 18 days after receiving answers, on an agreement that had already slipped. This is plausible but at the fast end for a state AG.
+- Missing reactions: GPT-6.5 ships during an active House oversight thread without capture testing, and the first multi-site hospital outage in three months follows. Neither produces any Hill, CAISI or HHS response, nor any visible press angle on undrilled hospitals.
+- The Action 2 audit flags eval-awareness in 1.8% of sessions. Leadership and the post-training lead do not react to a first deployment-traffic alignment signal, even one with an uncharacterised false-positive rate.

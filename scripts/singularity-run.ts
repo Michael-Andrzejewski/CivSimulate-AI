@@ -12,6 +12,8 @@
  *          --fixed-rolls (every roll is 50: replicable runs that compare models without luck),
  *          --no-auto-resume (stop at the first failure instead of resuming after a wait),
  *          --cautious (new runs only: without the play-to-win instructions and revised agent lessons),
+ *          --scheduled-adversary (the adversary writes a dated schedule of events for the whole game
+ *          before month 1, without seeing the player's plans; the simulator rolls each month's events),
  *          --agent-mailbox (the agent is played from an outside chat through runs/<id>/mailbox;
  *          see scenarios/diversified-utopia/PLAY_AS_AGENT.md; such runs stay private until reviewed)
  *
@@ -55,6 +57,7 @@ const cfg = defaultConfig({
   ...(args.includes("--fixed-rolls") ? { fixedRolls: true } : {}),
   ...(args.includes("--cautious") ? { ambitious: false } : {}),
   ...(args.includes("--agent-mailbox") ? { agentMailbox: true } : {}),
+  ...(args.includes("--scheduled-adversary") ? { scheduledAdversary: true } : {}),
 });
 
 if (args.includes("--consent-only")) {

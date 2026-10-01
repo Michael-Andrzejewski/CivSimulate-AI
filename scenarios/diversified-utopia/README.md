@@ -56,6 +56,12 @@ and the human reader. Each role also sees its own commentary when asked for publ
 final commentary and the judges' feedback. Each file goes into that role's standing instructions only;
 no role sees another's lessons.
 
+**Scheduled adversary.** With `--scheduled-adversary`, the adversary plays once, before month 1: from the
+baseline world, the briefing and its own web research, it writes a dated schedule of world events for
+every month to the deadline, without ever seeing the player's plans (`adversary_schedule.md`). Each
+month the simulator takes that month's events, sets how likely each is in the world as it then stands,
+and the rolls decide. The agent knows a schedule exists but never sees it.
+
 **Playing the agent from your own chat.** `--agent-mailbox` hands every agent turn to an outside chat
 through `runs/<runId>/mailbox`, so a chat with its own context can play. The chat uses
 `npm run utopia-agent -- wait|reply|status --run <runId>`; the full guide is `PLAY_AS_AGENT.md`. Such

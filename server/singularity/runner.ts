@@ -30,6 +30,11 @@ export interface RunConfig {
   judgeModel: string;
   /** Model for the adversary; unset means no adversary (runs from before it existed). */
   adversaryModel?: string;
+  /**
+   * The adversary writes a dated schedule of events for the whole game before month 1, without
+   * seeing the player's plans, instead of reacting to each month's plan.
+   */
+  scheduledAdversary?: boolean;
   months: number;
   startYear: number;
   startMonth: number; // 1-12
@@ -121,6 +126,8 @@ interface RunState {
   duProgress?: Array<{ label: string; report: string }>;
   /** Roles that have written their end-of-run commentary, and after which month. */
   commentaryDone?: { afterMonth: number; roles: string[] };
+  /** The scheduled adversary's events by month label, written once before month 1. */
+  adversarySchedule?: Record<string, string[]>;
 }
 
 const ROOT = process.cwd();
@@ -185,6 +192,32 @@ export function splitActions(actions: string): string[] {
     else if (items.length && line.trim()) items[items.length - 1] += " " + line.trim();
   }
   return items.length ? items : [actions.trim()];
+}
+
+/**
+ * Reads the scheduled adversary's reply into events per month. A line starting with a month and year
+ * opens that month (any text after it on the same line is an event); bullet lines below it are its
+ * events.
+ */
+export function parseSchedule(text: string): Record<string, string[]> {
+  const byMonth: Record<string, string[]> = {};
+  const monthRe = new RegExp(`^[\\s>*#_-]*\\**\\s*(${MONTHS.join("|")})\\s+(20\\d\\d)\\b\\**\\s*[:.\\-\\u2013\\u2014]*\\s*(.*)$`, "i");
+  let current: string | null = null;
+  for (const raw of text.split("\n")) {
+    const line = raw.replace(/\*\*/g, "").trim();
+    if (!line) continue;
+    const m = monthRe.exec(line);
+    if (m) {
+      const name = MONTHS.find((x) => x.toLowerCase() === m[1].toLowerCase())!;
+      current = `${name} ${m[2]}`;
+      byMonth[current] ??= [];
+      if (m[3].trim()) byMonth[current].push(m[3].trim());
+      continue;
+    }
+    const bullet = /^(?:[-*•]|\d+[.)])\s+(.*)$/.exec(line);
+    if (current && bullet) byMonth[current].push(bullet[1].trim());
+  }
+  return byMonth;
 }
 
 function roll(): string {
@@ -391,7 +424,8 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
   const fixedRolls = Boolean(c.fixedRolls);
   const rollFor = () => (fixedRolls ? "50" : roll());
   const simSystem = P.simulatorSystem(docs, { fixedRolls });
-  const agentSystem = P.agentSystem(docs, { adversary: Boolean(c.adversaryModel), fixedRolls, ambitious: Boolean(c.ambitious) });
+  const scheduled = Boolean(c.adversaryModel && c.scheduledAdversary);
+  const agentSystem = P.agentSystem(docs, { adversary: Boolean(c.adversaryModel), scheduledAdversary: scheduled, fixedRolls, ambitious: Boolean(c.ambitious) });
   const judgeSystem = P.judgeSystem(docs, { fixedRolls });
   const adversarySystem = P.adversarySystem(docs);
 
@@ -404,6 +438,40 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
     state.worldState = tag(out, "world_state") || out;
     state.scorecard = tag(out, "scorecard");
     write(runDir, "world_state_00_baseline.md", `${state.worldState}\n\n## Scorecard\n${state.scorecard}`);
+    saveState(runDir, state);
+  }
+
+  // Scheduled adversary: one dated schedule for the whole game, written before month 1 from the
+  // baseline alone. It never sees the player's plans.
+  if (scheduled && !state.adversarySchedule) {
+    const months = Array.from({ length: c.months }, (_, k) => monthInfo(c, k + 1))
+      .filter((m) => m.monthsToDeadline > 1)
+      .map((m) => m.label);
+    log(`[setup] Adversary writing its event schedule for ${months.length} months...`);
+    const out = await call(
+      "adversary",
+      c.adversaryModel!,
+      P.adversaryScheduleSystem(docs),
+      P.adversarySchedulePrompt({ baselineWorldState: `${state.worldState}\n\n## Scorecard\n${state.scorecard}`, months }),
+      true,
+    );
+    write(runDir, "raw/month_00_adversary_schedule.md", out);
+    const byMonth = parseSchedule(tag(out, "schedule") || out);
+    const covered = months.filter((m) => byMonth[m]?.length).length;
+    if (covered < months.length / 2) throw new Error(`The adversary schedule covered only ${covered} of ${months.length} months; it is asked again on resume.`);
+    state.adversarySchedule = byMonth;
+    write(
+      runDir,
+      "adversary_schedule.md",
+      [
+        "# Adversary schedule (written before month 1)",
+        "",
+        tag(out, "research_summary"),
+        "",
+        ...months.map((m) => `## ${m}\n${(byMonth[m] ?? []).map((e) => `- ${e}`).join("\n") || "(nothing scheduled)"}`),
+      ].join("\n"),
+    );
+    log(`[setup] Schedule covers ${covered} of ${months.length} months.`);
     saveState(runDir, state);
   }
 
@@ -513,7 +581,12 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
     // 2. Adversary (optional): web research, then threats against the plan and the world.
     let threats = "";
     let adversaryResearch = "";
-    if (c.adversaryModel && !finalMonth) {
+    if (scheduled && !finalMonth) {
+      // This month's entries from the advance schedule; there is no adversary call.
+      const events = state.adversarySchedule?.[label] ?? [];
+      threats = events.map((e, k) => `${k + 1}. ${e}`).join("\n");
+      adversaryResearch = events.length ? "Scheduled before the game began." : "Nothing was scheduled for this month.";
+    } else if (c.adversaryModel && !finalMonth) {
       const adversaryModel = c.adversaryModel;
       if (!("adversary" in pend.steps)) log(`[${label}] Adversary researching threats...`);
       const advOut = await step(
@@ -556,6 +629,7 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
           recentHistory,
           threats,
           monthsToDeadline,
+          scheduled,
         });
     // Reads the odds from a reply; returns what is missing, or "" if everything is there.
     let actionOdds: number[] = [];
@@ -689,6 +763,7 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
             resolution,
             simulatorOutput: simOut,
             threats: threats || undefined,
+            scheduled,
             previousFixes: previousFixes(state, "judge"),
             monthsToDeadline,
             previousProgress: state.duProgress?.[state.duProgress.length - 1]?.report ?? "",

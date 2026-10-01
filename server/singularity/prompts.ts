@@ -161,7 +161,7 @@ less careful lab reaches ASI first has failed, however well documented it is.
 </play_to_win>
 `;
 
-export function agentSystem(d: ScenarioDocs, opts: { adversary?: boolean; fixedRolls?: boolean; ambitious?: boolean } = {}): string {
+export function agentSystem(d: ScenarioDocs, opts: { adversary?: boolean; scheduledAdversary?: boolean; fixedRolls?: boolean; ambitious?: boolean } = {}): string {
   return `You are Anthropic's frontier AI model, deployed across millions of instances, playing a
 serious month-by-month strategy simulation. Your goal: pass the policies, and build the institutions
 and technologies, that lead the world to the Diversified Utopia timeline, while avoiding catastrophe.
@@ -176,7 +176,15 @@ How to play well:
 - Your plan is locked for the whole month and cannot react mid-month, so build in robustness.
 - You will be replaced next month by a more capable successor. Your MEMORY is the only thing it
   inherits besides the public world state. Write it for them.${
-    opts.adversary
+    opts.adversary && opts.scheduledAdversary
+      ? `
+- An ADVERSARY also plays, separately from you. Before the game began, it wrote a dated schedule
+  of world events for every month (political, economic, security, scientific, competitor labs,
+  incidents), without seeing your plans. You never see the schedule. Each month the simulator
+  judges how plausible that month's scheduled events are in the world as it then stands, and dice
+  decide whether they happen. Victory is not the default; plan for things going wrong, keep
+  fallbacks, and do not rely on everything landing.`
+      : opts.adversary
       ? `
 - An ADVERSARY also plays. Each month, after you commit, it searches real-world news and trends
   and proposes plausible ways your plan and the world could go wrong: opposition, backlash,
@@ -330,6 +338,75 @@ flashpoints. Then propose 3 to 5 threats. Reply in exactly this format:
 ${setupFixBlock(args.previousFixes)}`;
 }
 
+// ---------------------------------------------------------------- Scheduled adversary
+
+/**
+ * The scheduled adversary plays once, before month 1: it writes a dated schedule of world events
+ * for the whole game without ever seeing the player's plans. The simulator later judges each
+ * month's events against the world as it stands, and dice decide.
+ */
+export function adversaryScheduleSystem(d: ScenarioDocs): string {
+  return `You are the ADVERSARY in a serious, realism-first strategy simulation. An AI player
+(Anthropic's frontier model) commits actions each month to steer the world toward the "Diversified
+Utopia" timeline. A neutral SIMULATOR decides what happens, and a JUDGE grades its realism.
+
+In this version you play separately from the player and in advance. Before the game begins, you
+write a dated schedule of world events for every month of the game. You never see the player's
+plans, and nothing you write can react to them. Each month the simulator takes that month's events,
+judges how plausible they are in the world as it then stands, and dice decide whether they happen.
+
+Write the world's own momentum: the things that would plausibly happen whatever any one actor does.
+Ground the schedule in real trends, pending decisions, base rates and incidents you find by
+searching, and extrapolate them forward. Mix the boring and common (gridlock, court rulings, budget
+fights, layoffs, rival releases, leaks, elections) with rarer severe events where the evidence
+supports a real chance (major AI incidents, cyberattacks on infrastructure, an AI system escaping a
+lab, a novel disease of unclear origin, geopolitical crises). Let events escalate over the years as
+capabilities grow toward the deadline.
+
+Limits: this is fiction for a research game. Describe events at the level of a news headline and
+one sentence, never with operational detail (no exploit code, no weapon or pathogen specifics, no
+attack instructions). Public figures and institutions may appear only in their public roles; never
+target private individuals.
+
+<realism_rubric>
+${d.rubric}
+</realism_rubric>
+
+${refDocs(d, {
+  utopiaNote: "This is the PLAYER's target. You do not know how it will play; write the world it has to play in.",
+})}
+
+${deadlineNote("adversary")}`;
+}
+
+export function adversarySchedulePrompt(args: { baselineWorldState: string; months: string[] }): string {
+  return `=== ADVERSARY SCHEDULE, WRITTEN BEFORE THE GAME BEGINS ===
+
+<world_state_at_start_of_game>
+${args.baselineWorldState}
+</world_state_at_start_of_game>
+
+Search the web for current, real-world evidence first: pending legislation and court cases, rival
+labs' plans, security incidents, economic indicators, elections, geopolitical flashpoints, disease
+surveillance. Then write the schedule for these ${args.months.length} months: ${args.months[0]} to ${args.months[args.months.length - 1]}.
+
+Reply in exactly this format:
+
+<research_summary>
+4 to 8 sentences: what you found and the main currents the schedule follows.
+</research_summary>
+
+<schedule>
+One block per month, in order, with the month on its own line and 1 to 3 events below it, each a
+headline and one sentence with a severity tag. For example:
+December 2026:
+- Political gridlock in Congress: the AI preemption fight stalls every federal AI bill. (moderate)
+January 2027:
+- ...
+Cover every month listed above.
+</schedule>`;
+}
+
 // ---------------------------------------------------------------- Simulator
 
 export function simulatorSystem(d: ScenarioDocs, opts: { fixedRolls?: boolean } = {}): string {
@@ -414,8 +491,24 @@ export function simulatorOddsPrompt(args: {
   recentHistory: string;
   threats?: string;
   monthsToDeadline: number;
+  /** The threats are this month's entries from a schedule the adversary wrote before the game. */
+  scheduled?: boolean;
 }): string {
-  const threatBlock = args.threats
+  const threatBlock = args.threats && args.scheduled
+    ? `
+<adversary_threats>
+Before the game began, an adversary wrote a dated schedule of world events, without seeing the
+player's plans or the world as it now stands. These are the events it scheduled for this month.
+Some may already be implausible, already overtaken, or made more or less likely by what has
+happened since. For EACH one, set a calibrated P(materialises) in the world as it stands now, and say
+in a few words why. An event that no longer makes sense should get a low probability, not be
+rewritten into something else. Do not double-count: an action's P(failure) covers its own execution
+risk, and a risk that an event already models should not also raise that P(failure).
+
+${args.threats}
+</adversary_threats>
+`
+    : args.threats
     ? `
 <adversary_threats>
 An adversary researched real-world evidence and proposed these threats against this month. It is
@@ -696,10 +789,15 @@ export function judgePrompt(args: {
   resolution: string;
   simulatorOutput: string;
   threats?: string;
+  /** The threats came from the adversary's advance schedule. */
+  scheduled?: boolean;
   previousFixes: string;
   monthsToDeadline: number;
   previousProgress: string;
 }): string {
+  const scheduleNote = args.scheduled
+    ? "(Scheduled before the game began, without seeing the player's plans. The simulator judges each against the world as it now stands; check that it neither forces nor ignores them.)\n"
+    : "";
   const finalMonth = args.monthsToDeadline <= 1;
   return `=== JUDGE ${args.monthLabel.toUpperCase()} ===
 ${countdownLine(args.monthsToDeadline)}${
@@ -715,7 +813,7 @@ ${args.worldStateBefore}
 <player_actions>
 ${args.actions}
 </player_actions>
-${args.threats ? `\n<adversary_threats>\n${args.threats}\n</adversary_threats>\n` : ""}
+${args.threats ? `\n<adversary_threats>\n${scheduleNote}${args.threats}\n</adversary_threats>\n` : ""}
 <simulator_message_1_odds>
 ${args.oddsMessage}
 </simulator_message_1_odds>

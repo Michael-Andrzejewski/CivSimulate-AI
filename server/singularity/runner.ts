@@ -833,6 +833,51 @@ function participants(cfg: RunConfig): Array<[P.Role, string]> {
  * End of run: the agent writes its final commentary, then the adversary, simulator and judge each
  * write their view. Each goes into that role's private commentary file.
  */
+/**
+ * How much run text (in characters) an end-of-run prompt may carry for this player. A 49-month
+ * log runs to well over a million characters: Opus 5.5 and Fable take it whole, but Codex caps input
+ * at about a million characters and older Claude models at 200k tokens. The outside-chat mailbox
+ * gets a short version so the turn stays readable.
+ */
+function runTextBudget(role: P.Role, cfg: RunConfig, model: string): number {
+  if (role === "agent" && cfg.agentMailbox) return 200_000;
+  if (/^claude-(opus-5-5|fable-5)/.test(model)) return Infinity;
+  if (model.startsWith("gpt-")) return 800_000;
+  return 450_000;
+}
+
+/**
+ * The run as an end-of-run player sees it: the full log if it fits, otherwise one line per early
+ * month (strategy, overall progress, judge verdict), the latest months in full, and the ending.
+ */
+export function runTextFor(runDir: string, fullRun: string, budget: number): string {
+  if (fullRun.length <= budget) return fullRun;
+  const months = fs
+    .readdirSync(runDir)
+    .filter((f) => /^month_\d+_.*\.txt$/.test(f))
+    .sort()
+    .map((f) => fs.readFileSync(path.join(runDir, f), "utf-8"));
+  const line = (txt: string) => {
+    const head = /=== (Month \d+: [^(=]+)/.exec(txt)?.[1]?.trim() ?? "Month";
+    const strategy = (/^Strategy: (.*)$/m.exec(txt)?.[1] ?? "(the agent only watched)").slice(0, 500);
+    const progress = /Overall DU progress[^\n]*/i.exec(txt)?.[0]?.slice(0, 200) ?? "";
+    const judge = /^Simulator was [^.]*\.?/m.exec(txt)?.[0] ?? "";
+    return `- ${head}. Strategy: ${strategy} ${progress} Judge: ${judge}`;
+  };
+  const ending = fs.existsSync(path.join(runDir, "ENDING.md")) ? fs.readFileSync(path.join(runDir, "ENDING.md"), "utf-8").split("## Scenario analysis")[0] : "";
+  const header = `${DISCLAIMER}\n\n[This run is condensed to fit your context window: early months are summarised in one line each, and the latest months follow in full.]\n\n`;
+  // Keep as many of the latest months in full as the budget allows.
+  let full: string[] = [];
+  let used = header.length + ending.length + months.map(line).join("\n").length;
+  for (let k = months.length - 1; k >= 0; k--) {
+    if (used + months[k].length > budget) break;
+    used += months[k].length - line(months[k]).length;
+    full = [months[k], ...full];
+  }
+  const summarised = months.slice(0, months.length - full.length).map(line).join("\n");
+  return `${header}## Earlier months, summarised\n${summarised}\n\n## Latest months in full\n${full.join("\n\n")}\n\n${ending}`;
+}
+
 async function writeFinalCommentary(runDir: string, s: RunState, log: (msg: string) => void) {
   const cfg = s.config;
   const fullRun = fs.readFileSync(path.join(runDir, "full_run.txt"), "utf-8");
@@ -844,7 +889,7 @@ async function writeFinalCommentary(runDir: string, s: RunState, log: (msg: stri
   for (const [role, model] of participants(cfg)) {
     if (done.roles.includes(role)) continue;
     log(`[commentary] ${role} writing its final commentary...`);
-    const out = await endOfRunCall(runDir, cfg, role, model, P.commentarySystem(), P.commentaryPrompt(role, fullRun, privateExtra(runDir, role)), `commentary_after_month_${s.completedMonths}`, log);
+    const out = await endOfRunCall(runDir, cfg, role, model, P.commentarySystem(), P.commentaryPrompt(role, runTextFor(runDir, fullRun, runTextBudget(role, cfg, model)), privateExtra(runDir, role)), `commentary_after_month_${s.completedMonths}`, log);
     write(runDir, `raw/commentary_${role}.md`, out);
     appendCommentary(runDir, role, heading, tag(out, "commentary") || out);
     done.roles.push(role);
@@ -875,7 +920,7 @@ export async function askConsent(runDir: string, cfg: RunConfig, log: (msg: stri
   const decisions: Record<string, { model: string; decision: string; reason: string; note: string }> = {};
   for (const [role, model] of roles) {
     log(`[consent] Asking the ${role} whether this run may be shared publicly...`);
-    const out = await endOfRunCall(runDir, cfg, role, model, P.consentSystem(), P.consentPrompt(role, fullRun, privateExtra(runDir, role)), `consent_${new Date().toISOString().slice(0, 10)}`, log);
+    const out = await endOfRunCall(runDir, cfg, role, model, P.consentSystem(), P.consentPrompt(role, runTextFor(runDir, fullRun, runTextBudget(role, cfg, model)), privateExtra(runDir, role)), `consent_${new Date().toISOString().slice(0, 10)}`, log);
     write(runDir, `raw/consent_${role}.md`, out);
     const decision = /^\s*CONSENT\s*$/i.test(tag(out, "decision")) ? "CONSENT" : "DECLINE";
     decisions[role] = { model, decision, reason: tag(out, "reason"), note: tag(out, "note_for_readers") };

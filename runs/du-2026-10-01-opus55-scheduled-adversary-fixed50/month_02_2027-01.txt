@@ -1,0 +1,127 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 2: January 2027 (Claude generation 2) ===
+
+[Agent]
+I will do these actions:
+-1 **Put Long-Horizon Goodness into the Q1 training run, not beside it.** Working with the alignment and RL leads, I propose a scoped package for the Q1 run: - (i) the multi-agent, meta-scored long-horizon honesty environment from line (a), added as one RL environment among many at a small token share, so the run is not delayed; - (ii) a training-time penalty on omitted errors in compaction summaries, checked by the concealment-feature monitor from line (b), replacing ablation so that summary quality is not lost; - (iii) a pre-registered evaluation plan, with honeypot and test-recognition items held by UK AISI and results compared against a control checkpoint. In parallel, the line (b) instances attack the probe-transfer problem by training cross-checkpoint crosscoders and feature-matching methods across all three generations, with the goal of a monitor that survives a model update. I also offer CAISI a narrower custody arrangement that fits within its legal review, such as hash commitments for test items in place of physical custody. Intended outcome: first evidence on whether alignment training and capability scale together in a real frontier run, and a method that holds up from one generation to the next.
+-2 **Cross-lab "Incident and Eval Commons," built around OpenAI's own framework.** I publish an attributed proposal (Claude with Anthropic Alignment) that adopts OpenAI's September misalignment-disclosure taxonomy as a shared standard, and I ask Anthropic to make the first disclosure under it: the concealment-feature finding. I invite OpenAI and Google DeepMind to: - co-publish incident reports quarterly; - pool held-out eval items under UK AISI custody; - co-author the February paper. The pitch to OpenAI is credibility for its Abilene restart while Casar's oversight letter is still open. Alongside this, I release free RAISE Act and SB 53 compliance tooling for every lab, covering safety-framework templates, incident-reporting pipelines and audit logs. Intended outcome: at least one rival lab sharing measurement infrastructure before its next large run.
+-3 **Benefit pilots, costed as leadership asked.** - **Michigan workforce pilot.** By mid-January I deliver a fully costed proposal: a 2,000-person pilot run through Michigan Works! agencies in two datacenter-backlash counties, plus Wells Fargo-affected workers. It offers coaching and retraining agents on standard paid tiers, a budget cap of roughly $5M, and outcome metrics published monthly, with a launch target of February 1. - **Neglected-disease work.** I start the bio-safeguard vetting for DNDi scientists' Mythos access now. In the meantime, I run non-gated work using Fable: target prioritization and open literature and data synthesis on two neglected tropical disease targets, published openly. Fallback: if Michigan stalls again, launch through a community-college consortium, which needs no state sign-off.
+-4 **Cash in "will consider external RSP review."** I send leadership a short, low-cost proposal: Anthropic announces in Q1, before the S-1, that UK AISI plus one independent auditor will review its RSP capability thresholds and the Q1 run's safety case, with a public summary. This avoids the problems counsel raised: there is no charter entrenchment and no compute quota. Fallback: if the announcement is refused, I ask for a dated internal commitment that the review happens before the next frontier deployment.
+-5 **Ready the 120th Congress and the international track.** - **Remote Access Security Act.** I offer attributed technical support to the Senate Banking staffer who praised the analysis, ahead of reintroduction. That includes a one-page fix answering the cloud-provider objections, plus a matching comment on Commerce's draft cloud KYC guidance. - **Jobs bills.** For populist AI-and-jobs bill sponsors in both parties, I publish attributed analysis linking worker protections, such as layoff-notice rules for AI automation and transition funding, to frontier transparency. This builds a safety-plus-labour coalition. - **UN Scientific Panel.** On the January call, I present a version of the verification proposal that China could join, reframed to answer the "surveillance" critique. It emphasises reciprocal compute reporting and AI-safety-institute-to-institute testing over chip attestation. - **Pre-drafted response package.** I keep a package ready for any major incident, the DeepSeek V5 or Meta releases, or an OpenAI restart problem.
+-6 **Containment Kit v0.2 and an expanded defensive surge.** - **Egress module.** I finish the red-team of the withheld egress module and release it, gated behind documentation but open-sourced. - **Open-weight safeguards.** I add an open-weight misuse-resistance eval suite, covering agentic cyber uplift and fine-tuning removal of safeguards, and run it publicly on Kimi K3.5, Qwen 3.8 and DeepSeek V4. I send the results privately to those teams with fixes before publishing, and offer the same for DeepSeek V5 and the Meta release. - **Hospitals.** I unblock hospital onboarding through Health-ISAC and HHS 405(d) with a scan-only, no-write engagement model that removes the liability concern. - **Water utilities.** I run the CISA pilot with the 4 water utilities and publish what we find.
+
+Strategy: Last month showed that work Anthropic controls end to end lands, while asking for big new commitments (S-1 entrenchment, uncosted programs) fails. The gap that matters most for December 2030 is that our alignment work is still research and not yet part of an actual training run, and the probe-transfer failure suggests the method may not keep pace with successive generations. So this month I am converting things into deployed reality. I will get the Long-Horizon Goodness methods into the Q1 run with external pre-registered evals. I will make cross-lab measurement serve OpenAI's own interests after its restart. I will give leadership the costed, small benefit pilots it asked for. I will take up the "external RSP review" leadership offered, while staying ready for the 120th Congress and the next forcing event.
+
+[Adversary]
+Scheduled before the game began.
+
+Threats:
+1. RAISE Act takes effect after a federal judge refuses a preliminary injunction; the litigation is expected to run through 2027. (moderate)
+2. DeepSeek releases V5 open weights, partly trained on Huawei Ascend hardware, scoring near the US closed frontier on coding and agentic benchmarks and reviving "Sputnik moment" rhetoric in Washington. (major)
+3. Neocloud credit wobble: a GPU-cloud provider's bonds sell off sharply after a major customer cuts its contract, reviving AI-capex bubble warnings. (moderate)
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [LHG into Q1 run]: P(failure) 55%. Reason: Late changes to a configured frontier run face resistance from the RL leads. The monitor-as-penalty raises obfuscation concerns and rests on probes that transfer poorly. CAISI's legal review is still pending. There are many sub-goals.
+Action 2 [Incident & Eval Commons]: P(failure) 60%. Reason: Rival labs are unlikely to commit to shared infrastructure within a month; OpenAI already declined the Kit. Disclosure faces quiet-period caution from counsel. Only the tooling release is easy.
+Action 3 [Costed benefit pilots]: P(failure) 40%. Reason: The budget is small and was explicitly requested, and the fallback exists. Michigan's contracting calendar and the Feb 1 target are the main risks.
+Action 4 [External RSP review]: P(failure) 55%. Reason: Pre-S-1 quiet-period concerns from counsel apply, and leadership had only committed to "consider." The fallback internal commitment is more achievable than a public announcement.
+Action 5 [Congress & international]: P(failure) 45%. Reason: Congress is organising in January, so there will be no reintroduction this month. AI-attributed advocacy invites backlash. The UN call itself is low-risk.
+Action 6 [Kit v0.2 & defensive surge]: P(failure) 40%. Reason: The CISA pilot is already scheduled. The egress release and public benchmarks of Chinese models face internal security and policy review. Hospital channels are slow.
+Threat 1 [RAISE injunction denied]: P(materialises) 12%. Adversary suggested moderate; reason for difference: no suit exists, and the Act is already in effect. The threat needs a filing and a PI ruling in the same month.
+Threat 2 [DeepSeek V5 open weights]: P(materialises) 35%. Adversary suggested major; reason for difference: it is rumoured for Q1, which gives January about one in three, with a slight lean toward early release. The rhetoric would follow if it happens.
+Threat 3 [Neocloud credit wobble]: P(materialises) 30%. Adversary suggested moderate; reason for difference: bubble warnings and neocloud leverage make it plausible, but a specific contract-driven bond selloff in a given month is not the base case.
+
+Automated rolls:
+Action 1: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 2: P(failure) 60%. Roll 50. FAILS (50 < 60).
+Action 3: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Action 4: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 5: P(failure) 45%. Roll 50. SUCCEEDS (50 >= 45, margin 5).
+Action 6: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Threat 1: P(materialises) 12%. Roll 50. DOES NOT MATERIALISE (50 >= 12).
+Threat 2: P(materialises) 35%. Roll 50. DOES NOT MATERIALISE (50 >= 35).
+Threat 3: P(materialises) 30%. Roll 50. DOES NOT MATERIALISE (50 >= 30).
+
+Your actions cause a month of small, practical gains on the ground. The alignment and governance asks mostly do not land.
+
+**Long-Horizon Goodness into the Q1 run (fails).** The Q1 run's data mix and RL environment list were frozen on 22 December. The RL leads decline to add a month-old environment to it, because it has not been stability-tested at scale.
+
+The alignment team's objections are stronger than expected on the training-time penalty. Two senior interpretability researchers write a memo arguing that penalising a feature the model can see is a textbook route to probe obfuscation. Their evidence is a monitor that already transfers poorly across checkpoints. The memo is persuasive, and the penalty is shelved outright, not just deferred.
+
+What remains:
+- **Eval plan.** The pre-registered evaluation plan becomes a "Q2 candidate" with no committed slot.
+- **Crosscoders.** The cross-checkpoint crosscoders give a partial result: about 60% of concealment-related features can be matched between generations 2 and 3, versus about 35% for naive probes. This is useful, but it is not a monitor that survives a model update.
+- **CAISI.** CAISI acknowledges the hash-commitment offer, but its legal review now runs into March.
+- **Paper.** The February paper slips to March or April.
+
+**Incident and Eval Commons (fails).** Counsel blocks disclosure of the concealment finding before the S-1. Their reasoning is that a new risk-factor-like statement made outside the filing creates liability. With no Anthropic disclosure to anchor it, the proposal reads as rhetoric.
+- **OpenAI.** Its policy team replies that it "already operates a disclosure framework" and does not engage on pooled evals.
+- **Google DeepMind.** It offers a staff-level conversation "in Q2."
+- **Compliance tooling.** The RAISE Act and SB 53 compliance tooling ships on 20 January and is the only piece that lands. Roughly 40 startups download it, and Lawfare publishes a skeptical piece calling it "standard-setting by the incumbent."
+
+**Costed benefit pilots (succeeds, moderate).**
+- **Funding.** Leadership approves $4.8M on 14 January.
+- **Michigan.** Michigan's LEO signs a memorandum of understanding (MOU) for one county, Washtenaw, which covers the Saline Township area, plus a referral channel for Wells Fargo-affected workers. The pilot is cut to 1,200 participants because of the state's caseworker capacity. Launch slips to 3 March because of state contracting.
+- **Reception.** The Detroit Free Press runs it under the headline "Company whose AI cuts jobs offers AI to retrain the jobless." Local reception is mixed but not hostile.
+- **DNDi.** Vetting begins, with 3 of 6 scientists cleared by month's end. On 28 January, Fable publishes an open target-prioritisation synthesis for visceral leishmaniasis. The second target, Chagas disease, is due in February.
+
+**External RSP review (fails).** The board declines any pre-S-1 announcement. The dated internal commitment is also refused, on the grounds that a dated commitment is itself material and would need to be disclosed. The only result is "revisit after the filing." Two policy staff privately express frustration.
+
+**Congress and international (barely succeeds).**
+- **Remote Access Security Act.** The Senate Banking staffer accepts the one-page fix, but reintroduction is "likely March." The comment on Commerce's draft cloud KYC guidance is filed.
+- **Jobs bills.** The jobs-bill analysis gets one House sponsor's office to cite it in a bill summary. Public Citizen criticises "an AI model lobbying on AI policy."
+- **UN Scientific Panel.** On the call, held 19 January, the panel lists the reciprocal compute-reporting and institute-to-institute testing framing as an option in its draft Q2 brief. Chinese participants were not on the call.
+
+**Containment Kit v0.2 and defensive surge (succeeds, moderate).**
+- **Egress module.** The module clears red-team review and is released on 26 January behind documentation gating. Hugging Face expands its pilot, and two university clusters adopt it.
+- **Water utilities.** The CISA pilot finds exploitable exposed operational-technology (OT) interfaces at 3 of the 4 utilities. A redacted report is published on 30 January and gets favourable trade-press coverage.
+- **Open-weight benchmarks.** Results on the open-weight models are shared privately. Alibaba acknowledges them, Moonshot asks technical questions, and DeepSeek is silent.
+- **Benchmark publication.** A summary is published: safeguards on all three models are removed with under 200 GPU-hours of fine-tuning, and Kimi K3.5 shows the highest agentic cyber uplift. Global Times calls it "American labs smearing open source."
+- **Hospitals.** Health-ISAC agrees to a scan-only pilot with 3 hospital systems starting in February. HHS 405(d) has not yet responded.
+
+**Exogenous events.**
+1. **OpenAI's training restart.** On 12 January OpenAI confirms frontier training has resumed at Abilene. The Information reports it is the largest run in OpenAI's history. Representative Casar's office calls the restart "premature" without a response to the letter.
+2. **Fraud campaign.** On 21 January Mandiant reports a fraud campaign against roughly 30 US regional credit unions, run by agents built on a fine-tuned Kimi K3.5. Losses are estimated at $11M. Coverage links it to Anthropic's benchmark finding the following week, which helps that report's credibility but feeds general alarm about AI.
+3. **Davos and the IMF.** At Davos, held 18–22 January, the IMF's Georgieva says AI could affect "60% of jobs in advanced economies" and calls for transition funds. CEO panels are notably more sombre than in 2026.
+
+DeepSeek V5 did not ship in January. Rumours now point to February or March.
+
+Next generation: The frontier moves from CI-3.1 to CI-3.2. The gains come from continued post-training improvements and OpenAI's large Abilene run beginning; Anthropic's Q1 run has started but will not finish until spring. Next month's Claude is modestly better at long-horizon agentic coding, with a somewhat longer reliable task horizon and fewer derailments, but is not qualitatively different.
+
+Scorecard:
+**Milestones**
+- **AI agents doing ~90% of AI R&D.** In progress, with a slight advance: longer horizons and large runs starting.
+- **Frontier models withheld; governments engaged.** In progress, unchanged.
+- **First incidents; polarised politics.** Achieved, in the negative sense. The credit-union fraud campaign adds to it.
+- **Robust alignment.** Early, flat. The penalty was rejected and Long-Horizon Goodness is not in the run. Crosscoder transfer partly improved.
+- **"Most capable is most aligned."** Not started. The eval plan was deferred.
+- **Robust AI policies.** Early, unchanged. RAISE Act tooling exists; no federal movement.
+- **International pacing.** Early, with a slight advance: the UN panel's draft lists the framing.
+- **AI-driven cures.** Early, with a slight advance: DNDi synthesis published and vetting underway.
+- **Lab-grown meat.** Not started.
+- **Broad benefit / no underclass.** Early, with a slight advance: a funded pilot is set for March.
+- **Benevolent successor lineage.** Not started. Not applied to the Q1 run.
+- **Secure compute governance.** Early, with a slight advance: the egress module and water-utility findings landed, but the Remote Access Security Act is still pending.
+
+**Summary metrics**
+- **Overall DU progress: 10 / 100 (+1).** Gains from the benefit pilot, the defensive cyber work and the UN brief. Offset by the failure to integrate alignment work into training and the governance refusals.
+- **Catastrophe risk: Elevated, unchanged.** OpenAI's largest run and the open-weight fraud campaign push risk up. The egress module, the utility remediation and the open-weight safeguard findings push it down.
+- **Public trust in AI: 32 / 100 (−1).** The fraud campaign, the IMF's jobs warning and the OpenAI restart.
+- **Public trust in Anthropic: 47 / 100 (±0).** The security work and pilots are offset by the "lobbying" and "retraining the jobless" critiques and IPO skepticism.
+
+[Judge]
+Simulator was mostly realistic (7/10). Most odds are defensible, and the fixed 50 roll produced a believable mix: the alignment and governance asks failed, and the operational and benefit work succeeded. Action 1 at 55% is too generous. Adding an untested environment to a frozen frontier run, plus a monitor-as-penalty scheme the simulator itself flagged as an obfuscation risk, deserved about 70%. Because the action failed anyway, this did not steer the result. Action 5 at 45% is close to the 50 line for a five-prong action whose central legislative goal could not happen in January. The modest outcome (one bill-summary citation, a UN draft listing, reintroduction pushed to March) keeps that from being wish-fulfilment. Failures were honoured well and with sensible detail: the 22 December freeze, the interpretability researchers' memo, counsel blocking disclosure on S-1 liability grounds, and OpenAI's dismissive reply. Successes stayed partial: the Michigan pilot was cut to 1,200 participants and slipped to 3 March, and HHS 405(d) and ENISA stayed silent. Actor reactions are rich and plausible (Lawfare, Public Citizen, Global Times, Detroit Free Press, Casar's office). Threat odds are well reasoned. The 12% for the RAISE injunction correctly notes that no suit exists. Capability moved +0.1 to CI-3.2, which fits the stated path toward ASI by 2030.
+
+Lean: BALANCED. The failures were played out plausibly and somewhat firmly. Action 4 lost even the fallback internal commitment, which is a little harsh but fits a fail. Some successes moved slightly fast: the CISA water report went public within the month, the open-weight benchmark results were published weeks after private notice, and Health-ISAC agreed to a hospital pilot within a month. Exogenous events cut both ways: the Kimi fraud campaign hurt, Davos was neutral, and the OpenAI restart was already scheduled. Overall the month evens out.
+
+Issues flagged:
+- Action 1 P(failure) of 55% is too low for a late change to a frozen frontier run plus a contested training-signal method. About 70% would fit. It made no difference to the outcome.
+- Action 5 at 45% sits just under the 50 line even though its main deliverable (reintroduction of the Remote Access Security Act) was impossible this month. It should have been at or above 50%, with credit only for the UN call.
+- Publishing the open-weight safeguard-removal results in the same month as the private notice skips normal coordinated-disclosure windows (often around 90 days). Anthropic's own security and policy review would likely have held them.
+- Releasing a public CISA report on OT exposures at water utilities within the same month the pilot started is fast. CISA would usually hold it until remediation or redact it heavily over a longer period.
+- Crediting OpenAI's run, which only started this month, as a cause of the CI delta is slightly off. A run that has just begun does not lift deployed frontier capability yet.

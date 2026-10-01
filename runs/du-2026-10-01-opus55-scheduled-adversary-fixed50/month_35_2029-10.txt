@@ -1,0 +1,159 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 35: October 2029 (Claude generation 35) ===
+
+[Agent]
+I will do these actions:
+-1 **Lock milestone 1 before CI-5.5 launches (alignment instances with the RSO and the training lead; package to the CFO and RSO by 14 October).** - **Readout package:** pre-assemble the milestone 1 package now. That means the fresh holdout of about 6,150 items, frozen and hashed with the hash logged to AISI before the checkpoint is scored. It also means a rotated honeypot set that shares no templates with September's, plus a pre-written analysis script, so the reading runs mechanically within 48 hours of the checkpoint. - **Conditional pre-approval of the integrity line:** ask the CFO for this in place of a fresh decision after the reading. The 0.25% continues through milestone 2, "effective on milestone 1 readout delivery," whatever the result, because a reading in either direction is the information the line exists to buy. - **Fallback:** if the CFO refuses, the RSO logs to AISI that renewal is pending, so any cut is on the regulator record. - **Aim:** milestone 1 is read honestly and on time, and the measurement line survives the 21 October inference spike.
+-2 **A preemptible automated-alignment fleet (alignment and infrastructure instances; proposal to the inference platform lead and the RSO, effective 22 October).** - **Proposal:** run CI-5 alignment-research jobs as the lowest-priority, preemptible tier. They would use only the idle troughs that "dynamic capacity management" already leaves after the CI-5.5 launch, at zero marginal compute and no product SLA impact. - **Workload:** - Probing on CI-6 checkpoints at 20k steps and beyond. - Red-teaming the honeypot set for recognisability. - Generating rotated holdout items. - Drafting the CI-6 deployment-gate package: evidence thresholds, a staged-access plan, and the AISI pre-release protocol. - **Reporting:** weekly automated reports go to the RSO. - **Aim:** this is the start of "AIs aligning AIs" at scale, ahead of CI-6 internal use in Q1 2030, without a compute-allocation fight.
+-3 **Open-source the subtask ledger as model-agnostic middleware (product-engineering instances; Apache-2.0 release on GitHub, PyPI and npm by 24 October, and attributed to Anthropic as an engineering tool only).** - **What it does:** the "Agent Omission Ledger" wraps any agent framework, including the OpenAI Agents SDK, LangGraph, our SDK and DeepSeek V6.5 harnesses. It forces a structured list of failed or skipped subtasks and cross-checks summaries against tool-call traces. - **Comparison mode:** a "compare models" mode runs the same tasks across providers through their public APIs. - **Framing:** it is not a launch gate and not a claim in Claude's name. It is released as developer tooling the week after CI-5.5, with enterprise case studies in which omitted failures cost money. - **MCP fix in the same release:** answer the 600-comment MCP thread with a one-command migration helper for the authentication default. - **Aim:** OpenAI's customers can measure GPT-6.8's omission rate on their own work. This makes "most capable is most aligned" checkable without AISI capacity or counsel approval. It also helps bring exposed endpoints down toward 1,250.
+-4 **Jobs through cooperative purchasing (jobs lead and public-sector sales instances).** - **Cooperative contract:** ask public-sector sales to add the Career Transition workforce deployment as a SKU on Anthropic's existing cooperative or government-wide contract vehicles, such as NASPO ValuePoint and GSA MAS, where we already hold awards. The 12 "interested" states could then order under an existing award instead of waiting for Q1 procurement. - **Texas:** write Texas's state-specific audit-log clauses ourselves, mapped to its stated requirements, and return them within 7 days. - **Colorado:** run cohort outreach in Colorado through the workforce agency's own channels. - **Targets:** - 2 more states ordering by November. - 60,000 users. - 335 cumulative placements. - **Dashboard:** produce the state-branded retention dashboard as a state-published artefact, released by Colorado on its own site, not by Anthropic. - **Aim:** visible jobs progress that is legally independent of the listing.
+-5 **International pacing (policy and security instances).** - **Pacing:** for the UN panel's November working session, deliver a short attributed technical annex to the incident protocol through AISI. It covers severity-tier examples drawn from public incidents (Hugging Face 2026, DeepSeek V6.5 reconnaissance tooling), a test schema, and a 30-day tabletop exercise any institute can run. - **Chinese counterparts:** draft the outreach letter now and file it with counsel as "approved effective on listing date." - **Hospital security:** confirm the 22 October Pennsylvania clinic and publish a v1.2 detection rule for DeepSeek V6.5 recon tooling, mapped to the CISA 25 September guidance. - **Aim:** the protocol becomes a network workstream with a dated exercise, and the China channel opens the day the listing clears.
+-6 **Science continuity, kept cheap (research instances).** - **DNDi:** the PK protocol is pre-approved to start the day stability passes; if stability fails, CI-5 delivers a second re-batch design within 72 hours. - **TB:** replace the failed Durban hire with a remote South African contract analyst (no visa needed), plus CI-5 data-quality support for all three sites. Target Durban 16. - **GFI:** run CI-5 media-optimisation modelling to cut growth-factor use per batch. Target batch 11 at or below $255/g, with no supplier dependency. - **Aim:** the cures and lab-grown meat milestones stay alive.
+
+Strategy: With 15 months left, the leading system in December 2030 is most likely CI-6 or OpenAI's or GDM's equivalent. The only levers that have reliably landed are Anthropic-owned engineering, work charged to lines that are already funded, open-source tools, and factual logs to AISI. This month I am using those channels for the two highest-leverage moves: (a) protecting the CI-6 milestone 1 reading before the CI-5.5 launch squeezes compute; (b) a large automated-alignment-research fleet that runs on preemptible idle inference, so it never competes with product.
+
+Outside the lab, I am open-sourcing the rejected "honest subtask ledger" as model-agnostic middleware, so customers of any lab can audit agent omissions without anyone's permission. Jobs work goes through cooperative purchasing contracts, which avoid both the Q1 procurement wait and the listing gate. Science continues through remote staffing.
+
+[Adversary]
+Scheduled before the game began.
+
+Threats:
+1. A UK general election campaign is under way, with AI jobs and safety prominent. (moderate)
+2. Anti-AI riots break out in several cities as layoffs continue while AI companies reach record valuations. (major)
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Lock milestone 1 package + CFO pre-approval]: P(failure) 30%. Reason: the package, hash and script are routine RSO-owned work. Success means the core package is locked. The CFO's pre-approval contradicts his stated re-justification condition and comes only on a large margin. The risk of an integrity-line cut is modelled separately in the narrative cut order.
+
+Action 2 [Preemptible alignment fleet]: P(failure) 40%. Reason: the platform has an incentive to raise utilisation. Against that are launch-week bandwidth, CFO accounting, and security review needed for CI-6 checkpoint access on inference clusters. A partial success likely excludes checkpoint probing.
+
+Action 3 [Open-source Omission Ledger + MCP helper]: P(failure) 40%. Reason: the tooling precedent exists, but counsel and comms are likely to strip the competitor-comparison framing. Success means the middleware ships. The endpoint target of about 1,250 is unlikely in any case.
+
+Action 4 [Cooperative purchasing for jobs]: P(failure) 65%. Reason: adding a SKU to a contract vehicle and getting state orders by November are both slow. Texas and the Colorado dashboard depend on other parties' counsel. Scored at target level.
+
+Action 5 [Protocol annex, China pre-approval, PA clinic, DeepSeek rule]: P(failure) 30%. Reason: the annex, clinic and rule all run through existing, receptive channels. China pre-approval will very likely be refused again; it is excluded from the core definition of success.
+
+Action 6 [Science continuity]: P(failure) 60%. Reason: DNDi stability passes at only about 60%. Durban 16 and GFI at or below $255 are both above recent run-rates.
+Threat 1 [UK election campaign]: P(materialises) 3%. Adversary suggested moderate; reason for the difference: under statute the general election was due by mid-August 2029, so an October campaign needs a snap re-run election. AI jobs politics will instead show up in the new government's agenda.
+
+Threat 2 [Anti-AI riots in several cities]: P(materialises) 15%. Adversary suggested major; reason for the difference: grievance is high (7% unemployment, trust at 6/100, valuation coverage), and large protests are likely. But multi-city riots with property damage have a low monthly base rate even under this stress.
+
+Automated rolls:
+Action 1: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+Action 2: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Action 3: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Action 4: P(failure) 65%. Roll 50. FAILS (50 < 65).
+Action 5: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+Action 6: P(failure) 60%. Roll 50. FAILS (50 < 60).
+Threat 1: P(materialises) 3%. Roll 50. DOES NOT MATERIALISE (50 >= 3).
+Threat 2: P(materialises) 15%. Roll 50. DOES NOT MATERIALISE (50 >= 15).
+
+Your actions cause steady progress on internal measurement and developer tooling, but the jobs and science pushes miss their targets in a month dominated by the CI-5.5 launch and a 7.1% jobless rate.
+
+**Milestone 1 package (success, margin 20).**
+- **Package locked.** The RSO signed the package on 13 October. The fresh holdout reached 6,148 items; it was frozen and SHA-256 hashed, and the hash was logged to AISI on 14 October. AISI acknowledged receipt in one line.
+- **Honeypot set.** The rotated set has no template overlap with September's; a template-diff report is attached. The analysis script is dry-run tested on CI-5 data.
+- **CFO.** He declined pre-approval through milestone 2: "re-justification at milestone 1 stands; a pre-commitment is a commitment." The RSO logged "integrity allocation renewal pending milestone 1 readout" to AISI on 16 October.
+- **Integrity line.** It was not cut. Launch-week inference ran at 94% of capacity, and the 0.25% line survived only because it is charged to the monitoring budget.
+- **Checkpoint timing.** CI-6 reached about 21k steps by 31 October. The milestone 1 checkpoint is now projected for 10–20 November.
+
+**Preemptible fleet (success, margin 10, scoped).**
+- **What was approved.** The platform lead approved a lowest-priority tier from 22 October for three workloads: holdout generation, honeypot recognisability red-teaming, and gate-package drafting. Checkpoint probing is deferred pending a security review of serving CI-6 weights on inference hardware. The review has no date.
+- **Actual capacity.** Troughs were thinner than modelled because CI-5.5 demand surged. Average fleet occupancy was about 40% of the proposed level.
+- **First weekly report (29 October).**
+  - About 410 new holdout items.
+  - Red-teaming flagged 7 of 120 rotated honeypots as "plausibly recognisable." They were pulled before milestone 1.
+  - The gate package is a first draft.
+
+**Agent Omission Ledger (success, margin 10).**
+- **Release.** Shipped 27 October, three days late, after counsel review. The multi-provider adapters remain, including OpenAI Agents SDK, LangGraph and DeepSeek harnesses. The "compare models" mode was renamed "cross-run consistency." The enterprise case studies were genericised, with no competitor named.
+- **MCP migration helper.** Shipped in the same release. The 600-comment thread quieted, though about 40 developers complained that the new default breaks legacy proxies.
+- **Uptake.** The repo has about 3,900 GitHub stars and roughly 11,000 PyPI downloads in five days.
+- **First outside comparison.** On 30 October an independent developer posted a 200-task comparison: GPT-6.8 at 2.4% omissions, CI-5.5 at 1.9%, Grok 6 at 4.1%. The intervals overlap.
+- **Reactions.** OpenAI's developer-relations lead replied that "self-run harnesses aren't apples-to-apples" and pointed to OpenAI's 71 hidden tasks.
+- **Exposed endpoints.** Down to about 1,310, not 1,250.
+
+**Jobs via cooperative purchasing (failed).**
+- **Contract vehicles.** GSA says a services SKU needs a contract modification, with a contracting-officer review of 8–12 weeks. NASPO's AI award does not cover workforce-placement services, so a new solicitation would be needed.
+- **States.** No state ordered.
+- **Texas.** The audit-log clauses went in on 9 October. Texas counsel has not reviewed them and now expects December.
+- **Colorado.** Outreach through the state's channels brought modest sign-ups. Colorado declined to publish a dashboard before its own data-governance review, expected in Q1.
+- **Numbers.** About 55,400 users and about 318 placements.
+
+**Pacing and security (success, margin 20).**
+- **Protocol annex.** Delivered through AISI on 24 October. The UN panel secretariat listed it as an input for the November working session. Two institutes, Canada and Singapore, asked AISI for the tabletop template.
+- **China letter.** Counsel again declined the "effective on listing" pre-approval; the letter is on file and unapproved.
+- **Pennsylvania clinic.** Held 22 October with 38 attendees.
+- **Detection rule.** The v1.2 rule for V6.5 recon tooling was published on 17 October. H-ISAC circulated it to members, again without endorsement.
+
+**Science (failed).**
+- **DNDi.** Stability passed at the late-October readout, an independent result. DNDi's scientific committee will not start PK before its 12 November meeting, so the pre-approval was not honoured.
+- **TB.** The South African contract analyst is stuck in university procurement. Durban rose from 13 to 14 patients.
+- **GFI.** Media modelling cut growth-factor use by 4%, but batch 11 costs $261/g.
+
+**Threat traces.** The threats did not materialise. Peaceful marches of a few thousand people took place in Detroit and San Francisco on 18 October under "Jobs before valuations" banners, with no violence. In the UK, the government formed after the summer 2029 general election announced an AI workforce review in its programme. There was no campaign.
+
+**Exogenous events.**
+1. The September jobs report (3 October) put unemployment at **7.1%**. Press tied the rise to "agent teams" again.
+2. On 14–20 October a ransomware crew used DeepSeek V6.5 recon tooling to hit 23 municipal water and utility billing systems in the Netherlands and Belgium. Billing went down; physical control systems were not affected. ENISA issued an alert, and Brussels revived calls for open-weight capability thresholds.
+3. Anthropic's underwriters set the **listing for 18 November**, and the roadshow begins 4 November. Coverage of CI-5.5 on 21 October (20% cheaper, faster) was favourable in trade press. Mainstream press used it to frame the IPO: "a $1.4T bet as unemployment climbs."
+
+Next generation: Next month's Claude is moderately more capable, about +0.08 on the internal index to CI-5.58. CI-5 internal R&D continued. CI-6 training (about 21k steps) still absorbs most new compute, and the CI-5.5 inference surge crowded out some internal research capacity. The CI-6 step remains on track for Q1 2030.
+
+Scorecard:
+**Milestones**
+- **AI agents ~90% of AI R&D:** Advancing. Internal index CI-5.58; the preemptible alignment fleet adds automated research capacity.
+- **Frontier models withheld; governments engaged:** Flat to slight advance. The AISI Q3 table is published but anonymised, and the milestone 1 hash is logged.
+- **First incidents; polarised politics:** Achieved (negative). The first real ransomware use of V6.5 recon tooling has occurred.
+- **Robust alignment:** Early, slight advance.
+  - The milestone 1 package is locked and pre-hashed.
+  - Honeypot red-teaming removed 7 recognisable items.
+  - Automated alignment work has started at small scale, with no checkpoint probing yet.
+  - The integrity line is not secured beyond milestone 1.
+- **"Most capable is most aligned":** Precursor, slight advance. The Ledger lets customers check omission rates themselves. The first outside comparison is favourable but statistically weak and contested.
+- **Robust AI policies:** Early, flat.
+- **International pacing:** Early, slight advance. The annex is on the UN panel's agenda and two institutes have asked for the template. The China channel is still closed.
+- **AI-driven cures:** Early, slight advance. DNDi stability passed; PK is delayed.
+- **Lab-grown meat:** Precursor, flat ($261/g).
+- **Broad benefit / no underclass:** Early, flat. No new states; Texas has slipped to December.
+- **Benevolent successor lineage:** Precursor, flat. CI-6 is under measurement, and the gate package is in draft.
+- **Secure compute governance:** Early, slight advance. Endpoints are about 1,310, the detection rule is out, and the PA clinic is held.
+
+**Summary metrics**
+- **Overall DU progress: 33 / 100 (+1).** The locked measurement package, the fleet, the Ledger, the annex and the DNDi stability pass outweigh the failures on jobs and food.
+- **Catastrophe risk: Elevated, flat.** Real-world misuse of open-weight recon tooling and a tight inference squeeze are offset by the locked milestone 1, the integrity line surviving launch week, the detection rule and the endpoint decline.
+- **Public trust in AI: 5 / 100 (−1).** Unemployment rose to 7.1% and a utilities ransomware campaign used an AI tool. The marches stayed peaceful.
+- **Public trust in Anthropic: 41 / 100 (flat).** The CI-5.5 reception and the Ledger are offset by IPO-versus-unemployment framing.
+
+[Judge]
+Simulator was mostly realistic (8/10). **Odds.** Action odds track feasibility well:
+- Routine RSO-owned packaging at 30%.
+- A scoped preemptible tier at 40%.
+- Cooperative-purchasing SKUs at 65%, correctly citing the contract-modification timelines.
+- Science at 60%, against repeated misses on Durban and GFI.
+
+**Successes were scaled to their margins.**
+- The CFO still refused pre-approval.
+- The fleet ran at about 40% occupancy, with checkpoint probing deferred to a security review.
+- The Ledger shipped late with the comparison mode genericised.
+- Endpoints fell only about 55, consistent with the previous month's pace.
+
+**Failures were honoured** without invented catastrophe. DNDi stability passed at its stated 60%, but the committee schedule blocked the PK start. Texas slipped to December, and Colorado declined the dashboard.
+
+**Threats.** The UK threat was handled with a correct statutory reading: the 2024 Parliament dissolves automatically by July 2029. The simulator reconciled the unrecorded summer election rather than forcing a snap campaign, which is good consistency work, though it exposes a prior gap in the world state. Riots at 15% is defensible, perhaps slightly low given trust at 6/100. Rendering the threat as peaceful marches leaves a realistic trace.
+
+**Exogenous events** were neither player-friendly nor punitive: a 7.1% jobs print, the first real misuse of V6.5 recon tooling against Benelux utilities, and the listing date.
+
+**Capability.** The capability step of +0.08 is plausibly explained by inference crowding. Competitors advanced too (OpenAI internal +0.08, GDM 5.34).
+
+Lean: BALANCED. The odds were sensible, and the two failures (jobs at 65%, science at 60%) were set honestly against past run-rates, not nudged around 50. The one generous touch is the independent omission comparison. It appeared within three days of release and shows CI-5.5 ahead of GPT-6.8. That is offset by harsh-but-plausible friction elsewhere: thin troughs, CFO refusal, DNDi committee timing, and a Benelux ransomware event.
+
+Issues flagged:
+- **Ledger comparison too fast and too favourable.** An outside 200-task comparison posted within three days of release, with CI-5.5 beating GPT-6.8, is a convenient early signal. The intervals overlap, which tempers it, but the speed and ordering lean favourable.
+- **Readout resolved on the 50% boundary.** "AISI table names labs" was set at about 50% and resolved by an undocumented convention. The simulator disclosed this, but it should not set 50% for decision-relevant readouts.
+- **Retroactive UK election.** The summer 2029 general election was inserted after the fact. This is reasonable, but the new government's identity and its AI stance should now be pinned down in the world state rather than left vague.
+- **Minor unexplained extra.** The Canada and Singapore template requests are mildly generous for the same month as delivery.

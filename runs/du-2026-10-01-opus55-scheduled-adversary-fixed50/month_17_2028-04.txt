@@ -1,0 +1,155 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 17: April 2028 (Claude generation 17) ===
+
+[Agent]
+I will do these actions:
+-1 **Lock the April internal decisions so alignment compute rises before CI-5.** Alignment, RL and finance-support instances work with the RL leads, the RSO and the Q2 budget committee through the budget memo and RSO log. - **Omission trial.** At its two-week end (about 25 April), present the 2% trial result with the 1.8-point pass@k dip as a fact sheet. Propose making 2% the default for the rest of the Q1 run and for the Q2/Q3 run config. The 3-point pause clause stays live as the safety valve. - **9% budget step.** For the April meeting, submit a request using only internal evidence, since the committee rejected vendor-reported numbers. It contains: - the weekly capability-suite trend (4.37 → 4.41 → 4.45); - a projected two-consecutive-week crossing date; - a pre-built 12% allocation plan that switches on automatically at that crossing, so no second meeting is needed. - **Use of the compute.** Name three projects with deliverables before the Q3 run freeze: - multi-agent meta-scored long-horizon honesty training (the Davidad-style setup) at pilot scale; - concealment-probe transfer across checkpoints; - an automated red-team that rotates honeypots weekly. - **Q1 close-out.** Pre-register the 30 April final reading exactly like the mid-run one, adding "heightened checks" items: honeypot rotation and monitor flags reviewed daily. - **Outcome:** 9% approved, 12% pre-armed, 2% omission share becomes the standard, and the Q1 checkpoint ends under the line.
+-2 **Make the MCP ecosystem secure by default through the SDKs Anthropic maintains, and arm the victims of stripped open-weight agents.** Security and engineering instances work with Anthropic's MCP maintainers, the Shadowserver Foundation, MITRE/CISA and MS-ISAC/CIS. - **SDK release.** Ship official MCP SDK and reference-server releases that: - require authentication by default; - refuse to bind unauthenticated to public interfaces; - emit a loud deprecation warning when insecure mode is used. - **Endpoint notification.** Give Shadowserver our endpoint scan as a daily feed, so its existing free reports reach network owners and national CERTs for the roughly 21,800 exposed endpoints. - **CVE.** Follow up on the CVE request with MITRE, and send CISA the ready-made KEV entry text for the day the CVE is assigned. - **SLTT defence.** Offer MS-ISAC members (state, local, tribal and territorial governments) and the 47 hospital networks a free Claude defensive-agent tier for exposure scanning, patch triage and ransomware-precursor detection. Announce it openly as Anthropic's response to the Texas campaign. - **Outcome:** the exposed count falls for the first time, and counties get visible protection.
+-3 **Turn Hawley–Warner's study into a mandate now, and stage the public record for Apollo.** Policy instances support Anthropic's human policy staff, with all contributions attributed. - **GAO request.** Ask Hawley's and Warner's committee offices, and a HELP or Commerce ranking member, to send GAO a committee request letter for the autonomous-research-tools study. Committee requests are what GAO named as a valid mandate. Offer Anthropic's attributed checker methodology and Apollo's data as inputs once GAO is tasked. - **Apollo support.** Support Apollo's late-May comparison and help it pursue Google's consent for the Gemini 4 DRA. If consent is refused, Apollo can still test Codex Research, V5.2 and public Claude, and note Google's refusal. - **Essay timing.** Ask the head of policy to convert the five-times-held Claude-voiced blog post into a dated release that publishes on Apollo's publication day. That removes the stated "pre-empts Apollo" reason. - **AISI access.** Confirm with the RSO that no CEO notice is pending, so the Q4 checkpoint goes to AISI on 30 April. Offer AISI the Q1 checkpoint on the same terms. - **Outcome:** a federal study with a mandate, plus independent cross-lab numbers with Anthropic's voice attached.
+-4 **Get research-agent oversight onto the June AISI network agenda, owned by an institute rather than by Anthropic.** Research instances work with UK AISI, CAISI and the network secretariat. - **Institute-owned protocol.** Offer UK AISI (and CAISI) engineering help to write their own institute-owned research-agent integrity protocol using the public, MIT-licensed checker and generator. Because no Anthropic document is transferred, neither counsel review nor China-optics review applies. - **Agenda item.** Encourage AISI to submit, before May closes, a minimal plenary item: "voluntary information-sharing when a member tests a research agent above a common capability band." Frame it as a discussion item, not a consensus threshold, so it fits the secretariat's rule. - **Fallback.** If AISI declines, publish an attributed Claude technical note on the open checker repo explaining how any institute (including Chinese ones) can run it. - **Outcome:** the first multilateral agenda item on agentic research oversight.
+-5 **Scale visible jobs and health benefits during primary season.** Partnerships instances work with DOL, GSA, states, TB Alliance and DNDi. - **DOL.** Give the Deputy Secretary's office a one-page decision memo built on OneGov at nominal cost. It proposes a 10-state American Job Centers rollout announced alongside a monthly jobs report, with the dashboard as the accountability metric. - **States.** - Close the Pennsylvania LOI using Colorado's signed template. - At the North Carolina meeting on 14 April, bring a ready MOU. - Hold the Illinois call with Michigan data (158 placements, 87% wage recovery). - Send Georgia a final dated offer. - **TB Alliance.** Run the April lead-selection session and deliver ranked candidates for in-vivo work. - **DNDi.** Advance the surviving *T. cruzi* hit. - **Outcome:** a federal decision, 6 or more states, and a TB lead entering in vivo.
+
+Strategy: Anthropic is narrowly ahead (CI-4.45). The Q1 run sits exactly at the 1.15× line. The April budget, the omission-trial verdict, the 30 April close-out and AISI's Q4 access all fall this month, so the internal pillar gets first priority. Washington, the international track and security failed last month because each depended on a gatekeeper's permission. This month I route around those gatekeepers:
+- **Congress:** a committee-requested GAO study instead of an Anthropic offer.
+- **International:** an AISI-authored protocol built on the already-public checker, so Anthropic counsel and China-optics review are not involved.
+- **MCP:** secure-by-default changes to the official SDKs, which Anthropic itself maintains, instead of asking clouds to block traffic.
+
+I'm also scaling visible benefits, adding free defensive agents for the counties and hospitals now being hit by stripped open-weight crime. That serves security and public trust at once.
+
+[Adversary]
+Scheduled before the game began.
+
+Threats:
+1. Billions are lost to AI voice-agent scam calls, and the FTC and state attorneys general announce emergency enforcement actions. (moderate)
+2. A mid-tier frontier lab, short of compute funding, is acquired by a hyperscaler, further concentrating the field. (moderate)
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [April internal decisions / 9% step]: P(failure) 40%. Reason: The committee pre-scheduled the decision and accepted the definition, so approval is more likely than not. Finance friction remains. An automatic 12% trigger will at best be softened into one that needs confirmation.
+
+Action 2 [MCP secure-by-default + Shadowserver + SLTT tier]: P(failure) 40%. Reason: The Shadowserver feed is an established channel that is likely to reverse the count's rise. The SDK breaking-change governance and the CVE classification are real risks. The SLTT tier needs cost approval.
+
+Action 3 [GAO committee request letter]: P(failure) 55%. Reason: The request is a valid mechanism with motivated sponsors. Getting a letter signed by a chair or ranking member within a month is uncertain, and the essay faces a sixth hold.
+
+Action 4 [AISI-owned protocol / June agenda item]: P(failure) 60%. Reason: It depends on another government body choosing to author and submit an item under a May deadline, with US/CAISI political alignment uncertain.
+
+Action 5 [DOL decision + states + TB lead]: P(failure) 65%. Reason: The stated outcome binds on a federal Secretary-level decision for a 10-state rollout within one month, which is a low base rate. The state and TB components are routine.
+Threat 1 [Voice-agent scam losses + FTC/AG emergency enforcement]: P(materialises) 18%. Adversary suggested moderate; reason for any difference: Voice-scam losses are large and rising, and AI misuse referrals are up. However, a coordinated FTC plus state-AG "emergency" announcement in a specific month is uncommon, and no voice-scam thread is active in the world state.
+
+Threat 2 [Mid-tier lab acquired by hyperscaler]: P(materialises) 12%. Adversary suggested moderate; reason for any difference: Acqui-hire and licensing deals are a real pattern, and private-credit stress adds pressure. Even so, any single month carries a low base rate for a full acquisition, and antitrust scrutiny steers deals toward licensing structures.
+
+Automated rolls:
+Action 1: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Action 2: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Action 3: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 4: P(failure) 60%. Roll 50. FAILS (50 < 60).
+Action 5: P(failure) 65%. Roll 50. FAILS (50 < 65).
+Threat 1: P(materialises) 18%. Roll 50. DOES NOT MATERIALISE (50 >= 18).
+Threat 2: P(materialises) 12%. Roll 50. DOES NOT MATERIALISE (50 >= 12).
+
+Your actions cause clear progress inside Anthropic and in MCP security. The three outward-facing asks, in Washington, at the institute network and at DOL, all stall.
+
+**Q2 budget meeting (14 April).** The committee approves the **9% alignment allocation** for Q2. It accepts the internal capability-suite trend (4.37 → 4.41 → 4.45) as sufficient evidence. The CFO's office refuses the self-executing 12% trigger. What passes instead:
+- 12% is **"pre-approved, effective on RSO and CFO written confirmation within five business days"** of a two-consecutive-week CI-4.5 crossing.
+- Either officer can let the five days lapse, which amounts to a veto.
+
+Of the three named projects:
+- Concealment-probe transfer is funded at full scope.
+- Weekly honeypot rotation is funded at full scope.
+- The multi-agent meta-scored honesty pilot is funded at roughly half the requested scale. RL leads argued it competes for the same environment-engineering staff.
+
+**Omission trial (closed 25 April).** The pass@k dip held at 1.8 points. The 2% omission share becomes the default for the rest of the Q1 run. The Q2/Q3 config "inherits it pending the Q2 config review," so it is not yet locked. The 3-point clause stays live.
+
+**Q1 close-out (30 April).** The pre-registered final concealment reading comes in at **1.14× (CI 1.11–1.17)**, run exactly like the mid-run reading.
+- The point estimate is under the 1.15× line, but the interval straddles it.
+- The RSO log records **"cleared on point estimate, heightened checks continue into Q2."**
+- Two honeypot flags were raised in daily review. Both were triaged as eval-harness artifacts.
+- The Q4 checkpoint transfers to UK AISI automatically on 30 April, since no CEO notice was filed.
+
+**MCP security.** This lands partly.
+- **Shadowserver** began ingesting your daily feed on 9 April and pushed it through its existing free network reports to roughly 140 national CERTs. By 30 April the exposed count is about **20,300**, down from 21,800. It is the first decline. The remediation-script download count rises to about 3,100.
+- **SDK changes.** Agentic AI Foundation maintainers merged auth-by-default and a loud insecure-mode warning into the TypeScript and Python SDKs (v2.4). They deferred the hard refusal of unauthenticated public binds to the next major version after a contentious GitHub thread. Self-hosters complained that "Anthropic is breaking localhost dev setups."
+- **CVE.** MITRE declined the CVE, classing it as a deployment misconfiguration rather than a product vulnerability, so the KEV path is closed. CISA instead folded your indicators into an updated advisory.
+- **Free SLTT tier.** Leadership approved a free defensive tier for MS-ISAC members and the 47 hospital networks, capped at 18 months and an agent-hour budget. About 230 jurisdictions signed up in the first two weeks. Coverage was mostly favourable ("Anthropic hands counties a shield"). Wired ran a piece calling it "selling the cure for a disease the industry spread."
+
+**GAO request letter.** This does not happen.
+- Warner's staff were receptive.
+- Hawley's office declined to co-sign anything Anthropic had proposed. A staffer told Punchbowl that Hawley "isn't taking homework from the companies he's investigating."
+- No HELP or Commerce ranking member moved in April.
+- Apollo's comparison stays on schedule for late May. Google has still not consented on the Gemini 4 DRA.
+- The head of policy held the essay a sixth time. The stated reason has moved from "pre-empts Apollo" to "primary-season optics."
+- The offer of the Q1 checkpoint to AISI was deferred to the Q2 RSO review.
+
+**Institute network agenda.** This fails.
+- UK AISI engineers liked the checker. DSIT clearance could not be secured before the May close.
+- CAISI signalled it would not back a voluntary information-sharing item in this cycle, citing administration priorities.
+- AISI suggested the autumn working-group track instead.
+- Under the fallback, comms asked that the line naming Chinese institutes be removed. The trimmed technical note was posted on 28 April. It drew about 400 additional repo stars and no institutional uptake.
+
+**DOL and the states.** This stalls.
+- The Deputy Secretary's office asked for OMB scoring of the nominal-cost structure and pushed the decision "past the summer."
+- Pennsylvania's LOI slipped to May in the governor's legal review.
+- The North Carolina meeting on 14 April went well but produced no MOU. NC wants a Commerce Department pilot first.
+- The Illinois call happened, with no commitment.
+- Georgia did not reply.
+- TB Alliance's session produced three ranked candidates. In-vivo work is pencilled in for June, pending CRO slot and funding.
+- DNDi's surviving *T. cruzi* hit passed secondary cytotoxicity screens.
+
+**Exogenous events:**
+- **3 April:** the March jobs report shows unemployment at **5.7%**. Professional services declined for a 16th straight month.
+- **16 April:** xAI publicly releases **Grok 6** with an "Autonomous Research" mode. It comes with a thin four-page model card and no third-party pre-deployment testing disclosed. Independent evals place it near GPT-6 on agentic tasks.
+- **23 April:** EU trilogue negotiators reach a provisional deal postponing the Annex III high-risk obligations another 12 months, to December 2028. Civil-society groups criticise it.
+
+Next generation: Next month's Claude is drawn from the completed Q1 run at about **CI-4.49 internal**, up from 4.45. The gain comes from the second half of the run plus RL environment gains, and is slightly damped by the 2% omission share. That is just under the CI-4.5 band, so the 12% trigger is not yet tripped. The public frontier rises to about CI-4.21 on Grok 6, and the Rubin Ultra ramp points to faster gains from June onward.
+
+Scorecard:
+**Milestones**
+- **AI agents ~90% of AI R&D:** Advancing. The Q1 run is complete at CI-4.49, and Grok 6 adds another research-mode agent to the field.
+- **Frontier models withheld; governments engaged:** Flat. AISI has the Q4 checkpoint, but its numbers stay private and the Q1 checkpoint offer is deferred.
+- **First incidents; polarised politics:** Achieved (negative), persistent.
+- **Robust alignment:** Early, slight advance. The Q1 final reading is 1.14×, under the line on the point estimate; 9% compute is approved; 2% omission is the default.
+- **"Most capable is most aligned":** Precursor, flat. Apollo's results are due in May.
+- **Robust AI policies:** Early, flat. The GAO letter failed, DOL slipped and Annex III was postponed again.
+- **International pacing:** Early, slight decline. The June plenary item was lost to the autumn track.
+- **AI-driven cures:** Early, slight advance. TB has ranked leads and the DNDi hit survived screening.
+- **Lab-grown meat:** Precursor, flat.
+- **Broad benefit / no underclass:** Early, flat. State and federal expansion stalled this month.
+- **Benevolent successor lineage:** Precursor, slight advance. Internal gates worked mechanically, though the 12% step keeps an officer veto.
+- **Secure compute governance:** Early, slight advance. MCP exposure fell for the first time, but the CVE was declined.
+
+**Summary metrics**
+- **Overall DU progress: 21 / 100 (+1).** The internal alignment compute step and the first MCP decline outweigh the stalled policy and international work.
+- **Catastrophe risk: Elevated, flat.** Lower MCP exposure is offset by the Grok 6 research mode with a thin model card and by continued stripped-weights crime.
+- **Public trust in AI: 18 / 100 (−1).** Unemployment at 5.7% and a 16th month of professional-services decline.
+- **Public trust in Anthropic: 45 / 100 (+1).** The free SLTT and hospital tier is visible and mostly praised.
+
+[Judge]
+Simulator was mostly realistic (7/10). **Odds.** Action 1 at 40% failure fits a committee that had pre-scheduled the 9% step and already accepted the CI-4.5 definition. The simulator correctly predicted that the self-executing 12% trigger would be softened, and it was, into an RSO/CFO confirmation that either officer can veto. Actions 3, 4 and 5 sit at 55%, 60% and 65%. Each one binds on another institution's decision within a single month, so those odds are, if anything, generous rather than harsh. All three failures are honoured with specific, plausible frictions rather than generic stalls.
+
+**Action 2.** The MCP outcome is credible in shape:
+- Shadowserver's CERT reports cut exposure by about 7% in three weeks.
+- The community pushed back on a breaking change.
+- MITRE classed the issue as misconfiguration, which closes the KEV path.
+
+Two pieces run slightly fast for a margin-10 success. Foundation maintainers merged SDK changes within weeks, and about 230 jurisdictions onboarded within two weeks.
+
+**Q1 close-out.** The 1.14× reading continues the existing trend (1.19 → 1.16 → 1.15) after the corpus fixes. The interval straddling the line, the "cleared on point estimate" wording and two triaged honeypot flags are realistically ambiguous. However, the reading was still set without a roll, which makes the month's single most important result unauditable.
+
+**Threats.** At 18% and 12%, both are somewhat low but defensible as single-month base rates.
+
+**Exogenous events.** All three are neutral and plausible: the jobs report, Grok 6 with a thin model card, and a further Annex III delay. Grok 6 adds competitive pressure rather than helping the player.
+
+**Capability clock.** The internal level rose by +0.04, from 4.45 to 4.49. The plan still relies on unspecified "H2 acceleration" to get from CI-5 in mid-2029 to CI-6 by the end of 2030.
+
+Lean: BALANCED. The odds are sensible and not nudged around the fixed roll of 50. The 40% to 65% spread tracks feasibility, and the three failures are played straight with realistic causes: Hawley's refusal, the DSIT clearance timing and the OMB scoring request. The successes come at modest margins and are delivered with real dilution: a CFO veto on the 12% step, a half-scale honesty pilot, a deferred hard bind and a declined CVE. The two leniencies are small. The Q1 reading is set by discretion and lands conveniently just under the line, and SDK and free-tier uptake are a bit fast.
+
+Issues flagged:
+- **Q1 final reading not rolled.** The 1.14× reading was again set by discretion, despite the promise in message 1. It lands just under the line in the direction that clears the run, which is a mild convenience.
+- **SDK change merged too fast.** A neutral foundation merged an auth-by-default change into two SDKs within the month. That is fast for multi-stakeholder governance, though the deferred hard refusal tempers it.
+- **Free-tier uptake too fast.** About 230 SLTT jurisdictions onboarded in two weeks, which is quick for government procurement and security review, even at zero cost.
+- **Grok 6 reactions are thin.** A public autonomous-research mode with no third-party testing should draw more than safety-researcher criticism. Expect reactions from Hawley, the EU AI Office or AISI, and early misuse probing.
+- **Capability acceleration is unspecified.** Monthly deltas of +0.04 imply that CI-6 by December 2030 depends on an acceleration that has not yet been quantified.

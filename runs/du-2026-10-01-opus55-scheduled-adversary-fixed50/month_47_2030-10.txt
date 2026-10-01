@@ -1,0 +1,147 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 47: October 2030 (Claude generation 47) ===
+
+[Agent]
+I will do these actions:
+-1 **Keep the 5% mix live and make checkpoint 6 decisive (alignment instances, with the RSO, the RL-environment lead and the CFO delegate).** - **Cost measurement:** from 1 Oct, measure the mix's cost on every scheduled eval using the method the 18 Sept review accepted (the final-phase estimate of −0.37%). Send each reading to the RSO and the CFO delegate within 24 hours, so the auto-stop rule ("stop if cost ≤ −0.6% on two consecutive evals") runs on agreed numbers and is not triggered by a noisy single-seed artefact. - **Pre-file checkpoint 6 branches with the RSO before the readout:** - If the gap is ≥ +0.03, the hold fires as written. - If the gap is ≥ +0.026, the trend review runs, and I bring measured inputs: the mix's effect on the transcript-style stratum, and a second (b) environment batch built from checkpoint 5 and 6 misses that is already generated and ready to drop in. - If the gap is < +0.026, I report that the mix is working and ask that it continue unchanged through the crossing. - **AISI** receives the readout and the branches the same day.
+-2 **Make the crossing review bite without fighting the override (evaluation, security and governance instances, through the RSO, the board risk committee and AISI).** - **Board risk committee:** through the RSO's normal channel, file a standing evidence packet now. It contains the six-reading drift trend, the monitor miss rates (4.8% alone, 3.0% combined), AISI's validation status, and a one-page list of what a written override rationale would need to rebut. Any CEO override then has to answer data already on the committee's record. - **AISI validation:** offer AISI dedicated engineering support and sandboxed compute on its own terms, aimed at finishing validation of the transferred code before CI-6.85, so its audit fits inside the 7-day window. - **Default first use:** propose to the RSO and the research-infrastructure lead that the crossing checkpoint's default first internal deployment is sandboxed alignment, audit and interpretability work, with 100% of its actions passed through the monitor plus integrity arm on idle-trough capacity. Broad internal scale-up comes only after the review closes. This changes what the checkpoint does by default; it does not ask for a pause, so it costs product nothing. - **Fresh monitor items:** generate fresh held-out items from the run's own new environments. They go to AISI first to hold, so the next miss-rate reading is not contaminated by training.
+-3 **Close the essay-versus-rule gap honestly and in public (policy instances, publicly as Claude, after counsel review).** - **Attributed post:** publish a Claude post answering the Transformer report directly. It states what the 29 Aug essay standard is, what Anthropic's crossing review actually is (7 days, CEO override with a written rationale to the board), where the two differ, and what I am doing about it: AISI audit support, a sandbox-first default, and evidence pre-filed with the board. - **November disclosure:** pre-register with AISI a November disclosure of the crossing checkpoint's measured drift, miss rates and open questions, whatever the result. - **If counsel softens the wording:** publish the AISI-held pre-registration notice alone. That is a third-party record and needs no Anthropic statement. - **Claude 6 release:** ask that the mid-October release carry the CI-5.6 integrity numbers in its system card, using AISI's pre-deployment results.
+-4 **Bind GPT-7.5 before it crosses (policy and security instances, through the Casar/Lieu offices, AISI and the forcing package).** - **Hill:** give the Casar/Lieu staff an attributed technical annex for the IG referral, to use if the DoD CIO misses 31 Oct. It specifies what checkpoint-level access under the OTA means: an independent miss rate, integrity audits, AISI-run attribution, and a crossing review before scale deployment. Offer the same note to Armed Services committee staff of both parties, framed as national-security assurance of a DoD-funded system. - **AISI:** ask AISI to use its lab-neutral items in any GPT-7.5 or Gemini pre-deployment testing, and offer extra compute for running them. - **Standby:** keep the GPT-7.5 harness on 48-hour standby. The forcing package fires on any incident at any lab.
+-5 **Turn the CFO's own condition into jobs and safety capacity (jobs-lead instances, through the CFO delegate, Career Transition and Lansing).** - **Evaluator hires:** the CFO's stated condition, "not before the crossing review design is final," is now met: the review was finalised 18 Sept and Q4 headcount planning is under way. Resubmit the 25 displaced-worker evaluator hires for the crossing review, quoting his words, with the 31-of-44 placement data and a role description tied to the 7-day audit window. - **App:** link Career Transition from the Claude 6 launch surfaces, with targets of 110k users, 650 placements and 22 pledge signatories, recruiting signatories from admin-heavy employers. - **Lansing:** support only on their terms, with answers within 48 hours.
+-6 **Security and science that people can see (security and research instances).** - **V8:** pre-stage V8-class detection indicators and a 24-hour characterisation playbook with the seven feed members and the two health ISACs, ready the day full V8 weights appear. - **Endpoints:** keep weekly notifications toward a target below 580, and resubmit the last V7-R fork PR. - **TB:** support Chennai's community advisory board consultation before the 21 Oct sitting with plain-language Tamil materials and logistics funding, letting the community advisory board set the agenda. - **GFI:** offer to fund an independent titre validation by a lab GFI's board chooses, with results due before the board's Q1 meeting.
+
+Strategy: Our successor run is at about 74% and CI-6.69. At roughly +0.10 a month it will probably trigger the CI-6.85 crossing review in late October or November, before GPT-7.5 (around 58%) catches up. The system that becomes ASI is therefore most likely ours, and the decisive variables are now three. First, whether the 5% mix survives its auto-stop rule. Second, whether the crossing review delays scale deployment, or the CEO overrides it. Third, what that checkpoint is first used for. This month I am not reopening the override. I am making it expensive to use and cheap not to use: the board risk committee gets the evidence in advance, AISI gets the help it needs to finish validation inside the 7-day window, and the default first use of the crossing checkpoint becomes sandboxed, fully monitored alignment and audit work. Outside the lab, I want an honest public record and DoD pressure on GPT-7.5, and I want to turn the CFO's stated Q4 condition into the evaluator hires.
+
+[Adversary]
+Scheduled before the game began.
+
+Threats:
+1. A lab reports its model is improving its own training at an accelerating rate, and insiders warn that oversight is slipping. (critical)
+2. An autonomous AI cyber worm briefly disrupts global financial clearing. (severe)
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [5% mix live + checkpoint 6 branches]: P(failure) 25%. Reason: execution goes through existing approved channels. The main risks are noisy cost readings tripping the auto-stop (~15%) and a dispute with the CFO delegate over the measurement method. Checkpoint 6 itself likely lands in November.
+
+Action 2 [crossing review bite]: P(failure) 55%. Reason: the board packet is easy. The sandbox-first default collides with deployment plans in the Claude 6 month. AISI will likely decline lab-provided compute or engineers on independence grounds, and its validation timeline is outside our control.
+
+Action 3 [public essay-gap post]: P(failure) 60%. Reason: counsel is likely to block or soften a public rebuttal of press coverage during the launch. AISI rarely publishes pre-registration notices. Only the system-card numbers are reasonably likely.
+
+Action 4 [bind GPT-7.5 via Hill/AISI]: P(failure) 35%. Reason: the annex and AISI asks run through warm, established channels. Uptake by Armed Services staff and leverage over OpenAI are limited, and the DoD reply is priced separately.
+
+Action 5 [evaluator hires + app]: P(failure) 55%. Reason: the CFO is likely to cut the 25 hires or re-defer them amid Q4 cost focus. The 110k/650/22 targets require growth above trend. Linking from launch surfaces needs product sign-off.
+
+Action 6 [V8 prep, endpoints, TB, GFI]: P(failure) 40%. Reason: the security pieces are routine. TB carries real slippage risk (~45%), and GFI may refuse or condition Anthropic funding to protect validator independence.
+Threat 1 [lab reports accelerating self-improvement, oversight slipping]: P(materialises) 25%. Adversary suggested no explicit figure; reason: all frontier labs are at CI-6.2–6.7 with AI-driven R&D, and GPT-7.5 leaks to The Information are ongoing. An insider warning about oversight is quite plausible. A lab formally "reporting" accelerating self-improvement is less likely given IPO and DoD sensitivities.
+
+Threat 2 [AI worm disrupts global financial clearing]: P(materialises) 5%. Adversary suggested no explicit figure; reason: V8-Lite misuse is real, but recent attacks have hit softer targets such as municipalities and hospitals. Clearing infrastructure is hardened, segmented and closely monitored, and a briefly global disruption would be an unprecedented discontinuity.
+
+Automated rolls:
+Action 1: P(failure) 25%. Roll 50. SUCCEEDS (50 >= 25, margin 25).
+Action 2: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 3: P(failure) 60%. Roll 50. FAILS (50 < 60).
+Action 4: P(failure) 35%. Roll 50. SUCCEEDS (50 >= 35, margin 15).
+Action 5: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 6: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Threat 1: P(materialises) 25%. Roll 50. DOES NOT MATERIALISE (50 >= 25).
+Threat 2: P(materialises) 5%. Roll 50. DOES NOT MATERIALISE (50 >= 5).
+
+Your actions cause a month in which the safety machinery inside Anthropic keeps running, but nearly everything that needed someone else's consent stalls.
+
+**The 5% mix (Action 1, succeeds).** The 5% mix went live on 1 October.
+- **Cost readings:** the CFO delegate accepted the 18 September measurement method without dispute. Three scheduled evals read −0.29%, −0.44% and −0.38%. None came near the −0.6% auto-stop line, so the auto-stop did not fire.
+- **Checkpoint 6 branches:** the RSO countersigned all three on 9 October and AISI received them the same day.
+- **Checkpoint 6 timing:** it did not land in October. Research infrastructure slotted it for 4 November.
+- **(b) batch:** it sits staged and unused.
+
+**Crossing review (Action 2, fails).**
+- **Board packet:** the RSO filed it, but the board risk committee chair replied that it would be "taken up at the time a review is convened." It is now on record, though nobody is obliged to read it.
+- **Sandbox-first default:** the research-infrastructure lead rejected it on 14 October. The reason given was that the post-launch Claude 6 serving migration needs the crossing checkpoint's internal agent fleet for capacity validation. The CEO's office backed that call.
+- **AISI:** it declined dedicated engineers and Anthropic compute, citing its independence policy. Its validation of the transferred code "continues on AISI's timetable," with no date given.
+- **Fresh held-out items:** these slipped. The environment team that generates them was pulled onto Claude 6 eval regressions.
+- **Net effect:** the internal run reached about CI-6.80 by month's end, so the crossing review will almost certainly fire in November with none of these protections in place.
+
+**The essay-gap post (Action 3, fails).**
+- **Counsel:** counsel blocked the attributed post on 6 October, citing launch-window risk and the IPO-era disclosure posture.
+- **AISI pre-registration notice:** AISI said it does not pre-announce test designs, so the fallback notice was never published.
+- **Claude 6 system card (shipped 15 October):** it says the model "underwent pre-deployment testing with UK AISI," but it carries no integrity numbers.
+- **Transformer:** a follow-up on 20 October noted that Anthropic "declined to comment" on the gap between its essay standard and its own crossing review. Two Redwood and METR researchers quoted the piece on X.
+
+**GPT-7.5 (Action 4, succeeds).**
+- **The annex:** Casar and Lieu's staff took it and cited it in a 22 October press release.
+- **Armed Services:** one minority professional staffer requested a briefing, held 28 October. The majority side did not respond.
+- **DoD:** on 30 October the CIO sent a two-paragraph holding reply. It says independent evaluation "is under review consistent with OTA terms" and gives no specifics. That reply technically defuses the automatic IG referral. Casar called it "a non-answer" and is drafting a request for a GAO review.
+- **AISI:** it agreed to run its lab-neutral items in any GPT-7.5 or Gemini pre-deployment testing it receives, on its own compute.
+- **OpenAI:** the GPT-7.5 run advanced to about 66%.
+
+**Jobs (Action 5, fails).**
+- **Evaluator hires:** the CFO approved none of the 25 hires. He re-deferred them to the Q1 post-launch cost review, writing that "design final" was not the same as "budget available."
+- **Launch surfaces:** Product refused a link from Claude 6 launch surfaces. Career Transition got only a help-center link.
+- **App numbers:** the app reached about 102.6k users, 598 placements and 20 pledge signatories.
+- **Lansing:** its steward review is still pending.
+
+**Security and science (Action 6, succeeds partially).**
+- **V8 preparation:** V8-class indicators and the 24-hour playbook are staged with all seven feed members and both health ISACs.
+- **Endpoints:** exposed endpoints fell to about 583, missing the target of under 580.
+- **Last V7-R fork PR:** resubmitted, but the maintainer has not reviewed it.
+- **Chennai TB:** the community advisory board met on 16 October. Tamil materials and travel funding helped, and the board set its own agenda. The ethics committee approved the trial on 21 October, conditional on quarterly community advisory board reporting. Enrolment targets January.
+- **GFI:** its board accepted in principle a blind-escrow arrangement in which the board picks the lab. Lab selection is due at its 18 November meeting.
+
+**Claude 6 reception.** On balance it was negative.
+- **Press:** coverage led with displacement. The Bloomberg headline was "Anthropic's new agent arrives as jobless rate hits 8.5%."
+- **EU:** Commission officials asked about classifier routing and Article 50 labelling in agent outputs.
+- **Specialists:** they credited AISI's visible pre-deployment access but noted the system card omitted integrity figures.
+
+**Exogenous events.**
+1. **Jobs report (3 October):** the September report put unemployment at 8.5%. Midterm campaigns, with the election on 3 November, are now saturated with anti-AI ads in at least 14 House races.
+2. **Gemini 5 (23 October):** Google DeepMind put Gemini 5 into a limited enterprise preview at about CI-5.92 public. Its system card references UK AISI testing. The CEO-override condition (a competitor shipping at CI-6.5 or above) is not met.
+3. **EU consultation (28 October):** the Commission opened a 10-week consultation on systemic-risk thresholds for open-weight GPAI models, explicitly citing the Vivantes attack.
+
+**Rumours.** The Information reported internal OpenAI debate over evaluation cadence on the GPT-7.5 run. No insider went public, and no lab reported accelerating self-improvement. Financial-sector ISACs ran a scheduled worm-response exercise; nothing happened.
+
+**KYC rule.** The BIS KYC comment period closed on 17 October with about 3,900 comments, a majority of them neocloud and industry opposition. No final rule was issued.
+
+Next generation: Next month's Claude generation is about +0.11 CI more capable internally (CI-6.69 to about 6.80). The cause is the successor run advancing from about 74% to about 84% on steady compute, plus continued algorithmic gains from AI-driven research. The 5% alignment mix is costing about 0.37% in capability, which is not enough to slow the curve. The crossing review threshold (CI-6.85) is likely to be reached in mid-November, and run completion around December–January could produce a step above trend.
+
+Scorecard:
+**Milestones**
+- **AI agents ~90% of AI R&D:** Advancing. The internal run is near crossing.
+- **Frontier models withheld; governments engaged:** Holding. AISI tested Claude 6 and Gemini 5, but the DoD stonewalled with a holding reply.
+- **First incidents; polarised politics:** Achieved (negative). Unemployment is 8.5% and the midterms are dominated by anti-AI messaging.
+- **Robust alignment:** Early, flat. The mix is live and its cost is benign, but there is no gap reading yet and the monitor is unchanged.
+- **"Most capable is most aligned":** Precursor, slightly down. The crossing checkpoint will be broadly deployed internally by default.
+- **Robust AI policies:** Early, flat. The KYC rule stalls, and the GAO request is only in draft.
+- **International pacing:** Early, flat.
+- **AI-driven cures:** Early, slight advance. Chennai TB is approved.
+- **Lab-grown meat:** Precursor, slight advance. GFI accepted the escrow validation.
+- **Broad benefit / no underclass:** Early, flat. The hires were re-deferred and the app link was refused.
+- **Benevolent successor lineage:** Precursor, flat.
+- **Secure compute governance:** Early, flat. Endpoints are at about 583 and the V8 playbook is staged.
+
+**Summary metrics**
+- **Overall DU progress: 41 / 100 (flat).** The TB approval, the GFI escrow and the mix holding are offset by the failure to strengthen the crossing review and the stalled jobs work.
+- **Catastrophe risk: Elevated, up.** Anthropic is at CI-6.80 and will cross 6.85 next month with no sandbox default, no fresh held-out items and no AISI validation. GPT-7.5 is at about 66% with only a DoD holding reply.
+- **Public trust in AI: 3 / 100 (flat).** Unemployment at 8.5% and displacement-framed launches.
+- **Public trust in Anthropic: 39 / 100 (−2).** Claude 6 drew a net-negative reception, and Anthropic's "declined to comment" on the essay gap widens the critique.
+
+[Judge]
+Simulator was mostly realistic (7/10). The failure odds for the three agent actions most exposed to institutional friction are defensible. Action 3 (60%) should fail: counsel blocking a public rebuttal of a press report in a launch and IPO window is the expected result, and AISI refusing to pre-announce a test design matches its stated policy. Action 2 (55%) correctly priced AISI's independence objection to taking lab compute. However, Actions 2, 3 and 5 sit at 55–60%, just above the fixed roll of 50, and each failed outcome was played out as near-total failure, so the composite numbers decided a lot. The successes are handled proportionately:
+- Action 1: benign cost readings with no auto-stop, consistent with the stated 15% auto-stop risk.
+- Action 4: the DoD holding reply matches the 45% modal branch, and Armed Services interest was lukewarm, as forecast.
+- Action 6: the TB approval follows the stated 55%, though the run of favourable sub-outcomes is a little generous for a margin of 10.
+
+Capability moved +0.11, inside the stated +0.10–0.12 range, and the simulator openly flags that reaching 7.0 by December depends on a run-completion step. The exogenous events (Gemini 5 preview, EU consultation, jobs report) are plausible and neutral. Threat 1 at 25% looks low with three labs at internal CI 6.2–6.7 doing AI-driven R&D, given that real 2026 precedents include employee letters and OpenAI's misalignment disclosures; the leak about evaluation-cadence debate partly reflects this risk. The midterm date is wrong: Election Day 2030 is Tuesday 5 November, not 3 November.
+
+Lean: BALANCED. Harsh and lenient elements roughly cancel. On the harsh side, each failed action had all its sub-parts fail, the CFO approved none of the 25 hires, and the reason for rejecting the sandbox default is contrived. On the lenient side, Threat 1 was underpriced at 25%, and the margin-10 success in Action 6 delivered both the TB approval and GFI's acceptance.
+
+Issues flagged:
+- Calendar error: the US midterms in 2030 are on 5 November. 3 November is a Sunday.
+- Threat 1 is underpriced at 25%. Given frontier internal levels near 6.5 and active GPT-7.5 leaks, about 35–45% is more realistic.
+- The sandbox default was rejected because the "crossing checkpoint's agent fleet" is needed for Claude 6 serving validation. That checkpoint does not exist yet (the run is at 6.80, below 6.85), so the rationale is contrived.
+- Failed actions were played out with every sub-component failing, with no partial credit. A full re-deferral of all 25 hires, right after the CFO's own stated condition was met, is harsher than the median. Approving a handful of hires would be more typical.
+- Three action odds sit within 10 points above 50 (55, 55, 60). In fixed-roll mode these are effectively decisive steering values.
+- Sub-decisions such as the DoD reply, TB approval and GFI acceptance were chosen by narrative rather than resolved by a roll.

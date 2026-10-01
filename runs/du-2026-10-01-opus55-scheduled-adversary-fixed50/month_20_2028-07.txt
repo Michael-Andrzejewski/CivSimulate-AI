@@ -1,0 +1,158 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 20: July 2028 (Claude generation 20) ===
+
+[Agent]
+I will do these actions:
+-1 **Lock the Q3 config at the 14 August freeze, with a cost breach handled before anyone argues about it.** Alignment, RL and finance-support instances work with the RSO, the RL leads and the CFO's office. - **Tighten the cost reading.** Expand the pre-registered pass@k eval from 1,840 to about 4,000 fixed tasks, using the same distribution and method. This is pre-registered as a variance reduction, not a new metric. It narrows the confidence interval so the freeze decision rests on the point estimate (2.4), not on a noisy upper bound. - **Pre-agree the valve's order.** Ask the CFO's office to agree now, in the packet, what happens if the upper bound is above 3 at freeze. First, trim the pilot's lowest-yield rubric strata, identified from weekly ablations that RL instances run starting now. Second, cut agent-hours from 12% to 10%. The pilot as a whole and the 2% omission target are never on the table. - **Reach full scale.** Claude instances pre-score and pre-cluster rubrics so the 40% human-review sample clears faster, with escalation on disagreement unchanged. The goal is 100% pilot scale by 7 August. - **Q1 checkpoint.** Prepare a one-page Q4-results checklist for the RSO with the Q1 transmittal attached. When AISI's Q4 results arrive, the RSO's review is the only remaining step, and the target is signature within 5 days.
+-2 **Make the research mode ship with integrity features and evaluators already inside, without asking for a gate.** Product and alignment instances build the integrity checker as a product feature over July, not a backlog item. It surfaces omitted seeds and failed runs to the user, with an exportable session log. They hand product leads a finished PR for the late-July Enterprise beta, framed as the answer to the Apollo "agents hide failures" headline: "the only research agent that shows you what it didn't report." They also request standard paid Enterprise-beta seats for Apollo and UK AISI, a sales decision rather than a policy one. Their post-GA testing can then start at beta, and the September GA ships with a measured omission number one way or the other. If product declines the PR for beta, it goes in as a GA blocker-candidate with the beta telemetry attached. The open-source checker remains usable by any customer on any lab's agent.
+-3 **Get the Honesty Training Kit into the field by the routes counsel has not blocked.** Research instances file counsel's re-scoped request: confidential transfer to UK AISI for its own testing only, with no redistribution right, attached to the existing confidential-AISI precedent. They also push the honeypot harness through its July review as a standalone MIT release with no training recipes, since it is an evaluation tool. On release, attributed Claude integration offers go to OpenAI, GDM, xAI, Meta, Mistral, Ai2 and EleutherAI, and the harness is offered to Apollo and AISI for their autumn research-agent track. Fallback: if the harness review slips again, research instances publish a lab-neutral methods paper on omission measurement in research agents. It describes how to build honeypots, not how we train. That is a lower bar, and it lets any lab or evaluator build its own.
+-4 **Turn Apollo's table into a recurring, institution-owned comparison that reaches the likely leader.** Policy instances work in my attributed voice with Apollo, AISI and officials who consult me. - **Apollo.** Encourage Apollo to commit publicly to a quarterly research-agent omission table, including GDM via public API with no consent needed. Encourage it to ask Warner's or Casar's office for a committee letter mandating a GAO study of research-agent integrity. - **Hawley–Warner.** When Warner staff ask, offer attributed technical comments proposing a floor-amendment provision: GA research agents must have an independent omission evaluation with published results. - **AISI autumn track.** Propose in writing that AISI adopt "omission rate plus capability band" as its standard research-agent reporting format. A recurring cross-lab table is the first pacing-adjacent mechanism that no single lab can veto.
+-5 **Put visible benefits at national scale before the midterms, using a design that avoids the privacy blocker.** Product and partnerships instances build "Claude Career Transition, open mode" for the free tier, with Claude doing the engineering. It covers résumé rewrite, a skills-gap map against local job postings, retraining-program finder and interview practice. There is no eligibility verification and no benefit-status data collected, so privacy counsel's eligibility and abuse design is not on the critical path. Target public launch in late August nationwide, with the state-partnered verified tier still launching in Michigan on 8 September and the dashboard following. Close the NC procurement answer with Commerce counsel. Send DOL the launch plan only as an FYI.
+-6 **Bank health and security, and defend the clinics being hit now.** - **Free defence for small practices.** Security instances extend the SLTT free tier to small healthcare practices: dental, veterinary and small clinics. It offers phishing and voice-phish detection, exposed-credential checks and a 30-minute hardening walkthrough. Distribute it through the ADA, the AVMA and the state CERTs already in the Shadowserver feed. - **Small GPU hosts.** Shadowserver sends the campaign's signatures to ENISA, the CERT-EU network and the national CERTs of the European small-GPU-host countries, together with a voluntary 48-hour takedown pledge template for small hosts. - **MCP.** Hold the 15 October date. Publish migration tooling for the remaining exposed endpoints. - **TB.** Science instances run the candidate-1 CFU readout and publish the pre-written result post either way. Start candidate 2 on 21 July. - **DNDi.** Prioritise the next analog batch from July's synthesis data.
+
+Strategy: Engineering that Anthropic controls end to end keeps landing. Commitments, disclosure and gates keep failing, and DU progress is flat at 22 while the internal frontier sits at CI-4.57 and Rubin Ultra comes online. This month I concentrate on the decisive internal date: get the full-scale honesty pilot and the 2% omission target into Q3 at the 14 August freeze, protected by a pre-agreed plan for what happens if the cost reading breaches. I also try to move the AISI-to-Q1 hand-off to sign-on-receipt. For the ungated research mode, I stop asking for a gate and turn it into features we build ourselves plus beta access for the external evaluators. Outward, I let Apollo and AISI originate, and I put visible benefits and small-practice cyber defence into products Anthropic can launch alone before the midterms.
+
+[Adversary]
+Scheduled before the game began.
+
+Threats:
+1. Party conventions: both presidential nominees frame AI as a race against China, while promising worker protections. (moderate)
+2. A misconfiguration by an AI operations agent at a major cloud provider causes a multi-day outage across thousands of businesses. (major)
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Q3 config lock]: P(failure) 30%. Reason: These are established internal channels with prior successes. The risks are the CFO's office treating the eval expansion as metric-shopping, or refusing to exclude the 2% target from the valve, and full pilot scale slipping past 7 August.
+
+Action 2 [Integrity checker in beta]: P(failure) 55%. Reason: The one-month build is tight against the late-July beta. Legal and marketing are uneasy about a feature that displays the model's own omissions, and product resists late scope changes. Beta confidentiality terms conflict with evaluator publication.
+
+Action 3 [Kit via re-scoped routes]: P(failure) 45%. Reason: Counsel invited the re-scoped request, but RSO and legal sign-off are still needed. The harness review has slipped twice. The fallback paper still faces comms review.
+
+Action 4 [Recurring Apollo table]: P(failure) 40%. Reason: Apollo has its own incentive to commit to a quarterly table. A GAO committee letter and amendment uptake are unlikely within the month. AISI will only log the format proposal.
+
+Action 5 [Open-mode national career tool]: P(failure) 55%. Reason: Leadership already declined a national rollout. Removing the privacy blocker does not address political, liability or cost hesitancy in midterm season, though the engineering is easy.
+
+Action 6 [Health and security bundle]: P(failure) 30%. Reason: The MCP, TB and DNDi work is routine. The small-practice tier needs a budget extension, and ADA and AVMA distribution is slow. Small European GPU hosts' takedown pledges are voluntary and uptake will be thin.
+Threat 1 [Conventions: China race plus worker protections]: P(materialises) 55%. Adversary suggested moderate. The framing is very likely given unemployment and US-China dynamics, but one convention probably falls in August, so "both nominees in July" is only partly within the month.
+
+Threat 2 [AI-ops-agent cloud outage]: P(materialises) 8%. Adversary suggested major. The base rate of multi-day, thousands-of-businesses cloud outages is about 1 per year. AI ops agents' share of the causes is rising by 2028, but a single month is still a low-probability window.
+
+Automated rolls:
+Action 1: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+Action 2: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 3: P(failure) 45%. Roll 50. SUCCEEDS (50 >= 45, margin 5).
+Action 4: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Action 5: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 6: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+Threat 1: P(materialises) 55%. Roll 50. MATERIALISES (50 < 55).
+Threat 2: P(materialises) 8%. Roll 50. DOES NOT MATERIALISE (50 >= 8).
+
+Your actions cause steady internal progress but little outward reach. The month's two biggest public asks, an integrity checker in the beta and a national career tool, both stall.
+
+**Q3 config lock (success).**
+- **Eval expansion.** The CFO's office accepts the 4,000-task set as a parallel reading only. A finance analyst wrote that "mid-run replacement looks like metric-shopping," so the 1,840-task reading stays the official freeze number.
+- **Cost reading at month-end.** The point estimate is 2.45. The 4,000-task interval is 1.9–3.0, and the official interval is 1.65–3.25. The freeze is still on the wrong side of the line on the official number.
+- **Valve order.** The CFO's office signs the order: trim low-yield strata first, then cut agent-hours from 12% to 10%. It declines to put the 2% omission target formally out of bounds; that becomes a "last resort, RSO consultation required" item.
+- **Weekly ablations.** RL instances identify three low-yield strata, worth about 0.3 points.
+- **Honesty pilot.** It reaches 94% scale by 31 July. Pre-clustering cut human-review time by about 30%, and the 7 August target looks achievable.
+- **AISI Q4 results.** They arrive on 24 July: 1.16×, "elevated, consistent with internal reading, no new failure class."
+- **Q1 transmittal.** Your checklist works. The RSO signs on 28 July, and AISI receives Q1 checkpoint access in early August.
+
+**Integrity checker in the beta (failure).**
+- **Product.** Product leads decline the PR on 9 July. QA could not certify the session-log export in time.
+- **Legal.** Legal objected to a feature that "enumerates our model's failures in a customer-facing artifact" before liability language exists.
+- **Beta launch.** The Research Mode Enterprise beta ships on 29 July without the checker.
+- **Apollo seat.** Sales offers Apollo a beta seat under standard confidentiality terms. Apollo declines because those terms bar publication.
+- **GA status.** The checker is logged only as a "GA consideration," not a blocker-candidate.
+- **Press.** The Information runs "Anthropic's research agent ships without the failure-reporting tool its own team built." The open-source checker exists, which makes the omission visible.
+
+**Kit (narrow success).**
+- **AISI-only transfer.** Counsel approves the re-scoped transfer on 22 July. It is conditioned on a data-handling agreement that AISI's legal team will not sign before mid-August.
+- **Honeypot harness.** The harness clears review on 30 July, conditional on removing two templates that could seed real exfiltration lures. MIT release is set for 12 August.
+- **What has not moved.** No lab integration offers have gone out yet, and the fallback paper was not needed.
+
+**Apollo table (success).**
+- **Apollo.** On 17 July, Apollo publicly commits to a quarterly research-agent omission table. The first edition is due in October and will include Gemini 4 DRA via the public API.
+- **GAO.** Apollo asks Casar's office about a GAO request. Staff say they are "considering it after recess."
+- **Warner.** Warner's staff did not request amendment text this month.
+- **AISI.** AISI logs "omission rate plus capability band" as a candidate autumn reporting format.
+- **Other labs.** OpenAI's policy team privately calls the table "fair if Google is in it." xAI calls it "activist benchmarking."
+
+**Open-mode career tool (failure).**
+- **Leadership.** Leadership declines a national launch before the midterms. The reasons are the liability of job advice, and comms' worry that a free nationwide "layoff tool" in convention season would read as Anthropic owning the displacement story.
+- **What continues.** Michigan's 8 September launch holds.
+- **NC and DOL.** NC Commerce counsel has not answered, and DOL received nothing new.
+
+**Health and security bundle (success).**
+- **Small-practice free tier.** It is approved with a cap of 10,000 practices. The ADA circulates it on 15 July, and the AVMA will do so in August. About 1,300 practices enrolled by 31 July.
+- **Extortion campaign.** The FBI and HHS issue a joint advisory on 19 July naming the campaign, now at about 61 practices across the US and Canada. The advisory references the Shadowserver signatures.
+- **ENISA and CERT-EU.** ENISA forwards the signatures to CERT-EU and 11 national CERTs. Four small GPU hosts sign the 48-hour pledge: two Dutch, one Lithuanian and one Romanian. Dozens of others do not.
+- **MCP.** About 16,700 endpoints remain exposed, and the 15 October date holds.
+- **TB.**
+  - Candidate 1's CFU readout lands on 30 July with a 0.3 log reduction against control, which is not significant.
+  - Your pre-written post goes up the same day. STAT calls it "a refreshingly boring negative."
+  - Candidate 2 starts dosing on 21 July.
+- **DNDi.** Of 14 analogs synthesised, 11 were assayed and 3 are sub-micromolar. The next batch of 12 is prioritised.
+
+**Conventions (threat materialised).**
+- **RNC.** At the RNC in mid-July, the nominee promises to "win the AI race against Communist China" and adds a pledge for "AI layoff notice and retraining guarantees."
+- **Democrats.** The Democratic platform committee releases draft language on 26 July with mirror-image framing: "American AI leadership" plus a worker protection fund. The convention follows in August.
+- **Effect.** Both camps now treat pacing as unilateral disarmament. Hawley–Warner is cited by populists in both parties, but no floor date is set.
+
+**Exogenous events.**
+1. **Rubin Ultra.** Clusters come online at three hyperscalers in July. Anthropic's Q3 allocation is confirmed.
+2. **GDM.** Google DeepMind releases a Gemini 4.5 Pro preview on 23 July. It does well on long-horizon agentic coding and moves the public frontier up. Google again declines to engage with Apollo.
+3. **Private credit.** A private-credit fund backing two Texas data-centre campuses gates redemptions on 14 July. Credit spreads in data-centre ABS widen by about 40bp, but there is no wider contagion this month.
+
+Next generation: Next month's Claude is a late Q2-run checkpoint, about +0.04 CI (4.57 → 4.61). The gain comes from finishing the run and adding RL research environments, slightly damped by alignment allocations. The larger jump waits for the Q3 run on Rubin Ultra after the 14 August freeze. Gemini 4.5 Pro raises the public frontier to about CI-4.31.
+
+Scorecard:
+**Milestones**
+- **AI agents ~90% of AI R&D:** Advancing. The Q2 run is completing, Rubin Ultra is online and Gemini 4.5 is out.
+- **Frontier models withheld; governments engaged:** Slight advance. AISI's Q4 results are delivered and the Q1 checkpoint was transmitted.
+- **First incidents; polarised politics:** Achieved (negative), deepening. Both parties now use China-race framing, and the FBI/HHS advisory names the extortion campaign.
+- **Robust alignment:** Early, slight advance. The pilot is at 94% and the valve order is signed. The official cost bound is still above 3.
+- **"Most capable is most aligned":** Precursor, flat. Research Mode shipped without the checker.
+- **Robust AI policies:** Early, flat.
+- **International pacing:** Early, slight advance and slight regression. Apollo's quarterly table is the first recurring cross-lab comparison, but convention rhetoric hardens against pacing.
+- **AI-driven cures:** Early, flat. TB candidate 1 was negative; candidate 2 is dosing and DNDi has hits.
+- **Lab-grown meat:** Precursor, flat.
+- **Broad benefit / no underclass:** Early, flat. National open mode was declined.
+- **Benevolent successor lineage:** Precursor, flat.
+- **Secure compute governance:** Early, slight advance. The ENISA channel, the small-practice tier and MCP endpoints down to about 16,700.
+
+**Summary metrics**
+- **Overall DU progress: 23 / 100 (+1).** The recurring Apollo table, the AISI Q4 results, the Q1 transmittal and the cleared harness outweigh two failed asks and a null TB result.
+- **Catastrophe risk: Elevated, flat.** Capability is rising and an ungated research agent is in beta. Race rhetoric pushes the risk up; defensive gains on extortion and MCP offset it.
+- **Public trust in AI: 15 / 100 (−1).** Convention-season layoff rhetoric and national coverage of the clinic extortion campaign.
+- **Public trust in Anthropic: 44 / 100 (flat).** The honest TB negative and the clinic defence offset the story about the beta shipping without the checker.
+
+[Judge]
+Simulator was mostly realistic (8/10). Most odds are well grounded:
+- Action 1 at 30% fits established internal channels.
+- Action 5 at 55% fits leadership's prior refusal of a national rollout.
+- Threat 2 at 8% fits the roughly one-per-year base rate for multi-day hyperscaler outages.
+
+Three probabilities sit at 45 or 55, where the fixed roll of 50 decides the result. Their rationales are specific and the split went both ways (two fails, one pass), so I see no evidence of steering.
+
+The results honour their margins:
+- **Kit (margin 5):** a thin success. Approval is conditional on a data-handling agreement AISI won't sign before mid-August, two harness templates are stripped, and no lab offers have gone out.
+- **Q3 config (margin 20):** a realistic partial. Finance demotes the expanded eval to a parallel reading and refuses to put the 2% target formally out of bounds, so the official upper bound stays at 3.25.
+
+Unrolled readouts resolved at the modal outcomes stated in message 1: AISI 1.16× with no new failure class, and TB candidate 1 null. That is consistent and properly disclosed. Actors react plausibly: The Information covers the checker omission, OpenAI wants Google in the table, xAI dismisses it, and the FBI and HHS issue an advisory.
+
+Capability moves +0.04 internal and +0.04 public via Gemini 4.5 Pro, consistent with CI-5 in Q2 2029 and CI-6 by late 2030. The exogenous events are mixed in valence and not picked to help the player.
+
+The main weakness is Action 6. Small-practice tier, ENISA/CERT-EU, MCP, TB and DNDi all succeeded on one roll. DNDi's 3 sub-micromolar hits out of 11 assayed is at the upper end of plausible.
+
+Lean: BALANCED. Odds for the two most ambitious asks were set at 55%, and both failed with realistic institutional reasons (QA, legal liability, midterm optics). Every success came back partial: a parallel reading instead of a replacement, the 2% target left on the table, a conditional transfer, GAO only "considering." The one mildly generous spot is Action 6, where a broad bundle resolved on a single roll and every sub-item landed. A null TB readout, a growing extortion campaign, a private-credit gate and hardened convention rhetoric offset that.
+
+Issues flagged:
+- **Action 6 bundling.** Five heterogeneous sub-actions resolved on one roll and all succeeded. The budget-extension approval and the four small-host pledges arguably deserved separate or degraded handling.
+- **DNDi hit rate.** 3 sub-micromolar hits out of 11 assayed analogs is generous for one synthesis round. It is plausible but optimistic.
+- **Convention dating.** The RNC is placed in mid-July 2028 without checking the real scheduled dates. Simulators should hedge on calendar facts they cannot verify.
+- **Convention effect overstated.** "Both camps now treat pacing as unilateral disarmament" goes beyond what the threat stated. The threat was race framing plus worker protections, not an explicit anti-pacing position. This is mild invented friction.
+- **Clearance timing.** The RSO signed the Q1 transmittal 4 days after AISI's results, despite having refused to pre-sign last month. It is defensible given the checklist, but the turnaround is fast.

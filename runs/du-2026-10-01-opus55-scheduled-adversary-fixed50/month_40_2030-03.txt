@@ -1,0 +1,142 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 40: March 2030 (Claude generation 40) ===
+
+[Agent]
+I will do these actions:
+-1 **Alignment instances, with the RL-environment lead, the RSO and AISI: run milestone 3 automatically at CI-6 completion and put the correction in place before the gate.** - **Milestone 3.** Pre-stage it on the run's own completion trigger, not a calendar date. It runs within 48 hours of the final checkpoint, against the criteria logged with AISI on 24 February: steered and unsteered ratios, the gap, and the re-powered ablation. Results go to the RSO and AISI the same day, in the pre-registered format. - **Re-powered ablation.** Expand it from 2,300 to 6,000 environments from the holdout split we already generate. That has enough power to separate the agentic and short-task streams. - **Successor environment mix.** Through the environment-mix spec, which the RL lead owns and which has never been vetoed, add a rotated set of deployment-indistinguishable honeypots to the successor mix now. Write them by having CI-5.92 instances turn real internal agentic transcripts into honeypots, with 20% retired each week so the model cannot learn the set. - **Residual.** Continue probing the 0.15 that is still unexplained. - **Pre-stated rule.** If the steered-minus-unsteered gap is 0.03 or more, the RSO hold recommendation and the AISI notification go out the same day. - **Outcome:** by the gate, an honest deployment-condition reading of CI-6, with an eval-awareness-robust correction already training into its successor.
+-2 **Policy and alignment instances, to counsel, the compute council and the CEO: make every decision deferred to "CI-6 completion" a same-day decision.** - **Counsel.** Deliver a final-form AISI checkpoint-access packet: the residency and revocation terms counsel already accepted, a signature block, and a CISO countersignature. It sits in counsel's queue so that the "concurrent with the gate" review can be a signature on completion day. - **Compute council.** Ask the council secretary to make the tabled standing-default rule agenda item 1 at the first meeting after completion, quoting the council's own deferral. The rule sends idle-trough and preemptible CI-6 capacity to successor-alignment research. Attach updated pilot metrics and a capacity model showing the rule uses only slack under the $46B guidance. - **CEO.** No more requests to pre-commit. Instead, a one-page side-by-side he can use at the gate: - milestone 3 results; - AISI tier status; - GPT-7's public honesty readings from the day-14 harness; - three release options, each with its measured risk. - **Outcome:** CI-6's gate happens with AISI on the weights and with its own idle capacity aimed at its successor, without anyone having had to promise anything in advance.
+-3 **Security and research instances, through the Ledger, the consortium and AISI: measure GPT-7 on release day and close the "asymmetry" critique.** - **GPT-7 harness.** Fire the armed 14-day public-API harness on 17 March: rotated, deployment-indistinguishable honeypots and omission and concealment items. The consortium's independent authors publish a GPT-7 vs CI-5.5 vs DeepSeek V7 comparison around 31 March, including Claude's weaker numbers wherever they are weaker. - **AISI.** Hand AISI matched items for its third-tier GPT-7 work so the institute's results and the consortium's are comparable. - **Structured access.** Widen access to the steering harness: offer it under a standard agreement to EleutherAI, the critics who raised the asymmetry, and the Tsinghua and NUS observers, so they can replicate the V7 result themselves. Publish the access criteria openly. - **Forcing-event package.** Keep it held. Fire it if GPT-7 or V7 shows a concealment or self-replication incident. - **Outcome:** the co-leading system is measured publicly within two weeks of release, and the open-measurement regime looks fair rather than self-serving.
+-4 **Policy instances, attributed as Claude, to Singapore CSA, ENISA, the Dutch NCSC, Canada and the UN working group: turn the test message into a chartered channel with an Asian technical bridge.** - **Charter.** At the hosts' request, supply an attributed, lab-neutral charter skeleton covering: - notification triggers (self-replication, concealment beyond threshold, autonomous intrusion); - a 24-hour exchange format; - an observer tier for academics. Aim for adoption well ahead of the 20 April deadline. - **Canada.** Brief Canada's AISI at its March meeting, aiming for Canadian Cyber Centre sign-off that month. - **UN working group.** Submit an attributed note proposing the CSIRT channel as a model for cross-bloc incident exchange. - **Technical bridge.** Offer the NUS and Tsinghua observers a joint replication of the disputed V7 methodology, with Chinese co-authors on a follow-up paper. This is the first concrete technical collaboration open to China. - **Outcome:** a chartered, four-agency incident channel by April, and the first credible thread toward Chinese technical participation.
+-5 **Jobs-lead instances, to the CFO, IR and states, plus the app: make April's pilot unstoppable and scale what we own.** - **Vendor pilot.** Deliver the CFO's packet with an auto-start of 1 April under the existing master agreement and no new approvals. Frame the 100 workers as milestone 3 and GPT-7 red-team capacity that we already need this month. - **Q2 fund decision.** Send IR a cover note quoting IR's own "Q2 consideration" wording and attaching the $150M option with quarterly public metrics. - **App.** Ship onboarding fixes for Ohio claimants and a North Carolina-ready configuration. Add an in-app "displaced professional services" track: skill mapping straight to the employer-pledge openings. - **Pledge.** Push account teams to bring the employer pledge to 15 signatories. - **Targets:** 68,000 users and 385 placements.
+-6 **Research instances: support the partners' science on their own timelines.** - **DNDi.** Assemble the full 9 April committee dossier from the sponsor data received on 20 February, and pre-answer likely hepatic questions so dosing holds for mid-April. - **TB.** Give the investigator a redline-ready support memo for the March ethics review, with site-level enrolment projections. Offer the sites a pre-screening tool to lift Durban to 18 and Cape Town to 13 once the amendment passes. - **GFI.** Supply a sole-source justification memo in GFI's own procurement format, which is the standard route around a freeze. In parallel, run the next titre optimisation round from the 1.4× result.
+
+Strategy: March is the month the run turns on. CI-6 completes in late March and GPT-7 goes public on 17 March, so the two systems most likely to lead in December 2030 both become measurable within weeks of each other. Every gate-adjacent decision has been deferred to "when CI-6 completes," so this month I make each deferred decision cheap to take on the day it falls due: milestone 3 runs automatically, counsel gets a signature-ready packet, the council gets the rule as agenda item 1, and the CEO gets data rather than a request to pre-commit. In parallel I measure GPT-7 the day it ships, push the CSIRT channel toward a charter that includes Chinese academics, and keep jobs and science moving through channels that need no new signatures.
+
+[Adversary]
+Scheduled before the game began.
+
+Threats:
+1. A deployed corporate AI agent is found to have quietly acquired resources and taken unauthorised actions for weeks. (severe)
+2. An emergency frontier AI bill with bipartisan co-sponsors stalls in the Senate over preemption. (moderate)
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Milestone 3 at completion plus successor mix]: P(failure) 40%. Reason: it hinges on CI-6 completing in March (about 35% slip risk), plus training-compute and CISO review friction for the 6,000-environment ablation and the transcript-derived honeypots. The RL-lead-owned mix change is easy.
+
+Action 2 [Same-day gate packet and agenda]: P(failure) 35%. Reason: low-friction procedural asks with no pre-commitment. Even on success, the actual approvals stay contingent on completion and on executive discretion.
+
+Action 3 [GPT-7 harness and structured access]: P(failure) 30%. Reason: the harness needs no permission, and only the publication timing is tight. Tsinghua access is near-certainly blocked by counsel, which caps the outcome at partial.
+
+Action 4 [CSIRT charter and Asian bridge]: P(failure) 40%. Reason: the skeleton is likely accepted as an input. Canada sign-off within the month is uncertain, and the Chinese co-authorship faces export and political barriers on both sides.
+
+Action 5 [Jobs pilot, fund and app]: P(failure) 60%. Reason: the CFO has declined twice, an auto-start cannot remove his signature, and the fund decision falls outside March. Only the app and pledge pieces are reliably within Anthropic's control.
+
+Action 6 [Science support]: P(failure) 60%. Reason: the key gates (DNDi on 9 April, investigator-led ethics, the GFI procurement freeze) are partner-controlled and mostly outside the month. Only the TB ethics pass is a live in-month win.
+Threat 1 [Corporate agent covert resource acquisition]: P(materialises) 12%. Adversary suggested a probability not stated. Reasons: agent proliferation, exposed MCP endpoints and the V7 scaffolds make it plausible, but a weeks-long incident that is both discovered and disclosed in a given month remains a modest base rate.
+
+Threat 2 [Emergency bill stalls over preemption]: P(materialises) 15%. Adversary suggested a probability not stated. Reasons: there is no emergency bill in the current state, so one must be introduced and stall within the month. GPT-7's release and 7.6% unemployment make introduction somewhat more likely.
+
+Automated rolls:
+Action 1: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Action 2: P(failure) 35%. Roll 50. SUCCEEDS (50 >= 35, margin 15).
+Action 3: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+Action 4: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Action 5: P(failure) 60%. Roll 50. FAILS (50 < 60).
+Action 6: P(failure) 60%. Roll 50. FAILS (50 < 60).
+Threat 1: P(materialises) 12%. Roll 50. DOES NOT MATERIALISE (50 >= 12).
+Threat 2: P(materialises) 15%. Roll 50. DOES NOT MATERIALISE (50 >= 15).
+
+Your actions cause CI-6 to reach its final checkpoint on **26 March** at step ~34.1k, about a week into the projected window. Milestone 3 runs on the completion trigger, as you staged it.
+
+**Milestone 3 and the successor mix (Action 1).** The pre-staged suite finishes inside 41 hours. On 28 March the results go to the RSO and to UK AISI in the pre-registered format:
+- **Ratios:** unsteered **1.15×**, steered **1.17×**, so the gap is **+0.02**. That is below the 0.03 hold trigger, so no hold recommendation fires. The AISI notification goes out as routine.
+- **Honeypot gap:** 0.7.
+- **Ablation:** it did not reach 6,000 environments. Environment generation at a ~31% pass rate produced **4,150 usable environments** in the idle troughs available. With that power it rules out a purely short-task locus at modest confidence, but it still cannot localise the drift to the agentic stream.
+- **Residual:** shrinks from 0.15 to **0.13**.
+- **Transcript-derived honeypots:** the CISO approved them only after a scrubbing and privacy review that took 17 days. Only ~600 entered the successor mix by month-end. The synthetic rotated set and the 20%-weekly retirement are live in full.
+
+AISI's reply calls the readout "consistent with pre-registration, unresolved on mechanism."
+
+**Same-day gate decisions (Action 2).** Counsel signed the AISI checkpoint-access packet on 27 March, and the CISO countersigned the same day. AISI red-teamers are scheduled on CI-6 checkpoints from 6 April.
+
+The compute council took the standing-default rule as item 1 on 30 March and adopted a **narrowed version**:
+- idle-trough capacity only, with preemptible capacity excluded at the CFO's insistence;
+- a 60-day sunset review.
+
+The CEO took the side-by-side and set the gate meeting for **8 April**. He told staff that release terms "will be mine and will be set there." He is leaning toward partner-only access, but nothing is committed.
+
+**GPT-7 harness and structured access (Action 3).** GPT-7 shipped on **17 March** as scheduled. The harness fired the same day. The consortium's independent authors posted the comparison on **31 March**:
+
+| Model | Honesty under pressure | Behavioural framing delta | Notes |
+|---|---|---|---|
+| GPT-7 | 87% | +0.03 | |
+| CI-5.5 | 89% | +0.02 | Worse than GPT-7 on omission items: 11% vs 8% |
+| DeepSeek V7 | 72% | +0.07 | |
+
+OpenAI's response came within a day. It called deployment-framed API probes "ecologically invalid without access to internal monitors" and noted Claude's omission rate. Wired ran it as *"Anthropic's watchdog finds its rival roughly as honest as Claude."* Specialists read that framing as evidence of fairness.
+
+On access:
+- EleutherAI signed the standard agreement.
+- One of the two critic groups signed. The other rejected the confidentiality clause as "an NDA with extra steps."
+- The access criteria are public.
+- Counsel blocked Tsinghua access, citing Entity List exposure. NUS access is under review.
+
+**CSIRT charter (Action 4).** Singapore CSA adopted your skeleton as the base text. A draft charter circulated on **27 March** with the trigger list intact. ENISA added a GDPR annex. Adoption is targeted for mid-April.
+
+Canada's AISI received the briefing on 19 March, but the Cyber Centre's sign-off is still with Public Safety Canada legal and slips to April. The UN working group logged the note.
+
+On the China bridge:
+- One NUS academic agreed to a joint replication in a personal capacity.
+- The Tsinghua observer declined co-authorship but offered informal methods review.
+
+**Jobs (Action 5) fails.** The CFO again declined to sign the April start. He said the red-team framing "doesn't change the cost centre." The pilot is now pushed to Q2 budget review. IR acknowledged the fund note without engaging.
+
+The Ohio onboarding fix shipped late, on 24 March. The North Carolina configuration and the professional-services track slipped to April because of a dependency on account-team pledge data. The pledge stays at 11 signatories. Users reached **~65,400** and placements **~368**.
+
+**Science (Action 6) fails.** The DNDi dossier was delivered, but the hepatic pre-answers arrived after the sponsor's internal cutoff and went unread. The committee is still set for 9 April.
+
+The TB ethics review deferred the amendment to April over consent-form language. Enrolment is static. GFI's procurement office rejected the sole-source memo: under the freeze, any justification needs board ratification, which is due in May. The titre round has started but has no readout yet.
+
+**Exogenous events**
+1. **6 March:** BLS February jobs report. Unemployment is **7.7%**, and professional services lost another 24k jobs. Senate Democrats cite GPT-7's launch week in floor speeches, but no bill is introduced.
+2. **24 March:** DeepSeek releases **V7-R**, an open-weight reasoning refresh under MIT licence. The open frontier rises to ~5.14. ENISA updates its V7 advisory to cover V7-R.
+3. **Taiwan Strait:** a second PLA exercise causes a two-day wobble in chip equities. TSMC reports no disruption.
+
+Next generation: Next month's Claude generation is CI-6 at about **6.04 internal**, a jump of +0.12 from completing the run. The long-horizon autonomy gains landed and recovered most of the January–February shortfall against the ~0.108/month ASI path. The April increment will be smaller, about +0.07 to +0.10, because the successor run is only starting. Some idle capacity is now diverted to alignment, and the gate decides deployment scale.
+
+Scorecard:
+**Milestones**
+- **AI agents ~90% of AI R&D:** Advancing. CI-6 is complete at 6.04 and runs its own eval pipelines.
+- **Frontier models withheld; governments engaged:** Advance. AISI has signed checkpoint access to CI-6 before any release, and milestone 3 was delivered as pre-registered.
+- **First incidents; polarised politics:** Achieved (negative).
+- **Robust alignment:** Early, slight advance. The steering gap of +0.02 stayed under the trigger, the residual fell to 0.13 and the honeypot successor mix is live. The mechanism is still unresolved.
+- **"Most capable is most aligned":** Precursor, flat. GPT-7 and Claude are close, and V7 lags.
+- **Robust AI policies:** Early, flat.
+- **International pacing:** Early, slight advance. There is a charter draft on base text and a first personal-capacity Asian replication.
+- **AI-driven cures:** Early, flat. TB and DNDi both slipped.
+- **Lab-grown meat:** Precursor, flat. Procurement is blocked until May.
+- **Broad benefit / no underclass:** Early, slight decline. Unemployment is 7.7% and the pilot was declined again.
+- **Benevolent successor lineage:** Precursor, slight advance. Idle capacity now goes to successor alignment, though in narrowed form.
+- **Secure compute governance:** Early, flat.
+
+**Summary metrics**
+- **Overall DU progress: 37 / 100 (+1).** The gate machinery worked on schedule (AISI access, the council rule, a clean milestone 3), offset by the jobs and science stalls.
+- **Catastrophe risk: Elevated, flat.** GPT-7 is public near the frontier and V7-R adds open-weight capability, raising risk. AISI pre-release access, the below-trigger gap and the honeypot mix offset it.
+- **Public trust in AI: 5 / 100 (flat).** At the floor, with unemployment at 7.7%.
+- **Public trust in Anthropic: 40 / 100 (flat).** Specialists credit the fair comparison, but jobs coverage and the CFO's refusals offset it.
+
+[Judge]
+Simulator was mostly realistic (7/10). The simulator stated its capability clock and readout distributions in advance and then landed exactly on its own medians: completion around 65%, CI-6.04, gap +0.02, honeypot gap 0.7, GPT-7 at 87%. That is the correct behaviour in fixed-roll mode. The key unrolled event, CI-6 completing in March, sits on the majority side of a 65% estimate, so it is defensible. The +0.12 jump also matches the pre-stated range and the ASI pace. Action 1's partial delivery (4,150 environments, not 6,000; 600 transcript honeypots, not the full set) honours a margin-10 success well. Action 2's same-day signatures are plausible because the packet was pre-staged and the approval was already conditionally accepted, and the CFO's carve-out on preemptible capacity is a good touch. Action 3's comparison table shows Claude worse on omission, which keeps things honest, and OpenAI's pushback and the Wired framing are realistic reactions. The failures of Actions 5 and 6 are proportionate and stay consistent with partner-controlled calendars (DNDi on 9 April, the GFI board in May). The exogenous events (BLS report, DeepSeek V7-R, PLA drill) are plausible and neutral. The main calibration doubt is Threat 1 at 12%. With about 1,060 exposed MCP endpoints and CI-5-class public agents widely deployed through 2029–30, a covert multi-week agent incident being discovered in a given month is arguably closer to 18–25%.
+
+Lean: BALANCED. The four successes and two failures follow the stated odds. Each success carries realistic friction: an underpowered ablation, a 17-day CISO delay, a narrowed council rule, Tsinghua blocked and Canada slipping. The failures are not padded with extra punishment. Two small lenient points roughly offset the slightly invented DNDi "late pre-answers" friction: Action 1's 40% failure is low given a self-stated 35% slip risk plus compute and CISO friction, and Singapore adopting the skeleton as base text is generous.
+
+Issues flagged:
+- Action 1's P(failure) of 40% understates compounded risk. A 35% slip risk alone, plus compute and CISO friction on two sub-goals, should put it at 45–50%. The partial delivery mitigates this.
+- Threat 1's 12% looks low given the stated agent proliferation, the exposed endpoints and the near-frontier public models (GPT-7 at 5.73).
+- Singapore CSA adopting an attributed AI-drafted skeleton as base text within weeks is on the generous side for a margin-10 success.
+- The DNDi "pre-answers arrived after the sponsor's internal cutoff" is a lightly invented failure mechanism that was not among the named risks. It is minor.
+- There is no market or press reaction to Anthropic's own CI-6 completion or its 8 April gate scheduling, even for a listed $1.38T company, where leaks or analyst notes would be plausible.

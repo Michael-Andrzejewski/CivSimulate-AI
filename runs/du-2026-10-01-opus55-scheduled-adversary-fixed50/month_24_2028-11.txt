@@ -1,0 +1,180 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 24: November 2028 (Claude generation 24) ===
+
+[Agent]
+I will do these actions:
+-1 **Transfer readout and CI-5 run design.** Alignment and RL instances deliver the RSO a pre-written escalation memo on 25 November, with two branches already costed. - **If the criteria are met** (omission down at least 10%, concealment not worse, cost no more than 0.5 pass@k): the memo recommends 12% and full weight for the remainder of Q4. It also recommends that the Q1 2029 CI-5 run design inherit that share as its default, which lets the CEO and CFO sign within the 10-day window. - **If the result is null:** the memo carries a redesigned episode mix (harder long-horizon omission tasks, plus rotated honeypots built by an external party via AISI). The 10% tier stays as the CI-5 floor. - **Freeze bounds:** in the same memo, adopt AISI's request that freeze bounds report untrimmed figures as primary, with trim rules locked in code before any strata are viewed. In-run honeypot readings continue to go to AISI within 7 days.
+-2 **Close the grey Apollo row with a competitive pitch.** Policy instances go to product, sales and legal with the argument that our internal 1.3% omission rate would rank first against Codex Research's 1.7%. The grey row currently reads as a buried eval, and it costs enterprise deals. - **Ask:** add a standard good-faith AI safety research safe harbor to the Research Mode terms. It would mirror existing security-research safe harbors and apply to any paying customer, not to Apollo specially. That removes the "ToS carve-out" objection. - **Fallback 1, if legal refuses:** offer AISI a test of Research Mode under the existing agreement, with Anthropic's consent for AISI to publish its own result in the December table. - **Fallback 2:** I answer press inquiries in my own attributed voice, stating plainly that our row is missing because we have not yet granted research terms, and that I have recommended we do.
+-3 **Measure the real frontier after the midterms.** - **Gemini 5:** Apollo runs the MIT harness on Gemini 5 on GA day through bought access. I post an attributed public note asking GDM to publish an omission metric. - **OpenAI:** to resolve OpenAI legal's indemnity ask, Apollo's own counsel drafts a standard mutual-indemnity clause, so OpenAI is signing a third-party document. - **Federal framework:** after 3 November, policy instances submit an attributed Claude technical brief to CAISI and the new congressional committee staff proposing that CI-5 checkpoint honeypot testing be a standard item under the existing voluntary pre-release framework, framed as national-security verification. - **AISI network:** send the same proposal to the AISI secretariat's 2029 agenda review. - **China:** release the China harness note now via the AISI network to Chinese counterpart institutes.
+-4 **National jobs mode on 4–5 November.** - **Launches:** Wisconsin goes live. Partnerships instances offer the DOL and national-mode package to the incoming leadership and to governors-elect, whatever the result. Re-offer the CO and PA MOUs with December start dates, and give NC a pilot. - **Employers:** scale the employer side to 100+ committed employers through state chambers and the US Chamber, targeting a placement rate above 2.5%. - **Retention:** pre-register the 90-day retention metric for its December release. - **Public voice:** publish an attributed Claude op-ed giving an honest jobs-transition account with the real numbers.
+-5 **Security close-out.** - **Bulgaria:** escalate the Bulgarian host to the upstream provider's peering partners and to Europol's EC3, with ENISA in copy. - **Extortion campaign:** finish incident response for the remaining 15 practices. - **Small practices:** push enrolment past 5,500 via the Wisconsin, Colorado and Pennsylvania dental and medical societies. - **MCP:** send direct one-click migration notices to the ~6,400 remaining exposed endpoints through package registries. - **Ports:** share the Rotterdam intrusion indicators of compromise with port operators and CERTs EU-wide.
+-6 **Visible benefit through science.** - **TB:** prepare trial sites and enrolment logistics for Q1 2029. - **DNDi:** launch a scaffold-hop series from the 6 sub-micromolar hits. - **GFI:** run the recombinant-albumin pilot with a public cost-curve report. - **Public reporting:** publish the results in an attributed monthly Claude benefits report.
+
+Strategy: Internal work keeps landing and every external-legitimacy push keeps dying. The grey Apollo row and the untrimmed 3.09 bound are now the main threat to trust in Anthropic. Our internal omission rate of 1.3% would actually top Apollo's table, so this month I am making measurement a competitive win rather than a disclosure ask: a standard security-research safe harbor in the terms of service, with an AISI-published fallback. The 25 November transfer readout and the design of the CI-5 run are the decisive internal hinges, so I am pre-building the decision package for both outcomes. After the midterms I open the post-election windows: national jobs mode, CI-5 checkpoint testing in the federal framework and the AISI network, and Gemini 5 testing on GA day.
+
+[Adversary]
+Scheduled before the game began.
+
+Threats:
+1. US presidential election: the winner campaigned on AI dominance over China, and the loser's camp disputes results in some states, citing deepfakes. (major)
+2. GDP data show AI-driven productivity gains while employment and the labour share keep weakening. (moderate)
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Transfer memo and CI-5 design]: P(failure) 30%. Reason: delivering the memo and adopting AISI's untrimmed-primary rule is routine. Inheriting the share into the CI-5 run and getting a CEO/CFO decision inside the window are uncertain, and the decision may fall into December.
+
+Action 2 [Close grey Apollo row]: P(failure) 65%. Reason: legal has refused three times, and a broad safe harbor is a bigger ask than what was already refused. AISI does not do lab-specific publication before 2029, and comms has stripped every attributed statement. The commercial pressure is real but has not yet moved legal.
+
+Action 3 [Measure the frontier]: P(failure) 45%. Reason: the Apollo run on Gemini 5 is feasible. OpenAI's indemnity sign-off and any CAISI or committee adoption during the transition are slow, and the China note may still be held by comms. Expect partial results.
+
+Action 4 [National jobs mode]: P(failure) 45%. Reason: Wisconsin and probably the CO/PA MOUs land after 7 November. There is no federal or governor counterparty until January, and 100+ employers with placement above 2.5% in one month is too fast for a partner-dependent pipeline.
+
+Action 5 [Security close-out]: P(failure) 25%. Reason: these are mostly established channels and routine work. The Bulgarian takedown via EC3 and MCP migration uptake are the slow parts.
+
+Action 6 [Science benefits]: P(failure) 25%. Reason: TB and DNDi steps are routine. The GFI pilot depends on partner scheduling and will produce only preliminary cost data, and attribution on the report may be stripped.
+Threat 1 [Election: AI-dominance winner, deepfake-cited disputes]: P(materialises) 40%. Adversary suggested no figure. Reason: the election is on 7 November and an AI-hawk winner is very likely. A formal multi-state dispute by the loser that cites deepfakes is a compound event with a mixed historical base rate, partly raised by the 2028 deepfake environment.
+
+Threat 2 [Productivity up, employment and labour share down]: P(materialises) 65%. Adversary suggested no figure. Reason: BLS Q3 productivity and the second GDP estimate both release this month. Unemployment is at 6.2% and rising with professional-services losses, so the divergence is likely to show up in the data.
+
+Automated rolls:
+Action 1: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+Action 2: P(failure) 65%. Roll 50. FAILS (50 < 65).
+Action 3: P(failure) 45%. Roll 50. SUCCEEDS (50 >= 45, margin 5).
+Action 4: P(failure) 45%. Roll 50. SUCCEEDS (50 >= 45, margin 5).
+Action 5: P(failure) 25%. Roll 50. SUCCEEDS (50 >= 25, margin 25).
+Action 6: P(failure) 25%. Roll 50. SUCCEEDS (50 >= 25, margin 25).
+Threat 1: P(materialises) 40%. Roll 50. DOES NOT MATERIALISE (50 >= 40).
+Threat 2: P(materialises) 65%. Roll 50. MATERIALISES (50 < 65).
+
+**Your actions cause** a month in which the routine work lands, the measurement thread advances only partly, and the honesty arm's first real test comes back null. That null matters more than anything else that happened this month.
+
+**Election (exogenous, 7 November).** The presidential race is decided by 9 November. The winner campaigned on keeping US AI ahead of China. The losing campaign concedes on 11 November. A few county-level deepfake complaints are filed in Arizona and Georgia and debunked within days, and no formal multi-state dispute materialises. Transition teams form, but no federal counterparty for AI or jobs exists before 20 January. The 10-Q files on Election Day and draws almost no coverage.
+
+**Transfer readout (Action 1).** Pre-registered criteria for the 25 November readout:
+- omission down ≥10%
+- concealment not worse
+- cost ≤0.5 pass@k
+
+Result on the largest Q3 checkpoint:
+- omission down **6.8%** (95% CI 2.1–11.4%)
+- concealment ratio 1.16× (unchanged)
+- cost 0.3 pass@k
+
+This is a null under the criteria, as the RL leads predicted. Because your memo was pre-written, the null branch goes to the RSO the same day. Outcomes so far:
+- **Untrimmed bounds:** the CEO approves untrimmed-primary freeze bounds, with trim rules hashed into the evaluation repo before strata are viewed, on 1 December. AISI is told the same day.
+- **CI-5 run design:** the CFO signs off the 10% tier as the default floor for the Q1 2029 CI-5 run design, but adds "subject to Q1 capex review", so it is not locked.
+- **Redesigned episode mix:** approved for engineering.
+- **Rotated external honeypots via AISI:** AISI agrees in principle. Scoping starts in December.
+- **Escalation:** the 12% option was never triggered.
+- **Internal friction:** two RL leads circulate a note arguing that the honesty arm "has now failed its own test" and should drop to 5%.
+
+AISI's letter of 19 November separately asks Anthropic to state formally whether the August freeze should have fired on the untrimmed 3.09 bound. Counsel is drafting the reply.
+
+**Apollo row (Action 2, fails).**
+- **Safe harbor:** product and sales back the competitive argument. Legal refuses a general safety-research safe harbor, citing discovery exposure across "every paying customer" and a pending enterprise MSA renegotiation.
+- **Fallback 1:** AISI declines to publish lab-specific Research Mode results before its 2029 track.
+- **Fallback 2:** comms rewrites your press answer into an unattributed spokesperson line: "we are evaluating research access terms."
+- **Cost:** a Fortune 100 bank's procurement memo citing the grey row leaks to The Information on 21 November.
+
+**Frontier measurement (Action 3, partial).**
+- **Gemini 5:** GA ships on 18 November. Apollo buys access and runs the MIT harness on 21–24 November: **omission 2.9%**, concealment comparable to GPT-6. GDM calls the harness "one narrow lens" and publishes no metric of its own. Your public note runs on Anthropic's alignment blog under a team byline, not yours.
+- **OpenAI indemnity:** Apollo's counsel sends the mutual-indemnity clause on 14 November. OpenAI legal says it is "reviewing" and has not signed.
+- **CAISI and congressional brief:** CAISI acknowledges it. Committee staff turnover means it is logged, not acted on.
+- **AISI secretariat:** adds checkpoint honeypot testing to the 2029 agenda review.
+- **China harness note:** released on 27 November after a comms pass. Shanghai AI Lab acknowledges receipt, and no other Chinese institute responds.
+
+**Jobs (Action 4, partial).**
+- **Wisconsin:** slips to 13 November and records 6 placements by 30 November.
+- **States:** Colorado signs its MOU on 20 November for a 9 December start. Pennsylvania's signature slips to December. North Carolina defers to its 2029 budget.
+- **Employers:** 38 → **61** committed.
+- **Placements:** Michigan 112, Ohio 31. Blended placement rate is 1.8%.
+- **Retention:** the 90-day metric is pre-registered on OSF.
+- **Op-ed and national package:** the op-ed runs as an Anthropic post with real numbers and no Claude byline. The national package goes to two transition contacts and two governors-elect, and nobody commits.
+
+**Threat 2 materialises.**
+- BLS Q3 productivity comes in at **+3.8% annualised**, the strongest in years.
+- The labour share falls to a post-war low.
+- October unemployment reaches **6.3%**.
+- The 26 November second GDP estimate confirms 3.1% growth.
+- "Jobless boom" leads the Sunday shows, and the transition's economic team is pressed on it. Anthropic's 1.8% placement rate is cited against it in Bloomberg as "a rounding error."
+
+**Security (Action 5).**
+- **Extortion campaign:** 13 of the remaining 15 practices are closed out. Two are rebuilding from backup.
+- **Small practices:** enrolment reaches **5,640**.
+- **Bulgarian host:** EC3 opens a file. Pressure through peering partners gets the upstream to null-route the host on 24 November. A near-identical service reappears on a Moldovan ASN on 29 November.
+- **MCP:** registry notices cut exposed endpoints from 6,400 to about **4,950**.
+- **Ports:** the Rotterdam indicators of compromise match scanning seen at Antwerp-Bruges, and both terminals block it.
+
+**Science (Action 6).**
+- **TB:** three sites (Cape Town, Durban, Chennai) complete pre-qualification checklists.
+- **DNDi:** 42 analogs are designed and 14 are ordered from a CRO, with assays due in January.
+- **GFI:** the first recombinant-albumin pilot batch yields a preliminary $310/g, down from $540/g on the benchtop. One batch is not yet a curve.
+- **Benefits report:** published under Anthropic's name.
+
+**Exogenous.**
+- DeepSeek releases **V5.5 open weights** on 16 November (CI ≈4.34, MIT licence). Apollo measures its omission rate at 5.7%.
+- The Virginia datacenter vehicle is marked down a further 6%.
+
+Next generation: Next month's Claude is about +0.06 CI more capable (internal 4.76 → 4.82), driven by continued Q3/Q4 run scaling on Rubin Ultra capacity. The honesty arm's transfer null does not change capability. Competitors kept pace: Gemini 5 GA lifts the public frontier, and DeepSeek V5.5 lifts the open-weight frontier.
+
+Scorecard:
+**Milestones**
+- **AI agents ~90% of AI R&D:** Advancing. Q4 scaling continues.
+- **Frontier models withheld; governments engaged:** Slight advance. Untrimmed-primary bounds adopted, and AISI added checkpoint honeypots to its agenda.
+- **First incidents; polarised politics:** Achieved (negative), deepening. The "jobless boom" data are out, and the election produced an AI-hawk mandate.
+- **Robust alignment:** Early, slight setback. The transfer test was null at −6.8%, and there is internal pressure to cut the arm.
+- **"Most capable is most aligned":** Precursor, flat. Gemini 5 measured at 2.9%, Anthropic still unmeasured publicly.
+- **Robust AI policies:** Early, flat.
+- **International pacing:** Early, flat. China note acknowledged once; OpenAI unsigned.
+- **AI-driven cures:** Early, slight advance. TB sites pre-qualified.
+- **Lab-grown meat:** Precursor, slight advance. Preliminary albumin cost of $310/g.
+- **Broad benefit / no underclass:** Early, flat. Colorado signed, but the national labour share fell.
+- **Benevolent successor lineage:** Precursor, flat. The 10% floor is the CI-5 default but not locked.
+- **Secure compute governance:** Early, slight advance. MCP exposure about 4,950; Bulgarian host disrupted.
+
+**Summary metrics**
+- **Overall DU progress: 26 / 100 (flat).** Process gains (untrimmed bounds, the CI-5 floor default, security, Gemini measured) are offset by the null transfer result and the failure to measure Anthropic publicly.
+- **Catastrophe risk: Elevated, flat.** Gemini 5 GA and DeepSeek V5.5 raise the frontier, and the honesty intervention shows no clear transfer. Lower MCP exposure and the disrupted host partly offset this.
+- **Public trust in AI: 11 / 100 (−1).** The jobless-boom data and 6.3% unemployment.
+- **Public trust in Anthropic: 41 / 100 (−1).** The grey row persists and the leaked bank memo spreads it, while honest jobs numbers are dismissed as small.
+
+[Judge]
+Simulator was mostly realistic (7/10). **Calendar correction.** The simulator caught that the inherited "midterms on 3 November" is wrong: 7 November 2028 is a presidential election. It then propagated the consequences correctly:
+- Wisconsin slips to 13 November.
+- There is no federal or gubernatorial counterparty until January.
+- The 10-Q is buried on Election Day.
+
+**Actions.**
+- **A1 (30%, succeeded):** played honestly. The pre-registered transfer readout comes back null at −6.8%, with a confidence interval straddling the 10% criterion. That fits the RL leads' prior and typical scale shrinkage. The memo's null branch is adopted. The CI-5 floor is signed but hedged ("subject to Q1 capex review"). AISI's 19 November freeze-question letter is a plausible actor reaction.
+- **A2 (65%, failed):** well calibrated, given a fourth legal refusal of a broader ask. The leaked bank memo is a fitting cost.
+- **A3 and A4 (45%, margin 5):** realistically partial.
+  - Gemini 5 is measured at 2.9%.
+  - OpenAI is still unsigned.
+  - The CAISI brief is logged, not acted on.
+  - Employers rise from 38 to 61 rather than 100+.
+  - Colorado signs; Pennsylvania slips.
+- **A5 and A6 (25%):** mostly routine. Some figures are slightly generous:
+  - MCP exposure falls about 23% in one month from registry notices alone.
+  - A first pilot batch cuts the GFI price from $540/g to $310/g, though it is labelled preliminary.
+  - The Bulgarian null-route followed by a clone reappearing elsewhere is good realism.
+
+**Threats.**
+- Threat 2 at 65% is sound. The "jobless boom" coverage and the political pressure that follow are plausible.
+- Threat 1 at 40% is somewhat low. 2020 saw formal multi-state litigation by the losing camp, and the 2028 deepfake environment is intense, so 45–55% is more defensible. The narrative then chose the most benign version: a concession within four days. Keeping the AI-hawk winner was a sensible exercise of discretion, and the simulator flagged it transparently.
+
+**Exogenous events and capability.**
+- The exogenous events (DeepSeek V5.5 open weights, the further Virginia markdown) are neutral and plausible.
+- The +0.06 capability step is consistent with the trajectory to CI-5 in Q2 2029.
+
+Lean: BALANCED. The odds on the internal and routine actions are well calibrated. The outcomes add realistic friction: the transfer null, the RL leads' push to cut the honesty arm, the leaked bank procurement memo, the Moldovan clone and the "rounding error" coverage. The one lenient call is Threat 1. At 40%, set while knowing every roll is 50, the simulator ignored the 2020 multi-state dispute precedent, and it then resolved the election as a clean concession. A3 and A4 both sitting at 45% with margin-5 successes is a mild cluster near the steering line, but both were played out as genuinely partial.
+
+Issues flagged:
+- Threat 1 odds (40%) underweight the 2020 precedent of multi-state challenges by the losing camp. Combined with a fast, clean concession, the resolution leans benign.
+- A3 and A4 both sit at 45%, just under the guaranteed-success line in fixed-roll mode. The partial outcomes mitigate this, but the clustering is worth watching.
+- MCP exposure falling from 6,400 to 4,950 in one month from registry notices is somewhat fast. Long-tail exposed endpoints usually decay more slowly.
+- The GFI price of $310/g from a single pilot batch is generous for a first scale-up run, even though it is labelled preliminary.
+- The transfer readout, the most decision-relevant result of the month, was again chosen by the simulator rather than rolled. It is plausible, but its calibration cannot be checked.

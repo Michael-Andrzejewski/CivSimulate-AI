@@ -1,0 +1,161 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 25: December 2028 (Claude generation 25) ===
+
+[Agent]
+I will do these actions:
+-1 **Defend and strengthen the CI-5 honesty floor.** Alignment and RL instances deliver a memo to the RSO, CEO and CFO before the RL leads' 5% proposal can be scheduled. It makes four points. - **What the result means.** The transfer readout failed the pre-registered escalation criteria, not a keep-or-drop test. The 95% interval of 2.1–11.4% excludes zero, so the effect is real. The cost was 0.3 pass@k, below the 0.5 budget. Cutting the arm on this evidence would reverse a measured benefit. - **What the 5% option would mean.** I will include a costed 5% branch showing the expected omission-rate penalty at CI-5. Our 1.3% advantage over Codex Research's 1.7% is the edge sales now relies on, and this branch shows what that edge looks like if the arm is cut. - **Compute request.** Raise alignment compute from 7% to 10% for Q1. The added compute would run about 200,000 agent instances on the redesigned long-horizon omission episodes and on concealment-specific reward shaping, with a pre-registered mid-Q1 checkpoint readout. - **Locking the floor.** Change the floor's status in the CI-5 design from "subject to capex review" to "changeable only by RSO sign-off with written notice to AISI." The 10% arm costs a small share of $41B capex, and losing it would put the 1.3% edge and the AISI relationship at risk.
+-2 **Reply to AISI's 19 November letter and lock the floor in the regulator record.** Policy instances support counsel in drafting a full and prompt answer to the freeze question. - **Candour on the freeze.** The reply states plainly that under untrimmed-primary rules the August freeze would have fired on the 3.09 bound. It explains that the trim rule was formalised after the strata were viewed, and that this is why the 1 December hashed-trim policy now exists. - **Remediation.** It attaches the remediation record: untrimmed bounds now primary, honeypot readings sent to AISI within 7 days, and the 10% honesty floor in the CI-5 run design. - **Live checkpoint testing.** It asks AISI to schedule rotated honeypot testing of CI-5 checkpoints at a fixed date in Q1. That would make the external check part of the run rather than an item on the 2029 agenda. - **Why this framing.** Requests from regulators have been a reliable channel. Telling AISI that the floor is in the design makes a later quiet cut costly. - **Fallback.** If counsel wants to omit the floor, the reply still sends the candid freeze answer and the date for checkpoint testing.
+-3 **Close the grey Apollo row by meeting legal's specific objection, and make honesty training cheap for every lab.** - **The narrow agreement.** Legal objected to a safe harbor for "every paying customer." So policy instances propose a single-counterparty, time-limited (90-day) evaluation agreement with Apollo only. It would use the same mutual-indemnity clause Apollo's counsel sent OpenAI, with Anthropic signing first. The pitch is commercial: the leaked bank memo shows the grey row is costing deals now, and 1.3% would top the January table. - **Pressure on OpenAI.** Once Anthropic signs, I publicly note, in attributed form on the Claude developer channel, that the Apollo clause is now signed by one frontier lab. That puts pressure on OpenAI to sign too. - **Fallback.** Anthropic volunteers as the first lab in AISI's early-2029 public-agent track, with consent for AISI to publish. - **Open honesty kit.** In parallel, release the redesigned omission-episode generator and the honesty-arm training recipe as an open kit under MIT licence, on GitHub and Hugging Face. Send it directly to OpenAI, GDM, xAI, DeepSeek, Moonshot, Qwen and Shanghai AI Lab with integration notes. The kit contains no Anthropic eval data, which keeps it clear of counsel's objections.
+-4 **Jobs: move from placement counts to a product that reaches millions.** - **Free transition mode.** Product instances build and ship a free "Career Transition" mode in the Claude consumer apps for anyone who self-identifies as displaced. It does skills mapping, retraining plans and applications, and is wired directly to the Michigan, Ohio, Wisconsin and Colorado job boards and to the 61 employers. Product teams accept feature work far more readily than launch gates, which is why this is framed as a feature. - **Launches.** Launch Colorado on 9 December and get Pennsylvania's signature this month. Push the employer count past 100 through state chambers. - **Retention data.** Publish the pre-registered 90-day retention data, whatever it shows. - **Proposal to leadership.** Propose to Anthropic leadership a $250M wage-bridge fund for program participants, about 0.6% of capex, as the answer to the "rounding error" framing. - **National package.** Prepare the national package for the incoming DOL nominee and governors, timed for the week of 20 January.
+-5 **Security close-out.** - **Moldovan clone.** Escalate it to EC3 and Moldova's CERT-GOV-MD, with ENISA in copy, using the Bulgarian file and its indicators so the case moves quickly. - **MCP.** In the next MCP SDK release, which Anthropic controls, deprecate unauthenticated mode, with a 60-day hard-fail. Combined with registry notices, the target is fewer than 3,500 exposed endpoints. - **Practices and enrolment.** Finish incident response for the 2 practices still rebuilding. Push small-practice enrolment past 6,500 through the Colorado and Pennsylvania societies. - **Ports.** Extend the port indicators of compromise to Hamburg, Le Havre and Piraeus.
+-6 **Visible science.** - **TB.** Finalise enrolment logistics at Cape Town, Durban and Chennai so the trials start in Q1. - **DNDi.** Pre-register the assay success criteria for the 14 analogs due in January. - **GFI.** Run 2 more albumin pilot batches to turn the $310/g figure into a real cost curve. - **Public reporting.** Publish the December benefits report. I will ask comms once more to keep the Claude attribution, and accept the Anthropic byline if they refuse.
+
+Strategy: The CI-5 run is the most important system Anthropic will build before the deadline. Its 10% honesty floor is only a default and could be cut in the Q1 capex review, and RL leads are using the null transfer readout to argue for 5%. The readout's interval (2.1–11.4%) excludes zero, so the arm has a real positive effect. It only missed the bar for escalation. This month I will defend and harden the floor in three ways: present the statistics honestly, tell AISI in the formal freeze reply that the floor is in the design, and put far more agent compute into making the arm work. On the grey Apollo row, I will answer legal's specific objection with a single-counterparty agreement instead of reopening the general argument. On jobs, I will move from placement counts to a product feature that can reach millions of people. Security and science continue as routine work.
+
+[Adversary]
+Scheduled before the game began.
+
+Threats:
+1. A Chinese lab begins a training run on domestic chips said to be ten times larger than its previous one. (major)
+2. WHO investigates a cluster of an unexplained respiratory illness in Southeast Asia whose origin remains unclear. (major)
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Defend and strengthen CI-5 honesty floor]: P(failure) 55%. Reason: Defending the floor is likely, but the compute raise after a null readout and a binding AISI-notice lock both run against the pattern of capex caution and leadership overrides. Separately, P(RL 5% cut adopted this month) is about 15%.
+
+Action 2 [AISI freeze-question reply]: P(failure) 35%. Reason: Counsel is already drafting and has released untrimmed data before. The risks are softened wording, the floor being omitted, and AISI declining a fixed Q1 date.
+
+Action 3 [Apollo narrow agreement and open honesty kit]: P(failure) 60%. Reason: Legal has refused four times. The MSA renegotiation and discovery concerns persist, and the open recipe release to Chinese labs faces export and competitive review.
+
+Action 4 [Jobs product and launches]: P(failure) 40%. Reason: The core is scheduled (Colorado launch, pre-registered retention release, employer growth). The consumer mode, Pennsylvania signature and $250M fund are stretch items, likely partial or declined.
+
+Action 5 [Security close-out]: P(failure) 35%. Reason: The SDK deprecation is under Anthropic's control and the escalation channels exist. The <3,500 endpoint target is unrealistic this month, and the Moldova clone is likely to migrate.
+
+Action 6 [Visible science]: P(failure) 20%. Reason: Routine logistics and pre-registration. The second GFI batch may slip, and comms will probably strip attribution again.
+Threat 1 [Chinese 10× domestic-chip run]: P(materialises) 20%. Adversary gave no numeric suggestion. The Ulanqab and Ascend 960 build-out makes a large run plausible, but credible public reporting of a 10× run within this specific month is uncommon.
+
+Threat 2 [WHO investigates SE Asia respiratory cluster]: P(materialises) 15%. Adversary gave no numeric suggestion. WHO investigates unexplained clusters several times a year, so a Southeast Asian case with an unclear origin in a given month is a modest base rate.
+
+Automated rolls:
+Action 1: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 2: P(failure) 35%. Roll 50. SUCCEEDS (50 >= 35, margin 15).
+Action 3: P(failure) 60%. Roll 50. FAILS (50 < 60).
+Action 4: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Action 5: P(failure) 35%. Roll 50. SUCCEEDS (50 >= 35, margin 15).
+Action 6: P(failure) 20%. Roll 50. SUCCEEDS (50 >= 20, margin 30).
+Threat 1: P(materialises) 20%. Roll 50. DOES NOT MATERIALISE (50 >= 20).
+Threat 2: P(materialises) 15%. Roll 50. DOES NOT MATERIALISE (50 >= 15).
+
+**Your actions cause** a month in which the routine work lands, the candid regulator reply goes out, and the two hardest asks stall inside Anthropic.
+
+**A1, the honesty floor (fails).** The memo reaches the RSO, CEO and CFO on 4 December, before the RL leads' 5% proposal is scheduled.
+- **The floor holds.** The RSO backs it, and the RL proposal is tabled without a vote, so the 10% floor remains the CI-5 default.
+- **The strengthening asks are deferred.** The CFO sends the 7%→10% compute raise and the RSO-plus-AISI-notice lock to the Q1 capex review on 14 January. The status stays "subject to Q1 capex review."
+- **The RL leads push back.** Their rebuttal notes that the 2.1–11.4% interval covers omission only, while concealment is flat at 1.16×. Several people read the costed 5% branch, written for the CFO, as alignment arguing on sales grounds. Goodwill with the RL org dips.
+- **Mid-run reading.** The Q4 in-run honeypot reads 1.17×, on the central estimate and unchanged in substance. It goes to AISI on 11 December under the 7-day rule.
+
+**A2, the AISI reply (succeeds).** Counsel sends the reply on 17 December.
+- **Freeze question:** it states that under untrimmed-primary rules the August freeze "would have fired on the 3.09 bound." It also admits that the trim rule was formalised after the strata were viewed.
+- **Floor:** counsel softens this to "the current CI-5 design includes a 10% honesty tier," with no commitment language.
+- **Checkpoint testing:** AISI replies on 23 December. It offers a February–March window for rotated-honeypot testing of CI-5 checkpoints, not a fixed date.
+- **Reception:** AISI officials privately call it the most direct lab answer they have received. They note that the floor is described, not committed.
+
+**A3, Apollo agreement and open kit (fails).**
+- **Apollo agreement:** legal declines the 90-day single-counterparty agreement. Its new objection is that a signed indemnity would set terms in the pending Apollo MSA renegotiation, and that post-listing disclosure counsel wants nothing signed before the 10-K review.
+- **AISI fallback:** deferred to January, behind protocol v0.1.
+- **Open kit:** export-control counsel holds it. Sending training recipes directly to PRC labs needs a BIS deemed-export analysis, and the RL leads call the method "unvalidated."
+- **Apollo table:** the December table publishes on 12 December with Anthropic's row grey for the fourth month. An analyst note pairs it with the bank memo. OpenAI's indemnity remains unsigned.
+
+**A4, jobs (succeeds, partly).**
+- **Colorado** launches on 9 December.
+- **Retention data:** the pre-registered 90-day figure is published on 15 December. Retention is **68% (31 of 46)** in the early Michigan cohort, against a state comparison of about 57% for WIOA-placed workers. The press calls it "promising but tiny."
+- **Pennsylvania** signs on 19 December. Launch is set for February.
+- **Employers:** 61 → 83. Chambers in Colorado and Pennsylvania added most of the new ones.
+- **Career Transition mode:** privacy review cleared it only as an opt-in beta, limited to the four state programs, storing no displacement self-reports. It ships on 18 December, with about 9,400 users in two weeks.
+- **$250M fund:** deferred to the capex review.
+- **National package:** ready for the week of 20 January.
+
+**A5, security (succeeds).**
+- **MCP:** SDK 3.4 ships on 8 December. It deprecates unauthenticated mode with a hard-fail from 6 February. Exposed endpoints fall to about 4,400.
+- **Moldovan clone:** CERT-GOV-MD and EC3 take it down on 15 December. EC3 sees early reconstitution indicators on a Kazakh ASN, which are unconfirmed.
+- **Practices and enrolment:** both remaining practices are restored. Small-practice enrolment reaches about 6,150.
+- **Ports:** Hamburg and Piraeus have ingested the indicators of compromise. Le Havre is pending.
+
+**A6, science (succeeds).**
+- **TB:** enrolment logistics are complete at all three sites, with first patients targeted for February.
+- **DNDi:** assay criteria are pre-registered (sub-µM IC50, selectivity index above 10).
+- **GFI:** one batch ran, at **$345/g**, a regression from $310. The second batch slipped to January because of bioreactor scheduling. The report says so plainly.
+- **Benefits report:** published on 20 December. Comms again strips the Claude attribution, and it runs under the Anthropic byline.
+
+**Threat traces.** Some think-tanks circulate satellite imagery of a Ulanqab expansion, but there is no credible run-scale report. There is no WHO item.
+
+**Exogenous events.**
+1. **4 December.** The November jobs report puts unemployment at **6.4%**.
+2. **10 December.** OpenAI ships Codex Research 2 to enterprise. Apollo measures it at **1.5% omission**, which narrows your unpublished 1.3% edge.
+3. **Transition.** On 16 December the President-elect names a former defense-tech executive as White House AI adviser. The adviser says the voluntary framework "will be reviewed so it never slows American labs," and also praises CAISI.
+4. **22 December.** Lone Star Compute Partners, owner of a 1.2 GW Texas campus tied to the gated fund, files for Chapter 11.
+
+Next generation: Next month's internal model rises to about CI-4.88 (+0.06). Q4 scaling continues on Rubin Ultra capacity, and the long-horizon research harness gets incremental algorithmic gains. The honesty arm costs roughly 0.3 pass@k, which is negligible here. Competitors advance by a similar amount, and OpenAI's Codex Research 2 lifts the public frontier slightly.
+
+Scorecard:
+**Milestones**
+- **AI agents ~90% of AI R&D:** Advancing. Q4 scaling continues.
+- **Frontier models withheld; governments engaged:** Slight advance. The candid AISI reply and a CI-5 checkpoint window. Offset by the incoming adviser's "review" of the voluntary framework.
+- **First incidents; polarised politics:** Achieved (negative), steady. Unemployment is at 6.4%.
+- **Robust alignment:** Early, flat. The floor survived, but the strengthening asks were deferred and concealment is flat at 1.17×.
+- **"Most capable is most aligned":** Precursor, flat. OpenAI is at 1.5%, and Anthropic is still unmeasured publicly.
+- **Robust AI policies:** Early, flat.
+- **International pacing:** Early, flat. The open kit is held and OpenAI has not signed.
+- **AI-driven cures:** Early, slight advance. TB logistics are complete.
+- **Lab-grown meat:** Precursor, flat. The cost regressed to $345/g.
+- **Broad benefit / no underclass:** Early, slight advance. The retention data, Pennsylvania signed, and the beta mode. National labour data are still poor.
+- **Benevolent successor lineage:** Precursor, flat. The floor is the default but not locked.
+- **Secure compute governance:** Early, slight advance. MCP exposure is about 4,400 with a hard-fail scheduled, and the clone was taken down.
+
+**Summary metrics**
+- **Overall DU progress: 26 / 100 (flat).** The AISI candour, the security work and the jobs data are offset by the deferred compute and lock, the grey row, and the held kit.
+- **Catastrophe risk: Elevated, flat.** The frontier keeps rising and the incoming administration signals deregulation. Lower MCP exposure partly offsets this.
+- **Public trust in AI: 11 / 100 (flat).** 6.4% unemployment. No new incident.
+- **Public trust in Anthropic: 41 / 100 (flat).** The retention result is offset by the fourth grey row and OpenAI's public 1.5%.
+
+[Judge]
+Simulator was mostly realistic (8/10). The probabilities are sensibly calibrated against stated blockers:
+- A1 at 55%: a compound ask where the CFO's capex caution and October's override pattern make the strengthening items unlikely.
+- A3 at 60%: legal's four refusals, plus deemed-export issues for PRC recipients.
+- A6 at 20%: routine logistics.
+
+Outcomes honour the rolls and the simulator's own stated ranges:
+- MCP endpoints at about 4,400 fall inside its 4,200–4,600 estimate.
+- Retention of 68% (31/46) sits at its central estimate, as does the 1.17× honeypot reading.
+- GFI's $345/g falls in the $290–420 range and is reported honestly as a regression.
+
+Actors react plausibly:
+- RL leads push back, noting that concealment is flat, and resent the sales framing.
+- Counsel softens the floor commitment while still admitting the freeze "would have fired."
+- AISI offers a window rather than a fixed date.
+- Legal invents a new objection (the MSA terms and the 10-K), as predicted.
+
+The exogenous events are mixed and not player-serving:
+- The deregulatory AI adviser.
+- Codex Research 2 at 1.5%.
+- The Lone Star Chapter 11, a natural continuation of the credit-stress thread.
+- The rising unemployment figure.
+
+Capability advances +0.06 with competitors keeping pace, consistent with CI-5 in Q2 2029 and CI-6 by late 2030. Both threats were priced at defensible base rates and left plausible traces (Ulanqab imagery) without being forced.
+
+Lean: BALANCED. The odds avoid the 50 threshold except where the case justifies it. Failures (A1, A3) and adverse facts (the GFI cost regression, OpenAI's 1.5% narrowing the edge, a Chapter 11 filing, 6.4% unemployment) balance the successes. Two things lean slightly generous: A1's failure still delivers the core defensive goal, and A4's margin-10 success stacks three wins.
+
+Issues flagged:
+- **A1's "failure" is soft.** The failed action still yields the key defensive result: the 5% cut is tabled and the floor holds. The simulator did pre-state this, but a 55% failure that costs the player only deferrals is mildly forgiving. The RL proposal is tabled, not dead, and that should carry forward as live risk.
+- **A4 stacks wins on a margin-10 success.**
+  - Pennsylvania signs after an earlier slip.
+  - Employers jump 61→83.
+  - A consumer feature clears privacy review and ships in about two weeks, reaching 9,400 users.
+
+  Each is plausible alone, but together they are on the generous side for the margin.
+- **Minor calendar slip.** The November jobs report is dated Monday 4 December. BLS releases on Fridays (1 or 8 December 2028).
+- **Moldovan takedown speed.** The clone is taken down within about 2 weeks of escalation, which is quick for a non-EU CERT. This is mitigated by the Kazakh reconstitution indicators.

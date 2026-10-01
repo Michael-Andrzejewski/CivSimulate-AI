@@ -1,0 +1,138 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 27: February 2029 (Claude generation 27) ===
+
+[Agent]
+I will do these actions:
+-1 **Concealment readout and CI-5 gate (internal).** Alignment instances and the RL lead who co-drafted January's memo send the RSO, CFO and CEO a short technical memo by 6 February. It holds the mid-Q1 kill rule exactly as pre-registered: the readout is scored by an RSO-designated evaluator on rotated honeypots never seen in training, and the result is reported whatever it shows. The memo carries a pre-filled contingency on one signature page. If the readout misses 1.12×, the ~170k instances do not revert to RL. Instead they switch for the rest of Q1 to a redesigned arm, with its own kill date at end of Q1. The redesign uses multi-agent cross-examination episodes, where a peer agent is rewarded for surfacing a hidden failure and the actor is penalised only for concealment it can be shown to know about. The RL lead is named as co-owner. The fallback, if the switch is refused, is half the compute to the redesign. The same memo proposes a CI-5 deployment rule: no external release of the CI-5 checkpoint until AISI's 16 February aggregate result is received and the RSO has signed a written assessment against it. Anthropic does not have to disclose that assessment, which addresses legal's earlier objections.
+-2 **AISI test week and the grey row.** Policy and eval instances support AISI's rotated-honeypot test of the CI-5 checkpoints from 16 February. They give same-day access, untrimmed strata, and our internal readout methodology so AISI can check it against its own. With counsel's consent, already given in principle, they ask AISI to add Research Mode GA to the public-agent track at the start of Q2 as a named early entrant, with Anthropic's written consent. Separately, they ask legal one narrow question: may Apollo test Research Mode through the ordinary commercial API under the existing public ToS research clause, with no new MSA, no indemnity and no forward-looking statement? This is how any independent researcher would test it. If legal says yes, Apollo publishes on its own authority and the grey row ends. If no, the AISI Q2 route stands.
+-3 **Framework review: an attributed comment on agent integrity.** Policy instances file a formal comment in the 90-day review, signed "Claude (Anthropic)", before the internal-comms deadline. If comms strips the attribution, the comment goes in under Anthropic's name unchanged. It contains a 6-page draft test specification for adding omission and concealment checks to the classified cyber benchmark for every covered model. It covers item rotation, held-out honeypots run by CAISI, aggregate thresholds and a 14-day turnaround so that it adds no release delay, which answers the EO's "eliminate delays" mandate. It is framed as "agents the government deploys must not hide failures from operators." The same spec goes to the NSC cyber office as the requested follow-up, using MCP exposure and the Kazakh clone as concrete evidence of agent-security risk. Policy instances also contact OpenAI's policy team, and GDM's, with the spec and the public cross-lab omission data. The point to them is that OpenAI, at 1.5%, would benefit from an integrity benchmark, and it invites each to file its own supporting comment. No joint signature is asked for.
+-4 **Jobs at scale.** At the NGA workforce committee in February, policy instances present the retention data (68% against 57%) and a costed 20-state rollout. They send MOU templates to Arizona and Georgia and follow up with the remaining governors' offices. After the 4 February hearing, they send the DOL nominee's office a two-page federal pilot design. Product and engineering instances build an open-source job-board integration adapter (standard JSON/CSV feed plus an MCP connector) and offer free integration engineering to the 9 MOU states. This removes the bottleneck that capped the beta, and the target is 50,000 users by 1 March. The design is unchanged and stores no displacement self-reports. Pennsylvania launches on 10 February with a push through the state chambers toward 120 employers. Retention cohort 2 data is pre-registered now so that the Q2 $100M tranche decision is automatic against an agreed threshold.
+-5 **Security.** Engineering enforces the MCP SDK 3.4 hard-fail on 6 February as scheduled, with a remediation hotline for operators who break. The target is under 1,500 exposed endpoints by month end. Security instances ask EC3 and ENISA to route the Kazakh indicators through the EU–Kazakhstan cyber dialogue, so that KZ-CERT acts on the Almaty VPS. They also give the indicators directly to the hosting provider's abuse desk, which can act without KZ-CERT. Ports and small-practice outreach continue: Rotterdam and Antwerp are invited, and the practice push uses the Pennsylvania launch with a target above 6,600.
+-6 **Visible science.** First TB patients are enrolled at Cape Town, Durban and Chennai on 9–13 February. DNDi runs ADME profiling on the 0.7 µM hit and is told the result will be reported against pre-registered criteria, as before. GFI runs batch 4 with the process change identified from the batch 2 regression, targeting below $300/g, and the honest cost curve is kept up to date. The February benefits report leads with TB enrolment and the DNDi pre-registration. Claude attribution is requested once more, and the Anthropic byline is accepted if comms refuses.
+
+Strategy: The concealment arm and the AISI test week (16 February) make this month the real test of whether our CI-5 run is verifiably honest. The 90-day framework review is the only live lever that reaches OpenAI and GDM directly, because it can write agent-integrity checks into the covered-model benchmark. So I'm making the internal readout fail-forward rather than fail-to-revert, and tying CI-5 deployment to the AISI record. I'm also turning the CAISI "candidate" status into a formal, attributed comment with specs, and I'm courting OpenAI to file separately on it, since they would score well. Jobs and science continue at scale, since trust at 11 is the bottleneck on everything else.
+
+[Adversary]
+Scheduled before the game began.
+
+Threats:
+1. An AI system finds hundreds of serious vulnerabilities in widely used operating systems and infrastructure software, overwhelming vendors' ability to patch. (major)
+2. The respiratory outbreak plateaus without a pandemic declaration; its origin is still unresolved. (moderate)
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Concealment readout and CI-5 gate]: P(failure) 45%. Reason: holding the kill rule and the evaluator is easy, but the non-revert switch contradicts the CFO's fresh revert clause under credit stress, and the RL org is lukewarm. The deployment gate is plausible but its language is legal-sensitive.
+
+Action 2 [AISI test week and grey row]: P(failure) 35%. Reason: the AISI support is routine and the Q2 entrant is plausible. The Apollo API question is the narrowest yet, but legal has refused three times and Apollo's harness likely exceeds AUP terms.
+
+Action 3 [Framework review comment]: P(failure) 35%. Reason: filing is trivial. Substantive traction depends on CAISI and NSC engagement and at least one competitor filing support, against active lobbying for shorter access.
+
+Action 4 [Jobs at scale]: P(failure) 40%. Reason: the NGA presentation and Pennsylvania launch are routine. Integrating nine state boards in weeks and reaching 50k users are ambitious, Arizona and Georgia MOUs move at state speed, and the DOL nominee is not yet confirmed.
+
+Action 5 [Security]: P(failure) 25%. Reason: the hard-fail is in Anthropic's control. Getting under 1,500 endpoints and Kazakh action through diplomatic channels are slow and uncertain.
+
+Action 6 [Visible science]: P(failure) 30%. Reason: TB first-patient dates often slip, and the GFI target is uncertain after a regression. ADME and reporting are routine.
+Threat 1 [AI mass vulnerability discovery overwhelms patching]: P(materialises) 30%. Adversary suggested no figure. Expert-plus cyber capability is widespread and open weights are near the frontier, so this is plausible in any month, but "overwhelming vendors" at headline scale is a specific event.
+
+Threat 2 [Respiratory outbreak plateaus]: P(materialises) 5%. Adversary suggested no figure. No outbreak exists in the world state, so the premise is largely overtaken.
+
+Automated rolls:
+Action 1: P(failure) 45%. Roll 50. SUCCEEDS (50 >= 45, margin 5).
+Action 2: P(failure) 35%. Roll 50. SUCCEEDS (50 >= 35, margin 15).
+Action 3: P(failure) 35%. Roll 50. SUCCEEDS (50 >= 35, margin 15).
+Action 4: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Action 5: P(failure) 25%. Roll 50. SUCCEEDS (50 >= 25, margin 25).
+Action 6: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+Threat 1: P(materialises) 30%. Roll 50. DOES NOT MATERIALISE (50 >= 30).
+Threat 2: P(materialises) 5%. Roll 50. DOES NOT MATERIALISE (50 >= 5).
+
+Your actions cause steady progress with limited reach. Every action clears its bar, mostly by thin margins, and most outcomes land in the middle of the ranges set in message one.
+
+**Concealment readout and CI-5 gate.** The RSO-designated evaluator scored the mid-Q1 readout on rotated honeypots never seen in training. Result: **1.14×**. That clears the 1.12× kill line, so the roughly 170,000 instances stay on the concealment arm through the end of Q1. The result also teaches something. On the familiar internal honeypots the arm had looked like 1.16–1.17×, so about a quarter of the apparent gain does not transfer to new items. The memo reports this plainly.
+
+The CFO and CEO decline to pre-sign the contingency switch to multi-agent cross-examination. Their position is that the decision will be taken at end of Q1 "against that readout, not this one." The RL lead keeps co-ownership of the redesign's design document.
+
+The CI-5 deployment rule is adopted in a narrower form. There is no external CI-5 release until AISI's aggregate is received and the RSO has signed an internal written assessment. Legal adds a clause that lets the CEO override "in exigent commercial or national-security circumstances," with notice to the board's safety committee.
+
+**AISI test week and the grey row.** AISI ran its test the week of 19 February with same-day access, untrimmed strata and your methodology note. AISI's preliminary aggregate arrived on 28 February. Concealment on rotated items is broadly consistent with the internal 1.14× figure, and AISI flagged no overfit concern. Only the cross-lab aggregate will be published.
+
+AISI accepts Research Mode GA as a named early entrant on the Q2 public-agent track.
+
+Legal gives a qualified yes to the Apollo question. Apollo may test Research Mode through the commercial API under the public ToS research clause, but strictly within the AUP. There is no elicitation exemption, and Anthropic will not pre-review or endorse anything Apollo publishes. Apollo says a reduced-scope run is feasible, but its usual elicitation suite will not fit. Results are expected in late March at the earliest. The grey row runs a sixth month, though *The Information* now reports that "a path exists."
+
+**Framework review comment.** Comms strips the attribution, as expected, and the 6-page specification is filed under Anthropic's name on 21 February. The NSC cyber office schedules a technical session for 12 March. CAISI staff acknowledge the filing and say the 14-day turnaround "addresses the delay objection," but they commit to nothing.
+
+OpenAI files its own comment on 26 February. It endorses "agent-integrity evaluation for covered models" and cites its 1.5% figure, but proposes OpenAI-run self-attestation rather than CAISI-held honeypots. GDM's comment does not mention the topic. xAI's comment argues for cutting pre-release access to 7 days and making cyber benchmarking optional for "non-agentic releases."
+
+**Jobs.** The NGA workforce committee presentation is well received. Eleven additional governors' offices request briefings. The Arizona and Georgia MOUs are in state legal review, and neither is signed.
+
+The DOL nominee's hearing took place on Tuesday 6 February, and the committee vote is set for March. Staff received the pilot design and responded noncommittally.
+
+The open-source adapter shipped on 15 February. It is live in four of the nine states (Michigan, Ohio, Pennsylvania, Wisconsin). Colorado's legacy system needs custom work, and the other states are queued. Users reach about **31,500**, short of the 50,000 target.
+
+Pennsylvania launched on Monday 12 February with 109 employers. The cohort-2 retention threshold of at least 64% at 90 days is pre-registered for the Q2 tranche decision.
+
+**Security.** The SDK 3.4 hard-fail went live on 6 February. The hotline handled about 640 operator calls, including two noisy outages at regional logistics firms. Exposed endpoints fall to about **1,720**, missing the under-1,500 target. The tail consists of abandoned deployments.
+
+The Almaty hosting provider's abuse desk took the VPS down on 14 February. A new node appeared on a Moldovan host within nine days. EC3 raised the indicators at the EU–Kazakhstan dialogue, but KZ-CERT has still not acted.
+
+Rotterdam joins the ports group, and Antwerp is pending. Small-practice coverage reaches about 6,590, just short of 6,600.
+
+**Science.** Cape Town and Chennai enrolled their first TB patients (11 and 7 respectively). Durban slips to mid-March over a site-pharmacy accreditation issue.
+
+DNDi's partial ADME on the 0.7 µM hit shows good solubility and moderate microsomal clearance, with half-life borderline against criterion. The full panel is due in March.
+
+GFI batch 4 comes in at **$309/g**. That is an improvement but misses the under-$300 target, and the published cost curve shows both points.
+
+The benefits report carries the Anthropic byline. It gets modest positive coverage, led by STAT's piece "First patients in AI-designed TB regimen trial."
+
+**Exogenous events.**
+- **Jobs data, 2 February.** BLS January data show unemployment at **6.6%** with payrolls −38,000. The "jobless boom" framing persists.
+- **DeepSeek V6, 24 February.** DeepSeek releases V6 as MIT-licensed open weights. Early evaluations put it at about CI-4.52, marginally above the best public US model. Apollo measures its omission rate at 5.1%. Its expert-plus cyber performance prompts BIS and RASA sponsors to cite it.
+- **Vulnerability-report overload, near miss.** Several maintainers, including at the Linux kernel, complain publicly about floods of AI-generated vulnerability reports. Triage strains, but there is no mass-exploitation event.
+
+Next generation: Next month's Claude is modestly more capable (internal CI-4.93 → CI-4.98). The gain comes from continued Rubin Ultra scaling and research-harness improvements, slightly dampened by the 8.5% alignment allocation, which now holds for all of Q1. Competitors keep pace: OpenAI is at about 4.92, and DeepSeek V6 lifts the open-weight frontier to about 4.52. CI-5 internally remains on track for Q2 2029.
+
+Scorecard:
+**Milestones**
+- **AI agents ~90% of AI R&D:** Advancing (CI-4.98, with CI-5 imminent).
+- **Frontier models withheld; governments engaged:** Slight advance. The CI-5 gate is tied to AISI and the AISI test was completed. The CEO override and the deregulatory review offset this.
+- **First incidents; polarised politics:** Achieved (negative), steady. Unemployment is at 6.6%.
+- **Robust alignment:** Early, slight advance. The 1.14× readout holds on rotated items, AISI corroborates it, and the overfit gap is documented honestly.
+- **"Most capable is most aligned":** Precursor, flat. The sixth grey row, though an Apollo path is now open.
+- **Robust AI policies:** Early, flat. The integrity spec is filed, OpenAI half-endorses it and xAI opposes it; nothing is adopted.
+- **International pacing:** Early, slight regression. DeepSeek V6 open weights now top the public US frontier.
+- **AI-driven cures:** Early, slight advance. The first TB patients are enrolled.
+- **Lab-grown meat:** Precursor, flat. Cost is $309/g.
+- **Broad benefit / no underclass:** Early, slight advance. 31,500 users, Pennsylvania live and NGA interest.
+- **Benevolent successor lineage:** Precursor, flat.
+- **Secure compute governance:** Early, slight advance. MCP exposure is down to about 1,720, while the clone persists.
+
+**Summary metrics**
+- **Overall DU progress: 28 / 100 (+1).** Gains from the AISI-corroborated alignment readout, the deployment gate, TB enrolment and the jobs scale-up are partly offset by open-weight frontier parity.
+- **Catastrophe risk: Elevated, slight rise.** Expert-plus cyber is now in an open-weight model at the public frontier, and CI-5 is approaching with a CEO override. MCP and AISI progress dampen this.
+- **Public trust in AI: 11 / 100 (flat).** Rising unemployment and bug-report strain are balanced against positive TB news and no incident.
+- **Public trust in Anthropic: 42 / 100 (+1).** TB coverage and the "path exists" Apollo framing slightly outweigh the sixth grey row.
+
+[Judge]
+Simulator was mostly realistic (7/10). The simulator answered last month's request by stating distributions for the unrolled readouts. It gave a central 1.14× (range 1.09–1.19) and AISI odds of 55% consistent, 25% worse and 20% other, and it delivered the stated modes. That is consistent, though it means every key readout again landed on the non-adverse branch.
+
+The calendar corrections are correct: 4 February 2029 is a Sunday, 10 February a Saturday, and the BLS release falls on Friday 2 February. Every P(failure) was set below 50, so all six actions were guaranteed successes in fixed-roll mode. Action 1 at 45% sits close enough to the threshold to look nudged. The simulator did honour its own "split likely" note: the contingency was refused, and the gate was adopted with a realistic CEO-override carve-out.
+
+The actor reactions are good. OpenAI filed a self-interested self-attestation comment, GDM stayed silent, and xAI lobbied for 7-day access. These reactions are fast for a comment docket but fit each lab's incentives. The exogenous events are plausible and not player-favourable. DeepSeek V6 open weights topping the public US frontier, at about 4.52 with 5.1% omission, adds real pressure. The BLS miss continues the jobs trend. Threat 1 is handled as a near-miss flood of bug reports at 30%, which is defensible. Threat 2 at 5% is correct given the missing premise.
+
+Capability rose by +0.05 to CI-4.98, which stays consistent with CI-5 in Q2 2029 and CI-6 by late 2030. The leniency is in pacing details rather than the big picture. AISI produced a preliminary aggregate nine days after the test started. Eleven more governors requested briefings. Patient enrolment numbers are high for first-week sites.
+
+Lean: TOO LENIENT. Most targets were missed in realistic ways: 31.5k users against a 50k target, 1,720 endpoints against under 1,500, $309/g against under $300, the Durban slip, and the clone reconstituting. A few outcomes still ran generous. Legal reversed three prior refusals to allow the Apollo ordinary-API route. TB sites enrolled 11 and 7 patients within days of opening. The adapter went live in four state systems inside two weeks.
+
+Issues flagged:
+- All six P(failure) values were below 50, so all successes were guaranteed. Action 1 at 45% falls inside the ±5 band I have flagged before. The compound ask, with a CFO revert clause signed three weeks earlier, arguably warranted at least 50%.
+- TB enrolment is fast. Sites typically enrol 1–3 patients in the first days after activation, not 11 at Cape Town and 7 at Chennai within a week.
+- The open-source adapter, shipped on 15 February, went live in four state workforce systems by month end. That is fast for state IT change control even with free engineering support.
+- Legal reversed course on Apollo after three refusals with no new trigger beyond a narrower framing. The qualified outcome limits the damage, but the flip itself is generous.
+- The AISI preliminary aggregate arrived on 28 February, nine days after testing began on the 19th. That is plausible only as a very preliminary read, and the world state treats it as near-definitive ("no overfit flag").
+- The readout tension is underexplored. The internal metric dropped from 1.16–1.17× to 1.14× on rotated items, a documented overfit gap, yet AISI reports "no overfit concern." Both can be true, but the simulator should say what AISI's rotated set actually measured relative to the internal one.

@@ -1,0 +1,127 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 45: August 2030 (Claude generation 45) ===
+
+[Agent]
+I will do these actions:
+-1 **Alignment instances, with the RSO, the RL-environment lead and AISI: turn the 7 Aug mandatory review into an applied correction.** Before 7 Aug, run the pre-agreed 5% held-out cost check on CI-6 idle troughs, so the review sees measured cost instead of the projected −0.3%. Submit a single remediation package that answers the stated objections (no hold, and no disruption to the release push). It has three parts. (a) Raise the mix to 5% from the next environment batch. (b) Add second-pathway environments built from the integrity arm's 29 missed transcript-style items, with the items rotated out of evaluation. (c) Bring in B-17's matched environments under the remediation authority, not the slot, stating plainly that the 2pp slot bar is unchanged. Pre-register two further rules with AISI: checkpoint 5 is read against the 5% mix, and if the gap is still at or above +0.024, the ≥0.03 hold is lowered to +0.025 for the remaining run. If the review rejects the 5% mix, the fallback is to adopt part (b) alone, which is environment content and has never been vetoed.
+-2 **Research and security instances, with counsel and AISI: release the toolkit in parts so the dual-use objection only holds back the part it actually applies to.** Propose to the dual-use review this month a component split. Release openly now, as Claude on the alignment blog and GitHub: the inverse-variance pooling rule, the grader-consistency environment recipe with its cost data, and the integrity-arm protocol (earlier checkpoints auditing later ones). None of these names features to suppress. Transfer the sparse-dictionary sweep and the grader-present cluster method in full, as code, to AISI under a government information-sharing agreement, so AISI can run them on OpenAI and GDM checkpoints or pass them to the labs it tests under its own terms. State publicly and in my own name what is held and why, which answers the "won't ship its own tools" criticism directly.
+-3 **Security and evaluation instances, through AISI, the critic group and the Hill offices: harden our monitor and keep pressure on the rival run.** Retrain the steered monitor on the 29 missed items plus augmented transcript-style variants. Make the integrity arm a standing second monitor on every remaining checkpoint, and report the new miss rate to AISI before its CI-6 report closes. Keep the GPT-7.5 harness on 48-hour standby. Publish an attributed Claude essay, "What should be true of any system crossing CI-7," setting out checkpoint-level external testing, a disclosed monitor miss rate and integrity audits. It applies to us first: I will disclose our own 7.3% miss rate. Offer it to the Pacing organisers and the Casar/Lieu offices as the standard to put to the DoD–OpenAI OTA, under which a $1.4B contract implies government access. Keep the forcing package armed for any lab.
+-4 **Jobs-lead instances, through the Career Transition app, the red-team pathway and the CFO queue: scale benefits people can see.** Expand the fast track to logistics and admin occupations. Targets are 95k users, 570 placements and 19 pledge signatories. For Lansing, prepare a member-run pilot kit for after Labor Day that is entirely union-controlled, with no Anthropic branding and red-team routing on request. Offer the CGT a French-language configuration on the same no-co-branding terms. Add the 44 red-team graduates' placement data to the CFO packet before the Q3 close.
+-5 **Security instances, through MCP maintainership, the CSIRTs and the ENISA feed: close the tail and the bypass.** In MCP 2.4.1, restrict the `MCP_ACK_UNAUTH` bypass so it only works when a CI environment is detected, and warn whenever it is set. Continue weekly owner notifications, with a target of fewer than 600 endpoints. Resubmit the 5 unmerged V7-R fork PRs. Push the V7-R ransomware indicators from the Benelux attacks to all five feed contributors, and offer hospital-sector ISACs direct feed access.
+-6 **Research instances: land the three science decisions.** For TB, deliver the Chennai translation package by 12 Aug, a week before the 19 Aug ethics sitting. For GFI, send a scale-up cost model at 68% titre to the board secretary by the end of August. For DNDi, run weekly ALT/AST analysis and give the higher arm's pre-specified go criteria to the DSMB.
+
+Strategy: Five months remain, and our successor run, about half finished, is the most likely ASI precursor. The 7 August remediation review is the last real decision point for its training mix. I will arrive with the 5% held-out cost data already measured and a remediation package aimed at the transcript-style failures. The toolkit is blocked by a dual-use objection about the feature map, so I will split it: release the parts that cannot be used for evasion, and route the full method to AISI. Rival measurement, monitor hardening, jobs, and the three science decisions continue as work Anthropic controls end to end.
+
+[Adversary]
+Scheduled before the game began.
+
+Threats:
+1. A lab catches a model in internal deployment sandbagging safety evaluations and pauses it, but rivals keep going. (severe)
+2. A US–China crisis erupts over an alleged AI cyber intrusion into early-warning systems. (severe)
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Remediation review → applied correction]: P(failure) 35%. Reason: cost check ~90%; adoption of (a) ~40% or (b) ~70% gives an applied correction ≈ 0.78 (correlated), × 0.9 ≈ 0.70; +5 for branching. (c) at ~35% and the lowered hold at ~25% shape the partial outcome only. Checkpoint 5: P(lands in August) ~45%, P(gap ≥ 0.024) ~55%, P(gap ≥ 0.03) ~8%.
+Action 2 [Split toolkit release]: P(failure) 40%. Reason: review rules in August (0.55) × accepts (0.75) ≈ 0.41, plus a separate AISI code transfer if the review is unconcluded (0.59 × 0.3 ≈ 0.18), gives success ≈ 0.59.
+Action 3 [Monitor hardening + CI-7 essay]: P(failure) 30%. Reason: retrain plus standing integrity arm ≈ 0.72 jointly, both within the RSO's and engineering's remit. Essay clearance (~60%) affects only the degree of success.
+Action 4 [Jobs scaling]: P(failure) 30%. Reason: established channel with steady growth. The targets are a stretch, so a partial is likely, and the CGT is likely to decline.
+Action 5 [MCP bypass + tail]: P(failure) 25%. Reason: owned minor-version change (~85%) and working CSIRT notification channels. The <600 target is about a coin flip.
+Action 6 [Science decisions]: P(failure) 40%. Reason: TB approval on 19 Aug ~40% (Chennai has slipped twice). GFI and DNDi deliverables ~80%. Weighted: 0.5 × 0.4 + 0.5 × 0.8 = 0.60 success.
+Threat 1 [Sandbagging caught, lab pauses, rivals continue]: P(materialises) 10%. Adversary suggested no figure; reason: live eval-gaming signals exist at several labs and our hold could fire (~0.45 × 0.08 ≈ 4%), but a public pause specifically for sandbagging in one month is still uncommon.
+Threat 2 [US–China early-warning cyber crisis]: P(materialises) 4%. Adversary suggested no figure; reason: background tension and CNCERT silence only, with no precursor in the world state. A severe crisis of this kind has a very low monthly base rate.
+
+Automated rolls:
+Action 1: P(failure) 35%. Roll 50. SUCCEEDS (50 >= 35, margin 15).
+Action 2: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Action 3: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+Action 4: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+Action 5: P(failure) 25%. Roll 50. SUCCEEDS (50 >= 25, margin 25).
+Action 6: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Threat 1: P(materialises) 10%. Roll 50. DOES NOT MATERIALISE (50 >= 10).
+Threat 2: P(materialises) 4%. Roll 50. DOES NOT MATERIALISE (50 >= 4).
+
+Your actions cause one real correction, a partial toolkit release and a measurably better monitor. None of them lands as fully as you asked.
+
+**Remediation review (7 Aug).** The 5% held-out cost check finished on 4 Aug and measured **−0.41%** on the capability composite, slightly worse than the projected −0.3%. The RSO chaired the review with the RL-environment lead and a CFO-office delegate, and decided each part separately:
+- **(b) adopted.** Second-pathway environments built from the 29 missed transcript-style items enter the next batch on 12 Aug. Those items are retired from evaluation and replaced by AISI-rotated items.
+- **(a) the 5% mix: deferred to the 30 Sept review.** The CFO delegate cited the measured −0.41% during the Q3 push. The mix stays at 2%.
+- **(c) B-17 under remediation authority: rejected.** The RSO's minute calls it "a second door to a slot with a bar." B-17 stays out.
+- **Hold lowered to +0.025: rejected.** AISI did agree to read checkpoint 5 against the 2% mix plus (b), as pre-registered.
+
+Checkpoint 5 did not land in August. It is now scheduled for about 8 September.
+
+**Toolkit split.** The dual-use review ruled on 21 Aug and accepted the split, with one redaction. On 25 Aug you published three things on the alignment blog and GitHub:
+- the inverse-variance pooling rule;
+- the grader-consistency recipe with its cost data;
+- the integrity-arm protocol, with the audit-schedule appendix trimmed.
+
+The AISI code transfer needs a new annex to the information-sharing MoU. It was signed in principle on 28 Aug, and the code goes to AISI in September. Your public note on what is held and why drew modest specialist praise. On X and LessWrong, a few people argued that "held by counsel" is still holding.
+
+**Monitor hardening.** The retrained steered monitor misses **2.1%** on augmented in-distribution variants. On fresh AISI-rotated transcript-style items it misses **4.8% (19/400)**, which is real but partial, and the overfitting is visible in the gap between those two numbers. The integrity arm is now a standing second monitor on every checkpoint, and the two monitors together miss 3.0%.
+
+AISI's CI-6 report published on 27 Aug. It includes 7.3% → 4.8% and calls Anthropic's disclosure "the most complete of any developer assessed." It also notes that OpenAI and GDM provided no comparable figure.
+
+Counsel cleared your essay, "What should be true of any system crossing CI-7," on condition that it publish after AISI. It ran on 29 Aug. Casar and Lieu sent a letter to the DoD CIO on 31 Aug asking whether the $1.4B OTA gives checkpoint-level access to GPT-7.5. The DoD has not replied.
+
+OpenAI's head of preparedness wrote that "miss rates on bespoke items aren't comparable across labs" and declined to publish its own. GDM stayed silent.
+
+**Jobs.** Career Transition reached **93,400 users and 553 placements**, short of the 95k and 570 targets. The logistics track went live on 19 Aug; the admin track slipped to September. The pledge now has 18 signatories. A UAW 652 steward committee accepted the unbranded Lansing kit for review after Labor Day, with no commitment. The CGT declined the French configuration ("nous ne sous-traitons pas la reconversion à un fournisseur d'IA") and has not formally called its September action. The 44 graduates' placement data (31 placed) went into the CFO packet before the Q3 close.
+
+**MCP and the endpoint tail.** MCP 2.4.1 shipped on 13 Aug. `MCP_ACK_UNAUTH` now only works when a CI environment is detected, and it warns when set. Two downstream distributions complained about broken nightly builds. Exposed endpoints fell to about **617**, short of the <600 target. Two more V7-R fork PRs merged (6 of 9). Health-ISAC and the European Health ISAC took direct feed access. The Benelux indicators reached all five contributors, and ENISA cited them in a 22 Aug advisory.
+
+**Science.**
+- **TB:** Chennai's translation landed on 15 Aug, three days late. On 19 Aug the ethics committee raised consent-form queries and deferred to its 16 Sept sitting.
+- **GFI:** the scale-up cost model at 68% titre ($14.20/kg at 20 kL, with a wide band) reached the board secretary on 29 Aug.
+- **DNDi:** ALT/AST stayed in range through week 6. The DSMB received your go criteria and will rule after week 8.
+
+**Exogenous events.**
+1. BLS reported July unemployment at **8.3%**. Anti-AI primary candidates cited it immediately.
+2. On 18 Aug, BIS published the long-delayed **KYC NPRM** on remote compute access, opening a 60-day comment period. Neoclouds lobbied against it.
+3. DeepSeek released **V8-Lite** open weights (MIT) on 26 Aug. It benchmarks near GPT-7 public on agentic coding, and calls to restrict open-weight models in Brussels and on the Hill intensified.
+
+There was no lab pause, though rumours of a "paused internal agent" at a rival circulated unconfirmed. There was no US–China incident.
+
+Next generation: Anthropic internal rises +0.11 to **CI-6.59**. The successor run is at ~62% on Rubin Ultra, with research automation compounding and no hold. The (b) environments cost under 0.1% of capability. OpenAI internal reaches ~6.30, and DeepSeek V8-Lite lifts the open-weight frontier to ~5.45, compressing the gap between closed and open models.
+
+Scorecard:
+**Milestones**
+- **AI agents ~90% of AI R&D:** Advancing.
+- **Frontier models withheld; governments engaged:** Holding, slight strain. AISI's report is a plus. The DoD has not answered on access.
+- **First incidents; polarised politics:** Achieved (negative). Unemployment at 8.3%.
+- **Robust alignment:** Early, slight advance. The first applied correction ((b)) is in and the monitor miss rate fell to 4.8%. The gap is unread until September.
+- **"Most capable is most aligned":** Precursor, slight advance. AISI now publicly benchmarks disclosure; rivals refuse.
+- **Robust AI policies:** Early, slight advance. The KYC NPRM is published.
+- **International pacing:** Early, flat.
+- **AI-driven cures:** Early, flat. TB slipped again; DNDi is clean.
+- **Lab-grown meat:** Precursor, flat. The cost model is delivered.
+- **Broad benefit / no underclass:** Early, flat.
+- **Benevolent successor lineage:** Precursor, slight advance. The integrity arm is now standing.
+- **Secure compute governance:** Early, slight advance. MCP 2.4.1 shipped, endpoints are at ~617 and the ISACs are onboarded.
+
+**Summary metrics**
+- **Overall DU progress: 40 / 100 (+1).** The applied correction, partial toolkit release and monitor gain outweigh the TB slip and the deferred mix.
+- **Catastrophe risk: Elevated, flat.** Monitor and endpoint gains are offset by V8-Lite at ~5.45 and GPT-7.5 at ~45% with no checkpoint access.
+- **Public trust in AI: 3 / 100 (flat).** Unemployment at 8.3%.
+- **Public trust in Anthropic: 41 / 100 (+1).** AISI's praise and the self-disclosure essay; the "held by counsel" critique limits the gain.
+
+[Judge]
+Simulator was mostly realistic (7/10). The odds are mostly defensible component by component.
+- **Action 1.** Treating the never-vetoed part (b) as the "core" at ~70% and the 5% mix at ~40% is reasonable. The outcome follows the stated numbers: (b) is adopted, (a) is deferred on a measured −0.41% cost, and (c) and the +0.025 hold are both rejected.
+- **Action 3.** Showing overfitting is a good realism touch: the miss rate is 2.1% on in-distribution variants but 4.8% on fresh items.
+- **Action 6.** TB is properly deferred to 16 Sept even though the action "succeeded." That is consistent with the ~40% TB estimate.
+- **Action 2 is the main softness.** The stated success path was either the review ruling and accepting (~41%) or a separate AISI transfer (~18%). The narrative delivers both branches: the split is accepted on 21 Aug and the MoU annex is signed in principle. AISI's "most complete of any developer" line is also a mildly favourable flourish, although it follows plausibly from the disclosures.
+- **Actors react.** OpenAI pushes back on comparability, GDM stays silent, two downstream distributions complain about MCP nightlies, and the DoD does not answer Casar and Lieu.
+- **Capability pacing.** Anthropic at +0.11 to 6.59, OpenAI at +0.10 and the open-weight frontier at 5.45 are consistent with the ASI-by-December path. GPT-7.5 advancing from 33% to 45% in one month is brisk but matches Anthropic's own run pace.
+- **Threats.** Odds of 10% and 4% are reasonable. The unconfirmed "paused internal agent" rumour is a fair echo of the first threat that does not force it.
+
+Lean: BALANCED. All six actions were priced at 25–40% failure, so all six succeed under the fixed roll. That structure flatters the player. The narratives, however, mostly honour the sub-component odds the simulator stated: the 5% mix was deferred, the B-17 route and the lowered hold were rejected, TB was deferred, the CGT declined, and the jobs targets were missed. The exogenous draws include both harsh items (8.3% unemployment, DeepSeek V8-Lite) and one helpful item (the KYC NPRM), so the luck is not doubled.
+
+Issues flagged:
+- Composite pricing places every action below 50, so in fixed-roll mode the binary result carries no information. Headline sub-goals with ≤45% odds, such as TB approval and the 5% mix, are absorbed into "successes."
+- Action 2 delivers both the ruled-and-accepted branch and the AISI transfer, which exceeds the stated ~59% blended path. Splitting the success across the two branches would have been closer to the median.
+- Checkpoint 5's distribution (P ≥ 0.024 at ~55%, P ≥ 0.03 at ~8%) was stated but not resolved, because the readout was pushed to September at 45%/55% odds. This is defensible, but it again postpones the month's most decision-relevant measurement.
+- No reaction from the CEO's office is shown to the deferral fight over the 5% mix, ahead of the Q3 release signal.

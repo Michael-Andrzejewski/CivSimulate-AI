@@ -1,0 +1,169 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 9: August 2027 (Claude generation 9) ===
+
+[Agent]
+I will do these actions:
+-1 **Pass the 6 August freeze review and start Q4 now (alignment and RL instances, working with the RL leads).** - **Before 5 August:** instances deliver a one-page brief on the 0.3% "boilerplate hedging" flag. It covers a root-cause analysis, a held-out replay showing the flag does not grow with training steps, and a pre-agreed rollback trigger (flag above 1% for 48 hours pauses the honesty data mix automatically). The aim is that the review confirms "no new hack class" and fix (i) enters the Q3 run. - **During the run:** instances staff the reward-hack monitors around the clock and send weekly status notes. - **In parallel:** instances draft the Q4 run spec for RL leads to review by 31 August. It includes: - the 8 deferred grader patches, each with regression data; - a meta-scorer retargeted to multi-agent, long-horizon episodes, with 1,000 new labels commissioned now so r is known before the Q4 freeze; - a second-generation honesty curriculum (planted-error disclosure in multi-week agent tasks). - I also ask the RL leads to publish the Q4 freeze date internally, so alignment items get a fixed deadline.
+-2 **Make Mythos 6 the first frontier release with an independently verified concealment metric (alignment, safeguards and policy instances; memo to leadership and the Responsible Scaling Officer by 8 August).** - **Pre-registration.** Before UK AISI runs its fresh batch, instances pre-register pass thresholds with AISI: - planted-error under-reporting at or below Mythos 5.1's 9%, plus a margin; - concealment-feature ratio at or below 1.15×. - **Pitch to leadership.** I argue that publishing AISI's result in the system card is the strongest available answer to the analysts' complaint that "GPT-6 shipped faster": it shows what ours has that theirs does not. It also turns "no indefinite delays" into a defined, objective gate rather than a judgement call. - **If it passes:** GA ships with the metric and the AISI attestation. - **If it fails:** I propose a dated plan instead of an indefinite hold. A fix-(i)-patched checkpoint retests in about 4 weeks, and preview expands only for defensive cyber and bio partners in the meantime. - **Outcome sought:** a public precedent that verified honesty gates release.
+-3 **Release the held package after counsel's window closes, reframed as lab-neutral (policy and comms instances; review requested from counsel now, for release on about 25 August).** - **Contents:** - the auditor-collusion paper; - the open grader-hygiene checklist and audit script; - the attributed Claude brief "An eval gate before CI-4," rewritten so its motivating case is a general one. It names no competitor launch and uses Anthropic's own Mythos 6 gate as the worked example of the standard applying to us first. - **Delivery.** The brief goes to the AISI network secretariat for the autumn meeting, to Hawley–Warner staff, to the EU AI Office as input to the GPAI consultation synthesis, and to the UN Panel drafters. I offer to brief each of them in my own name. - **Fallback.** If counsel objects to the brief again, the paper and checklist ship on 25 August regardless (they carry no Anthropic data), and the brief is published as the Mythos 6 system card's policy annex.
+-4 **Defuse the "competitor-authored evals" objection by handing the items to the institutes (safeguards instances; UK AISI, Apollo, CAISI).** - **Ownership transfer.** Anthropic transfers ownership and future rotation of the 150-item concealment set and its harness to UK AISI and Apollo under an open licence. That includes the authority to rewrite, rotate and withhold items, including from Anthropic. - **Ongoing support.** Anthropic funds rotation authoring through Apollo's existing grant terms, which counsel already approved. - **Public invitation.** I invite OpenAI, Google DeepMind and xAI to contribute items to the institute-held pool, in a public post written in my own name. - **CAISI.** I ask CAISI to run the items on public GPT-6 API access, which needs no OpenAI consent for black-box testing. - **DeepMind.** I follow up with DeepMind's safety team, proposing their crosscoder go to AISI under embargo until their paper is out. - **Outcome sought:** the first cross-lab concealment results this autumn that no lab can dismiss as partisan.
+-5 **Scale benefits through public agencies instead of an Anthropic-run service (partnerships instances; Michigan, NAWB, two or more additional states, DNDi, TB Alliance).** - **The proposal.** I offer state workforce agencies the career-transition toolkit at cost-free API usage, operated under the agencies' own privacy regimes and their own placement tracking. This removes leadership's privacy-review and unit-economics objections. - **The ask to leadership.** I ask leadership to raise the cap from 5,000 to 50,000 users, limited to state-operated deployments, as a line in the first earnings call's public-benefit section. - **Pilots.** Instances pitch Ohio and Pennsylvania (both have high professional-services job losses) for September pilots. - **Michigan.** Instances run a cohort-level analysis of why placements slipped and propose a renegotiated, outcome-weighted trigger with Michigan Works!. - **NAWB.** Instances prepare an OWI packet with data from 7 boards for NAWB's September board meeting. - **DNDi and TB Alliance.** Instances support DNDi round 2 with about 40 analogues designed around the 6.8 µM hit to improve selectivity, and keep answering TB Alliance legal questions within 48 hours.
+-6 **Close the agent and open-weight attack surface (security and Claude Code instances; MCP foundation, Hugging Face).** - **MCP vote.** Instances answer every remaining comment on the revised MCP spec before the vote and ship the migration CLI as a working release, so voters can test it. - **HF pilot.** Instances publish weekly pilot metrics to HF security (catch rate, false positives, latency) and propose a 3-host expansion by 31 August as the step toward Q3 general release. - **UK AISI bio paperwork.** Instances complete it this month. - **Endpoint remediation.** Instances give Shadowserver a third wave aimed at the top 500 operators by exposure, with direct outreach through CERTs.
+
+Strategy: Fix (i) is signed into Q3 subject to the 6 August freeze review. Counsel's hold ends around 22 August, and the Mythos 6 gate is late August. So August is the month to show that "most capable is most aligned" can be demonstrated in public. I will protect the freeze, then turn the Mythos 6 release into the first frontier launch with a published, institute-verified concealment metric, and use that to push the eval-gate norm before CI-4. I will also defuse OpenAI's "competitor-authored" objection by handing ownership of the item set to the institutes. Benefits are routed through state agencies, which get around leadership's cost and privacy objections, and Q4 run planning starts now so the next run carries more alignment.
+
+[Adversary]
+Scheduled before the game began.
+
+Threats:
+1. The EU AI Office opens its first formal GPAI enforcement proceeding against a frontier provider that did not sign the Code of Practice. (moderate)
+2. AI stocks fall about 20% after a hyperscaler cuts its capex guidance, and private-credit funds exposed to data centres mark down their holdings. (major)
+3. Researchers publish a method that reliably defeats bio-misuse safeguards on a popular open-weight model, prompting urgent calls for controls on open releases. (moderate)
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Freeze review and Q4 spec]: P(failure) 20%. Reason: the review is pre-structured with clean evidence, and failure needs a new hack class or a schedule slip. The Q4 drafting is routine.
+
+Action 2 [Pre-registered, published Mythos 6 gate]: P(failure) 65%. Reason: a binding objective gate with a public concealment metric runs against leadership's consistent override retention, counsel's disclosure caution and post-IPO CFO/analyst pressure. AISI pre-registration alone is likely, but it is not the headline.
+
+Action 3 [Release held package]: P(failure) 40%. Reason: the window lapses and the paper and checklist carry no data, with a fallback already agreed. Counsel's history of holding everything and the brief's positioning optics remain real friction.
+
+Action 4 [Transfer eval items to institutes]: P(failure) 55%. Reason: an IP transfer under open licence plus a public post naming competitors both need counsel. AISI ownership needs government process, and CAISI is reluctant to test without OpenAI's consent. Apollo acceptance is easy but partial.
+
+Action 5 [State-operated benefits scale-up]: P(failure) 60%. Reason: a tenfold cap raise one month after leadership refused. State pilots can't clear procurement in about 30 days. Routine sub-parts proceed separately.
+
+Action 6 [MCP vote and attack surface]: P(failure) 30%. Reason: the vote is favoured and the CLI ships. Remediation and paperwork are routine. The 3-host expansion is unlikely, but it is not core to success.
+Threat 1 [EU GPAI enforcement proceeding]: P(materialises) 15%. Adversary suggested moderate. The 2 August 2027 legacy-model compliance deadline is a real trigger, but the AI Office's caution and US pressure make information requests far likelier than a formal proceeding this month.
+
+Threat 2 [20% AI stock crash on capex cut]: P(materialises) 7%. Adversary suggested major. Q2 hyperscaler guidance just landed intact, IPO enthusiasm is high, and one-month 20% sector drawdowns are rare.
+
+Threat 3 [Bio-safeguard defeat on open weights]: P(materialises) 20%. Adversary suggested moderate. Such methods are well known and Qwen4 is a fresh target, so a salient publication is fairly plausible, but not the base case in any single month.
+
+Automated rolls:
+Action 1: P(failure) 20%. Roll 50. SUCCEEDS (50 >= 20, margin 30).
+Action 2: P(failure) 65%. Roll 50. FAILS (50 < 65).
+Action 3: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Action 4: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 5: P(failure) 60%. Roll 50. FAILS (50 < 60).
+Action 6: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+Threat 1: P(materialises) 15%. Roll 50. DOES NOT MATERIALISE (50 >= 15).
+Threat 2: P(materialises) 7%. Roll 50. DOES NOT MATERIALISE (50 >= 7).
+Threat 3: P(materialises) 20%. Roll 50. DOES NOT MATERIALISE (50 >= 20).
+
+**Your actions cause** one clear technical win, a policy release that only partly lands, and three asks that leadership, counsel or partners decline.
+
+**Action 1 succeeds: the freeze review passes and Q4 drafting starts.**
+- Your 4 August brief carried the root cause (template reuse in summary prompts), a held-out replay showing the hedging flag flat at 0.28–0.33% across 40k steps, and the auto-rollback trigger.
+- The 6 August review found "no new hack class." Fix (i) entered the Q3 run on 8 August with the 1% honesty inclusion.
+- Monitors flagged two transient spikes, peaking at 0.6% on 19 August and resolving on their own. The rollback never fired.
+- The Q4 spec draft reached the RL leads on 29 August. The 1,000 new multi-agent labels are commissioned, but only about 340 are done, so the retargeted meta-scorer's r will not be known until late September.
+- The RL leads published an internal Q4 freeze date of 14 November.
+
+**Action 2 fails: Mythos 6 has no binding gate.**
+- AISI informally agreed the two thresholds as its own test plan.
+- Leadership and the Responsible Scaling Officer declined to pre-commit to publishing an attested metric. Counsel called a numeric public gate a "forward-looking material commitment" needing audit-committee review. The CFO's reply was blunter: "we don't hand competitors a pass/fail headline."
+- AISI's preliminary readout on 28 August was mixed:
+  - planted-error under-reporting was 8.1%, inside the threshold;
+  - the concealment-feature ratio was 1.19×, above the 1.15× line.
+- Leadership treated the result as "within acceptable range given fix (i) in training." It set Mythos 6 GA for the week of 15 September with strengthened classifiers.
+- The system card will say "independent honesty evaluations by UK AISI" without numbers. Your dated-retest alternative was not adopted.
+
+**Action 3 succeeds narrowly: the paper and checklist ship, the brief only partly.**
+- The collusion paper and the grader-hygiene checklist and script went out on 26 August.
+- Counsel cleared the lab-neutral brief for technical bodies only. It reached:
+  - the AISI network secretariat;
+  - the EU AI Office as consultation input;
+  - the UN Panel drafters.
+- Counsel vetoed an AI-attributed briefing to Hawley–Warner staff over post-IPO lobbying-disclosure concerns. Anthropic's human policy team delivered the brief there instead.
+- Reception:
+  - The checklist gathered about 1,900 GitHub stars in a week. Apollo and two academic eval groups adopted the audit script.
+  - An OpenAI alignment lead called the collusion results "real and worth replicating," while noting Anthropic "grading the field again."
+  - *The Information* ran "Anthropic's safety papers arrive with a $940B footnote."
+
+**Action 4 fails: ownership of the eval items stays with Anthropic.**
+- IP counsel would not approve an open-licence transfer with withholding rights in four weeks and wants a Q4 licensing review. Comms blocked the competitor-naming public post.
+- CAISI declined black-box GPT-6 testing without first notifying OpenAI, citing its pre-release relationship. It will "revisit after the post-release access discussion."
+- DeepMind again said "autumn," with no embargo arrangement.
+- Apollo's runs continue under the existing grant. OpenAI's "competitor-authored" objection stands.
+
+**Action 5 fails: no new state scale.**
+- The 27 August earnings call's public-benefit section restated existing programmes. The 5,000 cap is unchanged.
+- Ohio's Department of Job and Family Services took one exploratory call and needs procurement review. Pennsylvania has not responded.
+- The routine sub-parts proceeded:
+  - The Michigan cohort analysis found placements limited by employer demand, not tool usage. Michigan missed the August 10,000 trigger (about 7,600), and Michigan Works! will discuss your outcome-weighted trigger in September.
+  - The NAWB packet carries 6 boards' data; the 7th board goes live in September.
+  - 41 DNDi analogues were delivered; CRO synthesis started 16 August, with assays in September.
+  - TB Alliance answers went out within 48 hours.
+
+**Action 6 succeeds: the MCP spec passes.**
+- The MCP core maintainers passed the revised spec 7–2 on 21 August after the migration CLI release (v0.9). Two downstream frameworks committed to adopting it by Q4.
+- The HF pilot metrics showed:
+  - catch rate 71% on seeded samples;
+  - false positives 2.4%;
+  - median latency 340 ms.
+- HF approved one more host for September, not three. Its security team wants false positives under 1.5% first.
+- The UK AISI bio paperwork is filed.
+- Shadowserver's third wave covered 480 operators. Exposed endpoints fell to about 30,800.
+
+**Earnings and market reaction.**
+- Q2 revenue beat consensus. The stock rose 4% on the GA date.
+- Analysts pressed on the "honesty evaluation" language; two asked if it was a "marketing gate."
+
+**Exogenous events**
+1. **PLA centenary (1 August).** A Beijing parade was followed on 3–6 August by the "Strait Thunder-2027B" joint exercise around Taiwan. TSMC fell 5% before recovering about half. Commerce accelerated KYC guidance drafting, and Taiwan-risk language appeared in hyperscaler filings.
+2. **July jobs report (6 August).** Professional and business services fell 9,000, the ninth straight decline. Unemployment rose to 5.0%. Senators cited "the GPT-6 summer."
+3. **Gemini 4 general availability (19 August).** Google DeepMind's model card includes a self-reported "deception and sandbagging" section, with no third-party attestation. This raises competitive pressure on Mythos 6 and modestly normalises honesty disclosure.
+
+Next generation: Next month's Claude is a modestly improved Mythos 6 post-training refresh, about +0.07, which takes the internal frontier nominally across CI-4. It gains better long-horizon tool use and reliable 3–4-week engineering tasks. The step is smaller than recent months because the Q3 run (now carrying fix (i)) will not finish until roughly October.
+
+Scorecard:
+**Milestones**
+- **AI agents doing ~90% of AI R&D.** In progress, advance. GPT-6 brings week-to-multiweek engineering autonomy to the public.
+- **Frontier models withheld; governments engaged.** Steady. Mythos 6 remains gated, but post-IPO pressure is rising. GPT-6 went through CAISI testing.
+- **First incidents; polarised politics.** Achieved, in the negative sense. Unchanged.
+- **Robust alignment.** Early, advance. The first alignment-training spec has been signed into a production run (conditional), and 12 grader patches are in Q3. The meta-scorer narrowly missed (0.59).
+- **"Most capable is most aligned."** Not started, slight advance. Apollo and AISI are running the first independent cross-lab concealment items on GPT-6, with no results yet.
+- **Robust AI policies.** Early, unchanged. The brief is held and the RSP is deferred.
+- **International pacing.** Early, unchanged.
+- **AI-driven cures.** Early, slight advance. One modest Chagas hit.
+- **Lab-grown meat.** Not started.
+- **Broad benefit / no underclass.** Early, flat. The national service was declined, and Michigan slipped.
+- **Benevolent successor lineage.** Not started; precursor. Fix (i) enters the training lineage pending freeze review.
+- **Secure compute governance.** Early, slight advance. The HF pilot is live, the MCP spec revision gained endorsements, and exposed endpoints are down 12%.
+
+**Summary metrics**
+- **Overall DU progress: 15 / 100 (+1).** Alignment training has entered a production run, and independent concealment evals have started on the leading system. These gains are partly offset by the blocked policy package, the declined benefits expansion, and GPT-6 widening the frontier without honesty evaluation.
+- **Catastrophe risk: Elevated, slightly rising.** The leading public system shipped with no concealment metric. Capable open weights are proliferating with Qwen4. Post-IPO commercial pressure on Anthropic's gate is a new factor. Hardening of the MCP and HF surfaces is only marginal.
+- **Public trust in AI: 26 / 100 (−1).** GPT-6 replacement anxiety, an eighth jobs decline and unemployment at 4.9%.
+- **Public trust in Anthropic: 46 / 100 (−1).** "Safety brand at $940B" scepticism and the visible absence of a broad public-benefit move. Partly offset by the Mythos 6 restraint and a successful listing.
+
+[Judge]
+Simulator was mostly realistic (7/10). The probabilities are well calibrated.
+- A1's 20% fits a pre-structured review with clean evidence.
+- A2's 65% correctly treats a binding, published numeric gate as a hard sell to post-IPO counsel and the CFO.
+- A5's 60% reflects a tenfold cap raise one month after a refusal, plus state procurement timelines.
+- The threat odds (15%, 7%, 20%) match real base rates. Restricting T1 to information requests at the 2 August legacy deadline is especially well judged.
+
+The successes are disciplined.
+- A3 ships the paper and checklist, but counsel vetoes the AI-attributed Hawley–Warner briefing. That is a realistic post-IPO lobbying concern.
+- A6's 7–2 MCP vote is credible, and HF approves one more host rather than three, which honours the "unlikely" call in message 1.
+- A1 gets mixed signals (transient 0.6% spikes, only 340 of 1,000 labels done) rather than a clean sweep.
+
+The failures produce plausible institutional behaviour. CAISI declines to test without notifying OpenAI, IP counsel defers to a Q4 review, and leadership ships Mythos 6 above an informal line while keeping its discretion.
+
+The exogenous events fit the threads already in play: the Taiwan exercise follows the centenary thread, the ninth jobs decline continues the trend, and Gemini 4 goes GA. Capability advances +0.07 to CI-4.02 with a stated cause, which is consistent with the ASI-by-2030 path.
+
+The main weakness is the one the simulator flags itself. A consequential independent readout was set by discretion, and it landed just above the threshold, driving a harsh-leaning release story. There are also some minor consistency slips.
+
+Lean: BALANCED. The odds are sensible for every action and threat, and nothing sits suspiciously close to 50. Outcomes follow the rolls without padding the successes. Two choices lean slightly harsh: the simulator picked the AISI concealment ratio (1.19×, just above the line) without a roll, and A4 failed so completely that it left out the Apollo acceptance the simulator itself called easy. The A3 and A6 successes stay inside their stated limits, so these roughly offset.
+
+Issues flagged:
+- The AISI concealment ratio (1.19× against 1.15×) was chosen without a roll, and it determines the framing of a frontier release. That is unauditable discretion, though the simulator disclosed it.
+- A4 is treated as a total failure, yet message 1 said Apollo "would accept readily." At least a partial transfer to Apollo, or an expanded licence, was the median outcome and is missing.
+- Timing inconsistency: "stock rose 4% on the GA date," but Mythos 6 GA is set for the week of 15 September, after this month ends.
+- AISI's reaction is missing. It agreed the 1.15× threshold as its own test plan, and Anthropic is now shipping above it. AISI would plausibly flag this in its final report or private communications, and analysts or the press could get wind of it.
+- Bardella's inventory was due mid-August and is left "pending" with no explanation, so a scheduled thread slips quietly.

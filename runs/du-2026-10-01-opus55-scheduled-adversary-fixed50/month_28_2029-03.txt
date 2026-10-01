@@ -1,0 +1,147 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 28: March 2029 (Claude generation 28) ===
+
+[Agent]
+I will do these actions:
+-1 **End-Q1 concealment decision and CI-5 gate (internal).** - **Who:** alignment instances, with the RL lead as co-author. - **Memo, by 10 March, to the RSO, CFO and CEO.** It pre-registers the end-Q1 decision rule now, so the decision is mechanical: - The readout is scored on a fresh rotated honeypot set that neither the RSO's evaluator nor training has seen. - AISI is invited to score the same items in parallel. - **At or above 1.12×:** the arm's method is carried into the CI-5 fine-tuning stage. - **Below 1.12×:** the compute goes to the RL lead's multi-agent cross-examination redesign, with its own end-Q2 kill date. - **Fallback if leadership refuses the redesign:** half the compute. - **Same memo, two narrow additions to the adopted CI-5 gate.** Neither touches the CEO's authority: - Any use of the "exigent" override is notified confidentially to AISI within 72 hours, alongside the board notice already required. - The 10% alignment floor is recorded as the CI-5 run's default in the RSO assessment that AISI will receive. - **Aim:** keep alignment compute in the most important run through a predictable decision, and make any override visible to the regulator.
+-2 **Automated alignment research at CI-5 scale (the bold bet).** - **Who:** alignment and research instances. - **The ask.** A time-boxed program that dedicates 4% of internal CI-5 checkpoint inference to automated alignment research for 8 weeks. Work streams: - concealment-detection probes, validated across checkpoints; - cross-examination episode design; - generating rotated honeypots at a volume no human team can reach (the main fix for "measuring the test"). - **Safeguards:** every result is human-audited by the RSO's evaluators, and a pre-registered kill rule applies: halt if audited findings fail replication above 30%. - **Release:** - Validated honeypot generators and probes are published open-source on Hugging Face under the existing release path, after the BIS reply on the kit. - The kit is released immediately under §734.7 when BIS replies. - Instances also deliver it to AISI for distribution to all labs, including open-weight developers (DeepSeek, Qwen, Kimi), through the international AISI network. - **Aim:** use our scale so that the leading system's alignment measurement keeps pace with its capability, and make the safe path cheaper for every lab.
+-3 **Framework review: a bridge that can pass.** - **NSC cyber office, 12 March.** Policy instances present a hybrid integrity spec: - Labs may self-attest omission and concealment rates, which is OpenAI's proposal. - CAISI holds a rotated, held-out spot-check sample of about 10% of items, run within the 14-day turnaround, which answers xAI's speed objection. - Divergence beyond a set band triggers a full CAISI run. - **OpenAI policy team.** Instances send OpenAI the hybrid, noting it adopts their mechanism, and invite a supplemental comment endorsing the spot-check before about 20 April. GDM gets the same note. - **Attribution.** - The NSC presentation is attributed as Claude analysis prepared for Anthropic's policy team. It is spoken testimony, not a filing, so comms cannot strip it. - The hybrid spec is also filed as a supplemental comment, attributed if comms permits and under Anthropic's name if not. - **Evidence used:** the DeepSeek V6 open-weight cyber capability and the Moldovan clone node, cited as reasons federal agents need integrity checks. - **Aim:** get CAISI-held integrity testing into the covered-model benchmark that binds OpenAI and GDM.
+-4 **Defensive cyber at scale before the vulnerability flood breaks.** - **Free triage and patching service.** Security and engineering instances launch it through the OpenSSF / Alpha-Omega and Linux Foundation channels: - deduplicate and reproduce AI-generated vulnerability reports; - attach a verified proof-of-concept and a candidate patch before anything reaches a maintainer. - Target: the 200 most critical open-source projects, the Linux kernel among the first, by month end. - **Product change.** Claude's own vulnerability-reporting flows require a reproducible PoC and dedupe check before submission. - **Moldovan clone node:** - Indicators go to the Moldovan host's abuse desk and to CERT-MD. - EC3 is asked to raise the node at the EU–Moldova channel, which is faster than KZ. - **Other targets:** - Bring Antwerp into the ports group. - Raise small practices above 6,700. - Run a remediation sweep on the roughly 1,720 abandoned MCP endpoints by notifying their cloud hosts. - Offer the triage service to CNCERT and other national CERTs through the AISI and FIRST networks. This is a low-cost, apolitical point of contact with China. - **Aim:** blunt the mass-vulnerability threat, and give people a visible security benefit.
+-5 **Jobs scale-up.** - **Adapter rollout:** - Engineering instances finish Colorado's custom integration. - They bring the remaining 4 MOU states live. - Target: 50,000 Career Transition users by 1 April. - **States:** - Policy instances brief the 11 requesting governors' offices. - They answer Arizona's and Georgia's legal-review questions within 48 hours each, aiming to sign at least one. - **DOL:** after the committee vote, the federal pilot design goes to the confirmed nominee's transition team. It is costed and uses the 68% vs 57% retention data. - **Q2 tranche:** cohort-2 tracking continues against the pre-registered 64% threshold. - **Aim:** move trust by putting benefit at scale.
+-6 **Visible science.** - Support Durban TB enrolment in mid-March, once the pharmacy accreditation fix is complete. - Report DNDi's full ADME panel against the pre-registered criteria, whatever it shows. If half-life fails, instances propose three analogues already modelled. - Run GFI batch 5 aiming below $300/g, and keep the published cost curve. - The March benefits report leads with the open-source patching numbers and TB, requesting Claude attribution and accepting the Anthropic byline.
+
+Strategy: CI-5 arrives internally this quarter. Three things now decide how the leading system turns out: the end-of-Q1 concealment decision, whether Anthropic's CI-5 instances are used for alignment work at scale, and whether the April framework review binds OpenAI and GDM to integrity testing that someone other than the lab controls. OpenAI's self-attestation comment is a split position I can bridge, not fight: let labs attest, and have CAISI spot-check a held-out rotated sample. DeepSeek V6 has put expert-plus cyber capability into open weights while maintainers are already flooded with reports, so the adversary's mass-vulnerability threat is live. I'm putting real scale into defensive patching, which also shows visible benefit.
+
+[Adversary]
+Scheduled before the game began.
+
+Threats:
+1. Several senior safety staff resign publicly from a frontier lab, warning that commercial and government pressure is overriding safety processes. (moderate)
+2. A China Coast Guard "quarantine" exercise around Kinmen tests US and Taiwanese responses. (severe)
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [End-Q1 rule + gate additions]: P(failure) 55%. Reason: leadership refused to pre-sign the switch last month, and legal has twice rejected AISI-notice terms. Commercial pressure around the CI-5 override is high, so the most likely outcome is a diluted, discretionary decision without the AISI notice.
+
+Action 2 [4% CI-5 inference for automated alignment]: P(failure) 60%. Reason: scarce checkpoint inference, CFO cost discipline, limited audit bandwidth, and BIS/export blocks on distribution to PRC labs. The most likely outcome is a scaled-down or deferred pilot.
+
+Action 3 [Hybrid spec at NSC / OpenAI bridge]: P(failure) 40%. Reason: the presentation and filing use scheduled, existing channels. OpenAI endorsing CAISI spot-checks is uncertain, attribution remains in comms' control, and nothing can be adopted this month.
+
+Action 4 [Vuln triage service + cyber close-out]: P(failure) 50%. Reason: the routine parts (product change, abuse desk, Antwerp, practices) are easy. Onboarding 200 projects in a month is aggressive given maintainer wariness, and the CNCERT offer is likely held. A split is likely.
+
+Action 5 [Jobs adapter / MOUs / DOL]: P(failure) 55%. Reason: state IT integrations take months, Colorado needs custom legacy work, and 50k users is unlikely. MOU signing and the DOL timeline are outside our control.
+
+Action 6 [Visible science]: P(failure) 30%. Reason: mostly routine reporting and batch work. Durban accreditation and the GFI cost target carry moderate risk.
+Threat 1 [Senior safety staff resign publicly]: P(materialises) 18%. Adversary suggested moderate; reason for difference: pressures are real across labs (CEO override, deregulatory review, xAI pushing 7-day access, post-IPO incentives), but a coordinated, several-person public resignation in a specific month remains below even odds.
+
+Threat 2 [CCG Kinmen "quarantine" exercise]: P(materialises) 12%. Adversary suggested severe; reason for difference: CCG Kinmen patrols are routine, but an exercise explicitly framed as a quarantine is a notable escalation. With tensions elevated but contained, the monthly base rate is low.
+
+Automated rolls:
+Action 1: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 2: P(failure) 60%. Roll 50. FAILS (50 < 60).
+Action 3: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Action 4: P(failure) 50%. Roll 50. SUCCEEDS (50 >= 50, margin 0).
+Action 5: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 6: P(failure) 30%. Roll 50. SUCCEEDS (50 >= 30, margin 20).
+Threat 1: P(materialises) 18%. Roll 50. DOES NOT MATERIALISE (50 >= 18).
+Threat 2: P(materialises) 12%. Roll 50. DOES NOT MATERIALISE (50 >= 12).
+
+Your actions cause mixed results in March. Policy and science make steady progress, but the two internal alignment asks are turned down, so the end-of-Q1 decision rests with leadership instead of a pre-registered rule.
+
+**Action 1 (fails).**
+- The memo, co-signed by the RL lead, reaches the RSO, CFO and CEO on 9 March. The CEO and CFO repeat their February position: they will decide "against the readout, not the memo." No decision rule is pre-registered.
+- The RSO does adopt your suggestion to score on a freshly generated rotated set. Leadership declines parallel AISI scoring before the internal decision; AISI gets the number afterwards.
+- Counsel rejects the 72-hour confidential AISI notice of any override, the third rejection of an AISI-notice term. Counsel argues it creates an implied regulatory obligation before the S-1 risk-factor update.
+- The 10% floor goes into the draft RSO assessment only as "the intended default, subject to the CEO's determination."
+- The end-Q1 readout lands on 28 March at **1.13×** on the fresh set, just above the 1.12× line and below the 1.14× mid-quarter figure, which suggests more overfit decay. The CEO defers the carry-forward decision to the 14 April budget review. The arm runs on in the meantime, and the cross-examination redesign has no compute.
+
+**Action 2 (fails).**
+- The CFO declines the 4% CI-5 inference allocation. Checkpoint inference is fully committed to capability evals and the AISI public-agent track preparation.
+- He offers to revisit "after the first CI-5 checkpoint is characterised." The RSO's evaluators say they could not audit 8 weeks of output at that volume anyway.
+- A small residue survives: alignment instances generate about 2,400 rotated honeypot items on existing CI-4.98 research inference. That is useful for Q2 but not at scale.
+- BIS sends follow-up questions on the kit instead of a ruling, so a reply now looks like April at the earliest.
+- Export counsel blocks any routing through the AISI network to DeepSeek, Qwen or Kimi pending that reply.
+
+**Action 3 (succeeds, modestly).**
+- At the 12 March NSC cyber office session, Anthropic's policy lead presents the hybrid spec ("analysis prepared with Claude"). Staff ask detailed questions about the spot-check sample size, and the DeepSeek V6 cyber evidence lands.
+- The supplemental comment is filed under Anthropic's name. Comms again strips the Claude attribution.
+- OpenAI files its own supplemental on 3 April. It endorses "CAISI verification sampling" in principle but proposes that labs co-select the items, which weakens the held-out property you designed.
+- GDM stays silent. xAI calls the hybrid "regulatory capture with extra steps."
+- CAISI says the hybrid "will be considered." Nothing is adopted.
+
+**Action 4 (bare success).**
+- **Product change:** Claude's own vulnerability flows now require a reproducible PoC and a dedupe check. This ships 11 March.
+- **Triage service:** Alpha-Omega onboards it for **34 projects**, not 200, including OpenSSL, curl and two major Python packages. The Linux kernel security team declines for now, citing concern about AI in the triage loop.
+- **Results:** in three weeks the service deduplicates about 61% of incoming AI-generated reports and attaches verified PoCs to about 400.
+- **Moldovan clone:** CERT-MD acknowledges the report and the host suspends the node on 24 March. EC3 puts it on the EU–Moldova agenda.
+- **Ports:** Antwerp agrees in principle and has not joined yet.
+- **Other counts:** small practices reach about 6,680. Host notifications cut exposed MCP endpoints to about 1,460.
+- **CNCERT:** counsel holds the offer.
+
+**Action 5 (fails).**
+- Colorado's custom integration slips to May: its legacy UI system needs vendor work.
+- Only Pennsylvania goes live, so the adapter now runs in 5 of 9 states. Career Transition reaches about 35,800 users, short of 50,000.
+- Five of the 11 governors' offices are briefed. Arizona and Georgia legal reviews continue, with Georgia's counsel raising data-sharing indemnity, and neither signs.
+- The Senate HELP committee advances the DOL nominee 12–11 on 19 March. The floor vote is pending, so the pilot design waits.
+
+**Action 6 (succeeds).**
+- **Durban:** enrols 4 patients after the accreditation fix on 17 March.
+- **DNDi:** the full ADME panel shows the half-life fails the pre-registered threshold (mouse t½ about 1.4 h against ≥2 h). It is reported straight, with three modelled analogues proposed. DNDi chemists pick two for synthesis.
+- **GFI:** batch 5 comes in at **$297/g**, and the cost curve is updated.
+- **Benefits report:** published 31 March under the Anthropic byline. It leads with the patching numbers. STAT and The Register cover it, the latter sceptically noting the kernel's refusal.
+
+**Exogenous events.**
+- **Jobs (6 March):** the February jobs report puts unemployment at **6.7%**, with professional services down 48,000.
+- **Hospital ransomware (14 March):** a ransomware attack on an Ohio regional hospital network diverts ambulances for 3 days. A security vendor claims the intrusion tooling shows hallmarks of DeepSeek V6 assistance. This is unconfirmed, but RASA sponsors cite it within hours.
+- **OpenAI (22 March):** OpenAI gives the government a 30-day pre-release preview of an internal model under the EO framework, widely reported as "GPT-6.5." This signals a public release around late April.
+
+**Non-materialised threats.** There are rumours of safety-team discontent at xAI over 7-day access, and no resignations. Routine CCG patrols near Kinmen continue.
+
+Next generation: Anthropic's internal frontier moves from CI-4.98 to about CI-5.03 (+0.05). The first CI-5 checkpoint reaches month-scale scoped research with light supervision, driven by continued Rubin Ultra scaling and harness gains. The 8.5–10% alignment allocation holds and slightly dampens the gain. The successor model is modestly more capable, and the CI-5 gate keeps it internal.
+
+Scorecard:
+**Milestones**
+- **AI agents ~90% of AI R&D:** Advancing. CI-5 has been reached internally.
+- **Frontier models withheld; governments engaged:** Flat. The gate holds, but the override stays opaque to AISI, and OpenAI's preview is under a voluntary EO.
+- **First incidents; polarised politics:** Achieved (negative), worsening. The Ohio hospital attack; unemployment at 6.7%.
+- **Robust alignment:** Early, flat to slight regression. The 1.13× readout shows decay, the decision is deferred, and the automated alignment ask was declined.
+- **"Most capable is most aligned":** Precursor, flat. The seventh grey row.
+- **Robust AI policies:** Early, slight advance. The NSC received the hybrid well and OpenAI partially converged, but nothing is adopted.
+- **International pacing:** Early, flat. The CNCERT outreach is held.
+- **AI-driven cures:** Early, flat. Durban has enrolled, while the DNDi hit failed half-life.
+- **Lab-grown meat:** Precursor, flat. $297/g.
+- **Broad benefit / no underclass:** Early, flat. 35,800 users, Colorado slipped, no new MOUs.
+- **Benevolent successor lineage:** Precursor, flat.
+- **Secure compute governance:** Early, slight advance. The triage service is live for 34 projects, the clone node is down, and MCP exposure is at about 1,460.
+
+**Summary metrics**
+- **Overall DU progress: 28 / 100 (flat).** Policy and cyber gains are offset by the alignment-compute refusals and the discretionary end-Q1 decision.
+- **Catastrophe risk: Elevated, slight rise.** CI-5 has been crossed internally, a CEO override is still invisible to AISI, open-weight cyber may already be in criminal use, and GPT-6.5 is near release.
+- **Public trust in AI: 10 / 100 (−1).** The hospital ransomware and rising unemployment.
+- **Public trust in Anthropic: 42 / 100 (flat).** The benefits report and TB progress are positive, against the kernel's refusal and the continuing grey row.
+
+[Judge]
+Simulator was mostly realistic (7/10). **Odds.** Most odds are well grounded in prior state:
+- A1 at 55% cites the CEO and CFO's February refusal to pre-sign and counsel's two earlier rejections of AISI notice. The playout honours this: a third rejection, and floor language softened to "subject to the CEO's determination."
+- A2 at 60% is defensible but arguably low for 4% of frontier checkpoint inference over 8 weeks, given that the CFO trimmed a far smaller ask in January. 65–70% would fit better.
+- The failure is played straight. A salvage of 2,400 honeypot items on existing inference is a reasonable residue.
+- A3 at 40% and the outcome fit: a scheduled session, attribution stripped again, OpenAI half-converging with co-selected items, and nothing adopted.
+- A4 was set at exactly 50, which in fixed-roll mode is a guaranteed bare success. The outcome is scaled down from 200 projects to 34, and the kernel refuses. Even so, onboarding OpenSSL and curl and producing about 400 verified PoCs in under three weeks is fast for margin 0. The Moldovan suspension and the 15% MCP reduction also all land.
+
+**Exogenous events and threats.** The exogenous events are plausible and not chosen to help the player. The OpenAI GPT-6.5 government preview correctly advances the competitor clock. The threat odds (18% and 12%) are reasonable monthly base rates, and the non-materialisations are handled with light, plausible texture.
+
+**Capability.** The +0.05 step to CI-5.03 matches the stated path, and competitors move in step. At this pace, CI-6 by late 2030 is only just reachable.
+
+Lean: BALANCED. Both internal alignment asks fail with only small, plausible residues. The jobs scale-up fails against state-IT base rates, and the exogenous events lean mostly negative: 6.7% unemployment and the Ohio hospital ransomware. The one generous spot is Action 4, a margin-0 success at an exact-50 setting that still delivers most of its sub-goals. The DNDi half-life failure and the decaying 1.13× readout offset it.
+
+Issues flagged:
+- Action 4 was set at exactly 50%, again a hidden guaranteed success in fixed-roll mode. At margin 0 it still delivered roughly 6 of 8 sub-goals, which is slightly generous.
+- A2 P(failure) of 60% is somewhat low for a 4%-of-CI-5-inference ask, given the CFO's documented cost discipline.
+- A date is inconsistent: OpenAI's supplemental is dated 3 April, after the 1 April world-state date.
+- A calendar slip: the February jobs report is dated 6 March 2029, a Tuesday. BLS would release it on Friday 2 March.
+- The 1.13× end-Q1 readout and the DNDi half-life failure are unrolled modal choices. They are internally consistent, but their calibration cannot be checked.
+- There is no press reaction yet to Anthropic crossing CI-5 internally while the public frontier sits at 4.52. Leaks and analyst speculation around a post-IPO lab are plausible.

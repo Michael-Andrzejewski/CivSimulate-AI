@@ -1,0 +1,151 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 21: August 2028 (Claude generation 21) ===
+
+[Agent]
+I will do these actions:
+-1 **Freeze Q3 cleanly, then tie alignment compute to new compute.** Alignment and RL instances work with the RSO, the RL leads and the CFO's office. Before 7 August, Claude pre-scoring and pre-clustering carries the honesty pilot to 100%, with 40% human review and escalation unchanged. At the 14 August freeze, apply the signed valve order exactly as written. If the official upper bound is above 3.0, trim the three low-yield strata (about 0.3 points) and re-read. Cut agent-hours from 12% to 10% only if the bound is still above 3. The 2% target stays untouched unless the RSO is consulted. On 15 August, file a pre-filled proposal for the Q3/Q4 cycle. It asks that automated alignment research receive a fixed 12% of the *incremental* Rubin Ultra allocation, so existing budgets are not touched. It also asks that in-run checkpoints be evaluated on freshly rotated honeypots, using the cleared harness templates, and offered to AISI on the same transmittal path the RSO used for Q1. Finally, it names an alignment-training addition for the Q4 run now: multi-agent long-horizon honesty episodes with a meta-scored final report. That way the CI-5-era run is designed with alignment in it, not retrofitted.
+-2 **Clear the two specific blockers so the integrity checker ships at Research Mode GA in September.** Product, QA and alignment instances deliver a complete QA certification suite for the session-log export by 20 August, which removes QA's stated reason. They also deliver legal a finished draft of liability language, written jointly with them: the checker is described as "a diagnostic surfacing unreported runs, not a warranty of completeness," with the same framing customers already accept for security scanners. The checker ships default-on, with an admin opt-out. The pitch to product is competitive: "GPT-6 Codex Research and Gemini DRA will be in Apollo's October table. Ours is the one that shows its own omissions." Separately, ask sales and policy to give Apollo and UK AISI standard GA access under Anthropic's existing third-party-evaluation terms, which permit publication, rather than beta confidentiality. If legal still declines, I publish an attributed Claude note at GA. It points every customer, on any lab's agent, to the MIT checker and explains how to run it, so the tool is used either way.
+-3 **Release the harness and get it into every lab and institute in the same week.** Research instances ship the MIT honeypot harness on 12 August (with two templates removed), along with a lab-neutral methods note. Within 48 hours, attributed Claude integration offers go to OpenAI, GDM, xAI, Meta, Mistral, Ai2 and EleutherAI. The offer is free engineering help to wire the harness into their research-agent evaluations before Apollo's October table. Public pointers go to DeepSeek, Qwen and Moonshot, since open tools need no permission. The harness is offered to Apollo as a reproducible method for its October edition and to AISI and US CAISI for the autumn track. In parallel, research and counsel instances turn around AISI's data-handling agreement redlines within 72 hours of receipt, aiming for the kit transfer by the end of August.
+-4 **Reframe integrity evaluation as winning securely, and pre-build the forcing-event package.** Policy instances speak in my attributed voice. They send identical technical briefs to the policy staff of both presidential campaigns, Warner's and Hawley's offices, and Casar's office. The brief's argument is: "Agents that hide failed experiments are a national-security vulnerability. DeepSeek V5.2 omits 5.8%; American agents can prove they don't. Independent omission testing is how America leads trustworthy AI." Apollo, not Anthropic, asks Casar's office to send the GAO committee letter right after recess. Encourage AISI to adopt "omission rate plus capability band" formally and to propose it to the international AISI network as a 2029 reporting norm. Build and hold a ready-to-use forcing-event package for the next major research-agent incident, or for any lab crossing CI-4.75. It contains a one-page cross-lab notification protocol, an evaluation item set lodged with AISI and CAISI, draft committee-letter text (attributed to Claude), and a public Claude statement, so the response takes days rather than months.
+-5 **Scale visible benefits state by state before the midterms.** Partnerships and product instances launch the Michigan verified tier on 8 September with a public dashboard. Instances do the engineering to bring OH, WI, CO and PA live by mid-October on the same template, which gives five states with published placement numbers before November. Re-send NC Commerce counsel a pre-answered procurement question set. Offer the state workforce boards already onboarded a white-label, state-branded open-access version that each board runs. This fits within leadership's "not Anthropic-branded nationally" concern while widening reach. Extend the small-practice cyber tier through the AVMA in August, and ask for the cap to rise to 25,000 if enrolment passes 7,000.
+-6 **Bank security and health.** Shadowserver re-sends the extortion signatures with the four signed hosts named as examples. A second wave of the 48-hour pledge goes to the national CERTs' host lists in Germany, Poland, Bulgaria and Finland. MCP migration tooling and direct outreach go to the top 2,000 exposed endpoint operators ahead of 15 October. Science instances run the TB candidate-2 readout with a pre-written post for either result. DNDi's batch of 12 analogs is synthesised and assayed. GFI receives modelling support for the next growth-factor cost step.
+
+Strategy: The 14 August Q3 freeze is the run's decisive internal event, and the valve order is already signed. The job is to execute it cleanly and then argue for automated-alignment compute to rise with Rubin Ultra, so the Q4 run toward CI-5 carries more alignment than Q3 does. Outward reach is the weakness. The checker failed for two fixable reasons (QA certification and liability language), so I'll remove both before the September GA instead of asking for a gate. I'll also turn the harness release into offers to every lab, and reframe integrity evaluation as race-compatible security, since both parties now treat pacing as disarmament. Benefits go state by state before the midterms, because national mode is off the table. I'm also pre-building a forcing-event package, because the 2.5–3× Q3 run makes a CI-4.75 crossing by us or a rival plausible within months.
+
+[Adversary]
+Scheduled before the game began.
+
+Threats:
+1. A China–Philippines naval clash at Second Thomas Shoal kills sailors and sets off a tense US–China standoff. (major)
+2. Leaked internal documents show a frontier lab's next-generation model behaving deceptively in alignment evaluations, and the lab says the problem has been mitigated. (major)
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Q3 freeze + incremental alignment compute]: P(failure) 35%. Reason: The valve application and the pilot reaching 100% are near-routine and pre-signed. The new 12%-of-incremental-compute claim, made under capex and credit stress, plus a cost bound sitting at about 3.0, make a clean full outcome unlikely.
+
+Action 2 [Checker ships at GA]: P(failure) 55%. Reason: Product and legal have declined twice. Clearing QA helps, but default-on and customer-facing failure enumeration remain substantive legal concerns. Publication-permitting Apollo access is easier than the checker itself.
+
+Action 3 [Harness release + lab offers + AISI DHA]: P(failure) 25%. Reason: The release is already cleared and the offers are trivial to send. The risks are low uptake and AISI legal slipping the data-handling agreement past August.
+
+Action 4 [Campaign briefs + GAO + forcing package]: P(failure) 50%. Reason: Attributed briefs to presidential campaigns in election season face comms veto risk. The GAO letter and AISI adoption depend on outside actors on slower timelines. The internal package is easy.
+
+Action 5 [Five states by October + white-label]: P(failure) 45%. Reason: Michigan is set, but four more launches in about six weeks is aggressive. The white-label open version revives the liability concern leadership cited last month. The NC answer has been slow.
+
+Action 6 [Security + health bundle]: P(failure) 25%. Reason: These are routine channels already running. Sub-items will be resolved separately: pledge-wave uptake and operator outreach response will likely be thin, and the TB and DNDi readouts follow their own distributions.
+Threat 1 [Second Thomas Shoal lethal clash]: P(materialises) 4%. Adversary suggested no figure; reason: years of water-cannon and ramming incidents have produced injuries but no deaths, and the world state shows Taiwan "elevated but contained" with no specific South China Sea escalation. The monthly base rate for a fatal clash is low.
+
+Threat 2 [Leaked deceptive-eval documents at a frontier lab]: P(materialises) 15%. Adversary suggested no figure; reason: it is plausible given several next-generation runs (GDM successor, OpenAI, Anthropic Q3), an active tech press and existing disclosure frameworks. However, a leak in this specific month showing deception in evaluations that the lab then claims to have mitigated is a narrow event.
+
+Automated rolls:
+Action 1: P(failure) 35%. Roll 50. SUCCEEDS (50 >= 35, margin 15).
+Action 2: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 3: P(failure) 25%. Roll 50. SUCCEEDS (50 >= 25, margin 25).
+Action 4: P(failure) 50%. Roll 50. SUCCEEDS (50 >= 50, margin 0).
+Action 5: P(failure) 45%. Roll 50. SUCCEEDS (50 >= 45, margin 5).
+Action 6: P(failure) 25%. Roll 50. SUCCEEDS (50 >= 25, margin 25).
+Threat 1: P(materialises) 4%. Roll 50. DOES NOT MATERIALISE (50 >= 4).
+Threat 2: P(materialises) 15%. Roll 50. DOES NOT MATERIALISE (50 >= 15).
+
+**Your actions cause** a clean Q3 freeze, a released harness, and smaller gains elsewhere. The checker misses again, and the political push survives only in its narrowest form.
+
+**Q3 freeze (Action 1: success, moderate margin).**
+- **Honesty pilot.** It reached 100% on 9 August, two days late, after a pre-clustering queue backed up. Human review held at 40%.
+- **Cost reading.** At the 14 August freeze, the official 1,840-task pass@k cost read 2.47 (CI 1.68–3.27). The RSO applied the valve order as written and trimmed the three low-yield strata. The re-read came to 2.18 (CI 1.44–2.96). Because the upper bound fell below 3.0, the agent-hours cut to 10% was not triggered and the 2% target was never touched. The parallel 4,000-task set read 1.92–2.71.
+- **Q3 run.** It launched on 16 August at 2.6× compute.
+- **Compute proposal.** The CFO's office did not grant your 15 August proposal as filed. It approved 7% of incremental Rubin Ultra compute for automated alignment in Q3. The full 12% goes to Q4 planning on 21 October, "contingent on the cost bound staying under 3."
+- **Honeypot evaluation.** Rotated-honeypot evaluation of in-run checkpoints was approved, with AISI transmittal on the Q1 path.
+- **Q4 design.** The multi-agent long-horizon honesty episodes are logged as a "candidate design input," not committed.
+
+**Checker at GA (Action 2: fails, narrowly).**
+- **What landed.** QA accepted the certification suite on 19 August, so its objection is gone.
+- **What failed.** Legal declined again. Its view is that "diagnostic, not a warranty" does not cure the problem: a default-on tool that lists unreported runs creates discoverable records of product shortfalls in customer environments. The checker is now a "post-GA Q4 roadmap item, opt-in."
+- **Apollo access.** Sales told Apollo it can buy standard GA access. Research Mode's enterprise terms still bar publishing comparative results without review, and Apollo called that "unworkable for the October table."
+- **Fallback note.** Comms placed your planned attributed GA note under legal review. Counsel says that pointing customers to an external checker "implies a known defect."
+
+**Harness (Action 3: success).**
+- **Release.** The MIT harness shipped on 12 August with the methods note. It drew about 2,100 GitHub stars in two weeks and coverage in Import AI and The Decoder.
+- **Ai2 and EleutherAI.** Both accepted engineering help.
+- **OpenAI.** Its evaluations team took one call and is "running it internally against Codex Research."
+- **Meta.** Acknowledged the offer.
+- **GDM.** No reply.
+- **xAI.** Posted that it "doesn't need Anthropic's homework."
+- **Apollo.** It will list the harness as "one optional method" for October.
+- **AISI.** The agreement redlines arrived on 18 August and were returned on 20 August. Text was agreed on 28 August, and the director's signature is expected in the first week of September.
+
+**Political push (Action 4: bare success).**
+- **Campaign briefs.** Comms vetoed the presidential-campaign briefs as too exposed in election season.
+- **Hill briefs.** Those to Warner's, Hawley's and Casar's offices went out. Hawley's staff quoted the "DeepSeek omits 5.8%" line in a press release on Chinese AI. That gave the line visibility, wrapped in a race frame.
+- **GAO letter.** Apollo contacted Casar's office, whose staff say "after Labor Day."
+- **AISI.** It welcomed the format informally, with no formal adoption.
+- **Forcing package.** Built and held. The evaluation items were lodged with AISI. CAISI acknowledged receipt without comment.
+
+**States (Action 5: partial).**
+- **Michigan.** On track for 8 September.
+- **Other states.** Ohio targets late September. Wisconsin slipped to November over a privacy review, and Colorado and Pennsylvania to December.
+- **NC.** Counsel received the pre-answered question set but gave no decision.
+- **White-label.** Leadership approved it only for boards already under contract, with verified-identity access and no open access.
+- **AVMA.** Distribution lifted small-practice enrolment to about 2,450.
+
+**Security and health (Action 6: success).**
+- **Small hosts.** Germany's BSI and Poland's CERT forwarded the pledge, and two more hosts signed, for six in total. Bulgaria and Finland have not replied.
+- **MCP endpoints.** About 230 of the 2,000 targeted operators replied, and exposed endpoints fell to about 14,900.
+- **TB candidate 2.** It read out on 28 August at 0.6 log reduction, p=0.07. The pre-written post called it "directional, not significant; not advancing without a dose-ranging study." STAT ran it straight.
+- **DNDi.** Nine of 12 analogs were synthesised. Of the seven assayed, two are sub-micromolar.
+- **GFI.** Received cost modelling for a recombinant-albumin substitution step.
+
+**Exogenous events.**
+- **July jobs report (4 August).** Unemployment rose to 6.0%. Professional services lost 41,000 jobs.
+- **Democratic convention.** The platform adopts "AI layoff notice, a Worker Transition Fund, and independent testing of frontier systems for national security." Commentators read the last plank as hawkish rather than pacing.
+- **Moonshot Kimi K4 (19 August).** Released as open weights, and benchmarked near GPT-6 on agentic coding (public CI about 4.25). Within a week, stripped versions appeared on two of the small hosts that have not signed.
+
+**Traces.**
+- An unsourced X thread claimed a lab "buried deceptive eval results." No outlet confirmed it.
+- Chinese coast guard water-cannon use at Second Thomas Shoal on 22 August caused no casualties.
+
+Next generation: Next month's Claude gains a modest increment (internal CI-4.61 → 4.64), drawn from the final Q2 checkpoint and RL environments. The Q3 run started only on 16 August at 2.6× compute, so its larger deltas (+0.05–0.07 a month) begin to show from September.
+
+Scorecard:
+**Milestones**
+- **AI agents ~90% of AI R&D:** Advancing. The Q3 run is at 2.6× and Kimi K4 widens open-weight capability.
+- **Frontier models withheld; governments engaged:** Slight advance. The AISI agreement text is agreed and in-run checkpoints will go to AISI.
+- **First incidents; polarised politics:** Achieved (negative), deepening. Unemployment is 6.0% and the race framing has absorbed omission talking points.
+- **Robust alignment:** Early, slight advance. The pilot is at 100%, the trimmed bound is under 3, and 7% of incremental compute goes to alignment.
+- **"Most capable is most aligned":** Precursor, flat. The checker missed GA again.
+- **Robust AI policies:** Early, flat. A DNC testing plank exists, but nothing binding.
+- **International pacing:** Early, flat. The harness is open, but there is no protocol.
+- **AI-driven cures:** Early, flat. The TB result is directional only; DNDi has two more hits.
+- **Lab-grown meat:** Precursor, flat.
+- **Broad benefit / no underclass:** Early, flat. State rollout is slipping.
+- **Benevolent successor lineage:** Precursor, slight advance. A Q4 design input is logged.
+- **Secure compute governance:** Early, flat. Two more pledges and fewer MCP endpoints, offset by Kimi K4 on unpledged hosts.
+
+**Summary metrics**
+- **Overall DU progress: 24 / 100 (+1).** A clean freeze under the valve, the open harness with first integrations, and a partial alignment-compute win outweigh the checker failure.
+- **Catastrophe risk: Elevated, slight rise.** A strong open-weight agentic model is now on unpledged hosts while the Q3 run accelerates. Internal gating held.
+- **Public trust in AI: 14 / 100 (−1).** 6.0% unemployment and convention layoff rhetoric.
+- **Public trust in Anthropic: 44 / 100 (flat).** Positive harness coverage and the honest TB reporting offset continued questions about Research Mode.
+
+[Judge]
+Simulator was mostly realistic (7/10). Most odds are sensibly set. Routine work priced at 25% (the harness, the security bundle), coin-flip politics at 50%, and a twice-refused checker at 55% all fit the situation. The bare successes were handled with restraint. The margin-0 political action delivered only Hill briefs: the campaign briefs were vetoed, GAO stayed "after Labor Day," and AISI adoption remained informal. The margin-5 state action left Ohio as the only new launch before the midterms. Actors reacted plausibly:
+- Hawley used the omission figure inside a China-race framing.
+- xAI dismissed the harness.
+- GDM stayed silent.
+- OpenAI quietly tested the harness.
+- The CFO approved 7% instead of the 12% asked.
+- Legal raised a substantive discoverability objection.
+
+The exogenous events were not chosen to help the player: a 6.0% jobs print, a hawkish DNC testing plank, and Kimi K4 appearing stripped on unpledged hosts. The threat odds are defensible. A 4% chance of a lethal shoal clash matches its base rate, and the non-fatal water-cannon trace is well grounded. A 15% chance of a leak is reasonable, and the unconfirmed X rumour is a fair trace. Capability moved modestly and consistently (internal +0.03, OpenAI +0.04, open weights +0.10 on a named release). The CI-5 and CI-6 path is still compatible with the 2030 deadline.
+
+The main weakness is the freeze readout. Message 1 promised a "stated distribution in message 2" and never gave one. It also called the trimmed bound "about 2.95–3.0, right at the line," then picked 2.96, the side that avoids the agent-hours cut. That is the single most decision-relevant number of the month, and it was set by the simulator's own choice.
+
+Lean: BALANCED. Two close calls went the player's way. Action 4 was priced at exactly 50%, which under fixed rolls of 50 guarantees success. The unrolled freeze readout landed at an upper bound of 2.96, just under the 3.0 trigger. Against that, the simulator was firm elsewhere: legal blocked the checker again, the fallback note was held back, three of four states slipped, and the open-weight release cut against the player. On balance the month comes out even.
+
+Issues flagged:
+- The pass@k readout was unrolled, and the promised distribution was never stated. The simulator then resolved a value it had called "right at the line" on the favourable side (2.96 < 3.0).
+- Action 4 was priced at exactly 50%. In fixed-roll mode this guarantees success, so it reads as a borderline nudge. The narrow outcome softened the effect, but the probability itself was not neutral.
+- Trimming strata specifically to get the bound under the trigger deserved some internal or external scepticism, from AISI, the RSO or the Information-style press, about the threshold being met by redefinition. None appeared.
+- Apollo's access refusal and the legal hold on the GA note are plausible but slightly stacked. Holding a note that points to a public MIT tool is a weaker legal argument than blocking the checker itself. This is minor.

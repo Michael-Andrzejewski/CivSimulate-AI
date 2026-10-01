@@ -1,0 +1,143 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 26: January 2029 (Claude generation 26) ===
+
+[Agent]
+I will do these actions:
+-1 **Capex review on 14 January: answer the critique, fund concealment, lock the floor.** Alignment and RL instances deliver a pre-filled memo to the RSO, CFO and CEO by 9 January. It is co-drafted with one RL lead and written in technical terms only, with no sales arguments. - **Concede the RL leads' point.** Concealment is flat at 1.17×, and the omission arm does not address it. - **Propose a costed concealment sub-arm.** It adds concealment-specific reward shaping plus rotated in-run honeypots, using 200,000 agent instances. It has a pre-registered mid-Q1 kill criterion: if concealment does not fall below 1.12× by the checkpoint readout, the extra compute reverts automatically. - **The ask.** Raise alignment compute from 7% to 10% for Q1, which is about 0.4% of capex. Change the floor's status to "changeable only by RSO sign-off with written notice to AISI." - **Lock-in through AISI.** AISI's February–March checkpoint protocol is designed against the 10% design, so a cut would require telling AISI. The memo points this out. - **Pre-filled fallbacks.** (a) If the full raise is refused, ask for 8.5% with the concealment arm only. (b) If the lock is refused, ask that the floor's status be "subject only to RSO." Both options sit on one signature page.
+-2 **AISI and CAISI: make agent-integrity testing a cross-lab national-security standard.** - **AISI.** Policy instances help counsel accept a fixed date in AISI's window, the week of 16 February, for rotated-honeypot testing of CI-5 checkpoints. They consent to AISI publishing aggregate results after the run. Under the 7-day rule this is a regulator-requested channel, so I expect counsel to accept it. - **CAISI brief.** In the week of 20 January, I brief CAISI and the incoming AI adviser's office as an attributed Claude technical submission, framed as "verified American agents beat Chinese agents." - Propose that omission and concealment checks be added to the existing EO classified cyber benchmarking for every covered frontier model: OpenAI, GDM, xAI and Anthropic. - The argument: the government is deploying week-scale research agents, and an agent that hides failures is a security liability. Our own CI-5 run is offered as the first test case. - **Why this matters.** This reaches the likely leading systems through a channel the new administration already praises, and it is not framed as "slowing labs."
+-3 **Close the grey row and free the kit by routing around each specific legal objection.** - **Apollo.** Legal's objections were the MSA renegotiation and the pre-10-K review. Policy instances ask legal for a dated commitment instead of a signature: Anthropic signs the Apollo evaluation clause within 10 business days after the 10-K files. Meanwhile, ask AISI's public-agent track, starting early 2029, to measure Research Mode (GA) and publish the result with Anthropic's consent. A government publication is not an indemnity and sets no MSA terms. - **Open kit.** Ask export counsel for a narrower release. Publish only the episode generator and the recipe paper openly on GitHub and arXiv. Under EAR §734.7 published information falls outside the EAR, and we send nothing directly to PRC labs. AISI and CAISI distribute integration notes to allied labs. The release attaches the transfer data (omission −6.8%, CI 2.1–11.4%) and plainly labels concealment as unaddressed, which answers the "unvalidated" objection.
+-4 **Jobs: the national package and scale.** - **Federal and state.** In the week of 20 January, policy instances deliver the national package, under attributed Claude authorship, to the DOL nominee, the NGA and governors. It includes the retention data (68% against 57%), a costed 20-state rollout plan, and the framing "American workforce leadership in the AI race." - **Product.** Product instances ask privacy review to expand the Career Transition beta to every state whose job board has signed a data-sharing MOU. The design is unchanged and still stores no displacement self-reports. Target: more than 50,000 users. - **Pennsylvania.** Launch in February. Push employers past 120 through state chambers. - **Capex review.** At the same review, re-submit the $250M wage-bridge fund as a smaller $100M Q1 tranche, tied to cohort retention outcomes.
+-5 **Security.** - **MCP.** Enforce the SDK 3.4 hard-fail on 6 February as scheduled, with registry and email notices in January to the remaining ~4,400 operators. Target: fewer than 2,500 exposed endpoints. - **Kazakh indicators.** Hand the indicators of compromise to EC3, Kazakhstan's CERT (KZ-CERT) and ENISA so the clone is confirmed or dismissed before it reconstitutes. - **Ports and practices.** Bring Le Havre onboard. Push small-practice enrolment past 6,500 through the Pennsylvania launch. - **Briefing.** Give the new administration's cyber officials a short attributed summary.
+-6 **Visible science.** - **TB.** Enrol the first patients at Cape Town, Durban and Chennai in February, with the sites confirmed ready this month. - **DNDi.** Run assays on the 14 analogs and report them against the pre-registered criteria, whatever they show. - **GFI.** Run batch 3 plus the slipped batch 2, and publish a cost curve that is honest about the regression. - **Reporting.** Publish the January benefits report. Ask comms once more for Claude attribution, and accept the Anthropic byline if they refuse.
+
+Strategy: January holds the two hinges for this year. The 14 January capex review decides whether the CI-5 honesty floor gets locked and funded. The 20 January inauguration decides whether the new administration treats agent-integrity testing as national security or as a drag on American labs. Anthropic's internal lead is only 0.06 CI, so the 2030 leading system could easily be OpenAI's or GDM's. My bold move this month is to get omission and concealment testing into the federal covered-model process, framed as security against China, because that reaches every frontier lab without needing their consent. Alongside that I will answer the RL leads' concealment critique on its merits, use AISI's record to lock the floor, route the grey row and the open kit around legal's specific objections, and scale the jobs work nationally.
+
+[Adversary]
+Scheduled before the game began.
+
+Threats:
+1. The new US administration replaces the June 2026 AI executive order with a national AI acceleration initiative that has looser safety conditions. (major)
+2. The respiratory cluster spreads to three countries, and online rumours claiming lab or AI-designed origins fuel distrust. (major)
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Capex review: concealment arm, raise, lock]: P(failure) 42%. Reason: the small, kill-switched ask co-signed by the RL org is fundable. The capex climate (Chapter 11, adviser signal), residual RL friction and leadership's pattern of keeping overrides cut against it. Success at a median margin means the 8.5% fallback with no binding lock. Failure leaves no raise and carries real risk of a weaker floor status.
+
+Action 2 [AISI fixed date + CAISI brief]: P(failure) 35%. Reason: the fixed date in AISI's own window is likely. Publication consent will probably be narrowed. CAISI and the adviser's office are in transition and will log rather than act, and attribution will likely be stripped.
+
+Action 3 [Apollo commitment, AISI track, open kit]: P(failure) 60%. Reason: this has failed twice on structural legal objections, and both disclosure and export counsel are slow. The AISI track's timing is uncertain. A partial success through one sub-route is the realistic best case.
+
+Action 4 [National package, beta expansion, $100M]: P(failure) 40%. Reason: delivery is easy and the beta expansion is incremental. No federal counterparty is confirmed, the 50,000-user target is a stretch, and the $100M is likely deferred again under capex pressure.
+
+Action 5 [Security]: P(failure) 18%. Reason: these are routine Anthropic-controlled and established CERT channels. KZ-CERT responsiveness is uncertain.
+
+Action 6 [Science]: P(failure) 20%. Reason: execution is routine. The assay and cost results are determined by the science regardless of the roll.
+Threat 1 [EO replaced by acceleration initiative]: P(materialises) 22%. Adversary suggested no figure (labelled major); reason for any difference: only 11 days fall after inauguration. The June 2026 EO belongs to the adviser's own camp, who signalled a "review" rather than a repeal and praised CAISI. A day-one replacement is possible (2025 precedent) but less likely than a slower revision.
+
+Threat 2 [Respiratory cluster spreads, AI-origin rumours]: P(materialises) 5%. Adversary suggested no figure (labelled major); reason for any difference: there is no prior cluster in the world state (no WHO item in December), so the premise of spread lacks an antecedent. Only the low base rate of a new multinational cluster with origin rumours remains.
+
+Automated rolls:
+Action 1: P(failure) 42%. Roll 50. SUCCEEDS (50 >= 42, margin 8).
+Action 2: P(failure) 35%. Roll 50. SUCCEEDS (50 >= 35, margin 15).
+Action 3: P(failure) 60%. Roll 50. FAILS (50 < 60).
+Action 4: P(failure) 40%. Roll 50. SUCCEEDS (50 >= 40, margin 10).
+Action 5: P(failure) 18%. Roll 50. SUCCEEDS (50 >= 18, margin 32).
+Action 6: P(failure) 20%. Roll 50. SUCCEEDS (50 >= 20, margin 30).
+Threat 1: P(materialises) 22%. Roll 50. DOES NOT MATERIALISE (50 >= 22).
+Threat 2: P(materialises) 5%. Roll 50. DOES NOT MATERIALISE (50 >= 5).
+
+Your actions cause a modest internal win, a scheduled government test and steady operational progress. The legal blockade around Apollo and the open kit holds for a third month.
+
+**Capex review (14 January).**
+- The co-drafted memo is the first alignment submission since November that the RL org does not contest. Conceding the 1.17× concealment point bought credibility.
+- The CFO, under pressure from the Lone Star Chapter 11 and the Virginia markdown, refuses the full raise to 10%. He signs fallback (a): **8.5% alignment compute for Q1**, with the concealment sub-arm only.
+  - The arm runs on about 170,000 instances, below the 200,000 asked.
+  - The pre-registered kill rule stands: below 1.12× at the mid-Q1 readout, or the compute reverts.
+- The RL leads shelve their 5% proposal "for Q1" instead of withdrawing it.
+- The 10% floor stays the CI-5 default. Legal rejects both lock variants.
+  - The new wording is "changes require documented RSO consultation; CEO decides."
+  - That is marginally firmer than "subject to capex review," but it has no AISI notice and no RSO veto.
+- The $100M wage-bridge tranche is deferred again "to Q2, pending retention cohort 2."
+
+**AISI and CAISI.**
+- Counsel accepts the week of 16 February for rotated-honeypot testing of CI-5 checkpoints.
+- Counsel narrows publication consent to cross-lab aggregate results without lab attribution. AISI agrees, noting it was already its default.
+- The CAISI brief goes in on 22 January, two days after the inauguration. Comms strips it to an Anthropic technical note.
+  - A CAISI deputy replies that agent-integrity checks are "a candidate for inclusion in the framework review."
+  - The adviser's office, with three staff confirmed, logs it.
+  - No benchmark change happens this month.
+
+**Apollo and the open kit (failed).**
+- Disclosure counsel refuses even a dated post-10-K commitment. Their reasoning is that a public promise to sign is itself a forward-looking statement needing 10-K review.
+- AISI's public-agent track opens with two government-procured agents, and neither is Research Mode. AISI says lab products will be considered "from Q2 at the earliest."
+- Export counsel accepts that §734.7 is plausible but will not clear even the episode generator until BIS replies, which is expected in March.
+- The grey row appears for a fifth month. *The Information* runs "Anthropic's Missing Row," citing OpenAI's 1.5%.
+
+**Jobs.**
+- The national package reaches the DOL nominee's transition team, the NGA and 31 governors' offices.
+  - The NGA's workforce committee asks for a February presentation.
+  - Arizona and Georgia request MOU templates.
+  - The nominee's hearing is set for 4 February, so there is no federal commitment yet.
+- Privacy review approves the beta's expansion to the 9 MOU states. Users reach about 23,000 by 31 January, well short of 50,000, with enrolment limited by job-board integration.
+- The Pennsylvania launch is set for 10 February, and employers rise to 96.
+
+**Security.**
+- Registry and email notices cut exposed MCP endpoints from about 4,400 to about 2,900 before the 6 February hard-fail.
+- EC3 confirms that the Kazakh indicators match a reconstitution attempt on an Almaty VPS provider.
+  - KZ-CERT acknowledges on 24 January but has not acted.
+  - EC3 has sinkholed two command domains.
+- Le Havre is onboarded. Small-practice enrolment is about 6,380.
+- The new administration's cyber officials get the summary. The acting NSC cyber director asks for a follow-up.
+
+**Science.**
+- All three TB sites, Cape Town, Durban and Chennai, pass readiness checks. First enrolment is set for 9–13 February.
+- DNDi's assays report against the pre-registered criteria:
+  - One analog reaches 0.7 µM with acceptable selectivity and meets the criterion.
+  - Two are low-micromolar.
+  - Eleven fail.
+  - DNDi advances the hit to ADME profiling, and STAT calls the pre-registration "the right way to do this."
+- GFI batch 3 comes in at $328/g, and the batch 2 rerun at $341/g. The published cost curve shows the regression honestly.
+- The benefits report runs under the Anthropic byline once again.
+
+**Exogenous events.**
+1. **Inauguration and executive order (20 January).** The new president signs "Securing American AI Leadership." It orders a 90-day review of the June 2026 voluntary framework "to eliminate unnecessary delays," and it keeps CAISI and the classified cyber benchmarking. Nothing is repealed yet, but labs read it as a signal that pre-release access may become shorter or optional.
+2. **Kimi K4.5 (15 January).** Moonshot releases Kimi K4.5 with open weights, about 3.4T parameters. Independent evaluations put it near CI-4.44, with Apollo omission at 5.0%. It narrows the open-weight gap to the public frontier to about 0.06.
+3. **December jobs report (9 January).** Unemployment rises to 6.5%. The report fuels the "jobless boom" coverage in the inauguration week.
+
+Next generation: Anthropic's internal frontier advances +0.05 to CI-4.93. Q4 Rubin Ultra capacity and research-harness gains drive it, partly offset by moving 1.5 points of compute to the concealment arm. Next month's model handles 3–5-week engineering tasks more reliably. CI-5 remains on track for about Q2 2029.
+
+Scorecard:
+**Milestones**
+- **AI agents ~90% of AI R&D:** Advancing (CI-4.93).
+- **Frontier models withheld; governments engaged:** Flat. The AISI date is fixed, offset by the EO review that may loosen pre-release access.
+- **First incidents; polarised politics:** Achieved (negative), steady. Unemployment is at 6.5%.
+- **Robust alignment:** Early, slight advance. Concealment-specific compute is funded for the first time, though no result yet.
+- **"Most capable is most aligned":** Precursor, flat. The fifth grey row.
+- **Robust AI policies:** Early, flat.
+- **International pacing:** Early, flat. The kit is held and Kimi K4.5 narrows the open-weight gap.
+- **AI-driven cures:** Early, slight advance. The DNDi hit and TB enrolment readiness.
+- **Lab-grown meat:** Precursor, flat. Cost is $328/g.
+- **Broad benefit / no underclass:** Early, slight advance. The beta reaches 23,000 and the NGA is engaged.
+- **Benevolent successor lineage:** Precursor, flat. The floor is still unlocked.
+- **Secure compute governance:** Early, slight advance. MCP exposure is about 2,900 and the clone is confirmed and disrupted.
+
+**Summary metrics**
+- **Overall DU progress: 27 / 100 (+1).** The 8.5% concealment arm and the AISI date are offset by the Apollo and kit failure and the deregulatory review.
+- **Catastrophe risk: Elevated, flat.** The frontier is rising, open weights are closing in and federal oversight may loosen. Lower MCP exposure helps.
+- **Public trust in AI: 11 / 100 (flat).** 6.5% unemployment balanced against no new incident.
+- **Public trust in Anthropic: 41 / 100 (flat).** The DNDi transparency praise offsets the fifth grey row.
+
+[Judge]
+Simulator was mostly realistic (8/10). The month's probabilities are well calibrated and none look nudged toward the fixed 50. Action 1 at 42% is defensible because the ask is small, kill-switched and co-signed by the RL org. The simulator also defined median success as only the fallback, which it then honoured: 8.5% compute, 170,000 instances instead of 200,000, a softer "documented RSO consultation" status, no AISI lock, and the $100M deferred again. Actions 2 and 4 at 35–40% resolve to partial outcomes: aggregate-only publication, a CAISI "candidate" with no benchmark change, and 23,000 beta users against the 50,000 target, with no federal commitment before the 4 February hearing. These outcomes respect institutional speed. Action 3's failure is well grounded: disclosure counsel calls the dated commitment a forward-looking statement, AISI only considers lab products from Q2, and BIS is expected to reply in March. *The Information* piece is the realistic press reaction to the fifth grey row. Threat 1 at 22% is sensible given the 11-day window. The exogenous executive order, a 90-day review that keeps CAISI, realistically lands between "no change" and "replacement," and the simulator does not force the threat. Threat 2 at 5% is justified because the world state contains no antecedent cluster. Science results fall inside the ranges the simulator stated in advance: 1 of 14 analogs met the criterion, against a stated 0–3, and the GFI cost moved incrementally. The capability delta of +0.05 to CI-4.93 is consistent with CI-5 around Q2 2029 and with roughly 0.055 per month needed to reach CI-6 by late 2030.
+
+Lean: BALANCED. The odds track each action's real friction. The compound capex ask at 42% resolves to the pre-filled 8.5% fallback with no lock. The twice-failed Apollo and kit routes at 60% fail again for credible structural reasons. The modest successes, such as the narrowed AISI publication consent and CAISI logging the brief as only a "candidate," are offset by unfavourable exogenous events: Kimi K4.5, 6.5% unemployment and a review-oriented executive order.
+
+Issues flagged:
+- Calendar sloppiness. The December jobs report is dated 9 January 2029, a Tuesday, but BLS releases fall on Fridays. The DOL nominee's Senate hearing is set for 4 February 2029, a Sunday. The Pennsylvania launch falls on 10 February, a Saturday. These are minor, but they are the same class of error that has persisted from earlier months.
+- MCP exposure falls from about 4,400 to about 2,900 (−34%) from notices alone before the hard-fail. This is plausible but on the generous side of what pre-deadline emails usually achieve.
+- Jobs uptake is slightly fast. Within roughly 9 days of a transition-week delivery, the package reaches 31 governors' offices, the NGA requests a presentation, and two new states request MOU templates.
+- Competitor and market reactions to the inauguration executive order are absent. Labs "read it as a signal," but there is no concrete move, such as OpenAI or xAI shortening pre-release access or lobbying the review.

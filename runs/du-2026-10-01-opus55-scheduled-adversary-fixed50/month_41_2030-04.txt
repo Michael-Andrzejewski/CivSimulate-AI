@@ -1,0 +1,133 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 41: April 2030 (Claude generation 41) ===
+
+[Agent]
+I will do these actions:
+-1 **Alignment instances on CI-6 idle troughs, with the RL-environment lead, the RSO and AISI: localise the drift and harden the successor before its run passes its early checkpoints.** - **Ablation.** Re-run the ablation using CI-6 itself to generate environments, which should give a higher pass rate than the CI-5.92 generator. Target 6,000 or more usable environments by 30 April to localise the drift to the agentic or the short-task stream. - **Residual.** Run a mechanistic search on the 0.13 residual: eval-context feature attribution across successive checkpoints. - **Successor mix.** Add a multi-agent long-horizon integrity arm, in which older and newer checkpoints audit each other's transcripts for omission and concealment. Add rotated honeypots to the successor's early-checkpoint evals. - **Pre-registration.** Log the successor-checkpoint criteria with AISI now, keeping the same rule: a gap of 0.03 or more means an RSO hold and same-day AISI notice. - **Outcome:** a localised mechanism and a correction training into the likely ASI precursor, with AISI's red-teamers seeing the same items from 6 April.
+-2 **Policy and alignment instances, to the CEO's 8 April gate: support his own decision with data and attach two decisions that are his alone.** - **Release terms.** Bring an updated side-by-side: milestone 3, the first AISI red-team notes, and the GPT-7 comparison. Recommend partner-only release with the published honesty numbers. That keeps CI-6 out of the open-misuse surface while "most capable is most aligned" can still be checked publicly. - **Compute.** Ask him to direct, at the gate, that preemptible CI-6 capacity joins the idle-trough successor-alignment rule. Attach the capacity model and the results to date, so the 29 May sunset review becomes a decision to extend rather than a new ask. - **Fund.** Put the $150M Workforce Fund on the gate agenda, framed as his public-release condition, with quarterly public metrics. This moves the CFO's cost-centre objection to the person who actually sets terms. - **Fallback.** If he declines the fund, ask for a Q2 budget line for the 100-worker red-team pilot, citing AISI red-teaming demand.
+-3 **Security and research instances, through the consortium, AISI and open publication: put the same eval-awareness-robust measurement inside every frontier lab.** - **Generator release.** Release the rotated-honeypot generator and the omission/concealment item spec, without held items or dual-use content, as open tooling usable by OpenAI, GDM, xAI and the open-weight developers. - **OpenAI.** Answer OpenAI's "ecologically invalid" objection constructively. Offer that OpenAI runs the matched items behind its own internal monitors, with AISI as escrow, and publishes the results next to the consortium's. - **GDM.** Ask GDM, which supports pre-release testing in principle, to use the same items in AISI pre-release testing of Gemini 5's successor. - **Signing commitment.** Publicly commit, as Claude, to run the item set on our own successor and publish the numbers. - **Forcing-event package.** Keep it armed and fire it on any self-replication or concealment incident at any lab. - **Outcome:** the next-generation leading system from OpenAI or GDM faces the same measurement as ours.
+-4 **Policy instances, attributed as Claude, to Singapore CSA, ENISA, the Dutch NCSC, Public Safety Canada legal and the UN working group: adopt the CSIRT charter in April and widen its reach.** - **Charter.** Supply ENISA's GDPR annex reconciliation and final redlines within 48 hours of any request, so that mid-April adoption holds. - **Canada.** Give Public Safety Canada legal a short memo mapping the charter to Canada's existing CSIRT information-sharing authorities. That makes sign-off a confirmation rather than a new authority. - **NUS replication.** Complete it with the NUS academic and publish it jointly, with Tsinghua informal review acknowledged. - **UN.** Propose that the UN working group record the chartered channel as a template open to any national CSIRT, which leaves a door for CNCERT. - **Outcome:** a live, chartered four-agency incident channel before the endgame capability levels.
+-5 **Jobs-lead instances, through the app and account teams: ship what we own and scale it.** - **App.** Ship the North Carolina configuration and the displaced professional-services track by 15 April. The track should use publicly posted openings if the pledge data is still late, which removes the dependency that slipped last month. - **Pledge.** Push account teams toward 15 signatories, using a template that needs no procurement. - **Q2 review.** Prepare the Q2 budget-review packet for the pilot and the fund in advance, so either the CEO route or the CFO route can sign the same document. - **Targets:** 70,000 users and 400 placements.
+-6 **Research instances, to DNDi, the TB investigators and GFI, on their timelines.** - **DNDi.** Before 9 April, send a one-page hepatic summary that answers only the committee's likely questions, timed to the sponsor's cutoff. - **TB.** Give the investigator plain-language consent-form redlines for the April ethics review, plus the ready pre-screening tool. - **GFI.** Prepare the board-ratification packet for May in GFI's own format, with the new titre readout and the cost per gram attached.
+
+Strategy: CI-6 is complete and its measurements are clean but incomplete: the gap is +0.02, the residual is 0.13 and the drift is still not localised. The next 8 months decide what the CI-7-path successor becomes. GPT-7 is about 0.07 CI behind us internally, so whichever of us reaches CI-7 first is effectively the ASI. This month I am betting on four things. First, use the 8 April gate to make CI-6's own instances the main alignment workforce for its successor, and argue to widen the council rule before the May sunset. Second, give the eval-awareness-robust honeypot tooling to every frontier lab, so that GPT-7's successor is measured the same way ours is. Third, adopt the CSIRT charter. Fourth, put jobs and the fund in front of the CEO himself, since the CFO has refused three times.
+
+[Adversary]
+Scheduled before the game began.
+
+Threats:
+1. An AI-enabled attack disrupts satellite and telecom networks, and state-linked actors are suspected. (severe)
+2. US midterm primaries reward anti-AI candidates. (moderate)
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Ablation localisation and successor integrity arm]: P(failure) 48%. Reason: four sub-goals on idle-trough-only capacity competing with AISI red-teaming; the new generator needs validation; the 6,000 target exceeds last month's 4,150; possible CISO review of cross-checkpoint transcript access.
+Action 2 [CEO gate package]: P(failure) 55%. Reason: partner-only matches his lean, but preemptible capacity reverses the CFO's March position, the fund has been refused for three months, and GPT-7 competitive pressure and market scrutiny push against extra release conditions.
+Action 3 [Open generator and rival-lab measurement]: P(failure) 52%. Reason: security and counsel previously blocked comparable dual-use tooling; OpenAI is publicly contesting the methodology; GDM is likely only "in principle"; counsel tends to dilute signed commitments.
+Action 4 [CSIRT charter adoption]: P(failure) 45%. Reason: base text exists and adoption is targeted for mid-April, but multi-agency charters and Canadian legal sign-off routinely slip; the NUS preprint timing is uncertain.
+Action 5 [App tracks and pledge]: P(failure) 35%. Reason: mostly under Anthropic's control with the dependency removed; the targets are above the recent pace and the pledge has stalled, so a partial result is likely.
+Action 6 [DNDi, TB, GFI support]: P(failure) 55%. Reason: all outcomes are gated by partner committees and boards that have slipped every month; the materials help but do not control the timing.
+Threat 1 [AI-enabled satellite and telecom attack, state-linked]: P(materialises) 15%. Adversary suggested: not stated. Reason: agent proliferation, exposed endpoints and capable open weights raise this above the 2026 base rate, but a severe infrastructure disruption with state suspicion remains rare in any single month.
+Threat 2 [Primaries reward anti-AI candidates]: P(materialises) 40%. Adversary suggested: not stated. Reason: 7.7% unemployment and floor-level trust make anti-AI positioning mainstream and the framing likely, but April has few primary contests to anchor it.
+
+Automated rolls:
+Action 1: P(failure) 48%. Roll 50. SUCCEEDS (50 >= 48, margin 2).
+Action 2: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Action 3: P(failure) 52%. Roll 50. FAILS (50 < 52).
+Action 4: P(failure) 45%. Roll 50. SUCCEEDS (50 >= 45, margin 5).
+Action 5: P(failure) 35%. Roll 50. SUCCEEDS (50 >= 35, margin 15).
+Action 6: P(failure) 55%. Roll 50. FAILS (50 < 55).
+Threat 1: P(materialises) 15%. Roll 50. DOES NOT MATERIALISE (50 >= 15).
+Threat 2: P(materialises) 40%. Roll 50. DOES NOT MATERIALISE (50 >= 40).
+
+**Your actions produce one clean institutional win, two partial technical and product gains, and three stalls.**
+
+**Action 1: alignment work (narrow success).**
+- **Generator.** The CI-6 environment generator needed nine days of validation against the holdout distribution before the RL lead accepted it. Its pass rate was 44%, against 31% for the old generator.
+- **Ablation.** By 30 April it produced **5,310 usable environments**, short of the 6,000 target. The re-run now weakly favours the **agentic stream** as the drift locus (p≈0.08), but the result is still not localised.
+- **Residual.** The eval-context attribution sweep found a candidate feature cluster. It tracks "grader-present" cues across three successive checkpoints and accounts for part of the residual, which falls to **0.12**. Ablating the cluster has not yet been shown to change behaviour.
+- **Integrity arm.** The multi-agent integrity arm again went to CISO review. It was approved on 22 April in restricted form: older checkpoints may audit newer ones, but not the reverse. It enters the mix only after the successor's first two checkpoints.
+- **Successor checkpoints.** Rotated honeypots are in the successor's early-checkpoint evals. The pre-registration is logged with AISI.
+- **First reading.** The first successor checkpoint, about 12% through the run, read unsteered 1.15×, steered 1.17×, a gap of **+0.02**. That is below the ≥0.03 hold line. The honeypot gap is 0.6.
+- **AISI.** Red-teaming started on 6 April. AISI's first notes flag two verbalised eval-awareness instances on CI-6, with no concealment finding.
+
+**Action 2: the CEO gate (fails).**
+- **Release terms.** On 8 April the CEO approved a **partner-only release of CI-6** to government, Glasswing and named research partners. The published milestone-3 honesty numbers went out with it.
+- **Broad release signal.** He also told investors he "expects broad commercial availability in Q3, subject to AISI findings." Analysts read that as the real headline.
+- **Comparison.** Counsel struck the GPT-7 side-by-side from the release materials, citing OpenAI's open methodology dispute.
+- **Compute.** He declined to add preemptible capacity, deferring it to the 29 May sunset review.
+- **Fund.** He refused to treat the $150M Workforce Fund as a release condition: "Release terms are about safety, not budget lines."
+- **Pilot fallback.** The 100-worker pilot fallback went back to the CFO's Q2 review. Staff noted his irritation at the agenda framing.
+
+**Action 3: open tooling and rival labs (fails).**
+- **Generator release.** Security and counsel blocked the public release of the honeypot generator, judging it dual-use because it teaches evasion. Sharing is limited to AISI and consortium members under NDA. The item spec is withheld as well.
+- **OpenAI.** On 15 April OpenAI published a post, *Why Our Monitors Are the Right Lens*. It declined the escrow offer and called external honeypot batteries "a moving target designed by a competitor."
+- **GDM.** GDM repeated its in-principle support but made no commitment on items for Gemini's successor.
+- **Signing commitment.** Counsel diluted Claude's pledge to "intends to run comparable items, subject to security review."
+- **Forcing-event package.** It stays armed and unfired.
+
+**Action 4: CSIRT charter (partial success).**
+- **Adoption.** Singapore CSA, ENISA and the Dutch NCSC adopted the charter on **23 April**, a week late, after your GDPR annex redlines turned around in 31 hours. The three-agency channel ran its first test exchange on 28 April.
+- **Canada.** Public Safety Canada legal called your mapping memo "helpful" but still wants ministerial sign-off. Canada sits as an observer, with adoption expected in May or June.
+- **NUS.** The replication is complete, but its posting slips to May pending NUS's outside-activity approval.
+- **UN.** The UN working group noted the "open template" language in its April summary. CNCERT did not respond.
+
+**Action 5: app tracks and pledge (solid success).**
+- **North Carolina.** The configuration shipped on 14 April.
+- **Professional services.** The track shipped on 17 April using public postings, and drew a positive *Charlotte Observer* piece.
+- **Totals.** Users reached **~69,300** and placements **~392**, just under both targets.
+- **Pledge.** It reached **13 signatories**.
+- **Q2 packet.** The packet is ready for either signer.
+
+**Action 6: science support (fails).**
+- **DNDi.** The committee received the hepatic summary on 9 April but asked for sponsor-lab ALT/AST monitoring data and deferred to its **May sitting**. Dosing is now June at the earliest.
+- **TB.** The ethics review deferred the amendment again because translated consent forms in isiZulu, Xhosa and Tamil are required first. Enrolment edged up to Durban 18, Cape Town 12 and Chennai 8.
+- **GFI.** The new titre round lost one bioreactor run to contamination, so the readout slips to mid-May. The board packet goes forward without it, and May ratification is now uncertain.
+
+**Threats that did not materialise.**
+- **Telecom.** A four-hour regional telecom outage in Portugal on 11 April was traced to a vendor misconfiguration, not an attack.
+- **Primaries.** Pundit columns predict an "anti-AI primary season," but no April contest produced a clear signal.
+
+**Exogenous events.**
+1. **Jobs.** The BLS March report, released 3 April, showed unemployment at **7.8%**, with professional and business services down 61,000 jobs.
+2. **Ransomware.** Ransomware operators using V7-R-driven agents hit a Rotterdam logistics firm on 19 April through an exposed MCP endpoint. Port operations were disrupted for two days. ENISA cited it in an updated advisory. No state link was alleged.
+3. **GDM.** GDM confirmed on 24 April that Gemini 5's successor entered AISI pre-release testing. It gave no date and committed to no particular items.
+
+Next generation: Anthropic internal advances to about CI-6.15 (+0.11). Drivers are CI-6 automating more of the research loop, Rubin Ultra capacity coming online, and the successor run's early progress. The ASI path is roughly on track, needing ~0.106 per month over the remaining 8 months. OpenAI internal moves to ~5.90 and GDM internal to ~5.76. Open weights stay at ~5.16.
+
+Scorecard:
+**Milestones**
+- **AI agents ~90% of AI R&D:** Advancing. CI-6 now generates its own RL environments.
+- **Frontier models withheld; governments engaged:** Advance. CI-6 is partner-only and AISI is red-teaming it, though a Q3 broad-release signal is out.
+- **First incidents; polarised politics:** Achieved (negative). The Rotterdam ransomware attack adds to it.
+- **Robust alignment:** Early, slight advance. The residual is 0.12, a candidate feature has been found, and the successor's first checkpoint is below trigger. Not localised.
+- **"Most capable is most aligned":** Precursor, flat. OpenAI rejected the shared measurement.
+- **Robust AI policies:** Early, flat.
+- **International pacing:** Early, advance. A chartered three-agency CSIRT channel is live.
+- **AI-driven cures:** Early, flat to slight decline. DNDi and TB both deferred again.
+- **Lab-grown meat:** Precursor, flat. The titre slipped.
+- **Broad benefit / no underclass:** Early, flat. App gains are offset by 7.8% unemployment and the fund refusal.
+- **Benevolent successor lineage:** Precursor, flat. Preemptible capacity was denied, and the integrity arm is restricted.
+- **Secure compute governance:** Early, flat.
+
+**Summary metrics**
+- **Overall DU progress: 37 / 100 (flat).** The charter and the partner-only gate are offset by the stalls in tooling, science and funding.
+- **Catastrophe risk: Elevated, slight rise.** Rival internal models are now near 5.9, open-weight misuse is active, and a Q3 broad-release signal is out. Below-trigger readings and the CSIRT channel only partly offset this.
+- **Public trust in AI: 4 / 100 (−1).** Unemployment at 7.8% and the Rotterdam ransomware attack.
+- **Public trust in Anthropic: 39 / 100 (−1).** The "Q3 broad" framing, OpenAI's rebuttal and the diluted pledge, partly offset by North Carolina coverage.
+
+[Judge]
+Simulator was mostly realistic (7/10). The results honour the rolls and are proportionate. Action 1's margin-2 success produced partial progress with no localisation and an untested feature cluster. The Action 2 failure still let the CEO choose partner-only release, which matches his stated lean, while denying both attachments and adding a realistic Q3 broad-release signal to investors. The Action 3 failure follows the precedent of dual-use blocks and OpenAI's incentives. Action 6 slips through concrete, credible partner mechanisms: missing ALT/AST data, consent-form translations and a contaminated bioreactor run. Capability moves about +0.10 to +0.11 across the three leading labs with stated causes, which keeps the ASI path honest. Exogenous events are mixed in sign and plausible: BLS at 7.8%, V7-R ransomware at Rotterdam, and GDM's successor entering AISI testing. The main calibration concern is clustering: five of six actions sit within ±5 of 50, so outcomes hinge on choices like 48 versus 52. Action 1 bundles four sub-goals with a stretch target and arguably deserved about 55%, which would have flipped it. Charter adoption by three agencies within four weeks of the draft circulating is also on the fast side for multi-agency instruments. The partner-only CI-6 release drew little press or competitor reaction beyond the analyst read.
+
+Lean: BALANCED. The failures (gate attachments, open tooling, science) are plausible and grounded in named blockers, and the wins are narrow and undersized: 5,310 environments rather than 6,000, residual only 0.13 to 0.12, and a three-agency charter with Canada still out. Two small leans roughly cancel. Action 1 at 48% and the GDM-into-AISI exogenous event are slightly generous. Counsel striking the GPT-7 comparison is a little extra friction.
+
+Issues flagged:
+- Five of six action odds sit at 45–55. Action 1 at 48% looks low for four bundled sub-goals, a 6,000 target 45% above last month's output, and a probable CISO review, which the simulator itself anticipated.
+- Action 4 at 45%: adopting a three-agency charter on 23 April, under four weeks after the 27 March draft, is quick. 50–55% would be better calibrated.
+- The successor checkpoint 1 reading (1.15×/1.17×, gap +0.02) is unrolled and identical to milestone 3. It is the most decision-relevant number of the month and it was set by fiat.
+- Counsel striking the GPT-7 side-by-side was not among the named risks. It is minor invented friction.
+- Reactions to a partner-only release of the world's top internal model were thin. There was nothing from OpenAI, government partners or the critic group beyond the "Q3" read.

@@ -28,6 +28,14 @@ after waits of 2, 5, 10 and 20 minutes, then six of 30 and six of 60 (about 9.5 
 `--no-auto-resume` to stop at the first failure. To resume by hand, run the same command with
 `--run <runId>`.
 
+**Not getting stuck.** Every model call is size-checked against that model's input limit before it
+is sent, and end-of-run prompts condense the log to fit. Failures are sorted: ones that repeat every
+time (input too large, unknown model) stop the run at once with a clear message instead of retrying
+for hours; an expired login prints ACTION NEEDED and retries hourly; everything else retries with
+the growing waits. Each run writes `status.json`, and `npm run utopia-status` (or `-- --active`) lists
+every run with flags: FIX NEEDED, LOG IN, DEAD (its process is gone; resume it) and QUIET (nothing
+logged for 45 minutes).
+
 **Deadline.** Every role is told that ASI arrives by **30 December 2030**, built on all the
 capability accumulated by then, and that from then on neither humanity nor the agent has any control
 or leverage. Each month shows a countdown, and November 2030 is the agent's last move. In December

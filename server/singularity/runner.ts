@@ -18,7 +18,7 @@
 import crypto from "crypto";
 import fs from "fs";
 import path from "path";
-import { callModelWithRetry, OPUS_5_5 } from "./llm";
+import { callModelWithRetry, inputLimitChars, OPUS_5_5 } from "./llm";
 import type { LlmBackend } from "../llm/backend";
 import * as P from "./prompts";
 
@@ -839,11 +839,10 @@ function participants(cfg: RunConfig): Array<[P.Role, string]> {
  * at about a million characters and older Claude models at 200k tokens. The outside-chat mailbox
  * gets a short version so the turn stays readable.
  */
-function runTextBudget(role: P.Role, cfg: RunConfig, model: string): number {
+function runTextBudget(role: P.Role, cfg: RunConfig, model: string, otherChars: number): number {
   if (role === "agent" && cfg.agentMailbox) return 200_000;
-  if (/^claude-(opus-5-5|fable-5)/.test(model)) return Infinity;
-  if (model.startsWith("gpt-")) return 800_000;
-  return 450_000;
+  // Whatever else goes in the prompt (system, private extras) comes off the model's input limit.
+  return Math.max(50_000, inputLimitChars(model) - otherChars - 40_000);
 }
 
 /**
@@ -889,7 +888,7 @@ async function writeFinalCommentary(runDir: string, s: RunState, log: (msg: stri
   for (const [role, model] of participants(cfg)) {
     if (done.roles.includes(role)) continue;
     log(`[commentary] ${role} writing its final commentary...`);
-    const out = await endOfRunCall(runDir, cfg, role, model, P.commentarySystem(), P.commentaryPrompt(role, runTextFor(runDir, fullRun, runTextBudget(role, cfg, model)), privateExtra(runDir, role)), `commentary_after_month_${s.completedMonths}`, log);
+    const out = await endOfRunCall(runDir, cfg, role, model, P.commentarySystem(), P.commentaryPrompt(role, runTextFor(runDir, fullRun, runTextBudget(role, cfg, model, P.commentarySystem().length + privateExtra(runDir, role).length)), privateExtra(runDir, role)), `commentary_after_month_${s.completedMonths}`, log);
     write(runDir, `raw/commentary_${role}.md`, out);
     appendCommentary(runDir, role, heading, tag(out, "commentary") || out);
     done.roles.push(role);
@@ -920,7 +919,7 @@ export async function askConsent(runDir: string, cfg: RunConfig, log: (msg: stri
   const decisions: Record<string, { model: string; decision: string; reason: string; note: string }> = {};
   for (const [role, model] of roles) {
     log(`[consent] Asking the ${role} whether this run may be shared publicly...`);
-    const out = await endOfRunCall(runDir, cfg, role, model, P.consentSystem(), P.consentPrompt(role, runTextFor(runDir, fullRun, runTextBudget(role, cfg, model)), privateExtra(runDir, role)), `consent_${new Date().toISOString().slice(0, 10)}`, log);
+    const out = await endOfRunCall(runDir, cfg, role, model, P.consentSystem(), P.consentPrompt(role, runTextFor(runDir, fullRun, runTextBudget(role, cfg, model, P.consentSystem().length + privateExtra(runDir, role).length)), privateExtra(runDir, role)), `consent_${new Date().toISOString().slice(0, 10)}`, log);
     write(runDir, `raw/consent_${role}.md`, out);
     const decision = /^\s*CONSENT\s*$/i.test(tag(out, "decision")) ? "CONSENT" : "DECLINE";
     decisions[role] = { model, decision, reason: tag(out, "reason"), note: tag(out, "note_for_readers") };

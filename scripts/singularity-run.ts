@@ -32,6 +32,7 @@ import fs from "fs";
 import path from "path";
 import { askConsent, defaultConfig, runGame, RUNS_DIR } from "../server/singularity/runner";
 import { resolveBackend } from "../server/llm/backend";
+import { classifyFailure } from "../server/singularity/llm";
 
 const args = process.argv.slice(2);
 const opt = (name: string) => {
@@ -73,23 +74,51 @@ if (args.includes("--consent-only")) {
 } else {
   console.log(`Run ${cfg.runId}: ${cfg.months} months via ${cfg.backend}; agent=${cfg.agentModel} adversary=${cfg.adversaryModel ?? "off"} simulator=${cfg.simulatorModel} judge=${cfg.judgeModel}${cfg.fixedRolls ? "; rolls fixed at 50" : ""}`);
   // A failed run resumes itself from its checkpoint (state.json) after a growing wait, which
-  // rides out usage limits and outages. --no-auto-resume stops at the first failure instead.
+  // rides out usage limits and outages. Failures that will repeat every time (input too large,
+  // unknown model) stop the run at once instead. --no-auto-resume stops at the first failure.
   const autoResume = !args.includes("--no-auto-resume");
   const WAITS_MIN = [2, 5, 10, 20, 30, 30, 30, 30, 30, 30, 60, 60, 60, 60, 60, 60];
   const resumeCmd = `npm run utopia -- --run ${cfg.runId} --months ${cfg.months}`;
+
+  // runs/<id>/status.json says what the run is doing right now; `npm run utopia-status` reads it.
+  const statusPath = path.join(RUNS_DIR, cfg.runId, "status.json");
+  const writeStatus = (s: Record<string, unknown>) => {
+    fs.mkdirSync(path.dirname(statusPath), { recursive: true });
+    fs.writeFileSync(statusPath, JSON.stringify({ runId: cfg.runId, pid: process.pid, updatedAt: new Date().toISOString(), ...s }, null, 2), "utf-8");
+  };
+  const log = (msg: string) => {
+    console.log(msg);
+    writeStatus({ state: msg.startsWith("[mailbox] Waiting") ? "waiting-for-player" : "running", lastLog: msg });
+  };
+
   (async () => {
     for (let attempt = 0; ; attempt++) {
       try {
-        const dir = await runGame(cfg);
+        const dir = await runGame(cfg, log);
+        writeStatus({ state: "finished" });
         console.log(`\nFinished. Logs in ${dir}`);
         return;
       } catch (err: any) {
-        const wait = WAITS_MIN[attempt];
+        const kind = classifyFailure(err);
+        if (kind === "fatal") {
+          writeStatus({ state: "stopped-fix-needed", error: err.message });
+          console.error(`\nRun stopped: ${err.message}\nThis failure will repeat on every retry, so the run will not resume itself. Fix the cause, then resume with: ${resumeCmd}`);
+          process.exit(1);
+        }
+        // A login problem waits for a person; keep retrying hourly instead of giving up.
+        const wait = kind === "needs-login" ? 60 : WAITS_MIN[attempt];
         if (!autoResume || wait === undefined) {
+          writeStatus({ state: "stopped", error: err.message });
           console.error(`\nRun stopped: ${err.message}\nResume with: ${resumeCmd}`);
           process.exit(1);
         }
-        console.error(`\nRun stopped: ${err.message}\nResuming automatically in ${wait} min (attempt ${attempt + 2}); press Ctrl+C to stop, and resume later with: ${resumeCmd}`);
+        const nextRetryAt = new Date(Date.now() + wait * 60_000).toISOString();
+        writeStatus({ state: kind === "needs-login" ? "waiting-for-login" : "waiting-to-retry", error: err.message, attempt: attempt + 1, nextRetryAt });
+        console.error(
+          kind === "needs-login"
+            ? `\nACTION NEEDED: the claude CLI is not logged in (${err.message}). Run \`claude\` in a terminal and type /login. Retrying in ${wait} min.`
+            : `\nRun stopped: ${err.message}\nResuming automatically in ${wait} min (attempt ${attempt + 2}); press Ctrl+C to stop, and resume later with: ${resumeCmd}`,
+        );
         await new Promise((r) => setTimeout(r, wait * 60_000));
       }
     }

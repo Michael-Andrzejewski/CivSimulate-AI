@@ -10,7 +10,8 @@
     "check": "tsc",
     "db:push": "drizzle-kit push",
     "utopia": "tsx scripts/singularity-run.ts",
-    "utopia-agent": "tsx scripts/utopia-agent.ts"
+    "utopia-agent": "tsx scripts/utopia-agent.ts",
+    "utopia-status": "tsx scripts/utopia-status.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.37.0",

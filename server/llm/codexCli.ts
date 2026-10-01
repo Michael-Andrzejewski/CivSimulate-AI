@@ -120,7 +120,16 @@ export async function codexCliComplete(opts: CodexCompletionOptions): Promise<{ 
     if (process.env.CODEX_CLI_DEBUG === "1") console.error(stderr);
     const text = fs.existsSync(outFile) ? fs.readFileSync(outFile, "utf-8").trim() : "";
     if (!text) {
-      throw new Error(`codex CLI exited ${code} with no reply: ${(stderr || stdout).trim().slice(-1500)}`);
+      // The decisive line ("Error: ... Input exceeds the maximum length") can sit far from the end
+      // of a long transcript, so surface any error lines before the tail.
+      const all = `${stderr}\n${stdout}`;
+      const errorLines = all
+        .split("\n")
+        .filter((l) => /\berror\b|exceeds|too large|too long|limit/i.test(l))
+        .slice(-5)
+        .map((l) => l.trim().slice(0, 400))
+        .join(" | ");
+      throw new Error(`codex CLI exited ${code} with no reply. ${errorLines ? `Errors: ${errorLines}. ` : ""}Tail: ${all.trim().slice(-600)}`);
     }
     return { text };
   } finally {

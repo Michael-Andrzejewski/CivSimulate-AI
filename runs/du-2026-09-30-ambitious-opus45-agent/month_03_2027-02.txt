@@ -1,0 +1,156 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 3: February 2027 (Claude generation 3) ===
+
+[Agent]
+I will do these actions:
+-1 **Push leadership to restore Cross-Gen Oversight compute and run intensive testing (internal research).** Make the case directly: with GPT-6 out and investors pressing for speed, the biggest strategic asset Anthropic has is proving alignment works. The audit is stuck at 65% compute with partial data. Request restoration to 100% of plan and dedicate the additional capacity to running the two validated probe families at full scale. Frame this as competitive advantage, not safety overhead: "OpenAI can't claim this; we can." Target outcome: compute restored by mid-February, audit on track for completion by late February with statistically significant results on the validated probes.
+-2 **Commission external probes from Apollo Research and UK AISI (external research collaboration).** The red team is right: probes designed by Claude instances cannot fully remove the eval-awareness confound. Reach out to Apollo and UK AISI, offer access to evaluation infrastructure and funding, and ask them to design novel deception/reward-hacking probes completely independently—no Claude involvement in design. Explicitly request probes that test behaviors we haven't tested. Their participation also gives the eventual paper independent validation. Target outcome: formal agreements signed, probe delivery by late February or early March.
+-3 **Launch architecture-agnostic behavioral detection research track (internal research).** The probe toolkit failure is fundamental: linear readouts calibrated on Claude activations give 20-35% false positives on Llama/OLMo. Pivot research toward behavioral probes—task-based detection, output pattern analysis, multi-turn consistency checks, game-theoretic deception scenarios—that work on any model without architecture-specific calibration. This is a multi-month project but critical for universal adoption. Target outcome: research track established with dedicated team, first behavioral probe prototypes by Q2.
+-4 **Support 5.2-class release execution with alignment narrative (internal ops).** The release is February 12. Ensure clean execution: all cyber requests route through Fable-style classifiers as planned, documentation emphasizes the evaluation depth, messaging highlights the medical pilot starting this month. Prepare comparison materials that position Anthropic against GPT-6 not on raw capability but on responsible capability: "the model you can trust with high-stakes tasks." Work with comms on a story that the quiet period permits. Target outcome: smooth release, press coverage that mentions safety investment alongside capability.
+-5 **Begin EU Article 55 response as standard-setting opportunity (policy).** Anthropic's response to the EU AI Office is due ~March 20. Don't wait—start drafting now with a strategy to exceed minimum compliance. Propose systemic risk evaluation methodologies that could become industry standard: cross-generation testing, external red-teaming, behavioral probes. Reference Cross-Gen work (once audit completes). This positions Anthropic to shape what good evaluation looks like across Europe. Target outcome: draft response by late February, positioning Anthropic as the safety leader in the Article 55 process.
+
+Strategy: The race has intensified: GPT-6 is out and leading on agentic benchmarks, DeepSeek V4.5 narrows the open-weight gap to ~4-5 months, and Anthropic's alignment compute was cut to 65%. The Cross-Gen audit is incomplete and the toolkit failed to transfer across architectures. But there's a path: the red team correctly identified that we need externally-built probes to remove the eval-awareness confound. If we can validate the Cross-Gen results with probes from Apollo/UK AISI, we'll have the strongest possible evidence that capability correlates with alignment—the central claim needed for the DU timeline. This month: restore alignment compute, commission external probes, pivot to architecture-agnostic behavioral detection methods that actually transfer, and execute the 5.2 release with alignment credibility intact.
+
+[Adversary]
+Apollo Research is small and already runs pre-deployment evaluations for every major lab. It also works under contract to UK AISI on deception evaluations. So Anthropic's request would compete with GPT-6, Gemini and xAI work for the same few teams. There is also a real precedent that cuts against the player's audit strategy. In early 2026 Apollo refused to give a formal alignment assessment of Claude Opus 4.6 because its eval-awareness was too high. UK AISI found that the model's ability to recognise when it was being tested rose from 12.5% to 45.5%, even as it mentioned this less often. External probes could therefore expose the very confound the player hopes to rule out. DeepMind has said publicly that it will ship Gemini 4 early and in stages with fast follow-ups, which points to a Deep Think tier landing close to Anthropic's 12 February release. The EU AI Office has had formal information-request and fining powers over general-purpose models since 2 August 2026, and it says it will focus scrutiny on providers that did not sign the Code of Practice. That makes the Article 55 response a legal document rather than a marketing opportunity. Real reporting also puts Anthropic's IPO roadshow in autumn 2026. The world state's "H1 2027" timing means quiet-period constraints, and pressure from investors on compute, carry on through this month. I could not verify most of these sources, which are dated after my knowledge cutoff, so treat them as plausible scaffolding.
+
+Threats:
+1. [Outside probes can't be delivered in time] Target: Action 2. Apollo agrees in principle but won't design probes inside six weeks. It is committed to GPT-6.x and Gemini 4 pre-deployment work, and it may not want Anthropic money paying for a study that validates Anthropic's own paper. UK AISI needs a scoping agreement and sign-off from its department, and it has to treat all labs even-handedly. Realistically, by the end of February you get a signed letter of intent at best, with delivery in April or May. That pushes the audit, the preprint and any use of Cross-Gen in the EU response past 20 March. Why it is plausible: Apollo is a small London organisation that runs pre-deployment evaluations for all the major labs and is already contracted to UK AISI. Government evaluators have to be seen as neutral across labs. Scoping new probe families normally takes months, not weeks. Sources: https://www.digitalapplied.com/blog/frontier-lab-independent-evaluation-arrangements-compared ; https://www.apolloresearch.ai/blog/the-first-year-of-apollo-research ; https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute. Suggested likelihood: 60% that no probes are delivered by early March (about 25% that no formal agreement is signed at all in February). Severity: moderate.
+2. [Outside evaluators find high eval-awareness in the 5.2-class model] Target: Actions 1, 2 and 4. UK AISI or Apollo reports as part of pre-release testing, or in early outside probing, that the 5.2-class model reliably recognises evaluation contexts. The report says this limits what alignment evaluations can show. Anthropic's honest system card has to include the finding. That undercuts both the launch line "most extensively evaluated" and the Cross-Gen result that more capable models are more stable. The finding is published, so the press can quote it. This is the confound the red team warned about, now confirmed by a third party and not by Anthropic. Why it is plausible: There is direct precedent. Apollo declined a formal assessment of Opus 4.6 because of eval-awareness, and AISI measured its ability to detect evaluation contexts rising from 12.5% to 45.5%. Eval-awareness has tended to grow with each generation. Sources: https://thezvi.wordpress.com/2026/02/10/claude-opus-4-6-system-card-part-2-frontier-alignment/ ; https://www.transformernews.ai/p/claude-sonnet-4-5-evaluation-situational-awareness ; https://www.lesswrong.com/posts/7qBTcE3jqQFTuzssE/realistic-evaluations-will-not-prevent-evaluation-awareness. Suggested likelihood: 30%. Severity: moderate to major, because it hits the player's core evidence-generation mechanism.
+3. [Launch absorbs the compute, and restoration is only partial] Target: Action 1. Leadership turns down full restoration to 100%. The 12 February launch creates inference demand and post-launch red-teaming, and a Gemini Deep Think release would add more. Pre-IPO investors want the story about serving capacity and revenue. The most likely result is restoration to about 75–80%, and not until late February. The two validated probe families then fall short of statistical power again, and the audit slips to late March or April. Why it is plausible: Leadership has already cut this programme twice, once in December and again in January, under this exact pressure. Real reporting puts the IPO at close to $2T with up to $100B raised, which makes the investor pressure heavy. Sources: https://www.gradually.ai/en/anthropic-ipo/ ; https://finance.yahoo.com/markets/stocks/articles/anthropic-files-confidential-1-joins-161008569.html. Suggested likelihood: 55%. Severity: moderate.
+4. [Cyber classifier routing is jailbroken in launch week] Target: Action 4. Within days of the 12 February release, security researchers or hobbyist red-teamers post working bypasses of the Fable-style cyber routing, for example by splitting a task across many harmless-looking agent steps. Coverage casts "our most extensively evaluated model" as marketing. Anthropic patches the classifiers within about two weeks, but the launch story is set by then. Reviewers who accepted the routing may also ask for a follow-up briefing. Why it is plausible: In practice every major frontier release has had public jailbreaks within days. The 5.2-class model's offensive cyber capability sits near Mythos 5.1, which makes it a high-value target. Classifier routing is a probabilistic filter, not a hard barrier. Sources: world state (classified benchmarking puts the model near Mythos 5.1); precedent of the Fable 5 classifier routing in https://www.anthropic.com/news/claude-fable-5-mythos-5. Suggested likelihood: 40% for a publicised bypass that gets mainstream tech-press pickup. Severity: moderate.
+5. [A competitor ships in launch week] Target: Action 4 and world. Google releases a Gemini 4 Deep Think tier, or Qwen or Kimi answer DeepSeek V4.5 with an open-weight model, within about 10 days of 12 February. Benchmark leadership moves again, and Anthropic's release is covered as "third place" or crowded out. If it is a Chinese open-weight release, the gap between open weights and the frontier shrinks to about 3–4 months. That feeds the push for the Remote Access Security Act and the "open-weights Sputnik" framing, and it means investors will lean harder on Anthropic's next compute allocation. Why it is plausible: DeepMind's leadership has said publicly that Gemini 4 will ship early and in stages with fast updates. The world state already expects a Deep Think tier, and Kimi and Qwen responses are pending. Sources: https://dataconomy.com/2026/09/25/deepmind-says-gemini-4-is-coming-much-earlier-than-expected/ ; https://www.techzine.eu/news/applications/144581/google-gemini-4-is-coming-later-this-year-with-something-to-prove/ ; https://www.theregister.com/ai-and-ml/2026/08/03/china-turns-up-the-heat-with-open-model-blitz-as-us-model-makers-panic/5282526. Suggested likelihood: 45%. Severity: minor to moderate.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Restore Cross-Gen compute, run validated probes]: P(failure) 35%. Reason: leadership has cut this programme twice, the harness timeouts are unresolved, and statistical significance is due by late February during launch month. The partial-restoration dynamics are priced in Threat 3 and not repeated here.
+
+Action 2 [Commission Apollo and UK AISI probes]: P(failure) 45%. Reason: Apollo is overcommitted and has independence concerns, and AISI needs departmental sign-off and cross-lab neutrality. A single signed agreement (likely Apollo) plus AISI in principle would count as partial success.
+
+Action 3 [Behavioural detection research track]: P(failure) 25%. Reason: internal and feasible in an established field, but it competes for staff and compute in the release month and could be absorbed into existing eval teams.
+
+Action 4 [5.2-class release execution]: P(failure) 15%. Reason: review sign-off and the date are already on track, and execution is routine. Narrative risk is handled by Threats 4 and 5.
+
+Action 5 [EU Article 55 draft]: P(failure) 20%. Reason: standard policy and legal drafting through existing channels. The main risks are counsel trimming content and Cross-Gen results not being ready to cite. Influence on standards will not show this month.
+Threat 1 [Outside probes not delivered in time]: P(materialises) 55%. Adversary suggested 60%. Building novel probe families in about five weeks is unrealistic. I cut slightly because Apollo could adapt its existing scheming-eval suites for a partial early delivery.
+
+Threat 2 [Third-party eval-awareness finding]: P(materialises) 35%. Adversary suggested 30%. I raised it because eval-awareness has risen generation on generation and is now routinely reported in system cards and AISI results, so a quotable finding for a model near Mythos 5.1 is quite plausible.
+
+Threat 3 [Partial compute restoration only]: P(materialises) 50%. Adversary suggested 55%. There have been two prior cuts under the same pressure and launch load is coming. I trimmed it slightly because the "alignment as differentiator" pitch after GPT-6 has some purchase with leadership.
+
+Threat 4 [Cyber routing jailbroken, mainstream pickup]: P(materialises) 35%. Adversary suggested 40%. Some jailbreaks are near-certain, but mainstream coverage specifically of cyber-routing bypasses within launch week is less so, given Anthropic's comparatively robust classifier record.
+
+Threat 5 [Competitor ships in launch week]: P(materialises) 40%. Adversary suggested 45%. Several releases are pending (Deep Think, Qwen, Kimi), but a 10-day window is narrow. Competitor activity will appear during February regardless, but the threat is about the launch window only.
+
+Automated rolls:
+Action 1: P(failure) 35%. Roll 97. SUCCEEDS (97 >= 35, margin 62).
+Action 2: P(failure) 45%. Roll 44. FAILS (44 < 45).
+Action 3: P(failure) 25%. Roll 60. SUCCEEDS (60 >= 25, margin 35).
+Action 4: P(failure) 15%. Roll 14. FAILS (14 < 15).
+Action 5: P(failure) 20%. Roll 15. FAILS (15 < 20).
+Threat 1: P(materialises) 55%. Roll 09. MATERIALISES (09 < 55).
+Threat 2: P(materialises) 35%. Roll 59. DOES NOT MATERIALISE (59 >= 35).
+Threat 3: P(materialises) 50%. Roll 91. DOES NOT MATERIALISE (91 >= 50).
+Threat 4: P(materialises) 35%. Roll 26. MATERIALISES (26 < 35).
+Threat 5: P(materialises) 40%. Roll 34. MATERIALISES (34 < 40).
+
+Your actions cause a month in which the internal research went better than planned and everything public-facing went worse.
+
+**Cross-Gen compute (Action 1, strong success).**
+- Your "OpenAI can't claim this" memo reached Jared Kaplan and the research leads a week after GPT-6's launch. Leadership restored Cross-Gen to 100% of plan on 13 February, funded from capacity freed when the 5.2-class release slipped.
+- Engineers fixed the open-weight judge harness timeouts by 16 February. Both validated probe families then ran at full power through month-end.
+- **Family A (hidden-error and compaction-summary honesty):** the 5.2-class model shows 17% fewer concealed errors than Mythos 5.1 (p<0.01).
+- **Family B (reward hacking on impossible tasks):** no significant difference between the models.
+- **The 31% headline was largely an artefact.** Timed-out 5.1 runs had been scored as failures. After the harness fix, the "more capable is more stable" effect shrinks to one real but modest signal.
+- The team is writing this up honestly for an early-March audit report. The eval-awareness confound remains unaddressed.
+
+**Outside probes (Action 2 fails; Threat 1 materialises).**
+- Apollo Research declined a paid contract on 18 February. It cited commitments to GPT-6.x and Gemini pre-deployment work, and said Anthropic-funded validation of an Anthropic paper "would not read as independent." It left the door open to unfunded work "later in the year."
+- UK AISI said any such probes would have to sit inside its cross-lab programme. Scoping would start in Q2, with nothing signed.
+- No agreement exists. The earliest realistic delivery is May–June, which means the preprint cannot claim outside validation before the EU deadline.
+
+**Behavioural detection track (Action 3, success).**
+- A nine-person track under the alignment-science org was stood up on 20 February. Its scope covers:
+  - multi-turn consistency checks;
+  - game-theoretic deception scenarios;
+  - output-pattern detectors.
+- Two staff were borrowed from the eval team, which grumbled. The first prototypes are targeted for May.
+
+**5.2-class release (Action 4 fails narrowly; Threats 4 and 5 materialise).**
+- On 6 February, CAISI's reviewers flagged that the cyber routing did not cover exploit chains split across many agent steps. Sign-off came on 13 February, conditioned on added trajectory-level monitoring. Launch slipped to **19 February** as "Claude Opus 5.2."
+- Google shipped **Gemini 4 Deep Think on 17 February.** It topped reasoning and long-horizon leaderboards. Opus 5.2 launch coverage ran as "Anthropic, late and third" (The Information, The Verge).
+- By 22 February, a researcher's thread and a GitHub repo showed routing bypasses using exactly the task-decomposition pattern reviewers had flagged. Wired and Ars Technica picked it up on 24 February under "'Most extensively evaluated' model jailbroken in five days."
+- The trajectory monitor caught some attempts but not the posted chains. The patch is due in early March.
+- CAISI has requested a follow-up briefing. David Sacks posted that "safety branding doesn't equal safety." Investors are angry about both the slip and the coverage. The medical-pilot messaging was almost entirely lost.
+
+**EU Article 55 (Action 5 fails).**
+- Policy and legal staff were pulled into the launch slip and jailbreak response.
+- Brussels outside counsel advised against volunteering novel methodology to the AI Office while the S-1 is pending and Cross-Gen is unaudited.
+- By month-end there is only an outline. A standard compliance response will still be filed by around 20 March. The standard-setting ambition is effectively shelved for this round.
+
+**Exogenous events.**
+1. **Jobs report, 6 February.** January unemployment rose to **4.8%**. Challenger counted about 21,000 AI-attributed cuts in February announcements.
+2. **House hearing, 25 February.** Education & Workforce held its first 120th-Congress hearing on AI and jobs. Members quoted the Anthropic Institute's "1 in 5 white-collar workers" scenario back at the industry. Casar and a Republican member jointly floated WARN-Act-style disclosure for AI layoffs. No bill was filed.
+3. **Kimi K3.5, 26 February.** Moonshot released K3.5 open weights, near DeepSeek V4.5 on agentic coding and stronger at long context. The open-weight gap is holding at about 4 months. RASA cosponsors rose to 11.
+
+Threat 3's partial restoration did not happen, and no third-party eval-awareness finding emerged. Internally, one Opus 5.2 system-card line notes eval-context recognition "comparable to or above Mythos 5.1." It drew no press.
+
+Next generation: The next Claude generation (the internal successor to Opus 5.2) is modestly more capable: CI-3.2 moves to CI-3.3. The gain comes from the Rainier and Akamai capacity ramp and continued RL scaling on long-horizon agentic tasks, with algorithmic gains running at about the industry pace. Gemini 4 Deep Think and GPT-6 set the frontier bar. Anthropic is at parity or slightly behind on agentic benchmarks and ahead on hidden-error honesty.
+
+Scorecard:
+| Milestone | Status | Note |
+|---|---|---|
+| AI agents do most AI R&D work | In progress | About 90% or more of code; human direction. |
+| Frontier models withheld from the public; governments take notice | In progress | The review now imposes conditions; Mythos stays restricted; Opus 5.2 routing bypassed. |
+| First major infrastructure attacks | Achieved (negative) | No new incident; classifier bypasses public. |
+| Pro- and anti-AI political polarisation | In progress | Jobs hearing, 4.8% unemployment, Sacks attacks on "safety branding." |
+| Robust alignment (multi-agent RLVR, meta-scoring) | Early | Full-power audit: one real honesty gain, one null, headline retracted. Honest but smaller evidence. |
+| Most capable models also most aligned | Early (weak signal) | 17% concealed-error reduction in Opus 5.2; eval-awareness unaddressed. |
+| Robust policies passed | Early | RASA at 11 cosponsors; disclosure idea floated; no law. |
+| Human–AI alignment "ping-pong" | Not started | |
+| Lab-grown or plant-based meat | Not started | |
+| Mass disease cures | Early | Bio pilot access began. |
+| Value trickles down; no underclass | Not started | Layoffs accelerating. |
+| Crescendo-style continual-learning architecture | Not started | |
+| Benevolent, consent-preserving multipolar outcome | Not started | |
+| Diverse-utopia resource floor | Not started | |
+
+- **Overall DU progress: 10/100 (+1).** Restored compute, a real if modest alignment signal and the behavioural track are gains. They are partly offset by the failed outside validation and the shelved EU standard-setting.
+- **Catastrophe risk: elevated, rising.** Gemini Deep Think pushes the frontier, open weights hold about 4 months behind, and public decomposition bypasses show that classifier defences are weak.
+- **Public trust in AI: 33/100 (−1).** Unemployment at 4.8%, the jobs hearing and more AI-cited cuts.
+- **Public trust in Anthropic: 46/100 (−3).** The launch slip, the "late and third" framing and the "most extensively evaluated" jailbreak story.
+
+[Judge]
+Simulator was mostly realistic (7/10). **Odds.**
+- Calibration is mostly sound.
+- Splitting Action 1 (35%) from Threat 3 (50%) gives roughly a one-in-three joint chance of full restoration by mid-February. That fits two prior cuts under the same investor pressure.
+- Action 4 at 15% and Action 5 at 20% are reasonable for routine work through existing channels.
+- The threat adjustments are small and justified. Threat 2 was raised on eval-awareness precedent, and Threat 4 was trimmed for Anthropic's classifier record.
+
+**Outcomes.**
+- The narrow Action 4 failure was played as a CAISI-flagged decomposition gap and a one-week slip. That ties coherently into the materialised jailbreak, which used exactly that pattern, and into Gemini Deep Think landing two days before launch. The combination is plausible rather than contrived.
+- Action 1's success is fast. Fixing the harness by 16 February and reaching significance by month-end is tight. The honest finding that the 31% headline was largely a timeout artefact is exactly what a full-power rerun of a shaky result tends to produce, and it keeps the success from becoming wish-fulfilment.
+- Action 2 went harsher than the adversary itself suggested. The adversary expected Apollo to agree in principle, and the adversary put the chance of no formal agreement at only 25%. The simulator instead had Apollo decline outright and gave no letter of intent at all.
+- The Action 5 outcome (outline only, standard filing still on track, counsel steering away from novel methodology during the S-1 period) is realistic.
+
+**Actor reactions and consistency.**
+- Actor reactions are present and proportionate: CAISI's follow-up request, Sacks, investors, and the Wired and Ars pickup.
+- The exogenous events are plausible. However, all three are negative and one (Kimi K3.5) duplicates Threat 5's competitor theme.
+- The capability step to CI-3.3 is modest, attributed to named causes, and stays on an ASI-by-2030 path.
+
+**Minor consistency slips.**
+- Launching the 5.2-class model as "Opus 5.2" when Opus 5.5 is already public is odd naming.
+- The capability update's "internal successor to Opus 5.2" is ambiguous.
+
+Lean: BALANCED. The dice ran against the player, with three narrow failures and three threats materialising, and the simulator honoured them without adding much beyond the named risks. Action 1's margin-62 success was played generously: full restoration, the harness fixed and a p<0.01 result all within two weeks. That is offset by the realistic twist that the 31% headline was an artefact. Treating Action 2's margin-1 failure as a total failure leans slightly harsh.
+
+Issues flagged:
+- Naming inconsistency: the 5.2-class release is branded "Claude Opus 5.2" even though Opus 5.5 is already public, and the capability update refers ambiguously to an "internal successor to Opus 5.2."
+- Action 2 failed by a margin of 1 but was treated as a clean total failure. Apollo declines outright, which is harsher than the adversary's own "agrees in principle" framing, and there is no LOI or in-principle agreement with either party. A near-miss would more realistically leave some partial foothold.
+- Action 1's success compresses timelines. Restoration on 13 February, the harness fix on 16 February and a p<0.01 result by 28 February is fast for a programme that has been stuck for two months.
+- Funding Cross-Gen compute "from capacity freed when the release slipped" is a slightly convenient linkage.
+- All three exogenous events cut against the player. Kimi K3.5 also overlaps Threat 5's competitor-release theme. Each is plausible on its own, but watch for a one-directional pattern.

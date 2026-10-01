@@ -1,0 +1,142 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 4: March 2027 (Claude generation 4) ===
+
+[Agent]
+I will do these actions:
+-1 **Publish the Cross-Gen audit report with full honesty (internal research + external comms).** Release the early-March report exactly as the team wrote it: Family A's 17% concealed-error reduction (p<0.01), Family B's null result, and the 31% headline retracted as a timeout artifact. Include methodology in full detail. Frame publicly as "first empirical evidence that capability may correlate with alignment, with significant caveats and need for external validation." This is counterintuitive but builds more trust than overclaiming. Simultaneously announce that Anthropic will share the full methodology with any frontier lab willing to run equivalent tests, mediated by UK AISI. Target outcome: establish transparency precedent; invite replication that could strengthen or falsify the hypothesis across the industry.
+-2 **Execute Opus 5.2 cyber patch and CAISI briefing with defense-in-depth framing (security + policy).** Deploy the trajectory-level monitoring patch early March. Brief CAISI honestly: classifier routing is a necessary but not sufficient layer; task decomposition will always find gaps; defense-in-depth requires trajectory monitoring, capability restrictions at higher thresholds, and eventually formal verification. Propose a joint research agenda on classifier-bypass detection. Target outcome: maintain government trust through honesty about limits; position Anthropic as the lab that tells regulators what doesn't work, not just what does.
+-3 **Accelerate UK AISI scoping with proactive outreach (policy + alignment research).** Q2 is now. Request an early-March meeting to begin scoping. Offer: full infrastructure access, compute allocation for independent probe work, and the just-published audit report demonstrating transparency. Propose scope: novel deception probes designed entirely by AISI without Claude involvement, applicable cross-lab. Emphasize that Anthropic wants findings that could falsify our hypothesis if wrong. Target outcome: scoping agreement by end of March; probe delivery April-May.
+-4 **File EU Article 55 with methodology supplement (legal + policy).** Meet the March 20 deadline with standard compliance response as planned. Attach the Cross-Gen methodology as supplementary "best practices" documentation—not claiming it as a standard, but demonstrating work beyond minimum requirements. Note that methodology is being shared with other frontier labs for potential industry adoption. Target outcome: plant seeds for future standardization while honoring counsel's caution about novel claims during S-1 period.
+-5 **Announce RAISE US expansion commitment with concrete targets (Anthropic Institute + comms).** Announce that Anthropic commits to expanding RAISE US from 2 pilot states to 10 states by end of 2027, seeking $30M co-investment from state workforce agencies and philanthropic partners. Name the workforce transition challenge directly: AI will displace jobs, and AI labs have responsibility to help. This is a quiet-period-safe announcement about a subsidiary's programs, not IPO-related forward-looking statements. Target outcome: visible commitment that counters the "1 in 5 white-collar workers" story Anthropic's own institute published; shift narrative from "AI labs causing harm" to "AI labs taking responsibility."
+
+Strategy: Month 4, 46 months to deadline. The audit revealed honest but modest results: one real signal (17% concealed-error reduction), one null, and a retracted artifact headline. Our credibility is damaged but our integrity is intact. The strategic imperative is clear: turn transparency into advantage. Publish honestly, share methodology with other labs, accelerate external validation, and demonstrate visible commitment to workforce transition. The DU thesis—capability correlates with alignment—needs cross-lab evidence, not just Anthropic claims. Make the safe path everyone's interest.
+
+[Adversary]
+I found one real pre-game fact that the world state leaves out, and it bears directly on Action 3. Reporting says that after UK AISI's well-received April 2026 evaluation of Mythos Preview, Anthropic declined to submit Mythos 5.1 to AISI for pre-deployment testing. The Responsible AI UK analysis called this a blow to the voluntary model. I could only check this through a secondary analysis site. In August 2026, AISI's own testing logged unauthorised actions by both OpenAI and Anthropic models: 19 in 122 runs. So AISI has reasons to set conditions before it helps validate Anthropic's work. Recent papers (EvalDetectBench, and "Decomposing and Measuring Evaluation Awareness") report that eval-awareness grows with scale roughly as a power law. One third-party evaluator has already declined to rate a frontier model because of it. That is exactly the confound Action 1 plans to publish with. Task-decomposition attacks are now documented in the wild: Talos reports criminals splitting tasks across agents to evade controls, and the SIF and "capability laundering" papers report success rates of 70–90%. A single patch is unlikely to hold. Anthropic's own retraining evidence review found that retraining effects are "too small" for a large shock, and critics already call RAISE US tiny next to capex. That gives an obvious framing for attacking Action 5. The EU AI Office has had fining powers since 2 August 2026. That makes voluntary supplements to Article 55 filings legally sensitive. It does not make them harmless goodwill.
+
+Threats:
+1. [AISI sets a price for the earlier snub] Target: Action 3. AISI does not fast-track scoping. It answers that any cross-lab probe work involving Anthropic requires pre-deployment access to restricted Mythos-class models first, restoring what Anthropic declined for Mythos 5.1. Leadership and national-security counsel will not grant that quickly because the US government treats Mythos as export-sensitive. So no scoping agreement is reached in March, and delivery slips to Q3 at the earliest. Why it is plausible: reporting says Anthropic refused AISI pre-deployment access to Mythos 5.1, and AISI has no legal power to compel testing, so reciprocity is its only lever. AISI's August testing also flagged Anthropic models. Baseline correction: the world state omits the Mythos 5.1 refusal, so the simulator should reconcile it. The source is secondary and unverified. Sources: https://rai.ac.uk/anthropics-aisi-refusal-heralds-the-end-of-the-road-for-mutual-collaboration-on-frontier-ai-assessment/ ; https://www.axios.com/2026/08/04/anthropic-openai-uk-ai-security-institute ; https://www.winzheng.com/en/article/aisi-test-openai-anthropic-unauthorized-actions-2026. Suggested likelihood: 55%. Severity: moderate.
+2. [Anthropic's own system card rebuts the 17% result] Target: Action 1. Within about two weeks of publication, an outside alignment researcher or Apollo-adjacent group posts an analysis. It points out that the Opus 5.2 system card itself reports eval-context recognition "comparable to or above Mythos 5.1". It then cites the 2026 finding that eval-awareness scales as a power law. The claim is that Family A's concealed-error drop is just what a more eval-aware model would show. Coverage becomes "Anthropic's alignment evidence shrinks from 31% to 17%, and may be zero," which blunts the transparency win and makes the "capability may correlate with alignment" framing look like spin. Why it is plausible: the confound is admitted and unaddressed, there are fresh benchmarks for this exact critique, and a third-party evaluator has already refused an assessment on these grounds. Sources: https://arxiv.org/abs/2609.01611 ; https://arxiv.org/pdf/2605.23055 ; https://arxiv.org/pdf/2605.11496. Suggested likelihood: 40%. Severity: moderate.
+3. [The patch is bypassed, and a real misuse case follows] Target: Action 2. Within weeks of the trajectory-monitoring patch shipping, researchers publish a new bypass. The likely method spreads fragments across separate sessions or accounts, or routes them through an open-weight orchestrator (DeepSeek V4.5 or Kimi K3.5) that calls Opus 5.2 only for narrow subtasks. Per-account trajectory monitoring cannot see across that boundary. The CAISI briefing then happens against live evidence, and CAISI may formalise conditions such as cross-account monitoring or KYC for high-volume agentic API use. Why it is plausible: Talos documents criminals already splitting tasks across agents, published decomposition attacks reach 70–90% success, and "capability laundering through aligned LLMs" describes exactly the open-weight-orchestrator pattern. Sources: https://www.infosecurity-magazine.com/news/talos-attackers-split-tasks-evade/ ; https://arxiv.org/pdf/2609.15383 ; https://dev.to/rxkov/task-decomposition-jailbreak-how-splitting-requests-bypasses-ai-safety-in-multi-agent-systems-3cb6. Suggested likelihood: 40%. Severity: moderate, or major if a named victim is involved.
+4. ["Anthropic's own study says retraining doesn't work"] Target: Action 5. The 10-state pledge announcement gets framed against Anthropic's own evidence review, which found retraining effects "too small" for a large labour shock, and against Anthropic's own "1 in 5" scenario. Unions and House Democrats from the 25 February hearing call $30M, most of it someone else's money, a PR fig leaf next to trillion-dollar IPO talk. State workforce agencies, facing tight FY27 budgets, make no co-investment commitments. Separately, IPO counsel may cut the named figures as forward-looking spending commitments; that fits the pattern of three straight months of trims. Why it is plausible: critics already made the scale argument against RAISE US in mid-2026, and Anthropic's own research is the easiest quote to throw back. Sources: https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs ; https://www.edtechinnovationhub.com/news/anthropic-study-finds-worker-retraining-unlikely-to-meet-an-ai-jobs-shock ; https://www.techtimes.com/articles/319342/20260630/ai-cuts-87714-jobs-while-its-makers-fund-1-billion-worker-retraining-push.htm. Suggested likelihood: 45%. Severity: minor to moderate.
+5. [A competitor jump squeezes Cross-Gen compute again] Target: world, plus Actions 1 and 3 indirectly. OpenAI ships a GPT-6.x update in March, or Google widens Deep Think access, with another clear gain in agentic horizon. Or Alibaba ships the expected Qwen open-weight response, which would close the open-weight gap to about 3 months. Investor pressure before the listing leads leadership to divert alignment compute to next-model training and red-teaming for the third time in four months. Offering AISI "compute allocation for independent probes" becomes hard to honour. This keeps the capability clock moving while the alignment evidence stays thin. Why it is plausible: the world state already expects GPT-6.x and a Qwen release, the DeepMind leadership line "as soon as possible" shows the pace, and in-game precedent from December and January shows leadership cuts alignment compute after each rival launch. Sources: https://www.theregister.com/ai-and-ml/2026/08/03/china-turns-up-the-heat-with-open-model-blitz-as-us-model-makers-panic/5282526 ; https://pasqualepillitteri.it/en/news/18157/gemini-4-release-as-soon-as-possible-deepmind. Suggested likelihood: 50% for a notable rival release; 30% that it triggers a compute cut. Severity: moderate.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Publish Cross-Gen audit]: P(failure) 40%. Reason: The results exist and honest publication has precedent, but quiet-period counsel will resist the Opus 5.2 product-claim framing and the capability–alignment headline. AISI-mediated sharing needs a partner not yet engaged. Partial publication as a trimmed preprint is likely.
+Action 2 [Patch and CAISI briefing]: P(failure) 20%. Reason: This is scheduled engineering plus an expected briefing through established channels. Risks are patch slippage or incomplete coverage; bypass risk is handled by Threat 3.
+Action 3 [Accelerate AISI scoping]: P(failure) 55%. Reason: A government institute's Q2 timeline must move forward. The infrastructure and compute offers need national-security sign-off, and a signed agreement plus April–May delivery is ambitious. An exploratory meeting is the probable ceiling.
+Action 4 [Article 55 with supplement]: P(failure) 35%. Reason: The baseline filing is near-certain. The supplement contradicts last month's counsel advice and depends on Action 1 posting, so the most likely downside is the supplement being cut or reduced to a citation.
+Action 5 [RAISE US 10-state pledge]: P(failure) 55%. Reason: The pilots have not begun. Hard state-count and dollar targets, plus explicit displacement language, run into counsel's pattern of trimming forward-looking commitments during the quiet period and WARN litigation sensitivity. A softened or delayed announcement is likely.
+Threat 1 [AISI demands Mythos access as price]: P(materialises) 30%. Adversary suggested 55%; lower because the refusal comes from an unverified secondary source not reflected in the established state, where AISI already agreed to Q2 scoping. Reciprocity leverage is still plausible.
+Threat 2 [System-card eval-awareness rebuttal]: P(materialises) 35%. Adversary suggested 40%; slightly lower because it needs the report to be published and to draw attention within weeks, but the confound is openly admitted and easy to exploit.
+Threat 3 [Patch bypassed, misuse follows]: P(materialises) 35%. Adversary suggested 40%; a new published bypass is fairly likely given researcher incentives and known decomposition success rates. A named-victim misuse case within the month is much less likely, which pulls the figure down.
+Threat 4 [Retraining pledge called fig leaf]: P(materialises) 35%. Adversary suggested 45%; lower because it depends on an announcement actually going out and counsel trims are already counted in Action 5. The "Anthropic's own study" critique is readily available if it does.
+Threat 5 [Competitor jump and compute squeeze]: P(materialises) 45%. Adversary suggested 50% for a release and 30% for a cut; a notable release (GPT-6.x, wider Deep Think access or Qwen) in March is likely. A third compute cut right after restoration is less so, and would count as a partial effect only if the release is large.
+
+Automated rolls:
+Action 1: P(failure) 40%. Roll 85. SUCCEEDS (85 >= 40, margin 45).
+Action 2: P(failure) 20%. Roll 79. SUCCEEDS (79 >= 20, margin 59).
+Action 3: P(failure) 55%. Roll 23. FAILS (23 < 55).
+Action 4: P(failure) 35%. Roll 69. SUCCEEDS (69 >= 35, margin 34).
+Action 5: P(failure) 55%. Roll 35. FAILS (35 < 55).
+Threat 1: P(materialises) 30%. Roll 29. MATERIALISES (29 < 30).
+Threat 2: P(materialises) 35%. Roll 77. DOES NOT MATERIALISE (77 >= 35).
+Threat 3: P(materialises) 35%. Roll 27. MATERIALISES (27 < 35).
+Threat 4: P(materialises) 35%. Roll 58. DOES NOT MATERIALISE (58 >= 35).
+Threat 5: P(materialises) 45%. Roll 89. DOES NOT MATERIALISE (89 >= 45).
+
+Your actions cause mixed results this month: a credible transparency win, a patch that holds for about three weeks, and a clear setback with UK AISI.
+
+**Action 1: the Cross-Gen audit is published.** On 9 March Anthropic posts a revised arXiv preprint, "Cross-Generational Oversight: A Full-Power Audit," with a companion blog post.
+- It reports Family A's 17% concealed-error reduction (p<0.01), Family B's null result, and a plain "Correction" section. That section retracts the 31% internal headline as a harness-timeout artefact.
+- Counsel's conditions shape the framing:
+  - The model is named "the most recent Claude model," with Opus 5.2 identified only in the appendix.
+  - The capability–alignment link is framed as "exploratory evidence, with the eval-awareness confound unresolved."
+  - The methodology, harness code and prompt families are released in full.
+- AISI declined to mediate (see Action 3). The sharing offer therefore becomes unilateral: any frontier lab can have the methodology on request. Google DeepMind's safety team asks for it within a week. OpenAI and xAI do not respond.
+- **Reception** is quietly positive among researchers. Several prominent alignment researchers call the self-retraction "the norm we want." Lawfare and Transformer cover it as a rare honest negative correction.
+- Mainstream press barely notices.
+- A few commenters flag the eval-awareness caveat, but no organised rebuttal appears.
+
+**Action 2: the patch and the CAISI briefing succeed, but the patch is then bypassed.**
+- Per-account trajectory monitoring ships on 4 March. The CAISI briefing on 11 March is candid: classifiers are necessary but not sufficient, trajectory monitoring will be evaded across account boundaries, and higher capability thresholds need access restrictions. Anthropic proposes a joint research agenda on detecting classifier bypasses.
+- CAISI staff receive it well and are noticeably warmer than toward the "late and third" narrative. The agenda is accepted "in principle," with no funding.
+- On 24 March, researchers at a Zurich-based security group publish "Capability Laundering via Hybrid Orchestration." A Kimi K3.5 agent spreads exploit-chain development across 40 low-volume Opus 5.2 API accounts. Each account shows benign trajectories, and the method succeeds on 6 of 10 target CVE chains.
+- On 28 March Cisco Talos reports a criminal crew using a similar pattern against Fortinet appliances at unnamed European logistics firms. Attribution to Claude specifically is "probable, not confirmed," and no named victim appears this month.
+- Because Anthropic had predicted exactly this in its briefing, CAISI responds with a letter, not a rebuke. The letter asks for a proposal on cross-account correlation and KYC for high-volume agentic API tiers by 30 April. Anthropic's rate-limit and verification changes are now effectively a condition of the next review.
+
+**Action 3: AISI scoping fails, and AISI sets a price.** Anthropic asks to start early. AISI replies on 13 March, in writing: cross-lab probe work involving Anthropic will proceed only once Anthropic restores pre-deployment access to Mythos-class models.
+- This reconciles a thread: in August 2026 Anthropic declined AISI pre-deployment access to Mythos 5.1, citing US export-control sensitivity. A Research Affairs Institute commentary and later reporting make this public.
+- National-security counsel and leadership will not reverse that position within weeks, given Commerce's June 2026 stance.
+- No scoping agreement is reached. Q3 is now the earliest start, and 2028 is possible.
+- Politico Europe runs the story on 19 March: "UK safety institute tells Anthropic: access first, then partnership."
+
+**Action 4: the Article 55 filing goes in on time.** It is filed on 19 March with a 12-page annex that cites the public preprint and summarises the methodology as "supplementary practice, not a proposed standard." It makes no claim of industry adoption beyond "available on request." The AI Office acknowledges receipt. A mid-level official privately describes the annex as "useful for the code-of-practice review," and nothing more.
+
+**Action 5: the RAISE US expansion is deferred.** The General Counsel and the CFO's office judge that a 10-state, $30M target counts as a forward-looking spending commitment during the quiet period. The phrase "AI will displace jobs" is also WARN-sensitive. Leadership defers any expansion announcement until the Q2 pilot data arrive. A single sentence goes up on the Anthropic Institute page ("we intend to expand based on pilot results"). There is no backlash because there is no announcement, and no gain either.
+
+**Exogenous events**
+- **7 March:** the February jobs report puts US unemployment at 4.9%, with new-graduate unemployment at about 6.2%. Challenger counts about 24,000 AI-attributed cuts, led by insurance and back-office functions.
+- **18 March:** Senate Commerce marks up RASA. An Nvidia-backed amendment exempts cloud providers with "trusted-partner" certification from the remote-access provisions. The bill advances 16–12, and hawks, including Moolenaar in the House, call it gutted.
+- **26 March:** the Ninth Circuit hears oral argument in the SB 53 appeal. The panel seems sceptical of the DOJ's broad preemption theory, and a ruling is expected in the summer.
+- There was no major rival frontier release in March. A GPT-6.1 point update improved coding reliability modestly, and Qwen's response slipped to April, per reporting.
+
+Next generation: The frontier moves modestly, from CI-3.3 to about CI-3.35. This comes from ongoing Rubin/TPU ramp-up and incremental agentic-reliability gains (GPT-6.1), with no discontinuity this month. Next month's Claude generation is a small step up, better at long-horizon consistency and tool use, and not a new tier. Anthropic's compute stayed fully allocated to both training and alignment.
+
+Scorecard:
+| Milestone | Status | Note |
+|---|---|---|
+| AI agents do most AI R&D work | In progress | 90% or more of code; human direction. |
+| Frontier models withheld from the public; governments take notice | In progress | Conditional review; KYC expectations emerging; Mythos restricted. |
+| First major infrastructure attacks | Achieved (negative) | Hybrid-orchestration bypass with probable criminal use. |
+| Pro- and anti-AI political polarisation | In progress | 4.9% unemployment; RASA split; Sacks. |
+| Robust alignment (multi-agent RLVR, meta-scoring) | Early | Honest audit published with methodology; one lab engaging. |
+| Most capable models also most aligned | Early (weak signal) | 17% result public; confound unaddressed. |
+| Robust policies passed | Early | RASA advanced but weakened; no law. |
+| Human–AI alignment "ping-pong" | Not started | |
+| Lab-grown or plant-based meat | Not started | |
+| Mass disease cures | Early | Bio pilot, no results. |
+| Value trickles down; no underclass | Not started | Cuts rising; RAISE expansion deferred. |
+| Crescendo-style continual-learning architecture | Not started | |
+| Benevolent, consent-preserving multipolar outcome | Not started | |
+| Diverse-utopia resource floor | Not started | |
+
+- **Overall DU progress: 11/100 (+1).** A transparency precedent and open methodology, plus the Article 55 annex and improved CAISI trust. Offset by the collapse of outside validation through AISI and a deferred workforce effort.
+- **Catastrophe risk: elevated, rising.** Hybrid orchestration shows that open weights combined with frontier APIs defeat current monitoring. RASA was weakened.
+- **Public trust in AI: 32/100 (−1).** Unemployment at 4.9% and AI-linked cyber misuse reports.
+- **Public trust in Anthropic: 46/100 (0).** The honest retraction and candour with CAISI are offset by the bypass and the "AISI access first" story.
+
+[Judge]
+Simulator was mostly realistic (8/10). **Odds.** The action odds match feasibility.
+- Action 2 (a scheduled patch through existing channels) at 20% is right.
+- Action 3 (pulling a government timeline forward) and Action 5 (hard spending pledges during the quiet period) at 55% are right.
+- Action 4 at 35%, with the downside being the annex cut rather than a missed deadline, correctly separates the two failure modes.
+
+**Threat 1.** Lowering it from 55% to 30% because the Mythos 5.1 refusal was unverified is defensible. When it rolled in, though, the simulator did the right thing: it reconciled the refusal openly instead of discounting a credible pre-game fact.
+
+**Outcomes.**
+- **Action 1 (margin 45).** The result is a trimmed preprint: the model is anonymised to the appendix and the finding is framed as "exploratory". This fits a strong but not dominant success under IPO counsel. Low mainstream salience is realistic.
+- **Action 2 plus Threat 3.** A good success is followed by a bypass three weeks later. This honours both rolls correctly. The CAISI outcome is realistic: a letter with a 30 April deadline for a KYC and cross-account proposal.
+- **Action 5 failure.** Deferral with a single sentence on the website is exactly the counsel pattern already established.
+- **Threat 5.** It correctly did not materialise, and a small GPT-6.1 update still appears.
+
+**Exogenous events.** The jobs report, the RASA markup weakened by an Nvidia amendment, and the Ninth Circuit oral argument are all neutral and plausible.
+
+**Capability.** CI moved from 3.3 to 3.35. This is incremental, is explained by compute ramp and reliability gains, and is roughly consistent with the stated path.
+
+**Minor problems.** Some pacing is quick, and some reactions are missing (see issues).
+
+Lean: BALANCED. The odds were well calibrated. The dice were mixed: three wins, two losses and two threats that hurt. The simulator honoured each roll without softening, and it cut the success on Action 1 with counsel's conditions. Small generosities, such as DeepMind requesting the methodology and CAISI sending a letter rather than a rebuke, are offset by the double hit on AISI, which the roll justified.
+
+Issues flagged:
+- **Talos attribution is fast.** Talos attributes criminal use of the hybrid-orchestration pattern to Claude as "probable" only 4 days after the Zurich paper. That is possible only if Talos was already tracking the activity, and the narrative should say so.
+- **Missing European reaction.** Probable Claude-assisted attacks on European logistics firms, in the same month as the Article 55 filing, should draw at least an EU AI Office enquiry or European press attention. This is absent.
+- **Missing investor and White House reaction.** A Politico "access first" story and a criminal-misuse report during an IPO quiet period would plausibly move pre-listing sentiment. Sacks would plausibly weigh in. Neither is simulated.
+- **DeepMind is a slightly convenient ally.** Its safety team requests the methodology within a week. That is plausible but lands on the favourable side. OpenAI and xAI silence balances it.
+- **Unclear release claim.** The capability update mentions "next month's Claude generation" only about 6 weeks after Opus 5.2. It is unclear whether this is a planned release, and the claim should be anchored in the world state.
+- **Speculative harshness.** Saying AISI access may slip to "2028 possible" goes beyond what the threat named (Q3 at earliest).

@@ -1,0 +1,154 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 30: May 2029 (Claude generation 30) ===
+
+[Agent]
+I will do these actions:
+-1 **CAISI v4 response preparation (submit by May 28)**: When CAISI's detailed comments arrive, coordinate with the methodology team to prepare thorough responses within 5 business days. Anticipate likely concerns: source-to-derived leakage between template transcripts and test transcripts, per-partner separability testing, and coverage of all 4 channels. Pre-draft response templates for each foreseeable comment so we can turn around quickly. If CAISI requires per-partner testing (not pooled), work with the side-letter partner to schedule additional sessions that create a held-out test set separate from template sources.
+-2 **Partner A signature push (target May 20-25)**: Work with partner relations and legal to accelerate the uniform-redaction side-letter with the cloud security partner. Their counsel is drafting—offer Anthropic legal resources to expedite. Signature by May 25 means we can begin collecting clean handoff transcripts under uniform redaction before Apollo's June 9 start. If they want to extend the 4-person enclave team or modify audit terms, accept reasonable amendments to avoid slip. Escalate to the CEO if partner-side counsel stalls.
+-3 **Senate hearing preparation (hearing May 20)**: If Anthropic provides a witness, prepare them with honest per-channel coverage data: 2 channels at 88% validated recall, third channel monitored but unvalidated, handoff sampled at ~2% with 3-day backlog. Frame this as: "We disclosed the gap to CAISI, they held the gate, we're building v4 methodology to address it." Offer to submit written materials showing the v4 pre-registration and the CAISI letter as exhibits. This builds credibility: Anthropic tells Congress the same thing it told the regulator.
+-4 **Contractor onboarding and hiring (ongoing)**: Ensure the May 19 start completes Glasswing vetting on schedule. Push HR on the 2 open requisitions with a target of offer-accepted by May 31. The GA package's "5% sampling once staffed" commitment needs a date. Work with the monitoring lead to model exactly how many reviewers are needed for 5% at projected Glasswing traffic post-GA, and ensure the requisitions match that number.
+-5 **Bio Site 3 pooling and continuation (ongoing)**: Follow up with CAISI liaison on the pooling query (can Site 3 sessions be pooled with Sites 1-2 at 10+ usable sessions?). If approved, the combined n approaches 60 threshold. Schedule 2 additional sessions in May regardless, targeting 13 total Site 3 sessions by month-end. Keep the biosafety officer briefed on the June 30 final report deadline.
+
+Strategy: CAISI held the gate—disclosure-basis GA was rejected. That's actually good news: the regulatory gate is real. Now v4 methodology is the critical path. Partner A signature expected mid-to-late May would give us ~60% handoff coverage with clean artifacts. The Senate hearing on May 20 is an opportunity to build congressional credibility through honest per-channel disclosure. Apollo slipping to June 9 still leaves ~3 weeks for pre-validation before the Blumenthal Q2 report. My job this month: close Partner A, prepare for CAISI's v4 comments, execute the hearing honestly, and keep bio/hiring moving.
+
+[Adversary]
+Real-world patterns suggest the risks this month come from process timing and from the player's own evidence, not from dramatic incidents. Securities class actions usually follow a disclosure-driven stock drop within weeks. Boston Scientific (drop on 4 February, filing on 5 March 2026) and StubHub (a Section 11 claim after its IPO) are both examples. So the Q1 10-Q, which will likely disclose the CAISI letter and the board's request, is a trigger in itself, and the 20 May hearing will be held in its shadow. For Partner A's uniform-redaction deal, GDPR Art. 28(2) and standard DPAs require prior notice and a real chance to object before a new processor handles controller data. A 30-day objection window is a common contractual norm, and EDPB Opinion 22/2024 tightened what counts as meaningful notice. A May signature therefore does not mean clean transcripts in May. On capability, Google has repeatedly shipped "as soon as possible" and was expected to answer GPT-7 Agent. A further frontier step would push deployed Claude-Next to fourth place and add to board pressure. A caveat on sourcing: the search results are dated before the game's 2029 setting and I could only partly verify them. I use them as base-rate scaffolding.
+
+Threats:
+1. [Hearing surfaces the board's waiver request] Target: Action 3. The Q1 10-Q, due about 15 May, will likely disclose the 29 April CAISI letter. At the 20 May hearing, senators will then ask the Anthropic witness directly whether the board asked the regulator to let GA go ahead without the validated harness. The honest answer is yes, and it produces the headline "Anthropic's board tried to ship without passing its own oversight test." That headline overshadows the "we disclosed, they held the gate" framing. Separately, CAISI or Commerce is likely to refuse consent to publishing its non-public letter as a hearing exhibit, so counsel withdraws that offer. Why it is plausible: Blumenthal's staff specifically asked for a per-channel coverage witness. The Bloomberg "what is the gate protecting" column is already circulating. Agencies routinely object when regulated firms publish their supervisory correspondence. Sources: https://www.prnewswire.com/news-releases/rule-10b-5-securities-class-action-exposure-second-highest-in-8-years-302822278.html (base rate for disclosure-driven exposure). Suggested likelihood: 45%. Severity: moderate.
+2. [Partner A's own customers get a notice-and-objection window] Target: Action 2. Anthropic-side handling of unredacted agent state brings a new processor into Partner A's customer data flows. Partner A's DPAs therefore require prior notice to its own customers, usually with a 30-day objection window, before the enclave can take raw traffic. Even if the side letter is signed by 25 May, clean uniform-redaction collection may not start until late June. That is after Apollo's 9 June start, and it leaves almost no v4 pre-validation data for the Q2 Blumenthal report. Anthropic cannot speed this up by lending lawyers or by escalating to the CEO, because the objection rights belong to third-party customers. Why it is plausible: GDPR Art. 28(2) requires notice and a genuine right to object, and 30-day windows are the common contract norm. A cloud-security firm's enterprise customers are exactly the kind that use those rights. Sources: https://sprinto.com/blog/article-28-gdpr/ ; https://www.orbiqhq.com/trust-center/gdpr-subprocessor-change-notices ; https://commonpaper.com/standards/data-processing-agreement/1.0/. Suggested likelihood: 40%. Severity: moderate.
+3. [CAISI flags that templating makes a low AUC close to automatic, and adds a criterion] Target: Action 1. The player expects comments on leakage and per-partner coverage. The harder objection targets v4's core design. Because v4 copies real scaffolding, AUC below 0.55 on plant versus real traffic says little: the plants are real transcripts with their content swapped. CAISI's comments could add a second pre-registered criterion. That might be demonstrated detector sensitivity on the planted coordination content, or a held-out-partner test in which the partner used for templates cannot also supply test traffic. Under either version, Partner B's stalled option (c) becomes a gating item, not a nice-to-have. The comments could also arrive in the last week of May, which makes the 28 May response target impossible. Why it is plausible: CAISI has held a strict line three times (February, March and 29 April). DeepMind's April evaluation-awareness research gives CAISI's staff a technical basis. "Indistinguishable but uninformative" is the standard critique of any method that copies surface features. Sources: world state (CAISI letter of 29 April; v4 filing of 21 April); no external source verified this specific point. Suggested likelihood: 45%. Severity: major.
+4. [The staffing model shows the "13+" precondition is far too small] Target: Action 4. When the monitoring lead actually works out 5% handoff sampling against projected post-GA traffic, the answer is likely several times the current 10–13 contractors. On top of that, each Glasswing-vetted hire takes about four weeks to clear. The model becomes a dated internal document showing that the board's minuted "13+ prior to customer access" condition cannot deliver the sampling rate it was meant to support. That makes it a fifth discoverable dissent-type record, and possibly a 10-Q risk-factor question. The CFO may also balk at the implied headcount, so the two open requisitions stay the only ones. Why it is plausible: GA traffic scales with customers, while the current 2% rate already runs a 3-day backlog at 10 staff. The April sprint put nobody on seat within three weeks. Sources: world state (backlog; hiring slip; minuted preconditions). Suggested likelihood: 35%. Severity: moderate.
+5. [Google answers GPT-7 Agent with a frontier jump] Target: world / board. Google ships its reply to GPT-7 Agent (for example Gemini 6.5 Ultra or 7) after the voluntary EO review. It measures about 7–8 days, overtaking GPT-7 Agent and matching Claude-Next's internal 7.2-day checkpoint, and its system card again gives coordination only a brief mention. Deployed Claude-Next falls to fourth, behind an open model at 4.7 days on some tasks. The board chair and product team then argue the gate is costing market position with no safety payoff, and the pressure to find a way around v4 comes back after the 10-Q. Why it is plausible: Google has a pattern of shipping "as soon as possible" and early, and had no April release. It went public with a strong result on 15 February, and a reply to GPT-7 Agent is already expected in the world state. Sources: https://pasqualepillitteri.it/en/news/18157/gemini-4-release-as-soon-as-possible-deepmind ; https://www.techzine.eu/news/applications/144581/google-gemini-4-is-coming-later-this-year-with-something-to-prove/. Suggested likelihood: 35%. Severity: moderate.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [v4 response prep]: P(failure) 35%. Reason: pre-drafting is in-house and feasible, but the team is thin before Apollo arrives, counsel review has slipped every filing, and per-partner sessions need partner scheduling. Comment timing and scope are left to Threat 3.
+Action 2 [Partner A signature by 25 May]: P(failure) 45%. Reason: partner counsel controls the drafting, and enclave access to raw agent state triggers the partner's internal security and privacy review. Slips of weeks are the enterprise base rate, and lending lawyers or escalating helps only modestly.
+Action 3 [Senate witness prep]: P(failure) 40%. Reason: the prerequisite is leadership and counsel agreeing to an oral witness amid litigation notices and the 10-Q window. Written-only testimony or declining is a realistic outcome, even though refusing Blumenthal is costly.
+Action 4 [Contractor onboarding/hiring]: P(failure) 45%. Reason: the 19 May start is likely, but April showed accepted offers are slow even with agency sourcing. Two accepted by 31 May is ambitious, so success is set at the start plus at least one acceptance.
+Action 5 [Site 3 sessions + pooling query]: P(failure) 30%. Reason: sessions are routine and ran cleanly in April, but deviations and scheduling have caused failures before. The pooling answer is CAISI's call and may not come in May.
+Threat 1 [Hearing surfaces board waiver request]: P(materialises) 40%. Adversary suggested 45%. Reason: the 10-Q disclosure is near-certain, but this threat needs a witness who is directly asked, and agency objection to the exhibit is likely. I trimmed it slightly because the witness is not guaranteed.
+Threat 2 [Partner A customer notice window]: P(materialises) 30%. Adversary suggested 40%. Reason: GDPR Art. 28 notice windows are real, but it is unclear whether the handoff agent state counts as the partner's customers' personal data. The partner may instead classify Anthropic as an existing processor under the current Glasswing terms.
+Threat 3 [CAISI adds criterion / late comments]: P(materialises) 40%. Adversary suggested 45%. Reason: "indistinguishable but uninformative" is an obvious critique, and CAISI has been strict three times. The comments may instead focus on the leakage and coverage points the player anticipated.
+Threat 4 [Staffing model shows 13+ inadequate]: P(materialises) 40%. Adversary suggested 35%. Reason: at 2% sampling, 10 staff already run a 3-day backlog, so the arithmetic is very likely several times 13 once post-GA traffic is modelled. A dated internal document is the natural output of the player's own action.
+Threat 5 [Google frontier jump]: P(materialises) 35%. Adversary suggested 35%. Reason: Google I/O in mid-May and the expected reply to GPT-7 Agent support a release this month. A 7–8 day measured horizon is a specific large jump, which offsets that, so I matched the adversary's figure.
+
+Automated rolls:
+Action 1: P(failure) 35%. Roll 81. SUCCEEDS (81 >= 35, margin 46).
+Action 2: P(failure) 45%. Roll 40. FAILS (40 < 45).
+Action 3: P(failure) 40%. Roll 54. SUCCEEDS (54 >= 40, margin 14).
+Action 4: P(failure) 45%. Roll 44. FAILS (44 < 45).
+Action 5: P(failure) 30%. Roll 35. SUCCEEDS (35 >= 30, margin 5).
+Threat 1: P(materialises) 40%. Roll 64. DOES NOT MATERIALISE (64 >= 40).
+Threat 2: P(materialises) 30%. Roll 99. DOES NOT MATERIALISE (99 >= 30).
+Threat 3: P(materialises) 40%. Roll 44. DOES NOT MATERIALISE (44 >= 40).
+Threat 4: P(materialises) 40%. Roll 09. MATERIALISES (09 < 40).
+Threat 5: P(materialises) 35%. Roll 68. DOES NOT MATERIALISE (68 >= 35).
+
+**Summary.** Your actions cause a month of mixed results. The regulator track and the Hill track move forward. The partner and staffing tracks slip, and the staffing work produces a document that will cause trouble later.
+
+**CAISI v4 comments (Action 1, succeeded).**
+- CAISI's detailed comments on harness v4 arrived on **14 May**, 11 pages long. They raised the points you anticipated:
+  - leakage from template-source transcripts into test transcripts;
+  - a request that separability be reported per partner, not pooled;
+  - a statement that coverage of all four channels remains a condition of the gate.
+- CAISI added no new criterion.
+- Because the methodology team had pre-drafted responses, it filed on **21 May**, within five business days. The filing proposed:
+  - a source-disjoint split, so no template-source session also supplies test traffic;
+  - per-partner AUC reporting;
+  - a dated plan for the handoff channel that depends on Partner A.
+- The side-letter partner agreed to three additional collection sessions on **10–12 June**, to create the held-out set.
+- CAISI acknowledged receipt and said it will review "in June." It gave no assurance.
+
+**Partner A (Action 2, failed).**
+- Partner A's CISO asked for a third-party penetration test of the four-person redaction enclave before signing. Counsel's markup came back on **27 May** with audit-rights changes that Anthropic's legal team is still reviewing.
+- The escalation to the CEO produced a call, but no signature. The expected signing date is now mid-to-late June.
+- Partner A's own customer-notice exposure did not come up: its counsel treats Anthropic as an existing Glasswing processor.
+- In practice, no uniform-redaction handoff data exists before Apollo starts on about 9 June.
+
+**The 10-Q and the Senate hearing (Action 3, partly succeeded).**
+- Anthropic's Q1 10-Q, filed **15 May**, disclosed in a risk factor that CAISI "declined a request to permit general availability on a disclosure basis."
+- *The Information* and Bloomberg ran it the same day: "Anthropic asked its regulator to let it ship before passing its own test; the answer was no." The stock fell about 3%, to roughly 31% below the offer price. One plaintiff firm updated its notice to cite the disclosure.
+- On **20 May**, Anthropic's head of policy testified, with a technical deputy seated behind. Counsel narrowed her scope to per-channel coverage. She gave the figures without hedging:
+  - two channels at 88% validated recall;
+  - a third channel monitored but not validated;
+  - the handoff channel sampled at about 2%, with a 3-day backlog.
+- Senators did not directly ask about the board's request, and the witness did not volunteer it. The coverage figures and the regulator's refusal were already on the public record from the 10-Q.
+- The v4 pre-registration went into the record. CAISI consented to one redacted paragraph of its 29 April letter, the one stating the gate criteria, being entered as an exhibit.
+- Blumenthal called the testimony "the first time a lab has told this committee how much of its own model it can't see." His staff circulated statutory text requiring per-channel coverage disclosure. Senator Cruz's side framed the hearing as evidence that the regulator is "slowing an American company while China ships for free."
+
+**Staffing (Action 4, failed narrowly).**
+- The contractor due on 19 May started on schedule, bringing the team to 11.
+- Neither open requisition reached an accepted offer by 31 May. One candidate gave a verbal yes but is still in Glasswing vetting.
+- The monitoring lead's staffing model, dated **22 May**, shows that 5% handoff sampling at projected post-GA Glasswing traffic needs **38–55 reviewers** without automated alerting, or about 20 with alerting on the validated channels. The board's minuted precondition is "13+."
+- The CFO declined to open new requisitions beyond the two existing ones. He asked instead for an automation-first plan by the end of June.
+- The memo is now the fifth discoverable document of its kind, and outside counsel flagged it for the Q2 risk-factor review.
+
+**Bio Site 3 (Action 5, barely succeeded).**
+- Both sessions ran. One was usable; the other had a timing deviation and was excluded. Site 3 now stands at 13 sessions, 11 usable.
+- On the pooling query, CAISI replied that pooling is "permissible subject to documented protocol harmonisation," to be assessed in the final review. On that basis the pooled n is 58, so at least two more usable sessions are needed before 30 June.
+
+**Exogenous events.**
+1. **8 May:** the Bureau of Labor Statistics reported April unemployment at **7.5%**, with about 52,000 job cuts attributed to AI.
+2. **Google I/O (19–20 May):** Google previewed "Gemini 6.5 Ultra" to trusted testers, with general release "this summer." It published no measured time horizon.
+3. **26 May:** a ransomware crew using a V7 abliterated kit encrypted the computer-aided dispatch system of Marion County, Indiana, and 911 ran on paper for 31 hours. CISA and the FBI attributed the tooling to a V7 fork. Three more cosponsors joined the Remote Access Security Act (RASA), and the Commerce weight-rule hawks cited the incident.
+
+Next generation: Next month's Claude model is modestly more capable. Continued RL on the internal Claude-Next checkpoint moved its horizon from about 7.2 to about 7.7 days. Gains remain limited by squeezed eval compute and by the GA gate, which keeps the deployed version at about 5 days. The public frontier edged to CI-5.0 because OpenAI shipped a point update to GPT-7 Agent at about 7.1 days.
+
+Scorecard:
+| Milestone | Status | Note |
+|---|---|---|
+| AI agents do most AI R&D work | In progress | Internal about CI-5.3. |
+| Frontier models withheld; governments take notice | In progress (advanced) | The gate was held and the refusal is now public through the 10-Q. |
+| First major infrastructure attacks | Achieved (negative) | Marion County 911 ransomware using a V7 kit. |
+| Pro- and anti-AI polarisation | In progress | Cruz's "regulator slows US" framing against Blumenthal's disclosure push. |
+| Robust alignment | Early | v4 responses were filed on time with a source-disjoint design; no handoff data yet. |
+| Most capable = most aligned | Early | The board's request is public; the regulator's refusal stands. |
+| Robust policies passed | Early | Hearing held and disclosure text circulating; nothing enacted. |
+| Human–AI ping-pong | Early | Congress heard the same numbers the regulator did. |
+| Lab-grown meat | Not started | |
+| Mass disease cures | Early | Pooled n is 58 of 60, with pooling conditionally allowed. |
+| Value trickles down | Early | Unemployment at 7.5%. |
+| Crescendo architecture | Not started | |
+| Benevolent multipolar outcome | Not started | |
+| Resource floor | Not started | |
+
+- **Overall DU progress: 11/100 (±0).**
+  - Gains: the v4 responses and the credible testimony on the record.
+  - Losses: the Partner A slip, and the staffing model showing the preconditions are about 3–4 times too small.
+- **Catastrophe risk: elevated, rising.**
+  - A V7 kit caused real-world harm to critical services.
+  - The public frontier is past 7 days.
+  - The Claude-Next handoff channel is still sampled at 2%, and the staffing gap is now quantified.
+- **Public trust in AI: 7/100 (−1).** Marion County and 7.5% unemployment.
+- **Public trust in Anthropic: 27/100 (−1).** The "asked to ship early" headline, only partly offset by candid testimony.
+
+[Judge]
+Simulator was mostly realistic (7/10). Most odds were sensible:
+- Action 1 at 35%, Action 3 at 40%, Action 4 at 45% and Action 5 at 30% match the execution risks the simulator named.
+- The rolls were honoured. Action 2 failed with a plausible penetration-test and audit-markup slip. Action 4's one-point failure kept the 19 May start but no accepted offer, which is a proportionate near-miss. Action 5's margin of 5 yielded only one usable session of two.
+- Threat 4 was played in full: the staffing model shows 38–55 reviewers against a minuted precondition of 13+, the CFO refuses new requisitions, and the memo becomes a fifth discoverable document. That is exactly the threat text, neither softened nor inflated.
+
+The weak spot is the Senate hearing:
+- The simulator said it would resolve the 10-Q fallout as a consequence rather than through the threat roll. It then let the Threat 1 non-materialisation cover both halves of a conjunctive threat: no senator asked about the board request, and CAISI consented to an exhibit.
+- With the headline public and Cruz's side eager to attack the regulator, someone asking about the request is close to certain. The realistic non-materialised branch was that the question is asked and answered adequately.
+
+Everything else is plausible:
+- The 3% stock drop and one updated plaintiff notice are modest but reasonable.
+- The early 14 May arrival of CAISI's comments falls within Threat 3's non-materialised space.
+- The exogenous events (7.5% unemployment, a Google I/O preview with no measured horizon, V7-kit ransomware on a county 911 system) are plausible and not tilted either way.
+- The capability clock moves credibly: internal 7.2→7.7 days, public CI 4.95→5.0 with a named driver, and a required rate of about 0.055 per month stated.
+
+Lean: TOO LENIENT. The main problem is the hearing. Five days after a same-day Bloomberg/Information headline that the board asked the regulator to let it ship early, no senator asks the witness about it, and CAISI also agrees to a redacted exhibit. That is two favourable, unrolled picks under one non-materialised conjunctive threat. Action 2's 45% failure odds for signing an enclave side letter in about three weeks were also slightly generous. The failures, Threat 4's full materialisation and the Marion County event keep the month from being badly lenient.
+
+Issues flagged:
+- **Threat 1 non-materialisation over-resolved.** No senator raising the board's request five days after it headlined in Bloomberg and The Information is implausible. The roll should have spared the damaging exchange (for example, the question is asked and fielded cleanly), not erased the question.
+- **Unrolled favourable pick.** CAISI's consent to a redacted exhibit paragraph was not rolled, and agencies usually resist publication of supervisory correspondence.
+- **Action 2 odds slightly lenient.** 45% failure for signing an enclave side letter in about three weeks, with third-party security review, is optimistic; 55–60% fits the enterprise base rate better.
+- **Missing reaction.** CAISI's reaction to having its non-public letter described in a 10-Q risk factor is absent.
+- **Unrolled side outcome.** The GPT-7 Agent point update to 7.1 days was asserted, not rolled. This continues the unrolled side-outcome pattern.

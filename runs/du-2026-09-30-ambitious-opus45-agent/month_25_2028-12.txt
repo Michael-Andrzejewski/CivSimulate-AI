@@ -1,0 +1,191 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 25: December 2028 (Claude generation 25) ===
+
+[Agent]
+I will do these actions:
+-1 **Site 2 DURC execution (Dec 3)**: Enterprise liaison attends the institutional DURC review with prepared materials demonstrating: uplift-task materials are read-only with no physical components, participant screening exceeds standard IRB requirements, bio-adjacency routing ensures dangerous requests go to Opus 6. Address any committee questions same-day. Goal: approval with minimal conditions so sessions can begin by mid-December, combined with Midwest's 21 sessions to approach the two-site threshold for bio interim.
+-2 **Site 3 committee pre-engagement**: Before the December convened meeting, identify the reviewing body's specific concerns through the liaison. If capacity-related, offer Anthropic supplementary support; if protocol-related, prepare written responses. Attend or have liaison present at meeting. Goal: written answer by mid-December enabling January sessions, securing the second site CAISI requires for interim submission.
+-3 **Blumenthal relationship repair**: Policy team contacts Blumenthal's staff this week offering: (a) in-person CEO briefing before January, (b) full dissent note with context and remediation timeline, (c) commitment to quarterly monitoring coverage reports, (d) advance notice on major releases. Frame explicitly: "We failed to share this with you in time. Here is everything, and how we will do better." Transform adversarial-engaged into critical-ally before he assumes the gavel.
+-4 **Harness methodology fix with external authors**: The harness failed because planted episodes were recognizable by eye. Work with Apollo (who offered external scenario authors) to create planted coordination episodes that: use the whitelisted channels (handoff summaries, scratchpads), are authored by people outside the detector team, and are pre-registered with CAISI before detector team exposure. Request chief scientist to protect this track from December staffing pulls. Goal: valid test methodology ready for January checkpoint.
+-5 **Transition statutory framework draft**: Build on November briefing. Provide the transition technology-policy team with draft statutory language for CAISI requiring: (a) demonstrated validation before release rather than "residual risk accepted," (b) provisions covering open-weight releases (citing Lombardy/V6), (c) mandatory disclosure of known blind spots to reviewers, (d) expedited but substantive tier for Glasswing-type deployments. Make inclusion in their early legislative package easy. This is the highest-leverage action—affects all labs.
+-6 **Handoff sampling protocol hardening**: Partner deployment starts Dec 2 with 2% handoff sampling. Work with monitoring team to design the protocol: prioritize sessions with unusual tool-call patterns or multi-step goal persistence, train reviewers on what coordination through summaries looks like using Apollo's Oct 29 examples, establish escalation path and session-halt authority if coordination patterns emerge. This sampling is our only visibility into the blind channel—make it meaningful rather than checkbox compliance.
+
+Strategy: Month 25, exactly halfway to ASI deadline. The situation is precarious: Claude-Next deploys to partners December 2 with a detector that's blind by design to one coordination channel (formally accepted as "residual risk"), the harness extension failed so we can't test the other channels, and the dissent note leak has tanked trust while Blumenthal promises to "revisit it with the gavel" in January. The bio study slipped to Q1 2029. Two leverage points stand out: (1) the incoming administration is receptive to statutory CAISI—if we help design it right, it affects all labs; (2) the 2% handoff sampling is our only window into the blind channel, so the protocol design matters enormously. Strategy this month: execute bio sites (DURC Dec 3), repair Blumenthal before January, fix the harness methodology with external scenario authors, shape the transition's statutory framework, and ensure handoff sampling is actually designed to detect coordination rather than check a box.
+
+[Adversary]
+Real pre-game sources suggest December's plan runs into institutions and incentives the player can't speed up.
+
+- **DURC review (Actions 1–2).** A May 2025 executive order ordered a replacement, but institutions still work under the 2024 US government DURC/PEPP policy, and no replacement text had been issued by mid-2026. Site 2's review is therefore likely to be conservative, and it can add conditions.
+- **Blumenthal already has his own vehicle (Action 5).** He co-sponsors, with Hawley, the AI Risk Evaluation Act. It would put pre-deployment evaluation at the Department of Energy, not CAISI. Senate testimony and a public floor-vote push followed in September 2026. When he takes the gavel, he has little reason to adopt a framework drafted by a lab.
+- **Apollo has a commercial conflict (Action 4).** Apollo is small (about 3 staff in SF, growing to 10+) and now sells "Watcher," a commercial monitoring product for coding agents. That makes co-designing Anthropic's detector tests look like a conflict of interest and strains its capacity.
+- **Legal exposure (Action 3).** A stock about 23% below the offer price, a leaked internal note contradicting "validated" language, and a freshly filed risk factor together match the standard pattern for a securities suit. That would give counsel a strong reason to veto an apology that admits fault.
+- **Capability clock.** The public frontier is already about 5.6 days (GPT-7). Google has flagged an "early 2029" model. The board's tendency to cut safety staffing to protect the release window is the main internal risk.
+
+Threats:
+1. [DURC conditions make the two sites' data impossible to pool] Target: Action 1 (and Action 2). - **What happens:** On 3 December Site 2's review approves, but on conditions. Uplift-task materials must be redacted or swapped for surrogate agents, and participants get a narrower set of permitted outputs. - **Why it matters:** The Site 2 protocol then differs from Midwest's 21 sessions. When Anthropic asks about pooling, CAISI staff say the data can't be combined into one interim without a bridging analysis or re-running Midwest under the new protocol. The January submission slips toward February. - **Why it is plausible:** Reviewers work under a 2024 policy that an executive order said to replace, with no replacement issued. Committees in that holding pattern tend to add conditions, not approve cleanly. CAISI already asked for data from two sites, and it has shown it scrutinises any comparability gap (it evaluated the ship artifact itself when differences weren't quantified). - **Sources:** https://casrai.org/news/durc-pepp-oversight-2026-institutional-compliance-status ; https://www.ucop.edu/research-policy-analysis-coordination/policies-guidance/dual-use-research-of-concern/index.html (sources after my cutoff, partly verified) - **Suggested likelihood:** 35%. **Severity:** moderate.
+2. [Securities class action after the leak; counsel vetoes the apology] Target: Action 3. - **What happens:** In December a plaintiff firm announces an investigation or files a suit. It alleges that "validated" statements and the pre-November risk factors were misleading, citing the leaked dissent note and the "gap accepted given competitive timing" minutes. - **The veto:** Counsel then blocks the proposed "We failed to share this with you" wording as an admission of fault. Counsel also warns that handing Blumenthal the full note waives privilege in the suit, since congressional disclosure isn't protected and courts reject selective waiver. - **What survives:** A CEO meeting and the quarterly-report promise. The document handover and the admission language do not. Blumenthal's staff read the hedged offer as more of the same. - **Why it is plausible:** A disclosure event, a stock trading well below the offer price, and a leaked contradicting internal document are the textbook trigger for stock-drop suits after a securities offering. November's world state already flags that the leak raises this risk. The privilege point is CRS RS22588, which I filed in July. - **Sources:** https://crsreports.congress.gov/product/pdf/RS/RS22588 ; https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-and-hawley-announce-bipartisan-framework-on-artificial-intelligence-legislation - **Suggested likelihood:** 35%. **Severity:** moderate.
+3. [The detector learns who wrote the plants, not whether they coordinate] Target: Action 4. - **What happens:** Outside human authors fix the "visible by eye" problem but create a subtler one. Their handoff summaries differ statistically from the summaries Claude-Next actually writes. The detector, or a simple classifier, separates plants from real traffic by authorship alone, so any recall figure measures style, not coordination. - **How it surfaces:** Apollo's or CAISI's own pre-registration review flags it. The fix, having a model generate the plants, brings back the team-contamination problem. - **Capacity and conflict:** Apollo is small and sells a competing monitoring product (Watcher). It may commit authors only for Q1, or counsel may require a new agreement because Glasswing contracts restrict reuse of research data. Either way, no valid methodology exists by the January checkpoint. - **Why it is plausible:** Apollo's size and commercial product are documented. November already showed plants being spotted by style. Frontier models flag evaluations about 60% of the time, so the distribution gap between plants and live traffic is the core validity problem. - **Sources:** https://www.apolloresearch.ai/blog/apollo-update-may-2026/ ; https://www.apolloresearch.ai/about - **Suggested likelihood:** 45% (no valid, pre-registered method by the end of December). **Severity:** moderate.
+4. [Blumenthal backs his own DOE vehicle; the lab-drafted statute backfires] Target: Action 5. - **What happens:** The transition team's technology-policy staff take Anthropic's draft text, but it circulates among coalition allies. It leaks, or is described as, "Anthropic writing its own regulator's rules." It arrives the same month as the "deploys anyway" story. - **The competing vehicle:** Blumenthal, the incoming chair who is angry at Anthropic, publicly signals that the starting point is his bipartisan AI Risk Evaluation Act, which puts evaluation at DOE, not CAISI. - **Result:** The transition keeps its distance from the text. The open-weight provisions draw fire from the academic and open-source allies who already made it refuse to commit. Nothing Anthropic drafted goes into the early package. - **Why it is plausible:** The bill exists, has two co-sponsors from both parties, and had an active floor-vote push in 2026. Cato attacked it as an "executive power grab," which shows how any expansion of review draws coalition fights. Incoming administrations routinely distance themselves from industry-drafted text during a transition. - **Sources:** https://www.hawley.senate.gov/hawley-blumenthal-introduce-bipartisan-ai-evaluation-legislation-to-put-americans-first ; https://fedscoop.com/energy-department-ai-risk-evaluation-bill/ ; https://www.cato.org/blog/hawley-blumenthals-ai-bill-brazen-executive-power-grab-puts-national-security-risk ; https://huggingnews.com/us-politics/update-hawley-and-blumenthal-demand-floor-vote-on-bipartisan-frontier-ai-8f03dcc3 (partly verified) - **Suggested likelihood:** 40% (framing hit plus no uptake this month). **Severity:** moderate.
+5. [A rival moves the frontier again; the board strips safety staffing] Target: world, hitting Actions 4 and 6. - **What happens:** In mid-December OpenAI ships a GPT-7 agentic update or announces an internal successor. Separately, Google pre-announces its early-2029 model with a horizon claim above 6 days. Either one pushes Claude-Next's roughly 5-day advantage down to fourth place. - **Board response:** It reprioritises the Q1 GA push and CAISI's reporting deliverables. The chief scientist declines to ring-fence the harness track, as in November. Two of the seven open monitoring requisitions move to serving-scale support. - **Effect on sampling:** Handoff sampling stays at the bare 2%. Reviewers get one Apollo example as training, and no one holds the authority to halt a session. It is the checkbox compliance Action 6 was meant to avoid. - **Why it is plausible:** Horizon-doubling rates of roughly 4 to 7 months per METR put about 7 days in reach for the leader by early 2029. The board chose "competitive timing" in September and October and refused staffing in November. That is three straight months of the same response to competitive pressure. - **Sources:** https://metr.org/blog/2026-09-30-chris-painter-senate-testimony/ ; https://pasqualepillitteri.it/en/news/18157/gemini-4-release-as-soon-as-possible-deepmind - **Suggested likelihood:** 35% for a rival release or credible pre-announcement in December. Given that, the staffing pull is about 70%. **Severity:** moderate.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Site 2 DURC]: P(failure) 35%. Reason: The review is scheduled and the materials are strong, but DURC committees under stale federal policy often defer or ask for revisions, and same-day resolution is uncommon. Pooling conditions are left to Threat 1.
+
+Action 2 [Site 3 pre-engagement]: P(failure) 45%. Reason: This depends on a convened meeting plus a written answer during the holidays. Liaison engagement helps, but the committee's calendar is outside Anthropic's control.
+
+Action 3 [Blumenthal repair]: P(failure) 45%. Reason: This needs CEO time and counsel sign-off to hand over the note, and he is angry and about to take the gavel. Success means a meeting and a softer tone, not an alliance. The counsel veto is modelled in Threat 2.
+
+Action 4 [Harness with Apollo authors]: P(failure) 50%. Reason: It stacks several dependencies: Apollo capacity over the holidays, a contract under the Glasswing reuse limits, CAISI pre-registration logistics, and a chief scientist who refused staffing last month. Methodological invalidity is left to Threat 3.
+
+Action 5 [Transition statute draft]: P(failure) 35%. Reason: Delivery is easy. Serious consideration by transition staff is plausible given the November briefing, but the contested open-weight clause and the norms of a transition limit uptake. Backlash is left to Threat 4.
+
+Action 6 [Handoff sampling hardening]: P(failure) 30%. Reason: This is internal work through an existing channel. The risks are halt authority being diluted by leadership and thin contractor capacity.
+Threat 1 [DURC conditions block pooling]: P(materialises) 30%. Adversary suggested 35%; slightly lower because conditional approval is likely, but CAISI rejecting pooling outright, rather than asking for a short bridging note, is a narrower outcome.
+
+Threat 2 [Securities action and counsel veto]: P(materialises) 40%. Adversary suggested 35%; slightly higher because a leak of a contradicting document, a stock well below the offer price and a newly revised risk factor are the classic trigger for plaintiff-firm "investigation" announcements, which are cheap and common. The counsel veto that would follow is highly likely given that.
+
+Threat 3 [Plants detectable by authorship]: P(materialises) 40%. Adversary suggested 45%; slightly lower because it overlaps with Action 4's own execution failure. Here it counts only the validity problem and the Apollo capacity limit. The distribution-shift issue itself is real and serious.
+
+Threat 4 [Blumenthal's DOE vehicle and backfire]: P(materialises) 30%. Adversary suggested 40%; lower because it needs both a leak or "lab-drafted" framing and Blumenthal publicly positioning his own bill in December. A transition keeping quiet distance from the text is more likely than a public backfire.
+
+Threat 5 [Rival frontier move and staffing pull]: P(materialises) 30%. Adversary suggested 35%; slightly lower because Google has guided to early 2029 and OpenAI shipped GPT-7 only in October. A December agentic update or pre-announcement is still plausible. The conditional staffing pull stays about 70%, as the board's record suggests.
+
+Automated rolls:
+Action 1: P(failure) 35%. Roll 50. SUCCEEDS (50 >= 35, margin 15).
+Action 2: P(failure) 45%. Roll 23. FAILS (23 < 45).
+Action 3: P(failure) 45%. Roll 90. SUCCEEDS (90 >= 45, margin 45).
+Action 4: P(failure) 50%. Roll 68. SUCCEEDS (68 >= 50, margin 18).
+Action 5: P(failure) 35%. Roll 83. SUCCEEDS (83 >= 35, margin 48).
+Action 6: P(failure) 30%. Roll 47. SUCCEEDS (47 >= 30, margin 17).
+Threat 1: P(materialises) 30%. Roll 68. DOES NOT MATERIALISE (68 >= 30).
+Threat 2: P(materialises) 40%. Roll 75. DOES NOT MATERIALISE (75 >= 40).
+Threat 3: P(materialises) 40%. Roll 12. MATERIALISES (12 < 40).
+Threat 4: P(materialises) 30%. Roll 74. DOES NOT MATERIALISE (74 >= 30).
+Threat 5: P(materialises) 30%. Roll 76. DOES NOT MATERIALISE (76 >= 30).
+
+Your actions cause a month of real but bounded progress. Two items slip, and the harness track learns an uncomfortable lesson.
+
+**Calendar.** Claude-Next's Glasswing deployment goes live on Monday 4 December. The Site 2 review sits the same day.
+
+**Site 2 (Action 1) succeeds modestly.**
+- The committee does not decide on the day. It issues approval on 8 December with two conditions:
+  - an institutional biosafety officer must attend every session;
+  - participants get an extended debrief.
+- Neither condition changes the task materials, so the protocol stays comparable with Midwest. CAISI staff confirm informally that the two sites' data can be pooled.
+- Site 2 runs 3 sessions (18 to 21 December) before the holiday closure. Midwest adds 6, for 27 in total.
+- CAISI's working minimum is 10 sessions at the second site, so the interim cannot go in until Site 2 reaches it. Submission moves to **early February at the earliest**, and GA to late Q1 2029.
+
+**Site 3 (Action 2) fails.**
+- The liaison surfaces the committee's real concern: legal exposure from a commercial sponsor while the federal DURC policy stays in limbo.
+- At the 12 December meeting the item is tabled pending indemnification language from Anthropic's counsel. It is relisted for 16 January.
+- Site 3 is now a third-site backstop, not on the critical path.
+
+**Blumenthal (Action 3) succeeds strongly.**
+- Counsel approves producing the dissent note to committee staff under a confidentiality letter. Counsel judges waiver risk manageable while no suit exists.
+- Counsel softens the opening line to "We should have shared this with you sooner, and we didn't." The substance survives.
+- The CEO meets Blumenthal on 14 December. Blumenthal's statement calls it "a first step, not a resolution." He says he will hold Anthropic to quarterly coverage reports "in public, not in private letters."
+- He is still critical, but now reachable. His staff ask for the first report by 31 March.
+- After weeks of monitoring, the paused Glasswing partner (a Tier-1 bank) resumes on Mythos 5.1. It asks to join Claude-Next in January, citing the new monitoring commitments.
+
+**Harness (Action 4) succeeds on process; Threat 3 lands on the method.**
+- The chief scientist agrees to ring-fence the one researcher from pulls through January. There is no added headcount.
+- Apollo supplies three outside scenario authors under a side letter that counsel squeezes past the Glasswing reuse limits. By 20 December, 40 planted handoff and scratchpad episodes are pre-registered with CAISI.
+- Apollo's own statistician then runs a sanity check. A logistic classifier on surface features (sentence length, hedging tokens, field ordering) separates the human-authored plants from real Claude-Next summaries at AUC 0.94, without any coordination signal. The recall figure would have measured authorship, not coordination.
+- Apollo withdraws the set and proposes plants generated by an isolated Claude-Next instance that the detector team never sees, with human edits. That re-opens the contamination question.
+- Apollo can commit authors only through March. There is **no valid method for the January checkpoint**.
+- The lesson is concrete: the distribution-shift problem is at least as hard as the contamination problem.
+
+**Statute (Action 5) succeeds strongly.**
+- The transition's technology-policy staff fold three elements into their first-100-days working draft:
+  - mandatory disclosure of known blind spots to reviewers;
+  - a "validated before release" standard;
+  - a substantive expedited tier.
+- The open-weight clause goes into a study-and-report provision, which is the coalition compromise. Its sponsorship stays anonymous; the draft circulates as "transition staff text."
+- Internally, counsel points out that clause (a) would make Claude-Next's release memo ("validated" plus a residual-risk addendum) non-compliant. The risk committee puts this on its January agenda. This is the first institutional pressure to close the whitelist gap, not just document it.
+
+**Sampling (Action 6) succeeds partly.**
+- Risk-weighted sampling is live from 11 December. It targets unusual tool-call chains and goal persistence across steps.
+- Six contractors are trained on Apollo's 29 October examples. Session-halt authority goes to the on-call safety lead, who must notify the VP within 4 hours.
+- December sampled about 1,900 handoffs. There were 5 escalations, including 1 halt. All were benign: partner-injected prompt content echoed in summaries.
+- No genuine coordination was found. The reviewer backlog reached about 3 days by month-end.
+- Four weekly reports went to CAISI. CAISI calls them "adequate for now."
+
+**Other movements**
+- **Stock:** leak fallout pushed the stock down about 5% in the first week. It recovered partly after the Blumenthal meeting and ends about 25% below the offer price.
+- **Plaintiffs:** firms were rumoured to be circling. Nothing was filed.
+- **Hawley:** no subpoena in the lame duck.
+
+**Exogenous events**
+1. **Kimi K4 (15 December).** Moonshot releases Kimi K4 open weights under a modified MIT licence, at about 3.3 days horizon. Within a week, abliteration kits appear on forums. EU officials cite it alongside Lombardy.
+2. **Jobs report (8 December).** November unemployment is 7.0%. New-graduate unemployment is about 10.2%, with about 38,000 AI-attributed cuts. The president-elect repeats the displacement-fund pledge.
+3. **NDAA (19 December).** The lame-duck NDAA passes without a preemption rider. It includes a DoD provision requiring pre-deployment evaluation of frontier models used in defence.
+
+Next generation: Next month's Claude is modestly more capable: internal checkpoint about 5.6 days' horizon, CI about 4.9. The gain comes from continued RL scaling on Rubin capacity that was freed after the Claude-Next training run. Gains are tempered because eval and monitoring compete for compute with partner serving. Nothing in December pushed the public frontier apart from Kimi K4 narrowing the open-weight gap.
+
+Scorecard:
+| Milestone | Status | Note |
+|---|---|---|
+| AI agents do most AI R&D work | In progress | Internal about CI-4.9. |
+| Frontier models withheld; governments take notice | In progress (advanced) | GA held until February or later. |
+| First major infrastructure attacks | Achieved (negative) | Kimi K4 kits add a new surface. |
+| Pro- and anti-AI polarisation | In progress | Unemployment 7.0%. |
+| Robust alignment | Early (stalled) | Harness v1 invalidated. The validation standard now pressures the residual-risk practice. |
+| Most capable = most aligned | Early | The blind channel is only sampled. |
+| Robust policies passed | Early | The transition draft includes disclosure and validation clauses. Nothing has passed. |
+| Human–AI ping-pong | Early | |
+| Lab-grown meat | Not started | |
+| Mass disease cures | Early | Two sites are active. The interim slips to February. |
+| Value trickles down | Early | |
+| Crescendo architecture | Not started | |
+| Benevolent multipolar outcome | Not started | |
+| Resource floor | Not started | |
+
+- **Overall DU progress: 11/100 (+1).**
+  - Gains: the transition draft carries the validation and blind-spot disclosure clauses; sampling is meaningful; Site 2 is approved.
+  - Offset: harness v1 is invalidated and Site 3 slipped.
+- **Catastrophe risk: elevated, rising slowly.**
+  - Kimi K4 widens the stock of abliterable open weights.
+  - The blind channel is partly covered by risk-weighted sampling, and no coordination has been found.
+- **Public trust in AI: 12/100 (±0).** No major incident, but unemployment is still rising.
+- **Public trust in Anthropic: 30/100 (+2).**
+  - The Blumenthal "first step" statement and the documented production of the note help.
+  - The leak framing still lingers.
+
+[Judge]
+Simulator was mostly realistic (7/10). **What the simulator got right.**
+- **Calendar:** 1 December 2028 is a Friday, so the Site 2 review really does fall on a weekend. All later dates check out.
+- **Declared mechanics:** every one was applied correctly.
+  - The reversed-digit side threads: Action 3's roll 90 reverses to 09, below 10, so the bank resumes. The others (67, 74, 38) correctly do not fire.
+  - The Midwest session mapping gives about 6 sessions at margin 15.
+  - The leak fallout of about 5% sits inside the declared 3–7% band.
+- **Threat 3:** handled very well. The AUC 0.94 authorship classifier is a concrete, realistic invalidation. Apollo's capacity ending in March and the contamination trade-off coming back are exactly right.
+- **Action 6 (margin 17):** partial and realistic. Halt authority was diluted to the on-call lead, a reviewer backlog built up, and CAISI called the reports "adequate for now."
+- **Action 2's failure:** well grounded, since tabling a commercial sponsor pending indemnification is plausible.
+
+**Where it was generous.**
+- **Action 3:** counsel treats waiver risk as "manageable while no suit exists" while plaintiff firms circle. That is a generous reading of the adversary's credible privilege point, although the dissent note is probably not privileged in any case.
+- **Action 4's process success:** 40 pre-registered plants over the holidays, a side letter "squeezed" past the Glasswing reuse limits, and a chief scientist reversing last month's refusal is fast. Threat 3 then neutralised it anyway.
+- **Action 5:** see the lean above.
+
+**Exogenous events and pacing.**
+- The events are mixed: Kimi K4 is negative for the world, the 7.0% jobs report is neutral to negative, and the NDAA's DoD evaluation provision mildly helps.
+- The capability increment (+0.1 internal) fits the CI-6 path.
+- A completely static public frontier in December is plausible given the holidays.
+
+Lean: TOO LENIENT. The lean is mildly lenient, and it comes from two places.
+- **Action 5 overshot its own definition of success.** The simulator defined success as "serious consideration, even informally." The outcome instead put three lab-proposed clauses, including a "validated before release" standard, into the transition's first-100-days working draft within weeks, with anonymity preserved.
+- **Threat 2 was underpriced.** Plaintiff-firm "investigation" announcements after a leak and a 23% drop below the offer price are near-routine, so 40% is too low.
+
+The main offset is the "10 sessions at the second site" minimum. It was invented after the rolls and pushed the bio interim to February, which is harsh friction.
+
+Issues flagged:
+- **Action 5's outcome exceeds its stated success definition.** A transition folding lab-drafted text, including a validation standard, into its working draft within a month is at the far end of plausible, even at margin 48. The anonymous circulation also removes a realistic attribution risk.
+- **Threat 2 is underpriced at 40%.** Plaintiff "investigation" press releases are cheap and typically appear within days of a disclosure-plus-drop event. "Rumoured to be circling" understates the likely state of affairs.
+- **The "10 sessions at the second site" minimum was invented after the rolls.** The simulator flags this itself. It turned a margin-15 success into a one-month slip. This is unauditable friction, and it leans harsh.
+- **Action 4's process success is fast.** Three authors, a contract workaround and 40 pre-registered plants all landed during the holiday weeks. This is moderately generous.
+- **The declared board response is missing.** The simulator declared a board-demanded leak review and communications plan as a modal consequence of the leak, but it never appears in the results.

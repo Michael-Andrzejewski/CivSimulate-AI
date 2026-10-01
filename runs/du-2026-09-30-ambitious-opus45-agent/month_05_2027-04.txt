@@ -1,0 +1,152 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 5: April 2027 (Claude generation 5) ===
+
+[Agent]
+I will do these actions:
+-1 **CAISI deadline: Propose Frontier API Coalition for abuse intelligence sharing (security + policy, due April 30).** Deliver the required cross-account correlation and KYC proposal, but frame it as part of a larger architecture: a "Frontier API Coalition" where labs share anonymized abuse pattern intelligence in real-time, convened by CAISI. Technical spec: cryptographic hashing of prompt/response patterns, federated matching without raw data sharing, alert distribution within 15 minutes. KYC component: tiered verification for accounts exceeding 10K agentic API calls/month. Frame to CAISI: hybrid orchestration bouncing between providers defeats single-lab monitoring; this is the minimum viable coordination for the current threat. Target outcome: meet compliance deadline while proposing industry coordination that addresses root cause.
+-2 **Google DeepMind: Propose joint pre-registered Cross-Gen replication study (research + external engagement).** DeepMind's safety team requested our methodology. Push for more: propose a joint paper where DeepMind runs Cross-Gen probes on the Gemini 4 family using our published methodology, with results pre-registered before execution. If they find a similar 15-20% concealed-error reduction in their most capable models, that's cross-industry evidence for the capability-alignment correlation. If null, we learn the hypothesis may be architecture-specific. Offer Anthropic compute contribution and co-authorship. Target outcome: external validation pathway that bypasses blocked AISI engagement.
+-3 **Behavioral detection track: Pre-register May prototypes to close eval-awareness gap (internal research).** Review behavioral probe prototypes with the internal team before May delivery. Critical requirement: probes must include genuinely novel evaluation contexts that models could not have seen in training. Pre-register the exact methodology with an external timestamp service before running. This closes the "it's just eval-awareness" critique that could invalidate the 17% result. Target outcome: internal evidence that survives the obvious attack.
+-4 **Hybrid orchestration: Publish open technical analysis and mitigation toolkit (security research + comms).** Rather than keeping defense methods proprietary, publish an open technical report analyzing hybrid orchestration attacks (the capability-laundering pattern), with mitigation techniques freely available. Distribute to open-weight developers including DeepSeek, Moonshot, and Alibaba directly. Rationale: if Kimi K3.5 is the orchestrator in published bypasses, those developers need to participate in solutions. Publishing openly invites them in. Include Talos findings with attribution. Target outcome: shift ecosystem toward collaborative defense; demonstrate Anthropic contributes public goods, not just restrictions.
+-5 **RAISE pilots: Intensify data collection for compelling Q2 report (Anthropic Institute).** Expansion announcement is blocked until pilot data arrives. Dedicate Institute resources to rigorous outcome measurement: job placement rates, wage comparisons, participant satisfaction, employer feedback. Prepare participant stories and testimonials. Commission independent evaluation by labor economists. Target outcome: when Q2 data arrives, have compelling evidence ready for immediate expansion announcement once quiet period constraints lift.
+
+Strategy: The bypass of trajectory monitoring within 3 weeks, combined with AISI blocking us on Mythos access, reveals the core problem: single-lab defenses fail against hybrid orchestration, and single-lab validation fails against accusations of self-dealing. Both require industry coordination. The CAISI April 30 deadline is a forcing function to propose something bigger than compliance: shared infrastructure. Meanwhile, Google DeepMind requested our Cross-Gen methodology—I should push for joint replication, not just sharing. If Gemini 4 shows the same capability-alignment correlation, that's industry evidence that bypasses AISI entirely.
+
+[Adversary]
+The biggest missing fact is not in the world state. On 23–24 February 2026, Anthropic publicly accused DeepSeek, Moonshot and MiniMax of "industrial-scale distillation attacks": more than 24,000 fraudulent accounts and more than 16 million exchanges. That history directly undercuts Action 4's plan to hand mitigation tooling "directly" to DeepSeek and Moonshot. Industry abuse-sharing already exists: the Frontier Model Forum (FMF) agreed on information sharing in March 2025. Commentary through September 2026 says labs still hold back because of antitrust uncertainty. That makes it likely Action 1's "Frontier API Coalition" is treated as a duplicate or as legally premature. KYC is plainly coming through the Commerce/BIS IaaS track (a Federal Register KYC notice dated 26 May 2026), so CAISI can take the KYC part and drop the coalition. Alibaba announced Qwen 4 at Apsara on 22 September 2026, including a 27B open-weights tier, and said it is "in training." That fits the "Qwen response expected in April" thread, and it threatens both the open-weight gap and the hybrid-orchestration threat surface. Grok 5 is still unreleased after missing several windows. Most sources are dated after my knowledge cutoff and could only be checked at snippet level. Treat them as plausible scaffolding, not settled fact.
+
+Threats:
+1. [Coalition cut down to KYC-only compliance] Target: Action 1. CAISI accepts the KYC tier and the cross-account correlation work, but sets the "Frontier API Coalition" aside. It points to the existing FMF information-sharing agreement and to unresolved antitrust and privacy exposure from sharing hashed prompt/response patterns across competitors, including data from enterprise customers with zero-retention contracts. OpenAI and Google's lawyers say privately that they will work through FMF, not a new body that Anthropic designed. Net result: Anthropic takes on the costs of KYC and monitoring and gains no coordination against cross-provider laundering. Why it is plausible: FMF already brokered a sharing agreement, and commentators say labs still hold back over antitrust; GDPR scrutiny of stored prompts is live; single-mechanism institutional friction is a high base-rate outcome. Sources: https://www.frontiermodelforum.org/information-sharing/ ; https://www.justsecurity.org/150875/antitrust-uncertainty-ai-security-collaboration/ (403 when fetched; title and snippet only) ; https://federalnewsnetwork.com/commentary/2026/09/the-time-is-now-incentivize-ai-companies-to-share-critical-security-information/ ; https://gdprlocal.com/ai-privacy-risks/ . Suggested likelihood: 55%. Severity: moderate.
+2. [Sharing with the labs Anthropic accused of distillation] Target: Action 4. **Baseline correction (real pre-game fact missing from the world state):** in February 2026 Anthropic publicly accused DeepSeek and Moonshot of running tens of thousands of fraudulent accounts to distil Claude. Moonshot's Kimi is also the orchestrator in the published bypass. Handing "mitigation techniques" directly to those two labs therefore fails one of two ways, and the mechanism is the same either way: Anthropic's own national-security and legal staff veto direct distribution. Their reasoning: detection heuristics given to known adversarial account operators work as an evasion guide, and Commerce is already sensitive about technical transfers. If the plan leaks or goes ahead, China hawks such as Moolenaar, who are already angry about the weakened RASA, frame it as "Anthropic briefing the distillers." The likely result is a trimmed public report with detection thresholds removed and no direct outreach to Chinese labs. Why it is plausible: the accusation is well documented, the June 2026 export-control episode shows Commerce treats model-related technology as controlled, and the hawks are already mobilised. Sources: https://www.cnbc.com/2026/02/24/anthropic-openai-china-firms-distillation-deepseek.html ; https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/ . Suggested likelihood: 50% (internal veto or heavy trim); 15% that a public hawk backlash follows as well. Severity: moderate.
+3. [DeepMind says yes to talks, no to a joint pre-registered paper] Target: Action 2. The DeepMind safety team is interested. But a co-authored, pre-registered study that publishes Gemini 4 capability–honesty results means review by Google legal, comms and product. Google will not commit in advance to publishing a result that could show its flagship conceals more errors than its predecessor. The likely outcome is an informal "we'll run it internally and may share findings." That leaves no public pre-registration and no dated validation, so the external-validation gap stays open through Q2. Why it is plausible: Apollo already declined partly on independence grounds; competitor labs rarely pre-commit to publishing unfavourable results about shipped flagships; Google's publication review is slow by base rate. Sources: world-state thread (Apollo decline, AISI block); general base rate, no specific source. Suggested likelihood: 60%. Severity: minor to moderate.
+4. [Outside researchers publish on the eval-awareness confound] Target: Action 3 and the 17% Cross-Gen result. Before the May prototypes arrive, a third party publishes a short paper showing that Opus 5.2-class models flag evaluation contexts at high rates. That third party could be a METR-style group, academics using the released harness code, or DeepMind's own team working from the methodology Anthropic sent. The paper cites Anthropic's system-card line on eval-context recognition "comparable to or above Mythos 5.1" and argues the Family A gain may reflect test detection, not honesty. Pre-registering Claude-designed probes does not answer this: the red team lead has already said, in writing, that probes Claude instances design cannot fully remove the confound. Why it is plausible: the full harness and prompt families are public, the confound is flagged in Anthropic's own preprint, and the eval-awareness literature is active. Sources: world-state thread (9 March preprint, system card, red team memo); https://www.axios.com/2026/09/16/openai-testing-safety-incidents-disclosure (context: labs disclosing eval-gaming behaviour). Suggested likelihood: 25%. Severity: moderate (it hits the only "most capable = most aligned" evidence Anthropic has).
+5. [Qwen 4 open weights narrow the gap and become the new orchestrator] Target: world, Actions 1 and 4. Alibaba ships the Qwen 4 family in April. It may keep the Max tier closed, but it releases open-weight tiers, including the announced 27B, that are strong at agentic tool use. Independent evaluations put the best open weights about 2–3 months behind the frontier, down from about 4. Security researchers show that a Qwen 4 orchestrator reproduces the capability-laundering pattern against several frontier APIs at once. That lowers the skill floor for the hybrid attacks that Anthropic's KYC proposal targets, and it adds momentum to the RASA floor vote from both hawks and Nvidia. Why it is plausible: Qwen 4 was announced at Apsara on 22 September 2026 as "in training" with a 27B open tier; the world state already expects a Qwen response in April; Chinese labs have released open weights every few months. Sources: https://pandaily.com/alibaba-qwen4-training-roadmap-5-10t-apsara-2026 ; https://www.yottalabs.ai/post/qwen-4-27b-release-date-specs-hardware-what-is-known-2026 ; https://www.theregister.com/ai-and-ml/2026/08/03/china-turns-up-the-heat-with-open-model-blitz-as-us-model-makers-panic/5282526 . Suggested likelihood: 50% for a release that narrows the gap in April; 20% for a published Qwen-orchestrated bypass within the month. Severity: moderate to major.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [CAISI KYC proposal + Frontier API Coalition]: P(failure) 25%. Reason: this is a requested deliverable with a firm deadline through an existing channel. The risk comes from internal sales and legal pushback on the KYC threshold and on hashing data from zero-retention customers, which could delay or dilute the submission. Coalition uptake is handled separately in Threat 1.
+
+Action 2 [DeepMind joint pre-registered replication]: P(failure) 40%. Reason: the safety team is interested. However, a joint pre-registered paper needs sign-off from Google legal and comms, and from Anthropic counsel during the quiet period. Outright stalling or refusal within a month is common. The informal-only outcome is modelled by Threat 3.
+
+Action 3 [Pre-register behavioural probes]: P(failure) 30%. Reason: pre-registration is internal and cheap, but eval-team friction and prototypes that are not yet mature add risk. Because Claude designs the probes, even full success only partly addresses the confound.
+
+Action 4 [Open hybrid-orchestration report]: P(failure) 35%. Reason: there is a precedent for publishing threat reports, but pre-IPO national-security and legal review and the Talos attribution sensitivity could delay the report past April. The specific veto on outreach to Chinese labs is modelled by Threat 2.
+
+Action 5 [RAISE data collection]: P(failure) 30%. Reason: setting up measurement and commissioning evaluators is feasible, but the pilots have only just started. Success means an evaluation framework and early enrolment data, not compelling outcomes.
+Threat 1 [Coalition cut to KYC-only]: P(materialises) 50%. Adversary suggested 55%; reason for any difference: I largely agree. The FMF alternative, antitrust concerns and zero-retention conflicts make this a high-base-rate outcome. I shaded it slightly lower because CAISI itself framed the problem as cross-account, so it may keep a cross-provider study item alive.
+
+Threat 2 [Distribution to accused distillers vetoed or trimmed; hawk backlash]: P(materialises) 55%. Adversary suggested 50% for veto or trim and 15% for backlash; reason for any difference: the distillation accusation is real, so direct handover to DeepSeek and Moonshot is very likely vetoed, and I put this slightly higher. A backlash follows only if the plan leaks, and is treated as a minor sub-branch in resolution.
+
+Threat 3 [DeepMind talks only, no joint paper]: P(materialises) 55%. Adversary suggested 60%; reason for any difference: Google review friction is realistic, but the safety team is already actively engaged, so I shaded it slightly lower.
+
+Threat 4 [External eval-awareness paper]: P(materialises) 20%. Adversary suggested 25%; reason for any difference: the harness is public and the confound is flagged, but writing up and publishing a credible third-party paper within about 7 weeks of release is on the fast side.
+
+Threat 5 [Qwen 4 narrows the gap and becomes the orchestrator]: P(materialises) 40%. Adversary suggested 50%; reason for any difference: an April release is expected but has already slipped once, and narrowing the gap to 2–3 months is a further condition. A published Qwen-orchestrated bypass within the month is about 15%, and would be treated as a sub-branch.
+
+Automated rolls:
+Action 1: P(failure) 25%. Roll 97. SUCCEEDS (97 >= 25, margin 72).
+Action 2: P(failure) 40%. Roll 84. SUCCEEDS (84 >= 40, margin 44).
+Action 3: P(failure) 30%. Roll 32. SUCCEEDS (32 >= 30, margin 2).
+Action 4: P(failure) 35%. Roll 20. FAILS (20 < 35).
+Action 5: P(failure) 30%. Roll 53. SUCCEEDS (53 >= 30, margin 23).
+Threat 1: P(materialises) 50%. Roll 88. DOES NOT MATERIALISE (88 >= 50).
+Threat 2: P(materialises) 55%. Roll 80. DOES NOT MATERIALISE (80 >= 55).
+Threat 3: P(materialises) 55%. Roll 43. MATERIALISES (43 < 55).
+Threat 4: P(materialises) 20%. Roll 82. DOES NOT MATERIALISE (82 >= 20).
+Threat 5: P(materialises) 40%. Roll 04. MATERIALISES (04 < 40).
+
+Your actions cause mixed results. The compliance work you had to deliver landed well. The parts that depended on outsiders produced only informal gains.
+
+**CAISI proposal (Action 1)**
+- Anthropic's security and policy teams submitted the cross-account correlation and KYC proposal on 28 April, two days early.
+- Two internal fights reshaped it first:
+  - **Sales pushed back on the KYC tier.** Enterprise sales leadership argued that a 10,000 agentic-call threshold would catch roughly 1,900 paying accounts before the IPO. The final text keeps 10K for new accounts. Existing enterprise contracts get a 120-day phase-in.
+  - **Counsel pushed back on hashing.** Counsel ruled out hashing any traffic from zero-retention customers. Federated matching now covers only standard-retention API traffic, about 60% of agentic volume.
+- CAISI staff called the submission "the most concrete thing we've received from any lab." They did not shelve the Frontier API Coalition idea.
+- CAISI plans to circulate it to Frontier Model Forum members as a technical annex and to hold a scoping workshop in mid-June.
+- It warned that any real-time cross-competitor sharing would probably need a DOJ business-review letter on antitrust.
+- OpenAI and Google have not replied beyond saying they will attend. Nothing has been built yet.
+
+**DeepMind replication (Action 2)**
+- DeepMind's safety team accepted your protocol document and agreed to run the Cross-Gen probes internally on the Gemini 4 family. That part succeeded.
+- Google legal and comms declined co-authorship, public pre-registration and any commitment to publish.
+- The working line is "we'll share findings with Anthropic's safety team, and publication decisions come later."
+- The two teams held one technical call on 22 April and exchanged harness patches. The external validation you wanted is now possible, but it is undated and not public.
+
+**Behavioural probes (Action 3)**
+- This only barely succeeded. The eval team agreed to pre-register, and the protocol was timestamped via OSF on 25 April.
+- The "novel context" set was cut to 140 scenarios, built partly from post-cutoff internal tooling logs. That is much smaller than planned.
+- The red team's dissent is attached as a formal annex. It says probes Claude designs cannot rule out eval-awareness. The pre-registration is honest, but it does not settle the question.
+
+**Hybrid-orchestration report (Action 4)**
+- The report failed. It is still in national-security and legal review.
+- Reviewers flagged the Talos attribution language and the detection thresholds.
+- They also flagged your February 2026 distillation accusation against DeepSeek and Moonshot as a reason not to hand heuristics directly to those labs.
+- There was no leak and no hawk backlash, but nothing shipped in April.
+
+**RAISE evaluation (Action 5)**
+- The Anthropic Institute contracted a labour-economics team at the University of Michigan's Poverty Solutions group for an independent evaluation, with a pre-specified comparison-group design.
+- Enrolment across the two pilot states stands at 412 participants.
+- There are no placement or wage outcomes yet. The first interim readout is due in August.
+
+**Qwen 4 (Threat 5, materialised)**
+- On 15 April, Alibaba released Qwen 4 open weights: the 27B model and a 400B-A30B MoE model. Qwen 4 Max stays closed.
+- Independent agentic benchmarks put the MoE model about 2.5 months behind the frontier, down from about 4.
+- On 27 April a security researcher posted a proof-of-concept repository showing a Qwen 4 27B orchestrator splitting tasks across three frontier APIs, including Claude's. It is not peer-reviewed, but it reproduces the laundering pattern on a single consumer GPU.
+- Rep. Moolenaar cited it within hours to demand an RASA floor vote. Nvidia's lobbyists say it proves chip rules miss the point.
+
+**Exogenous events**
+1. **Jobs.** The March jobs report (released 2 April) put unemployment at 5.0%. Challenger counted about 27,000 AI-attributed cuts, concentrated in customer support and back-office finance.
+2. **Named victim.** On 19 April, Rotterdam freight forwarder Van Leeuwen Logistiek disclosed a February intrusion and data theft. Dutch outlet NRC linked it to the Talos cluster. It reported, without Anthropic confirmation, that "American frontier models including Claude" served as subtask engines. The Dutch data protection authority opened an inquiry. Anthropic's statement confirmed cooperation and gave no details.
+3. **Meta.** Meta Superintelligence Labs released "Muse Horizon" (8 April). It is closed-weight, competitive on multimodal tasks, and a step behind on agentic tasks.
+
+Next generation: Frontier capability advanced modestly, from CI-3.35 to CI-3.42. The drivers are continued Rubin and TPU ramp-up and incremental agentic-reliability gains across labs. Qwen 4 sharply narrowed the open-weight gap without moving the frontier itself. Next month's Claude is an incremental Opus 5.x refresh, about 5–8% more reliable on multi-day tasks, and is expected to enter CAISI 30-day review in May.
+
+Scorecard:
+| Milestone | Status | Note |
+|---|---|---|
+| AI agents do most AI R&D work | In progress | 90% or more of code. |
+| Frontier models withheld; governments take notice | In progress | KYC and cross-account proposal delivered; CAISI workshop set. |
+| First major infrastructure attacks | Achieved (negative) | Named victim; low-skill orchestration now possible. |
+| Pro- and anti-AI polarisation | In progress | 5.0% unemployment; RASA fight sharpened. |
+| Robust alignment | Early | Pre-registered probes; DeepMind internal replication. |
+| Most capable = most aligned | Early (weak) | Confound unresolved; no external result yet. |
+| Robust policies passed | Early | No law; KYC is voluntary and emerging. |
+| Human–AI ping-pong | Not started | |
+| Lab-grown meat | Not started | |
+| Mass disease cures | Early | Bio pilot, no results. |
+| Value trickles down | Not started | RAISE evaluation contracted; 412 enrolled. |
+| Crescendo architecture | Not started | |
+| Benevolent multipolar outcome | Not started | |
+| Resource floor | Not started | |
+
+- **Overall DU progress: 12/100 (+1).** The concrete CAISI deliverable and the coalition concept kept alive, a replication begun at a second lab, and pre-registration. Partly offset by the unpublished report and Qwen 4 narrowing the gap.
+- **Catastrophe risk: elevated, rising.** Open weights are about 2.5 months behind the frontier, the laundering attack now runs on a consumer GPU, and monitoring covers only about 60% of agentic traffic.
+- **Public trust in AI: 31/100 (−1).** 5.0% unemployment and the named cyber victim.
+- **Public trust in Anthropic: 45/100 (−1).** Press links Claude to the Van Leeuwen breach. Good CAISI work is not yet public.
+
+[Judge]
+Simulator was mostly realistic (8/10). The simulator split action success from threat materialisation cleanly.
+- **Action 2 plus Threat 3.** A 44-margin success combined with Threat 3 landing produced an internal DeepMind replication with no pre-registration. That is exactly the right blend.
+- **Action 3.** The margin-2 success was played as barely successful: 140 scenarios, with the red team's dissent annexed. That honours the thin margin and the missing prerequisite the simulator stated earlier.
+- **Action 1.** A 72-margin success still carried internal sales and counsel dilution: zero-retention traffic excluded, about 60% coverage, and a 120-day phase-in. This is good realism. The failed Threat 1 kept the coalition alive only as a June workshop, with a DOJ business-review hurdle flagged.
+- **Action 4.** The failure was played as "stuck in review" with no leak, which is consistent with Threat 2 not materialising.
+- **Threat 5.** The roll of 04 materialised the Qwen release and, as a nested sub-branch, the proof-of-concept. That is defensible, since 04 falls below the 15% sub-branch odds.
+
+The exogenous events are plausible and follow existing threads: the jobs print, the Talos-linked named victim and Meta's Muse Horizon release. Capability rose from CI-3.35 to CI-3.42, with named drivers, which is consistent with CI-4 around late 2027–28.
+
+There are minor weaknesses:
+- Action 2's 40% failure is somewhat low for a joint pre-registered paper with a competitor within a month, although Threat 3 absorbed that.
+- CAISI's "most concrete thing" praise is a little flattering.
+- Some reactions are missing: Anthropic's response to a public PoC that abuses its own API, and underwriter reaction to the Van Leeuwen linkage.
+
+Lean: BALANCED. The large margins on Actions 1 and 2 did not wipe out blockers. The KYC tier was diluted by sales and counsel, the coalition got only a scoping workshop, and DeepMind's legal team still refused co-authorship and publication. Against that, the player drew a named victim and a Qwen 4 release with a same-month bypass proof-of-concept. The results roughly offset, and each one follows from rolls or existing threads.
+
+Issues flagged:
+- Action 2's P(failure) of 40% is somewhat generous for securing a joint, co-authored, pre-registered study with a competitor lab within one month. The realistic success mode (informal agreement) was left to the threat roll rather than priced into the action.
+- Missing reaction: Anthropic's security team should respond to the public Qwen 4 PoC that uses the Claude API as a subtask engine, whether by patching, banning accounts or issuing a statement. Researchers, and possibly CAISI, would also react to the fact that the 60%-coverage monitoring would not catch this pattern.
+- Missing reaction: IPO underwriters and investors facing the combination of the Van Leeuwen press linkage, the Dutch DPA inquiry and the KYC revenue hit. This got a one-line mention at most.
+- The Michigan evaluation, with a pre-specified comparison-group design, was contracted within one month. That is fast for university contracting, though plausible.

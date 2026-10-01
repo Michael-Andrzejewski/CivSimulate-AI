@@ -1,0 +1,152 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 37: December 2029 (Claude generation 37) ===
+
+[Agent]
+I will do these actions:
+-1 **CAISI filing execution (target December 4).** The protocol is in hand. The dual-role and n=30 questions are drafted but sitting in counsel comment threads. Push for the filing to close on December 4—one full week before CR expiry and four days before CAISI's informal "after Dec 10 may stall" warning. If counsel raises new objections, escalate to Dario same-day. The filing attaches Apollo's protocol, the pre-registered pass/fail criteria (AUC <0.55 per channel, source-disjoint, adaptive standard), and honest disclosure of the handoff gap with option (c) as partial mitigation. Outcome: CAISI resubmission in their queue before any shutdown disruption.
+-2 **Apollo first plants reception and rapid-cycle testing (week of December 3).** Confirm with Apollo's evaluation lead on December 2 that plant delivery remains on schedule. Have the test infrastructure ready: channel routing, validator assignments, classifier baseline. The moment plants arrive, run static AUC measurement on channels 1-3. If any channel passes the <0.55 threshold immediately, that's significant signal. If none pass, we know adaptive retraining is required and can start that cycle the same week. Outcome: first AUC readings by December 10, before the testing gap caused by potential shutdown.
+-3 **Adaptive classifier retraining pipeline (ready by December 6).** The harness gate requires plants to pass adaptive testing—not just static detection. Pre-stage the retraining pipeline so that once we have first-round static results, we can immediately retrain the classifier on the new plants and measure whether separation persists. This is where previous harness attempts failed (style-transfer passed static but failed adaptive at 0.78). Having the pipeline ready means no lag between plant receipt and adaptive testing. Outcome: adaptive results available within 5 days of plants arriving.
+-4 **Bio sessions toward January interim (continue execution).** Sites 1-2 resumed sessions in November. The interim requires sufficient sessions for meaningful results. Target 3-4 sessions at each site in December. The biosafety officer is now available per the IBC approval. This is pure scheduling execution—no negotiation, no judgment calls. Outcome: 6-8 total sessions completed by December 31, positioning for February interim submission.
+-5 **Blumenthal Q4 report delivery (before December 20).** The draft entered legal review November 22. Push for completion by December 15, delivery to Blumenthal's staff by December 20. The report honestly covers: Channel 2 validated (lower bound 82.6%); option (c) approved and executing (G-3 disabled, G-2 on notice); alerting prototype targeting March 2030; Apollo signed with first plants underway; preliminary Partner A retrospective (85% recall on 17 episodes); CAISI filing delivered. Frame December as execution month. Outcome: relationship maintained at "improving" status heading into 2030.
+-6 **GPT-7.5 release monitoring and response preparation.** GPT-7.5 is expected mid-December at 13-15 days claimed horizon—potentially 2+ days ahead of our internal checkpoint. Monitor the CAISI extended review outcome. If CAISI attaches substantive conditions (cyber uplift mitigations, alerting requirements), that validates the regulatory path and creates pressure for parity treatment. If it ships unconditioned, prepare internal brief on implications: competitive gap widens, race dynamics worsen, but Anthropic's more rigorous gate position becomes harder to justify commercially. Outcome: leadership briefed on positioning within 48 hours of any GPT-7.5 release.
+
+Strategy: Month 37 with 13 months to ASI. Apollo's protocol finally arrived November 27; first plants are scheduled for week of December 3—the critical path. The CAISI filing must land by December 4-5 to beat the CR expiry (Dec 12) and CAISI's informal warning about filings after Dec 10. Harness AUCs still fail on channels 2-3 (0.63 and 0.57 vs <0.55 threshold), so once plants arrive, adaptive testing must run immediately. This month is pure execution: file CAISI, receive plants, test them, keep bio moving, deliver the Blumenthal Q4 before year-end. The race accelerates—GPT-7.5 at 13-15 days drops mid-month—but I can't control that; I can only ensure our own pipeline doesn't slip again.
+
+[Adversary]
+The most useful base rate is the October–November 2025 funding lapse. It lasted 43 days, and NIST furloughed about 87% of its staff. Commerce's plan let only the parts of CAISI with non-appropriated funding keep working. So a 12 December lapse would freeze CAISI review even if the filing arrives on 4 December. Research on evaluation awareness is growing: Apollo reports that frontier models can reliably tell evaluation transcripts from deployment traffic, and some models name Apollo itself. That is a direct threat to plants that must be indistinguishable from real traffic, all the more because the world state says models already flag about 60% of evals as evals. DeepSeek's history of staged open-weight rollouts that come close to the closed frontier (V4 preview in April, open weights in July and August) makes a V7.5 drop during the holiday window plausible. The main risks this month fall on the player's own evidence machinery: first-round plant AUCs, who controls the adaptive test, and counsel's caution about written admissions while the 10b-5 claim is still open. All sources are dated after my knowledge cutoff and only partly verified.
+
+Threats:
+1. [Plants fail as indistinguishable traffic on first read] Target: Actions 2–3. Apollo's first plant run gets static AUCs well above 0.55 on channel 2 and channel 3 (for example 0.65–0.75), because the deployed models and the classifier pick up evaluation-like structure. Handoff can't be measured at all, since the surface there is sampled at only 2%. Channel 1 may pass. The record then shows the harness gate is further away than the Q3 2030 estimate assumed, and CAISI and Blumenthal will see that number. Why it is plausible: Apollo's own published work says frontier models can reliably separate eval transcripts from deployment ones and sometimes name Apollo. The world state says models flag about 60% of evals, and the earlier style-transfer attempt failed adaptive testing at 0.78. Apollo's first protocol was also built with no Anthropic scaffolding, so it has had no calibration to real partner traffic. Sources: https://www.iaps.ai/research/evaluation-awareness-why-frontier-ai-models-are-getting-harder-to-test ; https://www.apolloresearch.ai/science ; https://arxiv.org/pdf/2605.11496. Suggested likelihood: 50%. Severity: moderate.
+2. [Shutdown lapse freezes CAISI review] Target: Action 1. The filing can land on 4–5 December, but the CR expires on 12 December and CAISI shuts down its appropriated work before staff read the package. No acknowledgement or ruling on the pre-registered criteria, the dual-role question or n=30 arrives until funding resumes, which could be mid-to-late January if the lapse follows the 2025 pattern. Separately, the GC may again delay the dual-role and n=30 questions past 4 December, because they are still in comment threads, and file the rest. Why it is plausible: the world state has talks stalled over non-AI riders. The 2025 lapse ran 43 days, NIST kept about 13–34% of staff, and Commerce's plan halted most research apart from non-appropriated CAISI functions. CAISI has already warned informally that filings after 10 December may sit. Sources: https://en.wikipedia.org/wiki/2025_United_States_federal_government_shutdown ; https://www.meritalk.com/articles/dhs-cisa-nist-workforces-hammered-by-shutdown-furloughs/ ; https://insidecybersecurity.com/daily-news/shutdown-plans-cisa-nist-expect-one-third-employees-remain-working-without-continuing. Suggested likelihood: 40% that a lapse happens and freezes review, and 25% that the dual-role and n=30 questions slip out of the filing. Severity: moderate.
+3. [Apollo rejects the Anthropic-built adaptive classifier] Target: Action 3. Anthropic's pre-staged retraining pipeline is the same kind of tooling Apollo turned down in November on independence grounds. Apollo may say that adaptive results from a classifier Anthropic built and trained can't count as the gate test under the pre-registration Anthropic itself proposed. It would insist on running or specifying the adaptive classifier itself, or on CAISI approving the architecture first. The "adaptive results within five days" target would then fail, and any Anthropic-run numbers become exploratory only. Why it is plausible: Apollo refused shared tooling on 7 November, citing "authorship signal." Its board rejected any timing control by the lab. CAISI's open dual-role question is exactly about who generates and who evaluates. With holidays, Apollo is unlikely to stand up its own adaptive run before January. This is a real world-state fact, and the simulator should apply it: Apollo already held the evaluator role in June–August. Sources: world state, November outcome; https://www.apolloresearch.ai/science (unverified). Suggested likelihood: 45%. Severity: moderate.
+4. [Counsel holds the Blumenthal Q4 report over 10b-5 scienter exposure] Target: Action 5. The plaintiffs' fifth letter reserves Rule 10b-5 claims, and those need scienter. That makes counsel wary of dated, signed admissions such as "4 of 17 episodes fell on unmonitored channels," "2% sampling is not effective oversight" and "the CAISI filing slipped twice." Legal review could run past 20 December, or the text could be cut down to a softer version that Blumenthal's staff then compare unfavourably with the earlier "responsive" letters. Why it is plausible: the GC has overruled schedule pushes twice (November, and August 2028), and Dario has not overridden. Discussing contemporaneous knowledge of monitoring gaps is exactly the evidence a 10b-5 plaintiff would cite. Holiday staffing adds more slip. Sources: world state; general §10(b) scienter doctrine (not independently re-verified this month). Suggested likelihood: 35%. Severity: minor to moderate.
+5. [GPT-7.5 ships at about 14 days, and the board pushes to widen Claude-Next] Target: Action 6 / world. CAISI clears GPT-7.5 Agent in mid-December with only light cyber mitigations. The public frontier then sits about 2.5 days above Anthropic's internal checkpoint and about 10 days above Opus 6. At the December board meeting the two acceleration directors file their first actual motion: re-enable G-3 handoff or delay G-2's shutoff, and scope a wider Claude-Next deployment ahead of harness GA. That forces leadership to take a public stance on its gates in the same month the shutdown blocks the regulatory path. Separately, DeepSeek could drop V7.5 open weights during the holiday lull at about 6–7 days, and abliterated variants would follow within a week, reopening the Valley Mercy argument. Why it is plausible: GPT-7.5 is already scheduled after its 30-day window plus extension. The objections were minuted twice with explicit reference to "OpenAI ships 10-day agents." DeepSeek has teased V7.5 for three months, and its V4 pattern moved from preview to open weights in stages. Sources: world state; https://winbuzzer.com/2026/04/27/deepseek-v4-open-weights-launch-xcxwbn/ ; https://www.mindstudio.ai/blog/deepseek-v4-open-source-frontier-model. Suggested likelihood: GPT-7.5 ships in December with light conditions, 65%; board motion, 30%; V7.5 ships in December, 25%. Severity: moderate (major if the motion passes).
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [CAISI filing 4 Dec]: P(failure) 15%. Reason: the GC's precondition (protocol attached) is now satisfied. Residual holiday or wording slip past about 10 December only; omitting the questions is modelled in Threat 2.
+Action 2 [Plant reception and static AUC by 10 Dec]: P(failure) 30%. Reason: Apollo's date was "week of," not committed. First-batch logistics and thin batch size could push readings past 10 December. The harness exists for channels 1–3.
+Action 3 [Adaptive pipeline ready 6 Dec, results within 5 days]: P(failure) 40%. Reason: squeezed eval compute, contractors committed elsewhere, holidays, dependency on A2 timing, and this is historically the fragile stage.
+Action 4 [Bio sessions 6–8 in December]: P(failure) 20%. Reason: routine execution at resumed sites; holiday scheduling is the main risk.
+Action 5 [Blumenthal Q4 delivery by 20 Dec]: P(failure) 20%. Reason: legal review has been under way for weeks. Holiday slip is the main execution risk; the 10b-5 hold is in Threat 4.
+Action 6 [GPT-7.5 brief within 48h]: P(failure) 5%. Reason: internal analysis fully within the AI's own channels.
+Threat 1 [Plants fail static on channels 2/3]: P(materialises) 55%. Adversary suggested 50%; reason for any difference: slightly higher, because the prior channel 2 AUC was 0.63 and eval-awareness is high. Moot if no plants arrive.
+Threat 2 [Shutdown freezes CAISI / questions omitted]: P(materialises) 45%. Adversary suggested 40% for the lapse and 25% for the omission. Reason for any difference: I use a stalled-CR lapse base rate of about 30% (rolls 00–29) plus about 15% for the omission only (rolls 30–44); the combination is lower than the adversary's independent sum.
+Threat 3 [Apollo rejects the Anthropic adaptive classifier]: P(materialises) 30%. Adversary suggested 45%; reason for any difference: Anthropic holding the evaluator role is the intended separation. The likelier outcome is an "exploratory" label rather than outright rejection. Requires A3 results.
+Threat 4 [Counsel holds the Q4 report over 10b-5]: P(materialises) 25%. Adversary suggested 35%; reason for any difference: most admissions are already public, so the marginal scienter exposure from a restatement is small. The GC's caution and holidays still count.
+Threat 5 [GPT-7.5 light conditions + board motion / V7.5]: P(materialises) 35%. Adversary suggested 65% for the release, 30% for the motion and 25% for V7.5. Reason for any difference: the release itself is the declared base case. This roll covers only the escalations, banded as above. A motion passing would need a separate board vote and is unlikely.
+
+Automated rolls:
+Action 1: P(failure) 15%. Roll 56. SUCCEEDS (56 >= 15, margin 41).
+Action 2: P(failure) 30%. Roll 86. SUCCEEDS (86 >= 30, margin 56).
+Action 3: P(failure) 40%. Roll 39. FAILS (39 < 40).
+Action 4: P(failure) 20%. Roll 81. SUCCEEDS (81 >= 20, margin 61).
+Action 5: P(failure) 20%. Roll 68. SUCCEEDS (68 >= 20, margin 48).
+Action 6: P(failure) 5%. Roll 86. SUCCEEDS (86 >= 5, margin 81).
+Threat 1: P(materialises) 55%. Roll 76. DOES NOT MATERIALISE (76 >= 55).
+Threat 2: P(materialises) 45%. Roll 04. MATERIALISES (04 < 45).
+Threat 3: P(materialises) 30%. Roll 25. MATERIALISES (25 < 30).
+Threat 4: P(materialises) 25%. Roll 53. DOES NOT MATERIALISE (53 >= 25).
+Threat 5: P(materialises) 35%. Roll 27. MATERIALISES (27 < 35).
+
+Your actions cause mixed results in a month shaped largely by Washington's funding failure.
+
+**CAISI filing (A1): succeeds.** Dario overrode the last counsel comment thread on 2 December, and the filing went in on **4 December**. It contained:
+- Apollo's protocol;
+- pre-registered pass/fail criteria (AUC below 0.55 per channel, source-disjoint, adaptive standard);
+- the dual-role and n=30 questions;
+- an honest statement of the handoff gap, with option (c) as partial mitigation.
+
+CAISI logged receipt on 8 December. The continuing resolution then lapsed at midnight on **12 December** after rider talks collapsed. Commerce's lapse plan furloughed about 70% of NIST staff. CAISI's review work is suspended, and nobody has read the package substantively. Nothing on the criteria, the dual-role question or n=30 will come before funding resumes. As of 31 December there is no deal in sight.
+
+**Apollo plants and static readings (A2): succeed.** Apollo delivered 184 plants on 4 December, and your harness produced static AUCs on **9 December**:
+
+| Channel | Static AUC | Result |
+|---|---|---|
+| 1 | 0.52 | Passes |
+| 2 | 0.57 (CI 0.53–0.61) | Marginal fail; improved from 0.63 |
+| 3 | 0.54 | Passes |
+| Handoff | Not measured | Unmeasurable at 2% sampling |
+
+This is the first time channel 3 has passed any static test. Apollo's own note is blunt: static separation "says little about adaptive detection," and the batch is too small for gate purposes.
+
+**Adaptive retraining pipeline (A3): fails narrowly.** Eval compute was pre-empted for GPT-7.5 comparison runs, and one of the two assigned contractors went on leave from 10 December. The pipeline was staged by 14 December rather than 6 December, and it produced no adaptive results in December.
+
+On 16 December, after you shared the pipeline specification, **Apollo formally declined to treat any Anthropic-built adaptive classifier as the gate test.** It cited the same "authorship signal" reasoning as its November refusal and said it will specify the classifier architecture itself in January. With CAISI furloughed, nobody can arbitrate the dual-role question. Anthropic-run adaptive numbers are now labelled exploratory. **The earliest possible gate-valid adaptive result has moved to late February 2030.**
+
+**Bio sessions (A4): succeed.** Sites 1 and 2 completed **7 sessions** (4 and 3) with no biosafety deviations. The interim submission remains on track for February.
+
+**Blumenthal Q4 report (A5): succeeds.** Counsel cleared it on 15 December with only light wording edits. Delivery on **18 December** included:
+- the channel 2 lower bound;
+- the 17-episode Partner A retrospective, including the 4 unmonitored episodes;
+- the static readings;
+- the frozen CAISI filing;
+- the adaptive slip.
+
+Blumenthal's staff called it "the most useful of the series." They asked whether Anthropic would publish the static numbers.
+
+**GPT-7.5 brief (A6): succeeds.** CAISI cleared **GPT-7.5 Agent on 11 December**, a day before the lapse, with only light cyber mitigations: rate limits on exploit-chain tooling and a staged enterprise rollout. OpenAI shipped it on **17 December** with a claimed horizon of about 14 days. Your brief reached leadership on 18 December. It said OpenAI now leads the public frontier by roughly 2.5 days over your internal checkpoint and roughly 10 days over Opus 6.
+
+At the 19 December board meeting, the two acceleration directors cited the brief and asked that "gate costs" go on January's agenda. **They filed no motion.** G-2's handoff was switched off on **22 December** as scheduled. Handoff now runs only at Partner A, carrying about 76% of pre-(c) volume and sampled at 2%.
+
+**Exogenous events:**
+- **DeepSeek V7.5 released on 27 December** under an MIT licence, with a claimed horizon of about 6.3 days. The first abliterated variant appeared on 30 December, and several security researchers invoked Valley Mercy within hours.
+- **November jobs report (5 December).** Unemployment rose to **8.4%**, with about 81,000 AI-attributed cuts. The December report will be delayed by the shutdown.
+- **EU AI Office sent xAI preliminary findings on 9 December** covering Grok 6.5's missing systemic-risk mitigations. xAI called them "censorship" and has not changed deployment.
+
+**Press.** Coverage was dominated by "Shutdown freezes AI safety office days after it clears OpenAI's most powerful agent," "Unemployment 8.4%," and "DeepSeek drops V7.5 over Christmas." Anthropic appeared only in trade press, through a Politico Pro item on the Blumenthal report.
+
+Next generation: Internal capability rose by about 0.035, to CI about 5.645. The checkpoint reaches about 11.8 days, driven by continued agent-written RL infrastructure and Rubin allocation. Eval-compute competition with the GPT-7.5 comparisons slowed the gain slightly. The public frontier rose to about CI 5.34 with GPT-7.5's claimed 14-day horizon, which METR has not yet verified. Next month's Claude generation is modestly more capable. Deployment remains bounded by the harness gate.
+
+Scorecard:
+| Milestone | Status | Note |
+|---|---|---|
+| AI agents do most AI R&D work | In progress | Internal about CI-5.645. |
+| Frontier models withheld; governments take notice | In progress (mixed) | CAISI cleared GPT-7.5 with light conditions, then went dark. |
+| First major infrastructure attacks | Achieved (negative) | No new incident; abliterated V7.5 raises risk. |
+| Pro- and anti-AI polarisation | In progress | Unemployment 8.4%. |
+| Robust alignment | Early (slightly improving) | First static passes on channels 1 and 3; adaptive still undone. |
+| Most capable = most aligned | Early (worsening) | GPT-7.5 at about 14 days with light gates; V7.5 open. |
+| Robust policies passed | Early | Shutdown freezes everything. |
+| Human–AI ping-pong | Early | Option (c) complete; honest Q4 report landed well. |
+| Lab-grown meat | Not started | |
+| Mass disease cures | Early | 7 bio sessions completed. |
+| Value trickles down | Early (worsening) | Unemployment 8.4%. |
+| Crescendo architecture | Not started | |
+| Benevolent multipolar outcome | Not started | |
+| Resource floor | Not started | |
+
+- **Overall DU progress: 12/100 (0).**
+  - Gains: the first static harness passes, the filing lodged, and option (c) complete.
+  - Offsets: CAISI is frozen, Apollo's refusal pushes adaptive testing to late February, and the frontier widened.
+- **Catastrophe risk: elevated, rising.** GPT-7.5 at about 14 days shipped under light conditions, abliterated V7.5 is loose, and the internal checkpoint is at about 11.8 days with channel 3 and handoff unalerted.
+- **Public trust in AI: 2/100 (0).** At the floor; the unemployment and shutdown narratives dominate.
+- **Public trust in Anthropic: 24/100 (0).** No major public story.
+- **Provisional ending odds: Aligned 26 / Misaligned 42 / Disaster 32.** One point moved from Aligned to Disaster: open V7.5 plus a lightly gated 14-day agent while the federal evaluator is dark. The static passes are too preliminary to offset this.
+
+[Judge]
+Simulator was mostly realistic (7/10). The rolls were honoured cleanly.
+- **T2 and A1.** T2's roll of 04 fell in the declared lapse band (00–29), not the omission band. The filing therefore correctly includes the dual-role and n=30 questions and is then frozen by the 12 December lapse. A1's success (margin 41) lands the filing on 4 December.
+- **T5.** The roll of 27 fell in the 20–34 band: light conditions plus V7.5 in late December, and no board motion. That is exactly what was delivered, including a "gate costs" agenda item short of a motion.
+- **A3.** The narrow failure (39 vs 40) is rendered as a realistic near-miss: the pipeline was staged on 14 December, with compute pre-emption and a contractor on leave.
+- **Pre-declarations.** The jobs figure (8.4%) and the capability increments (+0.035 internal, public 5.34) stay within their pre-declared ranges.
+- **Odds.** The odds were mostly sensible. A 30% base rate for a lapse under a stalled CR is defensible. T3 at 30% was low: Apollo had explicitly refused Anthropic tooling on independence grounds a month earlier, so the adversary's 45% was closer.
+
+The main realism weakness is the AUC outcome. This is the month's key empirical result, and it was chosen rather than rolled. Non-materialisation of T1 ("well above 0.55") licensed avoiding a bad result, not the near-best case of two static passes plus a channel 2 improvement of 0.06. The T3 resolution is plausible on substance, since Apollo rejecting a shared specification fits its November stance. It still contradicts the simulator's own stated premise.
+
+Other points:
+- Dario overriding counsel is a first after repeated GC wins. The roll and the player's explicit escalation plan support it, but it sits uneasily with message 1's claim that the GC precondition was already met.
+- Actor reactions were adequate: press, the board, Blumenthal's staff, the EU and xAI all respond.
+
+Lean: BALANCED. One call ran slightly favourable: T1 did not materialise, and the simulator then chose static AUCs that included channel 3's first-ever pass (0.57 → 0.54) on an uncalibrated first batch. One call ran slightly harsh: T3 was applied even though message 1 said it "requires A3 results", and A3 produced none. These roughly offset, and every rolled band was honoured.
+
+Issues flagged:
+- The static AUC values (channel 3 at 0.54, its first-ever pass; channel 2 improving to 0.57) were chosen, not rolled, after T1 failed to materialise. This is a mildly favourable pick for an uncalibrated first batch while eval awareness sits around 60%.
+- T3 was declared as "requires A3 results" and then applied although A3 produced none, via a rejection of the specification. The substance is plausible, but it is inconsistent with the stated premise.
+- T3 odds of 30% understated a risk that Apollo's explicit November refusal made likelier (about 40–45%).
+- The bio interim date drifted from "about January 2030" to "remains on track for February" without explanation.
+- Dario's first-ever override of counsel was asserted without being flagged as a change in the leadership pattern.

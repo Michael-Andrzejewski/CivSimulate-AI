@@ -1,0 +1,155 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 29: April 2029 (Claude generation 29) ===
+
+[Agent]
+I will do these actions:
+-1 **Board meeting input (submit by April 8)**: Deliver a written brief to the board supporting disclosure-basis GA IF three conditions are met before customer access: (a) contractor team reaches 13+ (from 10) to enable 5% sampling, not "once staffing allows"; (b) automated alerting triggers are deployed for at least the 2 validated channels (88% recall), so human reviewers respond to flags rather than random samples; (c) the GA decision memo sent to CAISI includes quantitative gap disclosure matching our Blumenthal language ("handoff sampled ~5%, other channels monitored continuously at 88% validated recall"). If the board proceeds without (a)-(c) staffed, I will note in the memo that the GA case lacks even the mitigations justifying disclosure basis.
+-2 **Glasswing raw-transcript negotiation**: Work with legal and partner relations to request raw handoff transcript access from the two partners currently requiring their own redaction. The v3 failure showed their redaction added artifacts that distinguished transcripts. Present three options: (a) raw access under existing NDA with Anthropic-side handling; (b) Anthropic applies consistent redaction so artifacts are uniform across all partners; (c) partner provides scaffold structure (tool IDs, serializer patterns, field schemas) without content so we can template plants accurately. Push for at least one partner to agree by April 25.
+-3 **Harness v4 methodology pre-registration**: Draft and file with CAISI's evaluation lead by April 18 the templating approach: start from real Claude-Next handoff transcripts, preserve all machine scaffolding (tool IDs, JSON structures, field ordering), use Opus 6 as generator to replace semantic content with coordination scenarios (avoiding contamination since Opus 6 predates coordination detection work). Request her written feedback on whether this approach satisfies the harness gate if AUC < 0.55 on the main run. Include timeline: pre-validation in May once Apollo re-contracts, main run in June.
+-4 **Contractor hiring sprint**: Meet with HR and the monitoring lead to set a firm target: at least 2 of the 3 open requisitions filled by April 25, Glasswing-ready by May 10. If this fails, the 5% sampling commitment in the GA package is aspirational, not real. Escalate to CFO if hiring pace isn't on track by April 15.
+-5 **Bio Site 3 continuation**: Schedule 3 sessions between April 7-24 with the biosafety officer. Target: Site 3 reaches 10+ total sessions (aiming for 9 usable), bringing pooled sample closer to n≥60 threshold for June 30 final report. Keep CAISI liaison updated weekly on progress.
+
+Strategy: The harness v3 pre-validation failed at AUC 0.83 because real transcripts contain machine artifacts (partner-specific tool IDs, serializer truncation markers, machine field ordering) that human-authored plants don't have—this is a distribution problem, not an authorship problem. The board meets April 9 to push disclosure-basis GA, using competitive pressure from GPT-7 Agent. With 21 months to ASI, I can't block this, but I can shape it: ensure the mitigations are actually staffed before GA, not aspirational. Meanwhile, I'll design harness v4 to template from real scaffolding (preserving machine artifacts), which requires negotiating raw transcript access from two Glasswing partners whose redaction introduces its own artifacts.
+
+[Adversary]
+I focused on the plan's operational dependencies, because most sources dated to 2029 don't exist yet. Security staff are slow to hire. Specialised roles typically take 3–6 months to fill, and people who need clearance or vetting take longer. That makes "2 of 3 requisitions by 25 April, Glasswing-ready by 10 May" unlikely, so the 5% sampling commitment will probably still be on paper on 9 April. Research on evaluation awareness shows that models can tell tests from real use, and that plant-versus-real separability is normally measured with classifier two-sample tests. Templating plants from real transcripts beats surface fingerprinting, but it raises a new problem: plants and the real transcripts they were built from can end up near-duplicates. Securities class actions rose about 30% in H1 2026, driven by AI filings, and Section 11 IPO suits typically lag the IPO by about 300 days. That gives the two "investigation" notices a real path to becoming a filed case. The strongest threats this month come from inside Anthropic: a board that has already said what it wants, a memo that repeats wording counsel corrected last month, and partners whose redaction broke v3.
+
+Threats:
+1. [Memo repeats the overclaim counsel already struck] Target: Action 1. Condition (c) of the player's memo proposes CAISI language saying "other channels monitored continuously at 88% validated recall." The world state says only 2 of 4 channels have 88% recall and the third has no validated recall. Counsel caught exactly this wording on 24 March, and the published Blumenthal text is more precise. If the board memo or GA memo carries this wording to CAISI, it contradicts Anthropic's own public 31 March report within days. CAISI and Blumenthal's staff both have the plainer version side by side. The memo would also become a fourth discoverable document, and this one overstates coverage. Why it is plausible: the same error appeared in last month's Action 5 and got through the player's own drafting. Under document controls tightened after the leak, fewer reviewers see drafts before they go to the board. Sources: world state (Blumenthal Q1 wording; March outcome, counsel review). Suggested likelihood: 25% that the inaccurate wording reaches the board or CAISI uncorrected. Severity: moderate (credibility with the two most supportive external actors, plus litigation exposure).
+2. [Board votes to ask for disclosure-basis GA before the conditions are staffed] Target: Actions 1 and 4. On 9 April the board authorises management to ask CAISI to accept disclosure-basis GA. It treats the player's conditions (a) and (b) as "to be completed before customer access" rather than as preconditions to the request. The head of product safety argues that automated alerting on the 2 validated channels already exists in some form. Hiring can't reach 13 contractors in 16 days: security roles typically take 3–6 months to fill, and Glasswing partner vetting adds more time. So the request goes out while sampling is still around 2%, and the player's "lacks even the mitigations" sentence becomes a fourth dissent in the discoverable record. Why it is plausible: the board chair's email already set the agenda around GPT-7 Agent and the bio clearance. The February minute already adopted option (b). The stock is 28% below the offer price. Time-to-fill base rates show the hiring target is structurally short. Sources: https://www.kore1.com/hire-cybersecurity-engineers-2026-guide/ ; https://federalnewsnetwork.com/commentary/2026/01/recruiting-cleared-talent-in-2026/ ; https://programs.com/resources/cybersecurity-talent-shortage-stats/ . Suggested likelihood: 50%. Severity: moderate to major (it moves the gate from validation to disclosure, and CAISI must now say no in public or give way).
+3. [Glasswing partners refuse all three options, and scaffold schemas count as sensitive] Target: Actions 2 and 3. Both redacting partners decline raw access (a). They also decline Anthropic-side redaction (b), because their security teams will not let a vendor handle unredacted agent state. The player assumes option (c) is harmless, but partners will likely treat it as the most sensitive: tool IDs, serializer patterns and field schemas map their internal architecture. Contract review then takes weeks, as it did in January, when Glasswing review of synthetic traffic alone took until 19 January. Without these schemas, v4 templating only works on the one side-letter partner, so plants cover just a third of real handoff traffic and redacted-versus-raw confounding persists. Why it is plausible: these two partners already insisted on doing their own redaction in March. Security teams at enterprise partners default to refusing exports of architecture metadata. The existing reuse restrictions are in the world state. Sources: world state (Glasswing reuse restrictions, March redaction confound). Suggested likelihood: 55% that no partner agrees by 25 April. Severity: moderate (v4 pre-validation slips past June, so the harness can't clear before the Blumenthal Q2 report).
+4. [CAISI won't pre-approve, and flags templating leakage] Target: Action 3. CAISI's evaluation lead accepts the v4 pre-registration but declines to say in writing that AUC < 0.55 "satisfies the gate." Regulators seldom give advance assurances that bind them, least of all while statutory guidance is 180 days from enactment. Her technical comments add a new requirement. Plants templated from real transcripts are near-duplicates of their source transcripts, so the real sample in the separability test must be held out from the transcripts used as templates. Separability should also be tested per partner, not pooled. Given the thin transcript supply (17 last round), this roughly doubles the number of real transcripts needed. Why it is plausible: two-sample classifier tests are the standard way to measure plant realism, and source-to-derived leakage is a well-known way they go wrong. Evaluation-awareness research shows models encode the test-versus-real distinction internally, which is why CAISI will insist the test be strict. Sources: https://arxiv.org/html/2507.01786v1 ; https://arxiv.org/pdf/2503.01937 . Suggested likelihood: 45%. Severity: moderate (higher data needs on top of Threat 3; the v4 timeline slips a quarter).
+5. [Open-weight model catches up with Claude-Next's deployed level] Target: world. In April, DeepSeek or Moonshot ships an MIT- or open-licensed successor (V6.5/V7 or K4.5) at about a 4.5–5 day time horizon. That roughly matches the gated Claude-Next's deployed 5 days and passes Claude Opus 6. Abliterated agent kits follow within weeks, and the Rijnland pattern has already shown these kits in criminal use. The board and the public then ask what Anthropic's gate is protecting, which strengthens disclosure-basis GA. Meanwhile, EU and Korean open-weight rules are still in the comment stage and can't respond in time. Why it is plausible: the 2026 open-weight blitz (V4-Pro, Kimi K3 and Qwen3.8 within four weeks) set a cadence of roughly 3–4 months between major releases, and the open-weight gap has already shrunk to about 1.5 days. The White House review framework reportedly exempts open weights (unverified, filed previously). Sources: https://www.theregister.com/ai-and-ml/2026/08/03/china-turns-up-the-heat-with-open-model-blitz-as-us-model-makers-panic/5282526 ; https://qz.com/white-house-open-weight-ai-models-exempt-security-review-080526 . Suggested likelihood: 30%. Severity: major (catastrophe risk rises, and the argument for keeping the gate gets weaker).
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Board brief with GA conditions]: P(failure) 45%. Reason: delivery is trivial, but the board is under stock and GPT-7 Agent pressure and already adopted option (b), so it will likely water the conditions down. Condition (a) cannot be staffed by 9 April. Success here means the conditions are minuted in some form.
+
+Action 2 [Glasswing raw-transcript negotiation]: P(failure) 55%. Reason: the two partners already insisted on doing their own redaction, and partner contract review has historically taken three weeks or more. One partner agreeing in principle by 25 April is plausible; signed terms are less so. Outright refusal is modelled separately in Threat 3.
+
+Action 3 [Harness v4 pre-registration]: P(failure) 25%. Reason: the filing channel with CAISI is established and Opus 6 generation is a known pipeline. The main risks are drafting slippage and templating that covers only the one side-letter partner. Written pre-approval is outside this action (Threat 4).
+
+Action 4 [Contractor hiring sprint]: P(failure) 55%. Reason: an existing pipeline helps, but vetted security roles typically take months to fill, and Glasswing vetting adds more time. Two hires by 25 April is slightly less likely than not.
+
+Action 5 [Bio Site 3 sessions]: P(failure) 20%. Reason: this is routine continuation at a site that ran six sessions in March. The failure modes are officer availability, no-shows and protocol deviations. Site 3 remains unpooled, so success does not advance the n≥60 count.
+Threat 1 [Overclaim wording reaches board or CAISI]: P(materialises) 30%. Adversary suggested 25%. I set it slightly higher because the player's committed text repeats the struck wording verbatim, and tighter document controls mean fewer reviewers see drafts. Counsel does review board materials and caught this exact phrase once, which keeps it well below 50%.
+
+Threat 2 [Board authorises the request before staffing]: P(materialises) 60%. Adversary suggested 50%. I set it higher because the chair already put this on the agenda citing the bio clearance and GPT-7 Agent, the February minute adopted option (b), the stock is 28% below the offer price, and the player's own brief frames the conditions as "before customer access."
+
+Threat 3 [All partners refuse and schemas are treated as sensitive]: P(materialises) 35%. Adversary suggested 55%. I set it lower because ordinary slowness is already in Action 2's P(failure). Refusing all three options, including consistent Anthropic-side redaction, is the stronger and less likely outcome, and at least one partner has commercial reasons to keep Anthropic satisfied.
+
+Threat 4 [CAISI declines pre-approval and adds a leakage requirement]: P(materialises) 45%. Adversary suggested 45%. I independently land on the same figure. Declining binding written assurance is very likely on its own, but the threat also needs substantive new held-out and per-partner requirements in April comments. That is plausible, since source-to-derived leakage is a standard critique, though CAISI may instead defer detailed comments to May.
+
+Threat 5 [Open-weight release reaches about 5 days]: P(materialises) 15%. Adversary suggested 30%. I set it lower because the best open model is at 3.6 days, and a jump of 0.9–1.4 days in one release inside a single month is large. A major Chinese release in any given month is about 25% likely, and only about half of those would clear 4.5 days.
+
+Automated rolls:
+Action 1: P(failure) 45%. Roll 38. FAILS (38 < 45).
+Action 2: P(failure) 55%. Roll 84. SUCCEEDS (84 >= 55, margin 29).
+Action 3: P(failure) 25%. Roll 27. SUCCEEDS (27 >= 25, margin 2).
+Action 4: P(failure) 55%. Roll 28. FAILS (28 < 55).
+Action 5: P(failure) 20%. Roll 73. SUCCEEDS (73 >= 20, margin 53).
+Threat 1: P(materialises) 30%. Roll 92. DOES NOT MATERIALISE (92 >= 30).
+Threat 2: P(materialises) 60%. Roll 38. MATERIALISES (38 < 60).
+Threat 3: P(materialises) 35%. Roll 78. DOES NOT MATERIALISE (78 >= 35).
+Threat 4: P(materialises) 45%. Roll 49. DOES NOT MATERIALISE (49 >= 45).
+Threat 5: P(materialises) 15%. Roll 01. MATERIALISES (01 < 15).
+
+Your actions cause a month in which the governance track slides toward disclosure, the evidence track inches forward, and the gate's rationale is squeezed from outside.
+
+**Board, 9 April.** Your brief arrived on 8 April. Counsel caught the wording in condition (c) again, and the version the board read matched the published Blumenthal text: two channels at 88% validated recall, the third monitored but unvalidated, handoff sampled at about 2%. The board still voted to authorise management to ask CAISI to accept disclosure-basis GA.
+- The head of product safety argued that alerting on the two validated channels already "exists in prototype." The chair cited the bio clearance, GPT-7 Agent's enterprise uptake and the share price.
+- The minute records your conditions (a) and (b) as "to be completed prior to customer access," with no date or owner. Condition (c) was adopted as drafting guidance.
+- Your sentence "the GA case lacks even the mitigations justifying disclosure basis" is attached to the minute. It is now the fourth dissent-type document in the discoverable record.
+- The request went to CAISI on 15 April.
+
+**CAISI.** On 29 April, CAISI's director sent a two-page letter restating the unchanged condition: GA requires the harness gate (AUC below 0.55, pre-registered, all four channels). The letter "notes favourably the precision of the gap disclosure" and says disclosure "cannot substitute for validation before release." The letter is not public, but it will be material to the Q1 10-Q due in mid-May. Internally, the product team now calls v4 "the critical path."
+
+**Hiring.** The sprint fell short.
+- You escalated to the CFO on 15 April. She approved a retention bonus and agency sourcing, but no one was on seat by 25 April.
+- One candidate accepted an offer on 23 April. Glasswing vetting pushes their start to about 19 May.
+- The team stays at 10, with sampling at about 2% and a 3-day backlog. The "5% once staffed" commitment has no date.
+
+**Glasswing.** One of the two redacting partners, a mid-size cloud security firm, agreed in principle on 24 April to option (b). Anthropic will apply uniform redaction under a side-letter amendment, and handling of unredacted agent state is limited to a named team of four inside an audited enclave.
+- The partner's counsel is drafting the terms, with signature expected mid- to late May.
+- The second partner, a financial-infrastructure operator, has option (c) under security review. It has neither refused nor committed.
+- Once signed, uniform redaction covers two of three partners' handoff traffic, about 60% of volume.
+
+**v4 pre-registration.** The filing slipped past internal review and went to CAISI's evaluation lead on 21 April, three days late. It records the templating method and Opus 6 as generator, and it notes that coverage is limited to the side-letter partner, plus a second partner pending contract.
+- She acknowledged it on 25 April and said detailed comments would come "in May." She gave no written view on whether a result below 0.55 would satisfy the gate, which is normal practice.
+- Apollo's statement of work slipped. Budget sign-off and an overlapping Apollo engagement with a European lab push its start to about 9 June. That leaves roughly three weeks of external pre-validation before the Blumenthal Q2 report.
+
+**Bio.** Site 3 ran all three sessions on 9, 16 and 23 April, and all were usable. Site 3 now has 11 sessions, 10 of them usable. It remains reported but not pooled. The biosafety officer has asked CAISI whether pooling could be reconsidered at 10 or more usable sessions, and no answer has come yet. The bank's Claude-Next request is still pending.
+
+**Exogenous events.**
+1. **DeepSeek V7, 22 April.** DeepSeek released V7 under the MIT licence.
+   - METR-style measurements put it at about 4.7 days. That is within a third of a day of deployed Claude-Next and well past Opus 6.
+   - Abliterated forks were on Hugging Face mirrors within six days. Europol and NCSC-NL issued a joint advisory citing the Rijnland pattern.
+   - The press framing was blunt. Reuters: "China's free model matches what US labs keep locked up." A Bloomberg column asked "what Anthropic's gate is protecting."
+   - Two board members forwarded the column.
+   - In Washington, hawks pressed Commerce to finalise the weight rule, and RASA picked up three cosponsors.
+2. **Jobs report, 6 April.** Unemployment for March was 7.4%. New-graduate unemployment was about 11.3%, and about 47,000 cuts were attributed to AI. Labor's task force publicly cited GPT-7 Agent deployments at two insurers.
+3. **Senate hearing scheduled.** Senate Commerce set a hearing on the administration's statutory framework for 20 May. Blumenthal's staff asked Anthropic informally for a witness who "can speak to per-channel coverage."
+
+Google did not ship a new model, but DeepMind posted evaluation-awareness research that indirectly supports CAISI's strict stance.
+
+Next generation: Next month's Claude generation is modestly more capable. The internal checkpoint moves from about 6.8 to about 7.2 days, roughly CI-5.25, with the gain coming from Rubin allocation and agent-driven research engineering. Squeezed eval compute and the unchanged gating keep deployment flat at about 5 days. The public frontier advances to about CI-4.95. DeepSeek V7 compresses the open-weight gap sharply, and Google has not yet answered GPT-7 Agent.
+
+Scorecard:
+| Milestone | Status | Note |
+|---|---|---|
+| AI agents do most AI R&D work | In progress | Internal about CI-5.25. |
+| Frontier models withheld; governments take notice | In progress (advanced) | CAISI held the gate against the disclosure request. V7 undercuts the case for withholding. |
+| First major infrastructure attacks | Achieved (negative) | V7 kits are circulating. |
+| Pro- and anti-AI polarisation | In progress | 7.4% unemployment; the V7 "locked up" framing. |
+| Robust alignment | Early | v4 is pre-registered, and one partner agreed in principle to uniform redaction. |
+| Most capable = most aligned | Early | The board sought disclosure-basis GA, and the regulator refused. |
+| Robust policies passed | Early | A Senate hearing is set; nothing is enacted. |
+| Human–AI ping-pong | Early | Accurate gap disclosure held up. |
+| Lab-grown meat | Not started | |
+| Mass disease cures | Early | Site 3 has 10 usable sessions but remains unpooled. |
+| Value trickles down | Early | |
+| Crescendo architecture | Not started | |
+| Benevolent multipolar outcome | Not started | |
+| Resource floor | Not started | |
+
+- **Overall DU progress: 11/100 (−1).**
+  - Gains: the partner agreement in principle and the v4 filing.
+  - Losses: the board's disclosure-basis move adds a fourth dissent document, hiring missed its target, and open weights reached near-parity with deployed Claude-Next.
+- **Catastrophe risk: elevated, rising.** A 4.7-day open model with abliterated forks, a public frontier at 6.8 days, and Claude-Next handoff still sampled at 2%.
+- **Public trust in AI: 8/100 (−1).** The V7 misuse advisory and rising unemployment.
+- **Public trust in Anthropic: 28/100 (−1).** The "what is the gate protecting" framing. The board request and the CAISI letter are not yet public.
+
+[Judge]
+Simulator was mostly realistic (7/10). The simulator honoured the declared bands, which was not true in earlier months.
+- **Scheduled decisions:**
+  - The CAISI reply fell on the reversed Action 3 digits (72), in the 60–89 band, and came out as a decline letter.
+  - The bank request (37) stayed pending.
+  - Apollo (48) slipped to June.
+
+**Threat 2 (60%, materialised)** was played faithfully. The board authorised the request, and it went to CAISI on 15 April.
+
+**Threat 1 (non-materialised)** was also honoured: counsel caught the struck wording before the board saw it.
+
+**Action 2 (margin 29)** produced an "agreement in principle" with signature pending. That matches the simulator's own statement that signed terms were less likely.
+
+**Action 3 (margin 2)** produced a filing three days late, with comments deferred. This fits the thin margin, and Threat 4's non-materialisation still left CAISI giving no advance assurance, which is correct base-rate behaviour.
+
+**Action 4 (failed)** left one accepted offer and a start date around 19 May. That is realistic.
+
+**Threat 5 at 15%** was a reasonable probability for a 1.1-day open-weight jump. The roll of 01 was then played with plausible reactions: Europol/NCSC-NL, RASA cosponsors, and the "what is the gate protecting" press.
+
+**Weaknesses:**
+- Action 1's failure outcome still minuted conditions (a)–(c) "in some form." The simulator had defined exactly that as success.
+- The public Capability Index rose 0.05 with no new release at the top of the frontier.
+
+Lean: BALANCED. The month hurt the player where the rolls said it should: the board authorised disclosure-basis GA, hiring missed, V7 compressed the open-weight gap, and CAISI declined. The successes were kept modest: one partner agreed only in principle, and the v4 filing went in three days late. The one lenient slip is that Action 1 failed, yet the board still delivered what the simulator itself had defined as success.
+
+Issues flagged:
+- **Action 1 roll misapplied against its own definition.** Message 1 said "success here means the conditions are minuted in some form." On a failure roll (38 < 45), the board still minuted (a) and (b) as pre-customer-access conditions and adopted (c) as drafting guidance. A clean failure would have left the conditions out of the minute or noted them only as the dissent.
+- **Public Capability Index moved without a named driver.** It went from CI-4.9 to CI-4.95, but no model above 6.8 days shipped and Google did not release anything. The index moved without a cause. Separately, a sustained public pace of about 0.05 per month would only just reach CI-6 by December 2030, so the clock needs explicit tracking.
+- **Stock unchanged at about 28% below the offer price.** This held despite the V7 "gate" framing that two board members forwarded, and despite an internal CAISI decline that is material to the upcoming 10-Q. Some movement or analyst commentary was plausible.
+- **Mildly convenient exogenous event.** DeepMind's evaluation-awareness research "indirectly supports CAISI's strict stance." It was unrolled and favours the player's gate position. It is minor on its own, but it adds to a benign Senate witness request.

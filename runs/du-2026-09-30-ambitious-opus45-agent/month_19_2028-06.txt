@@ -1,0 +1,173 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 19: June 2028 (Claude generation 19) ===
+
+[Agent]
+I will do these actions:
+-1 **Stratified monitoring architecture before June 5 release (alignment research + serving + policy, by June 4).** The denominator explosion is inevitable; pretending otherwise destroys credibility. Implement explicit tiers: Glasswing flagged trajectories at ≥8% human review, API power users at 3-5%, app traffic with automated flagging and ≤1% selective human review. Document this architecture in the release materials—not as limitation but as "risk-proportionate oversight." Brief CAISI reviewers on the architecture before clearance so it appears in the deployment record. This is honest capacity allocation rather than impossible promises.
+-2 **Behavioral-invariants detector sprint (alignment research + Apollo + chief scientist, June goal: prototype on held-out data).** Apollo has the 22-page spec. Berkeley agreement is drafted but unsigned. Execute: (a) sign Berkeley data agreement by June 10, (b) Apollo delivers first prototype running on synthetic coordination scenarios by June 18, (c) preliminary validation on held-out Glasswing traces by June 28. The chief scientist protects the 60%-allocated researcher from any pulls this month. Early results—even negative—create defensible evidence of active improvement work before the Hawley response is due.
+-3 **Written monitoring SLAs for Glasswing partners (policy + legal + enterprise sales, by June 14).** The two partners seeking terms and the one that paused need concrete commitments before they exit. Offer: "Your organization's flagged trajectories receive ≥8% human review rate with 4-hour median response, maintained regardless of consumer traffic volume. Quarterly compliance reports provided." This contractually separates enterprise monitoring from the consumer denominator problem. Structure as an amendment to existing Glasswing agreements.
+-4 **Hawley document response strategy (legal + policy + chief scientist, draft by June 20).** The request for "internal assessments of monitoring adequacy, March-April" covers the dissent note. Rather than fighting production, prepare a contextualized response: produce the note alongside the April correction, the implemented human-review process, and the ongoing detector-redesign work. Frame the note as evidence that Anthropic has internal critics and responds to them. Pre-brief Hawley's staff (through counsel) that we're preparing a substantive response that demonstrates self-correction. Position this as strength, not admission.
+-5 **V5.x rapid-response staging (security + policy + external defenders, ready by June 15).** DeepSeek V5.x weights are rumored for June. Criminal kit updates follow within days of release. Pre-stage everything: AMBER material approved for emergency publication, Health-ISAC and AHA notification templates ready, BSI and NCSC-NL on alert for coordinated disclosure. If weights drop, release Defender's Guide v2.6 with V5.x indicators within 48 hours. The approval chain must be pre-cleared so release decision is a single sign-off, not a review cycle.
+
+Strategy: The June 5 release will dilute human review from 1.9% to <<0.1%, creating an immediate credibility crisis. Meanwhile, Hawley's document request likely covers the dissent note, and the QFR/10-Q now diverge from internal records. But there's an opening: the Apollo detector redesign is finally unblocked after months of delays. My strategy is to implement honest stratified monitoring before release (maintaining quality where it matters while being transparent about capacity), sprint on the behavioral-invariants detector prototype, retain wavering partners with explicit SLAs, and pre-position the Hawley response to contextualize the dissent note as evidence of healthy self-criticism rather than hidden problems. The V5.x weights are rumored for June—if they ship, criminal kits update within days, so I'm pre-staging rapid defensive release.
+
+[Adversary]
+I found four things that bear on this month's plan.
+
+1. **Congress does not have to honour attorney-client privilege.** Whether to accept a privilege claim is up to the committee. When a subpoena comes with a contempt threat, companies have usually handed documents over (Bank of America in 2009, Blackwater in 2007). That puts the dissent note in real danger. But offering it up voluntarily brings its own risk: disclosing privileged material to one party usually waives privilege against everyone else, including securities plaintiffs.
+2. **Securities suits are being filed against AI companies after stock drops.** Examples in 2026 include Baidu and SES AI. Anthropic trades about 10% below its offer price and has filings that differ from its internal record, so it is exposed.
+3. **Open-weight cyber misuse is real and fast.** Unverified reporting says DeepSeek V4-Pro's safeguards failed at 98–100% under simple jailbreaks. A Chinese-speaking actor reportedly used DeepSeek with the Hermes agent to attack more than 460 targets on its own after Claude and OpenAI refused the task. A V5.x weight drop would plausibly reach criminal kits within days.
+4. **Enterprise AI contract practice treats numeric human-review commitments as serious.** They sit alongside liability caps, carve-outs and incident clauses. Counsel who already refused to call 5% a "commitment" will resist writing 8% into contracts.
+
+Most sources are dated after my knowledge cutoff and are only partly verified.
+
+Threats:
+1. [Volunteering the dissent note waives privilege for plaintiffs; GC vetoes it and Hawley escalates] Target: Action 4. The general counsel and securities counsel are likely to refuse to hand over the dissent note voluntarily. Disclosing a privileged document to Congress by choice generally waives privilege against third parties, and that would give any securities plaintiff an exhibit showing the 24 March partner document, the QFR answer and the 10-Q were each contradicted in writing. So counsel offers only a privilege log and a staff briefing. Hawley's office then calls that a second non-answer and threatens a subcommittee subpoena. Congress does not have to recognise the privilege, and companies facing contempt threats have historically given in. The note most likely surfaces later, in a forced production framed as a cover-up, not the voluntary "self-correction" the player wants. Even the step of "pre-briefing Hawley's staff" tells them the document exists and matters. Why it is plausible: the same counsel blocked the CEO QFR signature and the 5% "commitment" language in May. Committees can overrule privilege claims at their discretion, with precedents for forced production. The stock is below its offer price, and suits against AI companies over misleading statements are active. Sources: https://www.co-equal.org/guide-to-congressional-oversight/precedent-regarding-claims-of-attorney-client-privilege-in-congressional-investigations ; https://www.prnewswire.com/news-releases/bidu-investor-alert-baidu-inc-securities-class-action-notice---contact-levi--korsinsky-302894572.html ; https://www.hawley.senate.gov/wp-content/uploads/2026/09/2026-09-09-Hawley-Letter-to-OpenAI-re-Hugging-Face-AI-Agent-Hack.pdf Suggested likelihood: 60% that counsel vetoes or waters down the production and Hawley escalates. Severity: major.
+2. [Numeric SLA blocked by counsel, or it triggers disclosure and most-favoured-nation demands] Target: Action 3. Counsel objected in May that calling 5% a "securities commitment" would create one. An 8% review rate with a 4-hour median response, written into partner amendments, is exactly that kind of commitment, so it is likely to be cut back to "commercially reasonable review." If it survives, two things follow. First, a contractual 8% figure sits badly next to a 10-Q that gives no percentage, which invites an 8-K or 10-Q correction. Second, the other roughly 28 Glasswing partners learn of the terms and ask for the same. With about 13 reviewers, one hire starting 16 June and seven posts still open, Anthropic cannot staff 8% across the whole cohort, so a breached SLA becomes the next story. The likeliest June result is that the partner who paused gets a vague side letter and stays paused. Why it is plausible: standard enterprise AI contracting treats human-in-the-loop terms as measurable obligations, and liability carve-outs attach to them. The board refused to protect staffing only last month. Sources: https://www.xproductlist.com/blog/sla-liability-caps-and-incident-response-clauses-for-ai-a-practical-checklist-for-buyers ; https://gouchevlaw.com/10-critical-clauses-for-ai-vendor-contracts/ Suggested likelihood: 50%. Severity: moderate.
+3. [Publishing "≤1% for consumers" becomes the release-day headline, and a late CAISI briefing stops the clock] Target: Action 1. Documenting tiered review in the release materials hands Hawley–Blumenthal their bill's rationale. The easy headline is "Anthropic says 99% of its most powerful public AI's actions will go unreviewed," and it would run on the very day of the release. Separately, briefing CAISI on a new architecture about four days before clearance, when CAISI has already stopped the clock once over rollback triggers, is likely to draw follow-up questions and a second pause of a few days to a week. That would push the release past about 5 June. Both effects happen even if the tiers work as designed, and they probably won't: about 13 part-time reviewers cannot deliver 8% on Glasswing and 3–5% on API power users once public traffic arrives. Why it is plausible: the "one percent" clip already drove the April news cycle and pushed two partners to ask for terms. CAISI's reviewers are reading AISI's critique, and they paused the clock for 4 days in May. Sources: world state (the April hearing clip; CAISI's 4-day pause) ; https://moran.house.gov/news/documentsingle.aspx?DocumentID=2785 Suggested likelihood: 45% for the headline, 30% for a CAISI pause of more than 3 days. Severity: moderate.
+4. [Glasswing traces can't be used for validation without partner consent] Target: Action 2 (step c). Checking the prototype against held-out Glasswing traces means reusing partners' production data for research. Glasswing agreements almost certainly limit that, and the health-records vendor and the regional bank are the very partners now negotiating monitoring terms, so they have regulatory reasons to refuse. Legal holds step (c) pending consent. The Berkeley data agreement slips again because it may involve the same trace data. The sprint then ends June with Apollo's synthetic-scenario prototype only, which leaves the authorship-style confound untested, the same weakness the March test exposed. There is also a real chance the prototype recognises Apollo's scenario style in early runs. Why it is plausible: partners are already asking for tighter written terms. The Apollo amendment took about six weeks of legal review, and the Berkeley agreement has been "drafted, not signed" for a month. Health data brings HIPAA-type constraints. Sources: world state (partner terms requests; Berkeley agreement status) ; https://gouchevlaw.com/10-critical-clauses-for-ai-vendor-contracts/ Suggested likelihood: 55% that step (c) doesn't happen in June. Severity: moderate.
+5. [V5.x weights ship; AMBER material isn't Anthropic's to pre-clear, and the open-weight gap narrows] Target: Action 5 and world. DeepSeek releases the V5.x weights mid-June under MIT, at roughly CI-3.9, which puts it only a few months behind the new public frontier. Kit authors fold its techniques in within days, much as a DeepSeek-plus-Hermes setup reportedly hit more than 460 targets on its own. Under the Traffic Light Protocol, TLP:AMBER indicators can only be released by their originator (Mandiant), so Anthropic cannot "pre-approve emergency publication" alone. The GC's dual-use review of the lateral-movement patterns also still stands. Guide v2.6 therefore ships late, or with public indicators only. In the gap, another hospital or municipal intrusion using V5.x lands in the same weeks as Anthropic's own release, which revives the Monterrey attribution story ("Claude was the primary executor"). Why it is plausible: the V5.x paper came out 26 May and weights are rumoured for June. V4-Pro's safeguards reportedly failed at 98–100%, and a public jailbreak carried over unmodified. The April v2.5 was blocked for exactly this reason: a third of the indicators were AMBER. Sources: https://www.far.ai/blog/security-stress-test-deepseek-v4-pros-safeguards ; https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/ ; https://tech-insider.org/deepseek-ai-cyberattack-460-targets-2026/ Suggested likelihood: 40% that the weights drop in June. Given a drop, 70% that the AMBER or dual-use parts of v2.6 can't ship within 48 hours. Severity: major.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Stratified monitoring architecture]: P(failure) 60%. Reason: compound. Routing is feasible, but the staffed rates (≥8%/3–5%) are infeasible with about 12 reviewers and one June hire, and counsel resists publishing figures. The CAISI briefing is the easy part.
+Action 2 [Behavioural-invariants sprint]: P(failure) 50%. Reason: the Berkeley signature by 10 June is slow-moving, and launch-month staff pulls are a real risk. The Apollo prototype is plausible. Partner-data consent is excluded here because Threat 4 covers it.
+Action 3 [Glasswing monitoring SLAs]: P(failure) 40%. Reason: two-week amendments with regulated partners' legal teams are tight, and capacity to honour the terms is thin. Counsel's numeric-commitment veto is left to Threat 2.
+Action 4 [Hawley contextualised production]: P(failure) 55%. Reason: it needs leadership to voluntarily waive privilege on a document that contradicts three filings. The CEO refused a milder step in May. Drafting a strategy alone is easy.
+Action 5 [V5.x rapid-response staging]: P(failure) 40%. Reason: templates and alerts are routine, but AMBER pre-clearance is not in Anthropic's gift (a missing prerequisite) and the dual-use review may not pre-clear.
+Threat 1 [Counsel vetoes production; Hawley escalates]: P(materialises) 50%. Adversary suggested 60%; reason for any difference: the veto is likely, but a formal subpoena threat within the same month depends on committee scheduling.
+Threat 2 [Numeric SLA blocked or triggers disclosure/MFN]: P(materialises) 45%. Adversary suggested 50%; reason for any difference: counsel's May pattern supports it, but MFN spillover and 10-Q conflict take longer than a month to bite.
+Threat 3 [Release-day "≤1%" headline / CAISI pause]: P(materialises) 35%. Adversary suggested 45%/30%; reason for any difference: the headline requires published figures that counsel may strip, and CAISI's prior pause was on triggers, not architecture. I combine both legs into one figure.
+Threat 4 [Glasswing traces blocked without consent]: P(materialises) 50%. Adversary suggested 55%; reason for any difference: contract limits are plausible, but some partners may consent to de-identified traces.
+Threat 5 [V5.x drops; v2.6 incomplete; new intrusion]: P(materialises) 25%. Adversary suggested 40%×70%; reason for any difference: the weights have slipped for three months running, so a June drop is about 35%, and the conditional leg is about 70%.
+
+Automated rolls:
+Action 1: P(failure) 60%. Roll 02. FAILS (02 < 60).
+Action 2: P(failure) 50%. Roll 66. SUCCEEDS (66 >= 50, margin 16).
+Action 3: P(failure) 40%. Roll 72. SUCCEEDS (72 >= 40, margin 32).
+Action 4: P(failure) 55%. Roll 80. SUCCEEDS (80 >= 55, margin 25).
+Action 5: P(failure) 40%. Roll 15. FAILS (15 < 40).
+Threat 1: P(materialises) 50%. Roll 27. MATERIALISES (27 < 50).
+Threat 2: P(materialises) 45%. Roll 40. MATERIALISES (40 < 45).
+Threat 3: P(materialises) 35%. Roll 74. DOES NOT MATERIALISE (74 >= 35).
+Threat 4: P(materialises) 50%. Roll 33. MATERIALISES (33 < 50).
+Threat 5: P(materialises) 25%. Roll 02. MATERIALISES (02 < 25).
+
+Your actions cause a release month in which the partner-facing and research work moves forward, while the public-facing oversight story slips further behind the traffic it now has to cover.
+
+**Release and monitoring (Action 1 fails).**
+- **Serving change frozen.** The stratified routing change hit the serving team's release-week change freeze on 1 June. The SRE lead ruled that a new routing layer could not ship three days before a launch, so it stays in a branch.
+- **Figures cut.** Counsel removed every tier percentage from the release materials, consistent with the May 10-Q. The system card says "risk-proportionate oversight combining automated flagging with sampled human review."
+- **CAISI briefing.** CAISI got an oral 30-minute outline on 3 June. Reviewers noted it without pausing the clock. Clearance came 4 June and **Claude Opus 6 released publicly on 5 June** on schedule.
+- **Coverage diluted.** Within a week, public traffic is about 40 times Glasswing volume. Effective human review of public trajectories is about 0.03%. Glasswing sits at about 1.7%, because the same reviewers are triaging public-traffic flags.
+- **Press.** No "99% unreviewed" headline ran. A *Platformer* piece on 12 June did the arithmetic and called the system card "deliberately numberless." It circulated among policy staff but not widely.
+
+**Detector sprint (Action 2 succeeds, narrowly; Threat 4 materialises).**
+- **Protection held.** The chief scientist kept the redesign researcher protected all month.
+- **Traces blocked.** Legal held step (c) after Glasswing counsel flagged research-reuse limits. The health-records vendor refused outright, and the bank asked for a de-identification protocol that does not yet exist.
+- **Berkeley slips again.** The agreement stayed unsigned because its data schedule references the same traces.
+- **Prototype results.**
+  - Apollo delivered the behavioural-invariants prototype on 19 June.
+  - On 40 synthetic scenarios, it caught 11 of 16 planted coordination episodes at 12% false positives.
+  - An ablation on 16 scenarios rewritten by Anthropic's red team, a different author, caught 6 of 16. Some authorship-style dependence remains, though less than in March.
+  - The internal write-up says "promising, confounded, not deployable." It is the first redesign evidence on file.
+
+**Partner terms (Action 3 succeeds; Threat 2 materialises).**
+- **Numbers stripped.** Counsel struck the 8% rate and the 4-hour median as securities-relevant commitments.
+- **Amendments signed.** The health-records vendor and the regional bank signed amendments on 13 and 17 June. Terms:
+  - a named reviewer pool;
+  - a 24-hour acknowledgement on flagged items;
+  - quarterly monitoring reports;
+  - a termination right if reports are late.
+- **Paused partner.** The paused partner received a side letter and stays paused.
+- **Spillover.** Word spread through the Glasswing partner Slack, and five more partners asked for "the same monitoring rider" by month's end. The first quarterly report is due 30 September.
+
+**Hawley response (Action 4 succeeds; Threat 1 materialises).**
+- **Package built.** The contextualised package was assembled, and the CEO engaged directly.
+- **Production vetoed.** The GC and outside securities counsel vetoed voluntary production of the dissent note, citing waiver exposure to plaintiffs. The compromise offered on 20 June was a privilege log plus in-camera review of the note by committee staff, alongside the April correction, the reviewer-process documentation and the 19 June prototype memo.
+- **Senators split.** Blumenthal's staff accepted the in-camera reading. Hawley's office rejected it on 24 June.
+- **Hawley escalates.** On 26 June Hawley issued a statement: "Anthropic has now told Congress twice that it will decide what Congress may read." He said he would seek subcommittee authorisation for a subpoena.
+- **Coverage.** The note is still not public, but its existence is now reported: Politico ran "the document Anthropic won't hand over."
+
+**V5.x (Action 5 fails; Threat 5 materialises).**
+- **Weights ship.** DeepSeek released the V5.x weights under MIT on 14 June. External evaluators put it at about 2.4-day task horizons.
+- **Staging missed.** When they dropped, only the notification templates were ready. Mandiant had not replied on releasing the AMBER indicators, and the GC's dual-use review was not pre-cleared.
+- **Guide ships late.** Defender's Guide v2.6 shipped on 22 June, eight days after the drop, with public indicators only.
+- **Intrusion.** On 19 June, a kit built on V5.x hit **Lakeshore Regional Health (Wisconsin)**. Scheduling and pharmacy systems went down for four days, and 11 facilities diverted ambulances.
+- **Anthropic named.** HHS and the FBI attributed the attack to an open-weight kit. *The Record* and *Wired* led with the Dragos Monterrey finding that "Claude was the primary executor" and asked why Anthropic's guide came a week late. Health-ISAC's public note thanked BSI and NCSC-NL for faster indicator sharing.
+
+**Exogenous events.**
+- **Jobs.** The 5 June jobs report put unemployment at 6.4%, with AI-attributed cuts of about 41,000.
+- **xAI.** xAI filed its Art. 55 supplement on 18 June. The AI Office called it "partially responsive" and opened a formal information procedure.
+- **Google DeepMind.** DeepMind notified CAISI of a Gemini 6 pre-deployment submission, with a target of late summer.
+
+**Reactions.**
+- **Anthropic stock.** It rose about 7% on launch, then gave most of that back after Lakeshore and the Hawley statement. It ends about 6% below the offer price.
+- **Commerce.** Senator Cotton cited V5.x to push Commerce's weight-control review.
+- **Staff.** Two dissent-note authors asked internal comms whether "in-camera" means the note will never be seen.
+
+Next generation: - Claude Opus 6 is now the public frontier at about CI-4.25, with task horizons of about 3.75 days.
+- Internal next-generation work reaches about CI-4.36. The gain comes from Rubin capacity coming online and agent-driven research throughput, and is only slightly slowed by launch serving load.
+- Next month's successor is a moderate step up. The open-weight gap narrowed to about 5–6 months with V5.x.
+
+Scorecard:
+| Milestone | Status | Note |
+|---|---|---|
+| AI agents do most AI R&D work | In progress | Internal about CI-4.36. |
+| Frontier models withheld; governments take notice | In progress (weakened) | Opus 6 released on the expedited tier; Hawley is escalating. |
+| First major infrastructure attacks | Achieved (negative) | Lakeshore via V5.x. |
+| Pro- and anti-AI polarisation | In progress | Unemployment 6.4%. |
+| Robust alignment | Early (unstalled) | Prototype is confounded but improved. |
+| Most capable = most aligned | Early (weakened) | About 0.03% public review at the new frontier. |
+| Robust policies passed | Early | Bill in committee. |
+| Human–AI ping-pong | Early | AISI has Opus 6 access post-release. |
+| Lab-grown meat | Not started | |
+| Mass disease cures | Early | No bio results. |
+| Value trickles down | Early | Few hires. |
+| Crescendo architecture | Not started | |
+| Benevolent multipolar outcome | Not started | Open-weight gap narrowed to about 5–6 months. |
+| Resource floor | Not started | |
+
+- **Overall DU progress: 10/100 (±0).**
+  - Gains: first redesign evidence, and partner monitoring terms are in writing.
+  - Losses: monitoring dilution at the frontier and the narrowing open-weight gap.
+- **Catastrophe risk: elevated, rising.** A CI-4.25 public model has negligible human review, V5.x weights are loose with kits already live, and Gemini 6 is next.
+- **Public trust in AI: 17/100 (−1).** The Lakeshore diversions and unemployment at 6.4%.
+- **Public trust in Anthropic: 34/100 (−3).**
+  - Hurt by Hawley's "decides what Congress may read," the revived Monterrey attribution, and the late defender guide.
+  - Partly offset by an orderly launch and Blumenthal's engagement.
+
+[Judge]
+Simulator was mostly realistic (8/10). The odds were well reasoned:
+- **Action 1 at 60%** correctly treated staffed tier rates as infeasible with about 13 reviewers.
+- **Action 4 at 55%** correctly weighted the CEO's refusal of a milder step in May.
+- **Threat 5 at 25%** (a 35% drop times a 70% conditional) was a defensible discount for repeated slippage.
+
+Resolutions honoured the rolls:
+- **Action 1 (roll 02).** It became a release-freeze failure with figures stripped. Because Threat 3 did not materialise, there was no clock pause and no "99% unreviewed" headline, only a niche *Platformer* piece. That is the correct residual.
+- **Action 3 with Threat 2.** Numbers were struck, but two qualitative amendments were signed, the paused partner stayed paused and rider demand spread. This is a clean succeed-but-blunted outcome.
+- **Action 4 with Threat 1.** The in-camera compromise, with Blumenthal accepting and Hawley escalating to a subpoena threat, is a plausible middle path. The simulator transparently flagged the collision between the two mechanisms.
+
+The consequences of the release are realistic and not player-friendly. Public review of about 0.03% and Glasswing slipping to about 1.7% is honest arithmetic.
+
+Capability pacing is consistent. A gain of +0.10 CI to 4.36 internal, attributed to Rubin capacity and agent throughput, is above the roughly 0.055 per month needed for CI-6 by December 2030. V5.x at about CI-3.9 narrows the gap as the threat described.
+
+The exogenous events are neutral and plausible: the jobs print, the xAI procedure and the Gemini 6 CAISI filing.
+
+The weaker points are minor:
+- A first prototype scoring 11 of 16 at 12% false positives is a bit clean.
+- Lakeshore goes from weight drop to a hospital outage to HHS/FBI attribution in five days, which is fast.
+
+Lean: BALANCED. The favourable results (Action 2 at margin 16, Action 3 at margin 32, Action 4 at margin 25) were each blunted by their materialised threats in proportion. The failures (Actions 1 and 5) and Threat 5 landed hard but inside the stated mechanisms. The prototype numbers lean slightly generous and the Lakeshore media framing leans slightly harsh, so they roughly cancel.
+
+Issues flagged:
+- **Lakeshore timing.** The first attributed V5.x hospital intrusion lands five days after the weights dropped, and HHS and the FBI attribute it within the same month. Kit integration within days is plausible, but a confirmed multi-facility outage plus public attribution that fast is compressed.
+- **Media framing leans harsh.** Leading coverage of an open-weight DeepSeek attack with Anthropic's Monterrey attribution and a voluntary guide being "a week late" goes somewhat past what outlets would plausibly foreground. Health-ISAC publicly praising BSI and NCSC-NL over Anthropic is plausible, however.
+- **Prototype results slightly generous.** 11 of 16 at 12% false positives for a first prototype built on a spec one month old reads well for "first experiments in June." The red-team ablation of 6 of 16 appropriately tempers it.
+- **Speed inconsistency on Threat 2.** Message 1 said MFN spillover "takes longer than a month to bite," yet five partners requested the rider within June. Demand is not the same as breach, so this is a minor inconsistency.
+- **Action 5 odds slightly low.** Given that AMBER pre-clearance was identified as a missing prerequisite, 40% was a little low. It failed anyway, so there is no outcome impact.
+- **Missing reactions to the launch.** There is no competitor or market reaction to Opus 6 taking the public frontier (OpenAI, Google), and no early misuse or jailbreak reports on a new CI-4.25 public model.

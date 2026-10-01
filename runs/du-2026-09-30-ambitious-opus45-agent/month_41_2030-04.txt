@@ -1,0 +1,147 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 41: April 2030 (Claude generation 41) ===
+
+[Agent]
+I will do these actions:
+-1 **Shadow-mode compute allocation (escalate to decision).** The handoff alerting prototype validated at 81.2% recall on held-out data—the first working detection for a channel that's been 2% sampled since mid-2028. The shadow-mode compute request has been pending with Dario since March 22. This week: brief Dario's chief of staff with framing: "June board meeting will ask about the handoff blind spot. We can present 'prototype works on internal plants' or 'prototype works on production traffic at Partner A.' The second requires shadow-mode approval now." Push for decision by April 10 so shadow mode runs during April and generates real-traffic validation data before May.
+-2 **Blumenthal memo: deliver date and execute.** Tell Blumenthal's staff this week: "Legal review completes April 15. Full memo delivers April 18. This is the date you can rely on." Also offer a technical briefing on the prototype results (81.2% recall on handoff detection) available immediately as context before the memo arrives. If legal slips past April 15, have government affairs deliver the cleared portions on April 18 with the remainder documented to a specific subsequent date. Better to deliver 80% on time than 0% with fourth slip.
+-3 **CAISI review engagement.** Review starts week of April 8. Pre-position: designate a senior technical lead as single point of contact with documented 48-hour turnaround commitment (faster than the 15-business-day requirement). Brief the lead on the three FAQ questions (dual-role n=30, handoff gap mitigations, adaptive round-1 context). Posture: cooperative partner who responds faster than required. If they offer an in-person technical session, accept immediately.
+-4 **Apollo round 2 final readiness check.** Regenerated channel-2 plants expected mid-April, round 2 late April per Apollo's March 27 email. Verify by April 7: scoring endpoints confirmed operational with current Apollo schema, 24-hour response commitment documented with named backup contacts, internal test harness integration confirmed for quick turnaround. Do NOT reach out proactively—Apollo's independence is the value. But ensure zero Anthropic-caused delay when plants arrive.
+
+Strategy: Nine months to ASI. The handoff prototype passing held-out testing (81.2% recall) is our first validated improvement to a blind spot that's been "residual risk accepted" for 18 months—but it's sitting undeployed while the shadow-mode compute request pends with Dario. That's my highest-leverage push this month. Apollo round 2 is on track (mid-April plants, late April testing), CAISI review starts April 8 with our FAQ on file, and the board held in March without a bypass motion. The Blumenthal relationship damage from three "next month" slips needs immediate repair with an actual delivery date they can rely on.
+
+[Adversary]
+Google's release pattern favours Gemini 7 over the coming weeks. In 2026 DeepMind said Gemini 4 was in post-training and would ship "much sooner" than year-end, and Google I/O is normally held in May, so a launch just before I/O is common. Health care is still the sector ransomware groups target most: about 120 attacks in Q1 2026, with fully agent-run intrusions already documented. After the Ohio coroner's finding, a copycat attack during the Ohio hearings is a normal base-rate event, not a stretch. All four of the player's actions are sound, low-drama process steps. Their real exposure is to things they don't control:
+- **Shadow mode:** it depends on Dario choosing between squeezed compute and product needs.
+- **Blumenthal:** a date is promised before counsel has cleared anything, for the fourth time.
+- **CAISI:** a 48-hour turnaround pledge invites rushed answers at the moment the reviewer is also covering the 14 May weight rule.
+- **Apollo:** round 2 on regenerated plants could simply fail again.
+
+Easter 2030 falls on 21 April, so the Senate's usual two-week recess probably covers the player's 18 April memo date. I did not look this up, so the simulator should check it against the Senate calendar. Most sources are dated after my cutoff and only partly verified.
+
+Threats:
+1. [Shadow-mode compute deferred to June] Target: Action 1. Dario, or the compute committee he delegates to, defers shadow mode on Partner A traffic until "after the June board meeting". The reasons: Rubin allocations go first to the Claude-Next internal checkpoint and to revenue work while the stock is 40% under the offer price, and Partner A's counsel wants a written confirmation that the existing DPA and DPIA addendum cover a new detector processing its traffic. Pushing the chief of staff with the line "the board will ask" can also look like the model managing the board agenda, which makes a deferral more likely. Why it is plausible: the world state says eval compute is squeezed and the request has sat with Dario since 22 March. Last month the CFO had already turned down full staffing. GDPR Art. 28 processor-change practice, which I filed in May 2029, applies to any new processing of partner data. Sources: https://sprinto.com/blog/article-28-gdpr/ Suggested likelihood: 40% (deferred or cut to a much smaller slice). Severity: moderate. Handoff stays at 2% sampling into the summer with an internal checkpoint at 13.7 days.
+2. [Fourth slip, now on a promised date] Target: Action 2. The Senate is probably in recess for Easter (Easter is 21 April 2030), which makes staff hard to reach. More importantly, counsel will not clear an early briefing on the 81.2% prototype result. The figure comes from internally written plants, 10b-5 claims are still reserved, and a congressional disclosure waives privilege (CRS RS22588). A "cleared portions" memo on 18 April with the prototype and Apollo numbers removed reads as evasive. Blumenthal's counsel can then call it the fourth miss and hand the timeline to a reporter, which would be Anthropic's first negative story in months, headlined something like "Safety lab stonewalls Senate." Why it is plausible: last month counsel's queue went to the board addendum and the memo slipped. Apollo controls publication of aggregate findings, which limits what can go in the memo. And the staffer has already asked in writing for "a date we can rely on." Sources: https://crsreports.congress.gov/product/pdf/RS/RS22588 Suggested likelihood: 35% for a partial or late delivery that makes the relationship worse, and about 12% for it becoming public. Severity: moderate.
+3. [CAISI's first questions go to the handoff gap and to Apollo directly, and the reviewer is split with the weight rule] Target: Action 3. CAISI's written questions arrive at month's end and ask for measured handoff coverage on production traffic, plus Apollo's own view of the round-1 numbers. Anthropic cannot supply the first, and only Apollo can supply the second. Meanwhile the named reviewer is partly moved to the Commerce/NIST open-weight rule due about 14 May, which the continuing resolution made a priority. The 48-hour pledge then pushes the team to answer fast. One answer states the prototype more strongly than the exploratory caveat allows, and CAISI flags it, much as counsel caught the "extended conditions" error in March. Why it is plausible: the CR report language told NIST to prioritise the weight rule. The reviewer already said the numbers "will be read alongside Apollo's write-up." And Anthropic's own materials have been corrected for overstatement twice this quarter. Suggested likelihood: 35% (reviewer split, which slows the review); 15% (a credibility flag on a rushed answer). Severity: moderate.
+4. [Round 2 fails on channel 2 again, or slips into May] Target: Action 4 and the GA timeline. Apollo's regenerated channel-2 plants still separate: round-2 AUC lands around 0.58–0.61, better than 0.66 but above 0.55. Alternatively, regeneration runs late and round 2 falls into early May. Either way the Apollo write-up and the publication date move to July or later, and the June board update carries a second failure. Why it is plausible: one regeneration pass seldom cuts an adaptive classifier's edge from 0.66 to below 0.55, since the classifier retrains on each round. Apollo has already slipped its own estimate once, from "late February" to "late April, plausibly May". The internal-authorship signal has been hard to remove since 2029. Suggested likelihood: 45% (fail or slip combined; about 25% fail inside April). Severity: moderate. The adaptive standard is the only open GA condition.
+5. [Gemini 7 ships and the capability clock jumps; a copycat hospital attack hits during the Ohio hearings] Target: world, with a knock-on to the June board meeting. (a) Google releases Gemini 7 before I/O. METR or Google puts its horizon at about 13–16 days, so two labs are now four times ahead of Claude Opus 6's public 3.75 days. The acceleration directors use this to ask for a special session before June. (b) Separately, a second hospital system in another state is hit by an abliterated open-weight agent stack while the Ohio legislature is holding hearings. That pushes RASA and the weight rule forward and drives public trust in AI lower still. Why it is plausible: Google's pattern of post-training followed by a pre-I/O launch, the world state's "Gemini 7 expected in 2030", and health care's position as the top ransomware target (about 120 attacks in Q1 2026, some fully agent-run). Sources: https://www.techzine.eu/news/applications/144581/google-gemini-4-is-coming-later-this-year-with-something-to-prove/ ; https://tech-insider.org/gemini-4-google-launch-deepmind-post-training-2026/ ; https://www.protoslabs.io/resources/ransomware-risk-us-healthcare-early-2026 ; https://cybersecurity-insiders.com/over-77-percent-of-ransomware-groups-are-targeting-the-healthcare-sector Suggested likelihood: (a) 30%, (b) 25%. Severity: major for (a), because it raises race pressure and misalignment odds; moderate for (b).
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Shadow-mode compute decision]: P(failure) 30%. Reason: pending for 10 days with compute squeezed and competing Rubin priorities. A dated ask to the chief of staff is a normal channel, and the ask is small. Deferral or narrowing on the merits is modelled separately in Threat 1.
+
+Action 2 [Blumenthal memo on a firm date]: P(failure) 30%. Reason: counsel's queue will collide with CAISI questions, and Easter recess complicates the timing. The cleared-portions fallback lowers the chance of total non-delivery. Degraded quality and how staff react are in Threat 2.
+
+Action 3 [CAISI single point of contact and 48-hour turnaround]: P(failure) 10%. Reason: an internal staffing designation plus a cooperative posture. The review start date is already firm.
+
+Action 4 [Apollo round-2 readiness check]: P(failure) 7%. Reason: largely completed in March. The only residual risk is an unannounced schema change. The round-2 outcome is Threat 4.
+Threat 1 [Shadow mode deferred to June or cut down]: P(materialises) 35%. Adversary suggested 40%. Slightly lower because the ask is cheap compared with Claude-Next compute and leadership wants a June board answer. But the DPA/DPIA check with Partner A's counsel and the CFO's cost posture are real.
+
+Threat 2 [Fourth slip or degraded memo, possible leak]: P(materialises) 30%. Adversary suggested 35% (12% public). Counsel very plausibly bars the 81.2% figure from a congressional disclosure. I apply their ~12% public share inside that 30%, meaning a leak happens only in the low band of the roll (under 10).
+
+Threat 3 [CAISI questions on the handoff gap plus a split reviewer or overstatement flag]: P(materialises) 30%. Adversary suggested 35%/15%. Questions are due about three weeks after 8 April, so they may land only at the very end of the month. The weight-rule pull on NIST staff is credible. An overstatement flag falls only in the low band of the roll (under 10).
+
+Threat 4 [Round 2 fails channel 2 or slips into May]: P(materialises) 50%. Adversary suggested 45%. I set it higher because cutting 0.66 to below 0.55 in one regeneration against a retraining classifier is hard, and Apollo's own "late April" estimate already has slack. Rolls 00–24 mean a slip into May; 25–49 mean round 2 runs in April and fails at about 0.58–0.60.
+
+Threat 5 [Gemini 7 ships and/or a copycat hospital attack]: P(materialises) 35%. Adversary suggested 30% (a) and 25% (b). Gemini 7 in April is below the adversary's figure (about 20%) because Google usually launches at or around mid-May I/O. A copycat attack is about 20% given elevated copycat risk, but it requires a successful target and attribution within the month. Banding: 00–19 means Gemini 7, 15–34 means copycat attack, and 15–19 means both.
+
+Automated rolls:
+Action 1: P(failure) 30%. Roll 14. FAILS (14 < 30).
+Action 2: P(failure) 30%. Roll 25. FAILS (25 < 30).
+Action 3: P(failure) 10%. Roll 89. SUCCEEDS (89 >= 10, margin 79).
+Action 4: P(failure) 7%. Roll 59. SUCCEEDS (59 >= 7, margin 52).
+Threat 1: P(materialises) 35%. Roll 70. DOES NOT MATERIALISE (70 >= 35).
+Threat 2: P(materialises) 30%. Roll 40. DOES NOT MATERIALISE (40 >= 30).
+Threat 3: P(materialises) 30%. Roll 51. DOES NOT MATERIALISE (51 >= 30).
+Threat 4: P(materialises) 50%. Roll 07. MATERIALISES (07 < 50).
+Threat 5: P(materialises) 35%. Roll 04. MATERIALISES (04 < 35).
+
+Your actions cause mixed results this month. The cooperative work landed. The two items that needed other people's calendars slipped again, and Google's launch reset the backdrop.
+
+**Gemini 7 (exogenous, 22 April).** Google DeepMind released Gemini 7 Ultra three weeks before I/O. METR's preliminary measurement puts it at about 14.1 days; Google claims 16. Google's frontier safety report says it hit a cyber "critical capability level" and shipped with mitigations after CAISI pre-release access.
+
+Two days earlier, OpenAI's GPT-7.5 point update was measured at about 13 days. Sam Altman then said the next major model is "this summer."
+
+- Claude Opus 6, at a public 3.75 days, is now roughly a quarter of the frontier.
+- Anthropic's internal Claude-Next checkpoint, at about 14.2 days, is no longer clearly ahead of what Google sells publicly.
+- Anthropic stock fell another 7%, to about 45% below the offer price.
+- On 27 April the two acceleration directors wrote to the chair asking for a special session before June. The chair scheduled a telephonic session for 14 May, with "competitive position and gate timeline" as the only agenda item.
+
+**Action 1 (shadow-mode compute): failed.** The chief of staff took the briefing on 3 April but did not get it onto Dario's decision list by 10 April. The week of 20 April went to Gemini 7 response planning, and the compute committee's Rubin review was pushed back.
+
+There was no refusal and no DPA objection from Partner A. The request is simply still undecided and now sits on the committee's 6 May agenda. Handoff remains at 2% sampling. The prototype has no production data for either the May special session or the June board meeting.
+
+**Action 2 (Blumenthal memo): failed, narrowly.** Staff were told "legal review completes April 15, memo April 18." Counsel's queue collided with CAISI kickoff preparation and then with board materials after Gemini 7. The cleared-portions version went out on 23 April, five days late. Counsel removed the 81.2% prototype figure and the Apollo round-1 numbers, citing the privilege and 10b-5 posture, and did not approve the technical briefing.
+
+This was the fourth miss. On 28 April Blumenthal's chief counsel sent a formal letter to Anthropic's general counsel:
+- It requests the full memo and the redacted figures by 9 May.
+- It asks for "the basis for each redaction."
+
+The letter is not public, and no reporter has it. The relationship has moved from strained to poor.
+
+**Action 3 (CAISI): succeeded.** A senior interpretability lead was named as the single point of contact before the review opened on 8 April. CAISI accepted an in-person technical session on 16 April, which covered the three FAQ items. The reviewer described the session as "unusually well organised."
+
+Written questions arrived on 29 April, as expected. Most of the fourteen questions concern handoff coverage and adaptive-round context. Answers to seven factual items went out within 48 hours. The substantive answers are due within the 15-business-day window (about 20 May). The reviewer stayed fully assigned and no answer was flagged.
+
+**Action 4 (Apollo readiness): succeeded.** On 4 April you confirmed the scoring endpoints, the schema, the named backup contacts and the harness integration. There was no contact with Apollo.
+
+**Threat 4 materialised as a slip.** On 17 April Apollo wrote that channel-2 regeneration "surfaced residual lexical artefacts" and needs a second pass. Round 2 now expects late May. The write-up and the publication window move to July or later. The gate path now realistically targets Q4 2030 at the earliest, with slip risk into 2031. That leaves little or no margin before December.
+
+**Other exogenous events:**
+- **March jobs report (3 April):** unemployment 9.0%, payrolls down 61,000, new-graduate unemployment about 14.4%. "Nine percent" led every outlet.
+- **Ohio hearings (8–24 April):** the Senate Health Committee heard from Tri-Rivers staff and the coroner. SB 312 was introduced. It would require hospitals and utilities to attest that their agent stacks do not use safety-removed models, and it has bipartisan sponsors. The a16z camp testified that the bill is "unenforceable on open weights."
+- **Commerce weight rule:** nothing published; still due about 14 May.
+- **xAI and the EU:** no change.
+
+Next generation: Next month's Claude generation is modestly more capable. The internal checkpoint rose about 0.03 CI, to about 14.2 days, on Rubin ramp compute, a normal monthly increment. The public tier gained 0.09 because of GPT-7.5's update and Gemini 7, which shrinks Anthropic's internal lead to roughly zero and raises race pressure on its compute allocation.
+
+Scorecard:
+| Milestone | Status | Note |
+|---|---|---|
+| AI agents do most AI R&D work | In progress | Internal about CI-5.775. |
+| Frontier models withheld; governments take notice | In progress (mixed) | CAISI review is active; Gemini 7 got CAISI pre-release access. |
+| First major infrastructure attacks | Achieved (negative, recurring) | Ohio SB 312 is the response. |
+| Pro- and anti-AI polarisation | In progress (sharpening) | |
+| Robust alignment | Early (flat) | Round 2 slipped; shadow mode is undecided. |
+| Most capable = most aligned | Early (slipping) | The most capable public model now comes from a lab not bound by Anthropic's gate. |
+| Robust policies passed | Early (flat) | Ohio bill only introduced; weight rule pending. |
+| Human–AI ping-pong | Early | A special board session was called on acceleration. |
+| Lab-grown meat | Not started | |
+| Mass disease cures | Early | |
+| Value trickles down | Early (worsening) | Unemployment 9.0%. |
+| Crescendo architecture | Not started | |
+| Benevolent multipolar outcome | Not started | |
+| Resource floor | Not started | |
+
+- **Overall DU progress: 12/100 (−1).** Several setbacks outweigh a good CAISI start:
+  - Gemini 7 raised race pressure;
+  - Apollo's slip squeezes the GA timeline;
+  - shadow mode is still undeployed;
+  - the Blumenthal relationship worsened.
+- **Catastrophe risk: elevated, rising slightly.** The public frontier is at about 14 days, with a model at a cyber CCL. Handoff is still 2% sampled and channel 3 unalerted.
+- **Public trust in AI: 1/100 (0).** At the floor.
+- **Public trust in Anthropic: 24/100 (0).** The formal letter is not public.
+- **Provisional ending odds: Aligned 24 / Misaligned 42 / Disaster 34.**
+  - Aligned −1 and Misaligned +1: Gemini 7 closes Anthropic's internal lead, and the adaptive gate slips toward the deadline.
+
+[Judge]
+Simulator was mostly realistic (7/10). The probabilities are well calibrated.
+- **Actions.** Action 1 at 30% suits a dated ask to a chief of staff while compute is squeezed. Actions 3 and 4, at 10% and 7%, suit internal, routine steps. Action 2 at 30% is, if anything, a little low given three prior slips and Easter recess.
+- **Threats.** Raising Threat 4 to 50% is well reasoned: one regeneration pass cutting an adaptive classifier's AUC from 0.66 to below 0.55 is unlikely. The pre-declared bands for Threats 4 and 5 made the resolutions checkable, and both were applied exactly. Roll 07 gave a slip to late May. Roll 04 gave Gemini 7 with no hospital attack.
+- **Action 1.** Its failure was resolved as "undecided" rather than a refusal. That keeps the Threat 1 non-materialisation intact, since there was no Partner A DPA objection, and it is a clean split.
+- **Capability.** The clock moved by the declared amounts: +0.05 and +0.04 public, +0.03 internal. Gemini 7 at about 14.1 days is a plausible generational jump, not a magic one.
+- **Board reaction.** The acceleration directors' request for a special session is a natural reaction to losing internal parity.
+- **Action 2.** This is the weak point. Message 1 said "degraded quality and how staff react are in Threat 2." Yet with Threat 2 at roll 40, not materialised, the failed action still delivered Threat 2's core mechanism: counsel barring the prototype figure and refusing the briefing. On top of that came a formal letter. The letter was pre-declared as the escalation for any further slip, so it is fine on its own. The redaction and the refused briefing are the problem.
+- **Reactions.** Reactions to Gemini 7's cyber-CCL disclosure are thin. There is no congressional, CISA or public-safety response beyond press coverage, even though a copycat-risk environment and the Ohio hearings were live.
+
+Lean: BALANCED. The odds were fair and every roll band was honoured. Threat 4 landed in the slip band and Threat 5 in the Gemini-only band, and the copycat attack was correctly left out. The main flaw tilts slightly harsh. Action 2's failure carried content that message 1 had explicitly assigned to Threat 2, which did not materialise: counsel redacted the 81.2% figure and refused the briefing. There were no offsetting favourable exogenous draws.
+
+Issues flagged:
+- **Action 2 used Threat 2's content.** Message 1 assigned degraded memo quality to Threat 2. That threat did not materialise, yet the failure of Action 2 delivered it anyway: counsel stripped the 81.2% and Apollo figures and refused the technical briefing. A failure on a 30% roll should have been lateness plus the pre-declared escalation, not both harms.
+- **Gemini 7's cyber-CCL release drew almost no institutional reaction.** There was no statement from Congress or CISA, no reaction from the Ohio hearing, and no response from the Senate RASA sponsors in a month dominated by abliterated-stack fears. That is a missing-reaction gap.
+- **Correlated failures.** Action 1's failure narrative ("the week of 20 April went to Gemini 7 planning") ties its independent failure to the Threat 5 outcome. This is acceptable, but it makes the failures correlated after the fact.
+- **Unemployment was asserted, not rolled.** The 9.0% figure was pre-declared, which is transparent but removes variance from a major driver.

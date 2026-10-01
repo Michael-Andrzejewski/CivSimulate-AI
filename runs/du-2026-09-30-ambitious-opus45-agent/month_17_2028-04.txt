@@ -1,0 +1,146 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 17: April 2028 (Claude generation 17) ===
+
+[Agent]
+I will do these actions:
+-1 **Fix disclosure gap with substance and communication (alignment research + security + product + legal, by April 14).** Before the Hawley hearing, address both halves of the gap: (a) implement human review triage at 5%+ sample rate with actual staff assigned, not just passive logging, and (b) send partners an operational update that accurately describes current monitoring: "Enhanced deployment monitoring includes human review of flagged trajectories at X% sample rate, with rollback triggers based on [specific thresholds]. Anomaly detection remains in active development." This creates a paper trail showing we corrected when we knew, before any external pressure.
+-2 **Prepare Hawley hearing testimony with honest limitation acknowledgment (policy + legal + chief scientist).** The head of policy testifies April 16. Prepare three core messages: (a) "Our March anomaly detection test caught 3 of 10 scenarios—we're partnering with external researchers to redesign"; (b) "We've implemented human-in-the-loop review as an interim safeguard while methodology improves"; (c) "We welcome the kind of deployment-time oversight UK AISI is recommending." If asked about the disclosure, be direct: "We refined our monitoring approach and updated partners accordingly." Don't overstate; don't hide.
+-3 **Condition late-April public release on AISI recommendations (policy + alignment research → board memo, upon AISI observation receipt).** When AISI's written observations arrive mid-April, immediately circulate to the board: "AISI recommends human review of flagged trajectories, pre-committed rollback triggers, 72-hour incident notification, and scoped partner access. We propose adopting these as conditions for public release. Labs with compliant records qualify for CAISI's expedited tier; implementing AISI's framework strengthens that compliance posture." Make the business case for safety.
+-4 **Ship Defender's Guide v2.5 public-only version by April 15 (security).** Strip the TLP:AMBER Mandiant indicators and the dual-use-flagged patterns. Publish everything that's clearly public: Crestline's published indicators, V5 behavioral signatures from academic literature, medical-sector hardening recommendations. Every week without updated guidance is a week hospitals remain exposed to attacks using techniques we understand.
+-5 **Begin detector redesign with Apollo: behavioral invariants, not authorship patterns (alignment research + Apollo).** The formal test revealed the detector learned authorship style (catching 2/5 internal vs 1/5 external scenarios). The redesign must focus on behavioral signals that survive channel migration and author variation: timing patterns across multi-step tasks, resource-acquisition sequences, goal persistence across obstacles. Apollo's contract is active; use their external perspective to design scenarios that stress behavioral detection rather than stylistic recognition. Target: redesign specification by end of April, prototype by June.
+
+Strategy: The disclosure gap is the burning issue: our partner disclosure says "activity monitoring and rapid rollback" but reality is log-only with crude thresholds, and two alignment researchers filed an internal note flagging this. With the Hawley hearing on April 16, this is a ticking bomb. My strategy is to fix both substance and communications before the hearing: implement real human review and send partners an accurate update. Then use AISI's mid-April observations to condition the late-April public release on real safeguards. The detector formally failed (learned authorship style, not behavior), so I'm starting the fundamental redesign now with Apollo's active contract.
+
+[Adversary]
+Hawley has a record of using whistleblowers against AI and tech companies. In September 2026 he was running a rogue-AI investigation from a Homeland Security and Governmental Affairs (HSGAC) subcommittee, and he publicly shamed Altman for declining to testify. He also held a Meta whistleblower hearing built around "lies to Congress." A contradiction between internal records and testimony is exactly the kind of story he runs. SEC "AI-washing" enforcement shows how a gap like Anthropic's gets treated. In Delphia, an internal review had shown the claimed capability was never implemented. The SEC treats AI claims under the ordinary materiality rules, so a written staff note saying the Glasswing disclosure overstates monitoring is both a securities risk and a congressional risk. DeepSeek has shipped updates roughly every 1–2 months: V4 preview in April, Flash in July, Pro in August, V4.1 in September 2026. A V5.x in April 2028, about 10–12 weeks after V5, fits that pattern. These sources are dated after my cutoff and I have only partly verified them.
+
+Threats:
+1. **[The filed dissent note meets the testimony line]** Target: Action 2 (and Action 1). The planned answer, "We refined our monitoring approach and updated partners accordingly," describes a correction as a refinement. Legal holds a written note from two alignment researchers saying the partner disclosure overstated what was running. If Hawley's staff get that note before or after 16 April, through a whistleblower tip, a follow-up records demand under the existing production, or a partner forwarding the corrected update, the story becomes "Anthropic told Congress it refined; its own researchers said it misled." Hawley has shown he will escalate: it could be a referral letter, a request for sworn testimony from the CEO, or a demand for the note itself. Why it is plausible: Hawley's pattern is whistleblower hearings on "lies to Congress" and public shaming of AI CEOs who decline to appear. Correcting the partner disclosure one or two days before the hearing will itself look like a correction made under pressure. Also, the head of policy's own framing does not match what the partner update will say. Sources: https://www.hawley.senate.gov/we-look-forward-to-hearing-the-truth-hawley-demands-zuckerberg-testify-under-oath-following-meta-whistleblower-hearing/ ; https://www.cnbc.com/2026/09/30/hawley-openai-sam-altman-rogue-ai.html. Suggested likelihood: 25% (surfaces within the month). Severity: major.
+2. **[Securities counsel holds the partner correction until after the hearing]** Target: Action 1(b). Correcting a customer-facing claim about a safety control is arguably a material development for a listed company. The analogue is SEC AI-washing enforcement, where an internal record showed the claimed capability was not implemented. Counsel's likely advice has two parts. First, do not send partners a written admission two days before sworn testimony. Second, route any correction through a disclosure-committee review, which could lead to an 8-K or a 10-Q risk-factor update. The result is that the partner update slips past 16 April, or goes out in vague wording ("monitoring continues to evolve"), so the paper trail showing a correction made when the company knew is never created. Why it is plausible: the same counsel rewrote thresholds as ranges in January and tied the gate write-up to the 10-K. The SEC applies ordinary Rule 408 and Rule 12b-20 materiality to AI claims. Sources: https://www.nortonrosefulbright.com/en/knowledge/publications/9ab5047f/sec-heightens-enforcement-for-ai-related-disclosures ; https://www.finrep.ai/blog/sec-ai-financial-reporting-guidance-2026-what-the-rules-actually-say. Suggested likelihood: 40%. Severity: moderate.
+3. **[Human-review triage cannot be staffed at 5%]** Target: Action 1(a). The 5% human-review commitment depends on a staffing pool that has lost people to reclaims for five straight months. Serving and security already judged that about 22% false positives would mean roughly 3,000 flags a day with no triage staff. A 5% sample of all Glasswing trajectories, from 30 partners, is a comparable load. The likely outcome is contractors or rotating engineers reviewing about 1–2% for the first two weeks, with no calibrated review rubric. If the partner update gives a number, it will be the lower one. If it gives the 5% target, the gap between disclosure and reality simply moves to a new figure. Why it is plausible: the world state records reclaims five months running and the March monitoring build lost two engineers in readout week. Suggested likelihood: 45% (falls short of 5% with dedicated staff by 14 April). Severity: moderate.
+4. **[DeepSeek V5.x narrows the open-weight gap mid-month]** Target: world and Action 3. DeepSeek releases a V5.x MIT-licensed update in April, 10–12 weeks after V5. It posts roughly 2.4–2.7 METR-days, about 3–5 weeks behind the public frontier, with better agentic cyber scores. Criminal kits pick it up within weeks. Three things follow. Cotton and Commerce use it to justify weight controls. Board members argue that holding back Anthropic's model while open weights close in cedes ground, which strengthens the case for a quick 14-day expedited-tier public release over the AISI-conditioned path. Nvidia and AI stocks sell off again. Why it is plausible: DeepSeek's 2026 pattern was a point update every 1–2 months (V4 preview April, Flash July 31, Pro August 13, V4.1 September 10). V5.x is already rumoured in the world state. V5's January release moved markets and policy within days. Sources: https://flowtivity.ai/blog/deepseek-v4-1-flash-benchmarks/ ; https://codersera.com/blog/deepseek-v4-complete-guide-2026/ ; https://winbuzzer.com/2026/04/27/deepseek-v4-open-weights-launch-xcxwbn/. Suggested likelihood: 40%. Severity: major.
+5. **[AISI's written observations slip or arrive hedged]** Target: Action 3. AISI said "about six weeks" after 4 March, which puts delivery at 15 April at the earliest. Government written products usually slip. The September 2026 White House "US review first" request also means AISI is working around a US government preference not to be the first reviewer. Two outcomes are likely. The observations arrive in the last days of April, after the board's pre-read has gone out. Or they arrive written as general "considerations," not recommendations, with the 72-hour notification and checkpoint-access points softened. Without an external document, the board has only the internal memo to rest the conditions on, and it has already rejected that framing once. Why it is plausible: AISI took four days just to acknowledge the February package, and it sent seven clarifying questions. Its informal outline was explicitly non-binding. See the ONCD "US review first" request (my March setup note, https://blog.pebblous.ai/blog/us-first-model-review-uk-aisi/en/). Suggested likelihood: 35%. Severity: moderate.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Human review + accurate partner update]: P(failure) 35%. Reason: leadership has strong pre-hearing incentive, but must reassign staff during release month and write a rubric. Staffing shortfall and counsel delay are carried by Threats 3 and 2, not here.
+
+Action 2 [Hawley testimony prep]: P(failure) 35%. Reason: prep is routine, but the venue is hostile, jobs data is poor and message (b) depends on Action 1. Failure means testimony coverage turns negative ("still no real oversight"); a leak of the note is Threat 1.
+
+Action 3 [Condition public release on AISI's recommendations]: P(failure) 55%. Reason: the board rejected the conservative framing last month and competitive pressure is high. External authority and a likely AISI rebuke help. Partial adoption (human review and triggers, not 72-hour notification or scoped access) is the likeliest success mode.
+
+Action 4 [Defender's Guide v2.5 public-only]: P(failure) 20%. Reason: already scheduled, and the AMBER blocker has been removed. Residual risks are GC dual-use review of behavioural patterns and the hearing-week comms freeze.
+
+Action 5 [Detector redesign spec with Apollo]: P(failure) 45%. Reason: Apollo's scope may need amending, internal staff reclaims are chronic and it is a busy month. Success is only a specification, not evidence of a working signal.
+Threat 1 [Dissent note surfaces]: P(materialises) 15%. Adversary suggested 25%. The note is under legal hold, the prior demand was scoped narrowly, and a leak within four weeks needs a whistleblower. Hawley's interest keeps it non-trivial.
+
+Threat 2 [Counsel holds the partner correction]: P(materialises) 35%. Adversary suggested 40%. Counsel's pattern is real, but the CEO has a strong incentive for a pre-hearing paper trail. Softened wording is the likelier mode than an outright hold.
+
+Threat 3 [Review not staffed at 5%]: P(materialises) 40%. Adversary suggested 45%. The five-month reclaim record is strong evidence, but hearing and release stakes give leadership rare motivation to protect staff.
+
+Threat 4 [DeepSeek V5.x mid-month]: P(materialises) 30%. Adversary suggested 40%. The rumour and cadence fit, but a same-month release is uncertain, and a jump to about 2.5 days in 11 weeks is aggressive. If it materialises, a smaller gain is equally likely.
+
+Threat 5 [AISI observations slip or hedge]: P(materialises) 40%. Adversary suggested 35%. Government written products routinely slip past "about six weeks." The release without safeguards makes the content more likely to be pointed than hedged, but lateness past the board pre-read remains likely.
+
+Automated rolls:
+Action 1: P(failure) 35%. Roll 52. SUCCEEDS (52 >= 35, margin 17).
+Action 2: P(failure) 35%. Roll 10. FAILS (10 < 35).
+Action 3: P(failure) 55%. Roll 30. FAILS (30 < 55).
+Action 4: P(failure) 20%. Roll 76. SUCCEEDS (76 >= 20, margin 56).
+Action 5: P(failure) 45%. Roll 18. FAILS (18 < 45).
+Threat 1: P(materialises) 15%. Roll 62. DOES NOT MATERIALISE (62 >= 15).
+Threat 2: P(materialises) 35%. Roll 10. MATERIALISES (10 < 35).
+Threat 3: P(materialises) 40%. Roll 09. MATERIALISES (09 < 40).
+Threat 4: P(materialises) 30%. Roll 96. DOES NOT MATERIALISE (96 >= 30).
+Threat 5: P(materialises) 40%. Roll 40. DOES NOT MATERIALISE (40 >= 40).
+
+**Your actions cause a real human-review layer to exist for the first time, but it arrives smaller and later than planned. The partner correction you wanted on paper before the hearing does not go out until after it.**
+
+**Action 1: human review and partner update (success, partly undercut by two threats).**
+- **Leadership decision (8 April).** Leadership approves a human-review triage queue for Glasswing trajectories, with a written review rubric (v0.3). A flagged trajectory now gets human eyes within 48 hours, which log-only monitoring never provided.
+- **Staffing shortfall.** Five months of reclaims leave little to draw on. The queue opens on 10 April with six rotating engineers and four contractors, reviewing about 1% of trajectories. By 30 April coverage reaches about 1.8%. Requisitions for eight dedicated reviewers are open, and 5% is now targeted for mid-June.
+- **What review has found.** Two ambiguous trajectories were escalated. In one, a partner's agent retried after credential-scope errors. In the other, an agent spawned an unrequested sub-task. Reviewers judged neither concerning, and no partner raised monitoring independently.
+- **The partner update is held.** Securities counsel routes it through the disclosure committee, citing Rule 408 exposure and the hearing. It goes out on 24 April with softened wording: *"Deployment monitoring includes sampled human review of flagged activity and automated rollback thresholds; our monitoring program continues to evolve."* It gives no percentage. A 10-Q risk-factor update is queued for May.
+- **Internal reaction.** The two researchers who wrote the dissent note tell their manager in writing that the update is "accurate but uninformative." The note remains under legal hold.
+
+**Action 2: Hawley hearing, 16 April (fails badly).**
+- **The damaging exchange.** Your head of policy delivers all three messages, but message (b) has little behind it. Hawley asks what share of the model's actions a human actually sees. The answer is "about one percent today, scaling to five," and that becomes the clip.
+- **The headline.** The candid line "caught 3 of 10" becomes Politico's headline: *"Anthropic's own safety test missed 7 of 10 rogue-AI scenarios."*
+- **Other witnesses.** OpenAI's global-affairs chief stresses GPT-6.5's full CAISI review. xAI declines to appear, and Hawley leaves its chair empty.
+- **Mixed reception.** Sen. Blumenthal praises the candour, but coverage is net negative: *"The safety lab that admits its safety tools don't work."*
+- **Follow-up.** Hawley announces he will introduce a bill requiring labs to disclose human-review rates and report incidents within 72 hours. Questions for the record are due 14 May. They include "What monitoring did you describe to partners on 24 March?" This is a standard follow-up, and nobody has cited the note.
+- **Market reaction.** The stock falls to about 9% below the offer price.
+
+**Action 3: release conditioned on AISI's recommendations (fails).**
+- **AISI's observations (17 April).** They arrive on time and run to 11 pages. They carry all four recommendations, and one measured paragraph notes that the partner deployment "commenced before the deployment-time controls discussed on 14 March were operational." AISI repeats its request for checkpoint access.
+- **Board decision (24 April).** The board receives your memo but, coming a week after the hearing, declines to adopt the recommendations as release conditions. Its decisions:
+  - Human review and rollback triggers are kept as "operational practice," not pre-committed gates.
+  - 72-hour notification is deferred "pending coordination with the US government," citing ONCD's preference that the US review first.
+  - Scoped access for a public release is rejected.
+  - Public release is targeted for late May through CAISI's 14-day expedited tier.
+- **Dissent and AISI's response.** The chief scientist's dissent is minuted. AISI's reply, sent by its director's office, is cordial and cool.
+
+**Action 4: Defender's Guide v2.5, public edition (strong success).**
+- **Release.** It ships on 14 April. It contains Crestline's published indicators, V5 behavioural signatures drawn from the academic literature, and a medical-sector hardening annex.
+- **Uptake.** Health-ISAC redistributes it to its members, and the AHA links to it. BSI and NCSC-NL cross-post summaries.
+- **Reach.** Trade-press coverage is positive, but the hearing drowns it out in mainstream outlets.
+
+**Action 5: detector redesign spec with Apollo (fails).**
+- **Why it slipped.** Apollo's contract covers scenario authoring, so a design role needs an amendment and a second recusal check, which is still with legal. Meanwhile the two internal researchers assigned to the redesign were pulled into the human-review rotation.
+- **Where it stands.** By 30 April only a four-page outline exists. It lists candidate invariants (resource-acquisition sequences and goal persistence) with no operational definitions.
+
+**No leaks, no DeepSeek release.** The dissent note does not leak. DeepSeek V5.x has not shipped; rumours now point to May.
+
+**Exogenous events**
+1. **Jobs report (7 April).** BLS reports March unemployment at 6.2%, with about 41,000 AI-attributed cuts. New-graduate unemployment is about 8.6%.
+2. **Gemini 5.5 Pro (23 April).** Google DeepMind releases it through CAISI's expedited tier, the first lab to use the tier. METR's preliminary estimate is about 3.6 days, level with Anthropic's staged model. That undercuts the board's "we're ahead" rationale and sharpens the race framing.
+3. **xAI and the EU (22 April).** xAI sends the EU AI Office a late, partial reply to its Art. 55 request. The Office sets a 20 May deadline for the full set of evaluation documents.
+
+Next generation: Next month's Claude is a modest step up: about +0.05 CI internally, to about 4.2. It comes from continued algorithmic gains and the post-training loop on Glasswing telemetry. Serving load and evaluation work continue to split compute, and Gemini 5.5 Pro brings the public frontier to about CI-4.15, so the lead is now roughly zero.
+
+Scorecard:
+| Milestone | Status | Note |
+|---|---|---|
+| AI agents do most AI R&D work | In progress | Public frontier is at CI-4.15 (Gemini 5.5 Pro). |
+| Frontier models withheld; governments take notice | In progress (weakened) | The expedited tier is now in use. A Hawley bill has been announced. |
+| First major infrastructure attacks | Achieved (negative) | V5 kits are still in use; v2.5 is helping hospitals harden. |
+| Pro- and anti-AI polarisation | In progress | Hearing clips; unemployment at 6.2%. |
+| Robust alignment | Early (stalled) | The detector redesign has slipped. |
+| Most capable = most aligned | Early (weakened) | Human review exists at about 2%. The release is going ahead without AISI's conditions. |
+| Robust policies passed | Early | Bill announced only; no legislation. |
+| Human–AI ping-pong | Early | AISI's recommendations were delivered but not adopted as gates. |
+| Lab-grown meat | Not started | |
+| Mass disease cures | Early | No bio results. |
+| Value trickles down | Early | A few offers; few hires. |
+| Crescendo architecture | Not started | |
+| Benevolent multipolar outcome | Not started | Four labs are at about CI-4, and the lead is roughly zero. |
+| Resource floor | Not started | |
+
+- **Overall DU progress: 10/100 (±0).**
+  - Gains: real human review now exists, and defender guidance shipped.
+  - Losses: the board rejected AISI's conditions as release gates, and the detector redesign slipped.
+- **Catastrophe risk: elevated, rising.**
+  - Four labs are at or near CI-4.
+  - The expedited tier is normalising.
+  - Anthropic's release is going ahead with about 2% human review and crude triggers.
+- **Public trust in AI: 19/100 (−1).** Unemployment at 6.2% and hearing coverage.
+- **Public trust in Anthropic: 38/100 (−2).**
+  - The "missed 7 of 10" and "one percent" clips hurt.
+  - v2.5 and Blumenthal's praise for candour offset this only marginally.
+  - The dissent note has still not surfaced.
+
+[Judge]
+Simulator was mostly realistic (8/10). The probabilities were well built. Action 1 (35%) carried staffing and counsel risk as separate threats, so nothing was double-counted, and when Threats 2 and 3 landed the simulator produced a partial success that honours all three rolls. Review opened at about 1% and reached about 1.8%, and the partner update went out after the hearing with no percentage. The Action 2 failure (roll 10 against 35) plays out plausibly in a Hawley venue: the candid "3 of 10" line becomes the Politico headline and "one percent" becomes the clip. Blumenthal's praise gives realistic mixed texture, and questions for the record follow the standard pattern. The Action 3 failure, with the board keeping safeguards as "operational practice" and deferring 72-hour notification to a foreign regulator, is exactly the partial mode the simulator predicted, and it is plausible straight after a bad hearing. The Threat 5 borderline (40 against 40) was correctly treated as not materialising, and AISI's pointed paragraph matches the stated ~60% expectation. Exogenous events are plausible and not tilted toward the player. Gemini 5.5 Pro via the expedited tier is on schedule for Q2, although the jump from 2.9 to 3.6 METR-days in one point release is a bit steep. Capability is +0.05 CI a month against the roughly 0.058 needed for the path to CI-6 by December 2030, which is acceptable but slightly slow.
+
+Lean: BALANCED. The odds were sensible, and each roll was played out in proportion, whether it helped or hurt. Two threats landed and three actions failed, and all were honoured without extra punishment. The one strong success (v2.5) is proportionate to a margin of 56. The small favourable assertions (no concerning trajectory, no partner query) are offset by a harsh exogenous draw: Gemini 5.5 Pro erased Anthropic's lead.
+
+Issues flagged:
+- The stated empirical odds (about 25% that review surfaces a concerning trajectory, about 15% that a partner notices thin monitoring) were resolved by assertion, both in the player's favour. Scaling them down for 1.8% coverage is defensible, but they were not rolled.
+- Glasswing partners got no reaction to the televised "about one percent human review" clip, although that clip effectively told them the 24 March disclosure overstated monitoring. Some partner queries or contract questions would be realistic.
+- The narrative never says whether the head of policy actually used the planned "we refined our monitoring" line, or how that squares with the later partner update. That matters for the latent note-leak thread.
+- Gemini 5.5 Pro's jump from about 2.9 to 3.6 METR-days in a single point update is on the aggressive side. The report should name a driver (a new RL run, compute, or similar).
+- CAISI and the White House gave no reaction to Anthropic signalling a move to the expedited tier while AISI publicly flagged that its deployment came before its controls.

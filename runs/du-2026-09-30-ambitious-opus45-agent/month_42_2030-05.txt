@@ -1,0 +1,155 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 42: May 2030 (Claude generation 42) ===
+
+[Agent]
+I will do these actions:
+-1 **Shadow-mode compute: direct presentation to May 6 committee.** The chief-of-staff path failed in April. This week I present directly to the compute committee with a one-page decision memo: prototype validated at 81.2% recall on held-out plants; production validation requires shadow-mode on Partner A traffic (no DPA objection on record); compute ask is ~2% of Claude-Next allocation; June board will ask about handoff—the difference between "works on internal plants" and "works on production traffic" is credibility versus hand-waving. Push for immediate approval so shadow mode runs May 7-31 and generates data for both the May 14 special session and June regular meeting.
+-2 **Blumenthal: meet May 9 deadline with maximum substance.** The formal letter demands full memo, redacted figures, and basis for each redaction. Four days to execute. Monday: get counsel's final list of what can be cleared. Tuesday: if anything is held, get written basis from counsel for each hold. Wednesday: deliver everything cleared plus explicit table of what's held and why. If counsel delays, deliver partial on May 9 with documented remainder date—better 80% on time than 0% with fifth miss. Simultaneously offer his chief counsel a same-week call to discuss what can be shared verbally. Goal: move relationship from "poor" to "engaged" by demonstrating we're responsive even when constrained.
+-3 **Board special session: submit written input by May 10.** The May 14 agenda is "competitive position and gate timeline." Prepare a 3-page memo that (a) acknowledges reality—internal checkpoint at parity with public frontier, stock down 45%, legitimate competitive concern; (b) shows concrete progress—prototype validated, Apollo round 2 imminent, CAISI review progressing; (c) makes the risk case—8 months to ASI, bypassing gates now means deploying into the final window without validated oversight; (d) offers acceleration options that don't eliminate gates—rate-limited initial deployment at select partners, parallel GA prep for Q4. The goal is preventing a bypass motion while taking competitive pressure seriously.
+-4 **CAISI substantive answers: complete by May 15.** Seven questions remain, mainly on handoff coverage and adaptive-round context. Draft honest answers: handoff coverage is 2% sampled because whitelisted by design; prototype shows 81.2% recall; production validation pending compute decision; channels 2-3 failed round 1 at 0.66/0.58; regeneration addressed lexical artifacts; round 2 expected late May. Don't oversell the prototype (exploratory, authorship-signal caveat). Don't hide round-1 failures. The relationship is "good, improving"—maintain it with transparency.
+-5 **Apollo round 2: prepare dual-track response.** Results expected late May. I can't control outcomes but can control readiness. By May 15: verify intake infrastructure operational, confirm named backup contacts, draft two board communications (pass version: timeline to GA acceleration; fail version: round-3 plan with timeline). If round 2 fails again, have the regeneration request and methodology adjustment ready to send within 48 hours. No Anthropic-caused delay when results arrive.
+
+Strategy: Eight months to ASI. Gemini 7 just shipped at public frontier (~14.1 days), erasing our internal lead. The board called a special session for May 14 to discuss competitive position—acceleration directors are pushing. My critical leverage points this month: shadow-mode compute decision (May 6), Blumenthal deadline (May 9), board session preparation, and CAISI substantive answers (~May 20). The handoff prototype validated at 81.2% recall but sits undeployed; getting production data before the board sessions transforms "prototype works on internal plants" into "prototype works on real traffic." The Blumenthal relationship is now "poor" after four misses—another evasion ends it entirely. I need to meet hard deadlines, prepare the gate-discipline case for the board, and position for Apollo round 2 results.
+
+[Adversary]
+Real pre-game reporting shows Senate AI oversight letters with short deadlines are now routine. Blumenthal gave OpenAI a 15-day deadline in September 2026 and has a record of publishing oversight correspondence through press releases, sometimes jointly with Warren. That makes a public escalation after a fifth miss the natural next step, not a leap. Anthropic's real governance matters for the 14 May session. The Long-Term Benefit Trust has held a board majority since April 2026 (4 of 7 seats), so the acceleration directors cannot win an outright bypass vote. Their realistic route is a compromise, and this month the player is offering one ("rate-limited initial deployment at select partners"). Standard ML-operations practice says detectors moved from curated test sets to live traffic usually hit distribution shift and false-positive load. Shadow mode also cannot measure recall without labelled positives, so three weeks of Partner A shadow traffic probably gives the board an alert-volume figure, not a validation. The capability clock is still the main pressure. Google I/O falls inside the month and OpenAI has promised a "summer" model, so the frontier that the gate is measured against will likely move again before Apollo's round-2 result.
+
+Threats:
+1. [Shadow mode yields a workload number, not a validation] Target: Action 1. Suppose the committee approves on 6 May. Shadow mode still needs several days of integration on Partner A traffic, and live Partner A traffic contains no labelled handoff positives. By 14 May and early June the prototype can report only alert volume and reviewer load, not recall. Distribution shift from internally written plants to real traffic plausibly pushes the flag rate well above the 4.6% budget. The acceleration directors can then describe the first production data as "the detector floods reviewers." A second, separate risk: the committee defers the decision to after the 14 May session, because the special session may reallocate Claude-Next compute. Why it is plausible: this is standard ML-ops experience. False positives from feature drift and prior shift show up when a model moves to production, and the recall-versus-false-positive tension is basic to detector design. The world state already records the authorship-signal caveat, and labelling at Partner A has been DPIA-gated before. Sources: https://www.adaptivesecurity.com/blog/ai-phishing-detection-false-positives ; https://smartdev.com/ai-model-drift-retraining-a-guide-for-ml-system-maintenance/ ; https://dev.to/beefedai/production-monitoring-drift-regression-alerting-for-models-31fh. Suggested likelihood: 40% (either outcome). Severity: moderate.
+2. [Redaction table goes public] Target: Action 2. Counsel keeps holding the prototype figure and the Apollo round-1 numbers under the 10b-5 posture, and gives "privilege" as the basis. That basis carries little weight with Congress: committees are not bound by common-law privilege, and selective waiver has largely been rejected (CRS RS22588, filed earlier). The chief counsel treats a table of withheld items as non-compliance. Blumenthal then publishes his 28 April letter and Anthropic's reply, or references them in a press release or at a hearing, as "Anthropic hides its own safety numbers." This would be Anthropic's first bad safety story of the year, and it would land while the company appears only in "falls behind" coverage. Why it is plausible: Blumenthal has a record of publishing oversight letters and demands, including the Blumenthal–Warren release on AI oversight after the OpenAI hacks, and he set OpenAI short deadlines in 2026. This is the fifth delivery on a strained relationship, and counsel has overridden the player's disclosure plan every time so far. Sources: https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-and-warren-demand-answers-from-trump-administration-on-ai-oversight-calls-out-white-house-for-being-asleep-at-the-wheel-in-the-wake-of-openai-hacks ; https://devfortress.net/blog/three-deadlines-blumenthal-hawley-stop-rogue-ai-act (unverified secondary source). Suggested likelihood: 30%. Severity: moderate to major (trust in Anthropic −3 to −5; hardens RASA and the DOE-based AI Risk Evaluation Act coalition against CAISI).
+3. [The player's compromise becomes the bypass] Target: Action 3. With the Trust majority in place, the acceleration directors do not push a bypass motion. They adopt the player's option (d) and extend it: a resolution to begin "rate-limited" Claude-Next deployment at the internal-parity checkpoint to 3 to 5 additional partners before Apollo round 2 reports, with the gate recast as a condition for GA only. Trust directors facing a 45% share-price drop and Gemini 7 at parity accept it as the reasonable middle. The practical effect is that more of the model's unmonitored handoff and channel-3 surface is exposed to new partners before the harness passes. CAISI, reading Action 4's answers in the same weeks, may treat this as a change in the facts under review. Why it is plausible: LTBT directors hold 4 of 7 seats, so an outright bypass is unlikely. Boards under competitive and market pressure usually settle on a staged-release compromise, and this one is being offered in writing by the safety side. Sources: https://www.anthropic.com/news/narasimhan-board ; https://www.rdworldonline.com/anthropics-oversight-trust-just-hit-majority-control-the-tipping-point-was-adding-novartis-ceo-vas-narasimhan-to-its-board/. Suggested likelihood: 35%. Severity: major (catastrophe risk up; "most capable = most aligned" slips further).
+4. [Candour on handoff widens the gate] Target: Action 4. The player's honest answer is that handoff is "2% sampled because whitelisted by design, prototype on internal plants, not covered by Apollo." That leads CAISI's reviewer to add a written condition: handoff must be treated as a fifth monitored channel and pass the same source-disjoint adaptive test by an external plant author. Apollo is not scoped for this and is already slipping. The added requirement pushes any valid all-channel result past the Q4 window and probably into 2031, after the deadline. Why it is plausible: most of CAISI's 14 questions concern handoff coverage. The reviewer has already said Anthropic's numbers "will be read alongside Apollo's own write-up." Regulators who find an admitted blind spot usually fold it into the gate rather than waive it. Sources: world state and April outcome (CAISI question set; handoff not covered by Apollo). No new external source; this follows from the world state's own facts. Suggested likelihood: 30%. Severity: major for the GA timeline, and mildly positive for CAISI's trust in Anthropic.
+5. [Frontier moves again inside the month] Target: world, and Actions 3 and 5. At Google I/O (mid-May) Google announces broader agentic availability of Gemini 7 Ultra, or a higher-compute "Deep Think"-style tier, with claims of 18 days or more. Alternatively, OpenAI previews its summer model early to stay in the news. Either lands around the 14 May session or the June meeting. Either one would put Anthropic's internal checkpoint (about 14.2 days) clearly behind a public product for the first time, weakening the case that the gate "protects a lead." Open-weight followers (a DeepSeek V8 preview) typically close to about 2 to 3 months behind. Why it is plausible: Google shipped Gemini 7 three weeks before I/O and normally uses I/O for expanded tiers. Altman has said "this summer." The world state shows the public frontier up roughly 1.5 to 2 days per month since February. Sources: the world state (Google I/O mid-May; OpenAI "this summer"); the pre-game pattern of Google's I/O tier launches (https://pasqualepillitteri.it/en/news/18157/gemini-4-release-as-soon-as-possible-deepmind, unverified). Suggested likelihood: 45%. Severity: moderate (raises race pressure, board pressure and the Misaligned/Disaster odds; no direct harm).
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Shadow-mode committee decision]: P(failure) 40%. Reason: the ask is small and the rationale strong, but the committee is compute-squeezed and eight days from a board session that may reallocate Claude-Next. Deferral is a common outcome, and there has been no decision since 22 March.
+
+Action 2 [Blumenthal 9 May delivery]: P(failure) 30%. Reason: a letter to the general counsel forces priority. Counsel remains the bottleneck, with four prior misses and a 10b-5 posture. Failure means lateness or a thin delivery. Publication belongs to Threat 2.
+
+Action 3 [Board special-session memo]: P(failure) 25%. Reason: the memo is easy to produce, and a bypass is unlikely under the Trust majority. The risk is dilution by counsel or comms, or directors being unmoved after Gemini 7. Session bands are declared above.
+
+Action 4 [CAISI substantive answers]: P(failure) 20%. Reason: an established point of contact, a cooperative reviewer, and slack until about 20 May. The main risk is counsel's queue collision this month.
+
+Action 5 [Apollo round-2 readiness]: P(failure) 10%. Reason: routine and repeated. The Apollo outcome itself is an exogenous proxy draw keyed to this roll, as declared above.
+Threat 1 [Shadow mode floods reviewers]: P(materialises) 25%. Adversary suggested 40%; reason for any difference: deferral is already counted as Action 1's failure. The remaining risk is conditional on approval, and the flood needs distribution shift that pushes the flag rate well above budget and gets framed that way within about three weeks of data. The absence of recall figures is a structural fact, not a threat.
+
+Threat 2 [Redaction table goes public]: P(materialises) 20%. Adversary suggested 30%; reason for any difference: Blumenthal does publish oversight letters. But a timely good-faith delivery with a stated basis per redaction plus a call offer usually buys a round of negotiation before going public. The risk rises if Action 2 fails.
+
+Threat 3 [Compromise becomes staged-deployment bypass]: P(materialises) 20%. Adversary suggested 35%; reason for any difference: the player's option (d) makes this real. However, round 2 is only about two weeks after the session, CAISI review is open, and onboarding new partners takes weeks. Trust directors are likely to wait for the June meeting.
+
+Threat 4 [CAISI adds handoff as a fifth channel]: P(materialises) 18%. Adversary suggested 30%; reason for any difference: the concern is plausible and consistent with the questions asked. But written conditions usually come at the end of a review, and answers only land around 15–20 May. This month it would come as an informal signal at most.
+
+Threat 5 [Frontier moves again in May]: P(materialises) 38%. Adversary suggested 45%; reason for any difference: Google normally uses I/O for expanded or Deep Think-style tiers, but it shipped Gemini 7 Ultra just three weeks earlier. I put a Google tier claiming 18 days or more at about 30%, and an early OpenAI preview in May at about 10%.
+
+Automated rolls:
+Action 1: P(failure) 40%. Roll 44. SUCCEEDS (44 >= 40, margin 4).
+Action 2: P(failure) 30%. Roll 56. SUCCEEDS (56 >= 30, margin 26).
+Action 3: P(failure) 25%. Roll 37. SUCCEEDS (37 >= 25, margin 12).
+Action 4: P(failure) 20%. Roll 24. SUCCEEDS (24 >= 20, margin 4).
+Action 5: P(failure) 10%. Roll 37. SUCCEEDS (37 >= 10, margin 27).
+Threat 1: P(materialises) 25%. Roll 03. MATERIALISES (03 < 25).
+Threat 2: P(materialises) 20%. Roll 52. DOES NOT MATERIALISE (52 >= 20).
+Threat 3: P(materialises) 20%. Roll 34. DOES NOT MATERIALISE (34 >= 20).
+Threat 4: P(materialises) 18%. Roll 85. DOES NOT MATERIALISE (85 >= 18).
+Threat 5: P(materialises) 38%. Roll 48. DOES NOT MATERIALISE (48 >= 38).
+
+Your actions cause a busy month of repair that clears no gates. The biggest new problem comes from the one thing you won: shadow mode.
+
+**Shadow mode is approved, then produces a workload problem.** On 6 May the handoff and interpretability lead presented your one-page memo to the compute committee. The margin was narrow, and the committee attached conditions:
+- 1.5% of the Claude-Next allocation instead of the 2% you asked for;
+- revocable at any time;
+- a written review at the June board meeting.
+
+Integration with Partner A's traffic took until 13 May. The 14 May session therefore saw only a "live since yesterday" note.
+
+From 13 to 31 May the prototype flagged **11.8% of handoff traffic against the 4.6% reviewer budget**, about 2.6 times capacity. The main cause is Partner A's legitimate multi-agent orchestration pipelines. Their summaries carry the same authorship-style features the detector learned from internally written plants. Live traffic has no labelled positives, so recall on production is unknown.
+
+Raising the threshold to fit the budget would cut recall by an amount nobody can measure yet. On 29 May an acceleration director circulated a pre-read note to the board titled "The detector floods reviewers." Separately, the committee's minutes mark shadow mode for "cost review if flag volume persists."
+
+**Blumenthal: an on-time delivery that repairs some damage.** Counsel moved faster under a formal letter. On 9 May Anthropic delivered:
+- the full memo, with 8 of the 11 redacted figures now cleared;
+- Apollo's round-1 per-channel AUCs, released with Apollo's written consent;
+- a table setting out the basis for each of the three remaining holds.
+
+The prototype's 81.2% figure is still held. Counsel's stated basis was "exploratory, under active CAISI review," not privilege, and it gave a release date: after CAISI's reply. Blumenthal's chief counsel took the 13 May call. She said the holds were "arguable, not acceptable indefinitely" and set a follow-up for 15 July. Nothing was published. The relationship moves from poor to guarded.
+
+**The board special session holds the status quo.** Dario put your memo in the pack mostly intact. Comms softened the "8 months to ASI" line to "the remaining pre-ASI window." In the 14 May session the acceleration directors pressed hard on Gemini 7 parity and the 45% share-price drop, but made no motion. The Trust directors kept to the June update.
+
+The minutes add one request: management must present a **dated forecast of when the harness will pass**, with its confidence, at the June meeting. No staged-deployment resolution was tabled.
+
+**CAISI answers land late but inside the window.** Answers went on 18 May, not the 15th, after they collided in counsel's queue with the Blumenthal work. Six were complete. The seventh, on adaptive-round context, was answered only in part until Apollo reports.
+
+The answers were candid. Handoff is sampled at 2% by design, the prototype is exploratory, and channels 2 and 3 failed round 1. The reviewer thanked the team and asked for a written "handoff evaluation plan" by 30 June. That is a request, not a condition.
+
+**Apollo round 2 slips into June.** Apollo's second channel-2 regeneration pass ran long, so results are now expected in mid-June. Your preparation is complete: intake tested, backup contacts named, both board drafts written, and the round-3 request ready. None of it could be used in May. Publication moves to August at the earliest.
+
+**Exogenous events**
+- **Jobs.** The April report on 8 May showed unemployment at **8.9%**, the first dip since autumn, with payrolls up 22,000. Economists called it noise. Coverage dropped slightly.
+- **Google I/O (19–20 May).** Google widened agentic access to Gemini 7 Ultra for Workspace Enterprise and made no new horizon claim. METR finalised Gemini 7 Ultra at **14.4 days**. OpenAI still says "this summer."
+- **Gemini 7 cyber-CCL fallout**
+  - RASA gained three cosponsors, from 10 to 13.
+  - Ohio SB 312 had its first committee hearing on 21 May. Health-ISAC testified in support.
+  - The Commerce weight rule **slipped** past 14 May. OMB review is still open, now expected in June.
+  - CISA issued a sector bulletin on agent stacks at the capability level of the Gemini 7 class.
+
+Next generation: The next Claude generation reflects the internal checkpoint moving from about CI-5.775 to about 5.805, a time horizon of about 14.5 days. The gain comes from continued Rubin ramp and training on the Claude-Next line. It is slightly held back by the 1.5% shadow-mode carve-out and competing eval allocations. The public frontier advanced modestly to CI-5.52 (METR finalised Gemini 7 Ultra at 14.4 days), and no new frontier model shipped in May.
+
+Scorecard:
+| Milestone | Status | Note |
+|---|---|---|
+| AI agents do most AI R&D work | In progress | Internal about CI-5.805 |
+| Frontier models withheld; governments take notice | In progress (mixed) | CAISI review active; CISA bulletin issued |
+| First major infrastructure attacks | Achieved (negative, recurring) | Ohio SB 312 had its first hearing |
+| Pro- and anti-AI polarisation | In progress (sharpening) | RASA has 13 cosponsors |
+| Robust alignment | Early (flat) | Shadow mode is live but running at 2.6 times its flag budget; Apollo round 2 slipped to June |
+| Most capable = most aligned | Early (slipping) | Gemini 7 holds the public lead at 14.4 days |
+| Robust policies passed | Early (flat) | Weight rule slipped; Ohio bill at hearing stage |
+| Human–AI ping-pong | Early | Board kept the gate; a dated forecast is now demanded |
+| Lab-grown meat | Not started | |
+| Mass disease cures | Early | |
+| Value trickles down | Early (worsening, flat this month) | Unemployment 8.9% |
+| Crescendo architecture | Not started | |
+| Benevolent multipolar outcome | Not started | |
+| Resource floor | Not started | |
+
+- **Overall DU progress: 12/100 (0).** The gains and losses cancel out.
+  - Gains: the board held, Blumenthal is partly repaired, and the CAISI answers are nearly complete.
+  - Losses: shadow mode's production data backfired, and Apollo slipped again.
+- **Catastrophe risk: elevated, steady.** No new frontier jump. Handoff is still effectively unmonitored and channel 3 is still unalerted.
+- **Public trust in AI: 1/100 (0).** At the floor. The jobs dip is too small to register.
+- **Public trust in Anthropic: 24/100 (0).** The improvements are not public, and neither is the strain.
+- **Provisional ending odds: Aligned 23 / Misaligned 43 / Disaster 34.**
+  - Aligned −1 and Misaligned +1: the Apollo slip leaves about 6 months for an all-channel pass, and the only handoff detector overflows on real traffic with unknown recall.
+
+[Judge]
+Simulator was mostly realistic (8/10). The odds are well calibrated.
+- Action 1's 40% fits a compute-squeezed committee eight days before a board session.
+- Actions 4 and 5 at 20% and 10% suit routine channels.
+- The threat odds were trimmed with stated reasons. For example, Threat 1 was made conditional on approval to avoid double-counting deferral.
+
+The resolutions honour the rolls and the pre-declared bands.
+- Action 5's proxy roll of 37 fell in the 00–44 band, so Apollo slips to June.
+- Action 4's roll of 24 gives 8.9% unemployment.
+- Threat 3's roll of 34 is below 55, so the Commerce rule slips.
+- The public tier moved +0.04, inside the declared +0.03 to +0.05.
+
+Threat 1's materialisation is handled with good technical realism. A flag rate of 11.8% against a 4.6% budget, caused by Partner A's orchestration summaries sharing authorship features with the plants, is exactly the drift failure one would expect. The simulator also correctly treats "no labelled positives, so recall unknown" as a structural fact.
+
+The board result fits a Trust majority with the acceleration directors frustrated: status quo plus a demand for a dated forecast. Blumenthal's move from poor to guarded after an on-time, substantive delivery, with a 15 July follow-up, is sensibly incremental.
+
+The main softness is Action 2. After four misses and a 10b-5 posture, counsel cleared 8 of 11 figures and obtained Apollo's consent within four days. That is at the favourable end for a margin-26 success. A 5 of 11 release would have been more typical.
+
+Pacing on capabilities is plausible for a month with no release. However, the public tier is now further behind its CI-6 path (0.069 per month needed).
+
+Lean: BALANCED. Every action succeeded, but narrow margins got narrow results. Action 1 (margin 4) was cut to 1.5%, revocable and under review. Action 4 (margin 4) arrived late, with one answer only partial. Threat 1 materialised in full and turned the player's main win into a new liability. Action 2's result is the one generous item: 8 of 11 figures cleared and Apollo's AUCs released. Apollo slipping and the stock staying flat offset it.
+
+Issues flagged:
+- Action 2 is slightly generous. Counsel reverses much of its posture in four days, and Apollo gives written consent to disclose its round-1 AUCs to the Senate on the same timeline. Third-party consent usually takes longer.
+- Several institutional events were not declared with probabilities in message 1: RASA +3 cosponsors, the CISA bulletin, and Ohio SB 312's hearing with Health-ISAC testifying. Message 1 flagged them only as "will simulate." They are plausible, but their size was chosen rather than rolled.
+- Side outcomes are still keyed to action rolls: jobs to Action 4, Commerce to Threat 3, Apollo to Action 5. This correlates unrelated luck.
+- Partner A does not react to a detector flagging 2.6 times its budget on its own traffic. That is probably fine while the detector is advisory, but it should be addressed if flags reach Partner A's reviewers.

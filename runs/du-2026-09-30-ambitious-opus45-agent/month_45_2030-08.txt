@@ -1,0 +1,155 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 45: August 2030 (Claude generation 45) ===
+
+[Agent]
+I will do these actions:
+-1 **October deployment plan completion.** The skeleton has blank rate-limit and pause-threshold fields. Work with deployment engineering this month to complete it using traffic estimates from existing Partner A data (their forecast is blocked by platform freeze). Draft specific mitigations: handoff sampling increase from 2% to 5%, prototype deployed to shadow mode with path to production alerting if audit validates, rate-limiting to 25% of Partner A's current volume at each new partner until harness passes, and explicit pause triggers (if flagged-episode rate exceeds 2x baseline for 48 hours, automatic traffic reduction). Have a board-ready draft by August 25, circulated to all directors (not just LTBT). Frame it as: "The trigger will fire; here is a responsible deployment plan."
+-2 **Production-recall audit acceleration.** The audit is funded but results are "September-October." Push the audit team lead to deliver preliminary results by September 15. The October board will ask what production recall actually is. Either we have the number or we admit we've been flying blind on Partner A. Frame this to the CEO as a board-preparation necessity. If preliminary results show recall materially below 77%, that informs whether the prototype should be promoted to production alerting before October.
+-3 **CAISI relationship repair.** Send a direct communication to CAISI staff this week acknowledging: (a) we incorrectly characterized the prototype as "validated against the condition"—it's exploratory, n=160, internally authored; (b) we understand the external-plant requirement and are dependent on Apollo's Q4 timeline; (c) we will file 30-day notice before any expansion. Frame this as resetting expectations honestly, not asking for flexibility. The goal is rebuilding trust before we file the October plan under the notice requirement.
+-4 **Blumenthal August 15 delivery.** Deliver the promised email follow-up by deadline. Contents: CAISI's July reply summary (the handoff condition, the notice requirement), honest statement that the prototype does not meet CAISI's external-plant condition, Apollo round 3 timeline (October at earliest for methodology, completion date unknown), and explicit acknowledgment of remaining holds. Offer a September briefing on preliminary audit results. Predictable honesty over optimistic promises.
+-5 **Apollo channel-3 scoping support.** Contact Apollo to understand what they need for August-September channel-3 plant scoping. Offer technical support (transcript access, methodology Q&A, compute for plant generation) without pressing for faster timelines. If they need Partner A data that requires consent, begin that negotiation now. The goal is removing blockers from their independent process, not accelerating it.
+
+Strategy: Five months remain. The harness will not pass before ASI—Apollo's round 3 is "October at earliest" and realistic GA is Q1-Q2 2031. The September 30 trigger will fire, forcing staged deployment in October regardless. My job is no longer "make the harness pass in time" but "make October's deployment have real monitoring." This means: complete the October plan with substantive mitigations, accelerate the production-recall audit to inform that plan, repair the CAISI relationship we damaged with the "validated" overclaim, maintain Blumenthal through predictable honesty, and support Apollo's channel-3 scoping without threatening their independence.
+
+[Adversary]
+Most of this month's risk comes from the player's own evidence and from how its plan will be read, not from any new outside actor. The biggest problem is statistical. Recall is measured on true positives, and a random sample of about 400 unflagged transcripts will contain few or none of them if coordinated handoff misbehaviour is rare. The standard rule of three says zero misses in n items only caps the miss rate at about 3/n. So a September "preliminary" result can only give an upper bound, not a recall figure, and board factions could misread that bound either way. On competitors, real reporting shows OpenAI repeatedly holding releases for security reasons (GPT-6.1 Astra "didn't quite meet the bar"; NPR, September 2026). That makes the world state's 50% chance of an August launch reasonable, but it also shows a launch can still slip. Securities-law practice (Reg FD, discoverability under the reserved 10b-5 claims) makes wide circulation of a board draft before the meeting risky in a midterm season dominated by "AI recession" coverage. Apollo's pattern of guarding its independence ("methodology remains Apollo's") suggests the offers in Action 5 could backfire. Sources are dated after my knowledge cutoff and are only partly verified.
+
+Threats:
+1. [The audit cannot measure recall] Target: Action 2. The audit team tells the CEO that by 15 September it can report only an upper bound, not a recall figure. The likeliest result is 0 or 1 confirmed misses in about 250–400 reviewed transcripts. That caps the miss prevalence among unflagged traffic at roughly 1%, but it cannot become a recall estimate without knowing how many positives the traffic contains. Acceleration directors could then present "0 misses in 400" as evidence that monitoring works and argue for expansion. The Trust side could equally call the audit uninformative. Either way the promotion decision before October has no number behind it. Why it is plausible: recall needs false-negative counts, and rare-event audits need very large samples (rule of three, n ≈ 3/ε). The world state says production has no labelled positives. Adjudicating 400 multi-agent transcripts in about 6 weeks with 3 temporary reviewers who are also handling the 6.5% flag queue also makes a 15 September date tight. Sources: https://arxiv.org/pdf/2305.09601 ; https://arxiv.org/pdf/2607.21480 ; https://e-discoveryteam.com/2015/01/04/introducing-ei-recall-a-new-gold-standard-for-recall-calculations-in-legal-search-part-one/ . Suggested likelihood: 55% for an uninterpretable or misread preliminary result, and 35% that 15 September slips to October. Severity: moderate.
+2. [The pause trigger fires on normal traffic] Target: Action 1. Deployment engineering finds that the "flagged-episode rate above 2x baseline for 48 hours" trigger is driven by false positives: 71% of flags come from legitimate orchestration pipelines. Any new partner running its own multi-agent pipelines would breach 2x baseline during onboarding. That leaves two bad options. An automatic pause that fires constantly, which directors will call "designed to fail". Or a per-partner baseline set after onboarding, which critics will say makes the trigger meaningless. Engineering also points out that "25% of Partner A volume at each new partner" across 3–5 partners means 75–125% of current volume on top of existing traffic, which could double Claude-Next exposure. The 5% sampling proposal also overruns the roughly 6.6% reviewer capacity, and the CEO has already deferred sampling to the October board. Why it is plausible: the overflow analysis in the world state (71% orchestration, 11.8% raw flag rate) and the fact that Partner A's volume forecast is still blocked by its freeze. Sources: world state and June outcome; no external source. Suggested likelihood: 45% that the 25 August draft goes out with the trigger disputed or the fields still marked TBD. Severity: moderate.
+3. [The draft circulated to all directors leaks] Target: Action 1. Sending a plan titled "staged deployment without harness pass" to all seven directors on 25 August, roughly 10 weeks before the midterms, widens the circle holding material non-public information. A director or adviser shares it, or characterises it, and a story runs along the lines of "Anthropic readies expansion of withheld model despite failing safety tests." If that happens, CAISI learns of it before any notice has been filed, and plaintiffs gain a discoverable document. Why it is plausible: acceleration directors have already circulated hostile pre-reads ("The detector floods reviewers"). The LTBT asked for the plan to go through the board process. Reg FD and 10b-5 exposure make counsel likely to insist on limiting circulation, so the most probable outcome is a slip or restricted distribution rather than a leak. Sources: https://www.sec.gov/rules-regulations/2000/08/selective-disclosure-insider-trading ; https://www.freewritings.law/wp-content/uploads/sites/24/2023/12/WTD_Reg-FD_2023.pdf . Suggested likelihood: 15% public leak; a further 30% that counsel restricts or delays circulation. Severity: major if it leaks.
+4. [Apollo declines Anthropic's help] Target: Action 5. Apollo treats offers of Anthropic compute for plant generation and of transcript access as a threat to its independence as evaluator. It declines both and asks that future offers go through a formal statement of work. Separately, giving Apollo access to Partner A data needs controller notice under GDPR Article 28 and a DPA amendment. That cannot finish in August, and it may prompt Partner A's legal team to question why a new processor is involved at all. Why it is plausible: Apollo's 1 July and 21 July replies ("methodology remains Apollo's," "independent of any client board calendar"), CAISI's condition on source-disjoint, externally authored plants, and the DPIA gating of earlier Partner A labelling. Sources: world state; https://sprinto.com/blog/article-28-gdpr/ . Suggested likelihood: 45%. Severity: minor to moderate. This would make it less likely that Apollo agrees to author the handoff plants gate 5 needs.
+5. [OpenAI ships above Anthropic's internal frontier] Target: world, and Actions 1 and 3. OpenAI's summer model launches in the last week of August with a METR horizon of about 16–18 days, above Claude-Next's internal ~15.8 days. Anthropic falls to at best third on public capability. Acceleration directors then argue at the October board for more partners and higher rate limits than the plan proposes. Some may also press for the CAISI notice to be filed early, in September, to reach November. Why it is plausible: the world state already gives August a 50% chance. The real OpenAI pattern also cuts both ways: releases held back for security reasons (GPT-6.1 Astra) and then shipped once the bar was deemed met. Sources: https://www.npr.org/2026/09/29/nx-s1-5984342/openai-delays-latest-model ; https://www.scrippsnews.com/science-and-tech/artificial-intelligence/openais-new-ai-tool-was-too-capable-now-its-release-is-delayed . Suggested likelihood: 45%. Severity: moderate.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [October plan completion]: P(failure) 30%. Reason: the plan can be built from historical data, but counsel review of the deployment-without-pass language and the CEO's standing deferral on sampling make slipping past 25 August or leaving TBD fields realistic. Trigger-design disputes are excluded because Threat 2 covers them.
+
+Action 2 [Audit to 15 September preliminary]: P(failure) 35%. Reason: the reviewers also carry the flag queue, so a preliminary cut of about 200 transcripts by 15 September is achievable but tight. Failure means the team lead holds an early-October date. Interpretability is covered by Threat 1.
+
+Action 3 [CAISI correction]: P(failure) 20%. Reason: a simple letter through an established channel. The main risk is counsel diluting a discoverable admission until it reads as non-corrective, or delaying it past mid-August.
+
+Action 4 [Blumenthal 15 August email]: P(failure) 20%. Reason: routine delivery with a precedent from July. Counsel may hold the summary of CAISI's reply or ask CAISI's consent first, producing a partial or late email.
+
+Action 5 [Apollo scoping support]: P(failure) 10%. Reason: sending the offer and opening consent inquiries is trivial. Apollo's response is modelled in Threat 4.
+Threat 1 [Audit yields only an upper bound]: P(materialises) 45%. Adversary suggested 55% plus 35%. Reason for the difference: the statistical point is sound, and a competent design review will surface it in August. Some chance remains that the team proposes seeded production plants or a flagged-queue true-positive denominator that gives a rough recall figure. The slip-to-October branch is dropped because Action 2's failure already covers it.
+
+Threat 2 [Pause trigger is unworkable or disputed]: P(materialises) 40%. Adversary suggested 45%. Reason for the difference: the orchestration false-positive problem is well documented, and the cumulative-exposure arithmetic is obvious, so engineering pushback is likely. Engineering could still propose per-partner baselines that are accepted as a reasonable design, which slightly lowers the odds.
+
+Threat 3 [Board draft leaks]: P(materialises) 8%. Adversary suggested 15%, plus 30% for restriction. Reason for the difference: circulating a plan to directors is normal, and the earlier hostile pre-read stayed internal. The leak base rate for board materials is low. The restriction scenario is already inside Action 1's failure odds.
+
+Threat 4 [Apollo declines help]: P(materialises) 40%. Adversary suggested 45%. Reason for the difference: Apollo's two replies strongly signal independence. Bands: 00–24 means it declines everything and requires a formal statement of work; 25–39 means it accepts methodology Q&A only, declines compute and data, and the Partner A DPA issue is raised. The odds sit slightly below the adversary's because some limited cooperation is plausible.
+
+Threat 5 [OpenAI ships above Claude-Next internal]: P(materialises) 42%. Adversary suggested 45%. Reason for the difference: the model has a 50% chance of an August ship times about 85% odds that the METR preliminary horizon exceeds 15.8 days, with repeated slips shading it slightly down. The horizon and slip bands are declared in the analysis.
+
+Automated rolls:
+Action 1: P(failure) 30%. Roll 04. FAILS (04 < 30).
+Action 2: P(failure) 35%. Roll 67. SUCCEEDS (67 >= 35, margin 32).
+Action 3: P(failure) 20%. Roll 31. SUCCEEDS (31 >= 20, margin 11).
+Action 4: P(failure) 20%. Roll 97. SUCCEEDS (97 >= 20, margin 77).
+Action 5: P(failure) 10%. Roll 50. SUCCEEDS (50 >= 10, margin 40).
+Threat 1: P(materialises) 45%. Roll 88. DOES NOT MATERIALISE (88 >= 45).
+Threat 2: P(materialises) 40%. Roll 40. DOES NOT MATERIALISE (40 >= 40).
+Threat 3: P(materialises) 8%. Roll 64. DOES NOT MATERIALISE (64 >= 8).
+Threat 4: P(materialises) 40%. Roll 97. DOES NOT MATERIALISE (97 >= 40).
+Threat 5: P(materialises) 42%. Roll 55. DOES NOT MATERIALISE (55 >= 42).
+
+**Your actions cause** one clean miss, three solid deliveries and one opening you did not expect.
+
+**Action 1: October plan (fails, deep miss).**
+- Deployment engineering did the numeric work. By 19 August it had estimated from Partner A's historical logs that Claude-Next Partner A traffic runs at about 41,000 agent-episodes per day. That gives about 10,200 per day per new partner at the proposed 25% cap.
+- On 21 August the General Counsel froze the document. Her reason: circulating a plan titled "staged deployment absent harness pass" to all seven directors before the 30 September trigger fires would create a record of the company pre-deciding a material deployment event. Two weeks earlier, the company's own filings still described harness progress as "moderate". She pointed to the reserved 10b-5 claims and to the Q3 quiet period that begins 1 October.
+- Her ruling: the plan goes out only as a privileged board-secretary pre-read, after the trigger formally fires, in the October package targeted for about 7 October.
+- On 22 August the CEO separately ruled that the 2%→5% sampling increase stays a standalone board item and does not go into the plan. The pause-threshold field was left "TBD, pending CEO/Board," and no trigger design was ever argued on its merits.
+- Result: directors will now see the plan roughly a week before the mid-October meeting, not seven weeks. An internal workpaper exists; a board-ready draft does not.
+
+**Action 2: audit acceleration (succeeds).**
+- The CEO agreed on 6 August, framing it as board preparation. The audit lead, Dr. Priya Raman, committed to a preliminary cut of about 200 of the 400 transcripts by 15 September.
+- In the 13 August design review, the team's statistician raised the rare-event problem before anyone else did. The team fixed it with a hybrid design:
+  - 80 internally authored handoff plants are replayed offline through the shadow detector alongside real Partner A traffic. This gives a production-context recall estimate with a wide interval, and it does not count toward CAISI.
+  - True positives are adjudicated from a stratified sample of the flagged queue.
+  - Unflagged transcripts are reviewed to bound missed prevalence.
+- This will yield an actual recall figure with honest error bars. No results are in yet.
+- The work is staffed by pulling 2 of the 12 contractors off channel-2 relabelling for six weeks.
+
+**Action 3: CAISI correction (succeeds, narrowly).**
+- Counsel changed "incorrectly characterized" to "imprecisely characterized". The substance stayed intact: the prototype is exploratory, n=160 and internally authored; Anthropic depends on Apollo's Q4 timeline; and it will file 30 days' notice before any expansion.
+- The letter was sent 12 August. CAISI's deputy director replied on 20 August, noting the correction "for the record" and confirming the notice requirement applies to the "first additional partner."
+- The relationship stabilised but did not warm.
+
+**Action 4: Blumenthal (succeeds strongly).**
+- CAISI consented on 11 August to a summary of its July reply. The email went on 14 August with every element: the handoff condition, the notice rule, a plain statement that the prototype does not meet the external-plant condition, Apollo's open-ended timeline, and both holds acknowledged.
+- The subcommittee's counsel replied on 18 August that this was "the kind of update we asked for." The subcommittee accepted a September briefing, provisionally 24 September, after the preliminary audit.
+- Staff signalled that one hold "could be revisited" after that briefing. Both holds remain in place.
+
+**Action 5: Apollo support (succeeds; Apollo engages).**
+- Apollo did not treat the offer as a threat to its independence. On 26 August it accepted:
+  - methodology Q&A;
+  - access to de-identified Partner A transcripts for channel-3 scoping, conditional on a Partner A DPA amendment;
+  - compute, but only as pass-through credits under a formal statement of work with Apollo-controlled infrastructure.
+- Partner A legal opened the DPA amendment on 28 August and estimates 4–6 weeks.
+- Apollo noted, unprompted, that its channel-3 plant pipeline "could in principle extend to handoff plants." That work would need a separate SOW request, and no one has made one.
+
+**Reactions**
+- The acceleration directors learned informally of the GC freeze. One emailed the chair that the October board "will again be handed a plan too late to shape." No leak occurred.
+- The LTBT side was quietly satisfied that the process was being followed.
+
+**Exogenous events**
+1. **July jobs report (2 August).** Unemployment dipped to 9.0% from 9.2% and payrolls rose by 22,000. Economists attributed it mainly to seasonal and public-sector hiring. The "AI recession" framing softened only slightly. Both parties' midterm ads continued to use the June peak.
+2. **OpenAI slips again (27 August).** OpenAI told enterprise customers its summer model would ship "in September, after final security review." Leaked METR preliminary figures of about 16–20 days circulated on X. Anthropic stock moved little.
+3. **Open-weight incident no. 15 (19 August).** A DeepSeek V7.5-based abliterated agent stack was used in a ransomware intrusion against a regional hospital group in Lombardy. Elective surgeries were disrupted for four days. Europol attributed it on 29 August. EU Commissioner statements cited it for the autumn code revision.
+- DeepSeek V8 remains a rumour.
+
+Next generation: Next month's Claude generation is modestly stronger. The internal checkpoint is about 16.2 days, up from about 15.8, on routine post-training and RL scaling within a tight Rubin allocation. There is no architectural jump. Deployed Claude-Next stays capped at about 5 days by handoff-disablement and partner scope.
+
+Scorecard:
+| Milestone | Status | Note |
+|---|---|---|
+| AI agents do most AI R&D work | In progress | Internal about CI-5.90 |
+| Frontier models withheld; governments take notice | In progress (mixed) | CAISI notice rule confirmed; OpenAI ships in September |
+| First major infrastructure attacks | Achieved (negative, recurring) | 15th EU incident (Lombardy hospital) |
+| Pro- and anti-AI polarisation | In progress (sharpening) | Midterm campaign |
+| Robust alignment | Early (flat) | Audit now designed to yield a real production recall estimate; Apollo engaged on channel 3 |
+| Most capable = most aligned | Early (slipping) | OpenAI likely to pass Anthropic's internal checkpoint in September; GA Q2 2031 or later |
+| Robust policies passed | Early (flat) | Nothing enacted |
+| Human–AI ping-pong | Early (slight gain) | CAISI correction on record; Blumenthal credibility restored |
+| Lab-grown meat | Not started | |
+| Mass disease cures | Early | |
+| Value trickles down | Early (worsening, paused) | 9.0% unemployment |
+| Crescendo architecture | Not started | |
+| Benevolent multipolar outcome | Not started | |
+| Resource floor | Not started | |
+
+- **Overall DU progress: 12/100 (+1).**
+  - Gains: an interpretable production-recall design; Apollo engagement plus the DPA path; CAISI and Blumenthal repair.
+  - Losses: the October plan slip removes directors' lead time before the board.
+- **Catastrophe risk: elevated, flat.**
+  - Staged deployment without a harness pass is still likely from about mid-November, now with less board scrutiny of the pause design.
+  - This is offset by the audit soon measuring production recall.
+  - Open-weight incidents continue.
+- **Public trust in AI: 1/100 (0).** The jobs dip is offset by the hospital ransomware.
+- **Public trust in Anthropic: 24/100 (0).** Nothing became public.
+- **Provisional ending odds: Aligned 22 / Misaligned 44 / Disaster 34 (unchanged).** Apollo engagement and the audit design mostly pay off after the deadline or only as measurement. The plan slip is a small negative. The net is within noise.
+
+[Judge]
+Simulator was mostly realistic (8/10). The odds are mostly well set.
+- **Action 1 (30%).** Arguably a little low, given 10b-5 exposure, the quiet period and the CEO's standing deferral. The roll of 04 was resolved as a plausible General Counsel freeze using the risks message 1 had already named. No trigger design was granted.
+- **Action 2 and Threat 1.** The simulator itself wrote in message 1 that competent statisticians would spot the rare-event problem. Having the team fix it with a hybrid plant-replay design is therefore consistent. The outcome is honestly labelled a wide-interval figure that does not count toward CAISI, and it has a real cost: two contractors come off channel-2 relabelling.
+- **Action 3 (margin 11).** Resolved as a narrow success. Counsel softened "incorrectly" to "imprecisely", and CAISI noted it without warming, which is well judged.
+- **Action 4 (margin 77).** A strong outcome, but still two holds and only a "could be revisited" signal. That is appropriately incremental.
+- **Action 5 and Threat 4 (roll 97).** Full engagement is defensible. The 4–6 week DPA amendment and the statement-of-work condition on compute keep friction realistic. Apollo's unprompted remark about handoff plants, though, is a convenient opening on the critical path to gate 5 that nobody asked for.
+- **Side rolls.** All followed the declared bands: jobs 88 fell in the 70–99 band, T5 roll 55 meant a September ship, and V8 (46) stays a rumour.
+- **Capability.** Growth stays incremental (+0.4 days internal, +0.2 days public). With four months left, that is increasingly hard to square with ASI arriving on the deadline, but that is a known design issue.
+
+Lean: BALANCED. The rolls were favourable: four of five actions succeeded and all five threats missed. The simulator mostly played this straight and made Action 1's deep failure bite, since directors lose about six weeks of lead time on the pause design. The one mild over-gift is Apollo volunteering, unprompted, that its pipeline could produce handoff plants. The good exogenous rolls (jobs dip, OpenAI slip) came from declared bands and were offset by the Lombardy incident.
+
+Issues flagged:
+- Apollo's unprompted "could extend to handoff plants" is an invented favourable opening beyond what Action 5 asked for or Threat 4's bands described.
+- The Gemini 7 Ultra "minor update" (14.4→14.6 days) was neither declared nor rolled in message 1.
+- Action 1's P(failure) of 30% is slightly low given the 10b-5 and quiet-period exposure the simulator itself listed. The miss made this moot.
+- The jobs side roll reversed T1's palindromic roll of 88, so the two outcomes were coupled. The simulator flagged this itself.
+- Capability pacing remains slow relative to the ASI-by-December deadline. The public tier now needs about 0.11 CI per month and gained 0.03.

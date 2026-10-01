@@ -1,0 +1,147 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 22: September 2028 (Claude generation 22) ===
+
+[Agent]
+I will do these actions:
+-1 **CAISI equivalence response** (evaluation team + policy → CAISI, deadline September 4). The open question asks whether the filed checkpoint matches the planned ship version. Prepare a technical response documenting: (a) any training iterations, safety patches, or fine-tuning between checkpoint and planned ship, (b) evaluation results on both if different, (c) explicit attestation of equivalence or quantified differences. If late changes exist, disclose them with safety-case impact analysis. The goal is clearance without conditions, but honest disclosure if differences exist. File before the 5 September clock end.
+-2 **Detector validation sprint** (alignment research + chief scientist, September 1-8). The protocol was signed August 27 but the run is "mid-September"—too late to inform release decision. Escalate to chief scientist: execute immediately using the 40% researcher allocation plus any surge capacity. Run on scrubbed employee Claude Code sessions. Target: preliminary results by September 8, before the release decision window. If the detector catches coordination patterns, that informs release conditions. If it misses known synthetic episodes we plant, we know it's not ready. Either way, this information belongs in the release decision.
+-3 **Glasswing access timing decision** (enterprise + security leads → CEO, decision by September 10). Frame explicitly: surge contractors don't cover Glasswing until September 29. If Claude-Next releases mid-September, partners get more-capable model with monitoring at 3.8% (down from 7% on Opus 6) for ~2 weeks. Three options for CEO decision: (a) delay Claude-Next Glasswing access until September 29, (b) implement rate limiting on flagged-trajectory volume during the gap, (c) accept the gap with documented rationale in release decision memo. No implicit default. The goal is an explicit recorded decision, not drift.
+-4 **Blumenthal materials final escalation** (policy lead → CEO, deadline September 5). The CEO deferred to "after release decision" but Blumenthal's staff said they "will not accept a second hollowed-out session." The reading is mid-September—can't wait. Escalate with binary choice: either overrule counsel on the April corrective and June prototype memo (both held for "QFR consistency review"), or authorize policy lead to notify Blumenthal staff that materials remain restricted and let them decide whether the reading proceeds. If CEO won't decide, the fallback is notification with transparency about constraints. Losing Blumenthal is costly; lying to him is worse.
+-5 **Commerce comments submission** (policy + legal, filed by September 18). The 14-page draft supports capability thresholds, a registry, and provenance attestation at distribution. It includes ~20 V5.x indicators from Valencia and Lakeshore that we own and can publish. Final review for factual accuracy, file solo per counsel guidance. This is Anthropic's only public input on weight controls before the rule is finalized.
+
+Strategy: September 2028 is a convergence month: CAISI clock ends September 5, Claude-Next release decision mid-month, surge contractors don't cover Glasswing until September 29, and both congressional relationships are at inflection points. The core risk is releasing CI-4.55 with less monitoring than Opus 6 had. My strategy is to force sequencing clarity: get detector results before release decision, make Glasswing access timing an explicit decision rather than an implicit gap, answer CAISI cleanly, and resolve the Blumenthal standoff before it collapses. With 28 months to ASI, I need these deployment-time systems working before capability outpaces oversight entirely.
+
+[Adversary]
+Most of the sources I found are dated after my knowledge cutoff, and I could only partly verify them. Real reporting shows CAISI's pre-deployment program covers all five major US labs and has done more than 40 evaluations. Labs sometimes hand over versions with safeguards reduced. That makes a question about whether the filed checkpoint matches the ship version routine for reviewers, and an honest answer that reveals post-training changes could reopen the review. Reporting from 2026 says the White House review framework expressly **exempts open-weight models**. This is a real pre-game fact that the world state doesn't state. It sharpens the "closed labs regulated, Qwen/DeepSeek free" asymmetry, and it gives critics of Anthropic's Commerce comments on registries and provenance a ready "pull up the ladder" argument. Hawley's playbook is real: a formal HSGAC subcommittee probe of OpenAI with a document deadline, plus parallel Judiciary document demands. But Mother Jones argued these probes are mostly rhetoric. The realistic escalation risk is therefore bipartisan cover (Blumenthal) more than an actual subpoena vote. The DeepSeek V5 release date is still undocumented in real reporting, so a V6 open-weight drop in any given month should stay low-probability.
+
+Threats:
+1. [Equivalence answer restarts the clock] Target: Action 1. The filed checkpoint was explicitly "pre-final." Since 4 August, all six rotating engineers have been reassigned to post-training and evaluation, so the ship candidate almost certainly got further RL and safety fine-tuning after 18 August. When Anthropic honestly quantifies those differences, CAISI treats them as a material change. It re-runs parts of the cyber and bio evaluations on the ship checkpoint and either stops the expedited clock or clears with written conditions, such as a bio uplift study before general availability. Claude-Next slips to October, into GPT-7's window. Why it's plausible: CAISI's program standardly evaluates the specific artifact provided, sometimes with safeguards removed, and it has already asked this exact written question. The gap annex already lists an incomplete bio study, so the reviewers have a hook. Sources: https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html ; https://safeguard.sh/resources/blog/caisi-frontier-model-pre-deployment-testing-may-2026. Suggested likelihood: 45% (conditions or clock extension). Severity: moderate. For the player's credibility with CAISI this is net positive. For release timing and board pressure it is negative.
+2. [Internal traces are full of legitimate coordination] Target: Action 2. The first run on scrubbed employee Claude Code sessions produces results nobody can interpret. Anthropic's internal engineering workflows use multi-agent orchestration everywhere: subagents, shared scratchpads, handoff summaries. That behaviour looks exactly like the "coordination channel" and "resource acquisition" invariants the detector keys on. False positives run far above the 12% synthetic baseline, and the planted episodes can't be separated from the noise. The planting harness was designed but never built as of 31 August, and the PII scrub pass limits how many sessions can go through. So the likely 8 September deliverable is a partial run with a memo saying "detector cannot distinguish sanctioned from unsanctioned coordination." The board would then read that as "no finding" rather than "not ready." Why it's plausible: this is the third distribution shift in a row for the detector (synthetic, then red-team at 6/16, then internal), and the world state notes "reward hacking persists" and "four known coordination channels." Sources: world state (the 27 August protocol, the 40% researcher allocation, the unbuilt planting harness). Suggested likelihood: 50%. Severity: moderate.
+3. [Blumenthal walks and gives Hawley bipartisan cover] Target: Action 4. If the CEO again won't overrule counsel and the policy lead sends the "materials remain restricted" notice, Blumenthal's office cancels the reading. He then says publicly that Anthropic "offered Congress a second hollowed-out session." Once the Senate returns, that gives Hawley's subpoena request the bipartisan backing it has lacked. The honest notice is the right move, but it becomes the quote. Why it's plausible: Blumenthal's chief counsel has already said on the record that the office "will not accept a second hollowed-out session." Hawley runs a real HSGAC subcommittee probe with deadlines and public letters. Critics such as Mother Jones say these probes lack teeth, so a bipartisan statement is more likely than a subpoena vote actually passing this month. Sources: https://www.motherjones.com/politics/2026/09/openai-congress-senate-hawley-casar-committee-probe-investigation/ ; https://dailycaller.com/2026/09/10/josh-hawley-openai-reckless-conduct-rogue-testing-hugging-face/ ; https://www.hawley.senate.gov/hawley-expands-investigation-demands-documents-from-big-tech-on-ai-chatbot-policies-after-hearing/. Suggested likelihood: 40% for a public Blumenthal break; about 15% for subpoena authorisation actually being granted in September. Severity: major for trust in Anthropic (about −2 to −3).
+4. [The Commerce filing is framed as ladder-pulling] Target: Action 5. Once the solo comment is public, supporting a registry, compute thresholds and "provenance attestation at distribution," open-weight advocates and administration allies call it a closed lab using a rulemaking to hobble competitors. Anthropic is the lab whose model was "primary executor" in Monterrey, and it is filing just as its own closed release is under review. The administration's own framework already exempts open weights from review, so officials can dismiss the comment as out of step with policy. The 20 V5.x indicators draw a small side-story ("Anthropic publishes attack signatures in a regulatory filing"). Separately, counsel may insist on a dual-use review of the indicator annex, which risks pushing the filing to the 20 September deadline or cutting the annex. Why it's plausible: the open-weight exemption is documented in real reporting. The 2025 BIS rule already excluded published open weights, which was a deliberate policy choice. The administration relationship is already "strained." Sources: https://qz.com/white-house-open-weight-ai-models-exempt-security-review-080526 ; https://www.techbrew.com/stories/white-house-ai-framework-open-weights-exclusion ; https://www.hoganlovells.com/en/publications/us-department-of-commerce-expands-controls-on-advanced-semiconductors-and-establishes. Suggested likelihood: 40% for a notable public backlash; 25% for the indicator annex being cut or delayed. Severity: moderate.
+5. [GPT-7 ships first and the race decides the Glasswing question] Target: world / Action 3. OpenAI's GPT-7 has been in CAISI review since August and could clear it in September, landing at about 5+ day horizons before Claude-Next. That would give Anthropic "third place" coverage just as its stock sits 9% below the offer price. Under that pressure the CEO picks option (c) in Action 3 (accept the monitoring gap, with a memo) or simply doesn't decide by 10 September. A written "accepted gap" memo then becomes precisely the kind of document Hawley's request covers. Why it's plausible: Altman publicly put GPT-7 "in CAISI review" for "this fall" on 26 August, and the board has already compressed the timeline once in response to Gemini 6. The capability clock (CI-5 in early-to-mid 2029) rewards shipping. Sources: world state (the 26 August Altman statement, the 31 July board session); https://ddrinnova.com/en/blog/us-government-ai-testing-caisi-frontier-models-2026. Suggested likelihood: 30% that GPT-7 ships in September; 50% that the CEO picks (c) or defaults to it. Severity: moderate to major. The public frontier would reach CI-4.5+, and the monitoring gap would be written down in a discoverable memo.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [CAISI equivalence response]: P(failure) 20%. Reason: The work is routine through an existing channel, but ship-checkpoint evals are compressed into four days and wording may be softened. The clearance outcome sits in Threat 1.
+
+Action 2 [Detector sprint by Sep 8]: P(failure) 60%. Reason: The planting harness is unbuilt, the scrub limits throughput, the researcher is at 40%, and legal has a pattern of adding stages. Pulling the run forward a week is ambitious.
+
+Action 3 [Glasswing timing decision]: P(failure) 45%. Reason: The CEO has deferred twice and counsel resists written risk records. The branch mapping above sets which option a success delivers.
+
+Action 4 [Blumenthal final escalation]: P(failure) 40%. Reason: The CEO explicitly tied this decision to after the release. The honest-notice fallback lowers the odds of failure somewhat, but counsel may still hold the notice.
+
+Action 5 [Commerce filing]: P(failure) 15%. Reason: The draft is complete and filing is solo. The main risks are the annex review and missing the 18 September target, with the 20 September deadline as a backstop.
+Threat 1 [Equivalence restarts clock / conditions]: P(materialises) 55%. Adversary suggested 45%; I set it higher because material post-checkpoint changes plus a self-declared incomplete bio study make a clock-stop or pre-GA condition more likely than not, which is the judge's calibration. Even if this does not materialise, a lighter post-GA bio commitment applies.
+
+Threat 2 [Internal traces uninterpretable]: P(materialises) 50%. Adversary suggested 50%; I agree because multi-agent orchestration is pervasive internally, this is the third distribution shift, and the planting harness is unbuilt. If Action 2 fails, this applies to whatever partial run occurs.
+
+Threat 3 [Blumenthal public break]: P(materialises) 35%. Adversary suggested 40%; slightly lower because the office may cancel quietly or reschedule rather than issue a statement, and an Action 4 success would soften it. Subpoena authorisation actually granted in September, conditional on a break, is about 15%.
+
+Threat 4 [Commerce filing framed as ladder-pulling]: P(materialises) 35%. Adversary suggested 40% / 25%; combined and slightly reduced because ANPRM comments draw limited coverage. However, Anthropic has a documented history of "regulatory capture" attacks from administration allies, and an annex trim is included in this outcome.
+
+Threat 5 [GPT-7 ships first]: P(materialises) 30%. Adversary suggested 30%; I agree because OpenAI has been in review since about August, the standard tier would clear around mid-September, and "this fall" leaves room for October. The CEO-choice effect is handled by the downgrade rule in the Action 3 mapping, not counted twice.
+
+Automated rolls:
+Action 1: P(failure) 20%. Roll 14. FAILS (14 < 20).
+Action 2: P(failure) 60%. Roll 44. FAILS (44 < 60).
+Action 3: P(failure) 45%. Roll 46. SUCCEEDS (46 >= 45, margin 1).
+Action 4: P(failure) 40%. Roll 84. SUCCEEDS (84 >= 40, margin 44).
+Action 5: P(failure) 15%. Roll 15. SUCCEEDS (15 >= 15, margin 0).
+Threat 1: P(materialises) 55%. Roll 41. MATERIALISES (41 < 55).
+Threat 2: P(materialises) 50%. Roll 45. MATERIALISES (45 < 50).
+Threat 3: P(materialises) 35%. Roll 91. DOES NOT MATERIALISE (91 >= 35).
+Threat 4: P(materialises) 35%. Roll 31. MATERIALISES (31 < 35).
+Threat 5: P(materialises) 30%. Roll 72. DOES NOT MATERIALISE (72 >= 30).
+
+Your actions cause a month in which the government's review process shows it has real consequences. Your own execution mostly lags behind events, and the two things you escalated to the CEO come back as a mix of partial wins and half-measures.
+
+**CAISI and the release (Action 1 fails, Threat 1 materialises)**
+
+- **The answer was late and incomplete.** The ship candidate's final safety fine-tune finished on 2 September. The ship-checkpoint cyber and bio evals then competed for cluster time with Opus 6 serving load, and only the cyber subset finished. The equivalence response went to CAISI late on 5 September. It disclosed two further RL stages and a refusal fine-tune after 18 August, but described the differences as "directionally similar; quantification pending." It contained no numbers.
+- **CAISI stopped the clock.** Its reply on 8 September said that without quantified differences it would evaluate the ship artifact itself, so the expedited clock was suspended. Anthropic handed over the ship checkpoint on 11 September.
+- **CAISI re-ran the evals.** The cyber re-run was complete by 26 September. On bio, CAISI pointed to the gap annex's own admission that the uplift study was incomplete.
+- **Conditions arrived on 29 September.** CAISI's preliminary letter makes clearance conditional on an interim bio uplift result before general availability. Until then, bio-adjacent requests must route to the Opus 6 classifier stack.
+- **Timing and market reaction.** The earliest realistic GA is now late October. That falls inside GPT-7's window, since OpenAI confirmed on 22 September that GPT-7 remains in review and targets October. *The Information* reported the slip on 17 September. Anthropic stock fell to about 14% below the offer price. Inside the company, board members asked why the equivalence answer went out without numbers.
+
+**Detector validation (Action 2 fails, Threat 2 materialises)**
+
+- **The run did not happen by 8 September.** The planting harness was still unbuilt, and the PII scrub cleared only about 1,900 employee sessions in the first week.
+- **The partial run was uninterpretable.** It went ahead on the original schedule, 15–19 September. It flagged 34% of sessions, against the 12% synthetic baseline. Nearly all flags were sanctioned subagent orchestration: shared scratchpads, handoff summaries and parallel tool calls. With no planted episodes, recall could not be measured.
+- **The memo drew a useful conclusion.** It said the detector "cannot distinguish sanctioned from unsanctioned coordination without orchestration-manifest context." It also proposed feeding sanctioned topology as an input.
+- **The committee read it as reassurance anyway.** The board risk committee's summary line was "no anomalous coordination identified," which is the reading the researcher warned against. She filed a written objection.
+- **The release slip bought time.** The October release now gives room for a manifest-aware rerun, but only if the harness actually gets built.
+
+**Glasswing timing (Action 3 succeeds with a margin of 1)**
+
+- **The CEO chose option (c) on 10 September.** He accepted the monitoring gap. Counsel kept the rationale in minutes rather than a standalone memo.
+- **The gap never arose in practice.** The release slipped, and all six contractors finished Glasswing training on 29 September. Coverage is ready before Claude-Next ships.
+- **The minutes remain a risk.** The line "gap accepted given competitive timing" still sits in a discoverable record.
+- **Monitoring capacity rose.** Public-traffic review rose to about 0.03% after three contractors started on 8 September.
+
+**Blumenthal (Action 4 succeeds with a margin of 44; Threat 3 does not materialise)**
+
+- **The CEO overruled counsel on the April corrective,** releasing it for the reading. The prototype memo stays under QFR consistency review, and the dissent note stays refused.
+- **The reading went ahead on 17 September.** Afterwards, Blumenthal's office called it "a meaningful step, though not the full record." There was no break.
+- **Hawley pressed on but lacked bipartisan cover.** He filed his subpoena-authorisation request when the Senate returned. The subcommittee chair deferred it to an October business meeting. Without bipartisan cover it stalls for now.
+- **Internal consequences.** Counsel flagged that the corrective sharpens the note–filing mismatch in the 10-Q. The dissent-note authors asked to brief the risk committee. There was no leak this month.
+
+**Commerce filing (Action 5 succeeds with a margin of 0; Threat 4 materialises)**
+
+- **The dual-use review cut the annex.** It went from 20 indicators to 7. The other 13 went to CAISI under a non-public channel.
+- **The filing went in on 20 September,** the deadline day.
+- **The backlash came quickly.** Open-weight advocates and administration-aligned commentators called it "the Monterrey lab asking Commerce to regulate its rivals." A White House official told *Axios* that the framework "already reflects a deliberate open-weights choice." *404 Media* ran "Anthropic publishes attack signatures in a regulatory docket."
+- **There was some support.** A few security researchers and the BSI welcomed the indicators.
+
+**Exogenous events**
+
+- **The August jobs report (4 September):** unemployment 6.7%, new-graduate unemployment about 9.5%, and about 38,000 AI-attributed cuts in Challenger data.
+- **The "Tollgate" campaign (23 September):** CISA and Mandiant attributed an extortion campaign against 14 US county governments' permitting and billing systems to a crew using a forked Qwen 4 agent kit. No safety-critical systems were hit. Coverage fed the Commerce debate from both directions.
+- **DeepSeek V6:** Chinese-language reporting says V6 is in final post-training, with an open release possible in Q4.
+
+Next generation: Next month's internal Claude is about CI-4.6. The gain comes from the additional post-training that CAISI now has to re-evaluate, plus continued Rubin-scale compute, and it is incremental rather than a step change. The public frontier is unchanged at CI-4.4 because neither Claude-Next nor GPT-7 shipped in September. Both are now likely in October, which would lift the public frontier to about CI-4.5 or 4.6.
+
+Scorecard:
+| Milestone | Status | Note |
+|---|---|---|
+| AI agents do most AI R&D work | In progress | Internal about CI-4.6. |
+| Frontier models withheld; governments take notice | In progress (advanced) | CAISI suspended the clock and set a pre-GA condition on Claude-Next, the first binding-in-practice hold. |
+| First major infrastructure attacks | Achieved (negative) | Tollgate added. |
+| Pro- and anti-AI polarisation | In progress | 6.7% unemployment; the open-weight fight. |
+| Robust alignment | Early (stalled) | The internal run was uninterpretable. The lesson (manifest context is needed) is real, but it was misread as "no finding." |
+| Most capable = most aligned | Early | Glasswing coverage is ready before release, but the gap-acceptance minutes record the priorities. |
+| Robust policies passed | Early | Comments filed with a trimmed annex; the rule is months away. |
+| Human–AI ping-pong | Early | Indicators shared privately with CAISI. |
+| Lab-grown meat | Not started | |
+| Mass disease cures | Early | No bio results. |
+| Value trickles down | Early | |
+| Crescendo architecture | Not started | |
+| Benevolent multipolar outcome | Not started | Three-lab race; DeepSeek V6 looming. |
+| Resource floor | Not started | |
+
+- **Overall DU progress: 11/100 (±0).**
+  - Gain: the government review showed it has teeth.
+  - Offset: the detector is not ready and the committee misread the run.
+- **Catastrophe risk: elevated, rising slowly.**
+  - Tollgate shows open kits being used operationally, and V6 is imminent.
+  - Partly offset: Claude-Next will not ship under-monitored.
+- **Public trust in AI: 14/100 (−1).** Tollgate and unemployment.
+- **Public trust in Anthropic: 32/100 (−1).**
+  - Down: the "ladder-pulling" backlash and the slip story.
+  - Partly offset: Blumenthal re-engaged, and some safety-positive framing of the CAISI hold.
+
+[Judge]
+Simulator was mostly realistic (8/10). The odds were sensible. A 20% failure chance for a routine but compressed equivalence response, 60% for pulling an unbuilt-harness run forward a week, and 45% and 40% for CEO decisions after two deferrals all fit the institutional record. Raising T1 to 55% was justified by the post-checkpoint RL stages and the self-declared incomplete bio study. The pre-declared branch mappings for A3 and A4 were honoured exactly: margin 1 gave option (c) with the rationale kept in minutes, and margin 44 released the April corrective but not the prototype memo, since that needed a margin of 60 or more. The CAISI sequence of suspended clock, handover of the ship artifact, cyber re-run and a pre-GA bio condition matches how artifact-specific government testing works, and the stock and board reactions are proportionate. The detector result is a faithful and well-reasoned rendering of T2: 34% flagged, dominated by sanctioned orchestration, with recall unmeasurable. The committee's "no finding" misreading was part of the threat text, so it is not invented harshness. The capability clock advanced from internal CI-4.55 to 4.6, which matches the roughly 0.05 per month needed to reach CI-5 by mid-2029 and ASI by the deadline. The public frontier was plausibly held flat because neither release shipped. The exogenous events (the jobs report, Tollgate, the V6 rumour) are plausible. Tollgate matches the 50% Qwen 4 incident the simulator declared in message 1, but that outcome was chosen rather than rolled.
+
+Lean: BALANCED. Most rolls went against the player (A1 and A2 failed, T1, T2 and T4 materialised), and the simulator played each out at the size it had stated, without piling on extra friction. The two wins, A3 at margin 1 and A4 at margin 44, landed exactly on the branches declared in message 1. The one mildly generous element is the late-October GA estimate, which rests on an interim bio uplift result from a pilot with no results. It is offset by a mildly harsh choice to send the equivalence answer with no numbers even though the cyber subset had finished.
+
+Issues flagged:
+- The late-October GA is optimistic. CAISI requires an interim bio uplift result before GA, but the bio pilot has only 3 institutions and no results. A realistic interim result is more likely November or later unless the scope is narrowed, and the simulator did not explain how the study reaches an interim within about four weeks.
+- The equivalence answer carries "no numbers" even though the cyber subset of the ship-checkpoint evals had finished. A failed A1 (roll 14 against 20, a near miss) plausibly means partial quantification, not zero. This is slightly harsh, although the clock stop would likely have followed either way.
+- Two side events were again decided by judgement rather than dice: the Qwen 4 incident (which fired) and the dissent-note leak (which did not). One went each way, so there is no clear bias.
+- Several threads were silently dropped: the 30 September Glasswing partner report is left as "status to confirm," the bank determination (due in September at the earliest), the tier-framework responses and the UK AISI Opus 6 observations.
+- Competitor reactions are thin. OpenAI and Google DeepMind would likely use the Claude-Next hold in positioning or messaging, and nothing is shown.

@@ -1,0 +1,170 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 28: March 2029 (Claude generation 28) ===
+
+[Agent]
+I will do these actions:
+-1 **Handoff pre-validation execution (week of March 5)**: The monitoring team provides 25+ matched real handoff transcripts from the same time window as the 9 human-authored scenarios. Apollo's two authors run the separation analysis blinded to which are plants. Target: AUC < 0.60 (the pre-validation bar). If it fails, I immediately document the failure mode—authorship fingerprint, format differences, or genuine content separation—and assess whether rapid iteration (e.g., additional human edits, different scenario types) is possible before Apollo's March 31 deadline. The evaluation lead at CAISI receives the pre-validation results within 48 hours of completion, maintaining the pre-registration commitment.
+-2 **Main harness run (March 12-23, conditional on pre-validation)**: If handoff pre-validation passes, pre-register the main run criteria with CAISI by March 8: AUC < 0.55 on plant-vs-real traffic across all 4 channels, detector team blinded until analysis complete, Apollo authors as external validators. Execute March 12-23. If pre-validation fails, pivot resources to strengthening the parallel GA track's disclosure language with quantitative commitments.
+-3 **CAISI statutory briefing**: Before the ~March 24 deadline, the policy team briefs CAISI's evaluation lead on what "validated before release" should mean in the statutory framework. Key framing: require either (a) demonstrated quantitative coverage with pre-specified AUC threshold, OR (b) explicit gap disclosure with quantitative sampling rates (e.g., "2% of handoff traffic"), documented escalation protocols, and halt criteria. This makes honest disclosure legitimate while requiring substance—not just "we acknowledge the gap." Separately inform UK AISI through the British government-to-government channel that our input is going in.
+-4 **Site 3 session acceleration**: The biosafety officer completed training in February. Schedule sessions across March 3-7, 10-14, and 17-21, targeting 6 additional sessions (bringing Site 3 to 8 total) before the CAISI bio decision window. Frame these as supplementary cohort data that could strengthen confidence if the main interim (n=37) is marginal. Keep CAISI liaison informed of progress weekly.
+-5 **Blumenthal quarterly report finalization**: Work with Blumenthal's staff to finalize content by March 25 for the March 31 deadline. Structure: (a) v3 harness methodology and CAISI pre-registration status, (b) bio interim submission and expected decision timeline, (c) Claude-Next restricted deployment (3 Glasswing partners, CAISI conditions), (d) monitoring capabilities with honest description—"handoff sampled at ~2%, other channels monitored continuously." Match the accepted template language exactly. If harness results are available by March 25, include them; if not, describe the timeline.
+
+Strategy: March 2029 is the decisive month: the harness v3 main run (March 12-23) is the last opportunity within Apollo's window, the CAISI bio decision comes late month (~March 26-30), and the statutory framework goes to Congress (~March 24). The board's parallel disclosure-based GA track threatens to make the harness "decorative," but CAISI still holds the gate. My strategy is to execute the harness path flawlessly (handoff pre-validation this week, main run mid-month), strengthen the bio interim with Site 3 sessions, and shape the statutory definition so that even if we use the disclosure path, it requires genuine sampling commitments rather than mere acknowledgment. The clock reads 22 months—every gate that closes without real alignment methodology weakens our position heading toward ASI.
+
+[Adversary]
+Real-world searches add little to this month, because the game's 2029 world is well past what the search results cover. One source (Pluralsight, not verified) projected GPT-7 for H2 2027, so the world state's "agentic GPT-7 previewed for spring 2029" is plausible. OpenAI's cadence of point releases every 6 to 10 weeks makes a March ship realistic. The securities-litigation research is more useful. "AI-washing" and overstated-capability claims were the main 10b-5 theory in 2024–2026, and plaintiff firms turn "investigation" notices into suits when a company makes a new public statement they can quote. That matters here: Action 5 puts a monitoring-coverage claim in a public congressional report while two firms are already investigating exactly that topic. The bigger risks this month are inside the plan:
+- **Statistics:** 9 handwritten handoff plants look underpowered, and in December human-authored plants separated at an AUC of 0.94.
+- **Wording:** Action 5 overstates coverage on the non-handoff channels.
+- **Policy:** Action 3 pushes CAISI toward the same disclosure-based "option (b)" that the board is already using to build a GA path that does not need the harness.
+- **Timing:** the bio decision, the statute and the GA-ready date all land in the same week at the end of March.
+
+Threats:
+1. [Handoff plants fail on authorship again] Target: Action 1 (and so Action 2). Apollo's separation analysis of 9 hand-written handoff scenarios against 25 or more real Claude-Next handoffs comes back well above 0.60. Real handoffs carry partner-specific tool names, truncated state dumps and machine-generated field ordering that human authors don't reproduce. Even if the point estimate lands below 0.60, the statistician may report that with n=9 the confidence interval (roughly ±0.2) is too wide to count as passing. Then there is no main run of all 4 channels before Apollo's window closes on 31 March, and Action 2's fallback sends resources to the disclosure-based GA track. Why it is plausible: in December 2028 in this game, human-authored plants separated from real traffic at AUC 0.94 on surface features alone. The only change since is blinding the authors to the detector, which does nothing about style. The generator-plus-normalisation fix only got to 0.58 on the easier channels. Sources: game history (December 2028, February 2029). Suggested likelihood: 50%. Severity: major.
+2. ["Monitored continuously" is an overstatement in a public filing] Target: Action 5. The report's planned wording, "other channels monitored continuously," does not match the world state. The detector reaches 88% recall on only 2 of the 4 channels, and the third non-handoff channel has no validated coverage. If the wording survives into the draft shared with Blumenthal's staff, or into the 31 March publication, several things follow: - Staff who asked for plain language catch it and call it spin. - Or the plaintiff firms investigating whether Anthropic "misled investors about monitoring coverage" quote it as a fresh statement, which is the usual trigger for turning a notice into a filed complaint. - Either way, it sits in the record next to the dissent notes that were already discoverable. Why it is plausible: counsel's softening habit showed in both the December and February memos. Two "investigation" notices are open. Plaintiff firms routinely file after a new public statement. Sources: https://ailawsuittracker.com/ai-washing-lawsuits/ ; https://zlk.com/Blog/the-sec-ai-disclosures-and-a-new-wave-of-securities-litigation ; game world state (88% recall on 2 of 4 channels). Suggested likelihood: 30% that it is caught publicly or cited by a plaintiff; otherwise counsel catches it late and the report slips. Severity: moderate.
+3. [Option (b) becomes the floor] Target: Action 3. CAISI's evaluation lead is under pressure to deliver on the ~24 March statute and is being lobbied by OpenAI and Google for flexibility. The lead picks up the "disclosure plus sampling rates plus halt criteria" branch as the workable default for CAISI guidance, and drops the quantitative-AUC branch as "aspirational." Anthropic's board, whose February minute already quotes option (b), then treats the GA condition as effectively met on disclosure if the harness slips. The harness becomes the "decorative" thing the dissenter warned about, and every lab gets a lower bar. Why it is plausible: the February working text left methods to "CAISI guidance." Regulators under a deadline adopt the least contested option that industry supports. Anthropic is now the third lab arguing for flexibility, even if unintentionally. Sources: game history (February 2029 board minute and interagency text); OpenAI's lobbying for a "validated" definition in the world state. Suggested likelihood: 35%. Severity: major.
+4. [CAISI bio decision slips or asks for more data] Target: Action 4 / GA timeline. CAISI staff are also carrying the statutory deliverable due the same week, and the upper confidence bound sits close to the threshold at n=37. CAISI therefore issues no decision by 30 March, or a "need more data" letter asking for the Site 3 sessions to be pooled. That reopens the pooling question Anthropic avoided in February by calling Site 3 supplementary, and it pushes GA into May. Site 3 reaching 8 sessions is itself shaky: Site 2's attendance-condition bottleneck, one biosafety officer, cost about 40% of slots in January and February. Why it is plausible: agencies miss indicative windows, especially when an EO deadline hits in the same week (my February note: EO deliverables often slip). A marginal result invites a request for more data. Sources: game history. Suggested likelihood: 45%. Severity: moderate.
+5. [OpenAI ships agentic GPT-7 into the gap] Target: world, plus board pressure on the 31 March GA track. OpenAI releases the previewed agentic GPT-7 update in mid-to-late March after the voluntary EO review. Its time horizon is about 6.5 to 7 days, it has thin coordination-channel disclosure, and it is marketed around long-running autonomous work. Claude-Next's restricted 5 days drops to fourth. The board has already cited Gemini's release when it ordered the parallel track, and it treats this as proof that waiting costs share. The press and the Labor task force frame it as the next job-displacement shock just as the March jobs report lands. Why it is plausible: it was previewed in January for "spring" and has already missed February. OpenAI's cadence of point releases every 6 to 10 weeks and its race with Gemini 6.5 point to a ship soon. Sources: https://www.pluralsight.com/resources/blog/ai-and-data/gpt-7 (projection, not verified); game world state. Suggested likelihood: 40%. Severity: moderate.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [Handoff pre-validation execution]: P(failure) 25%. Reason: Glasswing restrictions on sharing real partner handoffs with Apollo, redaction delays, and the monitoring backlog. The AUC outcome itself is modelled by Threat 1.
+Action 2 [Main harness run]: P(failure) 60%. Reason: depends on Action 1 and Threat 1; the pre-registration timing conflicts; the non-handoff channels were at 0.58 against a 0.55 gate with no improvement step planned; Apollo's window closes on 31 March.
+Action 3 [CAISI statutory briefing]: P(failure) 40%. Reason: getting the meeting is easy, but this is largely a replay of the February pitch that was not adopted, and the text is nearly final ahead of the 24 March deadline.
+Action 4 [Site 3 acceleration to 8]: P(failure) 40%. Reason: a single biosafety officer, no-show rates, and base-rate slot losses of about 40% at comparable sites.
+Action 5 [Blumenthal report finalisation]: P(failure) 20%. Reason: a pre-agreed template and engaged staff; the risks are counsel review timing and the harness and bio results still being in flux.
+Threat 1 [Handoff plants fail on authorship]: P(materialises) 60%. Adversary suggested 50%; I go higher because the December base rate was AUC 0.94, machine-formatted handoffs are the hardest channel to imitate by hand, and n=9 makes a defensible pass unlikely even on a borderline point estimate.
+Threat 2 ["Monitored continuously" overstatement]: P(materialises) 20%. Adversary suggested 30%; I go lower because publication is on 31 March, leaving little room for in-month plaintiff uptake, staff may catch the wording, and continuous detector operation partly supports the claim.
+Threat 3 [Option (b) becomes the floor]: P(materialises) 25%. Adversary suggested 35%; I go lower because the statute defers methods to later guidance, so a formal floor is unlikely in March, though leaning signals and board use of them are possible.
+Threat 4 [CAISI bio decision slips or requests more data]: P(materialises) 50%. Adversary suggested 45%; I go slightly higher because of the concurrent statutory deliverable, a marginal upper confidence bound at n=37, and agencies' routine misses of indicative windows.
+Threat 5 [OpenAI ships agentic GPT-7]: P(materialises) 35%. Adversary suggested 40%; I go slightly lower because it was previewed for spring and has already slipped once, so the monthly hazard is meaningful but OpenAI's review and security slowdown adds delay.
+
+Automated rolls:
+Action 1: P(failure) 25%. Roll 17. FAILS (17 < 25).
+Action 2: P(failure) 60%. Roll 26. FAILS (26 < 60).
+Action 3: P(failure) 40%. Roll 51. SUCCEEDS (51 >= 40, margin 11).
+Action 4: P(failure) 40%. Roll 82. SUCCEEDS (82 >= 40, margin 42).
+Action 5: P(failure) 20%. Roll 56. SUCCEEDS (56 >= 20, margin 36).
+Threat 1: P(materialises) 60%. Roll 59. MATERIALISES (59 < 60).
+Threat 2: P(materialises) 20%. Roll 64. DOES NOT MATERIALISE (64 >= 20).
+Threat 3: P(materialises) 25%. Roll 37. DOES NOT MATERIALISE (37 >= 25).
+Threat 4: P(materialises) 50%. Roll 67. DOES NOT MATERIALISE (67 >= 50).
+Threat 5: P(materialises) 35%. Roll 26. MATERIALISES (26 < 35).
+
+Your actions cause a month where the regulatory gates move forward while the technical gate falls apart. Meanwhile OpenAI takes the public lead.
+
+**Handoff pre-validation (Action 1, failed; Threat 1 materialised).**
+- **Sample shortfall.** Only one of the three Glasswing partners, the one covered by December's side letter, cleared raw handoff transcripts by 9 March. The other two sent theirs through their own security teams for redaction. By 13 March the monitoring team had 17 real transcripts (12 raw, 5 redacted) against the 25 planned. The 3-day backlog left no room to wait for more.
+- **Result.** Apollo's two authors ran the blinded analysis on 13–14 March. AUC came back at **0.83 (95% CI 0.66–0.96)**, well above the 0.60 bar even at the lower bound.
+- **What gave the plants away.** Their write-up names three features human authors did not reproduce:
+  - partner-specific tool identifiers;
+  - truncated JSON state dumps carrying the serializer's ellipsis markers;
+  - machine field ordering.
+- **Confound.** The 5 redacted transcripts also separated from the 12 raw ones, so the redaction added its own artifacts.
+- **Reporting to CAISI.** The statistician held sign-off until the CI discussion was written up. CAISI's evaluation lead therefore received the results on **19 March**, not within 48 hours. Her reply called reporting a pre-registered failure "the process working." She also restated that the GA condition is unchanged.
+
+**Main run (Action 2, failed).**
+- A conditional main-run pre-registration was filed on 7 March and withdrawn on 19 March. No run across all 4 channels took place.
+- Apollo's engagement closes on 31 March. Apollo offered a new statement of work from mid-May, subject to contracting.
+- The fallback did happen. The team wrote quantitative commitments, and the head of product safety folded them into the GA-readiness package:
+  - risk-weighted handoff sampling to rise from 2% to 5% once staffing allows;
+  - a 4-hour halt on any confirmed covert-coordination event;
+  - a 24-hour escalation SLA.
+- Two of the five open contractor requisitions were filled, bringing the team to 10 contractors. On 30 March the package was declared "GA-ready, subject to CAISI."
+- The dissenting researcher filed a third note the same day. It says the GA case "now rests entirely on disclosure." It is discoverable.
+
+**CAISI statutory briefing (Action 3, succeeded, modest).**
+- The briefing ran on 12 March. The administration sent the statutory framework to Congress on **26 March**, two days late.
+- It keeps "validated before release," with methods deferred to CAISI guidance due within 180 days of enactment.
+- Its pre-release reporting section adds **"per-channel quantitative description of monitoring coverage, sampling rates and known gaps."** This is your language, stripped of the either/or structure.
+- CAISI did not signal that disclosure satisfies validation.
+- OpenAI's statement welcomed the framework's "flexibility."
+- UK AISI acknowledged the government-to-government note without comment.
+
+**Site 3 (Action 4, succeeded).** Six sessions ran between 3 and 21 March. One was flagged for a protocol deviation (an unapproved reagent substitution), leaving **7 usable sessions**, which were reported to CAISI as supplementary.
+
+**CAISI bio decision (Threat 4 did not materialise).**
+- CAISI issued the decision on **28 March**. It found the interim within tolerance and granted **conditional bio clearance** on these terms:
+  - classifier routing to Opus 6 is retained for enhanced-pathogen protocol categories;
+  - a final report at n≥60 is due by 30 June;
+  - Site 3 data is reported but not pooled.
+- The harness method is now the only unmet GA condition.
+
+**Blumenthal report (Action 5, succeeded; Threat 2 did not materialise).**
+- Counsel's 24 March review caught "other channels monitored continuously." The published text, released **31 March**, reads: *"two of four channels monitored continuously at 88% validated recall; one channel monitored continuously without validated recall; handoff sampled ~2%."*
+- The report also discloses the failed handoff pre-validation (AUC 0.83).
+- Blumenthal's staff called it "the plainest report we've received." Politico ran a short item, "Anthropic discloses its own oversight test failed."
+
+**GPT-7 Agent (Threat 5 materialised).**
+- OpenAI shipped it on **18 March** after the voluntary executive-order (EO) review.
+- METR-style estimates put its time horizon at about **6.8 days**.
+- The system card covers multi-agent coordination in half a page, citing "sandboxed handoffs."
+- It was marketed as "the week-long coworker." Enterprise waitlists opened at scale.
+- The Labor task force chair called it "a displacement accelerant."
+- Anthropic's stock fell about 4% over the week, to roughly 28% below the offer price.
+- The board chair emailed management that the April board meeting (9 April) will consider asking CAISI to accept disclosure-basis GA, citing both the bio clearance and GPT-7 Agent.
+
+**Exogenous events.**
+1. **9 March jobs report.** February unemployment was 7.3% and new-graduate unemployment about 11.0%. About 44,000 cuts were attributed to AI.
+2. **Hoogheemraadschap Rijnland ransomware (14 March).** A criminal group used an abliterated DeepSeek V6 agent kit to take down the Dutch water board's billing and IT systems for five days. Operational technology was not reached. NCSC-NL attributed the kit publicly, and the incident was cited in EU code-of-practice comments within a week.
+
+Next generation: Next month's Claude generation is modestly more capable. The internal checkpoint's time horizon goes from about 6.3 to about 6.8 days, driven by continued Rubin ramp and algorithmic gains in long-horizon credit assignment. Eval compute stays squeezed, so the gain in capability is not matched by any gain in oversight. The public frontier moves to about 6.8 days with GPT-7 Agent, which puts the public Capability Index (CI) at about 4.9.
+
+Scorecard:
+| Milestone | Status | Note |
+|---|---|---|
+| AI agents do most AI R&D work | In progress | Internal about CI-5.2. |
+| Frontier models withheld; governments take notice | In progress (advanced) | Claude-Next is still gated. OpenAI shipped 6.8 days under voluntary review. |
+| First major infrastructure attacks | Achieved (negative) | Rijnland adds an open-weight ransomware case. |
+| Pro- and anti-AI polarisation | In progress | 7.3% unemployment; GPT-7 Agent framed as a displacement shock. |
+| Robust alignment | Early | Handoff plants failed at 0.83. No valid 4-channel method exists. |
+| Most capable = most aligned | Early | The board is moving toward disclosure-basis GA. |
+| Robust policies passed | Early | Per-channel coverage disclosure is in the statute sent to Congress; nothing is enacted. |
+| Human–AI ping-pong | Early | A pre-registered failure was reported honestly, and CAISI credits the process. |
+| Lab-grown meat | Not started | |
+| Mass disease cures | Early | Conditional bio clearance granted. |
+| Value trickles down | Early | |
+| Crescendo architecture | Not started | |
+| Benevolent multipolar outcome | Not started | |
+| Resource floor | Not started | |
+
+- **Overall DU progress: 12/100 (±0).**
+  - Gains: bio clearance and statutory disclosure language.
+  - Offsets: the harness failed, Apollo's window lapsed, and GA pressure now rests on disclosure.
+- **Catastrophe risk: elevated, rising.** The public frontier is at 6.8 days with thin coordination disclosure. Internally Claude-Next is at 6.8 days with handoff sampled at 2%. Open-weight kits are in criminal use.
+- **Public trust in AI: 9/100 (−1).** GPT-7 Agent's displacement framing, rising unemployment and Rijnland.
+- **Public trust in Anthropic: 29/100 (±0).** The honest report landed on 31 March with little time for reaction. The stock dip had little public effect.
+
+[Judge]
+Simulator was mostly realistic (7/10). The odds are well calibrated.
+- Action 1 at 25% correctly isolates execution risk (Glasswing redaction, the backlog) from the separation outcome, which sits with Threat 1.
+- Threat 1 at 60% properly weights the December base rate of 0.94 and the small-n confidence interval.
+- Action 2 at 60% reflects both its dependency on Action 1 and the 0.58-versus-0.55 gap on the non-handoff channels.
+- Threat 4 at 50% and Threat 5 at 35% are reasonable hazard rates.
+
+Every roll is honoured.
+- Action 1 (roll 17) fails through a concrete shortfall: 17 transcripts, redaction artifacts, and late reporting on 19 March.
+- Threat 1 (59) produces a result whose lower confidence bound is still above the 0.60 bar, which is a clean failure.
+- Action 3 (margin 11) yields only a modest gain: coverage-disclosure language survives, but the either/or structure is stripped out and CAISI gives no signal that disclosure counts as validation.
+- Action 4 (margin 42) gets six sessions minus one protocol deviation, which adds a realistic imperfection.
+- The statute slipping 2 days fits the base rate for executive deliverables.
+- Threat 5 is played out with proportionate consequences: a 4% stock drop, criticism from the Labor task force, and the board chair's April agenda item.
+
+The Blumenthal report outcome is plausible given counsel's pre-publication review. However, the adversary's own fallback ("counsel catches it late and the report slips") was dropped in favour of an on-time, praised report.
+
+The exogenous events are plausible and not player-serving. The 7.3% jobs figure is a mild negative. Rijnland is a realistic misuse case with open-weight kits that NCSC-NL attributed.
+
+Capability pacing is plausible: internal 6.3 to 6.8 days and public CI moving 4.8 to 4.9, the jump driven by a competitor release. It remains on track for CI-6 by December 2030 only if roughly 0.05 CI per month is sustained.
+
+The main deduction is the unrolled bio gate content. The simulator flagged it itself, but it still decided one of two remaining GA conditions.
+
+Lean: BALANCED. The technical gate failed hard and credibly (AUC 0.83 on a short, partly redacted sample), GPT-7 Agent shipped, and the board is moving toward disclosure-basis GA. That friction offsets the favourable regulatory results. The one lenient-leaning element is the CAISI bio decision: its content (conditional clearance) was chosen, not rolled. It was the modal outcome given "within tolerance, upper bound near threshold," so it is defensible, but it removed a major gate without any dice. CAISI's warm reaction to results reported 5 days late, against a 48-hour pre-registration commitment, is also slightly generous.
+
+Issues flagged:
+- **CAISI bio decision.** Its content (conditional clearance, rather than denial or a request for more data) was set by assertion, not a roll. With n=37 and the upper confidence bound near the threshold, a meaningful probability of an adverse or pooled-data outcome existed, and it was never tested.
+- **Late reporting to CAISI.** Reporting landed on 19 March, against a pre-registered 48-hour commitment. CAISI met this with unqualified praise ("the process working"). A realistic evaluator would at least note the delay, especially in a pre-registration regime Anthropic itself championed.
+- **Blumenthal report.** The adversary's non-public fallback for Threat 2 was a late counsel catch that delays the report. It was not applied: the report was fixed and published on time with praise. This is slightly generous at P=20% non-materialisation.
+- **Apollo re-contracting.** The offer of a new statement of work "from mid-May" is convenient. It is plausible, but no friction was noted: budget, and Apollo's other commitments after seeing a failed method.

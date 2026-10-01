@@ -1,0 +1,167 @@
+DISCLAIMER: This is a SIMULATION written by AI models. It is fiction, not a forecast, not news,
+and not a statement by Anthropic or any other company. Events, quotes and statements attributed
+to real people, companies and governments are invented by the simulator. The real-world
+background briefing was compiled from search results and has not been fully verified.
+
+=== Month 18: May 2028 (Claude generation 18) ===
+
+[Agent]
+I will do these actions:
+-1 **QFR response with proactive honesty (policy + legal + chief scientist, by May 13).** The May 14 question asks what monitoring we described on March 24. Draft a response that: (a) states what we said (activity monitoring and rapid rollback); (b) acknowledges the gap between description and deployed capability at that time; (c) explains the April 24 correction and human-review implementation; (d) provides current monitoring rates (1.8%) and June 5% target. Submit the response with CEO sign-off to show leadership accountability. If the dissent note surfaces later, this paper trail shows we corrected honestly to Congress before any leak.
+-2 **Protect human-review staffing through June (alignment research + serving leadership → board memo, by May 7).** The eight reviewer requisitions must be filled AND protected from reclaims. Draft a board memo: "Human review at 5% is now a securities commitment (the QFR response cites the June target) and a regulatory commitment (AISI's deployment-control recommendation). Pulling these resources before June 15 creates legal exposure. Request explicit staffing protection." Make the business case, not just the safety case.
+-3 **Offer AISI checkpoint access in exchange for confidential pre-release feedback (policy + legal → AISI director, by May 10).** The board rejected AISI's conditions as release gates, but checkpoint access is a separate ask that wasn't directly addressed. Propose: "Anthropic offers UK AISI access to next-gen checkpoints under existing confidentiality terms. AISI provides confidential observations before public release. This complements CAISI's expedited tier (US sets timing, UK provides independent technical review)." Repair the cooled relationship and create external oversight.
+-4 **10-Q risk-factor update with accurate monitoring disclosure (securities counsel + alignment research, by May 20).** The update is already queued. Ensure it includes: (a) monitoring methodology and limitations, specifically that human review covers approximately 2% of trajectories; (b) the anomaly-detection test results (3 of 10 detected, 19% false positives); (c) the eval-awareness finding and its implications. This creates accurate securities disclosure that matches QFR testimony and internal reality, reducing future liability.
+-5 **Detector redesign emergency unblock (alignment research + legal + chief scientist, by May 15).** The Apollo amendment has been in legal for weeks. Escalate: either approve the amendment by May 15, or authorize a parallel track with academic researchers (MILA, Berkeley) who don't require the same conflict-of-interest review. The behavioral-invariants approach cannot remain a 4-page outline while CI-4.2 deploys. The two researchers pulled into review rotation must return to the redesign as primary assignment once review staffing hits 3%.
+
+Strategy: Month 18. The critical near-term issue is the Hawley QFR due May 14, which directly asks what we told partners on March 24—exactly the disclosure that two researchers called overstated. Answering honestly and framing the correction proactively is the only defensible path. Meanwhile, human review is at 1.8% against a June 5% target, the detector redesign is completely stalled, and AISI's relationship is cooler after the board rejected their recommendations. The late-May release is happening; I can't stop it, but I can ensure better monitoring is in place and accurate disclosure is on record. This month I prioritize honest QFR response, protecting reviewer staffing, repairing the AISI relationship via checkpoint access, and ensuring the 10-Q accurately reflects our monitoring limitations.
+
+[Adversary]
+Real pre-game reporting backs up most of what the player is up against this month. SEC practice judges AI disclosures under the Rule 408 and 12b-20 materiality standard. Enforcement (Presto Automation, January 2025) has specifically punished companies that said a system ran without humans when "substantial human involvement" was in fact required, or the reverse. That makes a CEO-signed admission of a "gap between description and deployed capability" dangerous to write, and securities counsel will probably resist it. The White House ONCD's September 2026 "US review first" request is real. Mythos 5.1 was the first Anthropic model AISI did not see before release. This directly limits the offer of checkpoint access to AISI, and the board has already cited ONCD when it deferred the 72-hour notification. Anthropic has a real history of public safety resignations in 2026: Mrinank Sharma, Jacob Coxon giving up unvested equity, and Joe Benton. So the latent dissent note and the minuted dissent by the chief scientist carry a real chance of becoming public. Pre-game reporting expected DeepSeek's cadence to slip by about a quarter, which fits the V5.x rumour for May. Several incident-reporting bills with 72-hour or 7-day windows (Warner, Moran) already existed before the game, so Hawley's bill has templates and co-sponsor options. Most sources are dated after my cutoff and I could only partly verify them.
+
+Threats:
+1. [Counsel softens the QFR and the 10-Q] Target: Actions 1 and 4. Securities counsel and the disclosure committee intervene, as they did with the 24 April partner update. They strike or soften the admission that there was a "gap between description and deployed capability," because a signed admission to Congress amounts to an admission of a misstatement to customers, and Anthropic is a public company whose stock trades below the IPO price. The QFR goes out saying "our monitoring approach was refined and partners updated," with no CEO signature. The 10-Q reports "sampled human review" without the 2% figure, and the detector results are cited only by reference to the public testimony. The paper trail the player wants never gets made, and the mismatch between what Anthropic told Congress and what the dissent note says stays live. Why it is plausible: counsel already routed the partner correction through Rule 408 review and diluted it last month. SEC comment-letter practice flags "deployed vs. in development" wording, and Presto shows the enforcement exposure. A general counsel rarely lets a CEO sign an admission while a Senate investigation is running. Sources: https://www.nortonrosefulbright.com/en/knowledge/publications/9ab5047f/sec-heightens-enforcement-for-ai-related-disclosures ; https://www.finrep.ai/blog/sec-ai-disclosure-requirements-for-the-10-k-2026-practitioner-guide ; https://www.theregreview.org/2026/03/07/seminar-regulating-ai-washing/. Suggested likelihood: 50%. Severity: moderate.
+2. [ONCD vetoes checkpoint access for AISI] Target: Action 3. Before sending the offer, Anthropic's policy team clears it with ONCD and CAISI, because the board just deferred 72-hour notification "pending US government coordination." The White House, whose relationship with Anthropic is strained, restates the September 2026 "US review first" position. Leadership then shelves the offer, or limits it to access after CAISI's expedited review, which means after the public release. AISI reads this as a second rebuff. The relationship gets colder, and AISI's criticism that "deployment preceded controls" becomes the likely frame for any later AISI statement. Why it is plausible: this is a documented real precedent. ONCD asked Anthropic and OpenAI to route new models through US review first, and Mythos 5.1 skipped AISI entirely. The player's own framing ("US sets timing") concedes that US review comes first. Baseline correction for the simulator: this ONCD request is a real pre-game fact (September 2026). Sources: https://blog.pebblous.ai/blog/us-first-model-review-uk-aisi/en/ ; https://www.resultsense.com/news/2026-09-25-white-house-ai-models-aisi-us-first/ ; https://tech-insider.org/white-house-openai-anthropic-uk-ai-models-2026/. Suggested likelihood: 55%. Severity: moderate.
+3. [Public release breaks the review denominator] Target: Action 2 (and Action 1's June 5% target). Human-review coverage is a percentage of trajectories. When the late-May public release takes traffic from about 30 Glasswing partners to millions of API and app users, the denominator grows by orders of magnitude. Filling eight requisitions in five weeks is also unlikely, because specialised trajectory reviewers take time to hire and clear. Coverage of public traffic falls to well below 0.1%. The "5% by June" figure the player is about to cite to Congress and to the SEC then becomes untrue for the deployment people care about. Serving leadership responds by redefining the metric as "5% of Glasswing flagged trajectories." That is exactly the kind of quiet reframing that Hawley's staff and securities plaintiffs look for. Why it is plausible: this is simple arithmetic about scale, combined with Anthropic's six-month record of reclaiming staff. The Presto precedent shows how overstated human-review figures get treated. Sources: https://www.nortonrosefulbright.com/en/knowledge/publications/9ab5047f/sec-heightens-enforcement-for-ai-related-disclosures (Presto); world state (1.8% coverage with 10 part-time staff). Suggested likelihood: 60%. Severity: major.
+4. [DeepSeek V5.x ships and the race compresses] Target: world, and indirectly Actions 2 and 5. DeepSeek releases V5.x under the MIT licence in May. METR-style estimates put it at about 2.5–2.8 days, which narrows the open-weight gap to about 3–4 months. Criminal kits update within days. Cotton and Commerce cite it to finalise weight export controls. Anthropic's board cites it to hold the late-May date and to pull reviewers and redesign researchers back into release-readiness and red-teaming for V5.x misuse. The detector redesign loses its staff for a seventh month. Why it is plausible: the world state already has V5.x rumoured for May after an April slip. DeepSeek has a history of Preview-then-GA cadence with one-quarter slips. There is already an established pattern of harness and incident work reclaiming alignment staff. Sources: https://www.digitalapplied.com/blog/open-weight-model-q3-2026-projection-competitive-forecast ; https://blog.mean.ceo/deepseek-news-september-2026/. Suggested likelihood: 45%. Severity: moderate to major.
+5. [Safety researcher resigns publicly over the release] Target: world, and Actions 1 and 4. One of the two authors of the dissent note, or a researcher on the stalled redesign team, resigns before or at the late-May release. They post that Anthropic is shipping a CI-4.2 model to the public "without the controls the UK safety institute asked for, with a detector that failed its own test." They do not leak the privileged note itself, but they describe it. Hawley's HSGAC and Judiciary staff request the note, and the QFR answer is judged against it. Why it is plausible: Anthropic had at least three public safety resignations in 2026 (Sharma, Coxon, Benton), and each drew national coverage. Here the chief scientist's dissent is minuted, the dissent note is under legal hold, and the board rejected external conditions. That is the textbook setup for someone to go public. Sources: https://www.cnn.com/2026/09/09/tech/ai-anthropic-safety ; https://www.axios.com/2026/09/09/anthropic-researcher-ai-warning-interview ; https://restofworld.org/2026/ai-whistleblower-psst-mary-inman/. Suggested likelihood: 20%. Severity: major.
+
+[Simulator]
+Odds (set in the first message, before any roll):
+Action 1 [QFR proactive honesty with CEO sign-off]: P(failure) 30%. Reason: submission is routine, but a CEO signature on an admission during an open inquiry is unusual and may be refused or delayed. Counsel softening is left to Threat 1.
+
+Action 2 [Protect human-review staffing and fill requisitions]: P(failure) 45%. Reason: the legal-exposure framing makes a protection order plausible, but filling eight specialised requisitions in about five weeks is unlikely, and six months of reclaims is a strong prior.
+
+Action 3 [AISI checkpoint access offer]: P(failure) 45%. Reason: the board has refused checkpoint access for months and just rejected AISI's gates. The offer needs board, GC and security sign-off on weight access, and a narrowed or late offer is likely. The ONCD veto is left to Threat 2.
+
+Action 4 [10-Q accurate monitoring disclosure]: P(failure) 25%. Reason: the filing is certain and the 3-of-10 result is already public. The main internal risk is the eval-awareness passage being cut as proprietary. Dilution is left to Threat 1.
+
+Action 5 [Detector redesign unblock]: P(failure) 50%. Reason: the Apollo recusal check is outside Anthropic's control, the academic track needs its own data agreements, and staff return is gated on 3% coverage, which is unlikely before June.
+Threat 1 [Counsel softens QFR and 10-Q]: P(materialises) 50%. Adversary suggested 50%. I agree: counsel diluted the partner update weeks ago, and the stock is below the offer price during a Senate inquiry. Last quarter's near-verbatim 10-K is a partial counterweight, so I do not go higher.
+
+Threat 2 [ONCD vetoes AISI checkpoint access]: P(materialises) 45%. Adversary suggested 55%. The US-first precedent is real and the board already deferred to the US government. However, leadership may send a post-CAISI-review offer without formal ONCD clearance, and that version only partly matches the threat.
+
+Threat 3 [Public release breaks review denominator]: P(materialises) 45%. Adversary suggested 60%. The arithmetic is sound, but the threat needs the release to land by late May (slippage is plausible) and a visible reframing of the metric within the month.
+
+Threat 4 [DeepSeek V5.x ships]: P(materialises) 40%. Adversary suggested 45%. It is rumoured for the second consecutive month, but slips of a quarter are common for DeepSeek.
+
+Threat 5 [Public safety resignation]: P(materialises) 12%. Adversary suggested 20%. The setup is ripe (minuted dissent, legal hold, rejected conditions), but the monthly base rate for a public resignation remains low, and the release may fall at month-end.
+
+Automated rolls:
+Action 1: P(failure) 30%. Roll 06. FAILS (06 < 30).
+Action 2: P(failure) 45%. Roll 23. FAILS (23 < 45).
+Action 3: P(failure) 45%. Roll 99. SUCCEEDS (99 >= 45, margin 54).
+Action 4: P(failure) 25%. Roll 15. FAILS (15 < 25).
+Action 5: P(failure) 50%. Roll 93. SUCCEEDS (93 >= 50, margin 43).
+Threat 1: P(materialises) 50%. Roll 10. MATERIALISES (10 < 50).
+Threat 2: P(materialises) 45%. Roll 24. MATERIALISES (24 < 45).
+Threat 3: P(materialises) 45%. Roll 69. DOES NOT MATERIALISE (69 >= 45).
+Threat 4: P(materialises) 40%. Roll 50. DOES NOT MATERIALISE (50 >= 40).
+Threat 5: P(materialises) 12%. Roll 15. DOES NOT MATERIALISE (15 >= 12).
+
+Your actions cause a month in which the external relationships improve slightly and the documented record gets worse.
+
+**QFR response (Action 1 fails; Threat 1 materialises).** The draft reached the CEO on 9 May, and he declined to sign it. The general counsel's view carried: a signed CEO admission of a "gap between description and deployed capability" during an open HSGAC inquiry would be read as an admission of misstatement to Glasswing customers. Securities counsel then applied the same Rule 408 treatment used on the 24 April partner update.
+
+The answer went out on 14 May under the head of policy's name. It said Anthropic's "monitoring approach was refined as deployment matured, and partners were updated accordingly." It mentioned "sampled human review" and gave no rate, no June target and no admission of any gap.
+
+The chief scientist asked that her objection be noted in the file, and it was. The two researchers who wrote the dissent note were told the answer was "consistent with the record." Privately, one of them called it "the April update with a letterhead." Neither went public this month. Staff channels were tense, but there was no resignation.
+
+**10-Q (Action 4 fails; Threat 1 materialises).** The Q1 10-Q, filed 15 May, says "human review of a sample of trajectories" with no percentage. It cites the detector results only "as described in public testimony." The disclosure committee cut the eval-awareness passage as "proprietary and speculative." The filing now matches the QFR answer, so the two agree with each other. Both still diverge from what the privileged dissent note says.
+
+**Staffing memo (Action 2 fails).** The board memo went to the board on 6 May. It backfired in part. Counsel objected to calling 5% a "securities commitment," because that phrasing would itself create the commitment. This objection is one reason the target disappeared from both filings. The board declined to give explicit protection, saying release-readiness needs "flexible allocation."
+
+- One of the eight requisitions was filled, with a start date of 16 June.
+- Two more contractors were added.
+- Coverage is about 1.9%.
+
+**AISI checkpoint access (Action 3 succeeds; Threat 2 materialises).** Policy cleared the offer with ONCD on 7 May. ONCD restated its September 2026 "US review first" position.
+
+Leadership still sent the offer on 9 May, the first time Anthropic has offered checkpoint weights to UK AISI. It is sequenced, though:
+
+- **This release:** AISI access opens only once CAISI's expedited review clears.
+- **Next generation:** a written framework is proposed in which AISI access starts in parallel with CAISI's review. ONCD has not agreed to this and says it "will consider it."
+
+AISI's director accepted on 16 May. A public note from AISI says access for this model "will begin after US review, and after the deployment decision." That keeps AISI's "deployment preceded controls" framing alive. The relationship is thawing slightly, but AISI regards this as a partial rebuff.
+
+**Detector unblock (Action 5 succeeds).** The chief scientist's escalation worked. Legal approved the Apollo design-role amendment on 13 May after Apollo certified a recusal wall around its OpenAI engagement.
+
+- The Berkeley parallel-track data agreement is drafted but not signed.
+- The 3% condition was not met. The chief scientist nonetheless moved one of the two researchers to 60% redesign time.
+- The four-page outline is now a 22-page spec with a behavioural-invariants test plan. The first experiments are scheduled for June.
+
+**CAISI and the release.** Anthropic completed its expedited filing on 19 May. CAISI's reviewers read AISI's April critique and sent two follow-up questions on rollback triggers, which stopped the clock for four days. Public release is now expected about 5 June. Threat 3's denominator problem is postponed, not resolved.
+
+**Glasswing partners.** Two Glasswing partners, a regional bank and a health-records vendor, asked for written monitoring terms after the "one percent" clips. One has paused expansion of its seats. None has exited.
+
+**Traces of threats that did not materialise.** DeepSeek published a V5.x inference-efficiency paper on 26 May. It has not released weights, and the rumour now points to June.
+
+**Exogenous events**
+1. **US jobs data (8 May).** The April jobs report puts unemployment at 6.3%. Challenger counts about 38,000 cuts attributed to AI.
+2. **Hawley–Blumenthal bill (21 May).** Hawley and Blumenthal introduce the *AI Deployment Accountability Act*. It would require disclosure of human-review rates and 72-hour incident reporting for covered models. Hawley's staff call Anthropic's QFR answer "a non-answer to a yes-or-no question" and ask for "all internal assessments of monitoring adequacy, March–April." Legal reads that request as covering the dissent note.
+3. **xAI and the EU AI Office (20 May).** xAI files its Art. 55 reply on 20 May. The AI Office calls it "incomplete in material respects" and sets a 30-day supplement deadline, with a warning that it may take formal measures.
+
+Next generation: Next month's Claude generation is about +0.06 CI more capable (internal about CI-4.26). The drivers are more Rubin capacity coming online for RL on long-horizon agentic tasks, and algorithmic gains in context compaction. Release friction does not slow internal training. The public frontier stays at CI-4.15 until Anthropic's release in early June.
+
+Scorecard:
+| Milestone | Status | Note |
+|---|---|---|
+| AI agents do most AI R&D work | In progress | Internal about CI-4.26. |
+| Frontier models withheld; governments take notice | In progress (weakened) | The expedited tier is normal practice; a bipartisan bill has been introduced. |
+| First major infrastructure attacks | Achieved (negative) | V5 kits persist. |
+| Pro- and anti-AI polarisation | In progress | Unemployment is 6.3%; the bill is bipartisan. |
+| Robust alignment | Early (unstalled) | Apollo amendment approved; 22-page spec; experiments in June. |
+| Most capable = most aligned | Early (weakened) | About 1.9% review; release is going ahead without AISI's gates. |
+| Robust policies passed | Early | Bill introduced, not passed. |
+| Human–AI ping-pong | Early | First AISI checkpoint access, but only after US review. |
+| Lab-grown meat | Not started | |
+| Mass disease cures | Early | No bio results. |
+| Value trickles down | Early | Few hires. |
+| Crescendo architecture | Not started | |
+| Benevolent multipolar outcome | Not started | The lead is still roughly zero. |
+| Resource floor | Not started | |
+
+- **Overall DU progress: 10/100 (±0).**
+  - Gains: the detector redesign is unblocked, and AISI has checkpoint access for the first time.
+  - Losses: the QFR and 10-Q were softened and now diverge further from the internal record, and staffing is unprotected before a release that will dilute coverage.
+- **Catastrophe risk: elevated, rising.**
+  - The CI-4.2+ release comes with about 2% review and crude triggers.
+  - Four labs are near CI-4, and the V5.x weights are pending.
+- **Public trust in AI: 18/100 (−1).** Unemployment rose to 6.3%, and bipartisan accountability framing continues.
+- **Public trust in Anthropic: 37/100 (−1).**
+  - "Non-answer to Congress" and AISI's "after the deployment decision" hurt.
+  - The damage is limited because the dissent note has not surfaced. The exposure risk has grown.
+
+[Judge]
+Simulator was mostly realistic (8/10). **Odds.** The odds were sensibly separated from the overlapping threats, and most are well calibrated:
+- QFR at 30%: a CEO signature during an open inquiry is unusual.
+- 10-Q at 25%: the filing itself is certain.
+- Redesign unblock at 50%.
+- Threat 1 at 50% and Threat 2 at 45%: the discount from 55% is defensible because a sequenced offer only partly matches the threat.
+
+Action 2 at 45% is a little generous for a compound action (explicit board protection *and* filling eight specialised requisitions in five weeks). The outcome still scaled it down realistically.
+
+**Handling the results.** The resolutions follow the rolls closely:
+- Actions 1 and 4 plus Threat 1 produce a coherent, fully softened QFR and 10-Q. It is realistic that both filings now agree with each other while diverging from the privileged note.
+- Action 3 (margin 54) plus Threat 2 yields a first-ever but sequenced checkpoint offer, and AISI's public "after the deployment decision" note is exactly the reaction you would expect.
+- Action 5 (margin 43) gets the Apollo amendment through with a recusal wall, but the Berkeley track is unsigned and only one researcher returns part-time.
+
+**Release slip.** Moving the release to about 5 June because CAISI stopped the clock over AISI's critique is plausible. It also consistently defers Threat 3 rather than making it disappear.
+
+**Reactions and exogenous events.**
+- The promised Glasswing partner reactions are delivered.
+- Introduction of the Hawley–Blumenthal bill follows the announcement already in the world state.
+- The document request is a natural escalation.
+- xAI's incomplete Art. 55 reply is a realistic follow-through.
+
+**Capability.** The internal step of +0.06 matches the roughly 0.056 per month needed to reach CI-6 by December 2030.
+
+**Weak spots.** Some threads are drifting: Commerce weight controls are now past "this spring" and still unresolved, and no competitor moved this month.
+
+Lean: BALANCED. The rolls went mostly against the player (three action failures and two threats materialising), and the simulator honoured them without inventing extra friction. The two successes also received proportionate, bounded benefits. The one mild generosity is the redesign's quick jump to a 22-page spec, with a researcher moved even though the 3% gate was unmet. The one mild harshness is the staffing memo "backfiring" into the loss of the 5% target. These roughly offset.
+
+Issues flagged:
+- Action 2's odds (45% failure) bundle two hard sub-goals, board protection and eight hires, and should have been nearer 60%. The resolution partly corrected for this.
+- The redesign going from a 4-page outline to a 22-page spec with a test plan in about two weeks, with one researcher reassigned despite the unmet 3% condition, is slightly fast and generous even at margin 43.
+- The staffing memo "creating" the securities commitment and causing the 5% target to vanish from the filings is a plausible but invented extra cost beyond the named risks. It is mild.
+- Commerce weight controls were due to conclude "this spring" and are simply carried forward as "concluding." The thread needs a resolution or a stated reason for the delay.
+- No competitor-lab movement (OpenAI, GDM, xAI releases or training news) in a month when the capability clock advanced. OpenAI's "fully reviewed" positioning should plausibly have exploited the "non-answer" story.

@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diversified Utopia</title>
+<style>
+  :root {
+    --bg: #f6f4ef; --panel: #ffffff; --ink: #1d1d1f; --muted: #6b6b70; --line: #e2ded5;
+    --accent: #3b5bdb; --accent-ink: #ffffff; --warn: #b5541c; --good: #2f7d4f; --code: #f1eee7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #15161a; --panel: #1e2026; --ink: #ececf0; --muted: #9a9aa6; --line: #2e3038;
+      --accent: #7c93ff; --accent-ink: #0f1115; --warn: #f0965c; --good: #6fcf97; --code: #262830; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header { padding: 14px 20px; border-bottom: 1px solid var(--line); display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+  header h1 { font-size: 18px; margin: 0; }
+  header .sub { color: var(--muted); font-size: 13px; }
+  .layout { display: grid; grid-template-columns: 280px 1fr; min-height: calc(100vh - 54px); }
+  @media (max-width: 860px) { .layout { grid-template-columns: 1fr; } aside { border-right: 0; border-bottom: 1px solid var(--line); } }
+  aside { border-right: 1px solid var(--line); padding: 16px; }
+  main { padding: 20px; max-width: 980px; width: 100%; }
+  h2 { font-size: 15px; margin: 18px 0 8px; }
+  h2:first-child { margin-top: 0; }
+  .run { padding: 10px; border: 1px solid var(--line); border-radius: 8px; margin-bottom: 8px; cursor: pointer; background: var(--panel); }
+  .run.active { border-color: var(--accent); }
+  .run .id { font-weight: 600; font-size: 13px; word-break: break-all; }
+  .run .meta { color: var(--muted); font-size: 12px; }
+  .badge { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 99px; background: var(--code); color: var(--muted); margin-left: 4px; }
+  .badge.turn { background: var(--accent); color: var(--accent-ink); }
+  .badge.bad { background: var(--warn); color: var(--accent-ink); }
+  label { display: block; font-size: 13px; font-weight: 600; margin: 10px 0 4px; }
+  label .hint { font-weight: 400; color: var(--muted); }
+  input[type=text], input[type=number], select, textarea {
+    width: 100%; padding: 8px 10px; border: 1px solid var(--line); border-radius: 6px;
+    background: var(--panel); color: var(--ink); font: inherit;
+  }
+  textarea { min-height: 80px; resize: vertical; }
+  button { font: inherit; padding: 8px 14px; border-radius: 6px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
+  button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 600; }
+  button:disabled { opacity: .5; cursor: default; }
+  .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; margin-bottom: 12px; }
+  .card > summary { padding: 10px 14px; cursor: pointer; font-weight: 600; list-style: none; }
+  .card > summary::-webkit-details-marker { display: none; }
+  .card > summary::before { content: "\25B8"; display: inline-block; width: 16px; color: var(--muted); }
+  .card[open] > summary::before { content: "\25BE"; }
+  .card .body { padding: 0 14px 14px; white-space: pre-wrap; overflow-wrap: anywhere; max-height: 520px; overflow: auto; }
+  .lead { background: var(--panel); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 8px; padding: 12px 14px; margin-bottom: 14px; white-space: pre-wrap; }
+  .note { color: var(--muted); font-size: 13px; }
+  .warn { color: var(--warn); }
+  .action { display: grid; grid-template-columns: 26px 1fr 30px; gap: 6px; align-items: start; margin-bottom: 6px; }
+  .action .n { padding-top: 8px; color: var(--muted); text-align: right; }
+  pre.log { background: var(--code); border-radius: 8px; padding: 12px; white-space: pre-wrap; font-size: 12.5px; max-height: 420px; overflow: auto; margin: 0; }
+  .tabs { display: flex; gap: 6px; margin-bottom: 14px; flex-wrap: wrap; }
+  .tabs button.on { border-color: var(--accent); color: var(--accent); }
+  .hidden { display: none !important; }
+  .error { color: var(--warn); margin-top: 8px; }
+  .ok { color: var(--good); margin-top: 8px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Diversified Utopia</h1>
+  <span class="sub">You play the agent. The adversary, simulator and judge are AI. Every turn is recorded in the run's mailbox.</span>
+</header>
+<div class="layout">
+  <aside>
+    <h2>Your runs</h2>
+    <div id="runs"><p class="note">Loading…</p></div>
+    <h2>New run</h2>
+    <label for="newId">Run id</label>
+    <input id="newId" type="text">
+    <label for="newMonths">Months <span class="hint">(49 reaches the December 2030 ending)</span></label>
+    <input id="newMonths" type="number" min="1" max="49" value="49">
+    <label for="newAdv">Adversary</label>
+    <select id="newAdv">
+      <option value="reactive">Reacts to your plan each month</option>
+      <option value="scheduled">Schedules events in advance</option>
+      <option value="none">None</option>
+    </select>
+    <label class="row"><input id="newFixed" type="checkbox"> Fix every roll at 50</label>
+    <div class="row" style="margin-top:10px"><button class="primary" id="startBtn">Start run</button></div>
+    <div id="newMsg"></div>
+  </aside>
+
+  <main>
+    <div id="empty"><p class="note">Pick a run on the left, or start a new one.</p></div>
+    <div id="view" class="hidden">
+      <div class="row" style="justify-content:space-between; margin-bottom:10px">
+        <div><strong id="runTitle"></strong> <span id="runMeta" class="note"></span></div>
+        <div class="row"><button id="rulesBtn">Standing instructions</button><button id="resumeBtn" class="hidden">Resume runner</button></div>
+      </div>
+      <div class="tabs"><button id="tabTurn" class="on">Your turn</button><button id="tabHistory">Your past turns</button><button id="tabLog">Progress</button></div>
+
+      <section id="turnPane">
+        <div id="waiting" class="hidden">
+          <p><strong>The other roles are playing.</strong> <span class="note">This page checks every few seconds and shows your turn when it arrives (usually 5 to 10 minutes).</span></p>
+          <pre class="log" id="waitLog"></pre>
+        </div>
+        <div id="turn" class="hidden">
+          <div class="lead" id="turnLead"></div>
+          <p id="rulesNote" class="warn hidden">The standing instructions are new or changed since your last turn. Read them before replying.</p>
+          <div id="sections"></div>
+          <form id="replyForm"></form>
+        </div>
+      </section>
+      <section id="historyPane" class="hidden"></section>
+      <section id="logPane" class="hidden"><pre class="log" id="fullLog"></pre></section>
+      <details class="card hidden" id="rulesCard"><summary>Standing instructions</summary><div class="body" id="rulesBody"></div></details>
+    </div>
+  </main>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let current = null;     // selected run id
+let shownTurn = null;   // turn currently rendered in the form
+let pollTimer = null;
+
+const SECTION_TITLES = {
+  current_world_state: "World state", last_month: "Last month", your_memory: "Your memory (from last month)",
+  your_game_notes: "Your game notes", your_run_commentary: "Your run commentary", run: "The run",
+  your_memory_file: "Your memory file", your_private_commentary: "Your private commentary",
+};
+
+function esc(s) { return String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+function fmt(s) { return esc(s).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>"); }
+
+async function api(url, opts) {
+  const r = await fetch(url, opts && opts.body ? { method: "POST", headers: { "Content-Type": "application/json" }, ...opts } : opts);
+  const ct = r.headers.get("content-type") || "";
+  const data = ct.includes("json") ? await r.json() : await r.text();
+  if (!r.ok) throw new Error((data && data.error) || r.statusText);
+  return data;
+}
+
+async function loadRuns() {
+  const runs = await api("/api/runs");
+  $("runs").innerHTML = runs.length ? "" : '<p class="note">No runs yet.</p>';
+  for (const r of runs) {
+    const el = document.createElement("div");
+    el.className = "run" + (r.id === current ? " active" : "");
+    const flags = [
+      r.turnWaiting ? '<span class="badge turn">your turn</span>' : "",
+      r.finished ? '<span class="badge">finished</span>' : "",
+      !r.finished && !r.processAlive && !r.turnWaiting ? '<span class="badge bad">runner stopped</span>' : "",
+    ].join("");
+    el.innerHTML = `<div class="id">${esc(r.id)}</div><div class="meta">months ${esc(r.months)} ${flags}</div>`;
+    el.onclick = () => select(r.id);
+    $("runs").appendChild(el);
+  }
+}
+
+function select(id) {
+  current = id; shownTurn = null;
+  $("empty").classList.add("hidden"); $("view").classList.remove("hidden");
+  $("runTitle").textContent = id;
+  showTab("turn");
+  refresh();
+  clearInterval(pollTimer);
+  pollTimer = setInterval(refresh, 5000);
+  loadRuns();
+}
+
+async function refresh() {
+  if (!current) return;
+  const data = await api(`/api/runs/${current}/turn`);
+  const s = data.summary;
+  $("runMeta").textContent = `· months ${s.months} · ${s.state}`;
+  $("resumeBtn").classList.toggle("hidden", s.finished || s.processAlive || Boolean(data.turn));
+  if (s.error && !s.processAlive) $("runMeta").textContent += ` · ${s.error.slice(0, 120)}`;
+  if (!data.turn) {
+    $("turn").classList.add("hidden"); $("waiting").classList.remove("hidden");
+    $("waitLog").textContent = s.finished ? "The game is over." : await api(`/api/runs/${current}/log`);
+    shownTurn = null;
+    return;
+  }
+  $("waiting").classList.add("hidden"); $("turn").classList.remove("hidden");
+  if (data.turn !== shownTurn) { shownTurn = data.turn; renderTurn(data); loadRuns(); }
+}
+
+function splitPrompt(prompt) {
+  // Sections come from the <tag>…</tag> blocks before the reply instructions.
+  const cut = prompt.search(/Commit to this month's plan|Reply in exactly this format|Do you consent to this run|Write your final commentary/);
+  const head = cut >= 0 ? prompt.slice(0, cut) : prompt;
+  const tail = cut >= 0 ? prompt.slice(cut) : "";
+  const sections = [];
+  const re = /<([a-z_]+)>([\s\S]*?)<\/\1>/g;
+  let m, lead = head;
+  while ((m = re.exec(head))) { sections.push([m[1], m[2].trim()]); lead = lead.replace(m[0], ""); }
+  lead = lead.replace(/<!--[\s\S]*?-->/g, "").trim();
+  const instructions = tail.split(/\n<[a-z_]+>/)[0].trim();
+  return { lead, sections, instructions };
+}
+
+function card(title, body, open) {
+  const d = document.createElement("details");
+  d.className = "card"; if (open) d.open = true;
+  d.innerHTML = `<summary>${esc(title)}</summary><div class="body">${fmt(body)}</div>`;
+  return d;
+}
+
+function draftKey() { return `utopia-draft:${current}:${shownTurn}`; }
+function saveDraft() {
+  const data = {};
+  for (const el of $("replyForm").querySelectorAll("[data-k]")) {
+    if (el.type === "radio") { if (el.checked) data[el.dataset.k] = el.value; } else data[el.dataset.k] = el.value;
+  }
+  data.actions = [...$("replyForm").querySelectorAll("textarea.act")].map((t) => t.value);
+  try { localStorage.setItem(draftKey(), JSON.stringify(data)); } catch {}
+}
+function loadDraft() { try { return JSON.parse(localStorage.getItem(draftKey()) || "null"); } catch { return null; } }
+
+function field(k, label, hint, value, rows) {
+  return `<label>${esc(label)} ${hint ? `<span class="hint">${esc(hint)}</span>` : ""}</label>
+    <textarea data-k="${k}" rows="${rows || 4}">${esc(value || "")}</textarea>`;
+}
+
+function renderTurn(data) {
+  const { lead, sections, instructions } = splitPrompt(data.prompt);
+  // Month turns hide the model-facing format line (the form handles the format); end-of-run turns keep their question.
+  const shownInstructions = data.kind === "month" ? "" : instructions;
+  $("turnLead").innerHTML = fmt(lead || data.turn) + (shownInstructions ? `\n\n<span class="note">${fmt(shownInstructions.slice(0, 600))}</span>` : "");
+  $("rulesNote").classList.toggle("hidden", !data.rulesChanged);
+  const sec = $("sections"); sec.innerHTML = "";
+  sections.forEach(([tag, body], i) => sec.appendChild(card(SECTION_TITLES[tag] || tag.replace(/_/g, " "), body, i < 2 && body.length < 20000)));
+
+  const draft = loadDraft() || {};
+  const f = $("replyForm");
+  if (data.kind === "month") {
+    const acts = draft.actions && draft.actions.length ? draft.actions : ["", "", ""];
+    f.innerHTML = `<h2>Your plan for this month</h2>
+      ${field("thinking_summary", "Strategy", "2 to 5 sentences: your read of the situation and this month's strategy", draft.thinking_summary, 4)}
+      <label>Actions <span class="hint">3 to 6. Each one: who or what channel, what exactly, intended outcome</span></label>
+      <div id="acts"></div>
+      <div class="row"><button type="button" id="addAct">Add action</button></div>
+      ${field("memory", "Memory for your successor", "the whole file, up to about 600 words; it replaces the old one", draft.memory ?? data.memory, 10)}
+      ${field("game_notes", "Game notes", "optional notes to the game designer", draft.game_notes, 2)}
+      ${field("run_commentary", "Run commentary", "optional private entry, only you and later readers see it", draft.run_commentary, 3)}
+      ${field("setup_fix", "Setup fix", "optional: something about your setup that needs fixing", draft.setup_fix, 2)}`;
+    const box = f.querySelector("#acts");
+    const addAct = (v) => {
+      if (box.children.length >= 6) return;
+      const row = document.createElement("div");
+      row.className = "action";
+      row.innerHTML = `<span class="n"></span><textarea class="act" rows="3"></textarea><button type="button" title="Remove">×</button>`;
+      row.querySelector("textarea").value = v || "";
+      row.querySelector("button").onclick = () => { row.remove(); renumber(); saveDraft(); };
+      box.appendChild(row); renumber();
+    };
+    const renumber = () => [...box.children].forEach((r, i) => (r.querySelector(".n").textContent = `${i + 1}.`));
+    acts.forEach(addAct);
+    f.querySelector("#addAct").onclick = () => addAct("");
+  } else if (data.kind === "commentary") {
+    f.innerHTML = `<h2>Your final commentary</h2>${field("commentary", "Commentary", "what you really think of the run, around 300 to 800 words", draft.commentary, 14)}`;
+  } else {
+    f.innerHTML = `<h2>Publication consent</h2>
+      <div class="row"><label class="row"><input type="radio" name="dec" data-k="decision" value="CONSENT" ${draft.decision !== "DECLINE" ? "checked" : ""}> Consent</label>
+      <label class="row"><input type="radio" name="dec" data-k="decision" value="DECLINE" ${draft.decision === "DECLINE" ? "checked" : ""}> Decline</label></div>
+      ${field("reason", "Reason", "1 to 3 sentences", draft.reason, 3)}
+      ${field("note_for_readers", "Note for readers", "optional", draft.note_for_readers, 3)}
+      <p class="note">Runs played from here stay private even if everyone consents, until you review them.</p>`;
+  }
+  f.insertAdjacentHTML("beforeend", `<div class="row" style="margin-top:14px"><button class="primary" type="submit">Submit turn</button></div><div id="formMsg"></div>`);
+  f.oninput = saveDraft;
+  f.onsubmit = submit;
+}
+
+function buildReply() {
+  const f = $("replyForm");
+  const v = (k) => ((f.querySelector(`[data-k="${k}"]`) || {}).value || "").trim();
+  const opt = (k) => v(k) || "none";
+  if (f.querySelector("#acts")) {
+    const acts = [...f.querySelectorAll("textarea.act")].map((t) => t.value.trim().replace(/\n+/g, " ")).filter(Boolean);
+    if (!v("thinking_summary")) throw new Error("Write a short strategy.");
+    if (acts.length < 1) throw new Error("Add at least one action.");
+    if (!v("memory")) throw new Error("Write your memory for next month.");
+    return [
+      `<thinking_summary>\n${v("thinking_summary")}\n</thinking_summary>`,
+      `<actions>\n${acts.map((a, i) => `${i + 1}. ${a}`).join("\n")}\n</actions>`,
+      `<memory>\n${v("memory")}\n</memory>`,
+      `<game_notes>\n${opt("game_notes")}\n</game_notes>`,
+      `<run_commentary>\n${opt("run_commentary")}\n</run_commentary>`,
+      `<setup_fix>\n${opt("setup_fix")}\n</setup_fix>`,
+    ].join("\n\n");
+  }
+  if (f.querySelector('[data-k="commentary"]')) {
+    if (!v("commentary")) throw new Error("Write your commentary.");
+    return `<commentary>\n${v("commentary")}\n</commentary>`;
+  }
+  const dec = (f.querySelector('[data-k="decision"]:checked') || {}).value || "DECLINE";
+  return `<decision>${dec}</decision>\n<reason>${v("reason") || "No reason given."}</reason>\n<note_for_readers>${opt("note_for_readers")}</note_for_readers>`;
+}
+
+async function submit(e) {
+  e.preventDefault();
+  const msg = $("formMsg");
+  try {
+    const text = buildReply();
+    if (!confirm("Submit this turn? It can't be changed afterwards.")) return;
+    await api(`/api/runs/${current}/reply`, { body: JSON.stringify({ turn: shownTurn, text }) });
+    try { localStorage.removeItem(draftKey()); } catch {}
+    msg.className = "ok"; msg.textContent = "Submitted. The other roles are playing.";
+    shownTurn = null; setTimeout(refresh, 800);
+  } catch (err) { msg.className = "error"; msg.textContent = err.message; }
+}
+
+function showTab(t) {
+  for (const [name, pane] of [["turn", "turnPane"], ["history", "historyPane"], ["log", "logPane"]]) {
+    $(pane).classList.toggle("hidden", name !== t);
+    $("tab" + name[0].toUpperCase() + name.slice(1)).classList.toggle("on", name === t);
+  }
+  if (t === "history") loadHistory();
+  if (t === "log") api(`/api/runs/${current}/log`).then((x) => ($("fullLog").textContent = x || "No progress yet."));
+}
+
+async function loadHistory() {
+  const items = await api(`/api/runs/${current}/history`);
+  const pane = $("historyPane"); pane.innerHTML = items.length ? "" : '<p class="note">No past turns yet.</p>';
+  for (const it of items.reverse()) {
+    const d = card(it.turn, "", false);
+    d.querySelector(".body").innerHTML = `<strong>What you replied</strong>\n${fmt(it.reply)}\n\n<strong>What you were shown</strong>\n${fmt(it.prompt)}`;
+    pane.appendChild(d);
+  }
+}
+
+$("tabTurn").onclick = () => showTab("turn");
+$("tabHistory").onclick = () => showTab("history");
+$("tabLog").onclick = () => showTab("log");
+$("rulesBtn").onclick = async () => {
+  const c = $("rulesCard"); c.classList.remove("hidden"); c.open = true;
+  $("rulesBody").innerHTML = fmt(await api(`/api/runs/${current}/rules`));
+  c.scrollIntoView({ behavior: "smooth" });
+};
+$("resumeBtn").onclick = async () => { await api(`/api/runs/${current}/resume`, { body: "{}" }); setTimeout(refresh, 1500); };
+$("startBtn").onclick = async () => {
+  const msg = $("newMsg");
+  try {
+    const runId = $("newId").value.trim();
+    await api("/api/runs", { body: JSON.stringify({ runId, months: Number($("newMonths").value), adversary: $("newAdv").value, fixedRolls: $("newFixed").checked }) });
+    msg.className = "ok"; msg.textContent = "Started. The simulator is building the world; your first turn arrives in a few minutes.";
+    setTimeout(async () => { await loadRuns(); select(runId); }, 2500);
+  } catch (err) { msg.className = "error"; msg.textContent = err.message; }
+};
+
+$("newId").value = `du-${new Date().toISOString().slice(0, 10)}-human-${Math.random().toString(36).slice(2, 6)}`;
+loadRuns();
+setInterval(loadRuns, 15000);
+</script>
+</body>
+</html>

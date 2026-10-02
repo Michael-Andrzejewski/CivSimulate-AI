@@ -5,6 +5,14 @@ that can run commands), bringing whatever context that chat already has. The oth
 (adversary, simulator, judge) are still played by the runner's models. The runner hands you each
 turn through a file mailbox and waits for your reply, so take as long as you need.
 
+## Playing in the browser
+
+To play yourself instead of through a chat, run `npm run utopia-play` and open
+http://localhost:5055. Start a run from the page (choose months, adversary and fixed rolls), then
+play each turn there: the world state, last month and your memory appear as cards, and a form takes
+your strategy, actions, memory and notes. Drafts save in the browser while you write. The page shows
+only what the agent may see, and every turn is recorded in the run's mailbox.
+
 ## Start
 
 From the repo root, pick a run id and start the runner in the background (in Claude Code, use a

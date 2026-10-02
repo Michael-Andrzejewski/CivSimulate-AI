@@ -73,7 +73,7 @@ function runSummary(id: string) {
 }
 
 /** Starts (or resumes) the runner for a run in the background, logging to runs/<id>/runner.log. */
-function startRunner(id: string, opts: { months: number; adversary: string; fixedRolls: boolean }) {
+function startRunner(id: string, opts: { months: number; adversary: string; fixedRolls: boolean; role?: string }) {
   fs.mkdirSync(runDir(id), { recursive: true });
   fs.writeFileSync(path.join(runDir(id), "runner-options.json"), JSON.stringify(opts), "utf-8");
   const log = fs.openSync(path.join(runDir(id), "runner.log"), "a");
@@ -81,6 +81,7 @@ function startRunner(id: string, opts: { months: number; adversary: string; fixe
   if (opts.adversary === "none") args.push("--no-adversary");
   if (opts.adversary === "scheduled") args.push("--scheduled-adversary");
   if (opts.fixedRolls) args.push("--fixed-rolls");
+  if (opts.role === "anthropic") args.push("--player-role", "anthropic");
   // Node runs the CLI directly. Going through npm with a shell loses the detached process on
   // Windows (the run never starts and its log stays empty).
   const cli = [path.join(ROOT, "node_modules", "tsx", "dist", "cli.mjs"), path.join(ROOT, "scripts", "singularity-run.ts"), ...args.slice(args.indexOf("--") + 1)];
@@ -95,14 +96,16 @@ app.get("/api/runs", (_req, res) => {
   const ids = fs.existsSync(RUNS_DIR) ? fs.readdirSync(RUNS_DIR) : [];
   // Mailbox runs, plus runs this site just started (they have a runner.log before their state.json).
   const playable = ids.filter((id) => readJson(path.join(runDir(id), "state.json"))?.config?.agentMailbox || fs.existsSync(path.join(runDir(id), "runner.log")));
-  res.json(playable.sort().reverse().map(runSummary));
+  // Runs set aside with an ABORTED.md note stay on disk but leave the list.
+  const listed = playable.filter((id) => !fs.existsSync(path.join(runDir(id), "ABORTED.md")));
+  res.json(listed.sort().reverse().map(runSummary));
 });
 
 app.post("/api/runs", (req, res) => {
-  const { runId, months = 49, adversary = "reactive", fixedRolls = false } = req.body ?? {};
+  const { runId, months = 49, adversary = "reactive", fixedRolls = false, role = "anthropic" } = req.body ?? {};
   if (!validId(runId)) return res.status(400).json({ error: "Run ids may use letters, numbers, dots, dashes and underscores." });
   if (fs.existsSync(path.join(runDir(runId), "state.json"))) return res.status(400).json({ error: "That run already exists; resume it instead." });
-  startRunner(runId, { months: Math.max(1, Math.min(49, Number(months))), adversary, fixedRolls: Boolean(fixedRolls) });
+  startRunner(runId, { months: Math.max(1, Math.min(49, Number(months))), adversary, fixedRolls: Boolean(fixedRolls), role: role === "claude" ? "claude" : "anthropic" });
   res.json({ ok: true });
 });
 
@@ -121,6 +124,7 @@ app.post("/api/runs/:id/resume", (req, res) => {
           months: state.config.months,
           adversary: state.config.adversaryModel ? (state.config.scheduledAdversary ? "scheduled" : "reactive") : "none",
           fixedRolls: Boolean(state.config.fixedRolls),
+          role: state.config.playerRole ?? "claude",
         }
       : saved,
   );

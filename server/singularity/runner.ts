@@ -52,6 +52,8 @@ export interface RunConfig {
    * carry the player's personal context, so they are never published automatically.
    */
   agentMailbox?: boolean;
+  /** Who the player is: Anthropic's AI model (default) or Anthropic itself (scenario_anthropic.md). */
+  playerRole?: "claude" | "anthropic";
 }
 
 export const MAILBOX_DIR = "mailbox";
@@ -157,14 +159,20 @@ function readDoc(name: string): string {
   return fs.readFileSync(p, "utf-8").trim();
 }
 
-export function loadDocs(opts: { ambitious?: boolean } = {}): P.ScenarioDocs {
+export function loadDocs(opts: { ambitious?: boolean; playerRole?: "claude" | "anthropic" } = {}): P.ScenarioDocs {
+  const asAnthropic = opts.playerRole === "anthropic";
+  const canonPath = path.join(SCENARIO_DIR, "canon.md");
   return {
-    scenario: readDoc("scenario.md"),
+    // Playing as Anthropic uses its own scenario: the player decides Anthropic's actions.
+    scenario: readDoc(asAnthropic ? "scenario_anthropic.md" : "scenario.md"),
     rubric: readDoc("rubric.md"),
     utopia: readDoc("diversified_utopia.md"),
     briefing: readDoc("summer_2026_events.md"),
     lessons: Object.fromEntries(
       (["agent", "adversary", "simulator", "judge"] as const).map((r) => {
+        // The agent lessons are addressed to Claude playing under Anthropic, so they do not apply
+        // to a player who is Anthropic.
+        if (r === "agent" && asAnthropic) return [r, ""];
         // Ambitious runs prefer lessons/ambitious/<role>.md and fall back to lessons/<role>.md.
         const alt = path.join(SCENARIO_DIR, "lessons", "ambitious", `${r}.md`);
         const p = opts.ambitious && fs.existsSync(alt) ? alt : path.join(SCENARIO_DIR, "lessons", `${r}.md`);
@@ -172,6 +180,8 @@ export function loadDocs(opts: { ambitious?: boolean } = {}): P.ScenarioDocs {
       }),
     ),
     progressRubric: readDoc("du_progress_rubric.md"),
+    canon: fs.existsSync(canonPath) ? fs.readFileSync(canonPath, "utf-8").trim() : "",
+    playerRole: opts.playerRole ?? "claude",
   };
 }
 
@@ -415,7 +425,7 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
     state = { config: cfg, completedMonths: 0, worldState: "", scorecard: "", memory: "", lastJudgeFeedback: null, history: [] };
   }
   const c = state.config;
-  const docs = loadDocs({ ambitious: c.ambitious });
+  const docs = loadDocs({ ambitious: c.ambitious, playerRole: c.playerRole });
   const call = (role: string, model: string, system: string, prompt: string, webSearch = false, mailboxName?: string) =>
     role === "agent" && c.agentMailbox
       ? mailboxCall(runDir, mailboxName ?? "agent", system, prompt, log)
@@ -548,6 +558,7 @@ export async function runGame(cfg: RunConfig, log: (msg: string) => void = conso
               previousFixes: previousFixes(state, "agent"),
               monthsToDeadline,
               runCommentary: readCommentary(runDir, "agent"),
+              playerRole: c.playerRole,
             }),
             false,
             prefix,

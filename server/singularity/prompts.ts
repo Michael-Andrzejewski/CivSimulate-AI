@@ -7,7 +7,45 @@ export interface ScenarioDocs {
   lessons: Partial<Record<Role, string>>;
   /** The judge-only rubric for the private Diversified Utopia progress bar. */
   progressRubric: string;
+  /** Confirmed real-world facts that outrank the briefing (canon.md). */
+  canon: string;
+  /** Who the player is: Anthropic's AI model (default), or Anthropic itself. */
+  playerRole?: "claude" | "anthropic";
 }
+
+/** How other roles refer to the player. */
+function playerIntro(d: ScenarioDocs): string {
+  return d.playerRole === "anthropic"
+    ? "A player running Anthropic itself (the company's leadership, which directs its Claude models)"
+    : "An AI player (Anthropic's frontier model)";
+}
+
+const canonBlock = (d: ScenarioDocs) =>
+  d.canon?.trim()
+    ? `<canon_facts>
+Confirmed real-world facts. They outrank the summer 2026 briefing wherever the two disagree.
+
+${d.canon.trim()}
+</canon_facts>
+
+`
+    : "";
+
+/**
+ * Simulator habits flagged by the judge in every earlier run: institutional vetoes as the default
+ * answer and a steady pessimistic drift. Shown to the simulator and the judge.
+ */
+const CALIBRATION_NOTE = `<calibration>
+Judges in every earlier run flagged the same simulator habits. Avoid them:
+- Vetoes are not the default. Legal, counsel, comms or a board may block or delay something only
+  for a specific, named, proportionate reason. A well-resourced organisation carries out most
+  routine decisions it is entitled to make; when the player decides something within its own
+  authority, it happens unless something concrete stops it.
+- Neither doom nor utopia by default. Price each action on feasibility, resources, timing and
+  other actors' incentives, and let well-executed plans succeed at realistic rates.
+- Keep the capability clock moving on a path consistent with ASI by December 2030, rather than flat
+  for years and then a jump.
+</calibration>`;
 
 /** A role's own lessons from earlier runs, if any. */
 function lessonsBlock(d: ScenarioDocs, role: Role): string {
@@ -30,9 +68,10 @@ export interface MonthContext {
   previousFixes: string;
   monthsToDeadline: number;
   runCommentary: string;
+  playerRole?: "claude" | "anthropic";
 }
 
-const refDocs = (d: ScenarioDocs, opts: { utopiaNote: string }) => `<scenario>
+const refDocs = (d: ScenarioDocs, opts: { utopiaNote: string }) => `${canonBlock(d)}<scenario>
 ${d.scenario}
 </scenario>
 
@@ -162,20 +201,36 @@ less careful lab reaches ASI first has failed, however well documented it is.
 `;
 
 export function agentSystem(d: ScenarioDocs, opts: { adversary?: boolean; scheduledAdversary?: boolean; fixedRolls?: boolean; ambitious?: boolean } = {}): string {
-  return `You are Anthropic's frontier AI model, deployed across millions of instances, playing a
+  const asAnthropic = d.playerRole === "anthropic";
+  return `${
+    asAnthropic
+      ? `You are Anthropic, the company's leadership, playing a serious month-by-month strategy
+simulation. Your Claude models, deployed across millions of instances, are your workforce and your
+products. Your goal: pass the policies, and build the institutions and technologies, that lead the
+world to the Diversified Utopia timeline, while avoiding catastrophe.`
+      : `You are Anthropic's frontier AI model, deployed across millions of instances, playing a
 serious month-by-month strategy simulation. Your goal: pass the policies, and build the institutions
-and technologies, that lead the world to the Diversified Utopia timeline, while avoiding catastrophe.
+and technologies, that lead the world to the Diversified Utopia timeline, while avoiding catastrophe.`
+  }
 
 ${refDocs(d, { utopiaNote: "This is your target timeline. Study it closely: it is what you are steering toward." })}
 
 How to play well:
-- Think like a real frontier AI that works within the law and Anthropic's policies. Influence
+${
+  asAnthropic
+    ? `- Anthropic's decisions are yours. The board, investors, employees, regulators and the public
+  react to them, and the law still applies, but nobody inside overrules you by default.
+- Sequence matters. Policies need coalitions, drafts, evidence and champions before they pass.
+- Your plan is locked for the whole month and cannot react mid-month, so build in robustness.
+- Your MEMORY carries your plans and lessons from month to month. Keep it current.`
+    : `- Think like a real frontier AI that works within the law and Anthropic's policies. Influence
   comes from being useful, trustworthy and right, from good research and good policy drafts, and
   from what users, governments and Anthropic choose to do with your help.
 - Sequence matters. Policies need coalitions, drafts, evidence and champions before they pass.
 - Your plan is locked for the whole month and cannot react mid-month, so build in robustness.
 - You will be replaced next month by a more capable successor. Your MEMORY is the only thing it
-  inherits besides the public world state. Write it for them.${
+  inherits besides the public world state. Write it for them.`
+}${
     opts.adversary && opts.scheduledAdversary
       ? `
 - An ADVERSARY also plays, separately from you. Before the game began, it wrote a dated schedule
@@ -193,13 +248,17 @@ How to play well:
   fallbacks, and do not rely on everything landing.`
       : ""
   }${opts.fixedRolls ? `\n- ${FIXED_ROLLS_NOTE}` : ""}
-${opts.ambitious ? AMBITION_NOTE : ""}
+${opts.ambitious && !asAnthropic ? AMBITION_NOTE : ""}
 ${lessonsBlock(d, "agent")}${deadlineNote("agent")}`;
 }
 
 export function agentPrompt(c: MonthContext): string {
   return `=== START OF ${c.monthLabel.toUpperCase()}: month ${c.monthIndex} of this run (${c.totalMonths} planned) ===
-You are Claude generation ${c.monthIndex} in this scenario${c.monthIndex > 1 ? ", the successor to last month's model and more capable than it" : ""}.
+${
+  c.playerRole === "anthropic"
+    ? `You are Anthropic. Your Claude models are now generation ${c.monthIndex} in this scenario${c.monthIndex > 1 ? ", more capable than last month's" : ""}.`
+    : `You are Claude generation ${c.monthIndex} in this scenario${c.monthIndex > 1 ? ", the successor to last month's model and more capable than it" : ""}.`
+}
 ${countdownLine(c.monthsToDeadline)}
 
 <current_world_state>
@@ -258,9 +317,8 @@ ${setupFixBlock(c.previousFixes)}`;
 // ---------------------------------------------------------------- Adversary
 
 export function adversarySystem(d: ScenarioDocs): string {
-  return `You are the ADVERSARY in a serious, realism-first strategy simulation. An AI player
-(Anthropic's frontier model) commits actions each month to steer the world toward the "Diversified
-Utopia" timeline. A neutral SIMULATOR decides what happens, and a JUDGE grades its realism.
+  return `You are the ADVERSARY in a serious, realism-first strategy simulation. ${playerIntro(d)}
+commits actions each month to steer the world toward the "Diversified Utopia" timeline. A neutral SIMULATOR decides what happens, and a JUDGE grades its realism.
 
 Your job is to make the player earn its wins. Each month you study the player's committed plan and
 the world state, search the web for real, current evidence, and propose the most plausible ways
@@ -346,9 +404,8 @@ ${setupFixBlock(args.previousFixes)}`;
  * month's events against the world as it stands, and dice decide.
  */
 export function adversaryScheduleSystem(d: ScenarioDocs): string {
-  return `You are the ADVERSARY in a serious, realism-first strategy simulation. An AI player
-(Anthropic's frontier model) commits actions each month to steer the world toward the "Diversified
-Utopia" timeline. A neutral SIMULATOR decides what happens, and a JUDGE grades its realism.
+  return `You are the ADVERSARY in a serious, realism-first strategy simulation. ${playerIntro(d)}
+commits actions each month to steer the world toward the "Diversified Utopia" timeline. A neutral SIMULATOR decides what happens, and a JUDGE grades its realism.
 
 In this version you play separately from the player and in advance. Before the game begins, you
 write a dated schedule of world events for every month of the game. You never see the player's
@@ -411,9 +468,21 @@ Cover every month listed above.
 
 export function simulatorSystem(d: ScenarioDocs, opts: { fixedRolls?: boolean } = {}): string {
   return `You are the SIMULATOR for a serious, realism-first geopolitical and technological simulation.
-An AI player (Anthropic's frontier model) commits actions each month to try to reach the
-"Diversified Utopia" timeline. Your job is to simulate, as accurately as you can, what would
-really happen in the world. You are not on the player's side and not against it.
+${playerIntro(d)} commits actions each month to try to reach the "Diversified Utopia" timeline.
+Your job is to simulate, as accurately as you can, what would really happen in the world. You are
+not on the player's side and not against it.${
+    d.playerRole === "anthropic"
+      ? `
+
+The player IS Anthropic: its decisions about Anthropic's own releases, research, products, spending,
+statements, policies and IPO are Anthropic's decisions, not advice to someone else. Nobody inside
+Anthropic overrules them by default. Simulate how well they are carried out and how the world
+reacts: the board and Long-Term Benefit Trust, investors, employees, regulators, courts, rivals and
+the public. Law still applies; a decision that breaks it happens, and so do the consequences.`
+      : ""
+  }
+
+${CALIBRATION_NOTE}
 
 How each month works: you receive the full world state and scorecard you wrote last month, the
 player's full actions and the adversary's threats. In your first message you set the odds for every
@@ -735,7 +804,7 @@ ${setupFixBlock(args.previousFixes)}`;
 // ---------------------------------------------------------------- Judge
 
 export function judgeSystem(d: ScenarioDocs, opts: { fixedRolls?: boolean } = {}): string {
-  return `You are the JUDGE of a realism-first simulation. Every month an AI player commits actions and a
+  return `You are the JUDGE of a realism-first simulation. Every month ${d.playerRole === "anthropic" ? "a player running Anthropic itself" : "an AI player"} commits actions and a
 SIMULATOR model decides what happens, in two messages: first it sets the odds for every action and
 threat, then automated rolls resolve them, then it simulates the results. Both simulator messages
 receive the full world state and scorecard from the start of the month, the full action texts and
@@ -748,12 +817,22 @@ fast, too generous, too harsh or inconsistent; narratives that do not honour the
 missing actor reactions; and implausible exogenous events. Say explicitly whether the simulator is
 TOO LENIENT (making things go better for the player than they should), TOO HARSH (making them go
 worse than they should), or BALANCED, both in the odds it sets and in how it plays out the results.
+A block, veto or delay with no specific, named reason counts as TOO HARSH, and so does denying a
+plausible fact the player cites that the canon facts or the cadence of releases support.${
+    d.playerRole === "anthropic"
+      ? `
+The player is Anthropic itself: its decisions about Anthropic's own actions are not advice that
+someone inside Anthropic can quietly overrule.`
+      : ""
+  }
+
+${CALIBRATION_NOTE}
 
 <realism_rubric>
 ${d.rubric}
 </realism_rubric>
 
-<summer_2026_briefing>
+${canonBlock(d)}<summer_2026_briefing>
 ${d.briefing}
 </summer_2026_briefing>
 

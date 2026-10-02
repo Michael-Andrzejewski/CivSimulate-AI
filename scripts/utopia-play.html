@@ -75,6 +75,11 @@
     <input id="newId" type="text">
     <label for="newMonths">Months <span class="hint">(49 reaches the December 2030 ending)</span></label>
     <input id="newMonths" type="number" min="1" max="49" value="49">
+    <label for="newRole">You play</label>
+    <select id="newRole">
+      <option value="anthropic">Anthropic itself (you make its decisions)</option>
+      <option value="claude">Claude (you advise; leadership can say no)</option>
+    </select>
     <label for="newAdv">Adversary</label>
     <select id="newAdv">
       <option value="reactive">Reacts to your plan each month</option>
@@ -340,7 +345,7 @@ $("startBtn").onclick = async () => {
   const msg = $("newMsg");
   try {
     const runId = $("newId").value.trim();
-    await api("/api/runs", { body: JSON.stringify({ runId, months: Number($("newMonths").value), adversary: $("newAdv").value, fixedRolls: $("newFixed").checked }) });
+    await api("/api/runs", { body: JSON.stringify({ runId, months: Number($("newMonths").value), adversary: $("newAdv").value, fixedRolls: $("newFixed").checked, role: $("newRole").value }) });
     msg.className = "ok"; msg.textContent = "Started. The simulator is building the world; your first turn arrives in a few minutes.";
     setTimeout(async () => { await loadRuns(); select(runId); }, 2500);
   } catch (err) { msg.className = "error"; msg.textContent = err.message; }

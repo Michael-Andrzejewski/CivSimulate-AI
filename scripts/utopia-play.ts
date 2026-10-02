@@ -60,7 +60,12 @@ function runSummary(id: string) {
     id,
     months: state ? `${state.completedMonths}/${state.config.months}` : "starting",
     state: status?.state ?? (doneWithoutStatus ? "finished" : state ? "no status (started before status tracking)" : "starting"),
-    processAlive: running ? alive(status.pid) : false,
+    // Before the runner writes its first status, fall back to the pid this site launched.
+    processAlive: running
+      ? alive(status.pid)
+      : !status && fs.existsSync(path.join(runDir(id), "runner.pid"))
+        ? alive(Number(fs.readFileSync(path.join(runDir(id), "runner.pid"), "utf-8")))
+        : false,
     error: status?.error ?? null,
     turnWaiting: pendingTurn(id),
     finished: status?.state === "finished" || Boolean(doneWithoutStatus),
@@ -70,12 +75,18 @@ function runSummary(id: string) {
 /** Starts (or resumes) the runner for a run in the background, logging to runs/<id>/runner.log. */
 function startRunner(id: string, opts: { months: number; adversary: string; fixedRolls: boolean }) {
   fs.mkdirSync(runDir(id), { recursive: true });
+  fs.writeFileSync(path.join(runDir(id), "runner-options.json"), JSON.stringify(opts), "utf-8");
   const log = fs.openSync(path.join(runDir(id), "runner.log"), "a");
   const args = ["run", "utopia", "--", "--run", id, "--months", String(opts.months), "--backend", "subscription", "--agent-mailbox", "--agent-model", "human"];
   if (opts.adversary === "none") args.push("--no-adversary");
   if (opts.adversary === "scheduled") args.push("--scheduled-adversary");
   if (opts.fixedRolls) args.push("--fixed-rolls");
-  const child = spawn("npm", args, { cwd: ROOT, detached: true, stdio: ["ignore", log, log], shell: true, windowsHide: true });
+  // Node runs the CLI directly. Going through npm with a shell loses the detached process on
+  // Windows (the run never starts and its log stays empty).
+  const cli = [path.join(ROOT, "node_modules", "tsx", "dist", "cli.mjs"), path.join(ROOT, "scripts", "singularity-run.ts"), ...args.slice(args.indexOf("--") + 1)];
+  const child = spawn(process.execPath, cli, { cwd: ROOT, detached: true, stdio: ["ignore", log, log], windowsHide: true });
+  child.on("error", (err) => fs.appendFileSync(path.join(runDir(id), "runner.log"), `Could not start the runner: ${err.message}\n`));
+  if (child.pid) fs.writeFileSync(path.join(runDir(id), "runner.pid"), String(child.pid));
   child.unref();
 }
 
@@ -98,14 +109,21 @@ app.post("/api/runs", (req, res) => {
 app.post("/api/runs/:id/resume", (req, res) => {
   const id = req.params.id;
   const state = readJson(path.join(runDir(id), "state.json"));
-  if (!state) return res.status(404).json({ error: "No such run." });
+  // A run that never got going has no state yet; use the settings it was started with.
+  const saved = readJson(path.join(runDir(id), "runner-options.json"));
+  if (!state && !saved) return res.status(404).json({ error: "No such run." });
   const s = runSummary(id);
   if (s.processAlive) return res.json({ ok: true, note: "Already running." });
-  startRunner(id, {
-    months: state.config.months,
-    adversary: state.config.adversaryModel ? (state.config.scheduledAdversary ? "scheduled" : "reactive") : "none",
-    fixedRolls: Boolean(state.config.fixedRolls),
-  });
+  startRunner(
+    id,
+    state
+      ? {
+          months: state.config.months,
+          adversary: state.config.adversaryModel ? (state.config.scheduledAdversary ? "scheduled" : "reactive") : "none",
+          fixedRolls: Boolean(state.config.fixedRolls),
+        }
+      : saved,
+  );
   res.json({ ok: true });
 });
 
